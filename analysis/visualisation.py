@@ -393,9 +393,9 @@ def plot_gender_levels(pf: pd.DataFrame, out_png: Path, who: str = "responder",
     plt.xticks(x + w * (len(cols) - 1) / 2, g_plot.index, rotation=25, ha="right")
     plt.ylabel("Average convergence, Conv(t)")
     if who == "responder":
-        plt.title("Average convergence by gender and feature (responder view)")
+        plt.title("Gender difference in adaptation when replying (Female − Male)")
     else:
-        plt.title("Average convergence by gender and feature (initiator view)")
+        plt.title("How others adapt when replying to men vs. women (by feature family)")
     plt.grid(axis="y", linestyle=":", linewidth=0.8, alpha=0.35, color=OI_GREY)
     plt.legend(title="Gender", frameon=False)
     plt.tight_layout()

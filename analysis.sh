@@ -9,7 +9,7 @@ set -euo pipefail
 #MIN_SUPPORT="${MIN_SUPPORT:-5}"
 
 MODE="${MODE:-liwc}"                              # spacy | liwc
-TITLE="SenseAndSensibility"
+TITLE="All_Novels"
 CORPUS_NAME="austen_corpus"
 PREP_DIR="${PREP_DIR:-outputs/${CORPUS_NAME}/${MODE}}/${TITLE}"
 OUT_DIR="${OUT_DIR:-$PREP_DIR}"

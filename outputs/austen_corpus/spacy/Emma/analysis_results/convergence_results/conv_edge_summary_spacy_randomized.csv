@@ -1,0 +1,70 @@
+﻿a_speaker,b_speaker,n_features,n_pairs,n_triggers_total,mean_conv,mean_conv_w,a_gender,a_category,b_gender,b_category
+Emma,Harriet Smith,8.0,91.0,569.0,-0.0009428252715379462,0.0004248826744433388,F,major,F,major
+Emma,Isabella,5.0,3.0,13.0,0.0,0.0,F,major,F,intermediate
+Emma,Jane Fairfax,7.0,9.0,53.0,0.013888888888888904,0.014675052410901479,F,major,F,intermediate
+Emma,Miss Bates,8.0,21.0,99.0,0.04870339284038977,0.026936026936026956,F,major,F,intermediate
+Emma,Mr. Elton,8.0,16.0,116.0,0.016214514652014678,0.015086206896551747,F,major,M,intermediate
+Emma,Mr. Frank Churchill,9.0,74.0,439.0,0.02088050382338562,0.0047405036015514285,F,major,M,major
+Emma,Mr. John Knightley,8.0,11.0,52.0,-0.012910353535353532,-0.01398601398601398,F,major,M,intermediate
+Emma,Mr. Knightley,9.0,110.0,673.0,0.014136282715428609,0.012008645143860606,F,major,M,major
+Emma,Mr. Weston,8.0,12.0,63.0,0.023115079365079366,0.010582010582010578,F,major,M,intermediate
+Emma,Mr. Woodhouse,8.0,32.0,205.0,0.016082875457875456,0.013414634146341461,F,major,M,intermediate
+Emma,Mrs. Elton,8.0,14.0,96.0,-0.001678876678876673,-0.0014880952380952328,F,major,F,intermediate
+Emma,Mrs. Weston,8.0,39.0,256.0,0.00624641712458153,0.006109775641025628,F,major,F,intermediate
+Harriet Smith,Emma,9.0,100.0,602.0,0.015345147890237656,0.01081395348837209,F,major,F,major
+Isabella,Mr. John Knightley,8.0,4.0,32.0,0.0,0.0,F,intermediate,M,intermediate
+Isabella,Mr. Woodhouse,8.0,16.0,108.0,0.012168560606060613,0.010416666666666675,F,intermediate,M,intermediate
+Jane Fairfax,Emma,7.0,10.0,55.0,0.01989795918367346,0.016363636363636358,F,intermediate,F,major
+Jane Fairfax,Miss Bates,7.0,7.0,28.0,0.06122448979591839,0.045918367346938785,F,intermediate,F,intermediate
+Jane Fairfax,Mr. Frank Churchill,6.0,3.0,13.0,0.22222222222222224,0.20512820512820515,F,intermediate,M,major
+Jane Fairfax,Mr. John Knightley,8.0,7.0,47.0,0.017261904761904784,0.02127659574468087,F,intermediate,M,intermediate
+Jane Fairfax,Mrs. Elton,8.0,13.0,87.0,0.0015151515151514972,0.002652519893899187,F,intermediate,F,intermediate
+Miss Bates,Emma,8.0,22.0,150.0,-0.024747830751120203,-0.022727272727272704,F,intermediate,F,major
+Miss Bates,Jane Fairfax,6.0,5.0,27.0,-0.005555555555555573,-1.2335811384723961e-17,F,intermediate,F,intermediate
+Miss Bates,Mr. Frank Churchill,7.0,2.0,14.0,0.0,0.0,F,intermediate,M,major
+Miss Bates,Mr. Knightley,7.0,14.0,84.0,0.0008602508602508774,0.0008503401360544385,F,intermediate,M,major
+Miss Bates,Mrs. Elton,8.0,3.0,24.0,0.0,0.0,F,intermediate,F,intermediate
+Mr. Elton,Emma,8.0,19.0,115.0,-0.016777986268117814,-0.017391304347826056,M,intermediate,F,major
+Mr. Elton,Mr. John Knightley,6.0,4.0,24.0,0.0,0.0,M,intermediate,M,intermediate
+Mr. Elton,Mrs. Elton,5.0,4.0,19.0,-0.016666666666666673,-0.013157894736842111,M,intermediate,F,intermediate
+Mr. Elton,Mrs. Weston,2.0,2.0,4.0,0.0,0.0,M,intermediate,F,intermediate
+Mr. Frank Churchill,Emma,8.0,78.0,473.0,0.005771313120938135,0.0027104678267468687,M,major,F,major
+Mr. Frank Churchill,Jane Fairfax,7.0,5.0,30.0,-0.00714285714285715,-0.006666666666666672,M,major,F,intermediate
+Mr. Frank Churchill,Mr. Knightley,4.0,2.0,8.0,0.0,0.0,M,major,M,major
+Mr. Frank Churchill,Mr. Weston,8.0,7.0,45.0,0.04732142857142859,0.04444444444444447,M,major,M,intermediate
+Mr. Frank Churchill,Mr. Woodhouse,7.0,5.0,33.0,0.0,0.0,M,major,M,intermediate
+Mr. Frank Churchill,Mrs. Weston,7.0,7.0,35.0,0.08605442176870748,0.07346938775510203,M,major,F,intermediate
+Mr. John Knightley,Emma,8.0,13.0,85.0,0.025888694638694622,0.03076923076923075,M,intermediate,F,major
+Mr. John Knightley,Isabella,5.0,3.0,12.0,0.0,0.0,M,intermediate,F,intermediate
+Mr. John Knightley,Jane Fairfax,8.0,6.0,36.0,0.07291666666666667,0.05555555555555555,M,intermediate,F,intermediate
+Mr. John Knightley,Mr. Elton,5.0,3.0,13.0,0.0,0.0,M,intermediate,M,intermediate
+Mr. John Knightley,Mr. Knightley,5.0,5.0,22.0,-0.039999999999999994,-0.036363636363636355,M,intermediate,M,major
+Mr. John Knightley,Mr. Woodhouse,2.0,2.0,4.0,0.0,0.0,M,intermediate,M,intermediate
+Mr. Knightley,Emma,8.0,117.0,752.0,-0.012956654408523637,-0.010683760683760665,M,major,F,major
+Mr. Knightley,Miss Bates,8.0,10.0,46.0,0.08477182539682537,0.026086956521739094,M,major,F,intermediate
+Mr. Knightley,Mr. Woodhouse,8.0,10.0,52.0,-0.038492063492063494,-0.044230769230769226,M,major,M,intermediate
+Mr. Knightley,Mrs. Elton,8.0,11.0,67.0,0.003354978354978347,0.00678426051560379,M,major,F,intermediate
+Mr. Knightley,Mrs. Weston,8.0,15.0,108.0,0.01137820512820513,0.010493827160493829,M,major,F,intermediate
+Mr. Weston,Emma,8.0,13.0,80.0,-0.06556776556776558,-0.06153846153846154,M,intermediate,F,major
+Mr. Weston,Mr. Frank Churchill,8.0,9.0,50.0,0.045882936507936525,0.01555555555555558,M,intermediate,M,major
+Mr. Weston,Mr. Woodhouse,7.0,3.0,21.0,0.0,0.0,M,intermediate,M,intermediate
+Mr. Weston,Mrs. Elton,8.0,12.0,89.0,-0.006060606060606058,-0.005617977528089885,M,intermediate,F,intermediate
+Mr. Weston,Mrs. Weston,5.0,5.0,23.0,-0.039999999999999994,-0.03478260869565217,M,intermediate,F,intermediate
+Mr. Woodhouse,Emma,8.0,32.0,217.0,0.04410122975143135,0.0417626728110599,M,intermediate,F,major
+Mr. Woodhouse,Harriet Smith,2.0,2.0,4.0,0.0,0.0,M,intermediate,F,major
+Mr. Woodhouse,Isabella,8.0,14.0,92.0,-0.028024059274059286,-0.017857142857142863,M,intermediate,F,intermediate
+Mr. Woodhouse,Miss Bates,7.0,2.0,14.0,0.0,0.0,M,intermediate,F,intermediate
+Mr. Woodhouse,Mr. Frank Churchill,7.0,6.0,42.0,0.0,0.0,M,intermediate,M,major
+Mr. Woodhouse,Mr. Knightley,8.0,13.0,81.0,-0.003562062937062932,-0.004748338081671406,M,intermediate,M,major
+Mr. Woodhouse,Mr. Weston,7.0,4.0,26.0,0.0,0.0,M,intermediate,M,intermediate
+Mrs. Elton,Emma,8.0,15.0,115.0,-0.006168831168831157,-0.005217391304347815,F,intermediate,F,major
+Mrs. Elton,Jane Fairfax,8.0,15.0,103.0,0.013804945054945034,0.014886731391585738,F,intermediate,F,intermediate
+Mrs. Elton,Mr. Elton,8.0,5.0,37.0,0.0,0.0,F,intermediate,M,intermediate
+Mrs. Elton,Mr. Knightley,8.0,10.0,62.0,0.024652777777777773,0.02096774193548387,F,intermediate,M,major
+Mrs. Elton,Mr. Weston,8.0,11.0,77.0,0.008658008658008642,0.004722550177095618,F,intermediate,M,intermediate
+Mrs. Ford,Harriet Smith,1.0,2.0,2.0,0.0,0.0,F,minor,F,major
+Mrs. Weston,Emma,8.0,40.0,272.0,0.003676184926184947,0.0022977941176470823,F,intermediate,F,major
+Mrs. Weston,Mr. Elton,7.0,4.0,20.0,0.04761904761904761,0.03749999999999999,F,intermediate,M,intermediate
+Mrs. Weston,Mr. Frank Churchill,7.0,7.0,37.0,0.009183673469387785,0.0038610038610038893,F,intermediate,M,major
+Mrs. Weston,Mr. Knightley,8.0,17.0,114.0,-0.007935049019607815,-0.0020639834881320683,F,intermediate,M,major
+Mrs. Weston,Mr. Weston,5.0,4.0,15.0,-0.016666666666666673,-0.016666666666666673,F,intermediate,M,intermediate

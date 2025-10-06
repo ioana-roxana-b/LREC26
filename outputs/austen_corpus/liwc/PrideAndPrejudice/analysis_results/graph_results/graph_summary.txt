@@ -1,0 +1,11 @@
+nodes 22
+edges 76
+density 0.1645
+reciprocity 0.9211
+gender_assortativity -0.1264
+category_assortativity -0.2758
+reciprocity_correlation -0.1425
+reciprocity_sign_match 0.4571
+mutual_edge_pairs 35
+communities_detected 3
+community_sizes 0:8, 1:8, 2:6

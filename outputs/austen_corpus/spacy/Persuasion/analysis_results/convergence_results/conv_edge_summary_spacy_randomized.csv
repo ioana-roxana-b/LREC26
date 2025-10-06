@@ -1,0 +1,55 @@
+﻿a_speaker,b_speaker,n_features,n_pairs,n_triggers_total,mean_conv,mean_conv_w,a_gender,a_category,b_gender,b_category
+Admiral,Captain Wentworth,6.0,2.0,12.0,0.0,0.0,,,M,major
+Admiral Croft,Anne Elliot,9.0,9.0,75.0,0.013580246913580254,0.010370370370370375,M,intermediate,F,major
+Admiral Croft,Sophia Croft,8.0,2.0,16.0,0.0,0.0,M,intermediate,F,minor
+Anne Elliot,Admiral Croft,8.0,8.0,44.0,0.010416666666666671,0.008522727272727277,F,major,M,intermediate
+Anne Elliot,Captain Harville,8.0,10.0,65.0,0.01994047619047619,0.018461538461538456,F,major,M,intermediate
+Anne Elliot,Captain Wentworth,8.0,16.0,79.0,-0.006089917027417041,0.0031645569620252995,F,major,M,major
+Anne Elliot,Charles Musgrove,8.0,5.0,35.0,0.02708333333333332,0.017142857142857133,F,major,M,intermediate
+Anne Elliot,Elizabeth,1.0,2.0,2.0,0.0,0.0,F,major,F,minor
+Anne Elliot,Mary,8.0,12.0,75.0,2.7755575615628914e-17,-0.002222222222222195,F,major,,
+Anne Elliot,Mrs Musgrove,5.0,2.0,10.0,0.0,0.0,F,major,F,intermediate
+Anne Elliot,Mrs Smith,9.0,33.0,210.0,-0.013756491763738159,-0.024675324675324697,F,major,F,intermediate
+Anne Elliot,Sir Walter Elliot,7.0,8.0,36.0,-0.0991496598639456,-0.09722222222222224,F,major,M,intermediate
+Anne Elliot,William Walter Elliot,8.0,7.0,43.0,0.014285714285714318,-0.006644518272425218,F,major,M,minor
+Captain Harville,Anne Elliot,8.0,10.0,62.0,-0.033730158730158735,-0.025806451612903233,M,intermediate,F,major
+Captain Wentworth,Admiral,6.0,2.0,12.0,0.0,0.0,M,major,,
+Captain Wentworth,Anne Elliot,8.0,18.0,99.0,-0.04869550384256265,-0.04657687991021322,M,major,F,major
+Captain Wentworth,Captain Harville,1.0,2.0,2.0,0.0,0.0,M,major,M,intermediate
+Captain Wentworth,Louisa Musgrove,5.0,5.0,22.0,-0.010000000000000009,-0.0090909090909091,M,major,F,minor
+Captain Wentworth,Mrs Croft,7.0,5.0,31.0,0.014285714285714282,0.01290322580645161,M,major,,
+Captain Wentworth,Mrs Musgrove,8.0,4.0,30.0,0.05208333333333333,0.041666666666666664,M,major,F,intermediate
+Charles Musgrove,Anne Elliot,8.0,4.0,26.0,0.02083333333333333,0.00961538461538461,M,intermediate,F,major
+Charles Musgrove,Captain Wentworth,2.0,2.0,4.0,0.0,0.0,M,intermediate,M,major
+Charles Musgrove,Mary,8.0,3.0,24.0,0.0,0.0,M,intermediate,,
+Charles Musgrove,Mary Musgrove,8.0,6.0,44.0,0.033333333333333326,0.026515151515151512,M,intermediate,F,intermediate
+Charles Musgrove,Mrs Musgrove,5.0,2.0,10.0,0.0,0.0,M,intermediate,F,intermediate
+Elizabeth,Anne Elliot,4.0,4.0,10.0,0.10416666666666666,0.09999999999999999,F,minor,F,major
+Elizabeth,Mrs Clay,4.0,3.0,11.0,0.08333333333333334,0.060606060606060615,F,minor,F,minor
+Elizabeth,Sir Walter Elliot,6.0,2.0,12.0,0.0,0.0,F,minor,M,intermediate
+Lady Russell,Anne Elliot,6.0,4.0,20.0,0.027777777777777773,0.024999999999999994,F,minor,F,major
+Lady Russell,Mary Musgrove,4.0,3.0,12.0,0.0,0.0,F,minor,F,intermediate
+Louisa Musgrove,Captain Wentworth,6.0,6.0,27.0,0.05277777777777776,0.05555555555555554,F,minor,M,major
+Mary,Anne Elliot,8.0,12.0,87.0,0.008143939393939384,0.008620689655172403,,,F,major
+Mary,Charles Musgrove,8.0,3.0,23.0,0.0,0.0,,,M,intermediate
+Mary Musgrove,Anne Elliot,6.0,3.0,17.0,0.0,0.0,F,intermediate,F,major
+Mary Musgrove,Captain Wentworth,2.0,2.0,4.0,0.0,0.0,F,intermediate,M,major
+Mary Musgrove,Charles Musgrove,8.0,6.0,39.0,-0.02291666666666667,-0.02564102564102564,F,intermediate,M,intermediate
+Mary Musgrove,Lady Russell,4.0,4.0,16.0,0.0,0.0,F,intermediate,F,minor
+Mr Shepherd,Anne Elliot,2.0,3.0,5.0,0.16666666666666669,0.13333333333333336,M,minor,F,major
+Mr Shepherd,Sir Walter Elliot,7.0,4.0,22.0,0.023809523809523805,0.02272727272727272,M,minor,M,intermediate
+Mrs Clay,Elizabeth,4.0,3.0,9.0,0.0,0.0,F,minor,F,minor
+Mrs Clay,Sir Walter Elliot,2.0,2.0,4.0,0.0,0.0,F,minor,M,intermediate
+Mrs Croft,Admiral,5.0,2.0,10.0,0.0,0.0,,,,
+Mrs Croft,Captain Wentworth,6.0,5.0,24.0,0.12499999999999999,0.06666666666666665,,,M,major
+Mrs Musgrove,Anne Elliot,8.0,3.0,22.0,0.08333333333333334,0.060606060606060615,F,intermediate,F,major
+Mrs Musgrove,Charles Musgrove,4.0,2.0,8.0,0.0,0.0,F,intermediate,M,intermediate
+Mrs Musgrove,Sophia Croft,6.0,2.0,12.0,0.0,0.0,F,intermediate,F,minor
+Mrs Smith,Anne Elliot,8.0,34.0,232.0,-0.02203019195427719,-0.01724137931034484,F,intermediate,F,major
+Sir Walter Elliot,Anne Elliot,6.0,7.0,29.0,-0.008333333333333304,-0.01477832512315268,M,intermediate,F,major
+Sir Walter Elliot,Elizabeth,2.0,3.0,4.0,0.33333333333333337,0.33333333333333337,M,intermediate,F,minor
+Sir Walter Elliot,Mr Shepherd,7.0,4.0,26.0,-0.01190476190476191,-0.00961538461538462,M,intermediate,M,minor
+Sir Walter Elliot,Mrs Clay,6.0,2.0,12.0,0.0,0.0,M,intermediate,F,minor
+Sophia Croft,Admiral Croft,6.0,2.0,12.0,0.0,0.0,F,minor,M,intermediate
+The Waiter,Mary Musgrove,6.0,2.0,12.0,0.0,0.0,M,minor,F,intermediate
+William Walter Elliot,Anne Elliot,7.0,5.0,32.0,0.03571428571428571,0.03125,M,minor,F,major

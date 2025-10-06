@@ -1,0 +1,21 @@
+﻿a_speaker,b_speaker,n_features,n_pairs,n_triggers_total,mean_conv,mean_conv_w,a_gender,a_category,b_gender,b_category
+Jane Fairfax,Mr. Frank Churchill,8,3,18,0.2083333333333333,0.1851851851851852,F,intermediate,M,major
+Mr. John Knightley,Mr. Knightley,9,5,39,0.0833333333333333,0.0769230769230769,M,intermediate,M,major
+Mr. Elton,Mrs. Elton,9,4,30,0.074074074074074,0.0666666666666666,M,intermediate,F,intermediate
+Mr. Knightley,Miss Bates,9,10,57,0.0540564373897706,0.0596491228070175,M,major,F,intermediate
+Mrs. Weston,Mr. Weston,8,4,22,0.0729166666666666,0.0568181818181818,F,intermediate,M,intermediate
+Mr. John Knightley,Emma,9,13,94,0.0562610229276895,0.0507364975450081,M,intermediate,F,major
+Miss Bates,Mr. Knightley,9,14,101,0.0491563991563991,0.0396039603960396,F,intermediate,M,major
+Mrs. Weston,Mr. Elton,6,4,21,0.0416666666666666,0.0357142857142857,F,intermediate,M,intermediate
+Mr. Weston,Mr. Woodhouse,7,3,20,0.0476190476190476,0.0333333333333333,M,intermediate,M,intermediate
+Isabella,Mr. Woodhouse,9,16,121,0.0387922262922262,0.03099173553719,F,intermediate,M,intermediate
+Mr. Elton,Emma,9,19,126,0.0373819163292847,0.0279866332497911,M,intermediate,F,major
+Jane Fairfax,Miss Bates,9,7,38,0.0452380952380952,0.0263157894736842,F,intermediate,F,intermediate
+Jane Fairfax,Mrs. Elton,9,13,99,0.0244906328239661,0.0209790209790209,F,intermediate,F,intermediate
+Mr. John Knightley,Isabella,7,3,16,0.0238095238095238,0.0208333333333333,M,intermediate,F,intermediate
+Mrs. Elton,Jane Fairfax,9,15,113,0.022083472083472,0.0194690265486725,F,intermediate,F,intermediate
+Emma,Mr. Frank Churchill,9,74,473,0.0228075749898365,0.017713273527227,F,major,M,major
+Mrs. Elton,Emma,9,15,127,0.0193325193325193,0.0173228346456693,F,intermediate,F,major
+Jane Fairfax,Emma,9,10,70,0.0178130511463844,0.0171428571428571,F,intermediate,F,major
+Emma,Mr. Knightley,9,110,729,0.0218358956823207,0.0166354907095647,F,major,M,major
+Miss Bates,Jane Fairfax,9,5,39,0.0222222222222222,0.0153846153846153,F,intermediate,F,intermediate

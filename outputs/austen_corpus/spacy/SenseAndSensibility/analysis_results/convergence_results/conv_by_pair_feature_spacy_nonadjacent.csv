@@ -1,0 +1,168 @@
+﻿a_speaker,b_speaker,family,n_pairs,n_triggers,n_b_positives_given_trigger,p1,p0,conv,a_gender,a_category,b_gender,b_category
+Anne Steele,Elinor,adverbs,6,6,4,0.6666666666666666,0.6666666666666666,0.0,F,intermediate,F,major
+Anne Steele,Elinor,auxiliary_verbs,6,6,6,1.0,1.0,0.0,F,intermediate,F,major
+Anne Steele,Elinor,conjunctions,6,5,4,0.8,0.8333333333333334,-0.033333333333333326,F,intermediate,F,major
+Anne Steele,Elinor,impersonal_pronouns,6,5,3,0.6,0.6666666666666666,-0.06666666666666665,F,intermediate,F,major
+Anne Steele,Elinor,negations,6,3,2,0.6666666666666666,0.6666666666666666,0.0,F,intermediate,F,major
+Anne Steele,Elinor,personal_pronouns,6,6,6,1.0,1.0,0.0,F,intermediate,F,major
+Anne Steele,Lucy Steele,articles,2,2,2,1.0,1.0,0.0,F,intermediate,F,intermediate
+Anne Steele,Lucy Steele,auxiliary_verbs,2,2,2,1.0,1.0,0.0,F,intermediate,F,intermediate
+Charlotte,Elinor,adverbs,2,2,2,1.0,1.0,0.0,F,intermediate,F,major
+Charlotte,Elinor,auxiliary_verbs,2,2,2,1.0,1.0,0.0,F,intermediate,F,major
+Charlotte,Elinor,conjunctions,2,2,2,1.0,1.0,0.0,F,intermediate,F,major
+Charlotte,Elinor,impersonal_pronouns,2,2,2,1.0,1.0,0.0,F,intermediate,F,major
+Charlotte,Elinor,personal_pronouns,2,2,2,1.0,1.0,0.0,F,intermediate,F,major
+Charlotte,Elinor,prepositions,2,2,2,1.0,1.0,0.0,F,intermediate,F,major
+Colonel Brandon,Elinor,adverbs,3,3,3,1.0,1.0,0.0,M,intermediate,F,major
+Colonel Brandon,Elinor,auxiliary_verbs,3,3,3,1.0,1.0,0.0,M,intermediate,F,major
+Colonel Brandon,Elinor,conjunctions,3,2,2,1.0,0.6666666666666666,0.33333333333333337,M,intermediate,F,major
+Colonel Brandon,Elinor,impersonal_pronouns,3,3,2,0.6666666666666666,0.6666666666666666,0.0,M,intermediate,F,major
+Colonel Brandon,Elinor,negations,3,3,2,0.6666666666666666,0.6666666666666666,0.0,M,intermediate,F,major
+Colonel Brandon,Elinor,personal_pronouns,3,3,3,1.0,1.0,0.0,M,intermediate,F,major
+Colonel Brandon,Elinor,prepositions,3,2,2,1.0,1.0,0.0,M,intermediate,F,major
+Colonel Brandon,Mrs. Jennings,adverbs,2,2,2,1.0,1.0,0.0,M,intermediate,F,intermediate
+Colonel Brandon,Mrs. Jennings,auxiliary_verbs,2,2,2,1.0,1.0,0.0,M,intermediate,F,intermediate
+Colonel Brandon,Mrs. Jennings,personal_pronouns,2,2,2,1.0,1.0,0.0,M,intermediate,F,intermediate
+Colonel Brandon,Mrs. Jennings,prepositions,2,2,2,1.0,1.0,0.0,M,intermediate,F,intermediate
+Edward Ferrars,Elinor,adverbs,7,7,6,0.8571428571428571,0.8571428571428571,0.0,M,intermediate,F,major
+Edward Ferrars,Elinor,articles,7,7,5,0.7142857142857143,0.7142857142857143,0.0,M,intermediate,F,major
+Edward Ferrars,Elinor,auxiliary_verbs,7,7,5,0.7142857142857143,0.7142857142857143,0.0,M,intermediate,F,major
+Edward Ferrars,Elinor,conjunctions,7,5,4,0.8,0.8571428571428571,-0.05714285714285705,M,intermediate,F,major
+Edward Ferrars,Elinor,impersonal_pronouns,7,4,4,1.0,0.8571428571428571,0.1428571428571429,M,intermediate,F,major
+Edward Ferrars,Elinor,personal_pronouns,7,7,7,1.0,1.0,0.0,M,intermediate,F,major
+Edward Ferrars,Elinor,prepositions,7,6,6,1.0,1.0,0.0,M,intermediate,F,major
+Edward Ferrars,Marianne,adverbs,2,2,2,1.0,1.0,0.0,M,intermediate,F,major
+Edward Ferrars,Marianne,articles,2,2,2,1.0,1.0,0.0,M,intermediate,F,major
+Edward Ferrars,Marianne,auxiliary_verbs,2,2,2,1.0,1.0,0.0,M,intermediate,F,major
+Edward Ferrars,Marianne,conjunctions,2,2,2,1.0,1.0,0.0,M,intermediate,F,major
+Edward Ferrars,Marianne,personal_pronouns,2,2,2,1.0,1.0,0.0,M,intermediate,F,major
+Edward Ferrars,Marianne,prepositions,2,2,2,1.0,1.0,0.0,M,intermediate,F,major
+Elinor,Edward Ferrars,adverbs,6,3,3,1.0,0.6666666666666666,0.33333333333333337,F,major,M,intermediate
+Elinor,Edward Ferrars,articles,6,3,2,0.6666666666666666,0.8333333333333334,-0.16666666666666674,F,major,M,intermediate
+Elinor,Edward Ferrars,auxiliary_verbs,6,5,5,1.0,1.0,0.0,F,major,M,intermediate
+Elinor,Edward Ferrars,conjunctions,6,4,4,1.0,1.0,0.0,F,major,M,intermediate
+Elinor,Edward Ferrars,impersonal_pronouns,6,5,3,0.6,0.6666666666666666,-0.06666666666666665,F,major,M,intermediate
+Elinor,Edward Ferrars,negations,6,3,2,0.6666666666666666,0.8333333333333334,-0.16666666666666674,F,major,M,intermediate
+Elinor,Edward Ferrars,personal_pronouns,6,6,6,1.0,1.0,0.0,F,major,M,intermediate
+Elinor,Edward Ferrars,prepositions,6,5,5,1.0,0.8333333333333334,0.16666666666666663,F,major,M,intermediate
+Elinor,Lucy Steele,adverbs,5,4,4,1.0,1.0,0.0,F,major,F,intermediate
+Elinor,Lucy Steele,auxiliary_verbs,5,4,4,1.0,1.0,0.0,F,major,F,intermediate
+Elinor,Lucy Steele,conjunctions,5,4,3,0.75,0.8,-0.050000000000000044,F,major,F,intermediate
+Elinor,Lucy Steele,impersonal_pronouns,5,3,2,0.6666666666666666,0.6,0.06666666666666665,F,major,F,intermediate
+Elinor,Lucy Steele,personal_pronouns,5,5,5,1.0,1.0,0.0,F,major,F,intermediate
+Elinor,Lucy Steele,prepositions,5,3,2,0.6666666666666666,0.8,-0.13333333333333341,F,major,F,intermediate
+Elinor,Marianne,adverbs,11,8,4,0.5,0.5454545454545454,-0.045454545454545414,F,major,F,major
+Elinor,Marianne,auxiliary_verbs,11,11,8,0.7272727272727273,0.7272727272727273,0.0,F,major,F,major
+Elinor,Marianne,conjunctions,11,6,3,0.5,0.5454545454545454,-0.045454545454545414,F,major,F,major
+Elinor,Marianne,impersonal_pronouns,11,7,4,0.5714285714285714,0.5454545454545454,0.025974025974025983,F,major,F,major
+Elinor,Marianne,negations,11,7,3,0.42857142857142855,0.45454545454545453,-0.025974025974025983,F,major,F,major
+Elinor,Marianne,personal_pronouns,11,10,6,0.6,0.6363636363636364,-0.036363636363636376,F,major,F,major
+Elinor,Marianne,prepositions,11,9,4,0.4444444444444444,0.45454545454545453,-0.01010101010101011,F,major,F,major
+Elinor,Mrs. Dashwood,adverbs,10,8,5,0.625,0.6,0.025000000000000022,F,major,F,intermediate
+Elinor,Mrs. Dashwood,articles,10,8,5,0.625,0.7,-0.07499999999999996,F,major,F,intermediate
+Elinor,Mrs. Dashwood,auxiliary_verbs,10,10,10,1.0,1.0,0.0,F,major,F,intermediate
+Elinor,Mrs. Dashwood,conjunctions,10,8,7,0.875,0.9,-0.025000000000000022,F,major,F,intermediate
+Elinor,Mrs. Dashwood,impersonal_pronouns,10,10,7,0.7,0.7,0.0,F,major,F,intermediate
+Elinor,Mrs. Dashwood,negations,10,4,2,0.5,0.4,0.09999999999999998,F,major,F,intermediate
+Elinor,Mrs. Dashwood,personal_pronouns,10,10,10,1.0,1.0,0.0,F,major,F,intermediate
+Elinor,Mrs. Dashwood,prepositions,10,9,7,0.7777777777777778,0.8,-0.022222222222222254,F,major,F,intermediate
+Elinor,Mrs. Jennings,auxiliary_verbs,3,2,2,1.0,1.0,0.0,F,major,F,intermediate
+Elinor,Mrs. Jennings,personal_pronouns,3,2,2,1.0,1.0,0.0,F,major,F,intermediate
+John Middleton,Marianne,adverbs,3,3,2,0.6666666666666666,0.6666666666666666,0.0,M,intermediate,F,major
+John Middleton,Marianne,articles,3,2,2,1.0,1.0,0.0,M,intermediate,F,major
+John Middleton,Marianne,auxiliary_verbs,3,3,3,1.0,1.0,0.0,M,intermediate,F,major
+John Middleton,Marianne,conjunctions,3,3,2,0.6666666666666666,0.6666666666666666,0.0,M,intermediate,F,major
+John Middleton,Marianne,impersonal_pronouns,3,2,2,1.0,0.6666666666666666,0.33333333333333337,M,intermediate,F,major
+John Middleton,Marianne,personal_pronouns,3,3,2,0.6666666666666666,0.6666666666666666,0.0,M,intermediate,F,major
+John Middleton,Marianne,prepositions,3,3,2,0.6666666666666666,0.6666666666666666,0.0,M,intermediate,F,major
+John Middleton,Mrs. Jennings,auxiliary_verbs,3,3,2,0.6666666666666666,0.6666666666666666,0.0,M,intermediate,F,intermediate
+John Middleton,Mrs. Jennings,conjunctions,3,2,2,1.0,0.6666666666666666,0.33333333333333337,M,intermediate,F,intermediate
+John Middleton,Mrs. Jennings,negations,3,2,2,1.0,0.6666666666666666,0.33333333333333337,M,intermediate,F,intermediate
+John Middleton,Mrs. Jennings,personal_pronouns,3,2,2,1.0,1.0,0.0,M,intermediate,F,intermediate
+Lucy Steele,Anne Steele,adverbs,5,5,5,1.0,1.0,0.0,F,intermediate,F,intermediate
+Lucy Steele,Anne Steele,articles,5,3,2,0.6666666666666666,0.6,0.06666666666666665,F,intermediate,F,intermediate
+Lucy Steele,Anne Steele,auxiliary_verbs,5,5,5,1.0,1.0,0.0,F,intermediate,F,intermediate
+Lucy Steele,Anne Steele,conjunctions,5,3,2,0.6666666666666666,0.8,-0.13333333333333341,F,intermediate,F,intermediate
+Lucy Steele,Anne Steele,impersonal_pronouns,5,4,4,1.0,0.8,0.19999999999999996,F,intermediate,F,intermediate
+Lucy Steele,Anne Steele,negations,5,3,2,0.6666666666666666,0.8,-0.13333333333333341,F,intermediate,F,intermediate
+Lucy Steele,Anne Steele,personal_pronouns,5,5,5,1.0,1.0,0.0,F,intermediate,F,intermediate
+Lucy Steele,Elinor,adverbs,3,2,2,1.0,1.0,0.0,F,intermediate,F,major
+Lucy Steele,Elinor,auxiliary_verbs,3,3,3,1.0,1.0,0.0,F,intermediate,F,major
+Lucy Steele,Elinor,conjunctions,3,2,2,1.0,0.6666666666666666,0.33333333333333337,F,intermediate,F,major
+Lucy Steele,Elinor,personal_pronouns,3,2,2,1.0,1.0,0.0,F,intermediate,F,major
+Lucy Steele,Elinor,prepositions,3,2,2,1.0,1.0,0.0,F,intermediate,F,major
+Lucy Steele,Marianne,conjunctions,2,2,2,1.0,1.0,0.0,F,intermediate,F,major
+Lucy Steele,Marianne,negations,2,2,2,1.0,1.0,0.0,F,intermediate,F,major
+Lucy Steele,Marianne,personal_pronouns,2,2,2,1.0,1.0,0.0,F,intermediate,F,major
+Lucy Steele,Marianne,prepositions,2,2,2,1.0,1.0,0.0,F,intermediate,F,major
+Margaret,Elinor,auxiliary_verbs,2,2,2,1.0,1.0,0.0,F,minor,F,major
+Margaret,Elinor,impersonal_pronouns,2,2,2,1.0,1.0,0.0,F,minor,F,major
+Margaret,Elinor,personal_pronouns,2,2,2,1.0,1.0,0.0,F,minor,F,major
+Marianne,Edward Ferrars,auxiliary_verbs,4,2,2,1.0,1.0,0.0,F,major,M,intermediate
+Marianne,Edward Ferrars,conjunctions,4,3,2,0.6666666666666666,0.5,0.16666666666666663,F,major,M,intermediate
+Marianne,Edward Ferrars,personal_pronouns,4,2,2,1.0,1.0,0.0,F,major,M,intermediate
+Marianne,Elinor,adverbs,16,12,9,0.75,0.8125,-0.0625,F,major,F,major
+Marianne,Elinor,articles,16,6,5,0.8333333333333334,0.6875,0.14583333333333337,F,major,F,major
+Marianne,Elinor,auxiliary_verbs,16,13,12,0.9230769230769231,0.9375,-0.014423076923076872,F,major,F,major
+Marianne,Elinor,conjunctions,16,12,9,0.75,0.8125,-0.0625,F,major,F,major
+Marianne,Elinor,impersonal_pronouns,16,13,9,0.6923076923076923,0.75,-0.05769230769230771,F,major,F,major
+Marianne,Elinor,negations,16,10,4,0.4,0.5,-0.09999999999999998,F,major,F,major
+Marianne,Elinor,personal_pronouns,16,14,14,1.0,1.0,0.0,F,major,F,major
+Marianne,Elinor,prepositions,16,10,9,0.9,0.875,0.025000000000000022,F,major,F,major
+Marianne,Elinor,quantifiers,16,5,2,0.4,0.1875,0.21250000000000002,F,major,F,major
+Marianne,Mr. Willoughby,auxiliary_verbs,3,2,2,1.0,1.0,0.0,F,major,M,intermediate
+Marianne,Mr. Willoughby,conjunctions,3,2,2,1.0,1.0,0.0,F,major,M,intermediate
+Marianne,Mr. Willoughby,impersonal_pronouns,3,3,3,1.0,1.0,0.0,F,major,M,intermediate
+Marianne,Mr. Willoughby,personal_pronouns,3,3,3,1.0,1.0,0.0,F,major,M,intermediate
+Marianne,Mr. Willoughby,prepositions,3,3,3,1.0,1.0,0.0,F,major,M,intermediate
+Marianne,Mrs. Jennings,auxiliary_verbs,5,4,4,1.0,1.0,0.0,F,major,F,intermediate
+Marianne,Mrs. Jennings,impersonal_pronouns,5,2,2,1.0,1.0,0.0,F,major,F,intermediate
+Marianne,Mrs. Jennings,personal_pronouns,5,2,2,1.0,1.0,0.0,F,major,F,intermediate
+Mr. Palmer,Charlotte,adverbs,3,2,2,1.0,1.0,0.0,M,minor,F,intermediate
+Mr. Palmer,Charlotte,auxiliary_verbs,3,2,2,1.0,1.0,0.0,M,minor,F,intermediate
+Mr. Palmer,Charlotte,personal_pronouns,3,2,2,1.0,1.0,0.0,M,minor,F,intermediate
+Mr. Palmer,Charlotte,prepositions,3,2,2,1.0,1.0,0.0,M,minor,F,intermediate
+Mr. Willoughby,Elinor,adverbs,6,6,5,0.8333333333333334,0.8333333333333334,0.0,M,intermediate,F,major
+Mr. Willoughby,Elinor,articles,6,6,5,0.8333333333333334,0.8333333333333334,0.0,M,intermediate,F,major
+Mr. Willoughby,Elinor,auxiliary_verbs,6,6,6,1.0,1.0,0.0,M,intermediate,F,major
+Mr. Willoughby,Elinor,conjunctions,6,5,3,0.6,0.6666666666666666,-0.06666666666666665,M,intermediate,F,major
+Mr. Willoughby,Elinor,impersonal_pronouns,6,5,4,0.8,0.8333333333333334,-0.033333333333333326,M,intermediate,F,major
+Mr. Willoughby,Elinor,personal_pronouns,6,5,4,0.8,0.8333333333333334,-0.033333333333333326,M,intermediate,F,major
+Mr. Willoughby,Elinor,prepositions,6,6,5,0.8333333333333334,0.8333333333333334,0.0,M,intermediate,F,major
+Mr. Willoughby,Marianne,auxiliary_verbs,2,2,2,1.0,1.0,0.0,M,intermediate,F,major
+Mr. Willoughby,Marianne,personal_pronouns,2,2,2,1.0,1.0,0.0,M,intermediate,F,major
+Mrs. Dashwood,Elinor,adverbs,7,6,3,0.5,0.5714285714285714,-0.0714285714285714,F,intermediate,F,major
+Mrs. Dashwood,Elinor,articles,7,5,4,0.8,0.5714285714285714,0.22857142857142865,F,intermediate,F,major
+Mrs. Dashwood,Elinor,auxiliary_verbs,7,7,7,1.0,1.0,0.0,F,intermediate,F,major
+Mrs. Dashwood,Elinor,conjunctions,7,6,5,0.8333333333333334,0.8571428571428571,-0.023809523809523725,F,intermediate,F,major
+Mrs. Dashwood,Elinor,impersonal_pronouns,7,6,4,0.6666666666666666,0.5714285714285714,0.09523809523809523,F,intermediate,F,major
+Mrs. Dashwood,Elinor,personal_pronouns,7,6,5,0.8333333333333334,0.8571428571428571,-0.023809523809523725,F,intermediate,F,major
+Mrs. Dashwood,Elinor,prepositions,7,6,6,1.0,0.8571428571428571,0.1428571428571429,F,intermediate,F,major
+Mrs. Dashwood,Marianne,adverbs,6,4,4,1.0,0.8333333333333334,0.16666666666666663,F,intermediate,F,major
+Mrs. Dashwood,Marianne,auxiliary_verbs,6,6,5,0.8333333333333334,0.8333333333333334,0.0,F,intermediate,F,major
+Mrs. Dashwood,Marianne,conjunctions,6,5,2,0.4,0.5,-0.09999999999999998,F,intermediate,F,major
+Mrs. Dashwood,Marianne,impersonal_pronouns,6,5,5,1.0,1.0,0.0,F,intermediate,F,major
+Mrs. Dashwood,Marianne,personal_pronouns,6,6,6,1.0,1.0,0.0,F,intermediate,F,major
+Mrs. Dashwood,Marianne,prepositions,6,5,4,0.8,0.8333333333333334,-0.033333333333333326,F,intermediate,F,major
+Mrs. Jennings,Charlotte,auxiliary_verbs,2,2,2,1.0,1.0,0.0,F,intermediate,F,intermediate
+Mrs. Jennings,Charlotte,conjunctions,2,2,2,1.0,1.0,0.0,F,intermediate,F,intermediate
+Mrs. Jennings,Charlotte,personal_pronouns,2,2,2,1.0,1.0,0.0,F,intermediate,F,intermediate
+Mrs. Jennings,Colonel Brandon,auxiliary_verbs,2,2,2,1.0,1.0,0.0,F,intermediate,M,intermediate
+Mrs. Jennings,Colonel Brandon,personal_pronouns,2,2,2,1.0,1.0,0.0,F,intermediate,M,intermediate
+Mrs. Jennings,Elinor,adverbs,10,9,7,0.7777777777777778,0.8,-0.022222222222222254,F,intermediate,F,major
+Mrs. Jennings,Elinor,articles,10,9,5,0.5555555555555556,0.5,0.05555555555555558,F,intermediate,F,major
+Mrs. Jennings,Elinor,auxiliary_verbs,10,9,7,0.7777777777777778,0.8,-0.022222222222222254,F,intermediate,F,major
+Mrs. Jennings,Elinor,conjunctions,10,9,5,0.5555555555555556,0.5,0.05555555555555558,F,intermediate,F,major
+Mrs. Jennings,Elinor,impersonal_pronouns,10,9,5,0.5555555555555556,0.6,-0.0444444444444444,F,intermediate,F,major
+Mrs. Jennings,Elinor,negations,10,6,2,0.3333333333333333,0.4,-0.06666666666666671,F,intermediate,F,major
+Mrs. Jennings,Elinor,personal_pronouns,10,10,9,0.9,0.9,0.0,F,intermediate,F,major
+Mrs. Jennings,Elinor,prepositions,10,9,7,0.7777777777777778,0.8,-0.022222222222222254,F,intermediate,F,major
+Mrs. Jennings,Lucy Steele,auxiliary_verbs,3,2,2,1.0,1.0,0.0,F,intermediate,F,intermediate
+Mrs. Jennings,Lucy Steele,conjunctions,3,2,2,1.0,1.0,0.0,F,intermediate,F,intermediate
+Mrs. Jennings,Lucy Steele,personal_pronouns,3,2,2,1.0,1.0,0.0,F,intermediate,F,intermediate
+Mrs. Jennings,Marianne,adverbs,5,3,2,0.6666666666666666,0.4,0.2666666666666666,F,intermediate,F,major
+Mrs. Jennings,Marianne,auxiliary_verbs,5,5,5,1.0,1.0,0.0,F,intermediate,F,major
+Mrs. Jennings,Marianne,conjunctions,5,2,2,1.0,0.8,0.19999999999999996,F,intermediate,F,major
+Mrs. Jennings,Marianne,impersonal_pronouns,5,4,4,1.0,0.8,0.19999999999999996,F,intermediate,F,major
+Mrs. Jennings,Marianne,personal_pronouns,5,5,4,0.8,0.8,0.0,F,intermediate,F,major
+Mrs. Jennings,Marianne,prepositions,5,2,2,1.0,0.8,0.19999999999999996,F,intermediate,F,major

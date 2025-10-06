@@ -1,0 +1,21 @@
+﻿a_speaker,b_speaker,n_features,n_pairs,n_triggers_total,mean_conv,mean_conv_w,a_gender,a_category,b_gender,b_category
+Mr. Bennet,Kitty,5,3,12,0.1,0.0833333333333333,M,intermediate,F,minor
+Elizabeth,Mr. Bingley,9,6,36,0.1277777777777778,0.0833333333333333,F,major,M,intermediate
+Charlotte Lucas,Mrs. Bennet,8,4,26,0.09375,0.0673076923076923,F,intermediate,F,major
+Elizabeth,Lydia,7,6,23,0.0714285714285714,0.0652173913043478,F,major,F,intermediate
+Maria,Elizabeth,9,5,37,0.1055555555555555,0.0648648648648648,F,minor,F,major
+Lydia,Mrs. Bennet,9,8,55,0.0556878306878306,0.0545454545454545,F,intermediate,F,major
+Mrs. Bennet,Jane,9,10,72,0.0590388007054673,0.0486111111111111,F,major,F,intermediate
+Mrs. Bennet,Lydia,9,8,47,0.0783068783068783,0.0478723404255318,F,major,F,intermediate
+Mrs. Reynolds,Elizabeth,9,7,50,0.0457671957671957,0.0457142857142857,F,minor,F,major
+Elizabeth,Lady Catherine De Bourgh,9,35,209,0.0491171728076252,0.0441558441558441,F,major,F,intermediate
+Lady Catherine De Bourgh,Elizabeth,9,39,294,0.0462464291558021,0.0437816152101866,F,intermediate,F,major
+Elizabeth,Mr. Bennet,9,20,104,0.0652278845261301,0.04375,F,major,M,intermediate
+Elizabeth,Maria,8,3,18,0.0416666666666666,0.037037037037037,F,major,F,minor
+Mrs. Bennet,Lady Catherine De Bourgh,7,3,18,0.0476190476190476,0.037037037037037,F,major,F,intermediate
+Mr. Bennet,Mr. Collins,9,4,29,0.0555555555555555,0.0344827586206896,M,intermediate,M,intermediate
+Mr. Darcy,Mr. Bingley,9,6,44,0.037037037037037,0.034090909090909,M,major,M,intermediate
+Mr. Bingley,Miss Bingley,9,10,67,0.0315696649029982,0.0328358208955223,M,intermediate,F,intermediate
+Elizabeth,Jane,9,62,429,0.039666984401168,0.0318820963982254,F,major,F,intermediate
+Mrs. Bennet,Elizabeth,9,17,132,0.0318130126953656,0.0289661319073083,F,major,F,major
+Mr. Darcy,Sir William Lucas,8,4,18,0.0416666666666666,0.0277777777777777,M,major,M,minor

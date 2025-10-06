@@ -1,0 +1,21 @@
+﻿a_speaker,b_speaker,n_features,n_pairs,n_triggers_total,mean_conv,mean_conv_w,a_gender,a_category,b_gender,b_category
+General Tilney,Eleanor Tilney,6.0,5.0,17.0,0.1999999999999999,0.1764705882352941,M,minor,F,intermediate
+Mr. Allen,Catherine Morland,3.0,3.0,7.0,0.1111111111111111,0.0952380952380952,M,minor,F,major
+Henry Tilney,Mrs. Allen,7.0,6.0,28.0,0.0904761904761904,0.0773809523809524,M,major,F,intermediate
+Catherine Morland,Eleanor Tilney,8.0,32.0,182.0,0.0772485496244792,0.0673076923076923,F,major,F,intermediate
+Mrs. Morland,Catherine Morland,5.0,3.0,14.0,0.0666666666666666,0.0476190476190476,F,minor,F,major
+Mr. Allen,Mrs. Allen,6.0,3.0,17.0,0.0555555555555555,0.0392156862745098,M,minor,F,intermediate
+Catherine Morland,John Thorpe,8.0,54.0,241.0,0.036666472100663,0.0318887352082372,F,major,M,intermediate
+Henry Tilney,Catherine Morland,9.0,101.0,617.0,0.0306515845061397,0.0264133382544089,M,major,F,major
+Mrs. Allen,Catherine Morland,8.0,26.0,155.0,0.0316894382791121,0.0225806451612903,F,intermediate,F,major
+Catherine Morland,Henry Tilney,9.0,105.0,562.0,0.0265597869709053,0.0224538213862057,F,major,M,major
+John Thorpe,Catherine Morland,8.0,60.0,363.0,0.0190015344886906,0.019605142332415,M,intermediate,F,major
+James Morland,Catherine Morland,7.0,7.0,39.0,0.0329931972789115,0.0146520146520146,M,minor,F,major
+Isabella Thorpe,James Morland,7.0,6.0,41.0,0.0095238095238095,0.008130081300813,F,major,M,minor
+General Tilney,Catherine Morland,8.0,6.0,36.0,0.0291666666666666,0.0046296296296296,M,minor,F,major
+Eleanor Tilney,Catherine Morland,9.0,38.0,207.0,0.0387647429460294,0.0017798118484617,F,intermediate,F,major
+Catherine Morland,General Tilney,6.0,6.0,30.0,-0.0027777777777777,1.1102230246251566e-17,F,major,M,minor
+Mrs. Thorpe,Mrs. Allen,3.0,3.0,9.0,0.0,0.0,F,minor,F,intermediate
+Isabella Thorpe,Frederick Tilney,4.0,3.0,12.0,0.0,0.0,F,major,F,minor
+Catherine Morland,Mr. Allen,6.0,2.0,12.0,0.0,0.0,F,major,M,minor
+Catherine Morland,Mrs. Morland,4.0,3.0,9.0,0.0,0.0,F,major,F,minor

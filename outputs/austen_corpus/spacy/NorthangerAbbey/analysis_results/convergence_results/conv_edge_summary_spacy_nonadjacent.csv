@@ -1,0 +1,23 @@
+﻿a_speaker,b_speaker,n_features,n_pairs,n_triggers_total,mean_conv,mean_conv_w,a_gender,a_category,b_gender,b_category
+Catherine Morland,Eleanor Tilney,7.0,7.0,32.0,-0.027210884353741496,-0.017857142857142856,F,major,F,intermediate
+Catherine Morland,Henry Tilney,8.0,8.0,51.0,-0.019791666666666666,-0.01715686274509804,F,major,M,major
+Catherine Morland,Isabella Thorpe,6.0,5.0,19.0,0.1111111111111111,0.07368421052631578,F,major,F,major
+Catherine Morland,John Thorpe,5.0,6.0,24.0,0.06000000000000001,0.048611111111111126,F,major,M,intermediate
+Catherine Morland,Mrs. Allen,2.0,3.0,4.0,0.0,0.0,F,major,F,intermediate
+Catherine Morland,Mrs. Thorpe,4.0,2.0,8.0,0.0,0.0,F,major,F,minor
+Eleanor Tilney,Catherine Morland,8.0,5.0,36.0,0.024999999999999994,0.022222222222222216,F,intermediate,F,major
+Eleanor Tilney,Henry Tilney,7.0,5.0,28.0,-0.01904761904761906,-0.014285714285714294,F,intermediate,M,major
+General Tilney,Catherine Morland,4.0,5.0,12.0,0.008333333333333304,-0.01666666666666669,M,minor,F,major
+Henry Tilney,Catherine Morland,8.0,12.0,77.0,0.01985028860028859,0.011904761904761895,M,major,F,major
+Isabella Thorpe,Catherine Morland,6.0,11.0,50.0,0.02188552188552188,0.021818181818181806,F,major,F,major
+Isabella Thorpe,John Thorpe,6.0,5.0,21.0,-0.05833333333333338,-0.0571428571428572,F,major,M,intermediate
+James Morland,Catherine Morland,5.0,4.0,16.0,0.016666666666666653,0.015624999999999986,M,minor,F,major
+James Morland,Isabella Thorpe,1.0,2.0,2.0,0.0,0.0,M,minor,F,major
+James Morland,John Thorpe,3.0,2.0,6.0,0.0,0.0,M,minor,M,intermediate
+John Thorpe,Catherine Morland,8.0,6.0,43.0,0.025,0.023255813953488372,M,intermediate,F,major
+John Thorpe,James Morland,3.0,3.0,6.0,0.11111111111111112,0.11111111111111112,M,intermediate,M,minor
+John Thorpe,Mrs. Allen,2.0,2.0,4.0,0.0,0.0,M,intermediate,F,intermediate
+Mr. Allen,Catherine Morland,2.0,2.0,4.0,0.0,0.0,M,minor,F,major
+Mrs. Allen,Catherine Morland,7.0,12.0,55.0,0.006235827664399086,-0.010606060606060614,F,intermediate,F,major
+Mrs. Morland,Catherine Morland,1.0,2.0,2.0,0.0,0.0,F,minor,F,major
+Mrs. Thorpe,Catherine Morland,3.0,3.0,6.0,0.11111111111111112,0.11111111111111112,F,minor,F,major

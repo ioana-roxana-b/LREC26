@@ -1,0 +1,21 @@
+﻿a_speaker,b_speaker,n_features,n_pairs,n_triggers_total,mean_conv,mean_conv_w,a_gender,a_category,b_gender,b_category
+Henry Crawford,Tom Bertram,8.0,5.0,32.0,0.1458333333333333,0.11875,M,major,M,intermediate
+Mr. Yates,Tom Bertram,8.0,3.0,21.0,0.125,0.0952380952380952,M,minor,M,intermediate
+Fanny Price,Lady Bertram,5.0,5.0,17.0,0.12,0.0941176470588235,F,major,F,intermediate
+Edmund,Maria Bertram,7.0,6.0,27.0,0.1071428571428571,0.0864197530864197,M,major,F,intermediate
+Fanny Price,Sir Thomas,7.0,17.0,56.0,0.0721155128718154,0.0735294117647058,F,major,M,intermediate
+William Price,Fanny Price,8.0,5.0,30.0,0.1104166666666666,0.0666666666666666,M,minor,F,major
+Sir Thomas,Fanny Price,8.0,17.0,98.0,0.0692459195216547,0.0624249699879951,M,intermediate,F,major
+Edmund,Tom Bertram,8.0,8.0,52.0,0.0662202380952381,0.0576923076923076,M,major,M,intermediate
+Fanny Price,Henry Crawford,9.0,14.0,77.0,0.0831332247998914,0.0528756957328385,F,major,M,major
+Maria Bertram,Henry Crawford,8.0,9.0,56.0,0.0729166666666666,0.0515873015873016,F,intermediate,M,major
+Mrs. Rushworth,Mrs. Norris,8.0,4.0,30.0,0.0625,0.05,F,minor,F,intermediate
+Tom Bertram,Henry Crawford,8.0,5.0,33.0,0.0770833333333333,0.0484848484848484,M,intermediate,M,major
+Lady Bertram,Edmund,8.0,11.0,63.0,0.0722222222222222,0.0461760461760461,F,intermediate,M,major
+Fanny Price,Mary Crawford,9.0,29.0,171.0,0.034287656634378,0.0419439403105464,F,major,F,major
+Sir Thomas,Mrs. Norris,9.0,11.0,73.0,0.0501683501683501,0.0348692403486924,M,intermediate,F,intermediate
+Mrs. Grant,Henry Crawford,8.0,7.0,41.0,0.0535714285714285,0.0348432055749129,F,intermediate,M,major
+Mrs. Norris,Sir Thomas,8.0,9.0,61.0,0.0429563492063492,0.0327868852459016,F,intermediate,M,intermediate
+Sir Thomas,Lady Bertram,7.0,9.0,45.0,0.0587868480725623,0.0320987654320988,M,intermediate,F,intermediate
+_unknowable,Mrs. Norris,8.0,3.0,23.0,0.0416666666666666,0.0289855072463768,M,minor,F,intermediate
+Fanny Price,Mr. Rushworth,5.0,5.0,21.0,0.0399999999999999,0.0285714285714285,F,major,M,intermediate

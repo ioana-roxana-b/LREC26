@@ -1,0 +1,1116 @@
+﻿a_speaker,b_speaker,family,n_pairs,n_triggers,n_b_positives_given_trigger,p1,p0,conv,a_gender,a_category,b_gender,b_category
+Admiral,Captain Wentworth,adverbs,2,2,2,1.0,1.0,0.0,,,M,major
+Admiral,Captain Wentworth,auxiliary_verbs,2,2,2,1.0,1.0,0.0,,,M,major
+Admiral,Captain Wentworth,personal_pronouns,2,2,2,1.0,1.0,0.0,,,M,major
+Anne Elliot,Elizabeth,personal_pronouns,2,2,2,1.0,1.0,0.0,F,major,F,minor
+Anne Elliot,Mary Musgrove,auxiliary_verbs,2,2,2,1.0,1.0,0.0,F,major,F,intermediate
+Anne Elliot,Mary Musgrove,conjunctions,2,2,2,1.0,1.0,0.0,F,major,F,intermediate
+Anne Elliot,Mary Musgrove,impersonal_pronouns,2,2,2,1.0,1.0,0.0,F,major,F,intermediate
+Anne Elliot,Mary Musgrove,personal_pronouns,2,2,2,1.0,1.0,0.0,F,major,F,intermediate
+Anne Elliot,Mary Musgrove,prepositions,2,2,2,1.0,1.0,0.0,F,major,F,intermediate
+Anne Elliot,Mr Shepherd,adverbs,2,2,2,1.0,1.0,0.0,F,major,M,minor
+Anne Steele,Elinor,adverbs,6,6,4,0.6666666666666666,0.6666666666666666,0.0,F,intermediate,F,major
+Anne Steele,Elinor,auxiliary_verbs,6,6,6,1.0,1.0,0.0,F,intermediate,F,major
+Anne Steele,Elinor,conjunctions,6,5,4,0.8,0.8333333333333334,-0.033333333333333326,F,intermediate,F,major
+Anne Steele,Elinor,impersonal_pronouns,6,5,3,0.6,0.6666666666666666,-0.06666666666666665,F,intermediate,F,major
+Anne Steele,Elinor,negations,6,3,2,0.6666666666666666,0.6666666666666666,0.0,F,intermediate,F,major
+Anne Steele,Elinor,personal_pronouns,6,6,6,1.0,1.0,0.0,F,intermediate,F,major
+Anne Steele,Lucy Steele,articles,2,2,2,1.0,1.0,0.0,F,intermediate,F,intermediate
+Anne Steele,Lucy Steele,auxiliary_verbs,2,2,2,1.0,1.0,0.0,F,intermediate,F,intermediate
+Captain Wentworth,Admiral,auxiliary_verbs,2,2,2,1.0,1.0,0.0,M,major,,
+Captain Wentworth,Admiral,conjunctions,2,2,2,1.0,1.0,0.0,M,major,,
+Captain Wentworth,Admiral,impersonal_pronouns,2,2,2,1.0,1.0,0.0,M,major,,
+Captain Wentworth,Admiral,personal_pronouns,2,2,2,1.0,1.0,0.0,M,major,,
+Captain Wentworth,Admiral,prepositions,2,2,2,1.0,1.0,0.0,M,major,,
+Captain Wentworth,Anne Elliot,adverbs,4,3,3,1.0,1.0,0.0,M,major,F,major
+Captain Wentworth,Anne Elliot,articles,4,4,3,0.75,0.75,0.0,M,major,F,major
+Captain Wentworth,Anne Elliot,auxiliary_verbs,4,4,4,1.0,1.0,0.0,M,major,F,major
+Captain Wentworth,Anne Elliot,impersonal_pronouns,4,2,2,1.0,1.0,0.0,M,major,F,major
+Captain Wentworth,Anne Elliot,negations,4,3,2,0.6666666666666666,0.5,0.16666666666666663,M,major,F,major
+Captain Wentworth,Anne Elliot,personal_pronouns,4,4,4,1.0,1.0,0.0,M,major,F,major
+Captain Wentworth,Anne Elliot,prepositions,4,3,3,1.0,1.0,0.0,M,major,F,major
+Captain Wentworth,Mary Musgrove,personal_pronouns,2,2,2,1.0,1.0,0.0,M,major,F,intermediate
+Catherine Morland,Eleanor Tilney,adverbs,7,5,5,1.0,1.0,0.0,F,major,F,intermediate
+Catherine Morland,Eleanor Tilney,articles,7,4,4,1.0,1.0,0.0,F,major,F,intermediate
+Catherine Morland,Eleanor Tilney,auxiliary_verbs,7,5,5,1.0,1.0,0.0,F,major,F,intermediate
+Catherine Morland,Eleanor Tilney,conjunctions,7,5,5,1.0,1.0,0.0,F,major,F,intermediate
+Catherine Morland,Eleanor Tilney,impersonal_pronouns,7,4,4,1.0,1.0,0.0,F,major,F,intermediate
+Catherine Morland,Eleanor Tilney,personal_pronouns,7,6,6,1.0,1.0,0.0,F,major,F,intermediate
+Catherine Morland,Eleanor Tilney,prepositions,7,3,2,0.6666666666666666,0.8571428571428571,-0.19047619047619047,F,major,F,intermediate
+Catherine Morland,Henry Tilney,adverbs,8,8,6,0.75,0.75,0.0,F,major,M,major
+Catherine Morland,Henry Tilney,articles,8,5,4,0.8,0.875,-0.07499999999999996,F,major,M,major
+Catherine Morland,Henry Tilney,auxiliary_verbs,8,8,8,1.0,1.0,0.0,F,major,M,major
+Catherine Morland,Henry Tilney,conjunctions,8,6,6,1.0,1.0,0.0,F,major,M,major
+Catherine Morland,Henry Tilney,impersonal_pronouns,8,6,4,0.6666666666666666,0.75,-0.08333333333333337,F,major,M,major
+Catherine Morland,Henry Tilney,negations,8,4,2,0.5,0.5,0.0,F,major,M,major
+Catherine Morland,Henry Tilney,personal_pronouns,8,8,8,1.0,1.0,0.0,F,major,M,major
+Catherine Morland,Henry Tilney,prepositions,8,6,6,1.0,1.0,0.0,F,major,M,major
+Catherine Morland,Isabella Thorpe,adverbs,5,3,3,1.0,1.0,0.0,F,major,F,major
+Catherine Morland,Isabella Thorpe,articles,5,2,2,1.0,0.6,0.4,F,major,F,major
+Catherine Morland,Isabella Thorpe,auxiliary_verbs,5,4,4,1.0,1.0,0.0,F,major,F,major
+Catherine Morland,Isabella Thorpe,impersonal_pronouns,5,3,2,0.6666666666666666,0.6,0.06666666666666665,F,major,F,major
+Catherine Morland,Isabella Thorpe,personal_pronouns,5,5,5,1.0,1.0,0.0,F,major,F,major
+Catherine Morland,Isabella Thorpe,prepositions,5,2,2,1.0,0.8,0.19999999999999996,F,major,F,major
+Catherine Morland,John Thorpe,adverbs,6,5,4,0.8,0.6666666666666666,0.13333333333333341,F,major,M,intermediate
+Catherine Morland,John Thorpe,auxiliary_verbs,6,6,6,1.0,1.0,0.0,F,major,M,intermediate
+Catherine Morland,John Thorpe,impersonal_pronouns,6,4,4,1.0,1.0,0.0,F,major,M,intermediate
+Catherine Morland,John Thorpe,personal_pronouns,6,6,6,1.0,1.0,0.0,F,major,M,intermediate
+Catherine Morland,John Thorpe,prepositions,6,3,3,1.0,0.8333333333333334,0.16666666666666663,F,major,M,intermediate
+Catherine Morland,Mrs. Allen,auxiliary_verbs,3,2,2,1.0,1.0,0.0,F,major,F,intermediate
+Catherine Morland,Mrs. Allen,personal_pronouns,3,2,2,1.0,1.0,0.0,F,major,F,intermediate
+Catherine Morland,Mrs. Thorpe,auxiliary_verbs,2,2,2,1.0,1.0,0.0,F,major,F,minor
+Catherine Morland,Mrs. Thorpe,conjunctions,2,2,2,1.0,1.0,0.0,F,major,F,minor
+Catherine Morland,Mrs. Thorpe,impersonal_pronouns,2,2,2,1.0,1.0,0.0,F,major,F,minor
+Catherine Morland,Mrs. Thorpe,personal_pronouns,2,2,2,1.0,1.0,0.0,F,major,F,minor
+Charles Musgrove,Anne Elliot,adverbs,4,3,3,1.0,1.0,0.0,M,intermediate,F,major
+Charles Musgrove,Anne Elliot,articles,4,4,3,0.75,0.75,0.0,M,intermediate,F,major
+Charles Musgrove,Anne Elliot,auxiliary_verbs,4,4,4,1.0,1.0,0.0,M,intermediate,F,major
+Charles Musgrove,Anne Elliot,conjunctions,4,4,4,1.0,1.0,0.0,M,intermediate,F,major
+Charles Musgrove,Anne Elliot,impersonal_pronouns,4,4,4,1.0,1.0,0.0,M,intermediate,F,major
+Charles Musgrove,Anne Elliot,negations,4,4,4,1.0,1.0,0.0,M,intermediate,F,major
+Charles Musgrove,Anne Elliot,personal_pronouns,4,4,4,1.0,1.0,0.0,M,intermediate,F,major
+Charles Musgrove,Anne Elliot,prepositions,4,4,4,1.0,1.0,0.0,M,intermediate,F,major
+Charles Musgrove,Captain Wentworth,auxiliary_verbs,2,2,2,1.0,1.0,0.0,M,intermediate,M,major
+Charles Musgrove,Captain Wentworth,prepositions,2,2,2,1.0,1.0,0.0,M,intermediate,M,major
+Charles Musgrove,Lady Russell,auxiliary_verbs,2,2,2,1.0,1.0,0.0,M,intermediate,F,minor
+Charles Musgrove,Lady Russell,conjunctions,2,2,2,1.0,1.0,0.0,M,intermediate,F,minor
+Charles Musgrove,Lady Russell,personal_pronouns,2,2,2,1.0,1.0,0.0,M,intermediate,F,minor
+Charlotte,Elinor,adverbs,2,2,2,1.0,1.0,0.0,F,intermediate,F,major
+Charlotte,Elinor,auxiliary_verbs,2,2,2,1.0,1.0,0.0,F,intermediate,F,major
+Charlotte,Elinor,conjunctions,2,2,2,1.0,1.0,0.0,F,intermediate,F,major
+Charlotte,Elinor,impersonal_pronouns,2,2,2,1.0,1.0,0.0,F,intermediate,F,major
+Charlotte,Elinor,personal_pronouns,2,2,2,1.0,1.0,0.0,F,intermediate,F,major
+Charlotte,Elinor,prepositions,2,2,2,1.0,1.0,0.0,F,intermediate,F,major
+Charlotte Lucas,Elizabeth,adverbs,4,3,3,1.0,1.0,0.0,F,intermediate,F,major
+Charlotte Lucas,Elizabeth,articles,4,2,2,1.0,0.75,0.25,F,intermediate,F,major
+Charlotte Lucas,Elizabeth,auxiliary_verbs,4,4,4,1.0,1.0,0.0,F,intermediate,F,major
+Charlotte Lucas,Elizabeth,impersonal_pronouns,4,3,2,0.6666666666666666,0.75,-0.08333333333333337,F,intermediate,F,major
+Charlotte Lucas,Elizabeth,personal_pronouns,4,3,3,1.0,1.0,0.0,F,intermediate,F,major
+Charlotte Lucas,Elizabeth,prepositions,4,2,2,1.0,1.0,0.0,F,intermediate,F,major
+Colonel Brandon,Elinor,adverbs,3,3,3,1.0,1.0,0.0,M,intermediate,F,major
+Colonel Brandon,Elinor,auxiliary_verbs,3,3,3,1.0,1.0,0.0,M,intermediate,F,major
+Colonel Brandon,Elinor,conjunctions,3,2,2,1.0,0.6666666666666666,0.33333333333333337,M,intermediate,F,major
+Colonel Brandon,Elinor,impersonal_pronouns,3,3,2,0.6666666666666666,0.6666666666666666,0.0,M,intermediate,F,major
+Colonel Brandon,Elinor,negations,3,3,2,0.6666666666666666,0.6666666666666666,0.0,M,intermediate,F,major
+Colonel Brandon,Elinor,personal_pronouns,3,3,3,1.0,1.0,0.0,M,intermediate,F,major
+Colonel Brandon,Elinor,prepositions,3,2,2,1.0,1.0,0.0,M,intermediate,F,major
+Colonel Brandon,Mrs. Jennings,adverbs,2,2,2,1.0,1.0,0.0,M,intermediate,F,intermediate
+Colonel Brandon,Mrs. Jennings,auxiliary_verbs,2,2,2,1.0,1.0,0.0,M,intermediate,F,intermediate
+Colonel Brandon,Mrs. Jennings,personal_pronouns,2,2,2,1.0,1.0,0.0,M,intermediate,F,intermediate
+Colonel Brandon,Mrs. Jennings,prepositions,2,2,2,1.0,1.0,0.0,M,intermediate,F,intermediate
+Colonel Fitzwilliam,Elizabeth,auxiliary_verbs,2,2,2,1.0,1.0,0.0,M,intermediate,F,major
+Colonel Fitzwilliam,Elizabeth,conjunctions,2,2,2,1.0,1.0,0.0,M,intermediate,F,major
+Colonel Fitzwilliam,Elizabeth,negations,2,2,2,1.0,1.0,0.0,M,intermediate,F,major
+Colonel Fitzwilliam,Elizabeth,personal_pronouns,2,2,2,1.0,1.0,0.0,M,intermediate,F,major
+Colonel Fitzwilliam,Elizabeth,prepositions,2,2,2,1.0,1.0,0.0,M,intermediate,F,major
+Colonel Fitzwilliam,Mr. Darcy,personal_pronouns,2,2,2,1.0,1.0,0.0,M,intermediate,M,major
+Edmund,Fanny Price,adverbs,10,9,4,0.4444444444444444,0.4,0.0444444444444444,M,major,F,major
+Edmund,Fanny Price,articles,10,8,4,0.5,0.6,-0.09999999999999998,M,major,F,major
+Edmund,Fanny Price,auxiliary_verbs,10,9,8,0.8888888888888888,0.9,-0.011111111111111183,M,major,F,major
+Edmund,Fanny Price,conjunctions,10,10,8,0.8,0.8,0.0,M,major,F,major
+Edmund,Fanny Price,impersonal_pronouns,10,7,4,0.5714285714285714,0.4,0.17142857142857137,M,major,F,major
+Edmund,Fanny Price,personal_pronouns,10,10,9,0.9,0.9,0.0,M,major,F,major
+Edmund,Fanny Price,prepositions,10,10,8,0.8,0.8,0.0,M,major,F,major
+Edmund,Henry Crawford,adverbs,3,3,3,1.0,1.0,0.0,M,major,M,major
+Edmund,Henry Crawford,auxiliary_verbs,3,3,3,1.0,1.0,0.0,M,major,M,major
+Edmund,Henry Crawford,conjunctions,3,3,3,1.0,1.0,0.0,M,major,M,major
+Edmund,Henry Crawford,impersonal_pronouns,3,3,3,1.0,1.0,0.0,M,major,M,major
+Edmund,Henry Crawford,personal_pronouns,3,3,3,1.0,1.0,0.0,M,major,M,major
+Edmund,Henry Crawford,prepositions,3,2,2,1.0,1.0,0.0,M,major,M,major
+Edmund,Lady Bertram,articles,4,4,3,0.75,0.75,0.0,M,major,F,intermediate
+Edmund,Lady Bertram,auxiliary_verbs,4,4,3,0.75,0.75,0.0,M,major,F,intermediate
+Edmund,Lady Bertram,conjunctions,4,3,2,0.6666666666666666,0.75,-0.08333333333333337,M,major,F,intermediate
+Edmund,Lady Bertram,impersonal_pronouns,4,3,3,1.0,1.0,0.0,M,major,F,intermediate
+Edmund,Lady Bertram,personal_pronouns,4,4,4,1.0,1.0,0.0,M,major,F,intermediate
+Edmund,Lady Bertram,prepositions,4,4,4,1.0,1.0,0.0,M,major,F,intermediate
+Edmund,Maria Bertram,auxiliary_verbs,3,3,3,1.0,1.0,0.0,M,major,F,intermediate
+Edmund,Maria Bertram,conjunctions,3,3,3,1.0,1.0,0.0,M,major,F,intermediate
+Edmund,Maria Bertram,impersonal_pronouns,3,3,3,1.0,1.0,0.0,M,major,F,intermediate
+Edmund,Maria Bertram,personal_pronouns,3,3,3,1.0,1.0,0.0,M,major,F,intermediate
+Edmund,Maria Bertram,prepositions,3,2,2,1.0,0.6666666666666666,0.33333333333333337,M,major,F,intermediate
+Edmund,Mary Crawford,adverbs,5,5,5,1.0,1.0,0.0,M,major,F,major
+Edmund,Mary Crawford,articles,5,5,3,0.6,0.6,0.0,M,major,F,major
+Edmund,Mary Crawford,auxiliary_verbs,5,5,5,1.0,1.0,0.0,M,major,F,major
+Edmund,Mary Crawford,conjunctions,5,4,3,0.75,0.6,0.15000000000000002,M,major,F,major
+Edmund,Mary Crawford,impersonal_pronouns,5,5,4,0.8,0.8,0.0,M,major,F,major
+Edmund,Mary Crawford,negations,5,4,2,0.5,0.6,-0.09999999999999998,M,major,F,major
+Edmund,Mary Crawford,personal_pronouns,5,5,5,1.0,1.0,0.0,M,major,F,major
+Edmund,Mary Crawford,prepositions,5,5,4,0.8,0.8,0.0,M,major,F,major
+Edmund,Mrs. Norris,auxiliary_verbs,4,3,3,1.0,1.0,0.0,M,major,F,intermediate
+Edmund,Mrs. Norris,conjunctions,4,3,3,1.0,1.0,0.0,M,major,F,intermediate
+Edmund,Mrs. Norris,impersonal_pronouns,4,4,4,1.0,1.0,0.0,M,major,F,intermediate
+Edmund,Mrs. Norris,personal_pronouns,4,4,4,1.0,1.0,0.0,M,major,F,intermediate
+Edmund,Mrs. Norris,prepositions,4,2,2,1.0,1.0,0.0,M,major,F,intermediate
+Edmund,Tom Bertram,adverbs,4,2,2,1.0,1.0,0.0,M,major,M,intermediate
+Edmund,Tom Bertram,auxiliary_verbs,4,4,4,1.0,1.0,0.0,M,major,M,intermediate
+Edmund,Tom Bertram,conjunctions,4,3,2,0.6666666666666666,0.75,-0.08333333333333337,M,major,M,intermediate
+Edmund,Tom Bertram,impersonal_pronouns,4,3,3,1.0,1.0,0.0,M,major,M,intermediate
+Edmund,Tom Bertram,personal_pronouns,4,3,3,1.0,1.0,0.0,M,major,M,intermediate
+Edmund,Tom Bertram,prepositions,4,3,3,1.0,1.0,0.0,M,major,M,intermediate
+Edward Ferrars,Elinor,adverbs,7,7,6,0.8571428571428571,0.8571428571428571,0.0,M,intermediate,F,major
+Edward Ferrars,Elinor,articles,7,7,5,0.7142857142857143,0.7142857142857143,0.0,M,intermediate,F,major
+Edward Ferrars,Elinor,auxiliary_verbs,7,7,5,0.7142857142857143,0.7142857142857143,0.0,M,intermediate,F,major
+Edward Ferrars,Elinor,conjunctions,7,5,4,0.8,0.8571428571428571,-0.05714285714285705,M,intermediate,F,major
+Edward Ferrars,Elinor,impersonal_pronouns,7,4,4,1.0,0.8571428571428571,0.1428571428571429,M,intermediate,F,major
+Edward Ferrars,Elinor,personal_pronouns,7,7,7,1.0,1.0,0.0,M,intermediate,F,major
+Edward Ferrars,Elinor,prepositions,7,6,6,1.0,1.0,0.0,M,intermediate,F,major
+Edward Ferrars,Marianne,adverbs,2,2,2,1.0,1.0,0.0,M,intermediate,F,major
+Edward Ferrars,Marianne,articles,2,2,2,1.0,1.0,0.0,M,intermediate,F,major
+Edward Ferrars,Marianne,auxiliary_verbs,2,2,2,1.0,1.0,0.0,M,intermediate,F,major
+Edward Ferrars,Marianne,conjunctions,2,2,2,1.0,1.0,0.0,M,intermediate,F,major
+Edward Ferrars,Marianne,personal_pronouns,2,2,2,1.0,1.0,0.0,M,intermediate,F,major
+Edward Ferrars,Marianne,prepositions,2,2,2,1.0,1.0,0.0,M,intermediate,F,major
+Eleanor Tilney,Catherine Morland,adverbs,5,5,4,0.8,0.8,0.0,F,intermediate,F,major
+Eleanor Tilney,Catherine Morland,articles,5,5,3,0.6,0.6,0.0,F,intermediate,F,major
+Eleanor Tilney,Catherine Morland,auxiliary_verbs,5,5,5,1.0,1.0,0.0,F,intermediate,F,major
+Eleanor Tilney,Catherine Morland,conjunctions,5,5,4,0.8,0.8,0.0,F,intermediate,F,major
+Eleanor Tilney,Catherine Morland,impersonal_pronouns,5,4,4,1.0,0.8,0.19999999999999996,F,intermediate,F,major
+Eleanor Tilney,Catherine Morland,negations,5,2,2,1.0,1.0,0.0,F,intermediate,F,major
+Eleanor Tilney,Catherine Morland,personal_pronouns,5,5,5,1.0,1.0,0.0,F,intermediate,F,major
+Eleanor Tilney,Catherine Morland,prepositions,5,5,3,0.6,0.6,0.0,F,intermediate,F,major
+Eleanor Tilney,Henry Tilney,adverbs,5,2,2,1.0,1.0,0.0,F,intermediate,M,major
+Eleanor Tilney,Henry Tilney,articles,5,4,4,1.0,1.0,0.0,F,intermediate,M,major
+Eleanor Tilney,Henry Tilney,auxiliary_verbs,5,5,5,1.0,1.0,0.0,F,intermediate,M,major
+Eleanor Tilney,Henry Tilney,conjunctions,5,4,4,1.0,1.0,0.0,F,intermediate,M,major
+Eleanor Tilney,Henry Tilney,impersonal_pronouns,5,3,2,0.6666666666666666,0.8,-0.13333333333333341,F,intermediate,M,major
+Eleanor Tilney,Henry Tilney,personal_pronouns,5,5,5,1.0,1.0,0.0,F,intermediate,M,major
+Eleanor Tilney,Henry Tilney,prepositions,5,5,5,1.0,1.0,0.0,F,intermediate,M,major
+Elinor,Edward Ferrars,adverbs,6,3,3,1.0,0.6666666666666666,0.33333333333333337,F,major,M,intermediate
+Elinor,Edward Ferrars,articles,6,3,2,0.6666666666666666,0.8333333333333334,-0.16666666666666674,F,major,M,intermediate
+Elinor,Edward Ferrars,auxiliary_verbs,6,5,5,1.0,1.0,0.0,F,major,M,intermediate
+Elinor,Edward Ferrars,conjunctions,6,4,4,1.0,1.0,0.0,F,major,M,intermediate
+Elinor,Edward Ferrars,impersonal_pronouns,6,5,3,0.6,0.6666666666666666,-0.06666666666666665,F,major,M,intermediate
+Elinor,Edward Ferrars,negations,6,3,2,0.6666666666666666,0.8333333333333334,-0.16666666666666674,F,major,M,intermediate
+Elinor,Edward Ferrars,personal_pronouns,6,6,6,1.0,1.0,0.0,F,major,M,intermediate
+Elinor,Edward Ferrars,prepositions,6,5,5,1.0,0.8333333333333334,0.16666666666666663,F,major,M,intermediate
+Elinor,Lucy Steele,adverbs,5,4,4,1.0,1.0,0.0,F,major,F,intermediate
+Elinor,Lucy Steele,auxiliary_verbs,5,4,4,1.0,1.0,0.0,F,major,F,intermediate
+Elinor,Lucy Steele,conjunctions,5,4,3,0.75,0.8,-0.050000000000000044,F,major,F,intermediate
+Elinor,Lucy Steele,impersonal_pronouns,5,3,2,0.6666666666666666,0.6,0.06666666666666665,F,major,F,intermediate
+Elinor,Lucy Steele,personal_pronouns,5,5,5,1.0,1.0,0.0,F,major,F,intermediate
+Elinor,Lucy Steele,prepositions,5,3,2,0.6666666666666666,0.8,-0.13333333333333341,F,major,F,intermediate
+Elinor,Marianne,adverbs,11,8,4,0.5,0.5454545454545454,-0.045454545454545414,F,major,F,major
+Elinor,Marianne,auxiliary_verbs,11,11,8,0.7272727272727273,0.7272727272727273,0.0,F,major,F,major
+Elinor,Marianne,conjunctions,11,6,3,0.5,0.5454545454545454,-0.045454545454545414,F,major,F,major
+Elinor,Marianne,impersonal_pronouns,11,7,4,0.5714285714285714,0.5454545454545454,0.025974025974025983,F,major,F,major
+Elinor,Marianne,negations,11,7,3,0.42857142857142855,0.45454545454545453,-0.025974025974025983,F,major,F,major
+Elinor,Marianne,personal_pronouns,11,10,6,0.6,0.6363636363636364,-0.036363636363636376,F,major,F,major
+Elinor,Marianne,prepositions,11,9,4,0.4444444444444444,0.45454545454545453,-0.01010101010101011,F,major,F,major
+Elinor,Mrs. Dashwood,adverbs,10,8,5,0.625,0.6,0.025000000000000022,F,major,F,intermediate
+Elinor,Mrs. Dashwood,articles,10,8,5,0.625,0.7,-0.07499999999999996,F,major,F,intermediate
+Elinor,Mrs. Dashwood,auxiliary_verbs,10,10,10,1.0,1.0,0.0,F,major,F,intermediate
+Elinor,Mrs. Dashwood,conjunctions,10,8,7,0.875,0.9,-0.025000000000000022,F,major,F,intermediate
+Elinor,Mrs. Dashwood,impersonal_pronouns,10,10,7,0.7,0.7,0.0,F,major,F,intermediate
+Elinor,Mrs. Dashwood,negations,10,4,2,0.5,0.4,0.09999999999999998,F,major,F,intermediate
+Elinor,Mrs. Dashwood,personal_pronouns,10,10,10,1.0,1.0,0.0,F,major,F,intermediate
+Elinor,Mrs. Dashwood,prepositions,10,9,7,0.7777777777777778,0.8,-0.022222222222222254,F,major,F,intermediate
+Elinor,Mrs. Jennings,auxiliary_verbs,3,2,2,1.0,1.0,0.0,F,major,F,intermediate
+Elinor,Mrs. Jennings,personal_pronouns,3,2,2,1.0,1.0,0.0,F,major,F,intermediate
+Elizabeth,Anne Elliot,articles,2,2,2,1.0,1.0,0.0,F,minor,F,major
+Elizabeth,Anne Elliot,auxiliary_verbs,2,2,2,1.0,1.0,0.0,F,minor,F,major
+Elizabeth,Anne Elliot,personal_pronouns,2,2,2,1.0,1.0,0.0,F,minor,F,major
+Elizabeth,Anne Elliot,prepositions,2,2,2,1.0,1.0,0.0,F,minor,F,major
+Elizabeth,Colonel Fitzwilliam,auxiliary_verbs,2,2,2,1.0,1.0,0.0,F,major,M,intermediate
+Elizabeth,Colonel Fitzwilliam,personal_pronouns,2,2,2,1.0,1.0,0.0,F,major,M,intermediate
+Elizabeth,Colonel Fitzwilliam,prepositions,2,2,2,1.0,1.0,0.0,F,major,M,intermediate
+Elizabeth,Jane,articles,7,5,3,0.6,0.5714285714285714,0.02857142857142858,F,major,F,intermediate
+Elizabeth,Jane,auxiliary_verbs,7,6,5,0.8333333333333334,0.8571428571428571,-0.023809523809523725,F,major,F,intermediate
+Elizabeth,Jane,conjunctions,7,6,3,0.5,0.5714285714285714,-0.0714285714285714,F,major,F,intermediate
+Elizabeth,Jane,impersonal_pronouns,7,4,2,0.5,0.5714285714285714,-0.0714285714285714,F,major,F,intermediate
+Elizabeth,Jane,personal_pronouns,7,4,4,1.0,1.0,0.0,F,major,F,intermediate
+Elizabeth,Jane,prepositions,7,2,2,1.0,0.7142857142857143,0.2857142857142857,F,major,F,intermediate
+Elizabeth,Lydia,adverbs,2,2,2,1.0,1.0,0.0,F,major,F,intermediate
+Elizabeth,Lydia,auxiliary_verbs,2,2,2,1.0,1.0,0.0,F,major,F,intermediate
+Elizabeth,Lydia,conjunctions,2,2,2,1.0,1.0,0.0,F,major,F,intermediate
+Elizabeth,Lydia,impersonal_pronouns,2,2,2,1.0,1.0,0.0,F,major,F,intermediate
+Elizabeth,Lydia,personal_pronouns,2,2,2,1.0,1.0,0.0,F,major,F,intermediate
+Elizabeth,Lydia,prepositions,2,2,2,1.0,1.0,0.0,F,major,F,intermediate
+Elizabeth,Miss Bingley,adverbs,6,3,3,1.0,0.6666666666666666,0.33333333333333337,F,major,F,intermediate
+Elizabeth,Miss Bingley,articles,6,4,4,1.0,1.0,0.0,F,major,F,intermediate
+Elizabeth,Miss Bingley,auxiliary_verbs,6,5,5,1.0,1.0,0.0,F,major,F,intermediate
+Elizabeth,Miss Bingley,conjunctions,6,5,4,0.8,0.8333333333333334,-0.033333333333333326,F,major,F,intermediate
+Elizabeth,Miss Bingley,personal_pronouns,6,5,5,1.0,1.0,0.0,F,major,F,intermediate
+Elizabeth,Miss Bingley,prepositions,6,5,5,1.0,0.8333333333333334,0.16666666666666663,F,major,F,intermediate
+Elizabeth,Mr. Bennet,auxiliary_verbs,4,3,3,1.0,1.0,0.0,F,major,M,intermediate
+Elizabeth,Mr. Bennet,conjunctions,4,3,3,1.0,1.0,0.0,F,major,M,intermediate
+Elizabeth,Mr. Bennet,personal_pronouns,4,3,3,1.0,1.0,0.0,F,major,M,intermediate
+Elizabeth,Mr. Bingley,articles,4,3,2,0.6666666666666666,0.75,-0.08333333333333337,F,major,M,intermediate
+Elizabeth,Mr. Bingley,auxiliary_verbs,4,4,3,0.75,0.75,0.0,F,major,M,intermediate
+Elizabeth,Mr. Bingley,conjunctions,4,3,2,0.6666666666666666,0.75,-0.08333333333333337,F,major,M,intermediate
+Elizabeth,Mr. Bingley,impersonal_pronouns,4,3,2,0.6666666666666666,0.5,0.16666666666666663,F,major,M,intermediate
+Elizabeth,Mr. Bingley,negations,4,3,2,0.6666666666666666,0.5,0.16666666666666663,F,major,M,intermediate
+Elizabeth,Mr. Bingley,personal_pronouns,4,4,4,1.0,1.0,0.0,F,major,M,intermediate
+Elizabeth,Mr. Bingley,prepositions,4,3,3,1.0,1.0,0.0,F,major,M,intermediate
+Elizabeth,Mr. Collins,auxiliary_verbs,3,3,3,1.0,1.0,0.0,F,major,M,intermediate
+Elizabeth,Mr. Collins,negations,3,2,2,1.0,1.0,0.0,F,major,M,intermediate
+Elizabeth,Mr. Collins,personal_pronouns,3,3,3,1.0,1.0,0.0,F,major,M,intermediate
+Elizabeth,Mr. Collins,prepositions,3,3,3,1.0,1.0,0.0,F,major,M,intermediate
+Elizabeth,Mr. Darcy,adverbs,5,4,3,0.75,0.8,-0.050000000000000044,F,major,M,major
+Elizabeth,Mr. Darcy,articles,5,5,4,0.8,0.8,0.0,F,major,M,major
+Elizabeth,Mr. Darcy,auxiliary_verbs,5,4,4,1.0,1.0,0.0,F,major,M,major
+Elizabeth,Mr. Darcy,conjunctions,5,5,3,0.6,0.6,0.0,F,major,M,major
+Elizabeth,Mr. Darcy,impersonal_pronouns,5,4,3,0.75,0.6,0.15000000000000002,F,major,M,major
+Elizabeth,Mr. Darcy,personal_pronouns,5,5,4,0.8,0.8,0.0,F,major,M,major
+Elizabeth,Mr. Darcy,prepositions,5,4,4,1.0,1.0,0.0,F,major,M,major
+Elizabeth,Mr. Gardiner,adverbs,3,3,3,1.0,1.0,0.0,F,major,M,minor
+Elizabeth,Mr. Gardiner,auxiliary_verbs,3,2,2,1.0,1.0,0.0,F,major,M,minor
+Elizabeth,Mr. Gardiner,personal_pronouns,3,2,2,1.0,1.0,0.0,F,major,M,minor
+Elizabeth,Mrs. Bennet,auxiliary_verbs,3,2,2,1.0,1.0,0.0,F,major,F,major
+Elizabeth,Mrs. Bennet,personal_pronouns,3,3,3,1.0,1.0,0.0,F,major,F,major
+Elizabeth,Mrs. Bennet,prepositions,3,2,2,1.0,0.6666666666666666,0.33333333333333337,F,major,F,major
+Elizabeth,Sir Walter Elliot,conjunctions,3,2,2,1.0,1.0,0.0,F,minor,M,intermediate
+Emma,Harriet Smith,auxiliary_verbs,3,2,2,1.0,1.0,0.0,F,major,F,major
+Emma,Harriet Smith,conjunctions,3,3,2,0.6666666666666666,0.6666666666666666,0.0,F,major,F,major
+Emma,Harriet Smith,impersonal_pronouns,3,3,2,0.6666666666666666,0.6666666666666666,0.0,F,major,F,major
+Emma,Harriet Smith,personal_pronouns,3,3,3,1.0,1.0,0.0,F,major,F,major
+Emma,Isabella,adverbs,3,2,2,1.0,1.0,0.0,F,major,F,intermediate
+Emma,Isabella,auxiliary_verbs,3,3,3,1.0,1.0,0.0,F,major,F,intermediate
+Emma,Isabella,conjunctions,3,2,2,1.0,1.0,0.0,F,major,F,intermediate
+Emma,Isabella,impersonal_pronouns,3,3,3,1.0,1.0,0.0,F,major,F,intermediate
+Emma,Isabella,personal_pronouns,3,3,3,1.0,1.0,0.0,F,major,F,intermediate
+Emma,Jane Fairfax,personal_pronouns,2,2,2,1.0,1.0,0.0,F,major,F,intermediate
+Emma,Miss Bates,adverbs,4,2,2,1.0,1.0,0.0,F,major,F,intermediate
+Emma,Miss Bates,auxiliary_verbs,4,4,4,1.0,1.0,0.0,F,major,F,intermediate
+Emma,Miss Bates,conjunctions,4,2,2,1.0,1.0,0.0,F,major,F,intermediate
+Emma,Miss Bates,impersonal_pronouns,4,3,3,1.0,0.75,0.25,F,major,F,intermediate
+Emma,Miss Bates,personal_pronouns,4,4,4,1.0,1.0,0.0,F,major,F,intermediate
+Emma,Miss Bates,prepositions,4,3,3,1.0,1.0,0.0,F,major,F,intermediate
+Emma,Mr. Elton,adverbs,3,2,2,1.0,1.0,0.0,F,major,M,intermediate
+Emma,Mr. Elton,articles,3,3,3,1.0,1.0,0.0,F,major,M,intermediate
+Emma,Mr. Elton,auxiliary_verbs,3,3,3,1.0,1.0,0.0,F,major,M,intermediate
+Emma,Mr. Elton,conjunctions,3,2,2,1.0,0.6666666666666666,0.33333333333333337,F,major,M,intermediate
+Emma,Mr. Elton,impersonal_pronouns,3,2,2,1.0,1.0,0.0,F,major,M,intermediate
+Emma,Mr. Elton,personal_pronouns,3,3,3,1.0,1.0,0.0,F,major,M,intermediate
+Emma,Mr. Elton,prepositions,3,3,3,1.0,1.0,0.0,F,major,M,intermediate
+Emma,Mr. Frank Churchill,adverbs,9,9,7,0.7777777777777778,0.7777777777777778,0.0,F,major,M,major
+Emma,Mr. Frank Churchill,articles,9,6,5,0.8333333333333334,0.8888888888888888,-0.05555555555555547,F,major,M,major
+Emma,Mr. Frank Churchill,auxiliary_verbs,9,8,8,1.0,1.0,0.0,F,major,M,major
+Emma,Mr. Frank Churchill,conjunctions,9,7,6,0.8571428571428571,0.8888888888888888,-0.031746031746031744,F,major,M,major
+Emma,Mr. Frank Churchill,impersonal_pronouns,9,7,5,0.7142857142857143,0.7777777777777778,-0.06349206349206349,F,major,M,major
+Emma,Mr. Frank Churchill,negations,9,4,2,0.5,0.4444444444444444,0.05555555555555558,F,major,M,major
+Emma,Mr. Frank Churchill,personal_pronouns,9,8,8,1.0,1.0,0.0,F,major,M,major
+Emma,Mr. Frank Churchill,prepositions,9,7,6,0.8571428571428571,0.8888888888888888,-0.031746031746031744,F,major,M,major
+Emma,Mr. John Knightley,auxiliary_verbs,2,2,2,1.0,1.0,0.0,F,major,M,intermediate
+Emma,Mr. John Knightley,conjunctions,2,2,2,1.0,1.0,0.0,F,major,M,intermediate
+Emma,Mr. John Knightley,personal_pronouns,2,2,2,1.0,1.0,0.0,F,major,M,intermediate
+Emma,Mr. John Knightley,prepositions,2,2,2,1.0,1.0,0.0,F,major,M,intermediate
+Emma,Mr. Knightley,adverbs,9,8,6,0.75,0.7777777777777778,-0.02777777777777779,F,major,M,major
+Emma,Mr. Knightley,articles,9,4,3,0.75,0.5555555555555556,0.19444444444444442,F,major,M,major
+Emma,Mr. Knightley,auxiliary_verbs,9,9,9,1.0,1.0,0.0,F,major,M,major
+Emma,Mr. Knightley,conjunctions,9,5,5,1.0,0.7777777777777778,0.2222222222222222,F,major,M,major
+Emma,Mr. Knightley,impersonal_pronouns,9,3,3,1.0,0.7777777777777778,0.2222222222222222,F,major,M,major
+Emma,Mr. Knightley,negations,9,4,3,0.75,0.4444444444444444,0.3055555555555556,F,major,M,major
+Emma,Mr. Knightley,personal_pronouns,9,8,8,1.0,1.0,0.0,F,major,M,major
+Emma,Mr. Knightley,prepositions,9,6,5,0.8333333333333334,0.7777777777777778,0.05555555555555558,F,major,M,major
+Emma,Mr. Weston,adverbs,4,3,2,0.6666666666666666,0.75,-0.08333333333333337,F,major,M,intermediate
+Emma,Mr. Weston,auxiliary_verbs,4,4,4,1.0,1.0,0.0,F,major,M,intermediate
+Emma,Mr. Weston,conjunctions,4,2,2,1.0,1.0,0.0,F,major,M,intermediate
+Emma,Mr. Weston,personal_pronouns,4,4,4,1.0,1.0,0.0,F,major,M,intermediate
+Emma,Mr. Weston,prepositions,4,3,2,0.6666666666666666,0.75,-0.08333333333333337,F,major,M,intermediate
+Emma,Mr. Woodhouse,adverbs,9,7,7,1.0,1.0,0.0,F,major,M,intermediate
+Emma,Mr. Woodhouse,articles,9,6,3,0.5,0.6666666666666666,-0.16666666666666663,F,major,M,intermediate
+Emma,Mr. Woodhouse,auxiliary_verbs,9,9,8,0.8888888888888888,0.8888888888888888,0.0,F,major,M,intermediate
+Emma,Mr. Woodhouse,conjunctions,9,8,8,1.0,0.8888888888888888,0.11111111111111116,F,major,M,intermediate
+Emma,Mr. Woodhouse,impersonal_pronouns,9,7,6,0.8571428571428571,0.7777777777777778,0.0793650793650793,F,major,M,intermediate
+Emma,Mr. Woodhouse,negations,9,6,4,0.6666666666666666,0.6666666666666666,0.0,F,major,M,intermediate
+Emma,Mr. Woodhouse,personal_pronouns,9,8,8,1.0,1.0,0.0,F,major,M,intermediate
+Emma,Mr. Woodhouse,prepositions,9,8,6,0.75,0.7777777777777778,-0.02777777777777779,F,major,M,intermediate
+Emma,Mrs. Weston,articles,3,2,2,1.0,1.0,0.0,F,major,F,intermediate
+Emma,Mrs. Weston,auxiliary_verbs,3,3,3,1.0,1.0,0.0,F,major,F,intermediate
+Emma,Mrs. Weston,conjunctions,3,2,2,1.0,1.0,0.0,F,major,F,intermediate
+Emma,Mrs. Weston,personal_pronouns,3,3,3,1.0,1.0,0.0,F,major,F,intermediate
+Emma,Mrs. Weston,prepositions,3,3,3,1.0,1.0,0.0,F,major,F,intermediate
+Fanny Price,Edmund,adverbs,9,6,6,1.0,1.0,0.0,F,major,M,major
+Fanny Price,Edmund,articles,9,6,5,0.8333333333333334,0.7777777777777778,0.05555555555555558,F,major,M,major
+Fanny Price,Edmund,auxiliary_verbs,9,8,8,1.0,1.0,0.0,F,major,M,major
+Fanny Price,Edmund,conjunctions,9,5,4,0.8,0.6666666666666666,0.13333333333333341,F,major,M,major
+Fanny Price,Edmund,impersonal_pronouns,9,6,5,0.8333333333333334,0.7777777777777778,0.05555555555555558,F,major,M,major
+Fanny Price,Edmund,personal_pronouns,9,8,8,1.0,1.0,0.0,F,major,M,major
+Fanny Price,Edmund,prepositions,9,6,6,1.0,0.8888888888888888,0.11111111111111116,F,major,M,major
+Fanny Price,Henry Crawford,adverbs,3,2,2,1.0,1.0,0.0,F,major,M,major
+Fanny Price,Henry Crawford,auxiliary_verbs,3,2,2,1.0,1.0,0.0,F,major,M,major
+Fanny Price,Henry Crawford,conjunctions,3,3,3,1.0,1.0,0.0,F,major,M,major
+Fanny Price,Henry Crawford,personal_pronouns,3,3,3,1.0,1.0,0.0,F,major,M,major
+Fanny Price,Henry Crawford,prepositions,3,2,2,1.0,1.0,0.0,F,major,M,major
+Fanny Price,Lady Bertram,auxiliary_verbs,3,3,3,1.0,1.0,0.0,F,major,F,intermediate
+Fanny Price,Lady Bertram,conjunctions,3,3,2,0.6666666666666666,0.6666666666666666,0.0,F,major,F,intermediate
+Fanny Price,Lady Bertram,impersonal_pronouns,3,2,2,1.0,0.6666666666666666,0.33333333333333337,F,major,F,intermediate
+Fanny Price,Lady Bertram,personal_pronouns,3,3,3,1.0,1.0,0.0,F,major,F,intermediate
+Fanny Price,Lady Bertram,prepositions,3,3,2,0.6666666666666666,0.6666666666666666,0.0,F,major,F,intermediate
+Fanny Price,Mary Crawford,adverbs,6,4,4,1.0,0.6666666666666666,0.33333333333333337,F,major,F,major
+Fanny Price,Mary Crawford,articles,6,5,2,0.4,0.5,-0.09999999999999998,F,major,F,major
+Fanny Price,Mary Crawford,auxiliary_verbs,6,5,4,0.8,0.8333333333333334,-0.033333333333333326,F,major,F,major
+Fanny Price,Mary Crawford,conjunctions,6,5,3,0.6,0.6666666666666666,-0.06666666666666665,F,major,F,major
+Fanny Price,Mary Crawford,impersonal_pronouns,6,4,3,0.75,0.8333333333333334,-0.08333333333333337,F,major,F,major
+Fanny Price,Mary Crawford,personal_pronouns,6,6,5,0.8333333333333334,0.8333333333333334,0.0,F,major,F,major
+Fanny Price,Mary Crawford,prepositions,6,5,3,0.6,0.6666666666666666,-0.06666666666666665,F,major,F,major
+General Tilney,Catherine Morland,adverbs,5,2,2,1.0,0.8,0.19999999999999996,M,minor,F,major
+General Tilney,Catherine Morland,auxiliary_verbs,5,3,2,0.6666666666666666,0.6,0.06666666666666665,M,minor,F,major
+General Tilney,Catherine Morland,conjunctions,5,3,2,0.6666666666666666,0.8,-0.13333333333333341,M,minor,F,major
+General Tilney,Catherine Morland,personal_pronouns,5,4,2,0.5,0.6,-0.09999999999999998,M,minor,F,major
+George Wickham,Elizabeth,adverbs,3,3,3,1.0,1.0,0.0,M,intermediate,F,major
+George Wickham,Elizabeth,articles,3,3,3,1.0,1.0,0.0,M,intermediate,F,major
+George Wickham,Elizabeth,auxiliary_verbs,3,3,3,1.0,1.0,0.0,M,intermediate,F,major
+George Wickham,Elizabeth,conjunctions,3,3,3,1.0,1.0,0.0,M,intermediate,F,major
+George Wickham,Elizabeth,impersonal_pronouns,3,3,3,1.0,1.0,0.0,M,intermediate,F,major
+George Wickham,Elizabeth,negations,3,3,2,0.6666666666666666,0.6666666666666666,0.0,M,intermediate,F,major
+George Wickham,Elizabeth,personal_pronouns,3,3,3,1.0,1.0,0.0,M,intermediate,F,major
+George Wickham,Elizabeth,prepositions,3,3,3,1.0,1.0,0.0,M,intermediate,F,major
+Harriet Smith,Emma,adverbs,9,6,4,0.6666666666666666,0.7777777777777778,-0.11111111111111116,F,major,F,major
+Harriet Smith,Emma,auxiliary_verbs,9,8,7,0.875,0.8888888888888888,-0.01388888888888884,F,major,F,major
+Harriet Smith,Emma,conjunctions,9,5,4,0.8,0.7777777777777778,0.022222222222222254,F,major,F,major
+Harriet Smith,Emma,impersonal_pronouns,9,6,4,0.6666666666666666,0.6666666666666666,0.0,F,major,F,major
+Harriet Smith,Emma,negations,9,6,3,0.5,0.4444444444444444,0.05555555555555558,F,major,F,major
+Harriet Smith,Emma,personal_pronouns,9,7,6,0.8571428571428571,0.8888888888888888,-0.031746031746031744,F,major,F,major
+Harriet Smith,Emma,prepositions,9,7,4,0.5714285714285714,0.6666666666666666,-0.09523809523809523,F,major,F,major
+Henry Crawford,Fanny Price,adverbs,5,5,3,0.6,0.6,0.0,M,major,F,major
+Henry Crawford,Fanny Price,auxiliary_verbs,5,5,5,1.0,1.0,0.0,M,major,F,major
+Henry Crawford,Fanny Price,conjunctions,5,5,4,0.8,0.8,0.0,M,major,F,major
+Henry Crawford,Fanny Price,impersonal_pronouns,5,5,3,0.6,0.6,0.0,M,major,F,major
+Henry Crawford,Fanny Price,personal_pronouns,5,5,5,1.0,1.0,0.0,M,major,F,major
+Henry Crawford,Mary Crawford,adverbs,4,4,3,0.75,0.75,0.0,M,major,F,major
+Henry Crawford,Mary Crawford,articles,4,3,3,1.0,0.75,0.25,M,major,F,major
+Henry Crawford,Mary Crawford,auxiliary_verbs,4,4,4,1.0,1.0,0.0,M,major,F,major
+Henry Crawford,Mary Crawford,conjunctions,4,4,3,0.75,0.75,0.0,M,major,F,major
+Henry Crawford,Mary Crawford,impersonal_pronouns,4,4,4,1.0,1.0,0.0,M,major,F,major
+Henry Crawford,Mary Crawford,negations,4,4,3,0.75,0.75,0.0,M,major,F,major
+Henry Crawford,Mary Crawford,personal_pronouns,4,4,4,1.0,1.0,0.0,M,major,F,major
+Henry Crawford,Mary Crawford,prepositions,4,4,4,1.0,1.0,0.0,M,major,F,major
+Henry Crawford,Mary Crawford,quantifiers,4,3,2,0.6666666666666666,0.5,0.16666666666666663,M,major,F,major
+Henry Crawford,Mr. Yates,adverbs,2,2,2,1.0,1.0,0.0,M,major,M,minor
+Henry Crawford,Mr. Yates,articles,2,2,2,1.0,1.0,0.0,M,major,M,minor
+Henry Crawford,Mr. Yates,auxiliary_verbs,2,2,2,1.0,1.0,0.0,M,major,M,minor
+Henry Crawford,Mr. Yates,conjunctions,2,2,2,1.0,1.0,0.0,M,major,M,minor
+Henry Crawford,Mr. Yates,impersonal_pronouns,2,2,2,1.0,1.0,0.0,M,major,M,minor
+Henry Crawford,Mr. Yates,personal_pronouns,2,2,2,1.0,1.0,0.0,M,major,M,minor
+Henry Crawford,Mr. Yates,prepositions,2,2,2,1.0,1.0,0.0,M,major,M,minor
+Henry Crawford,Mrs. Norris,adverbs,2,2,2,1.0,1.0,0.0,M,major,F,intermediate
+Henry Crawford,Mrs. Norris,articles,2,2,2,1.0,1.0,0.0,M,major,F,intermediate
+Henry Crawford,Mrs. Norris,auxiliary_verbs,2,2,2,1.0,1.0,0.0,M,major,F,intermediate
+Henry Crawford,Mrs. Norris,conjunctions,2,2,2,1.0,1.0,0.0,M,major,F,intermediate
+Henry Crawford,Mrs. Norris,impersonal_pronouns,2,2,2,1.0,1.0,0.0,M,major,F,intermediate
+Henry Crawford,Mrs. Norris,negations,2,2,2,1.0,1.0,0.0,M,major,F,intermediate
+Henry Crawford,Mrs. Norris,personal_pronouns,2,2,2,1.0,1.0,0.0,M,major,F,intermediate
+Henry Crawford,Mrs. Norris,prepositions,2,2,2,1.0,1.0,0.0,M,major,F,intermediate
+Henry Crawford,Tom Bertram,articles,2,2,2,1.0,1.0,0.0,M,major,M,intermediate
+Henry Crawford,Tom Bertram,auxiliary_verbs,2,2,2,1.0,1.0,0.0,M,major,M,intermediate
+Henry Crawford,Tom Bertram,impersonal_pronouns,2,2,2,1.0,1.0,0.0,M,major,M,intermediate
+Henry Crawford,Tom Bertram,personal_pronouns,2,2,2,1.0,1.0,0.0,M,major,M,intermediate
+Henry Tilney,Catherine Morland,adverbs,12,9,5,0.5555555555555556,0.5833333333333334,-0.02777777777777779,M,major,F,major
+Henry Tilney,Catherine Morland,articles,12,10,5,0.5,0.5,0.0,M,major,F,major
+Henry Tilney,Catherine Morland,auxiliary_verbs,12,12,8,0.6666666666666666,0.6666666666666666,0.0,M,major,F,major
+Henry Tilney,Catherine Morland,conjunctions,12,11,7,0.6363636363636364,0.6666666666666666,-0.030303030303030276,M,major,F,major
+Henry Tilney,Catherine Morland,impersonal_pronouns,12,7,4,0.5714285714285714,0.5,0.0714285714285714,M,major,F,major
+Henry Tilney,Catherine Morland,negations,12,5,3,0.6,0.5,0.09999999999999998,M,major,F,major
+Henry Tilney,Catherine Morland,personal_pronouns,12,12,11,0.9166666666666666,0.9166666666666666,0.0,M,major,F,major
+Henry Tilney,Catherine Morland,prepositions,12,11,6,0.5454545454545454,0.5,0.045454545454545414,M,major,F,major
+Isabella,Emma,adverbs,7,7,6,0.8571428571428571,0.8571428571428571,0.0,F,intermediate,F,major
+Isabella,Emma,articles,7,6,5,0.8333333333333334,0.8571428571428571,-0.023809523809523725,F,intermediate,F,major
+Isabella,Emma,auxiliary_verbs,7,7,7,1.0,1.0,0.0,F,intermediate,F,major
+Isabella,Emma,conjunctions,7,7,5,0.7142857142857143,0.7142857142857143,0.0,F,intermediate,F,major
+Isabella,Emma,impersonal_pronouns,7,7,6,0.8571428571428571,0.8571428571428571,0.0,F,intermediate,F,major
+Isabella,Emma,negations,7,5,5,1.0,0.8571428571428571,0.1428571428571429,F,intermediate,F,major
+Isabella,Emma,personal_pronouns,7,7,7,1.0,1.0,0.0,F,intermediate,F,major
+Isabella,Emma,prepositions,7,6,6,1.0,1.0,0.0,F,intermediate,F,major
+Isabella Thorpe,Catherine Morland,adverbs,11,8,5,0.625,0.45454545454545453,0.17045454545454547,F,major,F,major
+Isabella Thorpe,Catherine Morland,auxiliary_verbs,11,8,5,0.625,0.6363636363636364,-0.011363636363636354,F,major,F,major
+Isabella Thorpe,Catherine Morland,conjunctions,11,8,3,0.375,0.36363636363636365,0.011363636363636354,F,major,F,major
+Isabella Thorpe,Catherine Morland,negations,11,8,3,0.375,0.45454545454545453,-0.07954545454545453,F,major,F,major
+Isabella Thorpe,Catherine Morland,personal_pronouns,11,9,7,0.7777777777777778,0.8181818181818182,-0.04040404040404044,F,major,F,major
+Isabella Thorpe,Catherine Morland,prepositions,11,9,4,0.4444444444444444,0.36363636363636365,0.08080808080808077,F,major,F,major
+Isabella Thorpe,John Thorpe,adverbs,5,3,2,0.6666666666666666,0.8,-0.13333333333333341,F,major,M,intermediate
+Isabella Thorpe,John Thorpe,auxiliary_verbs,5,4,3,0.75,0.8,-0.050000000000000044,F,major,M,intermediate
+Isabella Thorpe,John Thorpe,conjunctions,5,4,3,0.75,0.8,-0.050000000000000044,F,major,M,intermediate
+Isabella Thorpe,John Thorpe,negations,5,3,2,0.6666666666666666,0.6,0.06666666666666665,F,major,M,intermediate
+Isabella Thorpe,John Thorpe,personal_pronouns,5,4,3,0.75,0.8,-0.050000000000000044,F,major,M,intermediate
+Isabella Thorpe,John Thorpe,prepositions,5,3,2,0.6666666666666666,0.8,-0.13333333333333341,F,major,M,intermediate
+James Morland,Catherine Morland,adverbs,4,3,2,0.6666666666666666,0.75,-0.08333333333333337,M,minor,F,major
+James Morland,Catherine Morland,auxiliary_verbs,4,4,3,0.75,0.75,0.0,M,minor,F,major
+James Morland,Catherine Morland,conjunctions,4,3,2,0.6666666666666666,0.5,0.16666666666666663,M,minor,F,major
+James Morland,Catherine Morland,impersonal_pronouns,4,2,2,1.0,1.0,0.0,M,minor,F,major
+James Morland,Catherine Morland,personal_pronouns,4,4,3,0.75,0.75,0.0,M,minor,F,major
+James Morland,Isabella Thorpe,personal_pronouns,2,2,2,1.0,1.0,0.0,M,minor,F,major
+James Morland,John Thorpe,adverbs,2,2,2,1.0,1.0,0.0,M,minor,M,intermediate
+James Morland,John Thorpe,auxiliary_verbs,2,2,2,1.0,1.0,0.0,M,minor,M,intermediate
+James Morland,John Thorpe,personal_pronouns,2,2,2,1.0,1.0,0.0,M,minor,M,intermediate
+Jane,Elizabeth,adverbs,5,2,2,1.0,0.6,0.4,F,intermediate,F,major
+Jane,Elizabeth,articles,5,3,3,1.0,1.0,0.0,F,intermediate,F,major
+Jane,Elizabeth,auxiliary_verbs,5,4,4,1.0,1.0,0.0,F,intermediate,F,major
+Jane,Elizabeth,conjunctions,5,3,3,1.0,1.0,0.0,F,intermediate,F,major
+Jane,Elizabeth,negations,5,2,2,1.0,0.8,0.19999999999999996,F,intermediate,F,major
+Jane,Elizabeth,personal_pronouns,5,5,5,1.0,1.0,0.0,F,intermediate,F,major
+Jane,Elizabeth,prepositions,5,3,2,0.6666666666666666,0.6,0.06666666666666665,F,intermediate,F,major
+Jane,Mr. Bennet,articles,3,2,2,1.0,0.6666666666666666,0.33333333333333337,F,intermediate,M,intermediate
+Jane,Mr. Bennet,auxiliary_verbs,3,3,3,1.0,1.0,0.0,F,intermediate,M,intermediate
+Jane,Mr. Bennet,conjunctions,3,2,2,1.0,1.0,0.0,F,intermediate,M,intermediate
+Jane,Mr. Bennet,impersonal_pronouns,3,2,2,1.0,0.6666666666666666,0.33333333333333337,F,intermediate,M,intermediate
+Jane,Mr. Bennet,personal_pronouns,3,3,3,1.0,1.0,0.0,F,intermediate,M,intermediate
+Jane,Mr. Bennet,prepositions,3,2,2,1.0,0.6666666666666666,0.33333333333333337,F,intermediate,M,intermediate
+Jane,Mrs. Bennet,auxiliary_verbs,3,2,2,1.0,1.0,0.0,F,intermediate,F,major
+Jane,Mrs. Bennet,impersonal_pronouns,3,2,2,1.0,1.0,0.0,F,intermediate,F,major
+Jane,Mrs. Bennet,personal_pronouns,3,3,2,0.6666666666666666,0.6666666666666666,0.0,F,intermediate,F,major
+Jane,Mrs. Bennet,prepositions,3,2,2,1.0,1.0,0.0,F,intermediate,F,major
+Jane Fairfax,Emma,adverbs,5,4,3,0.75,0.8,-0.050000000000000044,F,intermediate,F,major
+Jane Fairfax,Emma,auxiliary_verbs,5,5,4,0.8,0.8,0.0,F,intermediate,F,major
+Jane Fairfax,Emma,conjunctions,5,4,3,0.75,0.8,-0.050000000000000044,F,intermediate,F,major
+Jane Fairfax,Emma,impersonal_pronouns,5,5,4,0.8,0.8,0.0,F,intermediate,F,major
+Jane Fairfax,Emma,personal_pronouns,5,5,5,1.0,1.0,0.0,F,intermediate,F,major
+Jane Fairfax,Emma,prepositions,5,5,3,0.6,0.6,0.0,F,intermediate,F,major
+Jane Fairfax,Mr. Knightley,auxiliary_verbs,2,2,2,1.0,1.0,0.0,F,intermediate,M,major
+Jane Fairfax,Mr. Knightley,personal_pronouns,2,2,2,1.0,1.0,0.0,F,intermediate,M,major
+John Middleton,Marianne,adverbs,3,3,2,0.6666666666666666,0.6666666666666666,0.0,M,intermediate,F,major
+John Middleton,Marianne,articles,3,2,2,1.0,1.0,0.0,M,intermediate,F,major
+John Middleton,Marianne,auxiliary_verbs,3,3,3,1.0,1.0,0.0,M,intermediate,F,major
+John Middleton,Marianne,conjunctions,3,3,2,0.6666666666666666,0.6666666666666666,0.0,M,intermediate,F,major
+John Middleton,Marianne,impersonal_pronouns,3,2,2,1.0,0.6666666666666666,0.33333333333333337,M,intermediate,F,major
+John Middleton,Marianne,personal_pronouns,3,3,2,0.6666666666666666,0.6666666666666666,0.0,M,intermediate,F,major
+John Middleton,Marianne,prepositions,3,3,2,0.6666666666666666,0.6666666666666666,0.0,M,intermediate,F,major
+John Middleton,Mrs. Jennings,auxiliary_verbs,3,3,2,0.6666666666666666,0.6666666666666666,0.0,M,intermediate,F,intermediate
+John Middleton,Mrs. Jennings,conjunctions,3,2,2,1.0,0.6666666666666666,0.33333333333333337,M,intermediate,F,intermediate
+John Middleton,Mrs. Jennings,negations,3,2,2,1.0,0.6666666666666666,0.33333333333333337,M,intermediate,F,intermediate
+John Middleton,Mrs. Jennings,personal_pronouns,3,2,2,1.0,1.0,0.0,M,intermediate,F,intermediate
+John Thorpe,Catherine Morland,adverbs,6,5,5,1.0,0.8333333333333334,0.16666666666666663,M,intermediate,F,major
+John Thorpe,Catherine Morland,articles,6,5,2,0.4,0.3333333333333333,0.06666666666666671,M,intermediate,F,major
+John Thorpe,Catherine Morland,auxiliary_verbs,6,6,5,0.8333333333333334,0.8333333333333334,0.0,M,intermediate,F,major
+John Thorpe,Catherine Morland,conjunctions,6,5,4,0.8,0.8333333333333334,-0.033333333333333326,M,intermediate,F,major
+John Thorpe,Catherine Morland,impersonal_pronouns,6,6,5,0.8333333333333334,0.8333333333333334,0.0,M,intermediate,F,major
+John Thorpe,Catherine Morland,negations,6,4,2,0.5,0.5,0.0,M,intermediate,F,major
+John Thorpe,Catherine Morland,personal_pronouns,6,6,6,1.0,1.0,0.0,M,intermediate,F,major
+John Thorpe,Catherine Morland,prepositions,6,6,2,0.3333333333333333,0.3333333333333333,0.0,M,intermediate,F,major
+John Thorpe,James Morland,auxiliary_verbs,3,2,2,1.0,1.0,0.0,M,intermediate,M,minor
+John Thorpe,James Morland,conjunctions,3,2,2,1.0,0.6666666666666666,0.33333333333333337,M,intermediate,M,minor
+John Thorpe,James Morland,personal_pronouns,3,2,2,1.0,1.0,0.0,M,intermediate,M,minor
+John Thorpe,Mrs. Allen,conjunctions,2,2,2,1.0,1.0,0.0,M,intermediate,F,intermediate
+John Thorpe,Mrs. Allen,personal_pronouns,2,2,2,1.0,1.0,0.0,M,intermediate,F,intermediate
+Julia Bertram,Fanny Price,articles,4,3,2,0.6666666666666666,0.5,0.16666666666666663,F,intermediate,F,major
+Julia Bertram,Fanny Price,auxiliary_verbs,4,4,3,0.75,0.75,0.0,F,intermediate,F,major
+Julia Bertram,Fanny Price,conjunctions,4,3,3,1.0,0.75,0.25,F,intermediate,F,major
+Julia Bertram,Fanny Price,impersonal_pronouns,4,2,2,1.0,0.75,0.25,F,intermediate,F,major
+Julia Bertram,Fanny Price,personal_pronouns,4,2,2,1.0,0.75,0.25,F,intermediate,F,major
+Julia Bertram,Fanny Price,prepositions,4,3,3,1.0,1.0,0.0,F,intermediate,F,major
+Kitty,Elizabeth,adverbs,2,2,2,1.0,1.0,0.0,F,minor,F,major
+Kitty,Elizabeth,auxiliary_verbs,2,2,2,1.0,1.0,0.0,F,minor,F,major
+Kitty,Elizabeth,impersonal_pronouns,2,2,2,1.0,1.0,0.0,F,minor,F,major
+Kitty,Elizabeth,personal_pronouns,2,2,2,1.0,1.0,0.0,F,minor,F,major
+Kitty,Elizabeth,prepositions,2,2,2,1.0,1.0,0.0,F,minor,F,major
+Kitty,Mrs. Bennet,auxiliary_verbs,2,2,2,1.0,1.0,0.0,F,minor,F,major
+Kitty,Mrs. Bennet,personal_pronouns,2,2,2,1.0,1.0,0.0,F,minor,F,major
+Kitty,Mrs. Bennet,prepositions,2,2,2,1.0,1.0,0.0,F,minor,F,major
+Lady Bertram,Edmund,adverbs,6,5,2,0.4,0.3333333333333333,0.06666666666666671,F,intermediate,M,major
+Lady Bertram,Edmund,articles,6,3,2,0.6666666666666666,0.5,0.16666666666666663,F,intermediate,M,major
+Lady Bertram,Edmund,auxiliary_verbs,6,6,5,0.8333333333333334,0.8333333333333334,0.0,F,intermediate,M,major
+Lady Bertram,Edmund,conjunctions,6,4,4,1.0,0.8333333333333334,0.16666666666666663,F,intermediate,M,major
+Lady Bertram,Edmund,impersonal_pronouns,6,5,5,1.0,1.0,0.0,F,intermediate,M,major
+Lady Bertram,Edmund,personal_pronouns,6,6,5,0.8333333333333334,0.8333333333333334,0.0,F,intermediate,M,major
+Lady Bertram,Edmund,prepositions,6,5,4,0.8,0.6666666666666666,0.13333333333333341,F,intermediate,M,major
+Lady Bertram,Fanny Price,adverbs,4,4,4,1.0,1.0,0.0,F,intermediate,F,major
+Lady Bertram,Fanny Price,auxiliary_verbs,4,4,4,1.0,1.0,0.0,F,intermediate,F,major
+Lady Bertram,Fanny Price,impersonal_pronouns,4,3,2,0.6666666666666666,0.5,0.16666666666666663,F,intermediate,F,major
+Lady Bertram,Fanny Price,personal_pronouns,4,4,4,1.0,1.0,0.0,F,intermediate,F,major
+Lady Bertram,Maria Bertram,adverbs,2,2,2,1.0,1.0,0.0,F,intermediate,F,intermediate
+Lady Bertram,Maria Bertram,personal_pronouns,2,2,2,1.0,1.0,0.0,F,intermediate,F,intermediate
+Lady Bertram,Mrs. Norris,adverbs,2,2,2,1.0,1.0,0.0,F,intermediate,F,intermediate
+Lady Bertram,Mrs. Norris,auxiliary_verbs,2,2,2,1.0,1.0,0.0,F,intermediate,F,intermediate
+Lady Bertram,Mrs. Norris,conjunctions,2,2,2,1.0,1.0,0.0,F,intermediate,F,intermediate
+Lady Bertram,Mrs. Norris,impersonal_pronouns,2,2,2,1.0,1.0,0.0,F,intermediate,F,intermediate
+Lady Bertram,Mrs. Norris,personal_pronouns,2,2,2,1.0,1.0,0.0,F,intermediate,F,intermediate
+Lady Bertram,Sir Thomas,adverbs,4,3,3,1.0,1.0,0.0,F,intermediate,M,intermediate
+Lady Bertram,Sir Thomas,articles,4,3,2,0.6666666666666666,0.75,-0.08333333333333337,F,intermediate,M,intermediate
+Lady Bertram,Sir Thomas,auxiliary_verbs,4,2,2,1.0,0.75,0.25,F,intermediate,M,intermediate
+Lady Bertram,Sir Thomas,impersonal_pronouns,4,3,2,0.6666666666666666,0.75,-0.08333333333333337,F,intermediate,M,intermediate
+Lady Bertram,Sir Thomas,negations,4,3,2,0.6666666666666666,0.5,0.16666666666666663,F,intermediate,M,intermediate
+Lady Bertram,Sir Thomas,personal_pronouns,4,4,3,0.75,0.75,0.0,F,intermediate,M,intermediate
+Lady Bertram,Sir Thomas,prepositions,4,3,2,0.6666666666666666,0.75,-0.08333333333333337,F,intermediate,M,intermediate
+Lady Catherine De Bourgh,Mr. Darcy,adverbs,2,2,2,1.0,1.0,0.0,F,intermediate,M,major
+Lady Catherine De Bourgh,Mr. Darcy,personal_pronouns,2,2,2,1.0,1.0,0.0,F,intermediate,M,major
+Lady Russell,Anne Elliot,adverbs,4,4,3,0.75,0.75,0.0,F,minor,F,major
+Lady Russell,Anne Elliot,auxiliary_verbs,4,4,4,1.0,1.0,0.0,F,minor,F,major
+Lady Russell,Anne Elliot,personal_pronouns,4,3,3,1.0,1.0,0.0,F,minor,F,major
+Lucy Steele,Anne Steele,adverbs,5,5,5,1.0,1.0,0.0,F,intermediate,F,intermediate
+Lucy Steele,Anne Steele,articles,5,3,2,0.6666666666666666,0.6,0.06666666666666665,F,intermediate,F,intermediate
+Lucy Steele,Anne Steele,auxiliary_verbs,5,5,5,1.0,1.0,0.0,F,intermediate,F,intermediate
+Lucy Steele,Anne Steele,conjunctions,5,3,2,0.6666666666666666,0.8,-0.13333333333333341,F,intermediate,F,intermediate
+Lucy Steele,Anne Steele,impersonal_pronouns,5,4,4,1.0,0.8,0.19999999999999996,F,intermediate,F,intermediate
+Lucy Steele,Anne Steele,negations,5,3,2,0.6666666666666666,0.8,-0.13333333333333341,F,intermediate,F,intermediate
+Lucy Steele,Anne Steele,personal_pronouns,5,5,5,1.0,1.0,0.0,F,intermediate,F,intermediate
+Lucy Steele,Elinor,adverbs,3,2,2,1.0,1.0,0.0,F,intermediate,F,major
+Lucy Steele,Elinor,auxiliary_verbs,3,3,3,1.0,1.0,0.0,F,intermediate,F,major
+Lucy Steele,Elinor,conjunctions,3,2,2,1.0,0.6666666666666666,0.33333333333333337,F,intermediate,F,major
+Lucy Steele,Elinor,personal_pronouns,3,2,2,1.0,1.0,0.0,F,intermediate,F,major
+Lucy Steele,Elinor,prepositions,3,2,2,1.0,1.0,0.0,F,intermediate,F,major
+Lucy Steele,Marianne,conjunctions,2,2,2,1.0,1.0,0.0,F,intermediate,F,major
+Lucy Steele,Marianne,negations,2,2,2,1.0,1.0,0.0,F,intermediate,F,major
+Lucy Steele,Marianne,personal_pronouns,2,2,2,1.0,1.0,0.0,F,intermediate,F,major
+Lucy Steele,Marianne,prepositions,2,2,2,1.0,1.0,0.0,F,intermediate,F,major
+Lydia,Jane,auxiliary_verbs,2,2,2,1.0,1.0,0.0,F,intermediate,F,intermediate
+Lydia,Jane,personal_pronouns,2,2,2,1.0,1.0,0.0,F,intermediate,F,intermediate
+Lydia,Mrs. Bennet,adverbs,3,2,2,1.0,1.0,0.0,F,intermediate,F,major
+Lydia,Mrs. Bennet,auxiliary_verbs,3,3,2,0.6666666666666666,0.6666666666666666,0.0,F,intermediate,F,major
+Lydia,Mrs. Bennet,conjunctions,3,3,2,0.6666666666666666,0.6666666666666666,0.0,F,intermediate,F,major
+Lydia,Mrs. Bennet,impersonal_pronouns,3,2,2,1.0,1.0,0.0,F,intermediate,F,major
+Lydia,Mrs. Bennet,personal_pronouns,3,3,3,1.0,1.0,0.0,F,intermediate,F,major
+Lydia,Mrs. Bennet,prepositions,3,2,2,1.0,1.0,0.0,F,intermediate,F,major
+Margaret,Elinor,auxiliary_verbs,2,2,2,1.0,1.0,0.0,F,minor,F,major
+Margaret,Elinor,impersonal_pronouns,2,2,2,1.0,1.0,0.0,F,minor,F,major
+Margaret,Elinor,personal_pronouns,2,2,2,1.0,1.0,0.0,F,minor,F,major
+Maria Bertram,Edmund,auxiliary_verbs,2,2,2,1.0,1.0,0.0,F,intermediate,M,major
+Maria Bertram,Fanny Price,adverbs,3,3,3,1.0,1.0,0.0,F,intermediate,F,major
+Maria Bertram,Fanny Price,articles,3,2,2,1.0,1.0,0.0,F,intermediate,F,major
+Maria Bertram,Fanny Price,auxiliary_verbs,3,3,3,1.0,1.0,0.0,F,intermediate,F,major
+Maria Bertram,Fanny Price,conjunctions,3,3,2,0.6666666666666666,0.6666666666666666,0.0,F,intermediate,F,major
+Maria Bertram,Fanny Price,impersonal_pronouns,3,2,2,1.0,0.6666666666666666,0.33333333333333337,F,intermediate,F,major
+Maria Bertram,Fanny Price,personal_pronouns,3,3,2,0.6666666666666666,0.6666666666666666,0.0,F,intermediate,F,major
+Maria Bertram,Fanny Price,prepositions,3,2,2,1.0,1.0,0.0,F,intermediate,F,major
+Maria Bertram,Mr. Rushworth,auxiliary_verbs,2,2,2,1.0,1.0,0.0,F,intermediate,M,intermediate
+Maria Bertram,Mr. Rushworth,conjunctions,2,2,2,1.0,1.0,0.0,F,intermediate,M,intermediate
+Maria Bertram,Mr. Rushworth,personal_pronouns,2,2,2,1.0,1.0,0.0,F,intermediate,M,intermediate
+Maria Bertram,Mrs. Norris,auxiliary_verbs,2,2,2,1.0,1.0,0.0,F,intermediate,F,intermediate
+Maria Bertram,Mrs. Norris,personal_pronouns,2,2,2,1.0,1.0,0.0,F,intermediate,F,intermediate
+Marianne,Edward Ferrars,auxiliary_verbs,4,2,2,1.0,1.0,0.0,F,major,M,intermediate
+Marianne,Edward Ferrars,conjunctions,4,3,2,0.6666666666666666,0.5,0.16666666666666663,F,major,M,intermediate
+Marianne,Edward Ferrars,personal_pronouns,4,2,2,1.0,1.0,0.0,F,major,M,intermediate
+Marianne,Elinor,adverbs,16,12,9,0.75,0.8125,-0.0625,F,major,F,major
+Marianne,Elinor,articles,16,6,5,0.8333333333333334,0.6875,0.14583333333333337,F,major,F,major
+Marianne,Elinor,auxiliary_verbs,16,13,12,0.9230769230769231,0.9375,-0.014423076923076872,F,major,F,major
+Marianne,Elinor,conjunctions,16,12,9,0.75,0.8125,-0.0625,F,major,F,major
+Marianne,Elinor,impersonal_pronouns,16,13,9,0.6923076923076923,0.75,-0.05769230769230771,F,major,F,major
+Marianne,Elinor,negations,16,10,4,0.4,0.5,-0.09999999999999998,F,major,F,major
+Marianne,Elinor,personal_pronouns,16,14,14,1.0,1.0,0.0,F,major,F,major
+Marianne,Elinor,prepositions,16,10,9,0.9,0.875,0.025000000000000022,F,major,F,major
+Marianne,Elinor,quantifiers,16,5,2,0.4,0.1875,0.21250000000000002,F,major,F,major
+Marianne,Mr. Willoughby,auxiliary_verbs,3,2,2,1.0,1.0,0.0,F,major,M,intermediate
+Marianne,Mr. Willoughby,conjunctions,3,2,2,1.0,1.0,0.0,F,major,M,intermediate
+Marianne,Mr. Willoughby,impersonal_pronouns,3,3,3,1.0,1.0,0.0,F,major,M,intermediate
+Marianne,Mr. Willoughby,personal_pronouns,3,3,3,1.0,1.0,0.0,F,major,M,intermediate
+Marianne,Mr. Willoughby,prepositions,3,3,3,1.0,1.0,0.0,F,major,M,intermediate
+Marianne,Mrs. Jennings,auxiliary_verbs,5,4,4,1.0,1.0,0.0,F,major,F,intermediate
+Marianne,Mrs. Jennings,impersonal_pronouns,5,2,2,1.0,1.0,0.0,F,major,F,intermediate
+Marianne,Mrs. Jennings,personal_pronouns,5,2,2,1.0,1.0,0.0,F,major,F,intermediate
+Mary,Elizabeth,adverbs,2,2,2,1.0,1.0,0.0,F,minor,F,minor
+Mary,Elizabeth,auxiliary_verbs,2,2,2,1.0,1.0,0.0,F,minor,F,minor
+Mary,Elizabeth,personal_pronouns,2,2,2,1.0,1.0,0.0,F,minor,F,minor
+Mary,Elizabeth,prepositions,2,2,2,1.0,1.0,0.0,F,minor,F,minor
+Mary Crawford,Edmund,adverbs,4,4,4,1.0,1.0,0.0,F,major,M,major
+Mary Crawford,Edmund,articles,4,4,2,0.5,0.5,0.0,F,major,M,major
+Mary Crawford,Edmund,auxiliary_verbs,4,4,3,0.75,0.75,0.0,F,major,M,major
+Mary Crawford,Edmund,conjunctions,4,4,4,1.0,1.0,0.0,F,major,M,major
+Mary Crawford,Edmund,impersonal_pronouns,4,4,3,0.75,0.75,0.0,F,major,M,major
+Mary Crawford,Edmund,negations,4,4,2,0.5,0.5,0.0,F,major,M,major
+Mary Crawford,Edmund,personal_pronouns,4,4,4,1.0,1.0,0.0,F,major,M,major
+Mary Crawford,Edmund,prepositions,4,4,3,0.75,0.75,0.0,F,major,M,major
+Mary Crawford,Fanny Price,adverbs,8,8,6,0.75,0.75,0.0,F,major,F,major
+Mary Crawford,Fanny Price,articles,8,7,5,0.7142857142857143,0.75,-0.0357142857142857,F,major,F,major
+Mary Crawford,Fanny Price,auxiliary_verbs,8,8,7,0.875,0.875,0.0,F,major,F,major
+Mary Crawford,Fanny Price,conjunctions,8,7,6,0.8571428571428571,0.75,0.1071428571428571,F,major,F,major
+Mary Crawford,Fanny Price,impersonal_pronouns,8,7,5,0.7142857142857143,0.625,0.0892857142857143,F,major,F,major
+Mary Crawford,Fanny Price,negations,8,4,3,0.75,0.625,0.125,F,major,F,major
+Mary Crawford,Fanny Price,personal_pronouns,8,8,7,0.875,0.875,0.0,F,major,F,major
+Mary Crawford,Fanny Price,prepositions,8,7,5,0.7142857142857143,0.75,-0.0357142857142857,F,major,F,major
+Mary Crawford,Henry Crawford,adverbs,4,4,4,1.0,1.0,0.0,F,major,M,major
+Mary Crawford,Henry Crawford,articles,4,3,3,1.0,1.0,0.0,F,major,M,major
+Mary Crawford,Henry Crawford,auxiliary_verbs,4,3,3,1.0,1.0,0.0,F,major,M,major
+Mary Crawford,Henry Crawford,conjunctions,4,4,4,1.0,1.0,0.0,F,major,M,major
+Mary Crawford,Henry Crawford,impersonal_pronouns,4,4,3,0.75,0.75,0.0,F,major,M,major
+Mary Crawford,Henry Crawford,negations,4,3,2,0.6666666666666666,0.75,-0.08333333333333337,F,major,M,major
+Mary Crawford,Henry Crawford,personal_pronouns,4,4,4,1.0,1.0,0.0,F,major,M,major
+Mary Crawford,Henry Crawford,prepositions,4,4,4,1.0,1.0,0.0,F,major,M,major
+Mary Crawford,Mrs. Grant,adverbs,3,3,3,1.0,1.0,0.0,F,major,F,intermediate
+Mary Crawford,Mrs. Grant,auxiliary_verbs,3,3,3,1.0,1.0,0.0,F,major,F,intermediate
+Mary Crawford,Mrs. Grant,conjunctions,3,3,3,1.0,1.0,0.0,F,major,F,intermediate
+Mary Crawford,Mrs. Grant,personal_pronouns,3,3,3,1.0,1.0,0.0,F,major,F,intermediate
+Mary Crawford,Mrs. Grant,prepositions,3,3,2,0.6666666666666666,0.6666666666666666,0.0,F,major,F,intermediate
+Mary Musgrove,Anne Elliot,auxiliary_verbs,2,2,2,1.0,1.0,0.0,F,intermediate,F,major
+Mary Musgrove,Anne Elliot,personal_pronouns,2,2,2,1.0,1.0,0.0,F,intermediate,F,major
+Mary Musgrove,Charles Musgrove,adverbs,3,3,3,1.0,1.0,0.0,F,intermediate,M,intermediate
+Mary Musgrove,Charles Musgrove,articles,3,2,2,1.0,1.0,0.0,F,intermediate,M,intermediate
+Mary Musgrove,Charles Musgrove,auxiliary_verbs,3,3,3,1.0,1.0,0.0,F,intermediate,M,intermediate
+Mary Musgrove,Charles Musgrove,conjunctions,3,2,2,1.0,1.0,0.0,F,intermediate,M,intermediate
+Mary Musgrove,Charles Musgrove,impersonal_pronouns,3,3,3,1.0,1.0,0.0,F,intermediate,M,intermediate
+Mary Musgrove,Charles Musgrove,personal_pronouns,3,3,3,1.0,1.0,0.0,F,intermediate,M,intermediate
+Mary Musgrove,Charles Musgrove,prepositions,3,3,2,0.6666666666666666,0.6666666666666666,0.0,F,intermediate,M,intermediate
+Miss Bates,Emma,adverbs,9,9,6,0.6666666666666666,0.6666666666666666,0.0,F,intermediate,F,major
+Miss Bates,Emma,articles,9,9,4,0.4444444444444444,0.4444444444444444,0.0,F,intermediate,F,major
+Miss Bates,Emma,auxiliary_verbs,9,9,8,0.8888888888888888,0.8888888888888888,0.0,F,intermediate,F,major
+Miss Bates,Emma,conjunctions,9,9,6,0.6666666666666666,0.6666666666666666,0.0,F,intermediate,F,major
+Miss Bates,Emma,impersonal_pronouns,9,9,7,0.7777777777777778,0.7777777777777778,0.0,F,intermediate,F,major
+Miss Bates,Emma,negations,9,7,4,0.5714285714285714,0.4444444444444444,0.12698412698412698,F,intermediate,F,major
+Miss Bates,Emma,personal_pronouns,9,9,8,0.8888888888888888,0.8888888888888888,0.0,F,intermediate,F,major
+Miss Bates,Emma,prepositions,9,9,4,0.4444444444444444,0.4444444444444444,0.0,F,intermediate,F,major
+Miss Bates,Emma,quantifiers,9,4,2,0.5,0.3333333333333333,0.16666666666666669,F,intermediate,F,major
+Miss Bates,Mrs. Elton,personal_pronouns,2,2,2,1.0,1.0,0.0,F,intermediate,F,intermediate
+Miss Bingley,Elizabeth,adverbs,3,3,2,0.6666666666666666,0.6666666666666666,0.0,F,intermediate,F,major
+Miss Bingley,Elizabeth,auxiliary_verbs,3,2,2,1.0,1.0,0.0,F,intermediate,F,major
+Miss Bingley,Elizabeth,personal_pronouns,3,3,3,1.0,1.0,0.0,F,intermediate,F,major
+Miss Bingley,Mr. Bingley,adverbs,3,2,2,1.0,1.0,0.0,F,intermediate,M,intermediate
+Miss Bingley,Mr. Bingley,articles,3,2,2,1.0,1.0,0.0,F,intermediate,M,intermediate
+Miss Bingley,Mr. Bingley,auxiliary_verbs,3,3,3,1.0,1.0,0.0,F,intermediate,M,intermediate
+Miss Bingley,Mr. Bingley,conjunctions,3,3,3,1.0,1.0,0.0,F,intermediate,M,intermediate
+Miss Bingley,Mr. Bingley,impersonal_pronouns,3,3,2,0.6666666666666666,0.6666666666666666,0.0,F,intermediate,M,intermediate
+Miss Bingley,Mr. Bingley,personal_pronouns,3,3,3,1.0,1.0,0.0,F,intermediate,M,intermediate
+Miss Bingley,Mr. Bingley,prepositions,3,3,3,1.0,1.0,0.0,F,intermediate,M,intermediate
+Miss Bingley,Mr. Darcy,adverbs,9,3,2,0.6666666666666666,0.7777777777777778,-0.11111111111111116,F,intermediate,M,major
+Miss Bingley,Mr. Darcy,articles,9,5,4,0.8,0.8888888888888888,-0.0888888888888888,F,intermediate,M,major
+Miss Bingley,Mr. Darcy,auxiliary_verbs,9,9,9,1.0,1.0,0.0,F,intermediate,M,major
+Miss Bingley,Mr. Darcy,conjunctions,9,6,4,0.6666666666666666,0.7777777777777778,-0.11111111111111116,F,intermediate,M,major
+Miss Bingley,Mr. Darcy,impersonal_pronouns,9,4,2,0.5,0.7777777777777778,-0.2777777777777778,F,intermediate,M,major
+Miss Bingley,Mr. Darcy,personal_pronouns,9,8,8,1.0,1.0,0.0,F,intermediate,M,major
+Miss Bingley,Mr. Darcy,prepositions,9,5,5,1.0,1.0,0.0,F,intermediate,M,major
+Mr Shepherd,Mrs Clay,adverbs,2,2,2,1.0,1.0,0.0,M,minor,F,minor
+Mr. Allen,Catherine Morland,auxiliary_verbs,2,2,2,1.0,1.0,0.0,M,minor,F,major
+Mr. Allen,Catherine Morland,personal_pronouns,2,2,2,1.0,1.0,0.0,M,minor,F,major
+Mr. Bennet,Elizabeth,adverbs,8,6,3,0.5,0.625,-0.125,M,intermediate,F,major
+Mr. Bennet,Elizabeth,auxiliary_verbs,8,7,5,0.7142857142857143,0.625,0.0892857142857143,M,intermediate,F,major
+Mr. Bennet,Elizabeth,conjunctions,8,6,3,0.5,0.5,0.0,M,intermediate,F,major
+Mr. Bennet,Elizabeth,impersonal_pronouns,8,8,4,0.5,0.5,0.0,M,intermediate,F,major
+Mr. Bennet,Elizabeth,personal_pronouns,8,8,6,0.75,0.75,0.0,M,intermediate,F,major
+Mr. Bennet,Elizabeth,prepositions,8,7,3,0.42857142857142855,0.5,-0.07142857142857145,M,intermediate,F,major
+Mr. Bennet,Jane,auxiliary_verbs,4,3,2,0.6666666666666666,0.75,-0.08333333333333337,M,intermediate,F,intermediate
+Mr. Bennet,Jane,conjunctions,4,4,3,0.75,0.75,0.0,M,intermediate,F,intermediate
+Mr. Bennet,Jane,impersonal_pronouns,4,3,2,0.6666666666666666,0.75,-0.08333333333333337,M,intermediate,F,intermediate
+Mr. Bennet,Jane,personal_pronouns,4,4,4,1.0,1.0,0.0,M,intermediate,F,intermediate
+Mr. Bennet,Jane,prepositions,4,2,2,1.0,1.0,0.0,M,intermediate,F,intermediate
+Mr. Bennet,Lydia,adverbs,3,3,2,0.6666666666666666,0.6666666666666666,0.0,M,intermediate,F,intermediate
+Mr. Bennet,Lydia,auxiliary_verbs,3,3,3,1.0,1.0,0.0,M,intermediate,F,intermediate
+Mr. Bennet,Lydia,conjunctions,3,3,3,1.0,1.0,0.0,M,intermediate,F,intermediate
+Mr. Bennet,Lydia,impersonal_pronouns,3,2,2,1.0,0.6666666666666666,0.33333333333333337,M,intermediate,F,intermediate
+Mr. Bennet,Lydia,personal_pronouns,3,3,3,1.0,1.0,0.0,M,intermediate,F,intermediate
+Mr. Bennet,Lydia,prepositions,3,2,2,1.0,0.6666666666666666,0.33333333333333337,M,intermediate,F,intermediate
+Mr. Bennet,Mary,auxiliary_verbs,2,2,2,1.0,1.0,0.0,M,intermediate,F,minor
+Mr. Bennet,Mary,personal_pronouns,2,2,2,1.0,1.0,0.0,M,intermediate,F,minor
+Mr. Bennet,Mrs. Bennet,adverbs,5,2,2,1.0,0.8,0.19999999999999996,M,intermediate,F,major
+Mr. Bennet,Mrs. Bennet,articles,5,4,2,0.5,0.6,-0.09999999999999998,M,intermediate,F,major
+Mr. Bennet,Mrs. Bennet,auxiliary_verbs,5,5,5,1.0,1.0,0.0,M,intermediate,F,major
+Mr. Bennet,Mrs. Bennet,conjunctions,5,5,3,0.6,0.6,0.0,M,intermediate,F,major
+Mr. Bennet,Mrs. Bennet,impersonal_pronouns,5,3,2,0.6666666666666666,0.8,-0.13333333333333341,M,intermediate,F,major
+Mr. Bennet,Mrs. Bennet,personal_pronouns,5,5,5,1.0,1.0,0.0,M,intermediate,F,major
+Mr. Bennet,Mrs. Bennet,prepositions,5,4,4,1.0,1.0,0.0,M,intermediate,F,major
+Mr. Bingley,Elizabeth,adverbs,4,4,4,1.0,1.0,0.0,M,intermediate,F,major
+Mr. Bingley,Elizabeth,articles,4,4,2,0.5,0.5,0.0,M,intermediate,F,major
+Mr. Bingley,Elizabeth,auxiliary_verbs,4,3,3,1.0,1.0,0.0,M,intermediate,F,major
+Mr. Bingley,Elizabeth,conjunctions,4,3,2,0.6666666666666666,0.75,-0.08333333333333337,M,intermediate,F,major
+Mr. Bingley,Elizabeth,impersonal_pronouns,4,4,3,0.75,0.75,0.0,M,intermediate,F,major
+Mr. Bingley,Elizabeth,negations,4,3,2,0.6666666666666666,0.5,0.16666666666666663,M,intermediate,F,major
+Mr. Bingley,Elizabeth,personal_pronouns,4,4,4,1.0,1.0,0.0,M,intermediate,F,major
+Mr. Bingley,Elizabeth,prepositions,4,3,3,1.0,1.0,0.0,M,intermediate,F,major
+Mr. Bingley,Miss Bingley,adverbs,3,3,2,0.6666666666666666,0.6666666666666666,0.0,M,intermediate,F,intermediate
+Mr. Bingley,Miss Bingley,articles,3,3,2,0.6666666666666666,0.6666666666666666,0.0,M,intermediate,F,intermediate
+Mr. Bingley,Miss Bingley,auxiliary_verbs,3,3,2,0.6666666666666666,0.6666666666666666,0.0,M,intermediate,F,intermediate
+Mr. Bingley,Miss Bingley,conjunctions,3,3,3,1.0,1.0,0.0,M,intermediate,F,intermediate
+Mr. Bingley,Miss Bingley,personal_pronouns,3,3,3,1.0,1.0,0.0,M,intermediate,F,intermediate
+Mr. Bingley,Mr. Darcy,adverbs,8,7,4,0.5714285714285714,0.625,-0.0535714285714286,M,intermediate,M,major
+Mr. Bingley,Mr. Darcy,articles,8,6,5,0.8333333333333334,0.75,0.08333333333333337,M,intermediate,M,major
+Mr. Bingley,Mr. Darcy,auxiliary_verbs,8,8,6,0.75,0.75,0.0,M,intermediate,M,major
+Mr. Bingley,Mr. Darcy,conjunctions,8,7,3,0.42857142857142855,0.375,0.05357142857142855,M,intermediate,M,major
+Mr. Bingley,Mr. Darcy,impersonal_pronouns,8,6,3,0.5,0.5,0.0,M,intermediate,M,major
+Mr. Bingley,Mr. Darcy,personal_pronouns,8,8,7,0.875,0.875,0.0,M,intermediate,M,major
+Mr. Bingley,Mr. Darcy,prepositions,8,8,6,0.75,0.75,0.0,M,intermediate,M,major
+Mr. Bingley,Mrs. Bennet,auxiliary_verbs,2,2,2,1.0,1.0,0.0,M,intermediate,F,major
+Mr. Bingley,Mrs. Bennet,personal_pronouns,2,2,2,1.0,1.0,0.0,M,intermediate,F,major
+Mr. Bingley,Mrs. Bennet,prepositions,2,2,2,1.0,1.0,0.0,M,intermediate,F,major
+Mr. Collins,Elizabeth,adverbs,5,4,3,0.75,0.8,-0.050000000000000044,M,intermediate,F,major
+Mr. Collins,Elizabeth,articles,5,4,2,0.5,0.6,-0.09999999999999998,M,intermediate,F,major
+Mr. Collins,Elizabeth,auxiliary_verbs,5,5,3,0.6,0.6,0.0,M,intermediate,F,major
+Mr. Collins,Elizabeth,conjunctions,5,4,2,0.5,0.6,-0.09999999999999998,M,intermediate,F,major
+Mr. Collins,Elizabeth,impersonal_pronouns,5,4,3,0.75,0.6,0.15000000000000002,M,intermediate,F,major
+Mr. Collins,Elizabeth,personal_pronouns,5,5,3,0.6,0.6,0.0,M,intermediate,F,major
+Mr. Collins,Elizabeth,prepositions,5,5,3,0.6,0.6,0.0,M,intermediate,F,major
+Mr. Collins,George Wickham,articles,2,2,2,1.0,1.0,0.0,M,intermediate,M,intermediate
+Mr. Collins,George Wickham,auxiliary_verbs,2,2,2,1.0,1.0,0.0,M,intermediate,M,intermediate
+Mr. Collins,George Wickham,conjunctions,2,2,2,1.0,1.0,0.0,M,intermediate,M,intermediate
+Mr. Collins,George Wickham,personal_pronouns,2,2,2,1.0,1.0,0.0,M,intermediate,M,intermediate
+Mr. Collins,George Wickham,prepositions,2,2,2,1.0,1.0,0.0,M,intermediate,M,intermediate
+Mr. Darcy,Elizabeth,adverbs,11,7,7,1.0,0.8181818181818182,0.18181818181818177,M,major,F,major
+Mr. Darcy,Elizabeth,articles,11,8,4,0.5,0.6363636363636364,-0.13636363636363635,M,major,F,major
+Mr. Darcy,Elizabeth,auxiliary_verbs,11,9,9,1.0,0.9090909090909091,0.09090909090909094,M,major,F,major
+Mr. Darcy,Elizabeth,conjunctions,11,6,5,0.8333333333333334,0.8181818181818182,0.015151515151515138,M,major,F,major
+Mr. Darcy,Elizabeth,impersonal_pronouns,11,6,4,0.6666666666666666,0.8181818181818182,-0.1515151515151516,M,major,F,major
+Mr. Darcy,Elizabeth,negations,11,6,4,0.6666666666666666,0.36363636363636365,0.303030303030303,M,major,F,major
+Mr. Darcy,Elizabeth,personal_pronouns,11,10,10,1.0,1.0,0.0,M,major,F,major
+Mr. Darcy,Elizabeth,prepositions,11,9,9,1.0,1.0,0.0,M,major,F,major
+Mr. Darcy,Miss Bingley,adverbs,3,3,2,0.6666666666666666,0.6666666666666666,0.0,M,major,F,intermediate
+Mr. Darcy,Miss Bingley,articles,3,3,3,1.0,1.0,0.0,M,major,F,intermediate
+Mr. Darcy,Miss Bingley,auxiliary_verbs,3,3,3,1.0,1.0,0.0,M,major,F,intermediate
+Mr. Darcy,Miss Bingley,conjunctions,3,2,2,1.0,1.0,0.0,M,major,F,intermediate
+Mr. Darcy,Miss Bingley,impersonal_pronouns,3,2,2,1.0,0.6666666666666666,0.33333333333333337,M,major,F,intermediate
+Mr. Darcy,Miss Bingley,personal_pronouns,3,3,3,1.0,1.0,0.0,M,major,F,intermediate
+Mr. Darcy,Miss Bingley,prepositions,3,3,3,1.0,1.0,0.0,M,major,F,intermediate
+Mr. Darcy,Mr. Bingley,adverbs,8,6,5,0.8333333333333334,0.75,0.08333333333333337,M,major,M,intermediate
+Mr. Darcy,Mr. Bingley,articles,8,4,2,0.5,0.5,0.0,M,major,M,intermediate
+Mr. Darcy,Mr. Bingley,auxiliary_verbs,8,7,7,1.0,1.0,0.0,M,major,M,intermediate
+Mr. Darcy,Mr. Bingley,conjunctions,8,3,3,1.0,0.625,0.375,M,major,M,intermediate
+Mr. Darcy,Mr. Bingley,impersonal_pronouns,8,4,4,1.0,0.875,0.125,M,major,M,intermediate
+Mr. Darcy,Mr. Bingley,personal_pronouns,8,6,6,1.0,1.0,0.0,M,major,M,intermediate
+Mr. Darcy,Mr. Bingley,prepositions,8,5,4,0.8,0.875,-0.07499999999999996,M,major,M,intermediate
+Mr. Elton,Emma,adverbs,6,6,4,0.6666666666666666,0.6666666666666666,0.0,M,intermediate,F,major
+Mr. Elton,Emma,articles,6,5,4,0.8,0.8333333333333334,-0.033333333333333326,M,intermediate,F,major
+Mr. Elton,Emma,auxiliary_verbs,6,5,5,1.0,1.0,0.0,M,intermediate,F,major
+Mr. Elton,Emma,conjunctions,6,5,5,1.0,1.0,0.0,M,intermediate,F,major
+Mr. Elton,Emma,impersonal_pronouns,6,5,5,1.0,1.0,0.0,M,intermediate,F,major
+Mr. Elton,Emma,negations,6,4,2,0.5,0.5,0.0,M,intermediate,F,major
+Mr. Elton,Emma,personal_pronouns,6,5,5,1.0,1.0,0.0,M,intermediate,F,major
+Mr. Elton,Emma,prepositions,6,5,5,1.0,1.0,0.0,M,intermediate,F,major
+Mr. Frank Churchill,Emma,adverbs,11,9,7,0.7777777777777778,0.8181818181818182,-0.04040404040404044,M,major,F,major
+Mr. Frank Churchill,Emma,articles,11,6,5,0.8333333333333334,0.8181818181818182,0.015151515151515138,M,major,F,major
+Mr. Frank Churchill,Emma,auxiliary_verbs,11,10,9,0.9,0.9090909090909091,-0.009090909090909038,M,major,F,major
+Mr. Frank Churchill,Emma,conjunctions,11,9,6,0.6666666666666666,0.7272727272727273,-0.06060606060606066,M,major,F,major
+Mr. Frank Churchill,Emma,impersonal_pronouns,11,9,6,0.6666666666666666,0.6363636363636364,0.030303030303030276,M,major,F,major
+Mr. Frank Churchill,Emma,negations,11,5,4,0.8,0.5454545454545454,0.25454545454545463,M,major,F,major
+Mr. Frank Churchill,Emma,personal_pronouns,11,11,10,0.9090909090909091,0.9090909090909091,0.0,M,major,F,major
+Mr. Frank Churchill,Emma,prepositions,11,9,7,0.7777777777777778,0.8181818181818182,-0.04040404040404044,M,major,F,major
+Mr. Frank Churchill,Miss Bates,adverbs,2,2,2,1.0,1.0,0.0,M,major,F,intermediate
+Mr. Frank Churchill,Miss Bates,articles,2,2,2,1.0,1.0,0.0,M,major,F,intermediate
+Mr. Frank Churchill,Miss Bates,auxiliary_verbs,2,2,2,1.0,1.0,0.0,M,major,F,intermediate
+Mr. Frank Churchill,Miss Bates,conjunctions,2,2,2,1.0,1.0,0.0,M,major,F,intermediate
+Mr. Frank Churchill,Miss Bates,impersonal_pronouns,2,2,2,1.0,1.0,0.0,M,major,F,intermediate
+Mr. Frank Churchill,Miss Bates,personal_pronouns,2,2,2,1.0,1.0,0.0,M,major,F,intermediate
+Mr. Frank Churchill,Miss Bates,prepositions,2,2,2,1.0,1.0,0.0,M,major,F,intermediate
+Mr. Frank Churchill,Miss Bates,quantifiers,2,2,2,1.0,1.0,0.0,M,major,F,intermediate
+Mr. Frank Churchill,Mr. Weston,articles,2,2,2,1.0,1.0,0.0,M,major,M,intermediate
+Mr. Frank Churchill,Mr. Weston,auxiliary_verbs,2,2,2,1.0,1.0,0.0,M,major,M,intermediate
+Mr. Frank Churchill,Mr. Weston,conjunctions,2,2,2,1.0,1.0,0.0,M,major,M,intermediate
+Mr. Frank Churchill,Mr. Weston,personal_pronouns,2,2,2,1.0,1.0,0.0,M,major,M,intermediate
+Mr. Frank Churchill,Mr. Weston,prepositions,2,2,2,1.0,1.0,0.0,M,major,M,intermediate
+Mr. Frank Churchill,Mr. Woodhouse,adverbs,4,2,2,1.0,1.0,0.0,M,major,M,intermediate
+Mr. Frank Churchill,Mr. Woodhouse,articles,4,2,2,1.0,1.0,0.0,M,major,M,intermediate
+Mr. Frank Churchill,Mr. Woodhouse,auxiliary_verbs,4,3,3,1.0,1.0,0.0,M,major,M,intermediate
+Mr. Frank Churchill,Mr. Woodhouse,conjunctions,4,3,3,1.0,1.0,0.0,M,major,M,intermediate
+Mr. Frank Churchill,Mr. Woodhouse,impersonal_pronouns,4,2,2,1.0,1.0,0.0,M,major,M,intermediate
+Mr. Frank Churchill,Mr. Woodhouse,personal_pronouns,4,3,3,1.0,1.0,0.0,M,major,M,intermediate
+Mr. Frank Churchill,Mr. Woodhouse,prepositions,4,2,2,1.0,1.0,0.0,M,major,M,intermediate
+Mr. Frank Churchill,Mrs. Weston,auxiliary_verbs,2,2,2,1.0,1.0,0.0,M,major,F,intermediate
+Mr. Frank Churchill,Mrs. Weston,personal_pronouns,2,2,2,1.0,1.0,0.0,M,major,F,intermediate
+Mr. Gardiner,Elizabeth,auxiliary_verbs,3,3,2,0.6666666666666666,0.6666666666666666,0.0,M,minor,F,major
+Mr. Gardiner,Elizabeth,personal_pronouns,3,3,2,0.6666666666666666,0.6666666666666666,0.0,M,minor,F,major
+Mr. Gardiner,Mrs. Gardiner,adverbs,2,2,2,1.0,1.0,0.0,M,minor,F,intermediate
+Mr. Gardiner,Mrs. Gardiner,auxiliary_verbs,2,2,2,1.0,1.0,0.0,M,minor,F,intermediate
+Mr. Gardiner,Mrs. Gardiner,conjunctions,2,2,2,1.0,1.0,0.0,M,minor,F,intermediate
+Mr. Gardiner,Mrs. Gardiner,impersonal_pronouns,2,2,2,1.0,1.0,0.0,M,minor,F,intermediate
+Mr. Gardiner,Mrs. Gardiner,personal_pronouns,2,2,2,1.0,1.0,0.0,M,minor,F,intermediate
+Mr. Gardiner,Mrs. Gardiner,prepositions,2,2,2,1.0,1.0,0.0,M,minor,F,intermediate
+Mr. John Knightley,Emma,adverbs,3,3,2,0.6666666666666666,0.6666666666666666,0.0,M,intermediate,F,major
+Mr. John Knightley,Emma,articles,3,3,2,0.6666666666666666,0.6666666666666666,0.0,M,intermediate,F,major
+Mr. John Knightley,Emma,auxiliary_verbs,3,3,3,1.0,1.0,0.0,M,intermediate,F,major
+Mr. John Knightley,Emma,conjunctions,3,2,2,1.0,1.0,0.0,M,intermediate,F,major
+Mr. John Knightley,Emma,impersonal_pronouns,3,3,2,0.6666666666666666,0.6666666666666666,0.0,M,intermediate,F,major
+Mr. John Knightley,Emma,negations,3,2,2,1.0,0.6666666666666666,0.33333333333333337,M,intermediate,F,major
+Mr. John Knightley,Emma,personal_pronouns,3,3,3,1.0,1.0,0.0,M,intermediate,F,major
+Mr. John Knightley,Isabella,articles,2,2,2,1.0,1.0,0.0,M,intermediate,F,intermediate
+Mr. John Knightley,Isabella,auxiliary_verbs,2,2,2,1.0,1.0,0.0,M,intermediate,F,intermediate
+Mr. John Knightley,Isabella,conjunctions,2,2,2,1.0,1.0,0.0,M,intermediate,F,intermediate
+Mr. John Knightley,Isabella,personal_pronouns,2,2,2,1.0,1.0,0.0,M,intermediate,F,intermediate
+Mr. John Knightley,Isabella,prepositions,2,2,2,1.0,1.0,0.0,M,intermediate,F,intermediate
+Mr. John Knightley,Mr. Woodhouse,adverbs,4,3,3,1.0,0.75,0.25,M,intermediate,M,intermediate
+Mr. John Knightley,Mr. Woodhouse,auxiliary_verbs,4,3,2,0.6666666666666666,0.75,-0.08333333333333337,M,intermediate,M,intermediate
+Mr. John Knightley,Mr. Woodhouse,conjunctions,4,3,2,0.6666666666666666,0.75,-0.08333333333333337,M,intermediate,M,intermediate
+Mr. John Knightley,Mr. Woodhouse,personal_pronouns,4,3,2,0.6666666666666666,0.75,-0.08333333333333337,M,intermediate,M,intermediate
+Mr. Knightley,Emma,adverbs,9,6,4,0.6666666666666666,0.6666666666666666,0.0,M,major,F,major
+Mr. Knightley,Emma,articles,9,6,4,0.6666666666666666,0.5555555555555556,0.11111111111111105,M,major,F,major
+Mr. Knightley,Emma,auxiliary_verbs,9,7,6,0.8571428571428571,0.7777777777777778,0.0793650793650793,M,major,F,major
+Mr. Knightley,Emma,conjunctions,9,6,4,0.6666666666666666,0.7777777777777778,-0.11111111111111116,M,major,F,major
+Mr. Knightley,Emma,personal_pronouns,9,7,7,1.0,1.0,0.0,M,major,F,major
+Mr. Knightley,Emma,prepositions,9,5,3,0.6,0.5555555555555556,0.0444444444444444,M,major,F,major
+Mr. Knightley,Mr. Woodhouse,adverbs,10,9,9,1.0,1.0,0.0,M,major,M,intermediate
+Mr. Knightley,Mr. Woodhouse,articles,10,7,4,0.5714285714285714,0.7,-0.12857142857142856,M,major,M,intermediate
+Mr. Knightley,Mr. Woodhouse,auxiliary_verbs,10,9,9,1.0,1.0,0.0,M,major,M,intermediate
+Mr. Knightley,Mr. Woodhouse,conjunctions,10,8,8,1.0,1.0,0.0,M,major,M,intermediate
+Mr. Knightley,Mr. Woodhouse,impersonal_pronouns,10,10,9,0.9,0.9,0.0,M,major,M,intermediate
+Mr. Knightley,Mr. Woodhouse,negations,10,4,2,0.5,0.8,-0.30000000000000004,M,major,M,intermediate
+Mr. Knightley,Mr. Woodhouse,personal_pronouns,10,10,10,1.0,1.0,0.0,M,major,M,intermediate
+Mr. Knightley,Mr. Woodhouse,prepositions,10,8,6,0.75,0.8,-0.050000000000000044,M,major,M,intermediate
+Mr. Knightley,Mrs. Elton,adverbs,2,2,2,1.0,1.0,0.0,M,major,F,intermediate
+Mr. Knightley,Mrs. Elton,auxiliary_verbs,2,2,2,1.0,1.0,0.0,M,major,F,intermediate
+Mr. Knightley,Mrs. Elton,conjunctions,2,2,2,1.0,1.0,0.0,M,major,F,intermediate
+Mr. Knightley,Mrs. Elton,impersonal_pronouns,2,2,2,1.0,1.0,0.0,M,major,F,intermediate
+Mr. Knightley,Mrs. Elton,personal_pronouns,2,2,2,1.0,1.0,0.0,M,major,F,intermediate
+Mr. Knightley,Mrs. Elton,prepositions,2,2,2,1.0,1.0,0.0,M,major,F,intermediate
+Mr. Knightley,Mrs. Weston,adverbs,3,3,2,0.6666666666666666,0.6666666666666666,0.0,M,major,F,intermediate
+Mr. Knightley,Mrs. Weston,articles,3,3,2,0.6666666666666666,0.6666666666666666,0.0,M,major,F,intermediate
+Mr. Knightley,Mrs. Weston,auxiliary_verbs,3,3,3,1.0,1.0,0.0,M,major,F,intermediate
+Mr. Knightley,Mrs. Weston,conjunctions,3,2,2,1.0,0.6666666666666666,0.33333333333333337,M,major,F,intermediate
+Mr. Knightley,Mrs. Weston,impersonal_pronouns,3,3,3,1.0,1.0,0.0,M,major,F,intermediate
+Mr. Knightley,Mrs. Weston,negations,3,3,2,0.6666666666666666,0.6666666666666666,0.0,M,major,F,intermediate
+Mr. Knightley,Mrs. Weston,personal_pronouns,3,3,3,1.0,1.0,0.0,M,major,F,intermediate
+Mr. Knightley,Mrs. Weston,prepositions,3,3,2,0.6666666666666666,0.6666666666666666,0.0,M,major,F,intermediate
+Mr. Palmer,Charlotte,adverbs,3,2,2,1.0,1.0,0.0,M,minor,F,intermediate
+Mr. Palmer,Charlotte,auxiliary_verbs,3,2,2,1.0,1.0,0.0,M,minor,F,intermediate
+Mr. Palmer,Charlotte,personal_pronouns,3,2,2,1.0,1.0,0.0,M,minor,F,intermediate
+Mr. Palmer,Charlotte,prepositions,3,2,2,1.0,1.0,0.0,M,minor,F,intermediate
+Mr. Rushworth,Tom Bertram,articles,2,2,2,1.0,1.0,0.0,M,intermediate,M,intermediate
+Mr. Rushworth,Tom Bertram,auxiliary_verbs,2,2,2,1.0,1.0,0.0,M,intermediate,M,intermediate
+Mr. Rushworth,Tom Bertram,conjunctions,2,2,2,1.0,1.0,0.0,M,intermediate,M,intermediate
+Mr. Weston,Emma,adverbs,9,6,5,0.8333333333333334,0.7777777777777778,0.05555555555555558,M,intermediate,F,major
+Mr. Weston,Emma,articles,9,5,3,0.6,0.7777777777777778,-0.1777777777777778,M,intermediate,F,major
+Mr. Weston,Emma,auxiliary_verbs,9,8,8,1.0,1.0,0.0,M,intermediate,F,major
+Mr. Weston,Emma,conjunctions,9,7,6,0.8571428571428571,0.8888888888888888,-0.031746031746031744,M,intermediate,F,major
+Mr. Weston,Emma,impersonal_pronouns,9,7,5,0.7142857142857143,0.7777777777777778,-0.06349206349206349,M,intermediate,F,major
+Mr. Weston,Emma,negations,9,3,2,0.6666666666666666,0.6666666666666666,0.0,M,intermediate,F,major
+Mr. Weston,Emma,personal_pronouns,9,9,9,1.0,1.0,0.0,M,intermediate,F,major
+Mr. Weston,Emma,prepositions,9,6,4,0.6666666666666666,0.7777777777777778,-0.11111111111111116,M,intermediate,F,major
+Mr. Weston,Mr. Frank Churchill,adverbs,4,4,3,0.75,0.75,0.0,M,intermediate,M,major
+Mr. Weston,Mr. Frank Churchill,articles,4,4,3,0.75,0.75,0.0,M,intermediate,M,major
+Mr. Weston,Mr. Frank Churchill,auxiliary_verbs,4,4,3,0.75,0.75,0.0,M,intermediate,M,major
+Mr. Weston,Mr. Frank Churchill,conjunctions,4,4,3,0.75,0.75,0.0,M,intermediate,M,major
+Mr. Weston,Mr. Frank Churchill,impersonal_pronouns,4,4,2,0.5,0.5,0.0,M,intermediate,M,major
+Mr. Weston,Mr. Frank Churchill,negations,4,4,2,0.5,0.5,0.0,M,intermediate,M,major
+Mr. Weston,Mr. Frank Churchill,personal_pronouns,4,4,3,0.75,0.75,0.0,M,intermediate,M,major
+Mr. Weston,Mr. Frank Churchill,prepositions,4,4,3,0.75,0.75,0.0,M,intermediate,M,major
+Mr. Weston,Mrs. Elton,adverbs,3,2,2,1.0,1.0,0.0,M,intermediate,F,intermediate
+Mr. Weston,Mrs. Elton,articles,3,2,2,1.0,1.0,0.0,M,intermediate,F,intermediate
+Mr. Weston,Mrs. Elton,auxiliary_verbs,3,3,3,1.0,1.0,0.0,M,intermediate,F,intermediate
+Mr. Weston,Mrs. Elton,conjunctions,3,3,3,1.0,1.0,0.0,M,intermediate,F,intermediate
+Mr. Weston,Mrs. Elton,personal_pronouns,3,3,3,1.0,1.0,0.0,M,intermediate,F,intermediate
+Mr. Willoughby,Elinor,adverbs,6,6,5,0.8333333333333334,0.8333333333333334,0.0,M,intermediate,F,major
+Mr. Willoughby,Elinor,articles,6,6,5,0.8333333333333334,0.8333333333333334,0.0,M,intermediate,F,major
+Mr. Willoughby,Elinor,auxiliary_verbs,6,6,6,1.0,1.0,0.0,M,intermediate,F,major
+Mr. Willoughby,Elinor,conjunctions,6,5,3,0.6,0.6666666666666666,-0.06666666666666665,M,intermediate,F,major
+Mr. Willoughby,Elinor,impersonal_pronouns,6,5,4,0.8,0.8333333333333334,-0.033333333333333326,M,intermediate,F,major
+Mr. Willoughby,Elinor,personal_pronouns,6,5,4,0.8,0.8333333333333334,-0.033333333333333326,M,intermediate,F,major
+Mr. Willoughby,Elinor,prepositions,6,6,5,0.8333333333333334,0.8333333333333334,0.0,M,intermediate,F,major
+Mr. Willoughby,Marianne,auxiliary_verbs,2,2,2,1.0,1.0,0.0,M,intermediate,F,major
+Mr. Willoughby,Marianne,personal_pronouns,2,2,2,1.0,1.0,0.0,M,intermediate,F,major
+Mr. Woodhouse,Emma,adverbs,10,8,7,0.875,0.9,-0.025000000000000022,M,intermediate,F,major
+Mr. Woodhouse,Emma,articles,10,8,5,0.625,0.7,-0.07499999999999996,M,intermediate,F,major
+Mr. Woodhouse,Emma,auxiliary_verbs,10,9,9,1.0,1.0,0.0,M,intermediate,F,major
+Mr. Woodhouse,Emma,conjunctions,10,8,6,0.75,0.8,-0.050000000000000044,M,intermediate,F,major
+Mr. Woodhouse,Emma,impersonal_pronouns,10,9,7,0.7777777777777778,0.8,-0.022222222222222254,M,intermediate,F,major
+Mr. Woodhouse,Emma,negations,10,8,4,0.5,0.6,-0.09999999999999998,M,intermediate,F,major
+Mr. Woodhouse,Emma,personal_pronouns,10,9,8,0.8888888888888888,0.9,-0.011111111111111183,M,intermediate,F,major
+Mr. Woodhouse,Emma,prepositions,10,7,6,0.8571428571428571,0.8,0.05714285714285705,M,intermediate,F,major
+Mr. Woodhouse,Isabella,adverbs,3,3,2,0.6666666666666666,0.6666666666666666,0.0,M,intermediate,F,intermediate
+Mr. Woodhouse,Isabella,auxiliary_verbs,3,3,3,1.0,1.0,0.0,M,intermediate,F,intermediate
+Mr. Woodhouse,Isabella,conjunctions,3,2,2,1.0,1.0,0.0,M,intermediate,F,intermediate
+Mr. Woodhouse,Isabella,impersonal_pronouns,3,2,2,1.0,1.0,0.0,M,intermediate,F,intermediate
+Mr. Woodhouse,Isabella,personal_pronouns,3,3,3,1.0,1.0,0.0,M,intermediate,F,intermediate
+Mr. Woodhouse,Isabella,prepositions,3,3,2,0.6666666666666666,0.6666666666666666,0.0,M,intermediate,F,intermediate
+Mr. Woodhouse,Mr. Frank Churchill,adverbs,2,2,2,1.0,1.0,0.0,M,intermediate,M,major
+Mr. Woodhouse,Mr. Frank Churchill,auxiliary_verbs,2,2,2,1.0,1.0,0.0,M,intermediate,M,major
+Mr. Woodhouse,Mr. Frank Churchill,personal_pronouns,2,2,2,1.0,1.0,0.0,M,intermediate,M,major
+Mr. Woodhouse,Mr. John Knightley,adverbs,5,4,4,1.0,1.0,0.0,M,intermediate,M,intermediate
+Mr. Woodhouse,Mr. John Knightley,articles,5,2,2,1.0,1.0,0.0,M,intermediate,M,intermediate
+Mr. Woodhouse,Mr. John Knightley,auxiliary_verbs,5,5,4,0.8,0.8,0.0,M,intermediate,M,intermediate
+Mr. Woodhouse,Mr. John Knightley,conjunctions,5,4,3,0.75,0.6,0.15000000000000002,M,intermediate,M,intermediate
+Mr. Woodhouse,Mr. John Knightley,impersonal_pronouns,5,3,2,0.6666666666666666,0.8,-0.13333333333333341,M,intermediate,M,intermediate
+Mr. Woodhouse,Mr. John Knightley,negations,5,4,3,0.75,0.6,0.15000000000000002,M,intermediate,M,intermediate
+Mr. Woodhouse,Mr. John Knightley,personal_pronouns,5,5,4,0.8,0.8,0.0,M,intermediate,M,intermediate
+Mr. Woodhouse,Mr. John Knightley,prepositions,5,2,2,1.0,1.0,0.0,M,intermediate,M,intermediate
+Mr. Woodhouse,Mr. Knightley,adverbs,6,6,6,1.0,1.0,0.0,M,intermediate,M,major
+Mr. Woodhouse,Mr. Knightley,articles,6,3,3,1.0,1.0,0.0,M,intermediate,M,major
+Mr. Woodhouse,Mr. Knightley,auxiliary_verbs,6,5,5,1.0,1.0,0.0,M,intermediate,M,major
+Mr. Woodhouse,Mr. Knightley,conjunctions,6,6,5,0.8333333333333334,0.8333333333333334,0.0,M,intermediate,M,major
+Mr. Woodhouse,Mr. Knightley,impersonal_pronouns,6,3,3,1.0,1.0,0.0,M,intermediate,M,major
+Mr. Woodhouse,Mr. Knightley,negations,6,3,2,0.6666666666666666,0.8333333333333334,-0.16666666666666674,M,intermediate,M,major
+Mr. Woodhouse,Mr. Knightley,personal_pronouns,6,5,5,1.0,1.0,0.0,M,intermediate,M,major
+Mr. Woodhouse,Mr. Knightley,prepositions,6,4,4,1.0,1.0,0.0,M,intermediate,M,major
+Mr. Yates,Tom Bertram,articles,2,2,2,1.0,1.0,0.0,M,minor,M,intermediate
+Mr. Yates,Tom Bertram,impersonal_pronouns,2,2,2,1.0,1.0,0.0,M,minor,M,intermediate
+Mr. Yates,Tom Bertram,prepositions,2,2,2,1.0,1.0,0.0,M,minor,M,intermediate
+Mrs Clay,Anne Elliot,personal_pronouns,2,2,2,1.0,1.0,0.0,F,minor,F,major
+Mrs. Allen,Catherine Morland,adverbs,12,8,6,0.75,0.8333333333333334,-0.08333333333333337,F,intermediate,F,major
+Mrs. Allen,Catherine Morland,auxiliary_verbs,12,9,7,0.7777777777777778,0.75,0.02777777777777779,F,intermediate,F,major
+Mrs. Allen,Catherine Morland,conjunctions,12,7,4,0.5714285714285714,0.6666666666666666,-0.09523809523809523,F,intermediate,F,major
+Mrs. Allen,Catherine Morland,impersonal_pronouns,12,6,4,0.6666666666666666,0.6666666666666666,0.0,F,intermediate,F,major
+Mrs. Allen,Catherine Morland,negations,12,4,4,1.0,0.75,0.25,F,intermediate,F,major
+Mrs. Allen,Catherine Morland,personal_pronouns,12,12,9,0.75,0.75,0.0,F,intermediate,F,major
+Mrs. Allen,Catherine Morland,prepositions,12,9,4,0.4444444444444444,0.5,-0.05555555555555558,F,intermediate,F,major
+Mrs. Bennet,Elizabeth,adverbs,13,9,9,1.0,0.9230769230769231,0.07692307692307687,F,major,F,major
+Mrs. Bennet,Elizabeth,articles,13,10,6,0.6,0.6923076923076923,-0.09230769230769231,F,major,F,major
+Mrs. Bennet,Elizabeth,auxiliary_verbs,13,13,13,1.0,1.0,0.0,F,major,F,major
+Mrs. Bennet,Elizabeth,conjunctions,13,12,11,0.9166666666666666,0.9230769230769231,-0.0064102564102564985,F,major,F,major
+Mrs. Bennet,Elizabeth,impersonal_pronouns,13,9,7,0.7777777777777778,0.7692307692307693,0.008547008547008517,F,major,F,major
+Mrs. Bennet,Elizabeth,negations,13,8,4,0.5,0.46153846153846156,0.038461538461538436,F,major,F,major
+Mrs. Bennet,Elizabeth,personal_pronouns,13,13,13,1.0,1.0,0.0,F,major,F,major
+Mrs. Bennet,Elizabeth,prepositions,13,12,10,0.8333333333333334,0.8461538461538461,-0.012820512820512775,F,major,F,major
+Mrs. Bennet,Jane,adverbs,4,4,4,1.0,1.0,0.0,F,major,F,intermediate
+Mrs. Bennet,Jane,auxiliary_verbs,4,4,4,1.0,1.0,0.0,F,major,F,intermediate
+Mrs. Bennet,Jane,conjunctions,4,3,3,1.0,1.0,0.0,F,major,F,intermediate
+Mrs. Bennet,Jane,impersonal_pronouns,4,3,3,1.0,1.0,0.0,F,major,F,intermediate
+Mrs. Bennet,Jane,negations,4,4,4,1.0,1.0,0.0,F,major,F,intermediate
+Mrs. Bennet,Jane,personal_pronouns,4,4,4,1.0,1.0,0.0,F,major,F,intermediate
+Mrs. Bennet,Jane,prepositions,4,4,4,1.0,1.0,0.0,F,major,F,intermediate
+Mrs. Bennet,Kitty,personal_pronouns,2,2,2,1.0,1.0,0.0,F,major,F,minor
+Mrs. Bennet,Kitty,prepositions,2,2,2,1.0,1.0,0.0,F,major,F,minor
+Mrs. Bennet,Mr. Bennet,articles,5,2,2,1.0,0.8,0.19999999999999996,F,major,M,intermediate
+Mrs. Bennet,Mr. Bennet,auxiliary_verbs,5,3,3,1.0,1.0,0.0,F,major,M,intermediate
+Mrs. Bennet,Mr. Bennet,impersonal_pronouns,5,4,4,1.0,1.0,0.0,F,major,M,intermediate
+Mrs. Bennet,Mr. Bennet,personal_pronouns,5,5,5,1.0,1.0,0.0,F,major,M,intermediate
+Mrs. Bennet,Mr. Bennet,prepositions,5,5,4,0.8,0.8,0.0,F,major,M,intermediate
+Mrs. Dashwood,Elinor,adverbs,7,6,3,0.5,0.5714285714285714,-0.0714285714285714,F,intermediate,F,major
+Mrs. Dashwood,Elinor,articles,7,5,4,0.8,0.5714285714285714,0.22857142857142865,F,intermediate,F,major
+Mrs. Dashwood,Elinor,auxiliary_verbs,7,7,7,1.0,1.0,0.0,F,intermediate,F,major
+Mrs. Dashwood,Elinor,conjunctions,7,6,5,0.8333333333333334,0.8571428571428571,-0.023809523809523725,F,intermediate,F,major
+Mrs. Dashwood,Elinor,impersonal_pronouns,7,6,4,0.6666666666666666,0.5714285714285714,0.09523809523809523,F,intermediate,F,major
+Mrs. Dashwood,Elinor,personal_pronouns,7,6,5,0.8333333333333334,0.8571428571428571,-0.023809523809523725,F,intermediate,F,major
+Mrs. Dashwood,Elinor,prepositions,7,6,6,1.0,0.8571428571428571,0.1428571428571429,F,intermediate,F,major
+Mrs. Dashwood,Marianne,adverbs,6,4,4,1.0,0.8333333333333334,0.16666666666666663,F,intermediate,F,major
+Mrs. Dashwood,Marianne,auxiliary_verbs,6,6,5,0.8333333333333334,0.8333333333333334,0.0,F,intermediate,F,major
+Mrs. Dashwood,Marianne,conjunctions,6,5,2,0.4,0.5,-0.09999999999999998,F,intermediate,F,major
+Mrs. Dashwood,Marianne,impersonal_pronouns,6,5,5,1.0,1.0,0.0,F,intermediate,F,major
+Mrs. Dashwood,Marianne,personal_pronouns,6,6,6,1.0,1.0,0.0,F,intermediate,F,major
+Mrs. Dashwood,Marianne,prepositions,6,5,4,0.8,0.8333333333333334,-0.033333333333333326,F,intermediate,F,major
+Mrs. Elton,Emma,adverbs,2,2,2,1.0,1.0,0.0,F,intermediate,F,major
+Mrs. Elton,Emma,auxiliary_verbs,2,2,2,1.0,1.0,0.0,F,intermediate,F,major
+Mrs. Elton,Emma,conjunctions,2,2,2,1.0,1.0,0.0,F,intermediate,F,major
+Mrs. Elton,Emma,impersonal_pronouns,2,2,2,1.0,1.0,0.0,F,intermediate,F,major
+Mrs. Elton,Emma,negations,2,2,2,1.0,1.0,0.0,F,intermediate,F,major
+Mrs. Elton,Emma,personal_pronouns,2,2,2,1.0,1.0,0.0,F,intermediate,F,major
+Mrs. Elton,Jane Fairfax,adverbs,2,2,2,1.0,1.0,0.0,F,intermediate,F,intermediate
+Mrs. Elton,Jane Fairfax,auxiliary_verbs,2,2,2,1.0,1.0,0.0,F,intermediate,F,intermediate
+Mrs. Ford,Emma,prepositions,2,2,2,1.0,1.0,0.0,F,minor,F,major
+Mrs. Gardiner,Elizabeth,articles,2,2,2,1.0,1.0,0.0,F,intermediate,F,major
+Mrs. Gardiner,Mr. Gardiner,auxiliary_verbs,2,2,2,1.0,1.0,0.0,F,intermediate,M,minor
+Mrs. Grant,Henry Crawford,auxiliary_verbs,2,2,2,1.0,1.0,0.0,F,intermediate,M,major
+Mrs. Grant,Henry Crawford,personal_pronouns,2,2,2,1.0,1.0,0.0,F,intermediate,M,major
+Mrs. Grant,Maria Bertram,auxiliary_verbs,2,2,2,1.0,1.0,0.0,F,intermediate,F,intermediate
+Mrs. Grant,Maria Bertram,conjunctions,2,2,2,1.0,1.0,0.0,F,intermediate,F,intermediate
+Mrs. Grant,Maria Bertram,personal_pronouns,2,2,2,1.0,1.0,0.0,F,intermediate,F,intermediate
+Mrs. Grant,Mary Crawford,auxiliary_verbs,2,2,2,1.0,1.0,0.0,F,intermediate,F,major
+Mrs. Grant,Mary Crawford,personal_pronouns,2,2,2,1.0,1.0,0.0,F,intermediate,F,major
+Mrs. Grant,Mary Crawford,prepositions,2,2,2,1.0,1.0,0.0,F,intermediate,F,major
+Mrs. Jennings,Charlotte,auxiliary_verbs,2,2,2,1.0,1.0,0.0,F,intermediate,F,intermediate
+Mrs. Jennings,Charlotte,conjunctions,2,2,2,1.0,1.0,0.0,F,intermediate,F,intermediate
+Mrs. Jennings,Charlotte,personal_pronouns,2,2,2,1.0,1.0,0.0,F,intermediate,F,intermediate
+Mrs. Jennings,Colonel Brandon,auxiliary_verbs,2,2,2,1.0,1.0,0.0,F,intermediate,M,intermediate
+Mrs. Jennings,Colonel Brandon,personal_pronouns,2,2,2,1.0,1.0,0.0,F,intermediate,M,intermediate
+Mrs. Jennings,Elinor,adverbs,10,9,7,0.7777777777777778,0.8,-0.022222222222222254,F,intermediate,F,major
+Mrs. Jennings,Elinor,articles,10,9,5,0.5555555555555556,0.5,0.05555555555555558,F,intermediate,F,major
+Mrs. Jennings,Elinor,auxiliary_verbs,10,9,7,0.7777777777777778,0.8,-0.022222222222222254,F,intermediate,F,major
+Mrs. Jennings,Elinor,conjunctions,10,9,5,0.5555555555555556,0.5,0.05555555555555558,F,intermediate,F,major
+Mrs. Jennings,Elinor,impersonal_pronouns,10,9,5,0.5555555555555556,0.6,-0.0444444444444444,F,intermediate,F,major
+Mrs. Jennings,Elinor,negations,10,6,2,0.3333333333333333,0.4,-0.06666666666666671,F,intermediate,F,major
+Mrs. Jennings,Elinor,personal_pronouns,10,10,9,0.9,0.9,0.0,F,intermediate,F,major
+Mrs. Jennings,Elinor,prepositions,10,9,7,0.7777777777777778,0.8,-0.022222222222222254,F,intermediate,F,major
+Mrs. Jennings,Lucy Steele,auxiliary_verbs,3,2,2,1.0,1.0,0.0,F,intermediate,F,intermediate
+Mrs. Jennings,Lucy Steele,conjunctions,3,2,2,1.0,1.0,0.0,F,intermediate,F,intermediate
+Mrs. Jennings,Lucy Steele,personal_pronouns,3,2,2,1.0,1.0,0.0,F,intermediate,F,intermediate
+Mrs. Jennings,Marianne,adverbs,5,3,2,0.6666666666666666,0.4,0.2666666666666666,F,intermediate,F,major
+Mrs. Jennings,Marianne,auxiliary_verbs,5,5,5,1.0,1.0,0.0,F,intermediate,F,major
+Mrs. Jennings,Marianne,conjunctions,5,2,2,1.0,0.8,0.19999999999999996,F,intermediate,F,major
+Mrs. Jennings,Marianne,impersonal_pronouns,5,4,4,1.0,0.8,0.19999999999999996,F,intermediate,F,major
+Mrs. Jennings,Marianne,personal_pronouns,5,5,4,0.8,0.8,0.0,F,intermediate,F,major
+Mrs. Jennings,Marianne,prepositions,5,2,2,1.0,0.8,0.19999999999999996,F,intermediate,F,major
+Mrs. Morland,Catherine Morland,auxiliary_verbs,2,2,2,1.0,1.0,0.0,F,minor,F,major
+Mrs. Norris,Edmund,adverbs,4,4,2,0.5,0.5,0.0,F,intermediate,M,major
+Mrs. Norris,Edmund,articles,4,4,3,0.75,0.75,0.0,F,intermediate,M,major
+Mrs. Norris,Edmund,auxiliary_verbs,4,4,3,0.75,0.75,0.0,F,intermediate,M,major
+Mrs. Norris,Edmund,conjunctions,4,4,2,0.5,0.5,0.0,F,intermediate,M,major
+Mrs. Norris,Edmund,impersonal_pronouns,4,4,4,1.0,1.0,0.0,F,intermediate,M,major
+Mrs. Norris,Edmund,personal_pronouns,4,4,4,1.0,1.0,0.0,F,intermediate,M,major
+Mrs. Norris,Edmund,prepositions,4,4,2,0.5,0.5,0.0,F,intermediate,M,major
+Mrs. Norris,Fanny Price,adverbs,3,2,2,1.0,0.6666666666666666,0.33333333333333337,F,intermediate,F,major
+Mrs. Norris,Fanny Price,auxiliary_verbs,3,3,2,0.6666666666666666,0.6666666666666666,0.0,F,intermediate,F,major
+Mrs. Norris,Fanny Price,conjunctions,3,2,2,1.0,0.6666666666666666,0.33333333333333337,F,intermediate,F,major
+Mrs. Norris,Fanny Price,impersonal_pronouns,3,2,2,1.0,0.6666666666666666,0.33333333333333337,F,intermediate,F,major
+Mrs. Norris,Fanny Price,personal_pronouns,3,3,2,0.6666666666666666,0.6666666666666666,0.0,F,intermediate,F,major
+Mrs. Norris,Fanny Price,prepositions,3,2,2,1.0,0.6666666666666666,0.33333333333333337,F,intermediate,F,major
+Mrs. Norris,Julia Bertram,adverbs,2,2,2,1.0,1.0,0.0,F,intermediate,F,intermediate
+Mrs. Norris,Julia Bertram,auxiliary_verbs,2,2,2,1.0,1.0,0.0,F,intermediate,F,intermediate
+Mrs. Norris,Julia Bertram,impersonal_pronouns,2,2,2,1.0,1.0,0.0,F,intermediate,F,intermediate
+Mrs. Norris,Julia Bertram,personal_pronouns,2,2,2,1.0,1.0,0.0,F,intermediate,F,intermediate
+Mrs. Norris,Julia Bertram,prepositions,2,2,2,1.0,1.0,0.0,F,intermediate,F,intermediate
+Mrs. Norris,Lady Bertram,auxiliary_verbs,2,2,2,1.0,1.0,0.0,F,intermediate,F,intermediate
+Mrs. Norris,Lady Bertram,conjunctions,2,2,2,1.0,1.0,0.0,F,intermediate,F,intermediate
+Mrs. Norris,Lady Bertram,impersonal_pronouns,2,2,2,1.0,1.0,0.0,F,intermediate,F,intermediate
+Mrs. Norris,Lady Bertram,personal_pronouns,2,2,2,1.0,1.0,0.0,F,intermediate,F,intermediate
+Mrs. Norris,Lady Bertram,prepositions,2,2,2,1.0,1.0,0.0,F,intermediate,F,intermediate
+Mrs. Norris,Mrs. Grant,auxiliary_verbs,2,2,2,1.0,1.0,0.0,F,intermediate,F,intermediate
+Mrs. Norris,Mrs. Grant,prepositions,2,2,2,1.0,1.0,0.0,F,intermediate,F,intermediate
+Mrs. Norris,Sir Thomas,adverbs,4,4,3,0.75,0.75,0.0,F,intermediate,M,intermediate
+Mrs. Norris,Sir Thomas,articles,4,4,3,0.75,0.75,0.0,F,intermediate,M,intermediate
+Mrs. Norris,Sir Thomas,auxiliary_verbs,4,3,3,1.0,1.0,0.0,F,intermediate,M,intermediate
+Mrs. Norris,Sir Thomas,conjunctions,4,3,3,1.0,1.0,0.0,F,intermediate,M,intermediate
+Mrs. Norris,Sir Thomas,impersonal_pronouns,4,4,3,0.75,0.75,0.0,F,intermediate,M,intermediate
+Mrs. Norris,Sir Thomas,personal_pronouns,4,4,4,1.0,1.0,0.0,F,intermediate,M,intermediate
+Mrs. Norris,Sir Thomas,prepositions,4,4,3,0.75,0.75,0.0,F,intermediate,M,intermediate
+Mrs. Norris,Tom Bertram,articles,2,2,2,1.0,1.0,0.0,F,intermediate,M,intermediate
+Mrs. Norris,Tom Bertram,auxiliary_verbs,2,2,2,1.0,1.0,0.0,F,intermediate,M,intermediate
+Mrs. Norris,Tom Bertram,conjunctions,2,2,2,1.0,1.0,0.0,F,intermediate,M,intermediate
+Mrs. Norris,Tom Bertram,negations,2,2,2,1.0,1.0,0.0,F,intermediate,M,intermediate
+Mrs. Norris,Tom Bertram,personal_pronouns,2,2,2,1.0,1.0,0.0,F,intermediate,M,intermediate
+Mrs. Reynolds,Mrs. Gardiner,auxiliary_verbs,2,2,2,1.0,1.0,0.0,F,minor,F,intermediate
+Mrs. Reynolds,Mrs. Gardiner,impersonal_pronouns,2,2,2,1.0,1.0,0.0,F,minor,F,intermediate
+Mrs. Reynolds,Mrs. Gardiner,personal_pronouns,2,2,2,1.0,1.0,0.0,F,minor,F,intermediate
+Mrs. Rushworth,Edmund,articles,2,2,2,1.0,1.0,0.0,F,minor,M,major
+Mrs. Rushworth,Edmund,auxiliary_verbs,2,2,2,1.0,1.0,0.0,F,minor,M,major
+Mrs. Rushworth,Edmund,personal_pronouns,2,2,2,1.0,1.0,0.0,F,minor,M,major
+Mrs. Rushworth,Edmund,prepositions,2,2,2,1.0,1.0,0.0,F,minor,M,major
+Mrs. Thorpe,Catherine Morland,auxiliary_verbs,3,2,2,1.0,1.0,0.0,F,minor,F,major
+Mrs. Thorpe,Catherine Morland,impersonal_pronouns,3,2,2,1.0,0.6666666666666666,0.33333333333333337,F,minor,F,major
+Mrs. Thorpe,Catherine Morland,personal_pronouns,3,2,2,1.0,1.0,0.0,F,minor,F,major
+Mrs. Weston,Emma,adverbs,11,11,9,0.8181818181818182,0.8181818181818182,0.0,F,intermediate,F,major
+Mrs. Weston,Emma,articles,11,10,6,0.6,0.6363636363636364,-0.036363636363636376,F,intermediate,F,major
+Mrs. Weston,Emma,auxiliary_verbs,11,11,10,0.9090909090909091,0.9090909090909091,0.0,F,intermediate,F,major
+Mrs. Weston,Emma,conjunctions,11,10,8,0.8,0.8181818181818182,-0.018181818181818188,F,intermediate,F,major
+Mrs. Weston,Emma,impersonal_pronouns,11,10,6,0.6,0.6363636363636364,-0.036363636363636376,F,intermediate,F,major
+Mrs. Weston,Emma,negations,11,7,2,0.2857142857142857,0.45454545454545453,-0.16883116883116883,F,intermediate,F,major
+Mrs. Weston,Emma,personal_pronouns,11,11,11,1.0,1.0,0.0,F,intermediate,F,major
+Mrs. Weston,Emma,prepositions,11,11,8,0.7272727272727273,0.7272727272727273,0.0,F,intermediate,F,major
+Mrs. Weston,Mr. Frank Churchill,auxiliary_verbs,2,2,2,1.0,1.0,0.0,F,intermediate,M,major
+Mrs. Weston,Mr. Frank Churchill,personal_pronouns,2,2,2,1.0,1.0,0.0,F,intermediate,M,major
+Mrs. Weston,Mr. Frank Churchill,prepositions,2,2,2,1.0,1.0,0.0,F,intermediate,M,major
+Mrs. Weston,Mr. Knightley,auxiliary_verbs,2,2,2,1.0,1.0,0.0,F,intermediate,M,major
+Mrs. Weston,Mr. Knightley,impersonal_pronouns,2,2,2,1.0,1.0,0.0,F,intermediate,M,major
+Mrs. Weston,Mr. Knightley,personal_pronouns,2,2,2,1.0,1.0,0.0,F,intermediate,M,major
+Sir Thomas,Edmund,auxiliary_verbs,2,2,2,1.0,1.0,0.0,M,intermediate,M,major
+Sir Thomas,Edmund,conjunctions,2,2,2,1.0,1.0,0.0,M,intermediate,M,major
+Sir Thomas,Edmund,personal_pronouns,2,2,2,1.0,1.0,0.0,M,intermediate,M,major
+Sir Thomas,Fanny Price,adverbs,4,4,3,0.75,0.75,0.0,M,intermediate,F,major
+Sir Thomas,Fanny Price,auxiliary_verbs,4,4,2,0.5,0.5,0.0,M,intermediate,F,major
+Sir Thomas,Fanny Price,conjunctions,4,4,3,0.75,0.75,0.0,M,intermediate,F,major
+Sir Thomas,Fanny Price,impersonal_pronouns,4,3,2,0.6666666666666666,0.75,-0.08333333333333337,M,intermediate,F,major
+Sir Thomas,Fanny Price,negations,4,4,2,0.5,0.5,0.0,M,intermediate,F,major
+Sir Thomas,Fanny Price,personal_pronouns,4,4,3,0.75,0.75,0.0,M,intermediate,F,major
+Sir Thomas,Fanny Price,prepositions,4,4,3,0.75,0.75,0.0,M,intermediate,F,major
+Sir Thomas,Henry Crawford,adverbs,2,2,2,1.0,1.0,0.0,M,intermediate,M,major
+Sir Thomas,Henry Crawford,auxiliary_verbs,2,2,2,1.0,1.0,0.0,M,intermediate,M,major
+Sir Thomas,Henry Crawford,conjunctions,2,2,2,1.0,1.0,0.0,M,intermediate,M,major
+Sir Thomas,Henry Crawford,personal_pronouns,2,2,2,1.0,1.0,0.0,M,intermediate,M,major
+Sir Thomas,Henry Crawford,prepositions,2,2,2,1.0,1.0,0.0,M,intermediate,M,major
+Sir Thomas,Lady Bertram,adverbs,3,3,3,1.0,1.0,0.0,M,intermediate,F,intermediate
+Sir Thomas,Lady Bertram,articles,3,3,2,0.6666666666666666,0.6666666666666666,0.0,M,intermediate,F,intermediate
+Sir Thomas,Lady Bertram,auxiliary_verbs,3,3,3,1.0,1.0,0.0,M,intermediate,F,intermediate
+Sir Thomas,Lady Bertram,conjunctions,3,3,3,1.0,1.0,0.0,M,intermediate,F,intermediate
+Sir Thomas,Lady Bertram,impersonal_pronouns,3,3,2,0.6666666666666666,0.6666666666666666,0.0,M,intermediate,F,intermediate
+Sir Thomas,Lady Bertram,personal_pronouns,3,3,3,1.0,1.0,0.0,M,intermediate,F,intermediate
+Sir Thomas,Lady Bertram,prepositions,3,3,2,0.6666666666666666,0.6666666666666666,0.0,M,intermediate,F,intermediate
+Sir Thomas,Mrs. Norris,adverbs,3,2,2,1.0,1.0,0.0,M,intermediate,F,intermediate
+Sir Thomas,Mrs. Norris,articles,3,3,3,1.0,1.0,0.0,M,intermediate,F,intermediate
+Sir Thomas,Mrs. Norris,auxiliary_verbs,3,3,3,1.0,1.0,0.0,M,intermediate,F,intermediate
+Sir Thomas,Mrs. Norris,conjunctions,3,2,2,1.0,1.0,0.0,M,intermediate,F,intermediate
+Sir Thomas,Mrs. Norris,impersonal_pronouns,3,3,3,1.0,1.0,0.0,M,intermediate,F,intermediate
+Sir Thomas,Mrs. Norris,negations,3,2,2,1.0,0.6666666666666666,0.33333333333333337,M,intermediate,F,intermediate
+Sir Thomas,Mrs. Norris,personal_pronouns,3,3,3,1.0,1.0,0.0,M,intermediate,F,intermediate
+Sir Thomas,Mrs. Norris,prepositions,3,3,3,1.0,1.0,0.0,M,intermediate,F,intermediate
+Sir Walter Elliot,Anne Elliot,adverbs,5,4,3,0.75,0.8,-0.050000000000000044,M,intermediate,F,major
+Sir Walter Elliot,Anne Elliot,articles,5,4,4,1.0,1.0,0.0,M,intermediate,F,major
+Sir Walter Elliot,Anne Elliot,auxiliary_verbs,5,4,4,1.0,1.0,0.0,M,intermediate,F,major
+Sir Walter Elliot,Anne Elliot,conjunctions,5,4,4,1.0,0.8,0.19999999999999996,M,intermediate,F,major
+Sir Walter Elliot,Anne Elliot,impersonal_pronouns,5,4,3,0.75,0.8,-0.050000000000000044,M,intermediate,F,major
+Sir Walter Elliot,Anne Elliot,personal_pronouns,5,4,4,1.0,1.0,0.0,M,intermediate,F,major
+Sir Walter Elliot,Anne Elliot,prepositions,5,4,4,1.0,1.0,0.0,M,intermediate,F,major
+Sir Walter Elliot,Elizabeth,auxiliary_verbs,2,2,2,1.0,1.0,0.0,M,intermediate,F,minor
+Sir Walter Elliot,Elizabeth,impersonal_pronouns,2,2,2,1.0,1.0,0.0,M,intermediate,F,minor
+Sir Walter Elliot,Elizabeth,prepositions,2,2,2,1.0,1.0,0.0,M,intermediate,F,minor
+Tom Bertram,Edmund,adverbs,2,2,2,1.0,1.0,0.0,M,intermediate,M,major
+Tom Bertram,Edmund,auxiliary_verbs,2,2,2,1.0,1.0,0.0,M,intermediate,M,major
+Tom Bertram,Edmund,impersonal_pronouns,2,2,2,1.0,1.0,0.0,M,intermediate,M,major
+Tom Bertram,Edmund,personal_pronouns,2,2,2,1.0,1.0,0.0,M,intermediate,M,major
+Tom Bertram,Fanny Price,auxiliary_verbs,2,2,2,1.0,1.0,0.0,M,intermediate,F,major
+Tom Bertram,Fanny Price,personal_pronouns,2,2,2,1.0,1.0,0.0,M,intermediate,F,major
+Tom Bertram,Fanny Price,prepositions,2,2,2,1.0,1.0,0.0,M,intermediate,F,major
+Tom Bertram,Julia Bertram,adverbs,2,2,2,1.0,1.0,0.0,M,intermediate,F,intermediate
+Tom Bertram,Julia Bertram,articles,2,2,2,1.0,1.0,0.0,M,intermediate,F,intermediate
+Tom Bertram,Julia Bertram,auxiliary_verbs,2,2,2,1.0,1.0,0.0,M,intermediate,F,intermediate
+Tom Bertram,Maria Bertram,articles,3,3,2,0.6666666666666666,0.6666666666666666,0.0,M,intermediate,F,intermediate
+Tom Bertram,Maria Bertram,auxiliary_verbs,3,3,3,1.0,1.0,0.0,M,intermediate,F,intermediate
+Tom Bertram,Maria Bertram,conjunctions,3,2,2,1.0,1.0,0.0,M,intermediate,F,intermediate
+Tom Bertram,Maria Bertram,impersonal_pronouns,3,3,2,0.6666666666666666,0.6666666666666666,0.0,M,intermediate,F,intermediate
+Tom Bertram,Maria Bertram,personal_pronouns,3,3,3,1.0,1.0,0.0,M,intermediate,F,intermediate
+Tom Bertram,Maria Bertram,prepositions,3,2,2,1.0,1.0,0.0,M,intermediate,F,intermediate
+Tom Bertram,Mrs. Norris,adverbs,2,2,2,1.0,1.0,0.0,M,intermediate,F,intermediate
+Tom Bertram,Mrs. Norris,articles,2,2,2,1.0,1.0,0.0,M,intermediate,F,intermediate
+Tom Bertram,Mrs. Norris,auxiliary_verbs,2,2,2,1.0,1.0,0.0,M,intermediate,F,intermediate
+Tom Bertram,Mrs. Norris,impersonal_pronouns,2,2,2,1.0,1.0,0.0,M,intermediate,F,intermediate
+Tom Bertram,Mrs. Norris,personal_pronouns,2,2,2,1.0,1.0,0.0,M,intermediate,F,intermediate
+Tom Bertram,Mrs. Norris,prepositions,2,2,2,1.0,1.0,0.0,M,intermediate,F,intermediate
+_unknowable,Henry Crawford,adverbs,2,2,2,1.0,1.0,0.0,M,minor,M,major
+_unknowable,Mary Crawford,auxiliary_verbs,2,2,2,1.0,1.0,0.0,M,minor,F,major

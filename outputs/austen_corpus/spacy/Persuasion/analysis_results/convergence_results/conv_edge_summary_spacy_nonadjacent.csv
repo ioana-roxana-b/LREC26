@@ -1,0 +1,20 @@
+﻿a_speaker,b_speaker,n_features,n_pairs,n_triggers_total,mean_conv,mean_conv_w,a_gender,a_category,b_gender,b_category
+Admiral,Captain Wentworth,3.0,2.0,6.0,0.0,0.0,,,M,major
+Anne Elliot,Elizabeth,1.0,2.0,2.0,0.0,0.0,F,major,F,minor
+Anne Elliot,Mary Musgrove,5.0,2.0,10.0,0.0,0.0,F,major,F,intermediate
+Anne Elliot,Mr Shepherd,1.0,2.0,2.0,0.0,0.0,F,major,M,minor
+Captain Wentworth,Admiral,5.0,2.0,10.0,0.0,0.0,M,major,,
+Captain Wentworth,Anne Elliot,7.0,4.0,23.0,0.023809523809523805,0.021739130434782605,M,major,F,major
+Captain Wentworth,Mary Musgrove,1.0,2.0,2.0,0.0,0.0,M,major,F,intermediate
+Charles Musgrove,Anne Elliot,8.0,4.0,31.0,0.0,0.0,M,intermediate,F,major
+Charles Musgrove,Captain Wentworth,2.0,2.0,4.0,0.0,0.0,M,intermediate,M,major
+Charles Musgrove,Lady Russell,3.0,2.0,6.0,0.0,0.0,M,intermediate,F,minor
+Elizabeth,Anne Elliot,4.0,2.0,8.0,0.0,0.0,F,minor,F,major
+Elizabeth,Sir Walter Elliot,1.0,3.0,2.0,0.0,0.0,F,minor,M,intermediate
+Lady Russell,Anne Elliot,3.0,4.0,11.0,0.0,0.0,F,minor,F,major
+Mary Musgrove,Anne Elliot,2.0,2.0,4.0,0.0,0.0,F,intermediate,F,major
+Mary Musgrove,Charles Musgrove,7.0,3.0,19.0,0.0,0.0,F,intermediate,M,intermediate
+Mr Shepherd,Mrs Clay,1.0,2.0,2.0,0.0,0.0,M,minor,F,minor
+Mrs Clay,Anne Elliot,1.0,2.0,2.0,0.0,0.0,F,minor,F,major
+Sir Walter Elliot,Anne Elliot,7.0,5.0,28.0,0.014285714285714266,0.014285714285714266,M,intermediate,F,major
+Sir Walter Elliot,Elizabeth,3.0,2.0,6.0,0.0,0.0,M,intermediate,F,minor

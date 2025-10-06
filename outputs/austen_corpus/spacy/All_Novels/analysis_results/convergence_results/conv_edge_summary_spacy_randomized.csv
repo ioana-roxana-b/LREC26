@@ -1,0 +1,386 @@
+﻿a_speaker,b_speaker,n_features,n_pairs,n_triggers_total,mean_conv,mean_conv_w,a_gender,a_category,b_gender,b_category
+Admiral,Captain Wentworth,6.0,2.0,12.0,0.0,0.0,,,M,major
+Admiral Croft,Anne Elliot,9.0,9.0,75.0,0.013580246913580254,0.010370370370370375,M,intermediate,F,major
+Admiral Croft,Sophia Croft,8.0,2.0,16.0,0.0,0.0,M,intermediate,F,minor
+Anne Elliot,Admiral Croft,8.0,8.0,44.0,0.010416666666666671,0.008522727272727277,F,major,M,intermediate
+Anne Elliot,Captain Harville,8.0,10.0,65.0,0.01994047619047619,0.018461538461538456,F,major,M,intermediate
+Anne Elliot,Captain Wentworth,8.0,16.0,79.0,-0.006089917027417041,0.0031645569620252995,F,major,M,major
+Anne Elliot,Charles Musgrove,8.0,5.0,35.0,0.02708333333333332,0.017142857142857133,F,major,M,intermediate
+Anne Elliot,Elizabeth,1.0,2.0,2.0,0.0,0.0,F,major,F,minor
+Anne Elliot,Mary,8.0,12.0,75.0,2.7755575615628914e-17,-0.002222222222222195,F,major,,
+Anne Elliot,Mrs Musgrove,5.0,2.0,10.0,0.0,0.0,F,major,F,intermediate
+Anne Elliot,Mrs Smith,9.0,33.0,210.0,-0.013756491763738159,-0.024675324675324697,F,major,F,intermediate
+Anne Elliot,Sir Walter Elliot,7.0,8.0,36.0,-0.0991496598639456,-0.09722222222222224,F,major,M,intermediate
+Anne Elliot,William Walter Elliot,8.0,7.0,43.0,0.014285714285714318,-0.006644518272425218,F,major,M,minor
+Anne Steele,Elinor,8.0,9.0,64.0,-0.022569444444444448,-0.020833333333333336,F,intermediate,F,major
+Anne Steele,Lucy Steele,7.0,7.0,38.0,0.0068027210884353895,-0.0037593984962405852,F,intermediate,F,intermediate
+Anne Steele,Mrs. Jennings,5.0,2.0,10.0,0.0,0.0,F,intermediate,F,intermediate
+Captain Harville,Anne Elliot,8.0,10.0,62.0,-0.033730158730158735,-0.025806451612903233,M,intermediate,F,major
+Captain Wentworth,Admiral,6.0,2.0,12.0,0.0,0.0,M,major,,
+Captain Wentworth,Anne Elliot,8.0,18.0,99.0,-0.04869550384256265,-0.04657687991021322,M,major,F,major
+Captain Wentworth,Captain Harville,1.0,2.0,2.0,0.0,0.0,M,major,M,intermediate
+Captain Wentworth,Louisa Musgrove,5.0,5.0,22.0,-0.010000000000000009,-0.0090909090909091,M,major,F,minor
+Captain Wentworth,Mrs Croft,7.0,5.0,31.0,0.014285714285714282,0.01290322580645161,M,major,,
+Captain Wentworth,Mrs Musgrove,8.0,4.0,30.0,0.05208333333333333,0.041666666666666664,M,major,F,intermediate
+Catherine Morland,Eleanor Tilney,8.0,32.0,182.0,-0.02099771783803534,-0.015109890109890105,F,major,F,intermediate
+Catherine Morland,General Tilney,7.0,6.0,35.0,-0.021428571428571425,-0.019047619047619042,F,major,M,minor
+Catherine Morland,Henry Tilney,9.0,105.0,562.0,-0.005046634614963106,-0.004236570072869021,F,major,M,major
+Catherine Morland,Isabella Thorpe,9.0,52.0,285.0,0.012953176237971228,0.007219973009446699,F,major,F,major
+Catherine Morland,James Morland,7.0,7.0,32.0,-0.09013605442176871,-0.07589285714285714,F,major,M,minor
+Catherine Morland,John Thorpe,8.0,54.0,241.0,-0.006306203618023268,-0.0054556631320116815,F,major,M,intermediate
+Catherine Morland,Mr. Allen,6.0,2.0,12.0,0.0,0.0,F,major,M,minor
+Catherine Morland,Mrs. Allen,8.0,32.0,154.0,-0.00778186274509806,-0.003449675324675345,F,major,F,intermediate
+Catherine Morland,Mrs. Morland,4.0,3.0,9.0,0.0,0.0,F,major,F,minor
+Charles Musgrove,Anne Elliot,8.0,4.0,26.0,0.02083333333333333,0.00961538461538461,M,intermediate,F,major
+Charles Musgrove,Captain Wentworth,2.0,2.0,4.0,0.0,0.0,M,intermediate,M,major
+Charles Musgrove,Mary,8.0,3.0,24.0,0.0,0.0,M,intermediate,,
+Charles Musgrove,Mary Musgrove,8.0,6.0,44.0,0.033333333333333326,0.026515151515151512,M,intermediate,F,intermediate
+Charles Musgrove,Mrs Musgrove,5.0,2.0,10.0,0.0,0.0,M,intermediate,F,intermediate
+Charlotte,Elinor,8.0,10.0,68.0,0.02361111111111111,0.013235294117647059,F,intermediate,F,major
+Charlotte,Marianne,6.0,2.0,12.0,0.0,0.0,F,intermediate,F,major
+Charlotte,Mr. Palmer,6.0,6.0,31.0,0.005555555555555554,0.005376344086021504,F,intermediate,M,minor
+Charlotte Lucas,Elizabeth,8.0,14.0,89.0,-0.034281690531690515,-0.029695024077046533,F,intermediate,F,major
+Charlotte Lucas,Mrs. Bennet,6.0,4.0,21.0,-0.013888888888888895,-0.01190476190476191,F,intermediate,F,major
+Colonel Brandon,Elinor,8.0,20.0,129.0,0.007613822043969112,0.007364341085271329,M,intermediate,F,major
+Colonel Brandon,John Middleton,3.0,2.0,6.0,0.0,0.0,M,intermediate,M,intermediate
+Colonel Brandon,Mrs. Jennings,6.0,9.0,42.0,-0.0029100529100529182,-0.0026455026455026545,M,intermediate,F,intermediate
+Colonel Fitzwilliam,Elizabeth,8.0,15.0,97.0,0.004595404595404591,-0.0006872852233677009,M,intermediate,F,major
+Edmund,Fanny Price,9.0,93.0,659.0,-0.013473740168726855,-0.008566253854814253,M,major,F,major
+Edmund,Henry Crawford,9.0,8.0,52.0,0.07037037037037036,0.012019230769230766,M,major,M,major
+Edmund,Julia Bertram,7.0,2.0,14.0,0.0,0.0,M,major,F,intermediate
+Edmund,Lady Bertram,8.0,11.0,64.0,-0.01103896103896105,-0.015625000000000014,M,major,F,intermediate
+Edmund,Maria Bertram,7.0,6.0,27.0,0.04285714285714285,0.012345679012345664,M,major,F,intermediate
+Edmund,Mary Crawford,8.0,47.0,290.0,-0.011475402913768862,-0.008217168011738819,M,major,F,major
+Edmund,Mrs. Grant,6.0,2.0,12.0,0.0,0.0,M,major,F,intermediate
+Edmund,Mrs. Norris,6.0,6.0,22.0,0.013888888888888895,0.015151515151515159,M,major,F,intermediate
+Edmund,Sir Thomas,7.0,2.0,14.0,0.0,0.0,M,major,M,intermediate
+Edmund,Tom Bertram,8.0,8.0,52.0,0.027529761904761904,0.01923076923076923,M,major,M,intermediate
+Edward Ferrars,Elinor,8.0,15.0,91.0,0.005554168054168043,0.005128205128205113,M,intermediate,F,major
+Edward Ferrars,Marianne,7.0,19.0,84.0,0.005168574606876245,-0.005639097744360905,M,intermediate,F,major
+Edward Ferrars,Mrs. Dashwood,8.0,5.0,33.0,0.08333333333333331,0.054545454545454536,M,intermediate,F,intermediate
+Eleanor Tilney,Catherine Morland,8.0,38.0,203.0,0.01988758195995037,0.019704433497536936,F,intermediate,F,major
+Eleanor Tilney,Henry Tilney,7.0,7.0,44.0,-0.020408163265306114,-0.019480519480519473,F,intermediate,M,major
+Elinor,Anne Steele,8.0,10.0,62.0,0.01026785714285712,0.009677419354838688,F,major,F,intermediate
+Elinor,Charlotte,7.0,10.0,43.0,-0.023979591836734704,-0.02093023255813955,F,major,F,intermediate
+Elinor,Colonel Brandon,8.0,21.0,116.0,-0.03503701159951157,-0.02709359605911327,F,major,M,intermediate
+Elinor,Edward Ferrars,8.0,17.0,96.0,-0.006162862872421682,-0.006740196078431355,F,major,M,intermediate
+Elinor,John Dashwood,8.0,21.0,100.0,-0.03072240259740258,-0.02095238095238093,F,major,M,intermediate
+Elinor,John Middleton,2.0,2.0,4.0,0.0,0.0,F,major,M,intermediate
+Elinor,Lucy Steele,8.0,35.0,183.0,-0.024226470368711728,-0.021077283372365314,F,major,F,intermediate
+Elinor,Margaret,6.0,3.0,18.0,0.0,0.0,F,major,F,minor
+Elinor,Marianne,8.0,64.0,371.0,0.0064180231841164115,0.0016425202156334184,F,major,F,major
+Elinor,Mr. Willoughby,8.0,38.0,208.0,-0.01962467846008395,-0.0036690283400809703,F,major,M,intermediate
+Elinor,Mrs. Dashwood,8.0,20.0,120.0,-0.039689066416040086,-0.03291666666666666,F,major,F,intermediate
+Elinor,Mrs. Jennings,9.0,23.0,123.0,0.06205285904774396,0.008837044892188048,F,major,F,intermediate
+Elizabeth,Anne Elliot,4.0,4.0,10.0,0.10416666666666666,0.09999999999999999,F,minor,F,major
+Elizabeth,Charlotte Lucas,8.0,11.0,60.0,0.01569264069264066,-2.590520390792032e-17,F,major,F,intermediate
+Elizabeth,Colonel Fitzwilliam,8.0,15.0,90.0,0.0008928571428571189,0.004444444444444425,F,major,M,intermediate
+Elizabeth,George Wickham,8.0,35.0,187.0,0.05328254676080765,0.04155844155844158,F,major,M,intermediate
+Elizabeth,Jane,9.0,62.0,388.0,-0.0027532196453624713,-0.016627868307283012,F,major,F,intermediate
+Elizabeth,Lady Catherine De Bourgh,8.0,35.0,179.0,-0.04506441936163684,-0.03910614525139663,F,major,F,intermediate
+Elizabeth,Lydia,6.0,6.0,22.0,0.027777777777777773,0.02272727272727272,F,major,F,intermediate
+Elizabeth,Maria,6.0,3.0,13.0,0.05555555555555556,0.05128205128205129,F,major,F,minor
+Elizabeth,Mary,4.0,2.0,8.0,0.0,0.0,F,major,F,minor
+Elizabeth,Miss Bingley,6.0,3.0,15.0,0.0,0.0,F,major,F,intermediate
+Elizabeth,Mr. Bennet,8.0,20.0,94.0,-0.024019607843137232,-0.01861702127659572,F,major,M,intermediate
+Elizabeth,Mr. Bingley,7.0,6.0,32.0,0.0071428571428571175,0.01562499999999998,F,major,M,intermediate
+Elizabeth,Mr. Collins,8.0,6.0,42.0,0.016666666666666663,0.011904761904761902,F,major,M,intermediate
+Elizabeth,Mr. Darcy,8.0,80.0,515.0,-0.001474640982722139,-0.0014563106796116497,F,major,M,major
+Elizabeth,Mr. Gardiner,5.0,3.0,15.0,0.0,0.0,F,major,M,minor
+Elizabeth,Mrs Clay,4.0,3.0,11.0,0.08333333333333334,0.060606060606060615,F,minor,F,minor
+Elizabeth,Mrs. Bennet,8.0,13.0,71.0,0.0006954850704850579,-0.0021668472372697927,F,major,F,major
+Elizabeth,Mrs. Gardiner,8.0,20.0,130.0,-0.012126517273576123,-0.013076923076923102,F,major,F,intermediate
+Elizabeth,Mrs. Reynolds,5.0,4.0,11.0,0.0,0.0,F,major,F,minor
+Elizabeth,Sir Walter Elliot,6.0,2.0,12.0,0.0,0.0,F,minor,M,intermediate
+Emma,Harriet Smith,8.0,91.0,569.0,-0.0009428252715379462,0.0004248826744433388,F,major,F,major
+Emma,Isabella,5.0,3.0,13.0,0.0,0.0,F,major,F,intermediate
+Emma,Jane Fairfax,7.0,9.0,53.0,0.013888888888888904,0.014675052410901479,F,major,F,intermediate
+Emma,Miss Bates,8.0,21.0,99.0,0.04870339284038977,0.026936026936026956,F,major,F,intermediate
+Emma,Mr. Elton,8.0,16.0,116.0,0.016214514652014678,0.015086206896551747,F,major,M,intermediate
+Emma,Mr. Frank Churchill,9.0,74.0,439.0,0.02088050382338562,0.0047405036015514285,F,major,M,major
+Emma,Mr. John Knightley,8.0,11.0,52.0,-0.012910353535353532,-0.01398601398601398,F,major,M,intermediate
+Emma,Mr. Knightley,9.0,110.0,673.0,0.014136282715428609,0.012008645143860606,F,major,M,major
+Emma,Mr. Weston,8.0,12.0,63.0,0.023115079365079366,0.010582010582010578,F,major,M,intermediate
+Emma,Mr. Woodhouse,8.0,32.0,205.0,0.016082875457875456,0.013414634146341461,F,major,M,intermediate
+Emma,Mrs. Elton,8.0,14.0,96.0,-0.001678876678876673,-0.0014880952380952328,F,major,F,intermediate
+Emma,Mrs. Weston,8.0,39.0,256.0,0.00624641712458153,0.006109775641025628,F,major,F,intermediate
+Fanny,John Dashwood,9.0,12.0,87.0,0.05033670033670033,0.015325670498084292,F,minor,M,intermediate
+Fanny Price,Edmund,9.0,91.0,511.0,0.021181897635750693,0.015462033074557546,F,major,M,major
+Fanny Price,Henry Crawford,8.0,14.0,74.0,-0.05597909035409036,-0.049227799227799234,F,major,M,major
+Fanny Price,Julia Bertram,4.0,2.0,8.0,0.0,0.0,F,major,F,intermediate
+Fanny Price,Lady Bertram,4.0,5.0,15.0,0.016666666666666663,0.01333333333333333,F,major,F,intermediate
+Fanny Price,Maria Bertram,3.0,2.0,6.0,0.0,0.0,F,major,F,intermediate
+Fanny Price,Mary Crawford,9.0,29.0,171.0,-0.030771369381708196,-0.022383545069570496,F,major,F,major
+Fanny Price,Mr. Rushworth,6.0,5.0,23.0,0.04444444444444443,0.017391304347826077,F,major,M,intermediate
+Fanny Price,Mrs. Norris,5.0,4.0,13.0,0.0,0.0,F,major,F,intermediate
+Fanny Price,Sir Thomas,7.0,17.0,52.0,-0.06134453781512604,-0.07579185520361992,F,major,M,intermediate
+Fanny Price,Tom Bertram,8.0,3.0,22.0,0.0,0.0,F,major,M,intermediate
+Fanny Price,William Price,8.0,4.0,24.0,0.10416666666666666,0.08333333333333333,F,major,M,minor
+Frederick Tilney,Isabella Thorpe,4.0,3.0,8.0,0.0,0.0,F,minor,F,major
+General Tilney,Catherine Morland,7.0,6.0,34.0,-0.049999999999999996,-0.04411764705882353,M,minor,F,major
+General Tilney,Eleanor Tilney,4.0,5.0,13.0,-0.045833333333333365,-0.046153846153846184,M,minor,F,intermediate
+George Wickham,Elizabeth,8.0,35.0,224.0,-0.024012204455803966,-0.01760204081632654,M,intermediate,F,major
+Harriet Smith,Emma,9.0,100.0,602.0,0.015345147890237656,0.01081395348837209,F,major,F,major
+Henry Crawford,Edmund,7.0,10.0,66.0,0.020634920634920624,0.01818181818181817,M,major,M,major
+Henry Crawford,Fanny Price,9.0,19.0,123.0,-0.01519512813372462,-0.015832263585793746,M,major,F,major
+Henry Crawford,Julia Bertram,8.0,3.0,24.0,0.0,0.0,M,major,F,intermediate
+Henry Crawford,Lady Bertram,1.0,2.0,2.0,0.0,0.0,M,major,F,intermediate
+Henry Crawford,Maria Bertram,8.0,9.0,58.0,-0.005208333333333329,-0.005747126436781604,M,major,F,intermediate
+Henry Crawford,Mary Crawford,8.0,21.0,139.0,0.011724777630350382,0.012332990750256932,M,major,F,major
+Henry Crawford,Mrs. Grant,6.0,6.0,29.0,0.027777777777777773,0.022988505747126433,M,major,F,intermediate
+Henry Crawford,Tom Bertram,6.0,5.0,26.0,-0.05555555555555556,-0.04615384615384616,M,major,M,intermediate
+Henry Tilney,Catherine Morland,8.0,101.0,601.0,0.025386760880951827,0.023623993014942134,M,major,F,major
+Henry Tilney,Eleanor Tilney,7.0,11.0,66.0,0.007864357864357843,0.006887052341597776,M,major,F,intermediate
+Henry Tilney,Mrs. Allen,6.0,6.0,25.0,-0.038888888888888896,-0.03333333333333334,M,major,F,intermediate
+Isabella,Mr. John Knightley,8.0,4.0,32.0,0.0,0.0,F,intermediate,M,intermediate
+Isabella,Mr. Woodhouse,8.0,16.0,108.0,0.012168560606060613,0.010416666666666675,F,intermediate,M,intermediate
+Isabella Thorpe,Catherine Morland,8.0,57.0,399.0,0.0016921901438436554,0.0005716044497207939,F,major,F,major
+Isabella Thorpe,Frederick Tilney,4.0,3.0,12.0,0.0,0.0,F,major,F,minor
+Isabella Thorpe,James Morland,7.0,6.0,41.0,0.00952380952380953,0.008130081300813012,F,major,M,minor
+Isabella Thorpe,Mrs. Thorpe,8.0,4.0,25.0,0.09375,0.07,F,major,F,minor
+James Morland,Catherine Morland,6.0,7.0,36.0,0.04047619047619048,0.023809523809523815,M,minor,F,major
+James Morland,Isabella Thorpe,6.0,3.0,14.0,0.0,0.0,M,minor,F,major
+James Morland,John Thorpe,7.0,6.0,30.0,0.10476190476190475,0.07777777777777778,M,minor,M,intermediate
+Jane,Elizabeth,8.0,73.0,464.0,0.0010009359136598228,0.0022732640529050576,F,intermediate,F,major
+Jane,Lydia,2.0,2.0,4.0,0.0,0.0,F,intermediate,F,intermediate
+Jane,Mr. Bennet,1.0,2.0,2.0,0.0,0.0,F,intermediate,M,intermediate
+Jane,Mrs. Bennet,7.0,6.0,32.0,-0.03571428571428571,-0.026041666666666664,F,intermediate,F,major
+Jane Fairfax,Emma,7.0,10.0,55.0,0.01989795918367346,0.016363636363636358,F,intermediate,F,major
+Jane Fairfax,Miss Bates,7.0,7.0,28.0,0.06122448979591839,0.045918367346938785,F,intermediate,F,intermediate
+Jane Fairfax,Mr. Frank Churchill,6.0,3.0,13.0,0.22222222222222224,0.20512820512820515,F,intermediate,M,major
+Jane Fairfax,Mr. John Knightley,8.0,7.0,47.0,0.017261904761904784,0.02127659574468087,F,intermediate,M,intermediate
+Jane Fairfax,Mrs. Elton,8.0,13.0,87.0,0.0015151515151514972,0.002652519893899187,F,intermediate,F,intermediate
+John Dashwood,Elinor,7.0,21.0,138.0,0.002971715001790181,0.0027605244996549245,M,intermediate,F,major
+John Dashwood,Fanny,8.0,13.0,88.0,-0.024857087357087394,-0.01748251748251752,M,intermediate,F,minor
+John Dashwood,Mrs. Jennings,8.0,6.0,45.0,0.02083333333333333,0.011111111111111108,M,intermediate,F,intermediate
+John Middleton,Charlotte,2.0,2.0,4.0,0.0,0.0,M,intermediate,F,intermediate
+John Middleton,Colonel Brandon,4.0,3.0,10.0,0.08333333333333334,0.06666666666666668,M,intermediate,M,intermediate
+John Middleton,Elinor,4.0,4.0,15.0,-0.020833333333333343,-0.016666666666666673,M,intermediate,F,major
+John Middleton,Lady Middleton,4.0,3.0,10.0,0.08333333333333334,0.06666666666666668,M,intermediate,F,minor
+John Middleton,Marianne,6.0,4.0,22.0,-0.013888888888888895,-0.01136363636363637,M,intermediate,F,major
+John Middleton,Mrs. Dashwood,5.0,3.0,15.0,0.0,0.0,M,intermediate,F,intermediate
+John Middleton,Mrs. Jennings,7.0,3.0,20.0,0.0,0.0,M,intermediate,F,intermediate
+John Thorpe,Catherine Morland,8.0,60.0,363.0,-0.022256122642085284,-0.02171717171717172,M,intermediate,F,major
+John Thorpe,Isabella Thorpe,7.0,4.0,17.0,0.07142857142857142,0.058823529411764705,M,intermediate,F,major
+John Thorpe,James Morland,4.0,2.0,8.0,0.0,0.0,M,intermediate,M,minor
+Julia Bertram,Edmund,6.0,3.0,16.0,0.0,0.0,F,intermediate,M,major
+Julia Bertram,Fanny Price,6.0,4.0,24.0,0.0,0.0,F,intermediate,F,major
+Julia Bertram,Henry Crawford,4.0,2.0,8.0,0.0,0.0,F,intermediate,M,major
+Julia Bertram,Maria Bertram,8.0,4.0,30.0,0.02083333333333333,0.016666666666666663,F,intermediate,F,intermediate
+Julia Bertram,Tom Bertram,3.0,2.0,6.0,0.0,0.0,F,intermediate,M,intermediate
+Kitty,Mr. Bennet,2.0,2.0,4.0,0.0,0.0,F,minor,M,intermediate
+Kitty,Mrs. Bennet,3.0,3.0,9.0,0.0,0.0,F,minor,F,major
+Lady Bertram,Edmund,7.0,11.0,59.0,-0.057972582972582974,-0.044684129429892146,F,intermediate,M,major
+Lady Bertram,Fanny Price,7.0,8.0,47.0,0.019557823129251695,-4.724353296277262e-18,F,intermediate,F,major
+Lady Bertram,Henry Crawford,8.0,4.0,31.0,0.02083333333333333,0.016129032258064512,F,intermediate,M,major
+Lady Bertram,Mrs. Norris,8.0,16.0,86.0,0.005927579365079372,0.0021802325581395375,F,intermediate,F,intermediate
+Lady Bertram,Sir Thomas,6.0,9.0,45.0,-0.004166666666666689,-0.002469135802469154,F,intermediate,M,intermediate
+Lady Bertram,Tom Bertram,2.0,2.0,4.0,0.0,0.0,F,intermediate,M,intermediate
+Lady Catherine De Bourgh,Elizabeth,8.0,39.0,258.0,-0.01206833952956251,-0.013814351023653361,F,intermediate,F,major
+Lady Catherine De Bourgh,Mrs. Bennet,7.0,4.0,21.0,-0.02380952380952382,-0.02380952380952382,F,intermediate,F,major
+Lady Middleton,Mrs. Jennings,2.0,3.0,6.0,0.0,0.0,F,minor,F,intermediate
+Lady Russell,Anne Elliot,6.0,4.0,20.0,0.027777777777777773,0.024999999999999994,F,minor,F,major
+Lady Russell,Mary Musgrove,4.0,3.0,12.0,0.0,0.0,F,minor,F,intermediate
+Louisa Musgrove,Captain Wentworth,6.0,6.0,27.0,0.05277777777777776,0.05555555555555554,F,minor,M,major
+Lucy Steele,Anne Steele,6.0,4.0,18.0,0.041666666666666664,0.041666666666666664,F,intermediate,F,intermediate
+Lucy Steele,Elinor,8.0,36.0,243.0,0.00313533031278479,0.0018289894833104791,F,intermediate,F,major
+Lucy Steele,Mrs. Jennings,4.0,3.0,11.0,0.0,0.0,F,intermediate,F,intermediate
+Lydia,Elizabeth,6.0,7.0,41.0,-0.007936507936507945,-0.006968641114982586,F,intermediate,F,major
+Lydia,Jane,3.0,2.0,6.0,0.0,0.0,F,intermediate,F,intermediate
+Lydia,Mr. Collins,3.0,2.0,6.0,0.0,0.0,F,intermediate,M,intermediate
+Lydia,Mrs. Bennet,6.0,8.0,35.0,0.04285714285714285,0.03214285714285714,F,intermediate,F,major
+Margaret,Elinor,6.0,2.0,12.0,0.0,0.0,F,minor,F,major
+Margaret,Marianne,3.0,3.0,8.0,0.0,0.0,F,minor,F,major
+Margaret,Mrs. Jennings,3.0,2.0,6.0,0.0,0.0,F,minor,F,intermediate
+Maria,Elizabeth,7.0,5.0,31.0,-0.049999999999999996,-0.04516129032258064,F,minor,F,major
+Maria Bertram,Edmund,7.0,7.0,43.0,0.051020408163265314,0.04651162790697676,F,intermediate,M,major
+Maria Bertram,Fanny Price,6.0,2.0,12.0,0.0,0.0,F,intermediate,F,major
+Maria Bertram,Henry Crawford,8.0,9.0,56.0,0.027083333333333348,0.015873015873015883,F,intermediate,M,major
+Maria Bertram,Mrs. Norris,8.0,4.0,26.0,0.0,0.0,F,intermediate,F,intermediate
+Marianne,Edward Ferrars,8.0,16.0,80.0,0.03158386752136753,0.02343750000000001,F,major,M,intermediate
+Marianne,Elinor,8.0,70.0,402.0,-0.03850317242313386,-0.03326226012793178,F,major,F,major
+Marianne,John Middleton,6.0,5.0,27.0,0.0,0.0,F,major,M,intermediate
+Marianne,Margaret,3.0,3.0,7.0,0.0,0.0,F,major,F,minor
+Marianne,Mr. Willoughby,5.0,3.0,10.0,0.06666666666666668,0.06666666666666668,F,major,M,intermediate
+Marianne,Mrs. Dashwood,8.0,10.0,71.0,0.0017857142857142655,0.002816901408450688,F,major,F,intermediate
+Marianne,Mrs. Jennings,1.0,3.0,2.0,0.33333333333333337,0.33333333333333337,F,major,F,intermediate
+Mary,Anne Elliot,8.0,12.0,87.0,0.008143939393939384,0.008620689655172403,,,F,major
+Mary,Charles Musgrove,8.0,3.0,23.0,0.0,0.0,,,M,intermediate
+Mary,Elizabeth,4.0,2.0,8.0,0.0,0.0,F,minor,F,minor
+Mary Crawford,Edmund,9.0,50.0,359.0,0.033352738444251934,0.024122562674094718,F,major,M,major
+Mary Crawford,Fanny Price,8.0,27.0,198.0,-0.01133876590398327,-0.01084923307145527,F,major,F,major
+Mary Crawford,Henry Crawford,8.0,24.0,154.0,-0.015298436308161717,-0.009469696969696977,F,major,M,major
+Mary Crawford,Mrs. Grant,8.0,14.0,89.0,0.014491758241758246,0.015248796147672558,F,major,F,intermediate
+Mary Crawford,Tom Bertram,8.0,5.0,38.0,0.024999999999999994,0.021052631578947364,F,major,M,intermediate
+Mary Musgrove,Anne Elliot,6.0,3.0,17.0,0.0,0.0,F,intermediate,F,major
+Mary Musgrove,Captain Wentworth,2.0,2.0,4.0,0.0,0.0,F,intermediate,M,major
+Mary Musgrove,Charles Musgrove,8.0,6.0,39.0,-0.02291666666666667,-0.02564102564102564,F,intermediate,M,intermediate
+Mary Musgrove,Lady Russell,4.0,4.0,16.0,0.0,0.0,F,intermediate,F,minor
+Miss Bates,Emma,8.0,22.0,150.0,-0.024747830751120203,-0.022727272727272704,F,intermediate,F,major
+Miss Bates,Jane Fairfax,6.0,5.0,27.0,-0.005555555555555573,-1.2335811384723961e-17,F,intermediate,F,intermediate
+Miss Bates,Mr. Frank Churchill,7.0,2.0,14.0,0.0,0.0,F,intermediate,M,major
+Miss Bates,Mr. Knightley,7.0,14.0,84.0,0.0008602508602508774,0.0008503401360544385,F,intermediate,M,major
+Miss Bates,Mrs. Elton,8.0,3.0,24.0,0.0,0.0,F,intermediate,F,intermediate
+Miss Bingley,Elizabeth,7.0,8.0,47.0,-0.014455782312925183,-0.013297872340425546,F,intermediate,F,major
+Miss Bingley,Mr. Bingley,8.0,11.0,66.0,0.06313131313131312,0.04407713498622588,F,intermediate,M,intermediate
+Miss Bingley,Mr. Darcy,7.0,18.0,105.0,0.010268722873764886,0.010052910052910046,F,intermediate,M,major
+Miss Bingley,Mrs. Hurst,4.0,3.0,11.0,0.0,0.0,F,intermediate,F,minor
+Mr Shepherd,Anne Elliot,2.0,3.0,5.0,0.16666666666666669,0.13333333333333336,M,minor,F,major
+Mr Shepherd,Sir Walter Elliot,7.0,4.0,22.0,0.023809523809523805,0.02272727272727272,M,minor,M,intermediate
+Mr. Allen,Catherine Morland,3.0,3.0,7.0,0.11111111111111112,0.09523809523809525,M,minor,F,major
+Mr. Allen,Mrs. Allen,6.0,3.0,17.0,0.05555555555555556,0.03921568627450981,M,minor,F,intermediate
+Mr. Bennet,Elizabeth,8.0,22.0,141.0,0.015972934229513173,0.01128304319793681,M,intermediate,F,major
+Mr. Bennet,Jane,2.0,2.0,4.0,0.0,0.0,M,intermediate,F,intermediate
+Mr. Bennet,Kitty,3.0,3.0,7.0,0.11111111111111112,0.09523809523809525,M,intermediate,F,minor
+Mr. Bennet,Mr. Collins,8.0,4.0,26.0,0.02083333333333333,0.00961538461538461,M,intermediate,M,intermediate
+Mr. Bennet,Mrs. Bennet,8.0,39.0,238.0,0.020434618137580504,0.018638224520577458,M,intermediate,F,major
+Mr. Bingley,Elizabeth,7.0,8.0,42.0,0.08401360544217687,0.0625,M,intermediate,F,major
+Mr. Bingley,Miss Bingley,7.0,10.0,58.0,0.01519274376417233,0.015517241379310341,M,intermediate,F,intermediate
+Mr. Bingley,Mr. Darcy,8.0,10.0,71.0,0.02385912698412694,0.02394366197183094,M,intermediate,M,major
+Mr. Bingley,Mrs. Bennet,7.0,4.0,19.0,0.03571428571428571,0.02631578947368421,M,intermediate,F,major
+Mr. Collins,Elizabeth,8.0,9.0,68.0,-0.0049603174603174705,-0.004901960784313734,M,intermediate,F,major
+Mr. Collins,Maria,2.0,2.0,4.0,0.0,0.0,M,intermediate,F,minor
+Mr. Collins,Mr. Bennet,6.0,3.0,18.0,0.0,0.0,M,intermediate,M,intermediate
+Mr. Collins,Mrs. Bennet,8.0,8.0,55.0,-0.020089285714285712,-0.01818181818181818,M,intermediate,F,major
+Mr. Darcy,Elizabeth,8.0,74.0,441.0,-0.02175172508580571,-0.014616657473800334,M,major,F,major
+Mr. Darcy,Miss Bingley,8.0,21.0,103.0,0.027670766733266745,0.012020342117429507,M,major,F,intermediate
+Mr. Darcy,Mr. Bingley,7.0,6.0,36.0,-0.021428571428571432,-0.01851851851851852,M,major,M,intermediate
+Mr. Darcy,Sir William Lucas,5.0,4.0,13.0,-0.016666666666666673,-0.01923076923076924,M,major,M,minor
+Mr. Elton,Emma,8.0,19.0,115.0,-0.016777986268117814,-0.017391304347826056,M,intermediate,F,major
+Mr. Elton,Mr. John Knightley,6.0,4.0,24.0,0.0,0.0,M,intermediate,M,intermediate
+Mr. Elton,Mrs. Elton,5.0,4.0,19.0,-0.016666666666666673,-0.013157894736842111,M,intermediate,F,intermediate
+Mr. Elton,Mrs. Weston,2.0,2.0,4.0,0.0,0.0,M,intermediate,F,intermediate
+Mr. Frank Churchill,Emma,8.0,78.0,473.0,0.005771313120938135,0.0027104678267468687,M,major,F,major
+Mr. Frank Churchill,Jane Fairfax,7.0,5.0,30.0,-0.00714285714285715,-0.006666666666666672,M,major,F,intermediate
+Mr. Frank Churchill,Mr. Knightley,4.0,2.0,8.0,0.0,0.0,M,major,M,major
+Mr. Frank Churchill,Mr. Weston,8.0,7.0,45.0,0.04732142857142859,0.04444444444444447,M,major,M,intermediate
+Mr. Frank Churchill,Mr. Woodhouse,7.0,5.0,33.0,0.0,0.0,M,major,M,intermediate
+Mr. Frank Churchill,Mrs. Weston,7.0,7.0,35.0,0.08605442176870748,0.07346938775510203,M,major,F,intermediate
+Mr. Gardiner,Elizabeth,7.0,4.0,25.0,-1.586032892321652e-17,-1.3322676295501878e-17,M,minor,F,major
+Mr. Gardiner,Mrs. Gardiner,7.0,3.0,19.0,0.0,0.0,M,minor,F,intermediate
+Mr. Gardiner,Mrs. Reynolds,6.0,4.0,19.0,0.0,0.0,M,minor,F,minor
+Mr. Hurst,Miss Bingley,1.0,2.0,2.0,0.0,0.0,M,minor,F,intermediate
+Mr. John Knightley,Emma,8.0,13.0,85.0,0.025888694638694622,0.03076923076923075,M,intermediate,F,major
+Mr. John Knightley,Isabella,5.0,3.0,12.0,0.0,0.0,M,intermediate,F,intermediate
+Mr. John Knightley,Jane Fairfax,8.0,6.0,36.0,0.07291666666666667,0.05555555555555555,M,intermediate,F,intermediate
+Mr. John Knightley,Mr. Elton,5.0,3.0,13.0,0.0,0.0,M,intermediate,M,intermediate
+Mr. John Knightley,Mr. Knightley,5.0,5.0,22.0,-0.039999999999999994,-0.036363636363636355,M,intermediate,M,major
+Mr. John Knightley,Mr. Woodhouse,2.0,2.0,4.0,0.0,0.0,M,intermediate,M,intermediate
+Mr. Knightley,Emma,8.0,117.0,752.0,-0.012956654408523637,-0.010683760683760665,M,major,F,major
+Mr. Knightley,Miss Bates,8.0,10.0,46.0,0.08477182539682537,0.026086956521739094,M,major,F,intermediate
+Mr. Knightley,Mr. Woodhouse,8.0,10.0,52.0,-0.038492063492063494,-0.044230769230769226,M,major,M,intermediate
+Mr. Knightley,Mrs. Elton,8.0,11.0,67.0,0.003354978354978347,0.00678426051560379,M,major,F,intermediate
+Mr. Knightley,Mrs. Weston,8.0,15.0,108.0,0.01137820512820513,0.010493827160493829,M,major,F,intermediate
+Mr. Palmer,Charlotte,4.0,5.0,14.0,0.06666666666666665,0.04285714285714285,M,minor,F,intermediate
+Mr. Palmer,Elinor,1.0,2.0,2.0,0.0,0.0,M,minor,F,major
+Mr. Rushworth,Fanny Price,5.0,5.0,21.0,-0.026666666666666682,-0.01904761904761906,M,intermediate,F,major
+Mr. Rushworth,Maria Bertram,2.0,2.0,4.0,0.0,0.0,M,intermediate,F,intermediate
+Mr. Rushworth,Mary Crawford,2.0,2.0,4.0,0.0,0.0,M,intermediate,F,major
+Mr. Rushworth,Mrs. Norris,4.0,2.0,8.0,0.0,0.0,M,intermediate,F,intermediate
+Mr. Weston,Emma,8.0,13.0,80.0,-0.06556776556776558,-0.06153846153846154,M,intermediate,F,major
+Mr. Weston,Mr. Frank Churchill,8.0,9.0,50.0,0.045882936507936525,0.01555555555555558,M,intermediate,M,major
+Mr. Weston,Mr. Woodhouse,7.0,3.0,21.0,0.0,0.0,M,intermediate,M,intermediate
+Mr. Weston,Mrs. Elton,8.0,12.0,89.0,-0.006060606060606058,-0.005617977528089885,M,intermediate,F,intermediate
+Mr. Weston,Mrs. Weston,5.0,5.0,23.0,-0.039999999999999994,-0.03478260869565217,M,intermediate,F,intermediate
+Mr. Willoughby,Elinor,8.0,36.0,242.0,-0.0047610719100282806,-0.005739210284664843,M,intermediate,F,major
+Mr. Willoughby,Marianne,8.0,5.0,34.0,0.02083333333333333,0.01176470588235294,M,intermediate,F,major
+Mr. Willoughby,Mrs. Dashwood,7.0,7.0,38.0,-0.05884353741496593,-0.05263157894736836,M,intermediate,F,intermediate
+Mr. Woodhouse,Emma,8.0,32.0,217.0,0.04410122975143135,0.0417626728110599,M,intermediate,F,major
+Mr. Woodhouse,Harriet Smith,2.0,2.0,4.0,0.0,0.0,M,intermediate,F,major
+Mr. Woodhouse,Isabella,8.0,14.0,92.0,-0.028024059274059286,-0.017857142857142863,M,intermediate,F,intermediate
+Mr. Woodhouse,Miss Bates,7.0,2.0,14.0,0.0,0.0,M,intermediate,F,intermediate
+Mr. Woodhouse,Mr. Frank Churchill,7.0,6.0,42.0,0.0,0.0,M,intermediate,M,major
+Mr. Woodhouse,Mr. Knightley,8.0,13.0,81.0,-0.003562062937062932,-0.004748338081671406,M,intermediate,M,major
+Mr. Woodhouse,Mr. Weston,7.0,4.0,26.0,0.0,0.0,M,intermediate,M,intermediate
+Mr. Yates,Tom Bertram,8.0,3.0,21.0,0.125,0.09523809523809523,M,minor,M,intermediate
+Mrs Clay,Elizabeth,4.0,3.0,9.0,0.0,0.0,F,minor,F,minor
+Mrs Clay,Sir Walter Elliot,2.0,2.0,4.0,0.0,0.0,F,minor,M,intermediate
+Mrs Croft,Admiral,5.0,2.0,10.0,0.0,0.0,,,,
+Mrs Croft,Captain Wentworth,6.0,5.0,24.0,0.12499999999999999,0.06666666666666665,,,M,major
+Mrs Musgrove,Anne Elliot,8.0,3.0,22.0,0.08333333333333334,0.060606060606060615,F,intermediate,F,major
+Mrs Musgrove,Charles Musgrove,4.0,2.0,8.0,0.0,0.0,F,intermediate,M,intermediate
+Mrs Musgrove,Sophia Croft,6.0,2.0,12.0,0.0,0.0,F,intermediate,F,minor
+Mrs Smith,Anne Elliot,8.0,34.0,232.0,-0.02203019195427719,-0.01724137931034484,F,intermediate,F,major
+Mrs. Allen,Catherine Morland,8.0,26.0,155.0,0.02712271122597209,0.01612903225806451,F,intermediate,F,major
+Mrs. Allen,Henry Tilney,7.0,9.0,47.0,0.1290249433106576,0.11347517730496455,F,intermediate,M,major
+Mrs. Allen,Mr. Allen,3.0,3.0,9.0,0.0,0.0,F,intermediate,M,minor
+Mrs. Bennet,Charlotte Lucas,7.0,5.0,29.0,-0.004761904761904777,-0.006896551724137945,F,major,F,intermediate
+Mrs. Bennet,Elizabeth,8.0,17.0,117.0,-0.023441999177293282,-0.017094017094017082,F,major,F,major
+Mrs. Bennet,Jane,8.0,10.0,66.0,-0.02361111111111111,-0.024242424242424242,F,major,F,intermediate
+Mrs. Bennet,Lady Catherine De Bourgh,5.0,3.0,14.0,0.0,0.0,F,major,F,intermediate
+Mrs. Bennet,Lydia,8.0,8.0,43.0,0.12872023809523808,0.07848837209302323,F,major,F,intermediate
+Mrs. Bennet,Mr. Bennet,8.0,39.0,238.0,-0.0037816096929874227,-0.004848093083387219,F,major,M,intermediate
+Mrs. Bennet,Mr. Bingley,8.0,6.0,45.0,-0.033333333333333326,-0.029629629629629624,F,major,M,intermediate
+Mrs. Bennet,Mr. Collins,8.0,10.0,56.0,0.04186507936507934,0.03749999999999998,F,major,M,intermediate
+Mrs. Dashwood,Edward Ferrars,8.0,6.0,37.0,0.002083333333333326,0.0045045045045044975,F,intermediate,M,intermediate
+Mrs. Dashwood,Elinor,8.0,23.0,158.0,-0.03716369947188363,-0.025866813428728694,F,intermediate,F,major
+Mrs. Dashwood,John Middleton,6.0,3.0,14.0,0.11111111111111112,0.09523809523809525,F,intermediate,M,intermediate
+Mrs. Dashwood,Marianne,8.0,11.0,78.0,0.0393939393939394,0.02797202797202797,F,intermediate,F,major
+Mrs. Dashwood,Mr. Willoughby,6.0,6.0,24.0,0.07500000000000001,0.0277777777777778,F,intermediate,M,intermediate
+Mrs. Dashwood,Thomas,5.0,8.0,27.0,-0.025,-0.013888888888888888,F,intermediate,,
+Mrs. Elton,Emma,8.0,15.0,115.0,-0.006168831168831157,-0.005217391304347815,F,intermediate,F,major
+Mrs. Elton,Jane Fairfax,8.0,15.0,103.0,0.013804945054945034,0.014886731391585738,F,intermediate,F,intermediate
+Mrs. Elton,Mr. Elton,8.0,5.0,37.0,0.0,0.0,F,intermediate,M,intermediate
+Mrs. Elton,Mr. Knightley,8.0,10.0,62.0,0.024652777777777773,0.02096774193548387,F,intermediate,M,major
+Mrs. Elton,Mr. Weston,8.0,11.0,77.0,0.008658008658008642,0.004722550177095618,F,intermediate,M,intermediate
+Mrs. Ford,Harriet Smith,1.0,2.0,2.0,0.0,0.0,F,minor,F,major
+Mrs. Gardiner,Elizabeth,8.0,24.0,151.0,0.01019594440647073,0.004415011037527597,F,intermediate,F,major
+Mrs. Gardiner,Mr. Gardiner,7.0,2.0,14.0,0.0,0.0,F,intermediate,M,minor
+Mrs. Gardiner,Mrs. Reynolds,2.0,2.0,4.0,0.0,0.0,F,intermediate,F,minor
+Mrs. Grant,Henry Crawford,7.0,7.0,38.0,0.022448979591836764,0.018796992481203045,F,intermediate,M,major
+Mrs. Grant,Mary Crawford,8.0,15.0,93.0,-0.04619859307359307,-0.03870967741935484,F,intermediate,F,major
+Mrs. Grant,Mr. Rushworth,5.0,2.0,10.0,0.0,0.0,F,intermediate,M,intermediate
+Mrs. Hurst,Miss Bingley,5.0,3.0,13.0,0.06666666666666668,0.05128205128205129,F,minor,F,intermediate
+Mrs. Jennings,Anne Steele,5.0,5.0,23.0,0.019999999999999997,0.017391304347826084,F,intermediate,F,intermediate
+Mrs. Jennings,Colonel Brandon,7.0,9.0,42.0,0.06666666666666667,0.0343915343915344,F,intermediate,M,intermediate
+Mrs. Jennings,Elinor,9.0,28.0,205.0,0.0349505566896871,0.028397212543553985,F,intermediate,F,major
+Mrs. Jennings,John Dashwood,8.0,6.0,30.0,0.04166666666666667,0.022222222222222223,F,intermediate,M,intermediate
+Mrs. Jennings,John Middleton,4.0,3.0,11.0,0.0,0.0,F,intermediate,M,intermediate
+Mrs. Jennings,Margaret,3.0,2.0,6.0,0.0,0.0,F,intermediate,F,minor
+Mrs. Jennings,Marianne,8.0,7.0,46.0,0.07202380952380952,0.05590062111801242,F,intermediate,F,major
+Mrs. Morland,Catherine Morland,5.0,3.0,14.0,0.06666666666666668,0.04761904761904762,F,minor,F,major
+Mrs. Norris,Dr. Grant,6.0,2.0,12.0,0.0,0.0,F,intermediate,M,minor
+Mrs. Norris,Edmund,7.0,4.0,27.0,0.023809523809523805,0.018518518518518514,F,intermediate,M,major
+Mrs. Norris,Fanny Price,5.0,2.0,10.0,0.0,0.0,F,intermediate,F,major
+Mrs. Norris,Lady Bertram,8.0,17.0,117.0,-0.003301528944911307,-0.005027652086475627,F,intermediate,F,intermediate
+Mrs. Norris,Maria Bertram,6.0,4.0,24.0,0.0,0.0,F,intermediate,F,intermediate
+Mrs. Norris,Mrs. Rushworth,8.0,4.0,20.0,0.0625,0.05,F,intermediate,F,minor
+Mrs. Norris,Sir Thomas,8.0,9.0,61.0,0.027331349206349206,0.01639344262295082,F,intermediate,M,intermediate
+Mrs. Reynolds,Elizabeth,4.0,7.0,26.0,0.029761904761904767,0.02747252747252748,F,minor,F,major
+Mrs. Reynolds,Mr. Gardiner,5.0,3.0,15.0,0.0,0.0,F,minor,M,minor
+Mrs. Rushworth,Mary Crawford,1.0,2.0,2.0,0.0,0.0,F,minor,F,major
+Mrs. Rushworth,Mrs. Norris,8.0,4.0,30.0,-0.020833333333333343,-0.016666666666666673,F,minor,F,intermediate
+Mrs. Thorpe,Isabella Thorpe,7.0,2.0,14.0,0.0,0.0,F,minor,F,major
+Mrs. Thorpe,Mrs. Allen,3.0,3.0,9.0,0.0,0.0,F,minor,F,intermediate
+Mrs. Weston,Emma,8.0,40.0,272.0,0.003676184926184947,0.0022977941176470823,F,intermediate,F,major
+Mrs. Weston,Mr. Elton,7.0,4.0,20.0,0.04761904761904761,0.03749999999999999,F,intermediate,M,intermediate
+Mrs. Weston,Mr. Frank Churchill,7.0,7.0,37.0,0.009183673469387785,0.0038610038610038893,F,intermediate,M,major
+Mrs. Weston,Mr. Knightley,8.0,17.0,114.0,-0.007935049019607815,-0.0020639834881320683,F,intermediate,M,major
+Mrs. Weston,Mr. Weston,5.0,4.0,15.0,-0.016666666666666673,-0.016666666666666673,F,intermediate,M,intermediate
+Sarah,Mrs. Morland,1.0,2.0,2.0,0.0,0.0,F,minor,F,minor
+Sir Thomas,Edmund,7.0,2.0,14.0,0.0,0.0,M,intermediate,M,major
+Sir Thomas,Fanny Price,8.0,17.0,98.0,-0.04127949256625728,-0.029411764705882366,M,intermediate,F,major
+Sir Thomas,Henry Crawford,4.0,2.0,8.0,0.0,0.0,M,intermediate,M,major
+Sir Thomas,Lady Bertram,7.0,9.0,43.0,0.06173469387755105,0.010335917312661532,M,intermediate,F,intermediate
+Sir Thomas,Mrs. Norris,8.0,11.0,70.0,0.04763257575757576,0.041558441558441565,M,intermediate,F,intermediate
+Sir Thomas,Tom Bertram,4.0,2.0,8.0,0.0,0.0,M,intermediate,M,intermediate
+Sir Thomas,William Price,4.0,2.0,8.0,0.0,0.0,M,intermediate,M,minor
+Sir Walter Elliot,Anne Elliot,6.0,7.0,29.0,-0.008333333333333304,-0.01477832512315268,M,intermediate,F,major
+Sir Walter Elliot,Elizabeth,2.0,3.0,4.0,0.33333333333333337,0.33333333333333337,M,intermediate,F,minor
+Sir Walter Elliot,Mr Shepherd,7.0,4.0,26.0,-0.01190476190476191,-0.00961538461538462,M,intermediate,M,minor
+Sir Walter Elliot,Mrs Clay,6.0,2.0,12.0,0.0,0.0,M,intermediate,F,minor
+Sir William Lucas,Mr. Darcy,6.0,5.0,27.0,0.027777777777777773,0.014814814814814812,M,minor,M,major
+Sophia Croft,Admiral Croft,6.0,2.0,12.0,0.0,0.0,F,minor,M,intermediate
+The Waiter,Mary Musgrove,6.0,2.0,12.0,0.0,0.0,M,minor,F,intermediate
+Thomas,Mrs. Dashwood,5.0,8.0,34.0,0.023571428571428556,0.018382352941176454,,,F,intermediate
+Tom Bertram,Edmund,8.0,11.0,69.0,-0.009280303030303048,-0.017127799736495412,M,intermediate,M,major
+Tom Bertram,Fanny Price,8.0,4.0,27.0,-1.3877787807814457e-17,-0.009259259259259271,M,intermediate,F,major
+Tom Bertram,Henry Crawford,6.0,5.0,28.0,-0.01666666666666668,-0.0142857142857143,M,intermediate,M,major
+Tom Bertram,Julia Bertram,4.0,2.0,8.0,0.0,0.0,M,intermediate,F,intermediate
+Tom Bertram,Mary Crawford,8.0,4.0,30.0,0.0,0.0,M,intermediate,F,major
+Tom Bertram,Mr. Rushworth,4.0,2.0,8.0,0.0,0.0,M,intermediate,M,intermediate
+Tom Bertram,Mr. Yates,8.0,4.0,31.0,0.02083333333333333,0.016129032258064512,M,intermediate,M,minor
+William Price,Fanny Price,5.0,5.0,22.0,0.040000000000000015,0.036363636363636376,M,minor,F,major
+William Price,Sir Thomas,8.0,3.0,23.0,0.0,0.0,M,minor,M,intermediate
+William Walter Elliot,Anne Elliot,7.0,5.0,32.0,0.03571428571428571,0.03125,M,minor,F,major
+_unknowable,Mrs. Norris,8.0,3.0,23.0,0.04166666666666667,0.028985507246376815,M,minor,F,intermediate

@@ -1,0 +1,37 @@
+﻿a_speaker,b_speaker,n_features,n_pairs,n_triggers_total,mean_conv,mean_conv_w,a_gender,a_category,b_gender,b_category
+Catherine Morland,Eleanor Tilney,8.0,32.0,182.0,-0.02099771783803534,-0.015109890109890105,F,major,F,intermediate
+Catherine Morland,General Tilney,7.0,6.0,35.0,-0.021428571428571425,-0.019047619047619042,F,major,M,minor
+Catherine Morland,Henry Tilney,9.0,105.0,562.0,-0.005046634614963106,-0.004236570072869021,F,major,M,major
+Catherine Morland,Isabella Thorpe,9.0,52.0,285.0,0.012953176237971228,0.007219973009446699,F,major,F,major
+Catherine Morland,James Morland,7.0,7.0,32.0,-0.09013605442176871,-0.07589285714285714,F,major,M,minor
+Catherine Morland,John Thorpe,8.0,54.0,241.0,-0.006306203618023268,-0.0054556631320116815,F,major,M,intermediate
+Catherine Morland,Mr. Allen,6.0,2.0,12.0,0.0,0.0,F,major,M,minor
+Catherine Morland,Mrs. Allen,8.0,32.0,154.0,-0.00778186274509806,-0.003449675324675345,F,major,F,intermediate
+Catherine Morland,Mrs. Morland,4.0,3.0,9.0,0.0,0.0,F,major,F,minor
+Eleanor Tilney,Catherine Morland,8.0,38.0,203.0,0.01988758195995037,0.019704433497536936,F,intermediate,F,major
+Eleanor Tilney,Henry Tilney,7.0,7.0,44.0,-0.020408163265306114,-0.019480519480519473,F,intermediate,M,major
+Frederick Tilney,Isabella Thorpe,4.0,3.0,8.0,0.0,0.0,F,minor,F,major
+General Tilney,Catherine Morland,7.0,6.0,34.0,-0.049999999999999996,-0.04411764705882353,M,minor,F,major
+General Tilney,Eleanor Tilney,4.0,5.0,13.0,-0.045833333333333365,-0.046153846153846184,M,minor,F,intermediate
+Henry Tilney,Catherine Morland,8.0,101.0,601.0,0.025386760880951827,0.023623993014942134,M,major,F,major
+Henry Tilney,Eleanor Tilney,7.0,11.0,66.0,0.007864357864357843,0.006887052341597776,M,major,F,intermediate
+Henry Tilney,Mrs. Allen,6.0,6.0,25.0,-0.038888888888888896,-0.03333333333333334,M,major,F,intermediate
+Isabella Thorpe,Catherine Morland,8.0,57.0,399.0,0.0016921901438436554,0.0005716044497207939,F,major,F,major
+Isabella Thorpe,Frederick Tilney,4.0,3.0,12.0,0.0,0.0,F,major,F,minor
+Isabella Thorpe,James Morland,7.0,6.0,41.0,0.00952380952380953,0.008130081300813012,F,major,M,minor
+Isabella Thorpe,Mrs. Thorpe,8.0,4.0,25.0,0.09375,0.07,F,major,F,minor
+James Morland,Catherine Morland,6.0,7.0,36.0,0.04047619047619048,0.023809523809523815,M,minor,F,major
+James Morland,Isabella Thorpe,6.0,3.0,14.0,0.0,0.0,M,minor,F,major
+James Morland,John Thorpe,7.0,6.0,30.0,0.10476190476190475,0.07777777777777778,M,minor,M,intermediate
+John Thorpe,Catherine Morland,8.0,60.0,363.0,-0.022256122642085284,-0.02171717171717172,M,intermediate,F,major
+John Thorpe,Isabella Thorpe,7.0,4.0,17.0,0.07142857142857142,0.058823529411764705,M,intermediate,F,major
+John Thorpe,James Morland,4.0,2.0,8.0,0.0,0.0,M,intermediate,M,minor
+Mr. Allen,Catherine Morland,3.0,3.0,7.0,0.11111111111111112,0.09523809523809525,M,minor,F,major
+Mr. Allen,Mrs. Allen,6.0,3.0,17.0,0.05555555555555556,0.03921568627450981,M,minor,F,intermediate
+Mrs. Allen,Catherine Morland,8.0,26.0,155.0,0.02712271122597209,0.01612903225806451,F,intermediate,F,major
+Mrs. Allen,Henry Tilney,7.0,9.0,47.0,0.1290249433106576,0.11347517730496455,F,intermediate,M,major
+Mrs. Allen,Mr. Allen,3.0,3.0,9.0,0.0,0.0,F,intermediate,M,minor
+Mrs. Morland,Catherine Morland,5.0,3.0,14.0,0.06666666666666668,0.04761904761904762,F,minor,F,major
+Mrs. Thorpe,Isabella Thorpe,7.0,2.0,14.0,0.0,0.0,F,minor,F,major
+Mrs. Thorpe,Mrs. Allen,3.0,3.0,9.0,0.0,0.0,F,minor,F,intermediate
+Sarah,Mrs. Morland,1.0,2.0,2.0,0.0,0.0,F,minor,F,minor

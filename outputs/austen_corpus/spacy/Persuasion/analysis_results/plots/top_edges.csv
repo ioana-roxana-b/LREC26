@@ -1,0 +1,21 @@
+﻿a_speaker,b_speaker,n_features,n_pairs,n_triggers_total,mean_conv,mean_conv_w,a_gender,a_category,b_gender,b_category
+Sir Walter Elliot,Elizabeth,2.0,3.0,4.0,0.3333333333333333,0.3333333333333333,M,intermediate,F,minor
+Mr Shepherd,Anne Elliot,2.0,3.0,5.0,0.1666666666666666,0.1333333333333333,M,minor,F,major
+Mary Musgrove,Charles Musgrove,8.0,6.0,39.0,0.1208333333333333,0.1025641025641025,F,intermediate,M,intermediate
+Elizabeth,Anne Elliot,3.0,4.0,7.0,0.0833333333333333,0.0714285714285714,F,minor,F,major
+Mrs Croft,Captain Wentworth,5.0,5.0,22.0,0.0799999999999999,0.0636363636363636,,,M,major
+Mrs Musgrove,Anne Elliot,8.0,3.0,22.0,0.0833333333333333,0.0606060606060606,F,intermediate,F,major
+Elizabeth,Mrs Clay,4.0,3.0,11.0,0.0833333333333333,0.0606060606060606,F,minor,F,minor
+Mary Musgrove,Lady Russell,5.0,4.0,18.0,0.1,0.0555555555555555,F,intermediate,F,minor
+Captain Wentworth,Anne Elliot,8.0,18.0,99.0,0.0425590749120161,0.0443322109988776,M,major,F,major
+Anne Elliot,Sir Walter Elliot,7.0,8.0,36.0,0.0460884353741496,0.0416666666666666,F,major,M,intermediate
+Captain Harville,Anne Elliot,8.0,10.0,62.0,0.0436507936507936,0.0387096774193548,M,intermediate,F,major
+Anne Elliot,Mrs Smith,9.0,33.0,210.0,0.0426145687377571,0.0372294372294372,F,major,F,intermediate
+Charles Musgrove,Anne Elliot,7.0,4.0,24.0,0.0357142857142857,0.03125,M,intermediate,F,major
+Captain Wentworth,Louisa Musgrove,7.0,5.0,27.0,0.0595238095238095,0.0296296296296296,M,major,F,minor
+Lady Russell,Anne Elliot,6.0,4.0,20.0,0.0277777777777777,0.0249999999999999,F,minor,F,major
+Anne Elliot,Admiral Croft,9.0,8.0,47.0,0.024074074074074,0.0186170212765957,F,major,M,intermediate
+Anne Elliot,Charles Musgrove,8.0,5.0,35.0,0.0270833333333333,0.0171428571428571,F,major,M,intermediate
+Anne Elliot,Captain Wentworth,8.0,16.0,79.0,0.0104730339105339,0.0158227848101265,F,major,M,major
+Mrs Smith,Anne Elliot,9.0,34.0,244.0,0.0135322812327189,0.0144648023143683,F,intermediate,F,major
+Sir Walter Elliot,Anne Elliot,7.0,7.0,34.0,0.010204081632653,0.0126050420168067,M,intermediate,F,major

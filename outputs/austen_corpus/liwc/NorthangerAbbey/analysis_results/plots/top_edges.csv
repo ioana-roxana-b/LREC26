@@ -1,0 +1,21 @@
+﻿a_speaker,b_speaker,n_features,n_pairs,n_triggers_total,mean_conv,mean_conv_w,a_gender,a_category,b_gender,b_category
+General Tilney,Eleanor Tilney,7,5,20,0.1714285714285714,0.1399999999999999,M,minor,F,intermediate
+Henry Tilney,Mrs. Allen,8,6,29,0.1791666666666666,0.1149425287356321,M,major,F,intermediate
+Frederick Tilney,Isabella Thorpe,6,3,13,0.1111111111111111,0.1025641025641025,F,minor,F,major
+Mr. Allen,Catherine Morland,6,3,15,0.1111111111111111,0.0888888888888888,M,minor,F,major
+Catherine Morland,Eleanor Tilney,9,32,194,0.0863297623073984,0.0671713917525773,F,major,F,intermediate
+Catherine Morland,John Thorpe,9,54,269,0.0637165041715454,0.0584469227591904,F,major,M,intermediate
+James Morland,John Thorpe,9,6,38,0.0555555555555555,0.043859649122807,M,minor,M,intermediate
+Mr. Allen,Mrs. Allen,9,3,25,0.0555555555555555,0.04,M,minor,F,intermediate
+Isabella Thorpe,Mrs. Thorpe,9,4,26,0.0555555555555555,0.0384615384615384,F,major,F,minor
+Mrs. Morland,Catherine Morland,9,3,25,0.037037037037037,0.0266666666666666,F,minor,F,major
+Catherine Morland,General Tilney,9,6,41,0.0166666666666666,0.024390243902439,F,major,M,minor
+Mrs. Allen,Catherine Morland,9,26,170,0.0297776660521758,0.0237556561085972,F,intermediate,F,major
+Catherine Morland,Henry Tilney,9,105,623,0.028735023296255,0.0234961400290453,F,major,M,major
+Eleanor Tilney,Catherine Morland,9,38,223,0.0326984621940762,0.0231295728109511,F,intermediate,F,major
+Mrs. Thorpe,Mrs. Allen,7,3,17,0.0238095238095238,0.0196078431372549,F,minor,F,intermediate
+Henry Tilney,Catherine Morland,9,101,679,0.0191300816110151,0.01830006270141,M,major,F,major
+James Morland,Catherine Morland,9,7,47,0.0293650793650793,0.0182370820668693,M,minor,F,major
+John Thorpe,Catherine Morland,9,60,403,0.0154385140756225,0.01712158808933,M,intermediate,F,major
+Isabella Thorpe,Frederick Tilney,8,3,21,0.0208333333333333,0.0158730158730158,F,major,F,minor
+Isabella Thorpe,James Morland,9,6,53,0.0111111111111111,0.0094339622641509,F,major,M,minor

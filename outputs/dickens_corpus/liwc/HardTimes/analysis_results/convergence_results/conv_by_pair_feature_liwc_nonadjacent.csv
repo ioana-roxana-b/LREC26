@@ -1,46 +1,17 @@
 ﻿a_speaker,b_speaker,family,n_pairs,n_triggers,n_b_positives_given_trigger,p1,p0,conv,a_gender,a_category,b_gender,b_category
-Bitzer,Thomas Gradgrind,adverbs,2,2,1,0.5,0.5,0.0,M,intermediate,M,major
-Bitzer,Thomas Gradgrind,articles,2,2,1,0.5,0.5,0.0,M,intermediate,M,major
-Bitzer,Thomas Gradgrind,auxiliary_verbs,2,2,2,1.0,1.0,0.0,M,intermediate,M,major
-Bitzer,Thomas Gradgrind,conjunctions,2,2,1,0.5,0.5,0.0,M,intermediate,M,major
-Bitzer,Thomas Gradgrind,impersonal_pronouns,2,2,1,0.5,0.5,0.0,M,intermediate,M,major
-Bitzer,Thomas Gradgrind,negations,2,2,0,0.0,0.0,0.0,M,intermediate,M,major
-Bitzer,Thomas Gradgrind,personal_pronouns,2,2,2,1.0,1.0,0.0,M,intermediate,M,major
-Bitzer,Thomas Gradgrind,prepositions,2,2,1,0.5,0.5,0.0,M,intermediate,M,major
-Bitzer,Thomas Gradgrind,quantifiers,2,2,1,0.5,0.5,0.0,M,intermediate,M,major
-Cecilia Jupe,Josiah Bounderby,adverbs,2,2,2,1.0,1.0,0.0,F,major,M,major
-Cecilia Jupe,Josiah Bounderby,conjunctions,2,2,1,0.5,0.5,0.0,F,major,M,major
-Cecilia Jupe,Josiah Bounderby,prepositions,2,2,2,1.0,1.0,0.0,F,major,M,major
-Cecilia Jupe,Louisa Bounderby,auxiliary_verbs,2,2,2,1.0,1.0,0.0,F,major,F,major
-Cecilia Jupe,Louisa Bounderby,personal_pronouns,2,2,2,1.0,1.0,0.0,F,major,F,major
 Cecilia Jupe,Mr. James Harthouse,adverbs,3,3,3,1.0,1.0,0.0,F,major,M,major
 Cecilia Jupe,Mr. James Harthouse,articles,3,3,2,0.6666666666666666,0.6666666666666666,0.0,F,major,M,major
 Cecilia Jupe,Mr. James Harthouse,auxiliary_verbs,3,3,2,0.6666666666666666,0.6666666666666666,0.0,F,major,M,major
 Cecilia Jupe,Mr. James Harthouse,conjunctions,3,3,2,0.6666666666666666,0.6666666666666666,0.0,F,major,M,major
-Cecilia Jupe,Mr. James Harthouse,impersonal_pronouns,3,2,2,1.0,0.6666666666666666,0.33333333333333337,F,major,M,major
-Cecilia Jupe,Mr. James Harthouse,negations,3,2,1,0.5,0.3333333333333333,0.16666666666666669,F,major,M,major
 Cecilia Jupe,Mr. James Harthouse,personal_pronouns,3,3,3,1.0,1.0,0.0,F,major,M,major
 Cecilia Jupe,Mr. James Harthouse,prepositions,3,3,2,0.6666666666666666,0.6666666666666666,0.0,F,major,M,major
-Cecilia Jupe,Mr. Sleary,adverbs,3,2,1,0.5,0.6666666666666666,-0.16666666666666663,F,major,M,intermediate
-Cecilia Jupe,Mr. Sleary,auxiliary_verbs,3,2,1,0.5,0.6666666666666666,-0.16666666666666663,F,major,M,intermediate
 Cecilia Jupe,Mr. Sleary,conjunctions,3,3,3,1.0,1.0,0.0,F,major,M,intermediate
 Cecilia Jupe,Mr. Sleary,personal_pronouns,3,3,3,1.0,1.0,0.0,F,major,M,intermediate
 Cecilia Jupe,Mr. Sleary,prepositions,3,3,3,1.0,1.0,0.0,F,major,M,intermediate
-Cecilia Jupe,Thomas Gradgrind,adverbs,4,2,0,0.0,0.5,-0.5,F,major,M,major
-Cecilia Jupe,Thomas Gradgrind,articles,4,2,0,0.0,0.25,-0.25,F,major,M,major
 Cecilia Jupe,Thomas Gradgrind,auxiliary_verbs,4,3,2,0.6666666666666666,0.75,-0.08333333333333337,F,major,M,major
 Cecilia Jupe,Thomas Gradgrind,conjunctions,4,4,2,0.5,0.5,0.0,F,major,M,major
-Cecilia Jupe,Thomas Gradgrind,impersonal_pronouns,4,2,2,1.0,0.75,0.25,F,major,M,major
 Cecilia Jupe,Thomas Gradgrind,personal_pronouns,4,4,3,0.75,0.75,0.0,F,major,M,major
 Cecilia Jupe,Thomas Gradgrind,prepositions,4,4,2,0.5,0.5,0.0,F,major,M,major
-Josiah Bounderby,Cecilia Jupe,adverbs,2,2,2,1.0,1.0,0.0,M,major,F,major
-Josiah Bounderby,Cecilia Jupe,articles,2,2,1,0.5,0.5,0.0,M,major,F,major
-Josiah Bounderby,Cecilia Jupe,auxiliary_verbs,2,2,2,1.0,1.0,0.0,M,major,F,major
-Josiah Bounderby,Cecilia Jupe,conjunctions,2,2,2,1.0,1.0,0.0,M,major,F,major
-Josiah Bounderby,Cecilia Jupe,negations,2,2,0,0.0,0.0,0.0,M,major,F,major
-Josiah Bounderby,Cecilia Jupe,personal_pronouns,2,2,2,1.0,1.0,0.0,M,major,F,major
-Josiah Bounderby,Cecilia Jupe,prepositions,2,2,2,1.0,1.0,0.0,M,major,F,major
-Josiah Bounderby,Cecilia Jupe,quantifiers,2,2,0,0.0,0.0,0.0,M,major,F,major
 Josiah Bounderby,Louisa Bounderby,adverbs,9,6,3,0.5,0.6666666666666666,-0.16666666666666663,M,major,F,major
 Josiah Bounderby,Louisa Bounderby,articles,9,6,0,0.0,0.1111111111111111,-0.1111111111111111,M,major,F,major
 Josiah Bounderby,Louisa Bounderby,auxiliary_verbs,9,8,8,1.0,1.0,0.0,M,major,F,major
@@ -51,14 +22,8 @@ Josiah Bounderby,Louisa Bounderby,personal_pronouns,9,9,9,1.0,1.0,0.0,M,major,F,
 Josiah Bounderby,Louisa Bounderby,prepositions,9,6,1,0.16666666666666666,0.4444444444444444,-0.2777777777777778,M,major,F,major
 Josiah Bounderby,Louisa Bounderby,quantifiers,9,6,4,0.6666666666666666,0.6666666666666666,0.0,M,major,F,major
 Josiah Bounderby,Mr. James Harthouse,adverbs,3,3,3,1.0,1.0,0.0,M,major,M,major
-Josiah Bounderby,Mr. James Harthouse,articles,3,2,2,1.0,0.6666666666666666,0.33333333333333337,M,major,M,major
-Josiah Bounderby,Mr. James Harthouse,auxiliary_verbs,3,2,0,0.0,0.3333333333333333,-0.3333333333333333,M,major,M,major
-Josiah Bounderby,Mr. James Harthouse,conjunctions,3,2,2,1.0,1.0,0.0,M,major,M,major
 Josiah Bounderby,Mr. James Harthouse,impersonal_pronouns,3,3,2,0.6666666666666666,0.6666666666666666,0.0,M,major,M,major
 Josiah Bounderby,Mr. James Harthouse,negations,3,3,1,0.3333333333333333,0.3333333333333333,0.0,M,major,M,major
-Josiah Bounderby,Mr. James Harthouse,personal_pronouns,3,2,2,1.0,1.0,0.0,M,major,M,major
-Josiah Bounderby,Mr. James Harthouse,prepositions,3,2,2,1.0,1.0,0.0,M,major,M,major
-Josiah Bounderby,Mr. James Harthouse,quantifiers,3,2,0,0.0,0.3333333333333333,-0.3333333333333333,M,major,M,major
 Josiah Bounderby,Mrs. Sparsit,adverbs,6,4,2,0.5,0.5,0.0,M,major,F,major
 Josiah Bounderby,Mrs. Sparsit,articles,6,3,2,0.6666666666666666,0.6666666666666666,0.0,M,major,F,major
 Josiah Bounderby,Mrs. Sparsit,auxiliary_verbs,6,6,5,0.8333333333333334,0.8333333333333334,0.0,M,major,F,major
@@ -66,10 +31,6 @@ Josiah Bounderby,Mrs. Sparsit,conjunctions,6,3,2,0.6666666666666666,0.6666666666
 Josiah Bounderby,Mrs. Sparsit,impersonal_pronouns,6,5,3,0.6,0.6666666666666666,-0.06666666666666665,M,major,F,major
 Josiah Bounderby,Mrs. Sparsit,personal_pronouns,6,6,6,1.0,1.0,0.0,M,major,F,major
 Josiah Bounderby,Mrs. Sparsit,prepositions,6,5,4,0.8,0.8333333333333334,-0.033333333333333326,M,major,F,major
-Josiah Bounderby,Mrs. Sparsit,quantifiers,6,2,2,1.0,0.3333333333333333,0.6666666666666667,M,major,F,major
-Josiah Bounderby,Rachel Gradgrind,adverbs,2,2,1,0.5,0.5,0.0,M,major,F,intermediate
-Josiah Bounderby,Rachel Gradgrind,conjunctions,2,2,1,0.5,0.5,0.0,M,major,F,intermediate
-Josiah Bounderby,Rachel Gradgrind,personal_pronouns,2,2,1,0.5,0.5,0.0,M,major,F,intermediate
 Josiah Bounderby,Thomas Gradgrind,adverbs,12,10,7,0.7,0.6666666666666666,0.033333333333333326,M,major,M,major
 Josiah Bounderby,Thomas Gradgrind,articles,12,9,6,0.6666666666666666,0.5833333333333334,0.08333333333333326,M,major,M,major
 Josiah Bounderby,Thomas Gradgrind,auxiliary_verbs,12,9,6,0.6666666666666666,0.75,-0.08333333333333337,M,major,M,major
@@ -79,47 +40,17 @@ Josiah Bounderby,Thomas Gradgrind,negations,12,3,1,0.3333333333333333,0.41666666
 Josiah Bounderby,Thomas Gradgrind,personal_pronouns,12,9,6,0.6666666666666666,0.75,-0.08333333333333337,M,major,M,major
 Josiah Bounderby,Thomas Gradgrind,prepositions,12,11,7,0.6363636363636364,0.6666666666666666,-0.030303030303030276,M,major,M,major
 Josiah Bounderby,Thomas Gradgrind,quantifiers,12,6,2,0.3333333333333333,0.3333333333333333,0.0,M,major,M,major
-Louisa Bounderby,Cecilia Jupe,adverbs,4,2,2,1.0,1.0,0.0,F,major,F,major
 Louisa Bounderby,Cecilia Jupe,auxiliary_verbs,4,3,3,1.0,1.0,0.0,F,major,F,major
-Louisa Bounderby,Cecilia Jupe,conjunctions,4,2,2,1.0,1.0,0.0,F,major,F,major
-Louisa Bounderby,Cecilia Jupe,impersonal_pronouns,4,2,1,0.5,0.75,-0.25,F,major,F,major
-Louisa Bounderby,Cecilia Jupe,negations,4,2,0,0.0,0.5,-0.5,F,major,F,major
 Louisa Bounderby,Cecilia Jupe,personal_pronouns,4,3,3,1.0,1.0,0.0,F,major,F,major
-Louisa Bounderby,Mr. James Harthouse,adverbs,3,2,2,1.0,0.6666666666666666,0.33333333333333337,F,major,M,major
-Louisa Bounderby,Mr. James Harthouse,articles,3,2,1,0.5,0.6666666666666666,-0.16666666666666663,F,major,M,major
-Louisa Bounderby,Mr. James Harthouse,auxiliary_verbs,3,3,2,0.6666666666666666,0.6666666666666666,0.0,F,major,M,major
-Louisa Bounderby,Mr. James Harthouse,conjunctions,3,2,2,1.0,0.6666666666666666,0.33333333333333337,F,major,M,major
-Louisa Bounderby,Mr. James Harthouse,impersonal_pronouns,3,2,1,0.5,0.3333333333333333,0.16666666666666669,F,major,M,major
-Louisa Bounderby,Mr. James Harthouse,personal_pronouns,3,3,2,0.6666666666666666,0.6666666666666666,0.0,F,major,M,major
-Louisa Bounderby,Mr. James Harthouse,prepositions,3,2,2,1.0,0.6666666666666666,0.33333333333333337,F,major,M,major
-Louisa Bounderby,Mrs. Sparsit,auxiliary_verbs,2,2,2,1.0,1.0,0.0,F,major,F,major
-Louisa Bounderby,Mrs. Sparsit,impersonal_pronouns,2,2,1,0.5,0.5,0.0,F,major,F,major
-Louisa Bounderby,Mrs. Sparsit,negations,2,2,0,0.0,0.0,0.0,F,major,F,major
-Louisa Bounderby,Mrs. Sparsit,personal_pronouns,2,2,2,1.0,1.0,0.0,F,major,F,major
-Louisa Bounderby,Mrs. Sparsit,prepositions,2,2,2,1.0,1.0,0.0,F,major,F,major
-Louisa Bounderby,Rachel Gradgrind,auxiliary_verbs,2,2,2,1.0,1.0,0.0,F,major,F,intermediate
-Louisa Bounderby,Rachel Gradgrind,conjunctions,2,2,1,0.5,0.5,0.0,F,major,F,intermediate
-Louisa Bounderby,Rachel Gradgrind,impersonal_pronouns,2,2,1,0.5,0.5,0.0,F,major,F,intermediate
-Louisa Bounderby,Rachel Gradgrind,personal_pronouns,2,2,2,1.0,1.0,0.0,F,major,F,intermediate
-Louisa Bounderby,Rachel Gradgrind,prepositions,2,2,1,0.5,0.5,0.0,F,major,F,intermediate
 Louisa Bounderby,Stephen Blackpool,adverbs,3,3,3,1.0,1.0,0.0,F,major,M,major
 Louisa Bounderby,Stephen Blackpool,auxiliary_verbs,3,3,3,1.0,1.0,0.0,F,major,M,major
-Louisa Bounderby,Stephen Blackpool,impersonal_pronouns,3,2,2,1.0,1.0,0.0,F,major,M,major
 Louisa Bounderby,Stephen Blackpool,personal_pronouns,3,3,3,1.0,1.0,0.0,F,major,M,major
 Louisa Bounderby,Stephen Blackpool,prepositions,3,3,3,1.0,1.0,0.0,F,major,M,major
-Louisa Bounderby,Thomas Gradgrind,articles,2,2,1,0.5,0.5,0.0,F,major,M,major
-Louisa Bounderby,Thomas Gradgrind,impersonal_pronouns,2,2,1,0.5,0.5,0.0,F,major,M,major
-Louisa Bounderby,Young Thomas,adverbs,4,2,2,1.0,0.75,0.25,F,major,M,major
 Louisa Bounderby,Young Thomas,auxiliary_verbs,4,3,3,1.0,1.0,0.0,F,major,M,major
 Louisa Bounderby,Young Thomas,personal_pronouns,4,4,4,1.0,1.0,0.0,F,major,M,major
-Master Kidderminster,Thomas Gradgrind,adverbs,3,2,0,0.0,0.3333333333333333,-0.3333333333333333,M,minor,M,major
-Master Kidderminster,Thomas Gradgrind,articles,3,2,0,0.0,0.3333333333333333,-0.3333333333333333,M,minor,M,major
-Master Kidderminster,Thomas Gradgrind,auxiliary_verbs,3,2,2,1.0,1.0,0.0,M,minor,M,major
-Master Kidderminster,Thomas Gradgrind,conjunctions,3,2,0,0.0,0.3333333333333333,-0.3333333333333333,M,minor,M,major
 Master Kidderminster,Thomas Gradgrind,personal_pronouns,3,3,2,0.6666666666666666,0.6666666666666666,0.0,M,minor,M,major
 Master Kidderminster,Thomas Gradgrind,prepositions,3,3,1,0.3333333333333333,0.3333333333333333,0.0,M,minor,M,major
 Mr. E. W. B. Childers,Josiah Bounderby,adverbs,4,3,0,0.0,0.0,0.0,M,intermediate,M,major
-Mr. E. W. B. Childers,Josiah Bounderby,articles,4,2,0,0.0,0.5,-0.5,M,intermediate,M,major
 Mr. E. W. B. Childers,Josiah Bounderby,auxiliary_verbs,4,4,1,0.25,0.25,0.0,M,intermediate,M,major
 Mr. E. W. B. Childers,Josiah Bounderby,conjunctions,4,3,1,0.3333333333333333,0.5,-0.16666666666666669,M,intermediate,M,major
 Mr. E. W. B. Childers,Josiah Bounderby,impersonal_pronouns,4,3,0,0.0,0.0,0.0,M,intermediate,M,major
@@ -127,30 +58,6 @@ Mr. E. W. B. Childers,Josiah Bounderby,negations,4,3,2,0.6666666666666666,0.5,0.
 Mr. E. W. B. Childers,Josiah Bounderby,personal_pronouns,4,4,4,1.0,1.0,0.0,M,intermediate,M,major
 Mr. E. W. B. Childers,Josiah Bounderby,prepositions,4,3,2,0.6666666666666666,0.75,-0.08333333333333337,M,intermediate,M,major
 Mr. E. W. B. Childers,Josiah Bounderby,quantifiers,4,3,0,0.0,0.0,0.0,M,intermediate,M,major
-Mr. James Harthouse,Bitzer,adverbs,2,2,0,0.0,0.0,0.0,M,major,M,intermediate
-Mr. James Harthouse,Bitzer,articles,2,2,2,1.0,1.0,0.0,M,major,M,intermediate
-Mr. James Harthouse,Bitzer,conjunctions,2,2,1,0.5,0.5,0.0,M,major,M,intermediate
-Mr. James Harthouse,Bitzer,impersonal_pronouns,2,2,0,0.0,0.0,0.0,M,major,M,intermediate
-Mr. James Harthouse,Bitzer,personal_pronouns,2,2,1,0.5,0.5,0.0,M,major,M,intermediate
-Mr. James Harthouse,Bitzer,prepositions,2,2,1,0.5,0.5,0.0,M,major,M,intermediate
-Mr. James Harthouse,Louisa Bounderby,auxiliary_verbs,2,2,2,1.0,1.0,0.0,M,major,F,major
-Mr. James Harthouse,Louisa Bounderby,personal_pronouns,2,2,2,1.0,1.0,0.0,M,major,F,major
-Mr. James Harthouse,Mrs. Sparsit,personal_pronouns,2,2,1,0.5,0.5,0.0,M,major,F,major
-Mr. James Harthouse,Young Thomas,auxiliary_verbs,2,2,1,0.5,0.5,0.0,M,major,M,major
-Mr. James Harthouse,Young Thomas,personal_pronouns,2,2,1,0.5,0.5,0.0,M,major,M,major
-Mr. Sleary,Cecilia Jupe,adverbs,2,2,1,0.5,0.5,0.0,M,intermediate,F,major
-Mr. Sleary,Cecilia Jupe,articles,2,2,0,0.0,0.0,0.0,M,intermediate,F,major
-Mr. Sleary,Cecilia Jupe,conjunctions,2,2,1,0.5,0.5,0.0,M,intermediate,F,major
-Mr. Sleary,Cecilia Jupe,personal_pronouns,2,2,2,1.0,1.0,0.0,M,intermediate,F,major
-Mr. Sleary,Cecilia Jupe,prepositions,2,2,1,0.5,0.5,0.0,M,intermediate,F,major
-Mr. Sleary,Cecilia Jupe,quantifiers,2,2,0,0.0,0.0,0.0,M,intermediate,F,major
-Mr. Sleary,Josiah Bounderby,articles,2,2,2,1.0,1.0,0.0,M,intermediate,M,major
-Mr. Sleary,Josiah Bounderby,impersonal_pronouns,2,2,2,1.0,1.0,0.0,M,intermediate,M,major
-Mr. Sleary,Josiah Bounderby,personal_pronouns,2,2,2,1.0,1.0,0.0,M,intermediate,M,major
-Mr. Sleary,Josiah Bounderby,prepositions,2,2,2,1.0,1.0,0.0,M,intermediate,M,major
-Mr. Sleary,Thomas Gradgrind,articles,2,2,1,0.5,0.5,0.0,M,intermediate,M,major
-Mrs. Gradgrind,Josiah Bounderby,articles,2,2,2,1.0,1.0,0.0,F,intermediate,M,major
-Mrs. Gradgrind,Josiah Bounderby,prepositions,2,2,2,1.0,1.0,0.0,F,intermediate,M,major
 Mrs. Sparsit,Josiah Bounderby,adverbs,6,4,3,0.75,0.8333333333333334,-0.08333333333333337,F,major,M,major
 Mrs. Sparsit,Josiah Bounderby,articles,6,4,2,0.5,0.6666666666666666,-0.16666666666666663,F,major,M,major
 Mrs. Sparsit,Josiah Bounderby,auxiliary_verbs,6,6,5,0.8333333333333334,0.8333333333333334,0.0,F,major,M,major
@@ -159,20 +66,8 @@ Mrs. Sparsit,Josiah Bounderby,impersonal_pronouns,6,4,2,0.5,0.5,0.0,F,major,M,ma
 Mrs. Sparsit,Josiah Bounderby,personal_pronouns,6,5,4,0.8,0.8333333333333334,-0.033333333333333326,F,major,M,major
 Mrs. Sparsit,Josiah Bounderby,prepositions,6,5,3,0.6,0.6666666666666666,-0.06666666666666665,F,major,M,major
 Mrs. Sparsit,Josiah Bounderby,quantifiers,6,3,1,0.3333333333333333,0.3333333333333333,0.0,F,major,M,major
-Mrs. Sparsit,Mr. James Harthouse,adverbs,2,2,2,1.0,1.0,0.0,F,major,M,major
-Mrs. Sparsit,Mr. James Harthouse,articles,2,2,1,0.5,0.5,0.0,F,major,M,major
-Mrs. Sparsit,Mr. James Harthouse,auxiliary_verbs,2,2,1,0.5,0.5,0.0,F,major,M,major
-Mrs. Sparsit,Mr. James Harthouse,conjunctions,2,2,0,0.0,0.0,0.0,F,major,M,major
-Mrs. Sparsit,Mr. James Harthouse,impersonal_pronouns,2,2,0,0.0,0.0,0.0,F,major,M,major
-Mrs. Sparsit,Mr. James Harthouse,negations,2,2,0,0.0,0.0,0.0,F,major,M,major
-Mrs. Sparsit,Mr. James Harthouse,personal_pronouns,2,2,0,0.0,0.0,0.0,F,major,M,major
-Mrs. Sparsit,Mr. James Harthouse,prepositions,2,2,1,0.5,0.5,0.0,F,major,M,major
-Mrs. Sparsit,Mr. James Harthouse,quantifiers,2,2,0,0.0,0.0,0.0,F,major,M,major
-Mrs. Sparsit,Stephen Blackpool,adverbs,3,2,2,1.0,1.0,0.0,F,major,M,major
 Mrs. Sparsit,Stephen Blackpool,articles,3,3,1,0.3333333333333333,0.3333333333333333,0.0,F,major,M,major
 Mrs. Sparsit,Stephen Blackpool,auxiliary_verbs,3,3,3,1.0,1.0,0.0,F,major,M,major
-Mrs. Sparsit,Stephen Blackpool,impersonal_pronouns,3,2,1,0.5,0.3333333333333333,0.16666666666666669,F,major,M,major
-Mrs. Sparsit,Stephen Blackpool,personal_pronouns,3,2,2,1.0,1.0,0.0,F,major,M,major
 Mrs. Sparsit,Stephen Blackpool,prepositions,3,3,2,0.6666666666666666,0.6666666666666666,0.0,F,major,M,major
 Mrs. Sparsit,Stephen Blackpool,quantifiers,3,3,2,0.6666666666666666,0.6666666666666666,0.0,F,major,M,major
 Rachel Gradgrind,Josiah Bounderby,adverbs,4,3,1,0.3333333333333333,0.5,-0.16666666666666669,F,intermediate,M,major
@@ -181,47 +76,21 @@ Rachel Gradgrind,Josiah Bounderby,auxiliary_verbs,4,3,2,0.6666666666666666,0.75,
 Rachel Gradgrind,Josiah Bounderby,conjunctions,4,3,2,0.6666666666666666,0.75,-0.08333333333333337,F,intermediate,M,major
 Rachel Gradgrind,Josiah Bounderby,impersonal_pronouns,4,3,1,0.3333333333333333,0.5,-0.16666666666666669,F,intermediate,M,major
 Rachel Gradgrind,Josiah Bounderby,personal_pronouns,4,4,4,1.0,1.0,0.0,F,intermediate,M,major
-Rachel Gradgrind,Josiah Bounderby,prepositions,4,2,1,0.5,0.5,0.0,F,intermediate,M,major
-Rachel Gradgrind,Josiah Bounderby,quantifiers,4,2,1,0.5,0.25,0.25,F,intermediate,M,major
-Rachel Gradgrind,Louisa Bounderby,adverbs,3,2,1,0.5,0.3333333333333333,0.16666666666666669,F,intermediate,F,major
 Rachel Gradgrind,Louisa Bounderby,articles,3,3,1,0.3333333333333333,0.3333333333333333,0.0,F,intermediate,F,major
-Rachel Gradgrind,Louisa Bounderby,auxiliary_verbs,3,2,2,1.0,1.0,0.0,F,intermediate,F,major
 Rachel Gradgrind,Louisa Bounderby,conjunctions,3,3,1,0.3333333333333333,0.3333333333333333,0.0,F,intermediate,F,major
-Rachel Gradgrind,Louisa Bounderby,impersonal_pronouns,3,2,2,1.0,0.6666666666666666,0.33333333333333337,F,intermediate,F,major
 Rachel Gradgrind,Louisa Bounderby,personal_pronouns,3,3,3,1.0,1.0,0.0,F,intermediate,F,major
 Rachel Gradgrind,Louisa Bounderby,prepositions,3,3,2,0.6666666666666666,0.6666666666666666,0.0,F,intermediate,F,major
 Rachel Gradgrind,Louisa Bounderby,quantifiers,3,3,0,0.0,0.0,0.0,F,intermediate,F,major
-Rachel Gradgrind,Young Thomas,articles,2,2,1,0.5,0.5,0.0,F,intermediate,M,major
-Rachel Gradgrind,Young Thomas,auxiliary_verbs,2,2,1,0.5,0.5,0.0,F,intermediate,M,major
-Rachel Gradgrind,Young Thomas,conjunctions,2,2,1,0.5,0.5,0.0,F,intermediate,M,major
-Rachel Gradgrind,Young Thomas,impersonal_pronouns,2,2,1,0.5,0.5,0.0,F,intermediate,M,major
-Rachel Gradgrind,Young Thomas,personal_pronouns,2,2,1,0.5,0.5,0.0,F,intermediate,M,major
-Rachel Gradgrind,Young Thomas,prepositions,2,2,1,0.5,0.5,0.0,F,intermediate,M,major
-Stephen Blackpool,Mrs. Sparsit,negations,2,2,0,0.0,0.0,0.0,M,major,F,major
-Stephen Blackpool,Mrs. Sparsit,personal_pronouns,2,2,1,0.5,0.5,0.0,M,major,F,major
-Stephen Blackpool,Mrs. Sparsit,prepositions,2,2,1,0.5,0.5,0.0,M,major,F,major
-Stephen Blackpool,Rachel Gradgrind,adverbs,3,2,0,0.0,0.0,0.0,M,major,F,intermediate
-Stephen Blackpool,Rachel Gradgrind,articles,3,2,1,0.5,0.6666666666666666,-0.16666666666666663,M,major,F,intermediate
-Stephen Blackpool,Rachel Gradgrind,conjunctions,3,2,1,0.5,0.6666666666666666,-0.16666666666666663,M,major,F,intermediate
-Stephen Blackpool,Rachel Gradgrind,personal_pronouns,3,2,2,1.0,0.6666666666666666,0.33333333333333337,M,major,F,intermediate
-Stephen Blackpool,Rachel Gradgrind,prepositions,3,2,1,0.5,0.6666666666666666,-0.16666666666666663,M,major,F,intermediate
-The Old Woman,Rachel Gradgrind,adverbs,3,2,0,0.0,0.0,0.0,F,intermediate,F,intermediate
 The Old Woman,Rachel Gradgrind,auxiliary_verbs,3,3,3,1.0,1.0,0.0,F,intermediate,F,intermediate
-The Old Woman,Rachel Gradgrind,conjunctions,3,2,0,0.0,0.0,0.0,F,intermediate,F,intermediate
 The Old Woman,Rachel Gradgrind,personal_pronouns,3,3,3,1.0,1.0,0.0,F,intermediate,F,intermediate
-Thomas Gradgrind,Cecilia Jupe,adverbs,3,2,0,0.0,0.0,0.0,M,major,F,major
 Thomas Gradgrind,Cecilia Jupe,auxiliary_verbs,3,3,0,0.0,0.0,0.0,M,major,F,major
 Thomas Gradgrind,Cecilia Jupe,conjunctions,3,3,1,0.3333333333333333,0.3333333333333333,0.0,M,major,F,major
 Thomas Gradgrind,Cecilia Jupe,personal_pronouns,3,3,1,0.3333333333333333,0.3333333333333333,0.0,M,major,F,major
 Thomas Gradgrind,Cecilia Jupe,prepositions,3,3,1,0.3333333333333333,0.3333333333333333,0.0,M,major,F,major
-Thomas Gradgrind,Josiah Bounderby,adverbs,6,3,2,0.6666666666666666,0.8333333333333334,-0.16666666666666674,M,major,M,major
-Thomas Gradgrind,Josiah Bounderby,articles,6,3,2,0.6666666666666666,0.8333333333333334,-0.16666666666666674,M,major,M,major
-Thomas Gradgrind,Josiah Bounderby,auxiliary_verbs,6,6,3,0.5,0.5,0.0,M,major,M,major
-Thomas Gradgrind,Josiah Bounderby,conjunctions,6,4,2,0.5,0.6666666666666666,-0.16666666666666663,M,major,M,major
-Thomas Gradgrind,Josiah Bounderby,impersonal_pronouns,6,4,2,0.5,0.5,0.0,M,major,M,major
-Thomas Gradgrind,Josiah Bounderby,personal_pronouns,6,4,3,0.75,0.6666666666666666,0.08333333333333337,M,major,M,major
-Thomas Gradgrind,Josiah Bounderby,prepositions,6,3,2,0.6666666666666666,0.6666666666666666,0.0,M,major,M,major
-Thomas Gradgrind,Josiah Bounderby,quantifiers,6,2,0,0.0,0.6666666666666666,-0.6666666666666666,M,major,M,major
+Thomas Gradgrind,Josiah Bounderby,auxiliary_verbs,5,5,3,0.6,0.6,0.0,M,major,M,major
+Thomas Gradgrind,Josiah Bounderby,conjunctions,5,3,2,0.6666666666666666,0.8,-0.13333333333333341,M,major,M,major
+Thomas Gradgrind,Josiah Bounderby,impersonal_pronouns,5,3,2,0.6666666666666666,0.6,0.06666666666666665,M,major,M,major
+Thomas Gradgrind,Josiah Bounderby,personal_pronouns,5,3,3,1.0,0.8,0.19999999999999996,M,major,M,major
 Thomas Gradgrind,Louisa Bounderby,adverbs,7,6,3,0.5,0.5714285714285714,-0.0714285714285714,M,major,F,major
 Thomas Gradgrind,Louisa Bounderby,articles,7,3,0,0.0,0.14285714285714285,-0.14285714285714285,M,major,F,major
 Thomas Gradgrind,Louisa Bounderby,auxiliary_verbs,7,4,2,0.5,0.5714285714285714,-0.0714285714285714,M,major,F,major
@@ -231,25 +100,3 @@ Thomas Gradgrind,Louisa Bounderby,negations,7,3,0,0.0,0.0,0.0,M,major,F,major
 Thomas Gradgrind,Louisa Bounderby,personal_pronouns,7,5,4,0.8,0.8571428571428571,-0.05714285714285705,M,major,F,major
 Thomas Gradgrind,Louisa Bounderby,prepositions,7,5,3,0.6,0.5714285714285714,0.02857142857142858,M,major,F,major
 Thomas Gradgrind,Louisa Bounderby,quantifiers,7,3,1,0.3333333333333333,0.2857142857142857,0.047619047619047616,M,major,F,major
-Thomas Gradgrind,Mr. E. W. B. Childers,adverbs,2,2,2,1.0,1.0,0.0,M,major,M,intermediate
-Thomas Gradgrind,Mr. E. W. B. Childers,articles,2,2,2,1.0,1.0,0.0,M,major,M,intermediate
-Thomas Gradgrind,Mr. E. W. B. Childers,auxiliary_verbs,2,2,2,1.0,1.0,0.0,M,major,M,intermediate
-Thomas Gradgrind,Mr. E. W. B. Childers,impersonal_pronouns,2,2,2,1.0,1.0,0.0,M,major,M,intermediate
-Thomas Gradgrind,Mr. E. W. B. Childers,personal_pronouns,2,2,2,1.0,1.0,0.0,M,major,M,intermediate
-Thomas Gradgrind,Mr. E. W. B. Childers,prepositions,2,2,2,1.0,1.0,0.0,M,major,M,intermediate
-Thomas Gradgrind,Mrs. Sparsit,adverbs,2,2,2,1.0,1.0,0.0,M,major,F,major
-Thomas Gradgrind,Mrs. Sparsit,articles,2,2,0,0.0,0.0,0.0,M,major,F,major
-Thomas Gradgrind,Mrs. Sparsit,auxiliary_verbs,2,2,2,1.0,1.0,0.0,M,major,F,major
-Thomas Gradgrind,Mrs. Sparsit,impersonal_pronouns,2,2,1,0.5,0.5,0.0,M,major,F,major
-Thomas Gradgrind,Mrs. Sparsit,personal_pronouns,2,2,2,1.0,1.0,0.0,M,major,F,major
-Young Thomas,Louisa Bounderby,adverbs,3,2,1,0.5,0.3333333333333333,0.16666666666666669,M,major,F,major
-Young Thomas,Louisa Bounderby,conjunctions,3,2,2,1.0,0.6666666666666666,0.33333333333333337,M,major,F,major
-Young Thomas,Louisa Bounderby,impersonal_pronouns,3,2,1,0.5,0.6666666666666666,-0.16666666666666663,M,major,F,major
-Young Thomas,Louisa Bounderby,personal_pronouns,3,2,2,1.0,1.0,0.0,M,major,F,major
-Young Thomas,Louisa Bounderby,prepositions,3,2,2,1.0,0.6666666666666666,0.33333333333333337,M,major,F,major
-Young Thomas,Stephen Blackpool,adverbs,2,2,0,0.0,0.0,0.0,M,major,M,major
-Young Thomas,Stephen Blackpool,auxiliary_verbs,2,2,2,1.0,1.0,0.0,M,major,M,major
-Young Thomas,Stephen Blackpool,conjunctions,2,2,1,0.5,0.5,0.0,M,major,M,major
-Young Thomas,Stephen Blackpool,impersonal_pronouns,2,2,1,0.5,0.5,0.0,M,major,M,major
-Young Thomas,Stephen Blackpool,personal_pronouns,2,2,2,1.0,1.0,0.0,M,major,M,major
-Young Thomas,Stephen Blackpool,prepositions,2,2,1,0.5,0.5,0.0,M,major,M,major

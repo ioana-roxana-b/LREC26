@@ -1,47 +1,31 @@
 ﻿a_speaker,b_speaker,w_ab,w_ba
-Admiral,Captain Wentworth,0.0,0.0
 Admiral Croft,Anne Elliot,-0.0084388185654008,0.0049019607843137
-Admiral Croft,Sophia Croft,0.0,0.0
 Anne Elliot,Admiral Croft,0.0049019607843137,-0.0084388185654008
 Anne Elliot,Captain Harville,-0.0111111111111111,0.0499999999999999
 Anne Elliot,Captain Wentworth,0.0582386363636363,0.0575048732943469
 Anne Elliot,Charles Musgrove,0.0199999999999999,0.0583333333333333
-Anne Elliot,Elizabeth,0.0,-0.075
 Anne Elliot,Mary,-0.0210843373493975,-0.0074257425742574
-Anne Elliot,Mr Shepherd,0.0,0.0980392156862745
-Anne Elliot,Mrs Musgrove,0.0,0.0266666666666666
-Anne Elliot,Mrs Smith,0.044014808720691,0.0165158371040723
-Anne Elliot,Sir Walter Elliot,0.078125,0.0194805194805195
-Anne Elliot,William Walter Elliot,-0.0148809523809523,-0.0205128205128205
+Anne Elliot,Mrs Smith,0.0375864055299539,0.0204750204750204
+Anne Elliot,Sir Walter Elliot,0.078125,0.0761904761904762
+Anne Elliot,William Walter Elliot,-0.0279503105590061,-0.0205128205128205
 Captain Harville,Anne Elliot,0.0499999999999999,-0.0111111111111111
-Captain Wentworth,Admiral,0.0,0.0
 Captain Wentworth,Anne Elliot,0.0575048732943469,0.0582386363636363
-Captain Wentworth,Louisa Musgrove,0.089655172413793,-0.0427350427350427
-Captain Wentworth,Mrs Croft,-0.0157894736842105,0.0466666666666666
+Captain Wentworth,Louisa Musgrove,0.0347826086956521,-0.027027027027027
+Captain Wentworth,Mrs Croft,-0.0166666666666666,0.0466666666666666
 Charles Musgrove,Anne Elliot,0.0583333333333333,0.0199999999999999
-Charles Musgrove,Mary,0.0,-0.0266666666666666
-Charles Musgrove,Mary Musgrove,-0.0035460992907801,0.0643939393939393
-Charles Musgrove,Mrs Musgrove,0.0,0.0
-Elizabeth,Anne Elliot,-0.075,0.0
-Elizabeth,Mrs Clay,-0.0138888888888888,0.0
-Elizabeth,Sir Walter Elliot,0.0,0.1282051282051282
-Lady Russell,Mary Musgrove,-0.0476190476190476,0.0603448275862069
-Louisa Musgrove,Captain Wentworth,-0.0427350427350427,0.089655172413793
+Charles Musgrove,Mary,0.0,0.0
+Charles Musgrove,Mary Musgrove,-0.0035460992907801,0.0102564102564102
+Elizabeth,Mrs Clay,0.0,0.0
+Lady Russell,Mary Musgrove,0.0,0.0299999999999999
+Louisa Musgrove,Captain Wentworth,-0.027027027027027,0.0347826086956521
 Mary,Anne Elliot,-0.0074257425742574,-0.0210843373493975
-Mary,Charles Musgrove,-0.0266666666666666,0.0
-Mary Musgrove,Charles Musgrove,0.0643939393939393,-0.0035460992907801
-Mary Musgrove,Lady Russell,0.0603448275862069,-0.0476190476190476
-Mr Shepherd,Anne Elliot,0.0980392156862745,0.0
-Mr Shepherd,Sir Walter Elliot,-0.0277777777777777,0.0172413793103448
-Mrs Clay,Elizabeth,0.0,-0.0138888888888888
-Mrs Clay,Sir Walter Elliot,0.0,0.0
-Mrs Croft,Captain Wentworth,0.0466666666666666,-0.0157894736842105
-Mrs Musgrove,Anne Elliot,0.0266666666666666,0.0
-Mrs Musgrove,Charles Musgrove,0.0,0.0
-Mrs Smith,Anne Elliot,0.0165158371040723,0.044014808720691
-Sir Walter Elliot,Anne Elliot,0.0194805194805195,0.078125
-Sir Walter Elliot,Elizabeth,0.1282051282051282,0.0
-Sir Walter Elliot,Mr Shepherd,0.0172413793103448,-0.0277777777777777
-Sir Walter Elliot,Mrs Clay,0.0,0.0
-Sophia Croft,Admiral Croft,0.0,0.0
-William Walter Elliot,Anne Elliot,-0.0205128205128205,-0.0148809523809523
+Mary,Charles Musgrove,0.0,0.0
+Mary Musgrove,Charles Musgrove,0.0102564102564102,-0.0035460992907801
+Mary Musgrove,Lady Russell,0.0299999999999999,0.0
+Mr Shepherd,Sir Walter Elliot,0.0,0.0
+Mrs Clay,Elizabeth,0.0,0.0
+Mrs Croft,Captain Wentworth,0.0466666666666666,-0.0166666666666666
+Mrs Smith,Anne Elliot,0.0204750204750204,0.0375864055299539
+Sir Walter Elliot,Anne Elliot,0.0761904761904762,0.078125
+Sir Walter Elliot,Mr Shepherd,0.0,0.0
+William Walter Elliot,Anne Elliot,-0.0205128205128205,-0.0279503105590061

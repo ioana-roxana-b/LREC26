@@ -1,77 +1,64 @@
 ﻿a_speaker,b_speaker,n_features,n_pairs,n_triggers_total,mean_conv,mean_conv_w,a_gender,a_category,b_gender,b_category
-Charlotte Lucas,Elizabeth,9,14,100,-0.02933023766357099,-0.023571428571428563,F,intermediate,F,major
-Charlotte Lucas,Mrs. Bennet,8,4,26,-0.010416666666666671,-0.00961538461538462,F,intermediate,F,major
+Charlotte Lucas,Elizabeth,9,13,91,-0.046750471750471756,-0.03381234150464921,F,intermediate,F,major
+Charlotte Lucas,Mrs. Bennet,6,4,22,-0.013888888888888895,-0.01136363636363637,F,intermediate,F,major
 Colonel Fitzwilliam,Elizabeth,9,15,107,0.0002676336009669384,0.00124610591900312,M,intermediate,F,major
 Elizabeth,Charlotte Lucas,9,11,62,0.06028539361872695,0.02932551319648094,F,major,F,intermediate
 Elizabeth,Colonel Fitzwilliam,9,15,99,0.04411206077872746,0.027609427609427622,F,major,M,intermediate
-Elizabeth,George Wickham,9,35,196,0.02842002301271249,0.026822157434402347,F,major,M,intermediate
+Elizabeth,George Wickham,9,34,195,-0.010917241592217582,-0.010105580693815994,F,major,M,intermediate
 Elizabeth,Jane,9,62,429,-0.01806867606437749,-0.017068952552823508,F,major,F,intermediate
 Elizabeth,Lady Catherine De Bourgh,9,35,209,-0.034449361993429725,-0.027614490772385526,F,major,F,intermediate
-Elizabeth,Lydia,7,6,23,-0.02380952380952383,-0.021739130434782622,F,major,F,intermediate
-Elizabeth,Maria,8,3,18,0.04166666666666668,0.03703703703703705,F,major,F,minor
-Elizabeth,Mary,5,2,10,0.0,0.0,F,major,F,minor
-Elizabeth,Miss Bingley,8,3,21,0.0,0.0,F,major,F,intermediate
+Elizabeth,Lydia,6,6,21,-0.0277777777777778,-0.023809523809523826,F,major,F,intermediate
+Elizabeth,Maria,2,3,6,0.0,0.0,F,major,F,minor
+Elizabeth,Miss Bingley,5,3,15,0.0,0.0,F,major,F,intermediate
 Elizabeth,Mr. Bennet,9,20,104,-0.05681118751294191,-0.042788461538461546,F,major,M,intermediate
-Elizabeth,Mr. Bingley,9,6,36,-0.08518518518518518,-0.05555555555555555,F,major,M,intermediate
+Elizabeth,Mr. Bingley,8,6,34,-0.012499999999999997,-0.0196078431372549,F,major,M,intermediate
 Elizabeth,Mr. Collins,9,6,47,-0.003703703703703703,-0.003546099290780141,F,major,M,intermediate
 Elizabeth,Mr. Darcy,9,80,580,-0.004944822717320219,-0.0050646551724137946,F,major,M,major
-Elizabeth,Mr. Gardiner,9,3,25,0.0,0.0,F,major,M,minor
+Elizabeth,Mr. Gardiner,7,3,21,0.0,0.0,F,major,M,minor
 Elizabeth,Mrs. Bennet,9,13,77,0.020797720797720784,0.008991008991008976,F,major,F,major
 Elizabeth,Mrs. Gardiner,9,20,149,-0.01317878028404345,-0.012416107382550345,F,major,F,intermediate
-Elizabeth,Mrs. Reynolds,5,4,11,0.0,0.0,F,major,F,minor
-Elizabeth,Sir William Lucas,2,2,4,0.0,0.0,F,major,M,minor
-George Wickham,Elizabeth,9,35,243,-0.033081061811711984,-0.026455026455026478,M,intermediate,F,major
+Elizabeth,Mrs. Reynolds,1,4,3,0.0,0.0,F,major,F,minor
+George Wickham,Elizabeth,9,34,234,-0.016838066350850587,-0.014957264957264951,M,intermediate,F,major
 Jane,Elizabeth,9,73,514,-0.004385855571632204,-0.003198123767389747,F,intermediate,F,major
-Jane,Lydia,2,2,4,0.0,0.0,F,intermediate,F,intermediate
-Jane,Mr. Bennet,1,2,2,0.0,0.0,F,intermediate,M,intermediate
-Jane,Mrs. Bennet,9,6,35,0.009259259259259257,-0.004761904761904761,F,intermediate,F,major
-Kitty,Mr. Bennet,2,2,4,0.0,0.0,F,minor,M,intermediate
-Kitty,Mrs. Bennet,6,3,16,-0.08333333333333333,-0.06249999999999999,F,minor,F,major
+Jane,Mrs. Bennet,7,6,31,-0.035714285714285705,-0.02688172043010752,F,intermediate,F,major
+Kitty,Mrs. Bennet,4,3,12,0.0,0.0,F,minor,F,major
 Lady Catherine De Bourgh,Elizabeth,9,39,294,-0.01374656175677781,-0.014041514041514064,F,intermediate,F,major
-Lady Catherine De Bourgh,Mrs. Bennet,8,4,25,0.031249999999999993,0.029999999999999992,F,intermediate,F,major
+Lady Catherine De Bourgh,Mrs. Bennet,7,4,23,0.035714285714285705,0.032608695652173905,F,intermediate,F,major
 Lydia,Elizabeth,9,7,57,-0.034656084656084656,-0.025062656641604012,F,intermediate,F,major
-Lydia,Jane,5,2,10,0.0,0.0,F,intermediate,F,intermediate
-Lydia,Mr. Collins,3,2,6,0.0,0.0,F,intermediate,M,intermediate
 Lydia,Mrs. Bennet,9,8,55,0.03981481481481482,0.03636363636363636,F,intermediate,F,major
-Maria,Elizabeth,9,5,37,-0.014814814814814824,-0.01621621621621622,F,minor,F,major
-Miss Bingley,Elizabeth,9,8,55,-0.01957671957671958,-0.006818181818181824,F,intermediate,F,major
+Maria,Elizabeth,8,5,35,-0.029166666666666674,-0.02285714285714286,F,minor,F,major
+Miss Bingley,Elizabeth,8,8,53,-0.006398809523809529,-0.0023584905660377423,F,intermediate,F,major
 Miss Bingley,Mr. Bingley,9,11,72,0.035622093955427286,0.02525252525252525,F,intermediate,M,intermediate
 Miss Bingley,Mr. Darcy,9,18,124,0.0006304516108437562,0.008512544802867372,F,intermediate,M,major
-Miss Bingley,Mrs. Hurst,5,3,13,0.03333333333333334,0.025641025641025644,F,intermediate,F,minor
+Miss Bingley,Mrs. Hurst,3,3,9,0.0,0.0,F,intermediate,F,minor
 Mr. Bennet,Elizabeth,9,22,160,0.015524444691111342,0.012499999999999982,M,intermediate,F,major
-Mr. Bennet,Jane,6,2,12,0.0,0.0,M,intermediate,F,intermediate
-Mr. Bennet,Kitty,5,3,12,0.1,0.08333333333333333,M,intermediate,F,minor
-Mr. Bennet,Mr. Collins,9,4,29,0.0,0.0,M,intermediate,M,intermediate
-Mr. Bennet,Mrs. Bennet,9,39,267,0.001438042233872388,0.0014405070584845843,M,intermediate,F,major
+Mr. Bennet,Kitty,2,3,6,0.0,0.0,M,intermediate,F,minor
+Mr. Bennet,Mr. Collins,7,4,25,0.0,0.0,M,intermediate,M,intermediate
+Mr. Bennet,Mrs. Bennet,9,38,264,-0.035338324545036985,-0.02830940988835726,M,intermediate,F,major
 Mr. Bingley,Elizabeth,9,8,52,-0.007671957671957669,0.002403846153846154,M,intermediate,F,major
 Mr. Bingley,Miss Bingley,9,10,67,-0.02504409171075838,-0.011940298507462692,M,intermediate,F,intermediate
 Mr. Bingley,Mr. Darcy,9,10,77,0.0189153439153439,0.016883116883116868,M,intermediate,M,major
-Mr. Bingley,Mrs. Bennet,8,4,21,0.03125,0.023809523809523808,M,intermediate,F,major
+Mr. Bingley,Mrs. Bennet,4,4,13,0.0,0.0,M,intermediate,F,major
 Mr. Collins,Elizabeth,9,9,77,-0.003968253968253966,-0.004329004329004328,M,intermediate,F,major
-Mr. Collins,Maria,4,2,8,0.0,0.0,M,intermediate,F,minor
-Mr. Collins,Mr. Bennet,7,3,20,-0.023809523809523805,-0.016666666666666663,M,intermediate,M,intermediate
+Mr. Collins,Mr. Bennet,6,3,18,0.0,0.0,M,intermediate,M,intermediate
 Mr. Collins,Mrs. Bennet,9,8,61,-0.017063492063492065,-0.018442622950819672,M,intermediate,F,major
 Mr. Darcy,Elizabeth,9,74,495,-0.0190681007562713,-0.01482391482391482,M,major,F,major
 Mr. Darcy,Miss Bingley,9,21,119,0.007138563382113433,-0.0016006402561024409,M,major,F,intermediate
 Mr. Darcy,Mr. Bingley,9,6,44,-0.012962962962962966,-0.011363636363636366,M,major,M,intermediate
-Mr. Darcy,Sir William Lucas,8,4,18,0.02083333333333333,0.027777777777777773,M,major,M,minor
+Mr. Darcy,Sir William Lucas,2,4,6,0.08333333333333331,0.08333333333333331,M,major,M,minor
 Mr. Gardiner,Elizabeth,9,4,33,-0.018518518518518528,-0.015151515151515159,M,minor,F,major
-Mr. Gardiner,Mrs. Gardiner,8,3,20,-0.02083333333333333,-0.016666666666666663,M,minor,F,intermediate
-Mr. Gardiner,Mrs. Reynolds,6,4,20,-0.041666666666666664,-0.025,M,minor,F,minor
-Mr. Hurst,Miss Bingley,1,2,2,0.0,0.0,M,minor,F,intermediate
-Mrs. Bennet,Charlotte Lucas,9,5,37,-0.0425925925925926,-0.027027027027027032,F,major,F,intermediate
+Mr. Gardiner,Mrs. Gardiner,4,3,12,0.0,0.0,M,minor,F,intermediate
+Mr. Gardiner,Mrs. Reynolds,5,4,18,0.0,0.0,M,minor,F,minor
+Mrs. Bennet,Charlotte Lucas,8,5,35,-0.010416666666666671,-0.011428571428571432,F,major,F,intermediate
 Mrs. Bennet,Elizabeth,9,17,132,-0.0018991085167555963,-0.0013368983957219448,F,major,F,major
 Mrs. Bennet,Jane,9,10,72,-0.033686067019400356,-0.02083333333333334,F,major,F,intermediate
-Mrs. Bennet,Lady Catherine De Bourgh,7,3,18,0.04761904761904762,0.03703703703703704,F,major,F,intermediate
-Mrs. Bennet,Lydia,9,8,47,0.10317460317460315,0.06914893617021274,F,major,F,intermediate
-Mrs. Bennet,Mr. Bennet,9,39,261,-0.00010143343247021042,-0.0014736221632773118,F,major,M,intermediate
+Mrs. Bennet,Lady Catherine De Bourgh,4,3,12,0.0,0.0,F,major,F,intermediate
+Mrs. Bennet,Lydia,8,8,45,0.06919642857142855,0.05555555555555554,F,major,F,intermediate
+Mrs. Bennet,Mr. Bennet,9,38,261,0.03932986585988891,0.03347449082476306,F,major,M,intermediate
 Mrs. Bennet,Mr. Bingley,9,6,51,-0.011111111111111103,-0.009803921568627444,F,major,M,intermediate
 Mrs. Bennet,Mr. Collins,9,10,60,0.014373897707231013,0.014999999999999973,F,major,M,intermediate
 Mrs. Gardiner,Elizabeth,9,24,168,-0.004074629074629077,-0.005208333333333341,F,intermediate,F,major
-Mrs. Gardiner,Mr. Gardiner,7,2,14,0.0,0.0,F,intermediate,M,minor
-Mrs. Gardiner,Mrs. Reynolds,3,2,6,0.0,0.0,F,intermediate,F,minor
-Mrs. Hurst,Miss Bingley,9,3,25,0.03703703703703704,0.02666666666666667,F,minor,F,intermediate
+Mrs. Hurst,Miss Bingley,7,3,21,0.0,0.0,F,minor,F,intermediate
 Mrs. Reynolds,Elizabeth,9,7,50,-0.0394179894179894,-0.034285714285714274,F,minor,F,major
-Mrs. Reynolds,Mr. Gardiner,9,3,26,0.0,0.0,F,minor,M,minor
-Sir William Lucas,Elizabeth,9,2,18,0.0,0.0,M,minor,F,major
-Sir William Lucas,Mr. Darcy,9,5,38,-0.07962962962962963,-0.05789473684210527,M,minor,M,major
+Mrs. Reynolds,Mr. Gardiner,8,3,24,0.0,0.0,F,minor,M,minor
+Sir William Lucas,Mr. Darcy,8,5,36,-0.06458333333333333,-0.05,M,minor,M,major

@@ -1,20 +1,25 @@
 ﻿a_speaker,b_speaker,n_features,n_pairs,n_triggers_total,mean_conv,mean_conv_w,a_gender,a_category,b_gender,b_category
-Alexis Ivanovitch,Antonida Vassilievna Tarassevitcha,9,51,244,-0.04384387943211472,-0.036563805850208936,M,major,F,major
-Alexis Ivanovitch,Marqis De Griers,9,19,128,-0.07307455186712151,-0.06743421052631579,M,major,M,intermediate
-Alexis Ivanovitch,Mlle. Blanche,9,16,76,-0.04953703703703703,-0.055098684210526314,M,major,F,intermediate
-Alexis Ivanovitch,Mr. Astley,9,56,316,-0.03343596171394131,-0.030741410488245934,M,major,M,intermediate
-Alexis Ivanovitch,Polina Alexandrovna,9,59,364,0.019941228508198502,0.01848575153659896,M,major,F,major
-Alexis Ivanovitch,The General,9,17,114,0.033071503659738946,0.031475748194014434,M,major,M,intermediate
-Antonida Vassilievna Tarassevitcha,Alexis Ivanovitch,9,59,374,-0.010914345151016617,-0.013323665367533719,F,major,M,major
-Antonida Vassilievna Tarassevitcha,Marqis De Griers,6,6,33,0.0,0.0,F,major,M,intermediate
+Alexis Ivanovitch,Antonida Vassilievna Tarassevitcha,9,49,235,0.012369634343825832,0.005384281372123334,M,major,F,major
+Alexis Ivanovitch,Marqis De Griers,9,18,120,-0.015335046217399161,-0.016666666666666666,M,major,M,intermediate
+Alexis Ivanovitch,Mlle. Blanche,9,15,76,-0.01358024691358026,-0.007894736842105274,M,major,F,intermediate
+Alexis Ivanovitch,Mr. Astley,9,55,315,0.014330470969051094,0.01316017316017318,M,major,M,intermediate
+Alexis Ivanovitch,Polina Alexandrovna,9,57,362,0.006940736437170543,0.005718716681205802,M,major,F,major
+Alexis Ivanovitch,The General,9,16,106,0.008666796166796172,0.01356132075471699,M,major,M,intermediate
+Antonida Vassilievna Tarassevitcha,Alexis Ivanovitch,9,57,371,-0.026324704464206414,-0.02241452688324582,F,major,M,major
+Antonida Vassilievna Tarassevitcha,Marqis De Griers,9,6,44,0.0,0.0,F,major,M,intermediate
+Antonida Vassilievna Tarassevitcha,Martha,3,3,9,0.0,0.0,F,major,F,minor
+Antonida Vassilievna Tarassevitcha,Mlle. Blanche,6,3,18,0.0,0.0,F,major,F,intermediate
 Antonida Vassilievna Tarassevitcha,Polina Alexandrovna,9,13,91,-0.038286404953071645,-0.02620456466610315,F,major,F,major
+Antonida Vassilievna Tarassevitcha,Potapitch,6,3,18,0.0,0.0,F,major,M,minor
 Antonida Vassilievna Tarassevitcha,The General,9,14,93,0.0038097704764371606,0.002304147465437807,F,major,M,intermediate
-Marqis De Griers,Alexis Ivanovitch,9,21,127,0.0014124764124764377,0.007124109486314238,M,intermediate,M,major
-Mlle. Blanche,Alexis Ivanovitch,9,17,112,0.07054753525341759,0.06565126050420167,F,intermediate,M,major
-Mr. Astley,Alexis Ivanovitch,9,59,385,-0.010011169654961837,-0.010961919436495686,M,intermediate,M,major
-Polina Alexandrovna,Alexis Ivanovitch,9,61,367,-0.0011930839662217777,-0.0013400634296689942,F,major,M,major
+Marqis De Griers,Alexis Ivanovitch,9,20,126,-0.001103988603988594,-0.00238095238095237,M,intermediate,M,major
+Marqis De Griers,The General,3,3,9,0.0,0.0,M,intermediate,M,intermediate
+Martha,Antonida Vassilievna Tarassevitcha,1,3,3,0.0,0.0,F,minor,F,major
+Mlle. Blanche,Alexis Ivanovitch,9,16,106,0.07542318792318795,0.06839622641509435,F,intermediate,M,major
+Mr. Astley,Alexis Ivanovitch,9,57,380,0.013267747263561003,0.012788550323176346,M,intermediate,M,major
+Polina Alexandrovna,Alexis Ivanovitch,9,59,353,0.0030293336832032144,-0.0013444087002448884,F,major,M,major
 Polina Alexandrovna,Antonida Vassilievna Tarassevitcha,9,13,73,-0.023321123321123335,-0.022128556375131732,F,major,F,major
-The Croupier,Antonida Vassilievna Tarassevitcha,1,10,7,-0.11428571428571432,-0.11428571428571432,M,minor,F,major
+The Croupier,Antonida Vassilievna Tarassevitcha,1,4,3,0.08333333333333331,0.08333333333333331,M,minor,F,major
 The General,Alexis Ivanovitch,9,17,100,-0.036387722662232454,-0.034117647058823516,M,intermediate,M,major
 The General,Antonida Vassilievna Tarassevitcha,8,13,69,0.04753302253302252,0.03121516164994425,M,intermediate,F,major
-The General,Marqis De Griers,1,6,5,0.13333333333333341,0.13333333333333341,M,intermediate,M,intermediate
+The General,Marqis De Griers,8,5,30,-0.03333333333333334,-0.04666666666666667,M,intermediate,M,intermediate

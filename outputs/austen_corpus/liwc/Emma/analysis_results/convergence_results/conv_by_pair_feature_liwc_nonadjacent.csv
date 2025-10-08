@@ -1,33 +1,18 @@
 ﻿a_speaker,b_speaker,family,n_pairs,n_triggers,n_b_positives_given_trigger,p1,p0,conv,a_gender,a_category,b_gender,b_category
-Emma,Harriet Smith,adverbs,3,2,1,0.5,0.6666666666666666,-0.16666666666666663,F,major,F,major
-Emma,Harriet Smith,auxiliary_verbs,3,2,2,1.0,1.0,0.0,F,major,F,major
-Emma,Harriet Smith,conjunctions,3,2,1,0.5,0.6666666666666666,-0.16666666666666663,F,major,F,major
 Emma,Harriet Smith,impersonal_pronouns,3,3,2,0.6666666666666666,0.6666666666666666,0.0,F,major,F,major
 Emma,Harriet Smith,personal_pronouns,3,3,3,1.0,1.0,0.0,F,major,F,major
 Emma,Harriet Smith,prepositions,3,3,2,0.6666666666666666,0.6666666666666666,0.0,F,major,F,major
-Emma,Harriet Smith,quantifiers,3,2,1,0.5,0.6666666666666666,-0.16666666666666663,F,major,F,major
 Emma,Isabella,adverbs,3,3,3,1.0,1.0,0.0,F,major,F,intermediate
 Emma,Isabella,auxiliary_verbs,3,3,3,1.0,1.0,0.0,F,major,F,intermediate
 Emma,Isabella,conjunctions,3,3,3,1.0,1.0,0.0,F,major,F,intermediate
-Emma,Isabella,impersonal_pronouns,3,2,1,0.5,0.6666666666666666,-0.16666666666666663,F,major,F,intermediate
-Emma,Isabella,negations,3,2,1,0.5,0.6666666666666666,-0.16666666666666663,F,major,F,intermediate
 Emma,Isabella,personal_pronouns,3,3,3,1.0,1.0,0.0,F,major,F,intermediate
-Emma,Isabella,prepositions,3,2,1,0.5,0.6666666666666666,-0.16666666666666663,F,major,F,intermediate
-Emma,Isabella,quantifiers,3,2,1,0.5,0.6666666666666666,-0.16666666666666663,F,major,F,intermediate
-Emma,Jane Fairfax,adverbs,2,2,2,1.0,1.0,0.0,F,major,F,intermediate
-Emma,Jane Fairfax,articles,2,2,0,0.0,0.0,0.0,F,major,F,intermediate
-Emma,Jane Fairfax,auxiliary_verbs,2,2,2,1.0,1.0,0.0,F,major,F,intermediate
-Emma,Jane Fairfax,personal_pronouns,2,2,2,1.0,1.0,0.0,F,major,F,intermediate
-Emma,Miss Bates,adverbs,4,2,2,1.0,1.0,0.0,F,major,F,intermediate
 Emma,Miss Bates,auxiliary_verbs,4,4,4,1.0,1.0,0.0,F,major,F,intermediate
 Emma,Miss Bates,conjunctions,4,3,3,1.0,1.0,0.0,F,major,F,intermediate
 Emma,Miss Bates,personal_pronouns,4,4,4,1.0,1.0,0.0,F,major,F,intermediate
 Emma,Miss Bates,prepositions,4,3,3,1.0,1.0,0.0,F,major,F,intermediate
-Emma,Miss Bates,quantifiers,4,2,2,1.0,1.0,0.0,F,major,F,intermediate
 Emma,Mr. Elton,articles,3,3,3,1.0,1.0,0.0,F,major,M,intermediate
 Emma,Mr. Elton,auxiliary_verbs,3,3,3,1.0,1.0,0.0,F,major,M,intermediate
 Emma,Mr. Elton,conjunctions,3,3,3,1.0,1.0,0.0,F,major,M,intermediate
-Emma,Mr. Elton,impersonal_pronouns,3,2,2,1.0,1.0,0.0,F,major,M,intermediate
 Emma,Mr. Elton,personal_pronouns,3,3,3,1.0,1.0,0.0,F,major,M,intermediate
 Emma,Mr. Elton,prepositions,3,3,3,1.0,1.0,0.0,F,major,M,intermediate
 Emma,Mr. Elton,quantifiers,3,3,3,1.0,1.0,0.0,F,major,M,intermediate
@@ -40,10 +25,6 @@ Emma,Mr. Frank Churchill,negations,9,7,5,0.7142857142857143,0.7777777777777778,-
 Emma,Mr. Frank Churchill,personal_pronouns,9,8,8,1.0,1.0,0.0,F,major,M,major
 Emma,Mr. Frank Churchill,prepositions,9,7,7,1.0,1.0,0.0,F,major,M,major
 Emma,Mr. Frank Churchill,quantifiers,9,7,6,0.8571428571428571,0.8888888888888888,-0.031746031746031744,F,major,M,major
-Emma,Mr. John Knightley,auxiliary_verbs,2,2,2,1.0,1.0,0.0,F,major,M,intermediate
-Emma,Mr. John Knightley,conjunctions,2,2,2,1.0,1.0,0.0,F,major,M,intermediate
-Emma,Mr. John Knightley,personal_pronouns,2,2,2,1.0,1.0,0.0,F,major,M,intermediate
-Emma,Mr. John Knightley,prepositions,2,2,2,1.0,1.0,0.0,F,major,M,intermediate
 Emma,Mr. Knightley,adverbs,9,8,6,0.75,0.7777777777777778,-0.02777777777777779,F,major,M,major
 Emma,Mr. Knightley,articles,9,4,3,0.75,0.5555555555555556,0.19444444444444442,F,major,M,major
 Emma,Mr. Knightley,auxiliary_verbs,9,9,9,1.0,1.0,0.0,F,major,M,major
@@ -66,10 +47,7 @@ Emma,Mr. Woodhouse,negations,9,8,5,0.625,0.6666666666666666,-0.04166666666666663
 Emma,Mr. Woodhouse,personal_pronouns,9,8,8,1.0,1.0,0.0,F,major,M,intermediate
 Emma,Mr. Woodhouse,prepositions,9,9,9,1.0,1.0,0.0,F,major,M,intermediate
 Emma,Mr. Woodhouse,quantifiers,9,8,7,0.875,0.8888888888888888,-0.01388888888888884,F,major,M,intermediate
-Emma,Mrs. Weston,articles,3,2,2,1.0,1.0,0.0,F,major,F,intermediate
 Emma,Mrs. Weston,auxiliary_verbs,3,3,3,1.0,1.0,0.0,F,major,F,intermediate
-Emma,Mrs. Weston,conjunctions,3,2,2,1.0,1.0,0.0,F,major,F,intermediate
-Emma,Mrs. Weston,impersonal_pronouns,3,2,2,1.0,1.0,0.0,F,major,F,intermediate
 Emma,Mrs. Weston,personal_pronouns,3,3,3,1.0,1.0,0.0,F,major,F,intermediate
 Emma,Mrs. Weston,prepositions,3,3,3,1.0,1.0,0.0,F,major,F,intermediate
 Harriet Smith,Emma,adverbs,9,6,6,1.0,0.8888888888888888,0.11111111111111116,F,major,F,major
@@ -99,8 +77,6 @@ Jane Fairfax,Emma,negations,5,5,1,0.2,0.2,0.0,F,intermediate,F,major
 Jane Fairfax,Emma,personal_pronouns,5,5,5,1.0,1.0,0.0,F,intermediate,F,major
 Jane Fairfax,Emma,prepositions,5,5,3,0.6,0.6,0.0,F,intermediate,F,major
 Jane Fairfax,Emma,quantifiers,5,4,1,0.25,0.2,0.04999999999999999,F,intermediate,F,major
-Jane Fairfax,Mr. Knightley,auxiliary_verbs,2,2,2,1.0,1.0,0.0,F,intermediate,M,major
-Jane Fairfax,Mr. Knightley,personal_pronouns,2,2,2,1.0,1.0,0.0,F,intermediate,M,major
 Miss Bates,Emma,adverbs,9,9,5,0.5555555555555556,0.5555555555555556,0.0,F,intermediate,F,major
 Miss Bates,Emma,articles,9,9,4,0.4444444444444444,0.4444444444444444,0.0,F,intermediate,F,major
 Miss Bates,Emma,auxiliary_verbs,9,9,8,0.8888888888888888,0.8888888888888888,0.0,F,intermediate,F,major
@@ -110,14 +86,6 @@ Miss Bates,Emma,negations,9,7,5,0.7142857142857143,0.6666666666666666,0.04761904
 Miss Bates,Emma,personal_pronouns,9,9,8,0.8888888888888888,0.8888888888888888,0.0,F,intermediate,F,major
 Miss Bates,Emma,prepositions,9,9,6,0.6666666666666666,0.6666666666666666,0.0,F,intermediate,F,major
 Miss Bates,Emma,quantifiers,9,8,4,0.5,0.5555555555555556,-0.05555555555555558,F,intermediate,F,major
-Miss Bates,Mrs. Elton,adverbs,2,2,1,0.5,0.5,0.0,F,intermediate,F,intermediate
-Miss Bates,Mrs. Elton,articles,2,2,1,0.5,0.5,0.0,F,intermediate,F,intermediate
-Miss Bates,Mrs. Elton,auxiliary_verbs,2,2,1,0.5,0.5,0.0,F,intermediate,F,intermediate
-Miss Bates,Mrs. Elton,conjunctions,2,2,0,0.0,0.0,0.0,F,intermediate,F,intermediate
-Miss Bates,Mrs. Elton,impersonal_pronouns,2,2,1,0.5,0.5,0.0,F,intermediate,F,intermediate
-Miss Bates,Mrs. Elton,negations,2,2,0,0.0,0.0,0.0,F,intermediate,F,intermediate
-Miss Bates,Mrs. Elton,personal_pronouns,2,2,2,1.0,1.0,0.0,F,intermediate,F,intermediate
-Miss Bates,Mrs. Elton,prepositions,2,2,1,0.5,0.5,0.0,F,intermediate,F,intermediate
 Mr. Elton,Emma,adverbs,6,6,5,0.8333333333333334,0.8333333333333334,0.0,M,intermediate,F,major
 Mr. Elton,Emma,articles,6,5,4,0.8,0.8333333333333334,-0.033333333333333326,M,intermediate,F,major
 Mr. Elton,Emma,auxiliary_verbs,6,5,5,1.0,1.0,0.0,M,intermediate,F,major
@@ -136,63 +104,30 @@ Mr. Frank Churchill,Emma,negations,11,6,4,0.6666666666666666,0.6363636363636364,
 Mr. Frank Churchill,Emma,personal_pronouns,11,11,10,0.9090909090909091,0.9090909090909091,0.0,M,major,F,major
 Mr. Frank Churchill,Emma,prepositions,11,10,8,0.8,0.8181818181818182,-0.018181818181818188,M,major,F,major
 Mr. Frank Churchill,Emma,quantifiers,11,7,5,0.7142857142857143,0.5454545454545454,0.1688311688311689,M,major,F,major
-Mr. Frank Churchill,Miss Bates,adverbs,2,2,2,1.0,1.0,0.0,M,major,F,intermediate
-Mr. Frank Churchill,Miss Bates,articles,2,2,2,1.0,1.0,0.0,M,major,F,intermediate
-Mr. Frank Churchill,Miss Bates,auxiliary_verbs,2,2,2,1.0,1.0,0.0,M,major,F,intermediate
-Mr. Frank Churchill,Miss Bates,conjunctions,2,2,2,1.0,1.0,0.0,M,major,F,intermediate
-Mr. Frank Churchill,Miss Bates,negations,2,2,2,1.0,1.0,0.0,M,major,F,intermediate
-Mr. Frank Churchill,Miss Bates,personal_pronouns,2,2,2,1.0,1.0,0.0,M,major,F,intermediate
-Mr. Frank Churchill,Miss Bates,prepositions,2,2,2,1.0,1.0,0.0,M,major,F,intermediate
-Mr. Frank Churchill,Miss Bates,quantifiers,2,2,2,1.0,1.0,0.0,M,major,F,intermediate
-Mr. Frank Churchill,Mr. Weston,articles,2,2,2,1.0,1.0,0.0,M,major,M,intermediate
-Mr. Frank Churchill,Mr. Weston,auxiliary_verbs,2,2,2,1.0,1.0,0.0,M,major,M,intermediate
-Mr. Frank Churchill,Mr. Weston,personal_pronouns,2,2,2,1.0,1.0,0.0,M,major,M,intermediate
-Mr. Frank Churchill,Mr. Weston,prepositions,2,2,2,1.0,1.0,0.0,M,major,M,intermediate
-Mr. Frank Churchill,Mr. Woodhouse,adverbs,4,2,2,1.0,1.0,0.0,M,major,M,intermediate
-Mr. Frank Churchill,Mr. Woodhouse,articles,4,2,2,1.0,1.0,0.0,M,major,M,intermediate
-Mr. Frank Churchill,Mr. Woodhouse,auxiliary_verbs,4,3,3,1.0,1.0,0.0,M,major,M,intermediate
-Mr. Frank Churchill,Mr. Woodhouse,conjunctions,4,3,3,1.0,1.0,0.0,M,major,M,intermediate
-Mr. Frank Churchill,Mr. Woodhouse,impersonal_pronouns,4,2,2,1.0,1.0,0.0,M,major,M,intermediate
-Mr. Frank Churchill,Mr. Woodhouse,personal_pronouns,4,3,3,1.0,1.0,0.0,M,major,M,intermediate
-Mr. Frank Churchill,Mr. Woodhouse,prepositions,4,2,2,1.0,1.0,0.0,M,major,M,intermediate
-Mr. Frank Churchill,Mr. Woodhouse,quantifiers,4,3,1,0.3333333333333333,0.5,-0.16666666666666669,M,major,M,intermediate
-Mr. Frank Churchill,Mrs. Weston,adverbs,2,2,1,0.5,0.5,0.0,M,major,F,intermediate
-Mr. Frank Churchill,Mrs. Weston,articles,2,2,1,0.5,0.5,0.0,M,major,F,intermediate
-Mr. Frank Churchill,Mrs. Weston,auxiliary_verbs,2,2,2,1.0,1.0,0.0,M,major,F,intermediate
-Mr. Frank Churchill,Mrs. Weston,conjunctions,2,2,1,0.5,0.5,0.0,M,major,F,intermediate
-Mr. Frank Churchill,Mrs. Weston,impersonal_pronouns,2,2,1,0.5,0.5,0.0,M,major,F,intermediate
-Mr. Frank Churchill,Mrs. Weston,negations,2,2,1,0.5,0.5,0.0,M,major,F,intermediate
-Mr. Frank Churchill,Mrs. Weston,prepositions,2,2,1,0.5,0.5,0.0,M,major,F,intermediate
+Mr. Frank Churchill,Mr. Woodhouse,auxiliary_verbs,3,3,3,1.0,1.0,0.0,M,major,M,intermediate
+Mr. Frank Churchill,Mr. Woodhouse,conjunctions,3,3,3,1.0,1.0,0.0,M,major,M,intermediate
+Mr. Frank Churchill,Mr. Woodhouse,personal_pronouns,3,3,3,1.0,1.0,0.0,M,major,M,intermediate
+Mr. Frank Churchill,Mr. Woodhouse,quantifiers,3,3,1,0.3333333333333333,0.3333333333333333,0.0,M,major,M,intermediate
 Mr. John Knightley,Emma,adverbs,3,3,2,0.6666666666666666,0.6666666666666666,0.0,M,intermediate,F,major
 Mr. John Knightley,Emma,articles,3,3,2,0.6666666666666666,0.6666666666666666,0.0,M,intermediate,F,major
 Mr. John Knightley,Emma,auxiliary_verbs,3,3,3,1.0,1.0,0.0,M,intermediate,F,major
 Mr. John Knightley,Emma,conjunctions,3,3,3,1.0,1.0,0.0,M,intermediate,F,major
 Mr. John Knightley,Emma,impersonal_pronouns,3,3,3,1.0,1.0,0.0,M,intermediate,F,major
-Mr. John Knightley,Emma,negations,3,2,2,1.0,0.6666666666666666,0.33333333333333337,M,intermediate,F,major
 Mr. John Knightley,Emma,personal_pronouns,3,3,3,1.0,1.0,0.0,M,intermediate,F,major
 Mr. John Knightley,Emma,prepositions,3,3,2,0.6666666666666666,0.6666666666666666,0.0,M,intermediate,F,major
 Mr. John Knightley,Emma,quantifiers,3,3,1,0.3333333333333333,0.3333333333333333,0.0,M,intermediate,F,major
-Mr. John Knightley,Isabella,adverbs,2,2,2,1.0,1.0,0.0,M,intermediate,F,intermediate
-Mr. John Knightley,Isabella,articles,2,2,2,1.0,1.0,0.0,M,intermediate,F,intermediate
-Mr. John Knightley,Isabella,auxiliary_verbs,2,2,2,1.0,1.0,0.0,M,intermediate,F,intermediate
-Mr. John Knightley,Isabella,conjunctions,2,2,2,1.0,1.0,0.0,M,intermediate,F,intermediate
-Mr. John Knightley,Isabella,personal_pronouns,2,2,2,1.0,1.0,0.0,M,intermediate,F,intermediate
-Mr. John Knightley,Isabella,prepositions,2,2,2,1.0,1.0,0.0,M,intermediate,F,intermediate
 Mr. John Knightley,Mr. Woodhouse,adverbs,4,3,3,1.0,0.75,0.25,M,intermediate,M,intermediate
 Mr. John Knightley,Mr. Woodhouse,articles,4,4,1,0.25,0.25,0.0,M,intermediate,M,intermediate
 Mr. John Knightley,Mr. Woodhouse,auxiliary_verbs,4,3,3,1.0,1.0,0.0,M,intermediate,M,intermediate
 Mr. John Knightley,Mr. Woodhouse,conjunctions,4,3,2,0.6666666666666666,0.75,-0.08333333333333337,M,intermediate,M,intermediate
 Mr. John Knightley,Mr. Woodhouse,impersonal_pronouns,4,3,2,0.6666666666666666,0.5,0.16666666666666663,M,intermediate,M,intermediate
-Mr. John Knightley,Mr. Woodhouse,negations,4,2,1,0.5,0.5,0.0,M,intermediate,M,intermediate
 Mr. John Knightley,Mr. Woodhouse,personal_pronouns,4,3,2,0.6666666666666666,0.75,-0.08333333333333337,M,intermediate,M,intermediate
 Mr. John Knightley,Mr. Woodhouse,prepositions,4,4,3,0.75,0.75,0.0,M,intermediate,M,intermediate
-Mr. John Knightley,Mr. Woodhouse,quantifiers,4,2,1,0.5,0.5,0.0,M,intermediate,M,intermediate
 Mr. Knightley,Emma,adverbs,9,5,4,0.8,0.8888888888888888,-0.0888888888888888,M,major,F,major
 Mr. Knightley,Emma,articles,9,6,4,0.6666666666666666,0.5555555555555556,0.11111111111111105,M,major,F,major
 Mr. Knightley,Emma,auxiliary_verbs,9,7,6,0.8571428571428571,0.8888888888888888,-0.031746031746031744,M,major,F,major
 Mr. Knightley,Emma,conjunctions,9,7,5,0.7142857142857143,0.6666666666666666,0.04761904761904767,M,major,F,major
 Mr. Knightley,Emma,impersonal_pronouns,9,4,1,0.25,0.4444444444444444,-0.19444444444444442,M,major,F,major
-Mr. Knightley,Emma,negations,9,2,1,0.5,0.6666666666666666,-0.16666666666666663,M,major,F,major
 Mr. Knightley,Emma,personal_pronouns,9,7,7,1.0,1.0,0.0,M,major,F,major
 Mr. Knightley,Emma,prepositions,9,5,3,0.6,0.5555555555555556,0.0444444444444444,M,major,F,major
 Mr. Knightley,Emma,quantifiers,9,4,3,0.75,0.5555555555555556,0.19444444444444442,M,major,F,major
@@ -205,20 +140,13 @@ Mr. Knightley,Mr. Woodhouse,negations,10,5,3,0.6,0.8,-0.20000000000000007,M,majo
 Mr. Knightley,Mr. Woodhouse,personal_pronouns,10,10,10,1.0,1.0,0.0,M,major,M,intermediate
 Mr. Knightley,Mr. Woodhouse,prepositions,10,8,7,0.875,0.9,-0.025000000000000022,M,major,M,intermediate
 Mr. Knightley,Mr. Woodhouse,quantifiers,10,9,7,0.7777777777777778,0.8,-0.022222222222222254,M,major,M,intermediate
-Mr. Knightley,Mrs. Elton,auxiliary_verbs,2,2,2,1.0,1.0,0.0,M,major,F,intermediate
-Mr. Knightley,Mrs. Elton,impersonal_pronouns,2,2,2,1.0,1.0,0.0,M,major,F,intermediate
-Mr. Knightley,Mrs. Elton,personal_pronouns,2,2,2,1.0,1.0,0.0,M,major,F,intermediate
-Mr. Knightley,Mrs. Elton,prepositions,2,2,2,1.0,1.0,0.0,M,major,F,intermediate
-Mr. Knightley,Mrs. Elton,quantifiers,2,2,1,0.5,0.5,0.0,M,major,F,intermediate
 Mr. Knightley,Mrs. Weston,adverbs,3,3,2,0.6666666666666666,0.6666666666666666,0.0,M,major,F,intermediate
 Mr. Knightley,Mrs. Weston,articles,3,3,2,0.6666666666666666,0.6666666666666666,0.0,M,major,F,intermediate
 Mr. Knightley,Mrs. Weston,auxiliary_verbs,3,3,3,1.0,1.0,0.0,M,major,F,intermediate
-Mr. Knightley,Mrs. Weston,conjunctions,3,2,2,1.0,0.6666666666666666,0.33333333333333337,M,major,F,intermediate
 Mr. Knightley,Mrs. Weston,impersonal_pronouns,3,3,1,0.3333333333333333,0.3333333333333333,0.0,M,major,F,intermediate
 Mr. Knightley,Mrs. Weston,negations,3,3,2,0.6666666666666666,0.6666666666666666,0.0,M,major,F,intermediate
 Mr. Knightley,Mrs. Weston,personal_pronouns,3,3,3,1.0,1.0,0.0,M,major,F,intermediate
 Mr. Knightley,Mrs. Weston,prepositions,3,3,3,1.0,1.0,0.0,M,major,F,intermediate
-Mr. Knightley,Mrs. Weston,quantifiers,3,2,1,0.5,0.6666666666666666,-0.16666666666666663,M,major,F,intermediate
 Mr. Weston,Emma,adverbs,9,7,4,0.5714285714285714,0.6666666666666666,-0.09523809523809523,M,intermediate,F,major
 Mr. Weston,Emma,articles,9,5,3,0.6,0.7777777777777778,-0.1777777777777778,M,intermediate,F,major
 Mr. Weston,Emma,auxiliary_verbs,9,8,8,1.0,1.0,0.0,M,intermediate,F,major
@@ -228,22 +156,17 @@ Mr. Weston,Emma,negations,9,3,3,1.0,0.7777777777777778,0.2222222222222222,M,inte
 Mr. Weston,Emma,personal_pronouns,9,8,8,1.0,1.0,0.0,M,intermediate,F,major
 Mr. Weston,Emma,prepositions,9,8,7,0.875,0.8888888888888888,-0.01388888888888884,M,intermediate,F,major
 Mr. Weston,Emma,quantifiers,9,3,3,1.0,0.6666666666666666,0.33333333333333337,M,intermediate,F,major
-Mr. Weston,Mr. Frank Churchill,adverbs,4,3,2,0.6666666666666666,0.75,-0.08333333333333337,M,intermediate,M,major
-Mr. Weston,Mr. Frank Churchill,articles,4,4,3,0.75,0.75,0.0,M,intermediate,M,major
-Mr. Weston,Mr. Frank Churchill,auxiliary_verbs,4,4,3,0.75,0.75,0.0,M,intermediate,M,major
-Mr. Weston,Mr. Frank Churchill,conjunctions,4,4,3,0.75,0.75,0.0,M,intermediate,M,major
-Mr. Weston,Mr. Frank Churchill,impersonal_pronouns,4,4,3,0.75,0.75,0.0,M,intermediate,M,major
-Mr. Weston,Mr. Frank Churchill,negations,4,4,2,0.5,0.5,0.0,M,intermediate,M,major
-Mr. Weston,Mr. Frank Churchill,personal_pronouns,4,4,3,0.75,0.75,0.0,M,intermediate,M,major
-Mr. Weston,Mr. Frank Churchill,prepositions,4,4,3,0.75,0.75,0.0,M,intermediate,M,major
-Mr. Weston,Mr. Frank Churchill,quantifiers,4,4,3,0.75,0.75,0.0,M,intermediate,M,major
-Mr. Weston,Mrs. Elton,adverbs,3,2,2,1.0,1.0,0.0,M,intermediate,F,intermediate
-Mr. Weston,Mrs. Elton,articles,3,2,2,1.0,1.0,0.0,M,intermediate,F,intermediate
+Mr. Weston,Mr. Frank Churchill,articles,3,3,3,1.0,1.0,0.0,M,intermediate,M,major
+Mr. Weston,Mr. Frank Churchill,auxiliary_verbs,3,3,3,1.0,1.0,0.0,M,intermediate,M,major
+Mr. Weston,Mr. Frank Churchill,conjunctions,3,3,3,1.0,1.0,0.0,M,intermediate,M,major
+Mr. Weston,Mr. Frank Churchill,impersonal_pronouns,3,3,3,1.0,1.0,0.0,M,intermediate,M,major
+Mr. Weston,Mr. Frank Churchill,negations,3,3,2,0.6666666666666666,0.6666666666666666,0.0,M,intermediate,M,major
+Mr. Weston,Mr. Frank Churchill,personal_pronouns,3,3,3,1.0,1.0,0.0,M,intermediate,M,major
+Mr. Weston,Mr. Frank Churchill,prepositions,3,3,3,1.0,1.0,0.0,M,intermediate,M,major
+Mr. Weston,Mr. Frank Churchill,quantifiers,3,3,3,1.0,1.0,0.0,M,intermediate,M,major
 Mr. Weston,Mrs. Elton,auxiliary_verbs,3,3,3,1.0,1.0,0.0,M,intermediate,F,intermediate
 Mr. Weston,Mrs. Elton,conjunctions,3,3,3,1.0,1.0,0.0,M,intermediate,F,intermediate
-Mr. Weston,Mrs. Elton,negations,3,2,2,1.0,1.0,0.0,M,intermediate,F,intermediate
 Mr. Weston,Mrs. Elton,personal_pronouns,3,3,3,1.0,1.0,0.0,M,intermediate,F,intermediate
-Mr. Weston,Mrs. Elton,prepositions,3,2,2,1.0,1.0,0.0,M,intermediate,F,intermediate
 Mr. Woodhouse,Emma,adverbs,10,9,8,0.8888888888888888,0.9,-0.011111111111111183,M,intermediate,F,major
 Mr. Woodhouse,Emma,articles,10,8,5,0.625,0.7,-0.07499999999999996,M,intermediate,F,major
 Mr. Woodhouse,Emma,auxiliary_verbs,10,9,9,1.0,1.0,0.0,M,intermediate,F,major
@@ -254,24 +177,11 @@ Mr. Woodhouse,Emma,personal_pronouns,10,9,8,0.8888888888888888,0.9,-0.0111111111
 Mr. Woodhouse,Emma,prepositions,10,8,7,0.875,0.9,-0.025000000000000022,M,intermediate,F,major
 Mr. Woodhouse,Emma,quantifiers,10,7,3,0.42857142857142855,0.6,-0.17142857142857143,M,intermediate,F,major
 Mr. Woodhouse,Isabella,adverbs,3,3,3,1.0,1.0,0.0,M,intermediate,F,intermediate
-Mr. Woodhouse,Isabella,articles,3,2,1,0.5,0.6666666666666666,-0.16666666666666663,M,intermediate,F,intermediate
 Mr. Woodhouse,Isabella,auxiliary_verbs,3,3,3,1.0,1.0,0.0,M,intermediate,F,intermediate
-Mr. Woodhouse,Isabella,conjunctions,3,2,1,0.5,0.6666666666666666,-0.16666666666666663,M,intermediate,F,intermediate
-Mr. Woodhouse,Isabella,impersonal_pronouns,3,2,1,0.5,0.6666666666666666,-0.16666666666666663,M,intermediate,F,intermediate
 Mr. Woodhouse,Isabella,negations,3,3,1,0.3333333333333333,0.3333333333333333,0.0,M,intermediate,F,intermediate
 Mr. Woodhouse,Isabella,personal_pronouns,3,3,3,1.0,1.0,0.0,M,intermediate,F,intermediate
 Mr. Woodhouse,Isabella,prepositions,3,3,2,0.6666666666666666,0.6666666666666666,0.0,M,intermediate,F,intermediate
-Mr. Woodhouse,Mr. Frank Churchill,adverbs,2,2,2,1.0,1.0,0.0,M,intermediate,M,major
-Mr. Woodhouse,Mr. Frank Churchill,articles,2,2,1,0.5,0.5,0.0,M,intermediate,M,major
-Mr. Woodhouse,Mr. Frank Churchill,auxiliary_verbs,2,2,2,1.0,1.0,0.0,M,intermediate,M,major
-Mr. Woodhouse,Mr. Frank Churchill,conjunctions,2,2,1,0.5,0.5,0.0,M,intermediate,M,major
-Mr. Woodhouse,Mr. Frank Churchill,impersonal_pronouns,2,2,1,0.5,0.5,0.0,M,intermediate,M,major
-Mr. Woodhouse,Mr. Frank Churchill,negations,2,2,1,0.5,0.5,0.0,M,intermediate,M,major
-Mr. Woodhouse,Mr. Frank Churchill,personal_pronouns,2,2,2,1.0,1.0,0.0,M,intermediate,M,major
-Mr. Woodhouse,Mr. Frank Churchill,prepositions,2,2,1,0.5,0.5,0.0,M,intermediate,M,major
-Mr. Woodhouse,Mr. Frank Churchill,quantifiers,2,2,2,1.0,1.0,0.0,M,intermediate,M,major
 Mr. Woodhouse,Mr. John Knightley,adverbs,5,4,4,1.0,1.0,0.0,M,intermediate,M,intermediate
-Mr. Woodhouse,Mr. John Knightley,articles,5,2,2,1.0,1.0,0.0,M,intermediate,M,intermediate
 Mr. Woodhouse,Mr. John Knightley,auxiliary_verbs,5,5,4,0.8,0.8,0.0,M,intermediate,M,intermediate
 Mr. Woodhouse,Mr. John Knightley,conjunctions,5,4,3,0.75,0.8,-0.050000000000000044,M,intermediate,M,intermediate
 Mr. Woodhouse,Mr. John Knightley,impersonal_pronouns,5,4,3,0.75,0.8,-0.050000000000000044,M,intermediate,M,intermediate
@@ -287,22 +197,6 @@ Mr. Woodhouse,Mr. Knightley,negations,6,3,3,1.0,1.0,0.0,M,intermediate,M,major
 Mr. Woodhouse,Mr. Knightley,personal_pronouns,6,5,5,1.0,1.0,0.0,M,intermediate,M,major
 Mr. Woodhouse,Mr. Knightley,prepositions,6,4,4,1.0,1.0,0.0,M,intermediate,M,major
 Mr. Woodhouse,Mr. Knightley,quantifiers,6,5,5,1.0,1.0,0.0,M,intermediate,M,major
-Mrs. Elton,Emma,adverbs,2,2,2,1.0,1.0,0.0,F,intermediate,F,major
-Mrs. Elton,Emma,articles,2,2,1,0.5,0.5,0.0,F,intermediate,F,major
-Mrs. Elton,Emma,auxiliary_verbs,2,2,2,1.0,1.0,0.0,F,intermediate,F,major
-Mrs. Elton,Emma,conjunctions,2,2,2,1.0,1.0,0.0,F,intermediate,F,major
-Mrs. Elton,Emma,impersonal_pronouns,2,2,2,1.0,1.0,0.0,F,intermediate,F,major
-Mrs. Elton,Emma,negations,2,2,2,1.0,1.0,0.0,F,intermediate,F,major
-Mrs. Elton,Emma,personal_pronouns,2,2,2,1.0,1.0,0.0,F,intermediate,F,major
-Mrs. Elton,Emma,prepositions,2,2,2,1.0,1.0,0.0,F,intermediate,F,major
-Mrs. Elton,Emma,quantifiers,2,2,1,0.5,0.5,0.0,F,intermediate,F,major
-Mrs. Elton,Jane Fairfax,adverbs,2,2,1,0.5,0.5,0.0,F,intermediate,F,intermediate
-Mrs. Elton,Jane Fairfax,auxiliary_verbs,2,2,2,1.0,1.0,0.0,F,intermediate,F,intermediate
-Mrs. Elton,Jane Fairfax,personal_pronouns,2,2,1,0.5,0.5,0.0,F,intermediate,F,intermediate
-Mrs. Elton,Jane Fairfax,prepositions,2,2,1,0.5,0.5,0.0,F,intermediate,F,intermediate
-Mrs. Elton,Jane Fairfax,quantifiers,2,2,1,0.5,0.5,0.0,F,intermediate,F,intermediate
-Mrs. Ford,Emma,auxiliary_verbs,2,2,2,1.0,1.0,0.0,F,minor,F,major
-Mrs. Ford,Emma,prepositions,2,2,2,1.0,1.0,0.0,F,minor,F,major
 Mrs. Weston,Emma,adverbs,11,11,9,0.8181818181818182,0.8181818181818182,0.0,F,intermediate,F,major
 Mrs. Weston,Emma,articles,11,10,6,0.6,0.6363636363636364,-0.036363636363636376,F,intermediate,F,major
 Mrs. Weston,Emma,auxiliary_verbs,11,11,10,0.9090909090909091,0.9090909090909091,0.0,F,intermediate,F,major
@@ -312,11 +206,3 @@ Mrs. Weston,Emma,negations,11,8,3,0.375,0.5454545454545454,-0.17045454545454541,
 Mrs. Weston,Emma,personal_pronouns,11,11,11,1.0,1.0,0.0,F,intermediate,F,major
 Mrs. Weston,Emma,prepositions,11,11,10,0.9090909090909091,0.9090909090909091,0.0,F,intermediate,F,major
 Mrs. Weston,Emma,quantifiers,11,7,3,0.42857142857142855,0.5454545454545454,-0.11688311688311687,F,intermediate,F,major
-Mrs. Weston,Mr. Frank Churchill,adverbs,2,2,2,1.0,1.0,0.0,F,intermediate,M,major
-Mrs. Weston,Mr. Frank Churchill,auxiliary_verbs,2,2,2,1.0,1.0,0.0,F,intermediate,M,major
-Mrs. Weston,Mr. Frank Churchill,conjunctions,2,2,1,0.5,0.5,0.0,F,intermediate,M,major
-Mrs. Weston,Mr. Frank Churchill,personal_pronouns,2,2,2,1.0,1.0,0.0,F,intermediate,M,major
-Mrs. Weston,Mr. Frank Churchill,prepositions,2,2,2,1.0,1.0,0.0,F,intermediate,M,major
-Mrs. Weston,Mr. Knightley,auxiliary_verbs,2,2,2,1.0,1.0,0.0,F,intermediate,M,major
-Mrs. Weston,Mr. Knightley,personal_pronouns,2,2,2,1.0,1.0,0.0,F,intermediate,M,major
-Mrs. Weston,Mr. Knightley,prepositions,2,2,1,0.5,0.5,0.0,F,intermediate,M,major

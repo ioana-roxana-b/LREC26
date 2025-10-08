@@ -288,6 +288,21 @@ def build_pairs_randomized_from_adjacent(pairs_adj: pd.DataFrame, seed: int = 12
     randomized = randomized[randomized["A"] != randomized["B"]].reset_index(drop=True)
     return randomized
 
+def filter_short_replies(df, min_i_tokens=2, min_j_tokens=2):
+    if not {"i_text", "j_text"}.issubset(df.columns):
+        return df
+
+    df = df.copy()
+    df["i_len"] = df["i_text"].apply(
+        lambda x: len(re.findall(r"\w+", x)) if isinstance(x, str) else 0
+    )
+    df["j_len"] = df["j_text"].apply(
+        lambda x: len(re.findall(r"\w+", x)) if isinstance(x, str) else 0
+    )
+
+    df = df[(df["i_len"] >= min_i_tokens) & (df["j_len"] >= min_j_tokens)]
+    return df.drop(columns=["i_len", "j_len"])
+
 
 def attach_metadata_to_pairs(pairs_df: pd.DataFrame, character_info_csv: Path, name_col: str = "Main Name", gender_col: str = "Gender", category_col: str = "Category") -> pd.DataFrame:
     """
@@ -304,6 +319,8 @@ def attach_metadata_to_pairs(pairs_df: pd.DataFrame, character_info_csv: Path, n
 
     if pairs_df.empty or not {"A", "B"}.issubset(pairs_df.columns):
         return pairs_df.copy()
+
+    pairs_df = filter_short_replies(pairs_df, min_i_tokens=2, min_j_tokens=2)
 
     if character_info_csv is None:
         return pairs_df.copy()

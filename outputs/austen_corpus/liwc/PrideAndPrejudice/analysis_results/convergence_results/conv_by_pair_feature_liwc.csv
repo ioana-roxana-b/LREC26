@@ -1,15 +1,13 @@
 ﻿a_speaker,b_speaker,family,n_pairs,n_triggers,n_b_positives_given_trigger,p1,p0,conv,a_gender,a_category,b_gender,b_category
-Charlotte Lucas,Elizabeth,adverbs,14,12,9,0.75,0.7142857142857143,0.0357142857142857,F,intermediate,F,major
-Charlotte Lucas,Elizabeth,articles,14,9,4,0.4444444444444444,0.42857142857142855,0.015873015873015872,F,intermediate,F,major
-Charlotte Lucas,Elizabeth,auxiliary_verbs,14,14,13,0.9285714285714286,0.9285714285714286,0.0,F,intermediate,F,major
-Charlotte Lucas,Elizabeth,conjunctions,14,11,8,0.7272727272727273,0.6428571428571429,0.08441558441558439,F,intermediate,F,major
-Charlotte Lucas,Elizabeth,impersonal_pronouns,14,12,10,0.8333333333333334,0.8571428571428571,-0.023809523809523725,F,intermediate,F,major
-Charlotte Lucas,Elizabeth,negations,14,9,8,0.8888888888888888,0.7857142857142857,0.10317460317460314,F,intermediate,F,major
-Charlotte Lucas,Elizabeth,personal_pronouns,14,13,12,0.9230769230769231,0.9285714285714286,-0.005494505494505475,F,intermediate,F,major
-Charlotte Lucas,Elizabeth,prepositions,14,12,9,0.75,0.7857142857142857,-0.0357142857142857,F,intermediate,F,major
-Charlotte Lucas,Elizabeth,quantifiers,14,8,4,0.5,0.5,0.0,F,intermediate,F,major
-Charlotte Lucas,Mrs. Bennet,adverbs,4,2,2,1.0,0.75,0.25,F,intermediate,F,major
-Charlotte Lucas,Mrs. Bennet,articles,4,2,1,0.5,0.25,0.25,F,intermediate,F,major
+Charlotte Lucas,Elizabeth,adverbs,13,11,9,0.8181818181818182,0.7692307692307693,0.04895104895104896,F,intermediate,F,major
+Charlotte Lucas,Elizabeth,articles,13,8,4,0.5,0.46153846153846156,0.038461538461538436,F,intermediate,F,major
+Charlotte Lucas,Elizabeth,auxiliary_verbs,13,13,13,1.0,1.0,0.0,F,intermediate,F,major
+Charlotte Lucas,Elizabeth,conjunctions,13,10,8,0.8,0.6923076923076923,0.10769230769230775,F,intermediate,F,major
+Charlotte Lucas,Elizabeth,impersonal_pronouns,13,11,10,0.9090909090909091,0.9230769230769231,-0.013986013986014068,F,intermediate,F,major
+Charlotte Lucas,Elizabeth,negations,13,8,8,1.0,0.8461538461538461,0.15384615384615385,F,intermediate,F,major
+Charlotte Lucas,Elizabeth,personal_pronouns,13,12,12,1.0,1.0,0.0,F,intermediate,F,major
+Charlotte Lucas,Elizabeth,prepositions,13,11,9,0.8181818181818182,0.8461538461538461,-0.027972027972027913,F,intermediate,F,major
+Charlotte Lucas,Elizabeth,quantifiers,13,7,4,0.5714285714285714,0.5384615384615384,0.03296703296703296,F,intermediate,F,major
 Charlotte Lucas,Mrs. Bennet,auxiliary_verbs,4,3,3,1.0,1.0,0.0,F,intermediate,F,major
 Charlotte Lucas,Mrs. Bennet,conjunctions,4,4,3,0.75,0.75,0.0,F,intermediate,F,major
 Charlotte Lucas,Mrs. Bennet,negations,4,3,3,1.0,0.75,0.25,F,intermediate,F,major
@@ -43,15 +41,15 @@ Elizabeth,Colonel Fitzwilliam,negations,15,8,4,0.5,0.6666666666666666,-0.1666666
 Elizabeth,Colonel Fitzwilliam,personal_pronouns,15,15,14,0.9333333333333333,0.9333333333333333,0.0,F,major,M,intermediate
 Elizabeth,Colonel Fitzwilliam,prepositions,15,14,14,1.0,1.0,0.0,F,major,M,intermediate
 Elizabeth,Colonel Fitzwilliam,quantifiers,15,5,4,0.8,0.6,0.20000000000000007,F,major,M,intermediate
-Elizabeth,George Wickham,adverbs,35,27,23,0.8518518518518519,0.7714285714285715,0.0804232804232804,F,major,M,intermediate
-Elizabeth,George Wickham,articles,35,21,15,0.7142857142857143,0.6285714285714286,0.08571428571428574,F,major,M,intermediate
-Elizabeth,George Wickham,auxiliary_verbs,35,29,28,0.9655172413793104,0.9428571428571428,0.02266009852216755,F,major,M,intermediate
-Elizabeth,George Wickham,conjunctions,35,19,16,0.8421052631578947,0.8571428571428571,-0.015037593984962405,F,major,M,intermediate
-Elizabeth,George Wickham,impersonal_pronouns,35,17,15,0.8823529411764706,0.8285714285714286,0.05378151260504194,F,major,M,intermediate
-Elizabeth,George Wickham,negations,35,13,8,0.6153846153846154,0.6,0.015384615384615441,F,major,M,intermediate
-Elizabeth,George Wickham,personal_pronouns,35,29,28,0.9655172413793104,0.9714285714285714,-0.005911330049261032,F,major,M,intermediate
-Elizabeth,George Wickham,prepositions,35,25,24,0.96,0.8857142857142857,0.07428571428571429,F,major,M,intermediate
-Elizabeth,George Wickham,quantifiers,35,16,10,0.625,0.7428571428571429,-0.11785714285714288,F,major,M,intermediate
+Elizabeth,George Wickham,adverbs,34,26,22,0.8461538461538461,0.7647058823529411,0.08144796380090502,F,major,M,intermediate
+Elizabeth,George Wickham,articles,34,21,15,0.7142857142857143,0.6176470588235294,0.09663865546218486,F,major,M,intermediate
+Elizabeth,George Wickham,auxiliary_verbs,34,29,28,0.9655172413793104,0.9411764705882353,0.024340770791075106,F,major,M,intermediate
+Elizabeth,George Wickham,conjunctions,34,19,16,0.8421052631578947,0.8529411764705882,-0.010835913312693513,F,major,M,intermediate
+Elizabeth,George Wickham,impersonal_pronouns,34,17,15,0.8823529411764706,0.8235294117647058,0.05882352941176472,F,major,M,intermediate
+Elizabeth,George Wickham,negations,34,13,8,0.6153846153846154,0.5882352941176471,0.02714932126696834,F,major,M,intermediate
+Elizabeth,George Wickham,personal_pronouns,34,29,28,0.9655172413793104,0.9705882352941176,-0.005070993914807254,F,major,M,intermediate
+Elizabeth,George Wickham,prepositions,34,25,24,0.96,0.8823529411764706,0.0776470588235294,F,major,M,intermediate
+Elizabeth,George Wickham,quantifiers,34,16,10,0.625,0.7352941176470589,-0.11029411764705888,F,major,M,intermediate
 Elizabeth,Jane,adverbs,62,48,39,0.8125,0.7903225806451613,0.022177419354838745,F,major,F,intermediate
 Elizabeth,Jane,articles,62,36,26,0.7222222222222222,0.5483870967741935,0.1738351254480287,F,major,F,intermediate
 Elizabeth,Jane,auxiliary_verbs,62,58,50,0.8620689655172413,0.8548387096774194,0.007230255839821953,F,major,F,intermediate
@@ -73,28 +71,13 @@ Elizabeth,Lady Catherine De Bourgh,quantifiers,35,21,17,0.8095238095238095,0.685
 Elizabeth,Lydia,adverbs,6,3,3,1.0,0.8333333333333334,0.16666666666666663,F,major,F,intermediate
 Elizabeth,Lydia,articles,6,3,3,1.0,0.8333333333333334,0.16666666666666663,F,major,F,intermediate
 Elizabeth,Lydia,auxiliary_verbs,6,5,5,1.0,1.0,0.0,F,major,F,intermediate
-Elizabeth,Lydia,conjunctions,6,2,2,1.0,1.0,0.0,F,major,F,intermediate
 Elizabeth,Lydia,negations,6,3,2,0.6666666666666666,0.5,0.16666666666666663,F,major,F,intermediate
 Elizabeth,Lydia,personal_pronouns,6,4,4,1.0,1.0,0.0,F,major,F,intermediate
 Elizabeth,Lydia,prepositions,6,3,3,1.0,1.0,0.0,F,major,F,intermediate
 Elizabeth,Maria,adverbs,3,3,3,1.0,1.0,0.0,F,major,F,minor
-Elizabeth,Maria,articles,3,2,1,0.5,0.6666666666666666,-0.16666666666666663,F,major,F,minor
-Elizabeth,Maria,auxiliary_verbs,3,2,2,1.0,1.0,0.0,F,major,F,minor
-Elizabeth,Maria,impersonal_pronouns,3,2,2,1.0,0.6666666666666666,0.33333333333333337,F,major,F,minor
-Elizabeth,Maria,negations,3,2,1,0.5,0.3333333333333333,0.16666666666666669,F,major,F,minor
-Elizabeth,Maria,personal_pronouns,3,2,2,1.0,1.0,0.0,F,major,F,minor
-Elizabeth,Maria,prepositions,3,2,2,1.0,1.0,0.0,F,major,F,minor
 Elizabeth,Maria,quantifiers,3,3,2,0.6666666666666666,0.6666666666666666,0.0,F,major,F,minor
-Elizabeth,Mary,adverbs,2,2,2,1.0,1.0,0.0,F,major,F,minor
-Elizabeth,Mary,auxiliary_verbs,2,2,2,1.0,1.0,0.0,F,major,F,minor
-Elizabeth,Mary,conjunctions,2,2,2,1.0,1.0,0.0,F,major,F,minor
-Elizabeth,Mary,negations,2,2,1,0.5,0.5,0.0,F,major,F,minor
-Elizabeth,Mary,personal_pronouns,2,2,2,1.0,1.0,0.0,F,major,F,minor
-Elizabeth,Miss Bingley,adverbs,3,2,2,1.0,1.0,0.0,F,major,F,intermediate
 Elizabeth,Miss Bingley,articles,3,3,2,0.6666666666666666,0.6666666666666666,0.0,F,major,F,intermediate
-Elizabeth,Miss Bingley,auxiliary_verbs,3,2,2,1.0,1.0,0.0,F,major,F,intermediate
 Elizabeth,Miss Bingley,conjunctions,3,3,2,0.6666666666666666,0.6666666666666666,0.0,F,major,F,intermediate
-Elizabeth,Miss Bingley,impersonal_pronouns,3,2,2,1.0,1.0,0.0,F,major,F,intermediate
 Elizabeth,Miss Bingley,negations,3,3,1,0.3333333333333333,0.3333333333333333,0.0,F,major,F,intermediate
 Elizabeth,Miss Bingley,personal_pronouns,3,3,3,1.0,1.0,0.0,F,major,F,intermediate
 Elizabeth,Miss Bingley,prepositions,3,3,2,0.6666666666666666,0.6666666666666666,0.0,F,major,F,intermediate
@@ -112,7 +95,6 @@ Elizabeth,Mr. Bingley,articles,6,3,3,1.0,0.8333333333333334,0.16666666666666663,
 Elizabeth,Mr. Bingley,auxiliary_verbs,6,5,5,1.0,1.0,0.0,F,major,M,intermediate
 Elizabeth,Mr. Bingley,conjunctions,6,4,3,0.75,0.6666666666666666,0.08333333333333337,F,major,M,intermediate
 Elizabeth,Mr. Bingley,impersonal_pronouns,6,5,2,0.4,0.5,-0.09999999999999998,F,major,M,intermediate
-Elizabeth,Mr. Bingley,negations,6,2,2,1.0,0.6666666666666666,0.33333333333333337,F,major,M,intermediate
 Elizabeth,Mr. Bingley,personal_pronouns,6,6,6,1.0,1.0,0.0,F,major,M,intermediate
 Elizabeth,Mr. Bingley,prepositions,6,5,5,1.0,1.0,0.0,F,major,M,intermediate
 Elizabeth,Mr. Bingley,quantifiers,6,3,2,0.6666666666666666,0.3333333333333333,0.3333333333333333,F,major,M,intermediate
@@ -138,11 +120,9 @@ Elizabeth,Mr. Gardiner,adverbs,3,3,3,1.0,1.0,0.0,F,major,M,minor
 Elizabeth,Mr. Gardiner,articles,3,3,2,0.6666666666666666,0.6666666666666666,0.0,F,major,M,minor
 Elizabeth,Mr. Gardiner,auxiliary_verbs,3,3,3,1.0,1.0,0.0,F,major,M,minor
 Elizabeth,Mr. Gardiner,conjunctions,3,3,2,0.6666666666666666,0.6666666666666666,0.0,F,major,M,minor
-Elizabeth,Mr. Gardiner,impersonal_pronouns,3,2,2,1.0,1.0,0.0,F,major,M,minor
 Elizabeth,Mr. Gardiner,negations,3,3,2,0.6666666666666666,0.6666666666666666,0.0,F,major,M,minor
 Elizabeth,Mr. Gardiner,personal_pronouns,3,3,3,1.0,1.0,0.0,F,major,M,minor
 Elizabeth,Mr. Gardiner,prepositions,3,3,3,1.0,1.0,0.0,F,major,M,minor
-Elizabeth,Mr. Gardiner,quantifiers,3,2,2,1.0,1.0,0.0,F,major,M,minor
 Elizabeth,Mrs. Bennet,adverbs,13,4,4,1.0,0.8461538461538461,0.15384615384615385,F,major,F,major
 Elizabeth,Mrs. Bennet,articles,13,6,5,0.8333333333333334,0.8461538461538461,-0.012820512820512775,F,major,F,major
 Elizabeth,Mrs. Bennet,auxiliary_verbs,13,11,11,1.0,1.0,0.0,F,major,F,major
@@ -162,21 +142,15 @@ Elizabeth,Mrs. Gardiner,personal_pronouns,20,20,19,0.95,0.95,0.0,F,major,F,inter
 Elizabeth,Mrs. Gardiner,prepositions,20,16,13,0.8125,0.8,0.012499999999999956,F,major,F,intermediate
 Elizabeth,Mrs. Gardiner,quantifiers,20,14,9,0.6428571428571429,0.6,0.04285714285714293,F,major,F,intermediate
 Elizabeth,Mrs. Reynolds,adverbs,4,3,3,1.0,1.0,0.0,F,major,F,minor
-Elizabeth,Mrs. Reynolds,articles,4,2,2,1.0,1.0,0.0,F,major,F,minor
-Elizabeth,Mrs. Reynolds,auxiliary_verbs,4,2,2,1.0,1.0,0.0,F,major,F,minor
-Elizabeth,Mrs. Reynolds,personal_pronouns,4,2,2,1.0,1.0,0.0,F,major,F,minor
-Elizabeth,Mrs. Reynolds,quantifiers,4,2,1,0.5,0.5,0.0,F,major,F,minor
-Elizabeth,Sir William Lucas,auxiliary_verbs,2,2,2,1.0,1.0,0.0,F,major,M,minor
-Elizabeth,Sir William Lucas,quantifiers,2,2,1,0.5,0.5,0.0,F,major,M,minor
-George Wickham,Elizabeth,adverbs,35,26,21,0.8076923076923077,0.7714285714285715,0.036263736263736246,M,intermediate,F,major
-George Wickham,Elizabeth,articles,35,20,13,0.65,0.6,0.050000000000000044,M,intermediate,F,major
-George Wickham,Elizabeth,auxiliary_verbs,35,33,28,0.8484848484848485,0.8285714285714286,0.019913419913419883,M,intermediate,F,major
-George Wickham,Elizabeth,conjunctions,35,28,17,0.6071428571428571,0.5714285714285714,0.0357142857142857,M,intermediate,F,major
-George Wickham,Elizabeth,impersonal_pronouns,35,28,15,0.5357142857142857,0.5142857142857142,0.021428571428571463,M,intermediate,F,major
-George Wickham,Elizabeth,negations,35,19,7,0.3684210526315789,0.4,-0.031578947368421095,M,intermediate,F,major
-George Wickham,Elizabeth,personal_pronouns,35,34,28,0.8235294117647058,0.8285714285714286,-0.005042016806722782,M,intermediate,F,major
-George Wickham,Elizabeth,prepositions,35,30,22,0.7333333333333333,0.7142857142857143,0.01904761904761898,M,intermediate,F,major
-George Wickham,Elizabeth,quantifiers,35,25,12,0.48,0.45714285714285713,0.022857142857142854,M,intermediate,F,major
+George Wickham,Elizabeth,adverbs,34,25,20,0.8,0.7647058823529411,0.03529411764705892,M,intermediate,F,major
+George Wickham,Elizabeth,articles,34,19,13,0.6842105263157895,0.6176470588235294,0.06656346749226005,M,intermediate,F,major
+George Wickham,Elizabeth,auxiliary_verbs,34,32,28,0.875,0.8529411764705882,0.022058823529411797,M,intermediate,F,major
+George Wickham,Elizabeth,conjunctions,34,27,17,0.6296296296296297,0.5882352941176471,0.04139433551198257,M,intermediate,F,major
+George Wickham,Elizabeth,impersonal_pronouns,34,27,15,0.5555555555555556,0.5294117647058824,0.02614379084967322,M,intermediate,F,major
+George Wickham,Elizabeth,negations,34,18,7,0.3888888888888889,0.4117647058823529,-0.022875816993464027,M,intermediate,F,major
+George Wickham,Elizabeth,personal_pronouns,34,33,28,0.8484848484848485,0.8529411764705882,-0.004456327985739694,M,intermediate,F,major
+George Wickham,Elizabeth,prepositions,34,29,22,0.7586206896551724,0.7352941176470589,0.0233265720081135,M,intermediate,F,major
+George Wickham,Elizabeth,quantifiers,34,24,12,0.5,0.47058823529411764,0.02941176470588236,M,intermediate,F,major
 Jane,Elizabeth,adverbs,73,60,45,0.75,0.7534246575342466,-0.003424657534246589,F,intermediate,F,major
 Jane,Elizabeth,articles,73,37,23,0.6216216216216216,0.5753424657534246,0.046279155868196975,F,intermediate,F,major
 Jane,Elizabeth,auxiliary_verbs,73,65,61,0.9384615384615385,0.9315068493150684,0.006954689146470017,F,intermediate,F,major
@@ -186,22 +160,13 @@ Jane,Elizabeth,negations,73,52,29,0.5576923076923077,0.547945205479452,0.0097471
 Jane,Elizabeth,personal_pronouns,73,69,67,0.9710144927536232,0.958904109589041,0.012110383164582128,F,intermediate,F,major
 Jane,Elizabeth,prepositions,73,66,58,0.8787878787878788,0.8904109589041096,-0.01162308011623081,F,intermediate,F,major
 Jane,Elizabeth,quantifiers,73,48,32,0.6666666666666666,0.6301369863013698,0.0365296803652968,F,intermediate,F,major
-Jane,Lydia,auxiliary_verbs,2,2,2,1.0,1.0,0.0,F,intermediate,F,intermediate
-Jane,Lydia,prepositions,2,2,2,1.0,1.0,0.0,F,intermediate,F,intermediate
-Jane,Mr. Bennet,personal_pronouns,2,2,2,1.0,1.0,0.0,F,intermediate,M,intermediate
 Jane,Mrs. Bennet,adverbs,6,4,3,0.75,0.6666666666666666,0.08333333333333337,F,intermediate,F,major
 Jane,Mrs. Bennet,articles,6,4,2,0.5,0.6666666666666666,-0.16666666666666663,F,intermediate,F,major
 Jane,Mrs. Bennet,auxiliary_verbs,6,6,6,1.0,1.0,0.0,F,intermediate,F,major
 Jane,Mrs. Bennet,conjunctions,6,3,2,0.6666666666666666,0.8333333333333334,-0.16666666666666674,F,intermediate,F,major
-Jane,Mrs. Bennet,impersonal_pronouns,6,2,2,1.0,0.8333333333333334,0.16666666666666663,F,intermediate,F,major
-Jane,Mrs. Bennet,negations,6,2,2,1.0,0.8333333333333334,0.16666666666666663,F,intermediate,F,major
 Jane,Mrs. Bennet,personal_pronouns,6,6,6,1.0,1.0,0.0,F,intermediate,F,major
 Jane,Mrs. Bennet,prepositions,6,5,5,1.0,1.0,0.0,F,intermediate,F,major
 Jane,Mrs. Bennet,quantifiers,6,3,1,0.3333333333333333,0.6666666666666666,-0.3333333333333333,F,intermediate,F,major
-Kitty,Mr. Bennet,conjunctions,2,2,2,1.0,1.0,0.0,F,minor,M,intermediate
-Kitty,Mr. Bennet,prepositions,2,2,2,1.0,1.0,0.0,F,minor,M,intermediate
-Kitty,Mrs. Bennet,adverbs,3,2,1,0.5,0.6666666666666666,-0.16666666666666663,F,minor,F,major
-Kitty,Mrs. Bennet,articles,3,2,0,0.0,0.3333333333333333,-0.3333333333333333,F,minor,F,major
 Kitty,Mrs. Bennet,auxiliary_verbs,3,3,3,1.0,1.0,0.0,F,minor,F,major
 Kitty,Mrs. Bennet,impersonal_pronouns,3,3,1,0.3333333333333333,0.3333333333333333,0.0,F,minor,F,major
 Kitty,Mrs. Bennet,personal_pronouns,3,3,3,1.0,1.0,0.0,F,minor,F,major
@@ -218,7 +183,6 @@ Lady Catherine De Bourgh,Elizabeth,quantifiers,39,27,18,0.6666666666666666,0.615
 Lady Catherine De Bourgh,Mrs. Bennet,adverbs,4,3,2,0.6666666666666666,0.75,-0.08333333333333337,F,intermediate,F,major
 Lady Catherine De Bourgh,Mrs. Bennet,articles,4,3,2,0.6666666666666666,0.75,-0.08333333333333337,F,intermediate,F,major
 Lady Catherine De Bourgh,Mrs. Bennet,auxiliary_verbs,4,4,4,1.0,1.0,0.0,F,intermediate,F,major
-Lady Catherine De Bourgh,Mrs. Bennet,conjunctions,4,2,2,1.0,1.0,0.0,F,intermediate,F,major
 Lady Catherine De Bourgh,Mrs. Bennet,impersonal_pronouns,4,3,0,0.0,0.25,-0.25,F,intermediate,F,major
 Lady Catherine De Bourgh,Mrs. Bennet,personal_pronouns,4,3,3,1.0,1.0,0.0,F,intermediate,F,major
 Lady Catherine De Bourgh,Mrs. Bennet,prepositions,4,3,3,1.0,1.0,0.0,F,intermediate,F,major
@@ -232,14 +196,6 @@ Lydia,Elizabeth,negations,7,4,1,0.25,0.42857142857142855,-0.17857142857142855,F,
 Lydia,Elizabeth,personal_pronouns,7,7,5,0.7142857142857143,0.7142857142857143,0.0,F,intermediate,F,major
 Lydia,Elizabeth,prepositions,7,7,5,0.7142857142857143,0.7142857142857143,0.0,F,intermediate,F,major
 Lydia,Elizabeth,quantifiers,7,7,2,0.2857142857142857,0.2857142857142857,0.0,F,intermediate,F,major
-Lydia,Jane,articles,2,2,1,0.5,0.5,0.0,F,intermediate,F,intermediate
-Lydia,Jane,auxiliary_verbs,2,2,2,1.0,1.0,0.0,F,intermediate,F,intermediate
-Lydia,Jane,conjunctions,2,2,2,1.0,1.0,0.0,F,intermediate,F,intermediate
-Lydia,Jane,personal_pronouns,2,2,2,1.0,1.0,0.0,F,intermediate,F,intermediate
-Lydia,Jane,prepositions,2,2,2,1.0,1.0,0.0,F,intermediate,F,intermediate
-Lydia,Mr. Collins,adverbs,2,2,2,1.0,1.0,0.0,F,intermediate,M,intermediate
-Lydia,Mr. Collins,auxiliary_verbs,2,2,2,1.0,1.0,0.0,F,intermediate,M,intermediate
-Lydia,Mr. Collins,personal_pronouns,2,2,2,1.0,1.0,0.0,F,intermediate,M,intermediate
 Lydia,Mrs. Bennet,adverbs,8,6,6,1.0,0.875,0.125,F,intermediate,F,major
 Lydia,Mrs. Bennet,articles,8,5,2,0.4,0.25,0.15000000000000002,F,intermediate,F,major
 Lydia,Mrs. Bennet,auxiliary_verbs,8,7,7,1.0,0.875,0.125,F,intermediate,F,major
@@ -254,7 +210,6 @@ Maria,Elizabeth,articles,5,4,3,0.75,0.6,0.15000000000000002,F,minor,F,major
 Maria,Elizabeth,auxiliary_verbs,5,5,4,0.8,0.8,0.0,F,minor,F,major
 Maria,Elizabeth,conjunctions,5,4,2,0.5,0.6,-0.09999999999999998,F,minor,F,major
 Maria,Elizabeth,impersonal_pronouns,5,4,2,0.5,0.4,0.09999999999999998,F,minor,F,major
-Maria,Elizabeth,negations,5,2,2,1.0,0.4,0.6,F,minor,F,major
 Maria,Elizabeth,personal_pronouns,5,5,4,0.8,0.8,0.0,F,minor,F,major
 Maria,Elizabeth,prepositions,5,5,4,0.8,0.8,0.0,F,minor,F,major
 Maria,Elizabeth,quantifiers,5,3,3,1.0,0.8,0.19999999999999996,F,minor,F,major
@@ -266,7 +221,6 @@ Miss Bingley,Elizabeth,impersonal_pronouns,8,7,7,1.0,0.875,0.125,F,intermediate,
 Miss Bingley,Elizabeth,negations,8,5,4,0.8,0.875,-0.07499999999999996,F,intermediate,F,major
 Miss Bingley,Elizabeth,personal_pronouns,8,8,8,1.0,1.0,0.0,F,intermediate,F,major
 Miss Bingley,Elizabeth,prepositions,8,6,6,1.0,1.0,0.0,F,intermediate,F,major
-Miss Bingley,Elizabeth,quantifiers,8,2,1,0.5,0.625,-0.125,F,intermediate,F,major
 Miss Bingley,Mr. Bingley,adverbs,11,6,4,0.6666666666666666,0.6363636363636364,0.030303030303030276,F,intermediate,M,intermediate
 Miss Bingley,Mr. Bingley,articles,11,8,4,0.5,0.45454545454545453,0.04545454545454547,F,intermediate,M,intermediate
 Miss Bingley,Mr. Bingley,auxiliary_verbs,11,10,10,1.0,1.0,0.0,F,intermediate,M,intermediate
@@ -285,9 +239,7 @@ Miss Bingley,Mr. Darcy,negations,18,6,2,0.3333333333333333,0.3333333333333333,0.
 Miss Bingley,Mr. Darcy,personal_pronouns,18,18,15,0.8333333333333334,0.8333333333333334,0.0,F,intermediate,M,major
 Miss Bingley,Mr. Darcy,prepositions,18,18,14,0.7777777777777778,0.7777777777777778,0.0,F,intermediate,M,major
 Miss Bingley,Mr. Darcy,quantifiers,18,13,10,0.7692307692307693,0.6111111111111112,0.1581196581196581,F,intermediate,M,major
-Miss Bingley,Mrs. Hurst,articles,3,2,1,0.5,0.3333333333333333,0.16666666666666669,F,intermediate,F,minor
 Miss Bingley,Mrs. Hurst,auxiliary_verbs,3,3,3,1.0,1.0,0.0,F,intermediate,F,minor
-Miss Bingley,Mrs. Hurst,impersonal_pronouns,3,2,2,1.0,1.0,0.0,F,intermediate,F,minor
 Miss Bingley,Mrs. Hurst,personal_pronouns,3,3,3,1.0,1.0,0.0,F,intermediate,F,minor
 Miss Bingley,Mrs. Hurst,prepositions,3,3,3,1.0,1.0,0.0,F,intermediate,F,minor
 Mr. Bennet,Elizabeth,adverbs,22,18,10,0.5555555555555556,0.5909090909090909,-0.03535353535353536,M,intermediate,F,major
@@ -299,35 +251,24 @@ Mr. Bennet,Elizabeth,negations,22,13,5,0.38461538461538464,0.3181818181818182,0.
 Mr. Bennet,Elizabeth,personal_pronouns,22,21,18,0.8571428571428571,0.8636363636363636,-0.006493506493506551,M,intermediate,F,major
 Mr. Bennet,Elizabeth,prepositions,22,20,15,0.75,0.7727272727272727,-0.022727272727272707,M,intermediate,F,major
 Mr. Bennet,Elizabeth,quantifiers,22,16,9,0.5625,0.5,0.0625,M,intermediate,F,major
-Mr. Bennet,Jane,adverbs,2,2,1,0.5,0.5,0.0,M,intermediate,F,intermediate
-Mr. Bennet,Jane,auxiliary_verbs,2,2,2,1.0,1.0,0.0,M,intermediate,F,intermediate
-Mr. Bennet,Jane,conjunctions,2,2,1,0.5,0.5,0.0,M,intermediate,F,intermediate
-Mr. Bennet,Jane,impersonal_pronouns,2,2,2,1.0,1.0,0.0,M,intermediate,F,intermediate
-Mr. Bennet,Jane,personal_pronouns,2,2,2,1.0,1.0,0.0,M,intermediate,F,intermediate
-Mr. Bennet,Jane,prepositions,2,2,1,0.5,0.5,0.0,M,intermediate,F,intermediate
-Mr. Bennet,Kitty,adverbs,3,2,1,0.5,0.3333333333333333,0.16666666666666669,M,intermediate,F,minor
 Mr. Bennet,Kitty,auxiliary_verbs,3,3,2,0.6666666666666666,0.6666666666666666,0.0,M,intermediate,F,minor
-Mr. Bennet,Kitty,conjunctions,3,2,2,1.0,0.6666666666666666,0.33333333333333337,M,intermediate,F,minor
 Mr. Bennet,Kitty,personal_pronouns,3,3,2,0.6666666666666666,0.6666666666666666,0.0,M,intermediate,F,minor
-Mr. Bennet,Kitty,prepositions,3,2,2,1.0,1.0,0.0,M,intermediate,F,minor
 Mr. Bennet,Mr. Collins,adverbs,4,4,4,1.0,1.0,0.0,M,intermediate,M,intermediate
 Mr. Bennet,Mr. Collins,articles,4,3,3,1.0,1.0,0.0,M,intermediate,M,intermediate
 Mr. Bennet,Mr. Collins,auxiliary_verbs,4,4,4,1.0,1.0,0.0,M,intermediate,M,intermediate
 Mr. Bennet,Mr. Collins,conjunctions,4,3,3,1.0,1.0,0.0,M,intermediate,M,intermediate
 Mr. Bennet,Mr. Collins,impersonal_pronouns,4,3,3,1.0,1.0,0.0,M,intermediate,M,intermediate
-Mr. Bennet,Mr. Collins,negations,4,2,2,1.0,0.75,0.25,M,intermediate,M,intermediate
 Mr. Bennet,Mr. Collins,personal_pronouns,4,4,4,1.0,1.0,0.0,M,intermediate,M,intermediate
 Mr. Bennet,Mr. Collins,prepositions,4,4,4,1.0,1.0,0.0,M,intermediate,M,intermediate
-Mr. Bennet,Mr. Collins,quantifiers,4,2,2,1.0,0.75,0.25,M,intermediate,M,intermediate
-Mr. Bennet,Mrs. Bennet,adverbs,39,22,19,0.8636363636363636,0.717948717948718,0.1456876456876457,M,intermediate,F,major
-Mr. Bennet,Mrs. Bennet,articles,39,27,14,0.5185185185185185,0.5384615384615384,-0.019943019943019946,M,intermediate,F,major
-Mr. Bennet,Mrs. Bennet,auxiliary_verbs,39,39,36,0.9230769230769231,0.9230769230769231,0.0,M,intermediate,F,major
-Mr. Bennet,Mrs. Bennet,conjunctions,39,30,25,0.8333333333333334,0.7948717948717948,0.03846153846153855,M,intermediate,F,major
-Mr. Bennet,Mrs. Bennet,impersonal_pronouns,39,33,26,0.7878787878787878,0.7692307692307693,0.01864801864801857,M,intermediate,F,major
-Mr. Bennet,Mrs. Bennet,negations,39,20,14,0.7,0.6923076923076923,0.007692307692307665,M,intermediate,F,major
-Mr. Bennet,Mrs. Bennet,personal_pronouns,39,38,36,0.9473684210526315,0.9487179487179487,-0.0013495276653171517,M,intermediate,F,major
-Mr. Bennet,Mrs. Bennet,prepositions,39,35,32,0.9142857142857143,0.8974358974358975,0.01684981684981679,M,intermediate,F,major
-Mr. Bennet,Mrs. Bennet,quantifiers,39,23,16,0.6956521739130435,0.6410256410256411,0.05462653288740238,M,intermediate,F,major
+Mr. Bennet,Mrs. Bennet,adverbs,38,22,19,0.8636363636363636,0.7368421052631579,0.1267942583732058,M,intermediate,F,major
+Mr. Bennet,Mrs. Bennet,articles,38,27,14,0.5185185185185185,0.5526315789473685,-0.034113060428849984,M,intermediate,F,major
+Mr. Bennet,Mrs. Bennet,auxiliary_verbs,38,38,36,0.9473684210526315,0.9473684210526315,0.0,M,intermediate,F,major
+Mr. Bennet,Mrs. Bennet,conjunctions,38,30,25,0.8333333333333334,0.8157894736842105,0.01754385964912286,M,intermediate,F,major
+Mr. Bennet,Mrs. Bennet,impersonal_pronouns,38,32,26,0.8125,0.7894736842105263,0.023026315789473673,M,intermediate,F,major
+Mr. Bennet,Mrs. Bennet,negations,38,20,14,0.7,0.7105263157894737,-0.010526315789473717,M,intermediate,F,major
+Mr. Bennet,Mrs. Bennet,personal_pronouns,38,37,36,0.972972972972973,0.9736842105263158,-0.0007112375533427917,M,intermediate,F,major
+Mr. Bennet,Mrs. Bennet,prepositions,38,35,32,0.9142857142857143,0.9210526315789473,-0.006766917293233088,M,intermediate,F,major
+Mr. Bennet,Mrs. Bennet,quantifiers,38,23,16,0.6956521739130435,0.6578947368421053,0.03775743707093815,M,intermediate,F,major
 Mr. Bingley,Elizabeth,adverbs,8,6,1,0.16666666666666666,0.25,-0.08333333333333334,M,intermediate,F,major
 Mr. Bingley,Elizabeth,articles,8,5,3,0.6,0.5,0.09999999999999998,M,intermediate,F,major
 Mr. Bingley,Elizabeth,auxiliary_verbs,8,8,7,0.875,0.875,0.0,M,intermediate,F,major
@@ -356,13 +297,9 @@ Mr. Bingley,Mr. Darcy,personal_pronouns,10,10,10,1.0,1.0,0.0,M,intermediate,M,ma
 Mr. Bingley,Mr. Darcy,prepositions,10,10,10,1.0,1.0,0.0,M,intermediate,M,major
 Mr. Bingley,Mr. Darcy,quantifiers,10,9,5,0.5555555555555556,0.6,-0.0444444444444444,M,intermediate,M,major
 Mr. Bingley,Mrs. Bennet,adverbs,4,3,3,1.0,1.0,0.0,M,intermediate,F,major
-Mr. Bingley,Mrs. Bennet,articles,4,2,1,0.5,0.75,-0.25,M,intermediate,F,major
 Mr. Bingley,Mrs. Bennet,auxiliary_verbs,4,3,3,1.0,1.0,0.0,M,intermediate,F,major
-Mr. Bingley,Mrs. Bennet,impersonal_pronouns,4,2,2,1.0,1.0,0.0,M,intermediate,F,major
-Mr. Bingley,Mrs. Bennet,negations,4,2,2,1.0,1.0,0.0,M,intermediate,F,major
 Mr. Bingley,Mrs. Bennet,personal_pronouns,4,4,4,1.0,1.0,0.0,M,intermediate,F,major
 Mr. Bingley,Mrs. Bennet,prepositions,4,3,3,1.0,1.0,0.0,M,intermediate,F,major
-Mr. Bingley,Mrs. Bennet,quantifiers,4,2,2,1.0,1.0,0.0,M,intermediate,F,major
 Mr. Collins,Elizabeth,adverbs,9,8,6,0.75,0.7777777777777778,-0.02777777777777779,M,intermediate,F,major
 Mr. Collins,Elizabeth,articles,9,9,7,0.7777777777777778,0.7777777777777778,0.0,M,intermediate,F,major
 Mr. Collins,Elizabeth,auxiliary_verbs,9,9,8,0.8888888888888888,0.8888888888888888,0.0,M,intermediate,F,major
@@ -372,12 +309,7 @@ Mr. Collins,Elizabeth,negations,9,7,5,0.7142857142857143,0.6666666666666666,0.04
 Mr. Collins,Elizabeth,personal_pronouns,9,9,9,1.0,1.0,0.0,M,intermediate,F,major
 Mr. Collins,Elizabeth,prepositions,9,9,9,1.0,1.0,0.0,M,intermediate,F,major
 Mr. Collins,Elizabeth,quantifiers,9,9,6,0.6666666666666666,0.6666666666666666,0.0,M,intermediate,F,major
-Mr. Collins,Maria,adverbs,2,2,2,1.0,1.0,0.0,M,intermediate,F,minor
-Mr. Collins,Maria,auxiliary_verbs,2,2,2,1.0,1.0,0.0,M,intermediate,F,minor
-Mr. Collins,Maria,personal_pronouns,2,2,2,1.0,1.0,0.0,M,intermediate,F,minor
-Mr. Collins,Maria,prepositions,2,2,2,1.0,1.0,0.0,M,intermediate,F,minor
 Mr. Collins,Mr. Bennet,adverbs,3,3,3,1.0,1.0,0.0,M,intermediate,M,intermediate
-Mr. Collins,Mr. Bennet,articles,3,2,1,0.5,0.6666666666666666,-0.16666666666666663,M,intermediate,M,intermediate
 Mr. Collins,Mr. Bennet,auxiliary_verbs,3,3,3,1.0,1.0,0.0,M,intermediate,M,intermediate
 Mr. Collins,Mr. Bennet,conjunctions,3,3,3,1.0,1.0,0.0,M,intermediate,M,intermediate
 Mr. Collins,Mr. Bennet,impersonal_pronouns,3,3,2,0.6666666666666666,0.6666666666666666,0.0,M,intermediate,M,intermediate
@@ -420,12 +352,6 @@ Mr. Darcy,Mr. Bingley,personal_pronouns,6,5,5,1.0,1.0,0.0,M,major,M,intermediate
 Mr. Darcy,Mr. Bingley,prepositions,6,6,6,1.0,1.0,0.0,M,major,M,intermediate
 Mr. Darcy,Mr. Bingley,quantifiers,6,4,4,1.0,1.0,0.0,M,major,M,intermediate
 Mr. Darcy,Sir William Lucas,adverbs,4,3,1,0.3333333333333333,0.5,-0.16666666666666669,M,major,M,minor
-Mr. Darcy,Sir William Lucas,articles,4,2,2,1.0,1.0,0.0,M,major,M,minor
-Mr. Darcy,Sir William Lucas,auxiliary_verbs,4,2,2,1.0,1.0,0.0,M,major,M,minor
-Mr. Darcy,Sir William Lucas,conjunctions,4,2,2,1.0,0.75,0.25,M,major,M,minor
-Mr. Darcy,Sir William Lucas,impersonal_pronouns,4,2,2,1.0,0.75,0.25,M,major,M,minor
-Mr. Darcy,Sir William Lucas,negations,4,2,2,1.0,1.0,0.0,M,major,M,minor
-Mr. Darcy,Sir William Lucas,personal_pronouns,4,2,2,1.0,1.0,0.0,M,major,M,minor
 Mr. Darcy,Sir William Lucas,prepositions,4,3,3,1.0,1.0,0.0,M,major,M,minor
 Mr. Gardiner,Elizabeth,adverbs,4,4,4,1.0,1.0,0.0,M,minor,F,major
 Mr. Gardiner,Elizabeth,articles,4,3,2,0.6666666666666666,0.75,-0.08333333333333337,M,minor,F,major
@@ -439,24 +365,17 @@ Mr. Gardiner,Elizabeth,quantifiers,4,4,2,0.5,0.5,0.0,M,minor,F,major
 Mr. Gardiner,Mrs. Gardiner,adverbs,3,3,3,1.0,1.0,0.0,M,minor,F,intermediate
 Mr. Gardiner,Mrs. Gardiner,auxiliary_verbs,3,3,3,1.0,1.0,0.0,M,minor,F,intermediate
 Mr. Gardiner,Mrs. Gardiner,conjunctions,3,3,3,1.0,1.0,0.0,M,minor,F,intermediate
-Mr. Gardiner,Mrs. Gardiner,impersonal_pronouns,3,2,2,1.0,1.0,0.0,M,minor,F,intermediate
-Mr. Gardiner,Mrs. Gardiner,negations,3,2,2,1.0,1.0,0.0,M,minor,F,intermediate
 Mr. Gardiner,Mrs. Gardiner,personal_pronouns,3,3,3,1.0,1.0,0.0,M,minor,F,intermediate
-Mr. Gardiner,Mrs. Gardiner,prepositions,3,2,2,1.0,1.0,0.0,M,minor,F,intermediate
-Mr. Gardiner,Mrs. Gardiner,quantifiers,3,2,1,0.5,0.6666666666666666,-0.16666666666666663,M,minor,F,intermediate
-Mr. Gardiner,Mrs. Reynolds,articles,4,2,2,1.0,0.75,0.25,M,minor,F,minor
 Mr. Gardiner,Mrs. Reynolds,auxiliary_verbs,4,4,4,1.0,1.0,0.0,M,minor,F,minor
 Mr. Gardiner,Mrs. Reynolds,conjunctions,4,3,3,1.0,1.0,0.0,M,minor,F,minor
 Mr. Gardiner,Mrs. Reynolds,personal_pronouns,4,4,4,1.0,1.0,0.0,M,minor,F,minor
 Mr. Gardiner,Mrs. Reynolds,prepositions,4,4,4,1.0,1.0,0.0,M,minor,F,minor
 Mr. Gardiner,Mrs. Reynolds,quantifiers,4,3,3,1.0,1.0,0.0,M,minor,F,minor
-Mr. Hurst,Miss Bingley,adverbs,2,2,2,1.0,1.0,0.0,M,minor,F,intermediate
 Mrs. Bennet,Charlotte Lucas,adverbs,5,5,3,0.6,0.6,0.0,F,major,F,intermediate
 Mrs. Bennet,Charlotte Lucas,articles,5,3,1,0.3333333333333333,0.6,-0.26666666666666666,F,major,F,intermediate
 Mrs. Bennet,Charlotte Lucas,auxiliary_verbs,5,5,4,0.8,0.8,0.0,F,major,F,intermediate
 Mrs. Bennet,Charlotte Lucas,conjunctions,5,4,4,1.0,1.0,0.0,F,major,F,intermediate
 Mrs. Bennet,Charlotte Lucas,impersonal_pronouns,5,4,2,0.5,0.4,0.09999999999999998,F,major,F,intermediate
-Mrs. Bennet,Charlotte Lucas,negations,5,2,2,1.0,0.8,0.19999999999999996,F,major,F,intermediate
 Mrs. Bennet,Charlotte Lucas,personal_pronouns,5,5,5,1.0,1.0,0.0,F,major,F,intermediate
 Mrs. Bennet,Charlotte Lucas,prepositions,5,4,4,1.0,1.0,0.0,F,major,F,intermediate
 Mrs. Bennet,Charlotte Lucas,quantifiers,5,5,5,1.0,1.0,0.0,F,major,F,intermediate
@@ -478,31 +397,27 @@ Mrs. Bennet,Jane,negations,10,7,3,0.42857142857142855,0.3,0.12857142857142856,F,
 Mrs. Bennet,Jane,personal_pronouns,10,9,8,0.8888888888888888,0.9,-0.011111111111111183,F,major,F,intermediate
 Mrs. Bennet,Jane,prepositions,10,10,8,0.8,0.8,0.0,F,major,F,intermediate
 Mrs. Bennet,Jane,quantifiers,10,5,3,0.6,0.5,0.09999999999999998,F,major,F,intermediate
-Mrs. Bennet,Lady Catherine De Bourgh,adverbs,3,2,2,1.0,0.6666666666666666,0.33333333333333337,F,major,F,intermediate
-Mrs. Bennet,Lady Catherine De Bourgh,articles,3,2,2,1.0,1.0,0.0,F,major,F,intermediate
 Mrs. Bennet,Lady Catherine De Bourgh,auxiliary_verbs,3,3,3,1.0,1.0,0.0,F,major,F,intermediate
 Mrs. Bennet,Lady Catherine De Bourgh,conjunctions,3,3,1,0.3333333333333333,0.3333333333333333,0.0,F,major,F,intermediate
 Mrs. Bennet,Lady Catherine De Bourgh,personal_pronouns,3,3,2,0.6666666666666666,0.6666666666666666,0.0,F,major,F,intermediate
 Mrs. Bennet,Lady Catherine De Bourgh,prepositions,3,3,2,0.6666666666666666,0.6666666666666666,0.0,F,major,F,intermediate
-Mrs. Bennet,Lady Catherine De Bourgh,quantifiers,3,2,2,1.0,1.0,0.0,F,major,F,intermediate
 Mrs. Bennet,Lydia,adverbs,8,7,6,0.8571428571428571,0.875,-0.017857142857142905,F,major,F,intermediate
 Mrs. Bennet,Lydia,articles,8,3,2,0.6666666666666666,0.375,0.29166666666666663,F,major,F,intermediate
 Mrs. Bennet,Lydia,auxiliary_verbs,8,7,6,0.8571428571428571,0.875,-0.017857142857142905,F,major,F,intermediate
 Mrs. Bennet,Lydia,conjunctions,8,6,5,0.8333333333333334,0.875,-0.04166666666666663,F,major,F,intermediate
 Mrs. Bennet,Lydia,impersonal_pronouns,8,3,1,0.3333333333333333,0.375,-0.041666666666666685,F,major,F,intermediate
-Mrs. Bennet,Lydia,negations,8,2,2,1.0,0.625,0.375,F,major,F,intermediate
 Mrs. Bennet,Lydia,personal_pronouns,8,7,7,1.0,0.875,0.125,F,major,F,intermediate
 Mrs. Bennet,Lydia,prepositions,8,7,6,0.8571428571428571,0.75,0.1071428571428571,F,major,F,intermediate
 Mrs. Bennet,Lydia,quantifiers,8,5,4,0.8,0.875,-0.07499999999999996,F,major,F,intermediate
-Mrs. Bennet,Mr. Bennet,adverbs,39,27,15,0.5555555555555556,0.5128205128205128,0.042735042735042805,F,major,M,intermediate
-Mrs. Bennet,Mr. Bennet,articles,39,19,10,0.5263157894736842,0.6153846153846154,-0.08906882591093124,F,major,M,intermediate
-Mrs. Bennet,Mr. Bennet,auxiliary_verbs,39,36,35,0.9722222222222222,0.9743589743589743,-0.002136752136752129,F,major,M,intermediate
-Mrs. Bennet,Mr. Bennet,conjunctions,39,31,23,0.7419354838709677,0.717948717948718,0.023986765922249798,F,major,M,intermediate
-Mrs. Bennet,Mr. Bennet,impersonal_pronouns,39,28,23,0.8214285714285714,0.7948717948717948,0.026556776556776573,F,major,M,intermediate
-Mrs. Bennet,Mr. Bennet,negations,39,25,13,0.52,0.5128205128205128,0.007179487179487243,F,major,M,intermediate
-Mrs. Bennet,Mr. Bennet,personal_pronouns,39,37,36,0.972972972972973,0.9743589743589743,-0.001386001386001312,F,major,M,intermediate
-Mrs. Bennet,Mr. Bennet,prepositions,39,35,32,0.9142857142857143,0.8974358974358975,0.01684981684981679,F,major,M,intermediate
-Mrs. Bennet,Mr. Bennet,quantifiers,39,23,11,0.4782608695652174,0.5641025641025641,-0.08584169453734669,F,major,M,intermediate
+Mrs. Bennet,Mr. Bennet,adverbs,38,27,15,0.5555555555555556,0.5263157894736842,0.0292397660818714,F,major,M,intermediate
+Mrs. Bennet,Mr. Bennet,articles,38,19,10,0.5263157894736842,0.631578947368421,-0.10526315789473684,F,major,M,intermediate
+Mrs. Bennet,Mr. Bennet,auxiliary_verbs,38,36,35,0.9722222222222222,0.9736842105263158,-0.0014619883040936088,F,major,M,intermediate
+Mrs. Bennet,Mr. Bennet,conjunctions,38,31,23,0.7419354838709677,0.7105263157894737,0.03140916808149408,F,major,M,intermediate
+Mrs. Bennet,Mr. Bennet,impersonal_pronouns,38,28,23,0.8214285714285714,0.8157894736842105,0.005639097744360888,F,major,M,intermediate
+Mrs. Bennet,Mr. Bennet,negations,38,25,13,0.52,0.5263157894736842,-0.0063157894736841635,F,major,M,intermediate
+Mrs. Bennet,Mr. Bennet,personal_pronouns,38,37,36,0.972972972972973,0.9736842105263158,-0.0007112375533427917,F,major,M,intermediate
+Mrs. Bennet,Mr. Bennet,prepositions,38,35,32,0.9142857142857143,0.9210526315789473,-0.006766917293233088,F,major,M,intermediate
+Mrs. Bennet,Mr. Bennet,quantifiers,38,23,11,0.4782608695652174,0.5526315789473685,-0.07437070938215107,F,major,M,intermediate
 Mrs. Bennet,Mr. Bingley,adverbs,6,6,3,0.5,0.5,0.0,F,major,M,intermediate
 Mrs. Bennet,Mr. Bingley,articles,6,6,4,0.6666666666666666,0.6666666666666666,0.0,F,major,M,intermediate
 Mrs. Bennet,Mr. Bingley,auxiliary_verbs,6,6,5,0.8333333333333334,0.8333333333333334,0.0,F,major,M,intermediate
@@ -530,22 +445,10 @@ Mrs. Gardiner,Elizabeth,negations,24,16,11,0.6875,0.75,-0.0625,F,intermediate,F,
 Mrs. Gardiner,Elizabeth,personal_pronouns,24,24,24,1.0,1.0,0.0,F,intermediate,F,major
 Mrs. Gardiner,Elizabeth,prepositions,24,21,18,0.8571428571428571,0.8333333333333334,0.023809523809523725,F,intermediate,F,major
 Mrs. Gardiner,Elizabeth,quantifiers,24,13,10,0.7692307692307693,0.7083333333333334,0.0608974358974359,F,intermediate,F,major
-Mrs. Gardiner,Mr. Gardiner,adverbs,2,2,2,1.0,1.0,0.0,F,intermediate,M,minor
-Mrs. Gardiner,Mr. Gardiner,auxiliary_verbs,2,2,2,1.0,1.0,0.0,F,intermediate,M,minor
-Mrs. Gardiner,Mr. Gardiner,conjunctions,2,2,2,1.0,1.0,0.0,F,intermediate,M,minor
-Mrs. Gardiner,Mr. Gardiner,impersonal_pronouns,2,2,2,1.0,1.0,0.0,F,intermediate,M,minor
-Mrs. Gardiner,Mr. Gardiner,negations,2,2,2,1.0,1.0,0.0,F,intermediate,M,minor
-Mrs. Gardiner,Mr. Gardiner,personal_pronouns,2,2,2,1.0,1.0,0.0,F,intermediate,M,minor
-Mrs. Gardiner,Mr. Gardiner,prepositions,2,2,2,1.0,1.0,0.0,F,intermediate,M,minor
-Mrs. Gardiner,Mrs. Reynolds,articles,2,2,1,0.5,0.5,0.0,F,intermediate,F,minor
-Mrs. Gardiner,Mrs. Reynolds,auxiliary_verbs,2,2,2,1.0,1.0,0.0,F,intermediate,F,minor
-Mrs. Gardiner,Mrs. Reynolds,personal_pronouns,2,2,1,0.5,0.5,0.0,F,intermediate,F,minor
 Mrs. Hurst,Miss Bingley,adverbs,3,3,1,0.3333333333333333,0.3333333333333333,0.0,F,minor,F,intermediate
-Mrs. Hurst,Miss Bingley,articles,3,2,2,1.0,0.6666666666666666,0.33333333333333337,F,minor,F,intermediate
 Mrs. Hurst,Miss Bingley,auxiliary_verbs,3,3,3,1.0,1.0,0.0,F,minor,F,intermediate
 Mrs. Hurst,Miss Bingley,conjunctions,3,3,1,0.3333333333333333,0.3333333333333333,0.0,F,minor,F,intermediate
 Mrs. Hurst,Miss Bingley,impersonal_pronouns,3,3,2,0.6666666666666666,0.6666666666666666,0.0,F,minor,F,intermediate
-Mrs. Hurst,Miss Bingley,negations,3,2,0,0.0,0.0,0.0,F,minor,F,intermediate
 Mrs. Hurst,Miss Bingley,personal_pronouns,3,3,2,0.6666666666666666,0.6666666666666666,0.0,F,minor,F,intermediate
 Mrs. Hurst,Miss Bingley,prepositions,3,3,2,0.6666666666666666,0.6666666666666666,0.0,F,minor,F,intermediate
 Mrs. Hurst,Miss Bingley,quantifiers,3,3,1,0.3333333333333333,0.3333333333333333,0.0,F,minor,F,intermediate
@@ -563,19 +466,9 @@ Mrs. Reynolds,Mr. Gardiner,articles,3,3,2,0.6666666666666666,0.6666666666666666,
 Mrs. Reynolds,Mr. Gardiner,auxiliary_verbs,3,3,3,1.0,1.0,0.0,F,minor,M,minor
 Mrs. Reynolds,Mr. Gardiner,conjunctions,3,3,2,0.6666666666666666,0.6666666666666666,0.0,F,minor,M,minor
 Mrs. Reynolds,Mr. Gardiner,impersonal_pronouns,3,3,0,0.0,0.0,0.0,F,minor,M,minor
-Mrs. Reynolds,Mr. Gardiner,negations,3,2,0,0.0,0.0,0.0,F,minor,M,minor
 Mrs. Reynolds,Mr. Gardiner,personal_pronouns,3,3,3,1.0,1.0,0.0,F,minor,M,minor
 Mrs. Reynolds,Mr. Gardiner,prepositions,3,3,3,1.0,1.0,0.0,F,minor,M,minor
 Mrs. Reynolds,Mr. Gardiner,quantifiers,3,3,2,0.6666666666666666,0.6666666666666666,0.0,F,minor,M,minor
-Sir William Lucas,Elizabeth,adverbs,2,2,1,0.5,0.5,0.0,M,minor,F,major
-Sir William Lucas,Elizabeth,articles,2,2,1,0.5,0.5,0.0,M,minor,F,major
-Sir William Lucas,Elizabeth,auxiliary_verbs,2,2,2,1.0,1.0,0.0,M,minor,F,major
-Sir William Lucas,Elizabeth,conjunctions,2,2,0,0.0,0.0,0.0,M,minor,F,major
-Sir William Lucas,Elizabeth,impersonal_pronouns,2,2,1,0.5,0.5,0.0,M,minor,F,major
-Sir William Lucas,Elizabeth,negations,2,2,1,0.5,0.5,0.0,M,minor,F,major
-Sir William Lucas,Elizabeth,personal_pronouns,2,2,1,0.5,0.5,0.0,M,minor,F,major
-Sir William Lucas,Elizabeth,prepositions,2,2,1,0.5,0.5,0.0,M,minor,F,major
-Sir William Lucas,Elizabeth,quantifiers,2,2,2,1.0,1.0,0.0,M,minor,F,major
 Sir William Lucas,Mr. Darcy,adverbs,5,3,2,0.6666666666666666,0.6,0.06666666666666665,M,minor,M,major
 Sir William Lucas,Mr. Darcy,articles,5,5,2,0.4,0.4,0.0,M,minor,M,major
 Sir William Lucas,Mr. Darcy,auxiliary_verbs,5,5,3,0.6,0.6,0.0,M,minor,M,major
@@ -584,4 +477,3 @@ Sir William Lucas,Mr. Darcy,impersonal_pronouns,5,4,3,0.75,0.6,0.150000000000000
 Sir William Lucas,Mr. Darcy,negations,5,5,2,0.4,0.4,0.0,M,minor,M,major
 Sir William Lucas,Mr. Darcy,personal_pronouns,5,5,3,0.6,0.6,0.0,M,minor,M,major
 Sir William Lucas,Mr. Darcy,prepositions,5,5,4,0.8,0.8,0.0,M,minor,M,major
-Sir William Lucas,Mr. Darcy,quantifiers,5,2,1,0.5,0.2,0.3,M,minor,M,major

@@ -1,17 +1,21 @@
 ﻿a_speaker,b_speaker,w_ab,w_ba
-Alexis Ivanovitch,Antonida Vassilievna Tarassevitcha,-0.0324654451944712,0.0160880993383486
-Alexis Ivanovitch,Marqis De Griers,0.0106907894736842,-0.0243719535058117
-Alexis Ivanovitch,Mlle. Blanche,0.0370065789473684,0.012079831932773
-Alexis Ivanovitch,Mr. Astley,0.0547016274864376,0.0279991195245432
-Alexis Ivanovitch,Polina Alexandrovna,0.0102439932948407,-0.0067896547103229
-Alexis Ivanovitch,The General,-0.0036119711042311,-0.0241176470588235
-Antonida Vassilievna Tarassevitcha,Alexis Ivanovitch,0.0160880993383486,-0.0324654451944712
+Alexis Ivanovitch,Antonida Vassilievna Tarassevitcha,-0.0244029526704298,0.0153213221733579
+Alexis Ivanovitch,Marqis De Griers,0.0166666666666666,-0.0261904761904761
+Alexis Ivanovitch,Mlle. Blanche,0.0052631578947368,0.0117924528301886
+Alexis Ivanovitch,Mr. Astley,0.0544300144300144,0.0259464450600184
+Alexis Ivanovitch,Polina Alexandrovna,0.0029562857419792,-0.0041772698900465
+Alexis Ivanovitch,The General,0.004127358490566,-0.0241176470588235
+Antonida Vassilievna Tarassevitcha,Alexis Ivanovitch,0.0153213221733579,-0.0244029526704298
+Antonida Vassilievna Tarassevitcha,Martha,0.0,0.0
 Antonida Vassilievna Tarassevitcha,Polina Alexandrovna,-0.0152155536770921,0.0326659641728134
 Antonida Vassilievna Tarassevitcha,The General,0.0023041474654378,-0.0122630992196209
-Marqis De Griers,Alexis Ivanovitch,-0.0243719535058117,0.0106907894736842
-Mlle. Blanche,Alexis Ivanovitch,0.012079831932773,0.0370065789473684
-Mr. Astley,Alexis Ivanovitch,0.0279991195245432,0.0547016274864376
-Polina Alexandrovna,Alexis Ivanovitch,-0.0067896547103229,0.0102439932948407
+Marqis De Griers,Alexis Ivanovitch,-0.0261904761904761,0.0166666666666666
+Marqis De Griers,The General,0.0,0.1199999999999999
+Martha,Antonida Vassilievna Tarassevitcha,0.0,0.0
+Mlle. Blanche,Alexis Ivanovitch,0.0117924528301886,0.0052631578947368
+Mr. Astley,Alexis Ivanovitch,0.0259464450600184,0.0544300144300144
+Polina Alexandrovna,Alexis Ivanovitch,-0.0041772698900465,0.0029562857419792
 Polina Alexandrovna,Antonida Vassilievna Tarassevitcha,0.0326659641728134,-0.0152155536770921
-The General,Alexis Ivanovitch,-0.0241176470588235,-0.0036119711042311
+The General,Alexis Ivanovitch,-0.0241176470588235,0.004127358490566
 The General,Antonida Vassilievna Tarassevitcha,-0.0122630992196209,0.0023041474654378
+The General,Marqis De Griers,0.1199999999999999,0.0

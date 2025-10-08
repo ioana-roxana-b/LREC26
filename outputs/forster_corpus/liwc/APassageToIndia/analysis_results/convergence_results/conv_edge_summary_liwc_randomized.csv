@@ -1,133 +1,83 @@
 ﻿a_speaker,b_speaker,n_features,n_pairs,n_triggers_total,mean_conv,mean_conv_w,a_gender,a_category,b_gender,b_category
-A Stray Subaltern,Dr. Aziz,3,4,6,-0.25,-0.25,M,minor,M,major
-A Stray Subaltern,Mr. Turton,4,3,9,0.08333333333333334,0.07407407407407408,M,minor,M,intermediate
-Adela Quested,Antony,1,2,2,0.0,0.0,F,major,M,minor
+A Stray Subaltern,Mr. Turton,1,3,3,0.0,0.0,M,minor,M,intermediate
 Adela Quested,Cyril Fielding,9,52,268,-0.033722802160970775,-0.03573478760045927,F,major,M,major
 Adela Quested,Dr. Aziz,9,33,156,-0.013641202428387782,-0.0015540015540015555,F,major,M,major
-Adela Quested,Hamidullah,8,8,35,0.23199404761904763,0.13214285714285715,F,major,M,intermediate
-Adela Quested,Miss Derek,3,2,6,0.0,0.0,F,major,F,intermediate
-Adela Quested,Mr. Mcbryde,9,13,53,-0.03414733414733419,-0.011611030478955054,F,major,M,intermediate
-Adela Quested,Mr. Turton,9,5,29,-0.038888888888888896,-0.006896551724137941,F,major,M,intermediate
+Adela Quested,Hamidullah,6,8,31,0.12182539682539682,0.07661290322580645,F,major,M,intermediate
+Adela Quested,Mr. Mcbryde,7,11,42,0.056163677592249,0.03679653679653677,F,major,M,intermediate
+Adela Quested,Mr. Turton,6,5,23,0.04166666666666666,0.04347826086956521,F,major,M,intermediate
 Adela Quested,Mrs. Moore,9,36,185,0.05684379981113194,0.04144144144144147,F,major,F,major
-Adela Quested,Mrs. Turton,1,3,2,0.0,0.0,F,major,F,intermediate
-Adela Quested,Professor Godbole,7,6,21,-0.07619047619047618,-0.03174603174603173,F,major,M,intermediate
-Adela Quested,Ronny Heaslop,9,55,225,-0.007230165769523542,0.0021010101010100974,F,major,M,major
-Adela Quested,The Nawab Badahur,7,5,18,-0.052380952380952396,-0.03333333333333335,F,major,M,intermediate
-Antony,Adela Quested,1,2,2,0.0,0.0,M,minor,F,major
+Adela Quested,Professor Godbole,4,6,15,-0.008333333333333331,0.02222222222222224,F,major,M,intermediate
+Adela Quested,Ronny Heaslop,9,53,218,0.031044678967499288,0.031850441405573846,F,major,M,major
+Adela Quested,The Nawab Badahur,1,4,4,0.0,0.0,F,major,M,intermediate
 Cyril Fielding,Adela Quested,9,56,281,-0.04001986883760284,-0.03717590238942553,M,major,F,major
-Cyril Fielding,Dr. Aziz,9,164,711,0.013946430575446497,0.014905149051490483,M,major,M,major
-Cyril Fielding,Hamidullah,9,29,151,0.028919342433541235,0.022151176067595358,M,major,M,intermediate
-Cyril Fielding,Major Callendar,1,2,2,0.0,0.0,M,major,M,intermediate
-Cyril Fielding,Mr. Haq,7,5,18,0.07857142857142856,0.04444444444444443,M,major,M,minor
+Cyril Fielding,Dr. Aziz,9,159,701,-0.008695124113608775,-0.008684807866569746,M,major,M,major
+Cyril Fielding,Hamidullah,9,28,150,0.008832670597376493,-0.002857142857142844,M,major,M,intermediate
+Cyril Fielding,Mr. Haq,2,5,8,-0.07500000000000001,-0.07500000000000001,M,major,M,minor
 Cyril Fielding,Mr. Mcbryde,9,29,124,0.010909120679235626,0.014460511679644046,M,major,M,intermediate
-Cyril Fielding,Mr. Turton,9,14,64,0.08774250440917106,0.09263392857142855,M,major,M,intermediate
-Cyril Fielding,Mrs. Moore,8,9,30,-0.1284722222222222,-0.10370370370370369,M,major,F,major
+Cyril Fielding,Mr. Turton,9,12,59,0.01031746031746032,0.007062146892655376,M,major,M,intermediate
+Cyril Fielding,Mrs. Moore,7,9,28,-0.0992063492063492,-0.08730158730158731,M,major,F,major
 Cyril Fielding,Professor Godbole,9,14,65,-0.022138047138047155,-0.016483516483516498,M,major,M,intermediate
-Cyril Fielding,Rafi,2,2,4,0.0,0.0,M,major,M,minor
-Cyril Fielding,Ronny Heaslop,5,3,13,-0.033333333333333326,-0.025641025641025637,M,major,M,major
-Dr. Aziz,A Stray Subaltern,1,3,2,-0.3333333333333333,-0.3333333333333333,M,major,M,minor
+Cyril Fielding,Ronny Heaslop,3,3,9,0.0,0.0,M,major,M,major
 Dr. Aziz,Adela Quested,9,34,186,0.009939237788866592,0.010278304870335214,M,major,F,major
-Dr. Aziz,Cyril Fielding,9,167,866,0.028610925784306254,0.025030769869037923,M,major,M,major
-Dr. Aziz,Dr. Panna Lal,8,8,33,-0.0980654761904762,-0.0643939393939394,M,major,M,intermediate
-Dr. Aziz,Hamidullah,9,26,139,0.03198927835150747,0.023242944106253483,M,major,M,intermediate
-Dr. Aziz,Hassan,8,6,28,0.10625000000000002,0.0654761904761905,M,major,M,minor
-Dr. Aziz,Mahmoud Ali,5,5,12,0.16999999999999998,0.1333333333333333,M,major,M,intermediate
-Dr. Aziz,Major Callendar,1,2,2,0.0,0.0,M,major,M,intermediate
-Dr. Aziz,Mohammed Latif,9,3,25,0.0,0.0,M,major,M,minor
-Dr. Aziz,Mr. Das,9,7,39,0.03756613756613759,0.032967032967032996,M,major,M,intermediate
-Dr. Aziz,Mr. Haq,1,2,2,0.0,0.0,M,major,M,minor
-Dr. Aziz,Mrs. Moore,9,37,203,0.00866957832354205,0.0019970709625881967,M,major,F,major
-Dr. Aziz,Professor Godbole,9,10,41,-0.046825396825396826,-0.058536585365853655,M,major,M,intermediate
-Dr. Aziz,Rafi,9,3,24,0.01851851851851852,0.01388888888888889,M,major,M,minor
-Dr. Aziz,Ralph,9,23,116,-0.019714470982586923,-0.01461769115442278,M,major,M,intermediate
-Dr. Aziz,Syed Mohammed,3,2,6,0.0,0.0,M,major,M,minor
-Dr. Aziz,The Servant,4,2,8,0.0,0.0,M,major,M,minor
+Dr. Aziz,Cyril Fielding,9,162,842,-0.013533664880111639,-0.010182985836192487,M,major,M,major
+Dr. Aziz,Dr. Panna Lal,6,8,29,-0.026587301587301593,-0.030172413793103457,M,major,M,intermediate
+Dr. Aziz,Hamidullah,9,25,138,-0.03688268130218597,-0.033043478260869584,M,major,M,intermediate
+Dr. Aziz,Hassan,5,5,20,-1.1102230246251566e-17,-1.1102230246251566e-17,M,major,M,minor
+Dr. Aziz,Mahmoud Ali,1,4,4,0.0,0.0,M,major,M,intermediate
+Dr. Aziz,Mohammed Latif,7,3,21,0.0,0.0,M,major,M,minor
+Dr. Aziz,Mr. Das,8,7,37,0.05119047619047621,0.03861003861003863,M,major,M,intermediate
+Dr. Aziz,Mrs. Moore,9,35,194,-0.0033225813361636653,-0.0016200294550809894,M,major,F,major
+Dr. Aziz,Professor Godbole,7,9,37,-0.08163265306122448,-0.06906906906906908,M,major,M,intermediate
+Dr. Aziz,Rafi,6,3,18,0.0,0.0,M,major,M,minor
+Dr. Aziz,Ralph,9,19,94,0.0016029130064217757,0.009518477043673007,M,major,M,intermediate
 Dr. Panna Lal,Dr. Aziz,9,9,43,0.03289241622574956,0.028423772609819122,M,intermediate,M,major
-Dr. Panna Lal,Hamidullah,8,6,26,-0.060416666666666674,-0.044871794871794865,M,intermediate,M,intermediate
-Dr. Panna Lal,Ram Chand,6,3,13,0.13888888888888892,0.12820512820512822,M,intermediate,M,minor
-Hamidullah,Adela Quested,7,6,25,-0.09523809523809522,-0.09333333333333332,M,intermediate,F,major
-Hamidullah,Cyril Fielding,9,29,165,0.01748000772501677,0.014211076280041764,M,intermediate,M,major
-Hamidullah,Dr. Aziz,9,24,136,-0.056026535193201873,-0.0465686274509804,M,intermediate,M,major
-Hamidullah,Dr. Panna Lal,8,7,33,0.09315476190476193,0.03463203463203466,M,intermediate,M,intermediate
-Hamidullah,Mahmoud Ali,9,9,47,-0.042857142857142844,-0.04018912529550827,M,intermediate,M,intermediate
-Hamidullah,Ram Chand,4,2,8,0.0,0.0,M,intermediate,M,minor
-Hassan,Dr. Aziz,1,6,2,-0.33333333333333337,-0.33333333333333337,M,minor,M,major
-Mahmoud Ali,Dr. Aziz,4,4,10,-1.3877787807814457e-17,-2.2204460492503132e-17,M,intermediate,M,major
-Mahmoud Ali,Hamidullah,9,9,56,0.009832451499118175,0.019841269841269847,M,intermediate,M,intermediate
-Mahmoud Ali,Mr. Das,7,3,19,-0.023809523809523805,-0.017543859649122803,M,intermediate,M,intermediate
-Mahmoud Ali,Mr. Mcbryde,3,2,6,0.0,0.0,M,intermediate,M,intermediate
-Mahmoud Ali,The Nawab Badahur,8,5,24,0.008333333333333318,0.03333333333333332,M,intermediate,M,intermediate
-Major Callendar,Cyril Fielding,5,2,10,0.0,0.0,M,intermediate,M,major
-Major Callendar,Dr. Aziz,8,3,20,-0.10416666666666666,-0.08333333333333333,M,intermediate,M,major
-Major Callendar,Mr. Das,4,3,9,0.041666666666666685,0.037037037037037056,M,intermediate,M,intermediate
-Major Callendar,Mr. Turton,7,3,16,0.09523809523809525,0.08333333333333334,M,intermediate,M,intermediate
-Major Callendar,Mrs. Lesley,9,6,36,-0.024074074074074064,-0.023148148148148133,M,intermediate,F,minor
-Major Callendar,Mrs. Turton,7,2,14,0.0,0.0,M,intermediate,F,intermediate
-Major Callendar,Ronny Heaslop,1,2,2,0.0,0.0,M,intermediate,M,major
-Miss Derek,Adela Quested,4,4,10,0.0,0.0,F,intermediate,F,major
-Miss Derek,Ronny Heaslop,9,8,27,-0.023148148148148154,-2.05596856412066e-18,F,intermediate,M,major
-Miss Derek,The Nawab Badahur,2,3,5,0.0,0.0,F,intermediate,M,intermediate
-Mohammed Latif,Dr. Aziz,1,3,2,0.0,0.0,M,minor,M,major
-Mr. Amritrao,Mr. Das,7,3,18,0.04761904761904763,0.03703703703703705,M,minor,M,intermediate
-Mr. Bhattacharya,Mrs. Moore,2,2,4,0.0,0.0,M,minor,F,major
-Mr. Das,Adela Quested,2,2,4,0.0,0.0,M,intermediate,F,major
+Dr. Panna Lal,Hamidullah,5,6,20,-0.030000000000000006,-0.025,M,intermediate,M,intermediate
+Dr. Panna Lal,Ram Chand,1,3,3,0.0,0.0,M,intermediate,M,minor
+Hamidullah,Adela Quested,6,6,23,-0.13888888888888887,-0.11594202898550723,M,intermediate,F,major
+Hamidullah,Cyril Fielding,9,28,163,-0.012309035993246509,-0.006134969325153361,M,intermediate,M,major
+Hamidullah,Dr. Aziz,9,23,129,-0.05400812127154839,-0.04583754634310753,M,intermediate,M,major
+Hamidullah,Dr. Panna Lal,5,7,27,-0.022380952380952356,-0.02116402116402114,M,intermediate,M,intermediate
+Hamidullah,Mahmoud Ali,9,8,47,0.027513227513227528,0.02393617021276597,M,intermediate,M,intermediate
+Mahmoud Ali,Dr. Aziz,2,3,6,0.0,0.0,M,intermediate,M,major
+Mahmoud Ali,Hamidullah,8,8,47,0.09821428571428571,0.0851063829787234,M,intermediate,M,intermediate
+Mahmoud Ali,Mr. Das,5,3,15,0.0,0.0,M,intermediate,M,intermediate
+Mahmoud Ali,The Nawab Badahur,5,5,18,0.07333333333333332,0.07777777777777777,M,intermediate,M,intermediate
+Major Callendar,Dr. Aziz,4,3,12,0.0,0.0,M,intermediate,M,major
+Major Callendar,Mr. Das,1,3,3,0.0,0.0,M,intermediate,M,intermediate
+Major Callendar,Mr. Turton,2,3,6,0.0,0.0,M,intermediate,M,intermediate
+Major Callendar,Mrs. Lesley,9,5,36,-0.03333333333333335,-0.02777777777777779,M,intermediate,F,minor
+Miss Derek,Adela Quested,2,3,6,0.0,0.0,F,intermediate,F,major
+Miss Derek,Ronny Heaslop,6,7,21,-0.04166666666666665,-0.04081632653061223,F,intermediate,M,major
+Miss Derek,The Nawab Badahur,1,3,3,0.0,0.0,F,intermediate,M,intermediate
+Mr. Amritrao,Mr. Das,4,3,12,0.0,0.0,M,minor,M,intermediate
 Mr. Das,Dr. Aziz,9,8,51,0.03306878306878305,0.029411764705882335,M,intermediate,M,major
-Mr. Das,Mahmoud Ali,5,3,13,0.03333333333333334,0.025641025641025644,M,intermediate,M,intermediate
-Mr. Das,Mr. Amritrao,2,2,4,0.0,0.0,M,intermediate,M,minor
-Mr. Das,Mr. Mcbryde,9,5,27,-0.15185185185185185,-0.11111111111111113,M,intermediate,M,intermediate
+Mr. Das,Mahmoud Ali,3,3,9,0.0,0.0,M,intermediate,M,intermediate
+Mr. Das,Mr. Mcbryde,6,5,21,-0.0277777777777778,-0.028571428571428588,M,intermediate,M,intermediate
 Mr. Haq,Cyril Fielding,5,5,19,0.09666666666666664,0.08421052631578944,M,minor,M,major
-Mr. Haq,Dr. Aziz,4,2,8,0.0,0.0,M,minor,M,major
-Mr. Haq,Syed Mohammed,1,2,2,0.0,0.0,M,minor,M,minor
-Mr. Harris,The Nawab Badahur,3,2,6,0.0,0.0,M,minor,M,intermediate
-Mr. Mcbryde,Adela Quested,9,14,72,0.1188512105178772,0.09126984126984128,M,intermediate,F,major
+Mr. Mcbryde,Adela Quested,9,12,65,0.028483245149911796,0.020512820512820485,M,intermediate,F,major
 Mr. Mcbryde,Cyril Fielding,9,29,164,0.013550636020651005,0.0012615643397813178,M,intermediate,M,major
-Mr. Mcbryde,Mahmoud Ali,5,3,10,-0.03333333333333331,-0.03333333333333331,M,intermediate,M,intermediate
-Mr. Mcbryde,Major Callendar,1,2,2,0.0,0.0,M,intermediate,M,intermediate
-Mr. Mcbryde,Mr. Das,2,3,5,0.0,0.0,M,intermediate,M,intermediate
-Mr. Turton,Adela Quested,7,3,15,0.07142857142857144,0.06666666666666668,M,intermediate,F,major
-Mr. Turton,Cyril Fielding,9,16,89,0.045817916651249985,0.038623595505617975,M,intermediate,M,major
-Mr. Turton,Major Callendar,8,4,19,-6.938893903907228e-18,-5.843279076974508e-18,M,intermediate,M,intermediate
-Mr. Turton,Mrs. Turton,9,12,49,-0.022883597883597888,-0.013605442176870755,M,intermediate,F,intermediate
-Mr. Turton,Ronny Heaslop,3,3,6,-0.1111111111111111,-0.1111111111111111,M,intermediate,M,major
-Mrs. Bhattacharya,Adela Quested,1,2,2,0.0,0.0,F,minor,F,major
-Mrs. Bhattacharya,Mrs. Moore,2,4,4,-0.25,-0.25,F,minor,F,major
-Mrs. Callendar,Mr. Turton,1,2,2,0.0,0.0,F,minor,M,intermediate
-Mrs. Lesley,Adela Quested,1,2,2,0.0,0.0,F,minor,F,major
-Mrs. Lesley,Major Callendar,6,6,16,-0.041666666666666664,-0.010416666666666657,F,minor,M,intermediate
-Mrs. Mcbryde,Ronny Heaslop,4,2,8,0.0,0.0,F,minor,M,major
+Mr. Mcbryde,Mr. Das,1,3,3,0.0,0.0,M,intermediate,M,intermediate
+Mr. Turton,Adela Quested,1,3,3,0.0,0.0,M,intermediate,F,major
+Mr. Turton,Cyril Fielding,9,14,87,0.013299046632379975,-0.004105090311986861,M,intermediate,M,major
+Mr. Turton,Major Callendar,3,4,9,-1.850371707708594e-17,-1.2335811384723961e-17,M,intermediate,M,intermediate
+Mr. Turton,Mrs. Turton,8,12,47,0.01592261904761904,-5.9054416203465774e-18,M,intermediate,F,intermediate
+Mrs. Lesley,Major Callendar,3,5,9,-0.1777777777777778,-0.17777777777777784,F,minor,M,intermediate
 Mrs. Moore,Adela Quested,9,36,172,-0.02158800074132269,-0.020187338501292,F,major,F,major
 Mrs. Moore,Cyril Fielding,9,10,42,-0.007407407407407406,0.026190476190476198,F,major,M,major
-Mrs. Moore,Dr. Aziz,9,37,127,0.04349072265738929,0.07086614173228344,F,major,M,major
-Mrs. Moore,Mrs. Bhattacharya,5,4,11,0.1,0.06818181818181818,F,major,F,minor
+Mrs. Moore,Dr. Aziz,9,35,122,0.05297259929612872,0.05316159250585482,F,major,M,major
 Mrs. Moore,Ronny Heaslop,9,50,222,0.01479886133575418,0.0038738738738738764,F,major,M,major
-Mrs. Turton,Adela Quested,8,8,28,0.06845238095238096,0.049107142857142856,F,intermediate,F,major
-Mrs. Turton,Mr. Turton,9,10,56,0.07716049382716049,0.028571428571428574,F,intermediate,M,intermediate
-Mrs. Turton,Ronny Heaslop,5,3,10,-0.033333333333333305,-0.033333333333333305,F,intermediate,M,major
-Professor Godbole,Adela Quested,9,4,25,0.018518518518518504,0.019999999999999983,M,intermediate,F,major
+Mrs. Turton,Adela Quested,5,8,22,0.034523809523809526,0.028409090909090908,F,intermediate,F,major
+Mrs. Turton,Mr. Turton,8,10,54,0.011805555555555548,0.007407407407407412,F,intermediate,M,intermediate
+Professor Godbole,Adela Quested,7,4,21,0.023809523809523787,0.02380952380952379,M,intermediate,F,major
 Professor Godbole,Cyril Fielding,9,14,89,0.032255398922065595,0.03210272873194222,M,intermediate,M,major
-Professor Godbole,Dr. Aziz,9,10,45,-0.04100529100529102,-0.022222222222222233,M,intermediate,M,major
-Rafi,Cyril Fielding,1,2,2,0.0,0.0,M,minor,M,major
-Rafi,Dr. Aziz,1,3,2,-0.16666666666666663,-0.16666666666666663,M,minor,M,major
-Ralph,Dr. Aziz,7,21,53,0.02020598449169878,0.015274034141958668,M,intermediate,M,major
-Ram Chand,Dr. Panna Lal,3,2,6,0.0,0.0,M,minor,M,intermediate
-Ram Chand,Hamidullah,5,2,10,0.0,0.0,M,minor,M,intermediate
-Ram Chand,Syed Mohammed,2,2,4,0.0,0.0,M,minor,M,minor
-Ronny Heaslop,Adela Quested,9,52,256,0.0018128168534672579,-0.007812500000000003,M,major,F,major
+Professor Godbole,Dr. Aziz,9,9,43,-0.012962962962962954,-0.02067183462532299,M,intermediate,M,major
+Ralph,Dr. Aziz,7,18,52,0.01634080205508778,0.014957264957264963,M,intermediate,M,major
+Ronny Heaslop,Adela Quested,9,50,255,-0.059833566012427813,-0.050901960784313735,M,major,F,major
 Ronny Heaslop,Cyril Fielding,9,11,55,-0.04556277056277055,-0.04297520661157023,M,major,M,major
-Ronny Heaslop,Major Callendar,2,2,4,0.0,0.0,M,major,M,intermediate
 Ronny Heaslop,Miss Derek,6,7,21,-0.06825396825396825,-0.07482993197278912,M,major,F,intermediate
-Ronny Heaslop,Mr. Harris,1,2,2,0.0,0.0,M,major,M,minor
-Ronny Heaslop,Mr. Mcbryde,2,2,4,0.0,0.0,M,major,M,intermediate
-Ronny Heaslop,Mr. Turton,3,2,6,0.0,0.0,M,major,M,intermediate
 Ronny Heaslop,Mrs. Moore,9,53,290,0.005898646454899971,0.014313597918022152,M,major,F,major
-Ronny Heaslop,Mrs. Turton,4,3,8,0.041666666666666685,0.041666666666666685,M,major,F,intermediate
-Ronny Heaslop,The Nawab Badahur,8,7,34,-0.15922619047619044,-0.11764705882352937,M,major,M,intermediate
-Syed Mohammed,Mr. Haq,3,2,6,0.0,0.0,M,minor,M,minor
-The Lady Who Had Been A Nurse,Adela Quested,5,2,10,0.0,0.0,F,minor,F,major
-The Nawab Badahur,Adela Quested,1,4,2,-0.25,-0.25,M,intermediate,F,major
-The Nawab Badahur,Mahmoud Ali,6,3,16,9.25185853854297e-18,6.938893903907228e-18,M,intermediate,M,intermediate
-The Nawab Badahur,Miss Derek,3,2,6,0.0,0.0,M,intermediate,F,intermediate
+Ronny Heaslop,The Nawab Badahur,7,7,32,-0.12074829931972786,-0.09821428571428567,M,major,M,intermediate
+The Nawab Badahur,Mahmoud Ali,4,3,12,0.0,0.0,M,intermediate,M,intermediate
 The Nawab Badahur,Ronny Heaslop,9,9,47,-0.038712522045855374,-0.02600472813238771,M,intermediate,M,major
-_unknowable,A Stray Subaltern,4,3,9,0.0,0.0,F,intermediate,M,minor
-_unknowable,Cyril Fielding,4,3,9,0.04166666666666667,0.03703703703703704,F,intermediate,M,major
-_unknowable,Mrs. Turton,3,3,6,0.16666666666666666,0.16666666666666666,F,intermediate,F,intermediate
+_unknowable,A Stray Subaltern,1,3,3,0.0,0.0,F,intermediate,M,minor
+_unknowable,Cyril Fielding,1,3,3,0.0,0.0,F,intermediate,M,major

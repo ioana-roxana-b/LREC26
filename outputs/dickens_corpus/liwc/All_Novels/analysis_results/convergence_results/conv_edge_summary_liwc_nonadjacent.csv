@@ -1,136 +1,62 @@
 ﻿a_speaker,b_speaker,n_features,n_pairs,n_triggers_total,mean_conv,mean_conv_w,a_gender,a_category,b_gender,b_category
-Barney,Bill Sikes,3,3,6,0.05555555555555558,0.05555555555555558,M,minor,M,major
-Bill Sikes,Charley Bates,3,2,6,0.0,0.0,M,major,M,intermediate
-Bill Sikes,Fagin,7,6,25,-0.2261904761904762,-0.16666666666666669,M,major,M,major
-Bill Sikes,Nance,9,8,52,-0.0039682539682539784,-0.0072115384615384715,M,major,F,major
-Bill Sikes,Oliver Twist,9,2,18,0.0,0.0,M,major,M,major
-Bill Sikes,Toby Crackit,5,4,12,-0.1,-0.08333333333333333,M,major,M,intermediate
-Bitzer,Thomas Gradgrind,9,2,18,0.0,0.0,M,intermediate,M,major
-Cecilia Jupe,Josiah Bounderby,3,2,6,0.0,0.0,F,major,M,major
-Cecilia Jupe,Louisa Bounderby,2,2,4,0.0,0.0,F,major,F,major
-Cecilia Jupe,Mr. James Harthouse,8,3,22,0.0625,0.045454545454545456,F,major,M,major
-Cecilia Jupe,Mr. Sleary,5,3,13,-0.06666666666666665,-0.05128205128205127,F,major,M,intermediate
-Cecilia Jupe,Thomas Gradgrind,7,4,21,-0.08333333333333334,-0.05952380952380952,F,major,M,major
-Charley Bates,Bill Sikes,8,2,16,0.0,0.0,M,intermediate,M,major
-Charley Bates,Fagin,6,4,17,0.041666666666666664,0.029411764705882353,M,intermediate,M,major
-Charley Bates,Mr. Chitling,4,2,8,0.0,0.0,M,intermediate,M,intermediate
-Charley Bates,Oliver Twist,4,4,8,0.25,0.25,M,intermediate,M,major
-Fagin,Bill Sikes,8,6,29,-0.07291666666666667,-0.05172413793103448,M,major,M,major
-Fagin,Charley Bates,8,7,31,-0.008630952380952343,0.004608294930875622,M,major,M,intermediate
-Fagin,Mr. Brownlow,4,2,8,0.0,0.0,M,major,M,major
-Fagin,Mr. Chitling,3,2,6,0.0,0.0,M,major,M,intermediate
-Fagin,Nance,5,5,15,0.009999999999999964,-4.070817756958907e-17,M,major,F,major
-Fagin,The Artful Dodger,7,4,23,-0.04761904761904762,-0.043478260869565216,M,major,M,intermediate
-Harry Maylie,Oliver Twist,4,3,10,0.08333333333333334,0.06666666666666668,M,intermediate,M,major
-Josiah Bounderby,Cecilia Jupe,8,2,16,0.0,0.0,M,major,F,major
+Bill Sikes,Fagin,5,5,20,-0.0033333333333333435,-8.326672684688674e-18,M,major,M,major
+Bill Sikes,Nance,8,8,50,-0.004464285714285726,-0.00750000000000001,M,major,F,major
+Bill Sikes,Toby Crackit,1,4,4,0.0,0.0,M,major,M,intermediate
+Cecilia Jupe,Mr. James Harthouse,6,3,18,0.0,0.0,F,major,M,major
+Cecilia Jupe,Mr. Sleary,3,3,9,0.0,0.0,F,major,M,intermediate
+Cecilia Jupe,Thomas Gradgrind,4,4,15,-0.020833333333333343,-0.016666666666666673,F,major,M,major
+Charley Bates,Fagin,3,4,11,0.0,0.0,M,intermediate,M,major
+Fagin,Bill Sikes,7,5,26,-0.038095238095238126,-0.030769230769230802,M,major,M,major
+Fagin,Charley Bates,6,7,27,0.036111111111111156,0.02645502645502651,M,major,M,intermediate
+Fagin,Nance,4,5,13,-0.012500000000000039,-0.015384615384615429,M,major,F,major
+Fagin,The Artful Dodger,3,3,9,0.0,0.0,M,major,M,intermediate
+Harry Maylie,Oliver Twist,2,3,6,0.0,0.0,M,intermediate,M,major
 Josiah Bounderby,Louisa Bounderby,9,9,58,-0.07275132275132275,-0.07471264367816093,M,major,F,major
-Josiah Bounderby,Mr. James Harthouse,9,3,21,-0.03703703703703703,-0.03174603174603174,M,major,M,major
-Josiah Bounderby,Mrs. Sparsit,8,6,34,0.07083333333333335,0.024509803921568638,M,major,F,major
-Josiah Bounderby,Rachel Gradgrind,3,2,6,0.0,0.0,M,major,F,intermediate
+Josiah Bounderby,Mr. James Harthouse,3,3,9,0.0,0.0,M,major,M,major
+Josiah Bounderby,Mrs. Sparsit,7,6,32,-0.014285714285714282,-0.015624999999999997,M,major,F,major
 Josiah Bounderby,Thomas Gradgrind,9,12,75,-0.04595959595959598,-0.04222222222222224,M,major,M,major
-Kags,Toby Crackit,7,4,17,0.0,0.014705882352941176,M,minor,M,intermediate
-Louisa Bounderby,Cecilia Jupe,6,4,14,-0.125,-0.10714285714285714,F,major,F,major
-Louisa Bounderby,Mr. James Harthouse,7,3,16,0.14285714285714288,0.125,F,major,M,major
-Louisa Bounderby,Mrs. Sparsit,5,2,10,0.0,0.0,F,major,F,major
-Louisa Bounderby,Rachel Gradgrind,5,2,10,0.0,0.0,F,major,F,intermediate
-Louisa Bounderby,Stephen Blackpool,5,3,14,0.0,0.0,F,major,M,major
-Louisa Bounderby,Thomas Gradgrind,2,2,4,0.0,0.0,F,major,M,major
-Louisa Bounderby,Young Thomas,3,4,9,0.08333333333333333,0.05555555555555555,F,major,M,major
-Martha,Mrs. Corney,1,2,2,0.0,0.0,F,minor,F,major
-Master Kidderminster,Thomas Gradgrind,6,3,14,-0.16666666666666666,-0.14285714285714285,M,minor,M,major
-Monks,Mrs. Corney,6,2,12,0.0,0.0,M,major,F,major
-Mr. Blathers,Mr. Duff,5,2,10,0.0,0.0,M,intermediate,M,minor
-Mr. Blathers,Rose Maylie,8,2,16,0.0,0.0,M,intermediate,F,major
-Mr. Brittles,Mr. Giles,5,4,12,-0.016666666666666673,-0.020833333333333343,M,minor,M,intermediate
-Mr. Brownlow,Mr. Grimwig,8,4,26,0.03125,0.019230769230769232,M,major,M,intermediate
-Mr. Brownlow,Mrs. Maylie,2,2,4,0.0,0.0,M,major,F,intermediate
-Mr. Brownlow,Oliver Twist,8,5,26,0.10624999999999998,0.0923076923076923,M,major,M,major
-Mr. Brownlow,Rose Maylie,9,6,38,0.08333333333333333,0.07456140350877194,M,major,F,major
-Mr. Brownlow,The Officer,3,2,6,0.0,0.0,M,major,M,minor
-Mr. Bumble,Monks,4,3,9,-0.12499999999999999,-0.1111111111111111,M,major,M,major
-Mr. Bumble,Mrs. Corney,6,5,18,-0.013888888888888895,-1.2335811384723961e-17,M,major,F,major
-Mr. Bumble,Mrs. Mann,7,4,18,-0.09523809523809525,-0.06944444444444445,M,major,F,intermediate
-Mr. Bumble,Oliver Twist,2,2,4,0.0,0.0,M,major,M,major
-Mr. Bumble,The Gentleman In The White Waistcoat,1,2,2,0.0,0.0,M,major,M,minor
-Mr. Chitling,Fagin,7,3,20,-0.023809523809523805,-0.016666666666666663,M,intermediate,M,major
-Mr. Chitling,Kags,9,3,26,0.0,0.0,M,intermediate,M,minor
-Mr. Duff,Mr. Losberne,2,2,4,0.0,0.0,M,minor,M,major
-Mr. E. W. B. Childers,Josiah Bounderby,9,4,28,-0.06481481481481483,-0.04464285714285715,M,intermediate,M,major
-Mr. Gamfield,The Gentleman In The White Waistcoat,6,2,12,0.0,0.0,M,minor,M,minor
-Mr. Giles,Harry Maylie,3,2,6,0.0,0.0,M,intermediate,M,intermediate
-Mr. Giles,Mr. Brittles,6,4,16,-0.05555555555555556,-0.0625,M,intermediate,M,minor
-Mr. Giles,Rose Maylie,3,3,6,-0.11111111111111109,-0.11111111111111109,M,intermediate,F,major
-Mr. Giles,The Tinker,5,2,10,0.0,0.0,M,intermediate,M,minor
-Mr. Grimwig,Mr. Brownlow,8,7,30,0.06726190476190477,0.0666666666666667,M,intermediate,M,major
-Mr. James Harthouse,Bitzer,6,2,12,0.0,0.0,M,major,M,intermediate
-Mr. James Harthouse,Louisa Bounderby,2,2,4,0.0,0.0,M,major,F,major
-Mr. James Harthouse,Mrs. Sparsit,1,2,2,0.0,0.0,M,major,F,major
-Mr. James Harthouse,Young Thomas,2,2,4,0.0,0.0,M,major,M,major
-Mr. Limbkins,The Gentleman In The White Waistcoat,8,4,21,-6.938893903907228e-18,-0.01190476190476191,M,minor,M,minor
-Mr. Losberne,Mr. Blathers,8,4,23,-0.08333333333333334,-0.07608695652173914,M,major,M,intermediate
-Mr. Losberne,Mrs. Maylie,9,4,30,0.027777777777777766,0.02499999999999999,M,major,F,intermediate
-Mr. Sleary,Cecilia Jupe,6,2,12,0.0,0.0,M,intermediate,F,major
-Mr. Sleary,Josiah Bounderby,4,2,8,0.0,0.0,M,intermediate,M,major
-Mr. Sleary,Thomas Gradgrind,1,2,2,0.0,0.0,M,intermediate,M,major
-Mrs. Bedwin,Mr. Grimwig,2,2,4,0.0,0.0,F,intermediate,M,intermediate
-Mrs. Bedwin,Oliver Twist,6,3,15,-0.027777777777777773,-0.022222222222222216,F,intermediate,M,major
-Mrs. Bolter,Mrs. Sowerberry,1,2,2,0.0,0.0,F,intermediate,F,intermediate
-Mrs. Corney,Mr. Bumble,9,7,38,-0.08994708994708996,-0.08646616541353386,F,major,M,major
-Mrs. Corney,Mr. Grimwig,1,2,2,0.0,0.0,F,major,M,intermediate
-Mrs. Gradgrind,Josiah Bounderby,2,2,4,0.0,0.0,F,intermediate,M,major
-Mrs. Mann,Dick,4,3,10,-0.04166666666666666,-0.033333333333333326,F,intermediate,M,minor
+Kags,Toby Crackit,3,4,9,0.08333333333333333,0.08333333333333333,M,minor,M,intermediate
+Louisa Bounderby,Cecilia Jupe,2,4,6,0.0,0.0,F,major,F,major
+Louisa Bounderby,Stephen Blackpool,4,3,12,0.0,0.0,F,major,M,major
+Louisa Bounderby,Young Thomas,2,4,7,0.0,0.0,F,major,M,major
+Master Kidderminster,Thomas Gradgrind,2,3,6,0.0,0.0,M,minor,M,major
+Mr. Brittles,Mr. Giles,2,4,6,-0.041666666666666685,-0.041666666666666685,M,minor,M,intermediate
+Mr. Brownlow,Mr. Grimwig,5,4,20,0.0,0.0,M,major,M,intermediate
+Mr. Brownlow,Oliver Twist,6,5,22,0.09166666666666666,0.0818181818181818,M,major,M,major
+Mr. Brownlow,Rose Maylie,8,5,34,-0.002083333333333333,0.0,M,major,F,major
+Mr. Bumble,Monks,1,3,3,0.0,0.0,M,major,M,major
+Mr. Bumble,Mrs. Corney,2,3,6,0.0,0.0,M,major,F,major
+Mr. Bumble,Mrs. Mann,3,4,10,0.027777777777777752,0.024999999999999977,M,major,F,intermediate
+Mr. Chitling,Fagin,6,3,18,0.0,0.0,M,intermediate,M,major
+Mr. Chitling,Kags,8,3,24,0.0,0.0,M,intermediate,M,minor
+Mr. E. W. B. Childers,Josiah Bounderby,8,4,26,-0.010416666666666678,-0.009615384615384625,M,intermediate,M,major
+Mr. Giles,Mr. Brittles,3,4,10,-0.11111111111111112,-0.1,M,intermediate,M,minor
+Mr. Grimwig,Mr. Brownlow,5,7,24,0.09333333333333335,0.0773809523809524,M,intermediate,M,major
+Mr. Limbkins,The Gentleman In The White Waistcoat,4,4,13,-0.06250000000000001,-0.0576923076923077,M,minor,M,minor
+Mr. Losberne,Mr. Blathers,5,4,17,-0.08333333333333334,-0.0735294117647059,M,major,M,intermediate
+Mr. Losberne,Mrs. Maylie,8,4,28,0.031249999999999986,0.026785714285714277,M,major,F,intermediate
+Mrs. Bedwin,Oliver Twist,3,3,9,0.0,0.0,F,intermediate,M,major
+Mrs. Corney,Mr. Bumble,8,5,34,-0.10416666666666669,-0.08235294117647061,F,major,M,major
+Mrs. Mann,Dick,2,3,6,0.0,0.0,F,intermediate,M,minor
 Mrs. Mann,Mr. Bumble,1,3,3,0.0,0.0,F,intermediate,M,major
-Mrs. Maylie,Oliver Twist,4,2,8,0.0,0.0,F,intermediate,M,major
-Mrs. Maylie,Rose Maylie,4,2,8,0.0,0.0,F,intermediate,F,major
-Mrs. Sowerberry,Noah Claypole,9,2,18,0.0,0.0,F,intermediate,M,major
-Mrs. Sowerberry,Oliver Twist,2,2,4,0.0,0.0,F,intermediate,M,major
 Mrs. Sparsit,Josiah Bounderby,8,6,35,-0.04375,-0.04285714285714286,F,major,M,major
-Mrs. Sparsit,Mr. James Harthouse,9,2,18,0.0,0.0,F,major,M,major
-Mrs. Sparsit,Stephen Blackpool,7,3,18,0.02380952380952381,0.01851851851851852,F,major,M,major
-Nance,Bill Sikes,9,8,51,0.026984126984126975,0.03921568627450979,F,major,M,major
-Nance,Fagin,7,6,19,-0.04523809523809523,-0.035087719298245605,F,major,M,major
-Nance,Mr. Brownlow,3,2,6,0.0,0.0,F,major,M,major
-Nance,Oliver Twist,6,3,12,1.850371707708594e-17,1.850371707708594e-17,F,major,M,major
-Nance,Rose Maylie,6,2,12,0.0,0.0,F,major,F,major
-Noah Claypole,Fagin,7,3,19,0.04761904761904762,0.03508771929824562,M,major,M,major
-Oliver Twist,Bill Sikes,7,3,16,-0.023809523809523805,-0.02083333333333333,M,major,M,major
-Oliver Twist,Charley Bates,6,4,13,0.18055555555555555,0.17307692307692307,M,major,M,intermediate
-Oliver Twist,Fagin,1,3,2,0.0,0.0,M,major,M,major
-Oliver Twist,Harry Maylie,3,3,6,-0.055555555555555525,-0.055555555555555525,M,major,M,intermediate
-Oliver Twist,Mr. Brownlow,4,4,10,0.04166666666666666,0.024999999999999988,M,major,M,major
-Oliver Twist,Mr. Bumble,3,4,6,-0.08333333333333333,-0.08333333333333333,M,major,M,major
-Oliver Twist,Mr. Losberne,5,2,10,0.0,0.0,M,major,M,major
-Oliver Twist,Mrs. Bedwin,4,3,9,-0.12499999999999999,-0.1111111111111111,M,major,F,intermediate
-Oliver Twist,Nance,2,2,4,0.0,0.0,M,major,F,major
-Oliver Twist,The Artful Dodger,2,2,4,0.0,0.0,M,major,M,intermediate
-Rachel Gradgrind,Josiah Bounderby,8,4,23,-0.02083333333333335,-0.032608695652173926,F,intermediate,M,major
-Rachel Gradgrind,Louisa Bounderby,8,3,21,0.0625,0.047619047619047616,F,intermediate,F,major
-Rachel Gradgrind,Young Thomas,6,2,12,0.0,0.0,F,intermediate,M,major
-Rose Maylie,Mr. Brownlow,6,5,17,-0.1416666666666667,-0.15294117647058827,F,major,M,major
-Rose Maylie,Mr. Grimwig,2,2,4,0.0,0.0,F,major,M,intermediate
-Rose Maylie,Mr. Losberne,6,4,16,-0.20833333333333334,-0.1875,F,major,M,major
-Rose Maylie,Mrs. Maylie,4,2,8,0.0,0.0,F,major,F,intermediate
-Stephen Blackpool,Mrs. Sparsit,3,2,6,0.0,0.0,M,major,F,major
-Stephen Blackpool,Rachel Gradgrind,5,3,10,-0.033333333333333305,-0.033333333333333305,M,major,F,intermediate
-The Artful Dodger,Fagin,8,7,31,0.005059523809523819,-0.01843317972350229,M,intermediate,M,major
-The Artful Dodger,Oliver Twist,4,3,8,0.08333333333333336,0.08333333333333336,M,intermediate,M,major
-The Artful Dodger,The Jailer At The Dodger's Trial,3,2,6,0.0,0.0,M,intermediate,M,minor
-The Gentleman In The White Waistcoat,Oliver Twist,3,3,7,0.0,0.0,M,minor,M,major
-The Jailer At The Dodger's Trial,The Clerk At The Dodger's Trial,5,2,10,0.0,0.0,M,minor,M,minor
-The Magistrate At The Dodger's Trial,The Artful Dodger,2,2,4,0.0,0.0,M,minor,M,intermediate
-The Officer,Mr. Brownlow,1,2,2,0.0,0.0,M,minor,M,major
-The Old Woman,Rachel Gradgrind,4,3,10,0.0,0.0,F,intermediate,F,intermediate
-The Tinker,Mr. Giles,5,3,12,0.10000000000000002,0.08333333333333336,M,minor,M,intermediate
-Thomas Gradgrind,Cecilia Jupe,5,3,14,0.0,0.0,M,major,F,major
-Thomas Gradgrind,Josiah Bounderby,8,6,29,-0.13541666666666669,-0.09195402298850576,M,major,M,major
+Mrs. Sparsit,Stephen Blackpool,4,3,12,0.0,0.0,F,major,M,major
+Nance,Bill Sikes,8,8,49,0.045982142857142846,0.045918367346938764,F,major,M,major
+Nance,Fagin,2,5,7,0.04166666666666663,0.028571428571428532,F,major,M,major
+Noah Claypole,Fagin,5,3,15,0.0,0.0,M,major,M,major
+Oliver Twist,Bill Sikes,2,3,6,0.0,0.0,M,major,M,major
+Oliver Twist,Charley Bates,1,3,3,0.0,0.0,M,major,M,intermediate
+Oliver Twist,Mr. Brownlow,2,4,6,-0.041666666666666685,-0.041666666666666685,M,major,M,major
+Oliver Twist,Mrs. Bedwin,1,3,3,0.0,0.0,M,major,F,intermediate
+Rachel Gradgrind,Josiah Bounderby,6,4,19,-0.06944444444444446,-0.06578947368421055,F,intermediate,M,major
+Rachel Gradgrind,Louisa Bounderby,5,3,15,0.0,0.0,F,intermediate,F,major
+Rose Maylie,Mr. Brownlow,4,4,13,-0.125,-0.11538461538461539,F,major,M,major
+Rose Maylie,Mr. Losberne,4,4,12,-0.12500000000000003,-0.12500000000000003,F,major,M,major
+The Artful Dodger,Fagin,7,6,29,-0.06904761904761905,-0.0632183908045977,M,intermediate,M,major
+The Gentleman In The White Waistcoat,Oliver Twist,1,3,3,0.0,0.0,M,minor,M,major
+The Old Woman,Rachel Gradgrind,2,3,6,0.0,0.0,F,intermediate,F,intermediate
+The Tinker,Mr. Giles,2,3,6,0.0,0.0,M,minor,M,intermediate
+Thomas Gradgrind,Cecilia Jupe,4,3,12,0.0,0.0,M,major,F,major
+Thomas Gradgrind,Josiah Bounderby,4,5,14,0.0333333333333333,0.028571428571428543,M,major,M,major
 Thomas Gradgrind,Louisa Bounderby,9,7,37,-0.05740740740740738,-0.05791505791505789,M,major,F,major
-Thomas Gradgrind,Mr. E. W. B. Childers,6,2,12,0.0,0.0,M,major,M,intermediate
-Thomas Gradgrind,Mrs. Sparsit,5,2,10,0.0,0.0,M,major,F,major
-Toby Crackit,Bill Sikes,1,2,2,0.0,0.0,M,intermediate,M,major
-Toby Crackit,Fagin,8,2,16,0.0,0.0,M,intermediate,M,major
-Toby Crackit,Kags,1,2,2,0.0,0.0,M,intermediate,M,minor
 Toby Crackit,Mr. Chitling,9,4,32,-6.1679056923619804e-18,-3.469446951953614e-18,M,intermediate,M,intermediate
-Toby Crackit,Oliver Twist,3,2,6,0.0,0.0,M,intermediate,M,major
-Young Thomas,Louisa Bounderby,5,3,10,0.13333333333333336,0.13333333333333336,M,major,F,major
-Young Thomas,Stephen Blackpool,6,2,12,0.0,0.0,M,major,M,major
-_unknowable,Mr. Limbkins,2,2,4,0.0,0.0,M,intermediate,M,minor

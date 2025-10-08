@@ -1,10 +1,6 @@
 import pandas as pd
 import re
 
-import re
-
-import re
-
 def clean_text(text: str, lowercase: bool = False) -> str:
     """
     Clean an individual quote string before downstream processing.

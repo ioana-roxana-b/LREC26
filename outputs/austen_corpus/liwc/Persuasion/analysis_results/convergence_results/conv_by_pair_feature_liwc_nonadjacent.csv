@@ -1,47 +1,10 @@
 ﻿a_speaker,b_speaker,family,n_pairs,n_triggers,n_b_positives_given_trigger,p1,p0,conv,a_gender,a_category,b_gender,b_category
-Admiral,Captain Wentworth,adverbs,2,2,2,1.0,1.0,0.0,,,M,major
-Admiral,Captain Wentworth,articles,2,2,1,0.5,0.5,0.0,,,M,major
-Admiral,Captain Wentworth,auxiliary_verbs,2,2,2,1.0,1.0,0.0,,,M,major
-Admiral,Captain Wentworth,conjunctions,2,2,1,0.5,0.5,0.0,,,M,major
-Admiral,Captain Wentworth,impersonal_pronouns,2,2,1,0.5,0.5,0.0,,,M,major
-Admiral,Captain Wentworth,personal_pronouns,2,2,2,1.0,1.0,0.0,,,M,major
-Admiral,Captain Wentworth,prepositions,2,2,1,0.5,0.5,0.0,,,M,major
-Admiral,Captain Wentworth,quantifiers,2,2,1,0.5,0.5,0.0,,,M,major
-Anne Elliot,Charles Musgrove,auxiliary_verbs,2,2,1,0.5,0.5,0.0,F,major,M,intermediate
-Anne Elliot,Charles Musgrove,impersonal_pronouns,2,2,1,0.5,0.5,0.0,F,major,M,intermediate
-Anne Elliot,Charles Musgrove,prepositions,2,2,1,0.5,0.5,0.0,F,major,M,intermediate
-Anne Elliot,Charles Musgrove,quantifiers,2,2,0,0.0,0.0,0.0,F,major,M,intermediate
-Anne Elliot,Elizabeth,articles,2,2,1,0.5,0.5,0.0,F,major,F,minor
-Anne Elliot,Elizabeth,auxiliary_verbs,2,2,2,1.0,1.0,0.0,F,major,F,minor
-Anne Elliot,Elizabeth,personal_pronouns,2,2,2,1.0,1.0,0.0,F,major,F,minor
-Anne Elliot,Elizabeth,prepositions,2,2,1,0.5,0.5,0.0,F,major,F,minor
-Anne Elliot,Mary Musgrove,adverbs,2,2,2,1.0,1.0,0.0,F,major,F,intermediate
-Anne Elliot,Mary Musgrove,auxiliary_verbs,2,2,2,1.0,1.0,0.0,F,major,F,intermediate
-Anne Elliot,Mary Musgrove,conjunctions,2,2,2,1.0,1.0,0.0,F,major,F,intermediate
-Anne Elliot,Mary Musgrove,impersonal_pronouns,2,2,2,1.0,1.0,0.0,F,major,F,intermediate
-Anne Elliot,Mary Musgrove,negations,2,2,1,0.5,0.5,0.0,F,major,F,intermediate
-Anne Elliot,Mary Musgrove,personal_pronouns,2,2,2,1.0,1.0,0.0,F,major,F,intermediate
-Anne Elliot,Mary Musgrove,prepositions,2,2,2,1.0,1.0,0.0,F,major,F,intermediate
-Anne Elliot,Mary Musgrove,quantifiers,2,2,2,1.0,1.0,0.0,F,major,F,intermediate
-Anne Elliot,Mr Shepherd,adverbs,2,2,2,1.0,1.0,0.0,F,major,M,minor
-Captain Wentworth,Admiral,auxiliary_verbs,2,2,2,1.0,1.0,0.0,M,major,,
-Captain Wentworth,Admiral,conjunctions,2,2,2,1.0,1.0,0.0,M,major,,
-Captain Wentworth,Admiral,negations,2,2,0,0.0,0.0,0.0,M,major,,
-Captain Wentworth,Admiral,personal_pronouns,2,2,2,1.0,1.0,0.0,M,major,,
-Captain Wentworth,Admiral,prepositions,2,2,2,1.0,1.0,0.0,M,major,,
-Captain Wentworth,Admiral,quantifiers,2,2,2,1.0,1.0,0.0,M,major,,
 Captain Wentworth,Anne Elliot,articles,4,4,3,0.75,0.75,0.0,M,major,F,major
 Captain Wentworth,Anne Elliot,auxiliary_verbs,4,4,4,1.0,1.0,0.0,M,major,F,major
-Captain Wentworth,Anne Elliot,conjunctions,4,2,2,1.0,0.75,0.25,M,major,F,major
-Captain Wentworth,Anne Elliot,impersonal_pronouns,4,2,2,1.0,1.0,0.0,M,major,F,major
 Captain Wentworth,Anne Elliot,negations,4,3,2,0.6666666666666666,0.5,0.16666666666666663,M,major,F,major
 Captain Wentworth,Anne Elliot,personal_pronouns,4,4,4,1.0,1.0,0.0,M,major,F,major
 Captain Wentworth,Anne Elliot,prepositions,4,3,3,1.0,1.0,0.0,M,major,F,major
 Captain Wentworth,Anne Elliot,quantifiers,4,3,2,0.6666666666666666,0.5,0.16666666666666663,M,major,F,major
-Captain Wentworth,Charles Musgrove,articles,2,2,1,0.5,0.5,0.0,M,major,M,intermediate
-Captain Wentworth,Charles Musgrove,impersonal_pronouns,2,2,2,1.0,1.0,0.0,M,major,M,intermediate
-Captain Wentworth,Mary Musgrove,auxiliary_verbs,2,2,2,1.0,1.0,0.0,M,major,F,intermediate
-Captain Wentworth,Mary Musgrove,personal_pronouns,2,2,2,1.0,1.0,0.0,M,major,F,intermediate
 Charles Musgrove,Anne Elliot,adverbs,4,4,3,0.75,0.75,0.0,M,intermediate,F,major
 Charles Musgrove,Anne Elliot,articles,4,4,3,0.75,0.75,0.0,M,intermediate,F,major
 Charles Musgrove,Anne Elliot,auxiliary_verbs,4,4,4,1.0,1.0,0.0,M,intermediate,F,major
@@ -51,60 +14,16 @@ Charles Musgrove,Anne Elliot,negations,4,4,4,1.0,1.0,0.0,M,intermediate,F,major
 Charles Musgrove,Anne Elliot,personal_pronouns,4,4,4,1.0,1.0,0.0,M,intermediate,F,major
 Charles Musgrove,Anne Elliot,prepositions,4,4,4,1.0,1.0,0.0,M,intermediate,F,major
 Charles Musgrove,Anne Elliot,quantifiers,4,4,3,0.75,0.75,0.0,M,intermediate,F,major
-Charles Musgrove,Captain Wentworth,auxiliary_verbs,2,2,2,1.0,1.0,0.0,M,intermediate,M,major
-Charles Musgrove,Captain Wentworth,impersonal_pronouns,2,2,2,1.0,1.0,0.0,M,intermediate,M,major
-Charles Musgrove,Captain Wentworth,prepositions,2,2,2,1.0,1.0,0.0,M,intermediate,M,major
-Charles Musgrove,Lady Russell,adverbs,2,2,1,0.5,0.5,0.0,M,intermediate,F,minor
-Charles Musgrove,Lady Russell,articles,2,2,1,0.5,0.5,0.0,M,intermediate,F,minor
-Charles Musgrove,Lady Russell,auxiliary_verbs,2,2,2,1.0,1.0,0.0,M,intermediate,F,minor
-Charles Musgrove,Lady Russell,conjunctions,2,2,2,1.0,1.0,0.0,M,intermediate,F,minor
-Charles Musgrove,Lady Russell,personal_pronouns,2,2,2,1.0,1.0,0.0,M,intermediate,F,minor
-Charles Musgrove,Lady Russell,quantifiers,2,2,1,0.5,0.5,0.0,M,intermediate,F,minor
-Charles Musgrove,Mary Musgrove,negations,2,2,1,0.5,0.5,0.0,M,intermediate,F,intermediate
-Elizabeth,Anne Elliot,adverbs,2,2,0,0.0,0.0,0.0,F,minor,F,major
-Elizabeth,Anne Elliot,articles,2,2,2,1.0,1.0,0.0,F,minor,F,major
-Elizabeth,Anne Elliot,auxiliary_verbs,2,2,2,1.0,1.0,0.0,F,minor,F,major
-Elizabeth,Anne Elliot,conjunctions,2,2,1,0.5,0.5,0.0,F,minor,F,major
-Elizabeth,Anne Elliot,impersonal_pronouns,2,2,1,0.5,0.5,0.0,F,minor,F,major
-Elizabeth,Anne Elliot,negations,2,2,1,0.5,0.5,0.0,F,minor,F,major
-Elizabeth,Anne Elliot,personal_pronouns,2,2,2,1.0,1.0,0.0,F,minor,F,major
-Elizabeth,Anne Elliot,prepositions,2,2,2,1.0,1.0,0.0,F,minor,F,major
-Elizabeth,Anne Elliot,quantifiers,2,2,1,0.5,0.5,0.0,F,minor,F,major
-Elizabeth,Sir Walter Elliot,adverbs,3,2,0,0.0,0.3333333333333333,-0.3333333333333333,F,minor,M,intermediate
 Elizabeth,Sir Walter Elliot,auxiliary_verbs,3,3,2,0.6666666666666666,0.6666666666666666,0.0,F,minor,M,intermediate
-Elizabeth,Sir Walter Elliot,conjunctions,3,2,2,1.0,1.0,0.0,F,minor,M,intermediate
-Elizabeth,Sir Walter Elliot,impersonal_pronouns,3,2,1,0.5,0.6666666666666666,-0.16666666666666663,F,minor,M,intermediate
-Elizabeth,Sir Walter Elliot,prepositions,3,2,1,0.5,0.6666666666666666,-0.16666666666666663,F,minor,M,intermediate
 Lady Russell,Anne Elliot,adverbs,4,4,4,1.0,1.0,0.0,F,minor,F,major
-Lady Russell,Anne Elliot,articles,4,2,0,0.0,0.25,-0.25,F,minor,F,major
 Lady Russell,Anne Elliot,auxiliary_verbs,4,4,4,1.0,1.0,0.0,F,minor,F,major
-Lady Russell,Anne Elliot,conjunctions,4,2,1,0.5,0.5,0.0,F,minor,F,major
-Lady Russell,Anne Elliot,negations,4,2,0,0.0,0.25,-0.25,F,minor,F,major
 Lady Russell,Anne Elliot,personal_pronouns,4,3,3,1.0,1.0,0.0,F,minor,F,major
 Lady Russell,Anne Elliot,prepositions,4,3,1,0.3333333333333333,0.5,-0.16666666666666669,F,minor,F,major
-Mary Musgrove,Anne Elliot,auxiliary_verbs,2,2,2,1.0,1.0,0.0,F,intermediate,F,major
-Mary Musgrove,Anne Elliot,personal_pronouns,2,2,2,1.0,1.0,0.0,F,intermediate,F,major
 Mary Musgrove,Charles Musgrove,adverbs,3,3,3,1.0,1.0,0.0,F,intermediate,M,intermediate
-Mary Musgrove,Charles Musgrove,articles,3,2,2,1.0,1.0,0.0,F,intermediate,M,intermediate
 Mary Musgrove,Charles Musgrove,auxiliary_verbs,3,3,3,1.0,1.0,0.0,F,intermediate,M,intermediate
-Mary Musgrove,Charles Musgrove,conjunctions,3,2,2,1.0,1.0,0.0,F,intermediate,M,intermediate
-Mary Musgrove,Charles Musgrove,impersonal_pronouns,3,2,1,0.5,0.6666666666666666,-0.16666666666666663,F,intermediate,M,intermediate
-Mary Musgrove,Charles Musgrove,negations,3,2,1,0.5,0.6666666666666666,-0.16666666666666663,F,intermediate,M,intermediate
 Mary Musgrove,Charles Musgrove,personal_pronouns,3,3,3,1.0,1.0,0.0,F,intermediate,M,intermediate
 Mary Musgrove,Charles Musgrove,prepositions,3,3,2,0.6666666666666666,0.6666666666666666,0.0,F,intermediate,M,intermediate
 Mary Musgrove,Charles Musgrove,quantifiers,3,3,3,1.0,1.0,0.0,F,intermediate,M,intermediate
-Mary Musgrove,Louisa Musgrove,adverbs,2,2,1,0.5,0.5,0.0,F,intermediate,F,minor
-Mary Musgrove,Louisa Musgrove,auxiliary_verbs,2,2,1,0.5,0.5,0.0,F,intermediate,F,minor
-Mary Musgrove,Louisa Musgrove,negations,2,2,2,1.0,1.0,0.0,F,intermediate,F,minor
-Mary Musgrove,Louisa Musgrove,personal_pronouns,2,2,1,0.5,0.5,0.0,F,intermediate,F,minor
-Mary Musgrove,Louisa Musgrove,quantifiers,2,2,1,0.5,0.5,0.0,F,intermediate,F,minor
-Mr Shepherd,Mrs Clay,adverbs,2,2,2,1.0,1.0,0.0,M,minor,F,minor
-Mrs Clay,Anne Elliot,articles,2,2,1,0.5,0.5,0.0,F,minor,F,major
-Mrs Clay,Anne Elliot,auxiliary_verbs,2,2,1,0.5,0.5,0.0,F,minor,F,major
-Mrs Clay,Anne Elliot,conjunctions,2,2,1,0.5,0.5,0.0,F,minor,F,major
-Mrs Clay,Anne Elliot,negations,2,2,0,0.0,0.0,0.0,F,minor,F,major
-Mrs Clay,Anne Elliot,personal_pronouns,2,2,2,1.0,1.0,0.0,F,minor,F,major
-Mrs Clay,Anne Elliot,prepositions,2,2,1,0.5,0.5,0.0,F,minor,F,major
 Sir Walter Elliot,Anne Elliot,adverbs,5,4,3,0.75,0.8,-0.050000000000000044,M,intermediate,F,major
 Sir Walter Elliot,Anne Elliot,articles,5,4,4,1.0,1.0,0.0,M,intermediate,F,major
 Sir Walter Elliot,Anne Elliot,auxiliary_verbs,5,4,4,1.0,1.0,0.0,M,intermediate,F,major
@@ -114,10 +33,3 @@ Sir Walter Elliot,Anne Elliot,negations,5,3,2,0.6666666666666666,0.6,0.066666666
 Sir Walter Elliot,Anne Elliot,personal_pronouns,5,4,4,1.0,1.0,0.0,M,intermediate,F,major
 Sir Walter Elliot,Anne Elliot,prepositions,5,4,4,1.0,1.0,0.0,M,intermediate,F,major
 Sir Walter Elliot,Anne Elliot,quantifiers,5,4,3,0.75,0.8,-0.050000000000000044,M,intermediate,F,major
-Sir Walter Elliot,Elizabeth,articles,2,2,0,0.0,0.0,0.0,M,intermediate,F,minor
-Sir Walter Elliot,Elizabeth,auxiliary_verbs,2,2,2,1.0,1.0,0.0,M,intermediate,F,minor
-Sir Walter Elliot,Elizabeth,conjunctions,2,2,1,0.5,0.5,0.0,M,intermediate,F,minor
-Sir Walter Elliot,Elizabeth,impersonal_pronouns,2,2,2,1.0,1.0,0.0,M,intermediate,F,minor
-Sir Walter Elliot,Elizabeth,negations,2,2,1,0.5,0.5,0.0,M,intermediate,F,minor
-Sir Walter Elliot,Elizabeth,personal_pronouns,2,2,1,0.5,0.5,0.0,M,intermediate,F,minor
-Sir Walter Elliot,Elizabeth,prepositions,2,2,2,1.0,1.0,0.0,M,intermediate,F,minor

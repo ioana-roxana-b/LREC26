@@ -261,60 +261,70 @@ def plot_reciprocity(paired: pd.DataFrame, out_png: Path, out_csv: Path) -> Tupl
     paired.to_csv(out_csv, index=False, encoding="utf-8-sig")
     return float(r), float(sign_match)
 
+def _combine_bidirectional_edges(G: nx.DiGraph) -> nx.Graph:
+    """
+    Collapse directed edges into a single undirected edge per unordered pair.
+    Edge weight = |w(A→B)| + |w(B→A)| (nonnegative, emphasizes overall interaction strength).
+    """
+    UG = nx.Graph()
+    UG.add_nodes_from(G.nodes(data=True))
+    for u, v, d in G.edges(data=True):
+        w = abs(float(d.get("weight", 0.0)))
+        if u == v or w == 0:
+            continue
+        if UG.has_edge(u, v):
+            UG[u][v]["weight"] += w
+        else:
+            UG.add_edge(u, v, weight=w)
+    return UG
 
 
-def plot_graph(
+def plot_graph_simple_bidirectional(
     G: nx.DiGraph,
     out_png: Path,
     color_attr: str = "gender",
     show_labels: bool = True,
     figsize: Tuple[float, float] = (12.5, 9.0),
     font_size: int = 10,
-    weight_attr: str = "weight",
+    title: str = "Convergence network",
 ) -> None:
     """
-    Draw a directed convergence network with colorblind safe styling.
-
-    Params:
-        G: Directed graph with weight on edges.
-        out_png: Output path for the PNG image.
-        color_attr: Node attribute to color by. Typically gender or category.
-        show_labels: Whether to draw node labels.
-        figsize: Figure size in inches.
-        font_size: Label font size.
-        weight_attr: Edge attribute to use when scaling widths.
-
-    Returns:
-        None. Writes the figure to disk.
+    Clean, simple convergence graph.
+    - One directional arrow per edge (A→B)
+    - Node color = gender (colorblind-safe palette)
+    - Edge color uniform
+    - Edge width ∝ |weight|
+    - No doubled arrows, no curvature
     """
     if G.number_of_nodes() == 0:
         return
 
-    # normalize node labels (trim excess whitespace)
+    # normalize node labels
     G = nx.relabel_nodes(G, lambda n: " ".join(str(n).split()))
 
-    # node size ~ outgoing strength (sum of |weights|)
-    out_strength = {n: 0.0 for n in G.nodes()}
-    for u, v, d in G.edges(data=True):
-        out_strength[u] += abs(float(d.get(weight_attr, 0.0)))
-
-    # positions
-    k = 1.1 if G.number_of_nodes() <= 40 else 1.3
-    pos = nx.spring_layout(G, seed=7, k=k, iterations=100)
-
-    # node colors (Okabe–Ito subset)
+    # node colors based on gender
     attr_values = nx.get_node_attributes(G, color_attr)
     palette_nodes = {"F": "#CC79A7", "M": "#0072B2"}
     node_colors = [palette_nodes.get(attr_values.get(n, "U"), "#999999") for n in G.nodes()]
 
-    # node sizes
-    def size_for(n: str) -> float:
-        return 240.0 + 260.0 * np.sqrt(max(out_strength.get(n, 0.0), 0.0))
+    # node size ~ outgoing strength (sum |weights|)
+    out_strength = {n: 0.0 for n in G.nodes()}
+    for u, v, d in G.edges(data=True):
+        out_strength[u] += abs(float(d.get("weight", 0.0)))
+    node_sizes = {n: 240.0 + 260.0 * np.sqrt(max(out_strength.get(n, 0.0), 0.0)) for n in G.nodes()}
 
-    node_sizes = {n: size_for(n) for n in G.nodes()}
+    # positions
+    pos = nx.spring_layout(G, seed=7, k=1.15, iterations=100)
 
+    # simple color scheme for edges
+    edge_color = "#4D4D4D"  # neutral gray, colorblind-safe
+
+    # edge widths proportional to magnitude
+    def edge_width(w: float) -> float:
+        return 0.6 + 3.0 * min(abs(w), 0.15) / 0.15
+
+    # draw base nodes
     fig, ax = plt.subplots(figsize=figsize)
-
     nx.draw_networkx_nodes(
         G, pos,
         node_color=node_colors,
@@ -324,74 +334,30 @@ def plot_graph(
         ax=ax,
     )
 
-    # helpers for arrows
-    def shrink_pts(n: str) -> float:
-        return 0.62 * np.sqrt(node_sizes[n])
-
-    def edge_width(w: float) -> float:
-        # cap width growth at |w|≈0.15
-        return 0.6 + 3.0 * min(abs(w), 0.15) / 0.15
-
-    # distinct colors per direction
-    color_ab = "#0072B2"   # blue for A→B
-    color_ba = "#E69F00"   # orange for B→A
-
-    # draw each unordered pair once, with two curved arrows if reciprocal
-    drawn_pairs = set()
+    # draw edges with arrows (no curvature)
     for u, v, d in G.edges(data=True):
-        pair = tuple(sorted((u, v)))
-        if pair in drawn_pairs:
-            continue
-        drawn_pairs.add(pair)
-
-        has_uv = G.has_edge(u, v)
-        has_vu = G.has_edge(v, u)
-
-        # separate directions clearly
-        rad_uv = +0.28 if has_vu else 0.00
-        rad_vu = -0.28
-
-        if has_uv:
-            w_uv = float(G[u][v].get(weight_attr, 0.0))
-            a = FancyArrowPatch(
-                pos[u], pos[v],
-                arrowstyle="-|>",
-                mutation_scale=11,
-                shrinkA=shrink_pts(u),
-                shrinkB=shrink_pts(v),
-                connectionstyle=f"arc3,rad={rad_uv}",
-                lw=edge_width(w_uv),
-                color=color_ab,
-                alpha=0.95,
-                zorder=1.5,
-            )
-            # dashed if negative (divergence)
-            if w_uv < 0:
-                a.set_linestyle((0, (2, 2)))
-            # subtle white halo for readability
-            import matplotlib.patheffects as pe
-            a.set_path_effects([pe.Stroke(linewidth=a.get_linewidth()+0.8, foreground="white"), pe.Normal()])
-            ax.add_patch(a)
-
-        if has_vu:
-            w_vu = float(G[v][u].get(weight_attr, 0.0))
-            b = FancyArrowPatch(
-                pos[v], pos[u],
-                arrowstyle="-|>",
-                mutation_scale=11,
-                shrinkA=shrink_pts(v),
-                shrinkB=shrink_pts(u),
-                connectionstyle=f"arc3,rad={rad_vu}",
-                lw=edge_width(w_vu),
-                color=color_ba,
-                alpha=0.95,
-                zorder=1.4,
-            )
-            if w_vu < 0:
-                b.set_linestyle((0, (2, 2)))
-            import matplotlib.patheffects as pe
-            b.set_path_effects([pe.Stroke(linewidth=b.get_linewidth()+0.8, foreground="white"), pe.Normal()])
-            ax.add_patch(b)
+        w = float(d.get("weight", 0.0))
+        a = FancyArrowPatch(
+            pos[u], pos[v],
+            arrowstyle="-|>",
+            mutation_scale=10,
+            shrinkA=0.6 * np.sqrt(node_sizes[u]),
+            shrinkB=0.6 * np.sqrt(node_sizes[v]),
+            connectionstyle="arc3,rad=0.0",
+            lw=edge_width(w),
+            color=edge_color,
+            alpha=0.8,
+            zorder=1.4,
+        )
+        # dashed if divergence
+        if w < 0:
+            a.set_linestyle((0, (2, 2)))
+        import matplotlib.patheffects as pe
+        a.set_path_effects([
+            pe.Stroke(linewidth=a.get_linewidth() + 0.8, foreground="white"),
+            pe.Normal()
+        ])
+        ax.add_patch(a)
 
     # labels
     if show_labels:
@@ -405,27 +371,63 @@ def plot_graph(
             bbox=dict(boxstyle="round,pad=0.18", fc="white", ec="#BFBFBF", alpha=0.75),
         )
 
-    # legends: nodes + edge directions
+    # legend for gender
     from matplotlib.lines import Line2D
     handles_nodes = [
         Line2D([0], [0], marker="o", linestyle="", markersize=8,
                markerfacecolor=palette_nodes[k], markeredgecolor="#4D4D4D", label=k)
-        for k in ["F", "M"] if k in set(attr_values.values()) or k == "U"
+        for k in sorted(set(attr_values.values()))
     ]
-    handles_edges = [
-        Line2D([0], [0], color=color_ab, lw=2.5, label="A → B"),
-        Line2D([0], [0], color=color_ba, lw=2.5, label="B → A"),
-        Line2D([0], [0], color="#4D4D4D", lw=2.0, linestyle=(0, (2, 2)), label="negative (divergence)"),
-    ]
-    if handles_nodes:
-        leg1 = ax.legend(handles=handles_nodes, title=color_attr, loc="upper left", frameon=False)
-        ax.add_artist(leg1)
-    ax.legend(handles=handles_edges, title="edge direction", loc="upper right", frameon=False)
+    ax.legend(handles=handles_nodes, title="Gender", loc="upper left", frameon=False)
 
+    ax.set_title(title)
     ax.set_axis_off()
     fig.tight_layout()
     fig.savefig(out_png, bbox_inches="tight", dpi=220)
     plt.close(fig)
+
+
+def subgraph_direction_by_pair(G: nx.DiGraph, which: str) -> nx.DiGraph:
+    """
+    Split each unordered pair {u,v} into exactly one plotted direction per figure.
+    which='AtoB' keeps only min(u,v) -> max(u,v)
+    which='BtoA' keeps only max(u,v) -> min(u,v)
+    """
+    assert which in ("AtoB", "BtoA")
+    H = nx.DiGraph()
+    H.add_nodes_from(G.nodes(data=True))
+
+    for u, v, d in G.edges(data=True):
+        if u == v:
+            continue
+        u0, v0 = (u, v) if u < v else (v, u)
+        if which == "AtoB":
+            keep = (u == u0) and (v == v0)
+        else:
+            keep = (u == v0) and (v == u0)
+        if keep:
+            H.add_edge(u, v, **d)
+    return H
+
+def plot_graph_direction_only(
+    G: nx.DiGraph,
+    out_png: Path,
+    direction: str = "AtoB",  # "AtoB" or "BtoA"
+    color_attr: str = "gender",
+    show_labels: bool = True,
+    figsize: Tuple[float, float] = (12.5, 9.0),
+    font_size: int = 10,
+) -> None:
+    H = subgraph_direction_by_pair(G, "AtoB" if direction == "AtoB" else "BtoA")
+    title = "Convergence network A→B only (per pair forward direction)" if direction == "AtoB" else "Convergence network B→A only (per pair reverse direction)"
+    plot_graph_simple_bidirectional(
+        H, out_png=out_png, color_attr=color_attr, show_labels=show_labels,
+        figsize=figsize, font_size=font_size, title = title
+    )
+    try:
+        img = plt.imread(out_png)
+    except Exception:
+        pass
 
 def run_graph_analysis(
     in_dir: Path,
@@ -538,8 +540,12 @@ def run_graph_analysis(
         paired, out_png=out_dir / "reciprocity_scatter.png", out_csv=out_dir / "reciprocity_pairs.csv"
     )
 
-    # Graph plot
-    plot_graph(G, out_dir / "graph_network.png", color_attr="gender", show_labels=True)
+    # Graph plots
+    # Simple overview + direction-separated plots
+    plot_graph_simple_bidirectional(G, out_dir / "graph_network_simple.png", color_attr="gender", show_labels=True)
+    plot_graph_direction_only(G, out_dir / "graph_A_to_B.png", direction="AtoB", color_attr="gender", show_labels=True)
+    plot_graph_direction_only(G, out_dir / "graph_B_to_A.png", direction="BtoA", color_attr="gender", show_labels=True)
+
 
     # Summary file written inline
     lines: List[str] = []

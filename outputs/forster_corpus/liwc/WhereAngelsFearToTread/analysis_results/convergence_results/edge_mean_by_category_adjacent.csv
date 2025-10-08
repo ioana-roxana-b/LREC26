@@ -1,8 +1,7 @@
 ﻿a_category,b_category,mean_weight,count
-intermediate,major,0.024584369583115304,7
-intermediate,minor,-0.03174603174603174,1
-major,intermediate,0.0032973106308083525,6
-major,major,0.03152595344059829,10
-major,minor,0.011111111111111117,2
-minor,intermediate,0.07692307692307694,1
-minor,major,-0.03776041666666666,4
+intermediate,major,0.01490040827641781,6
+major,intermediate,0.004750196424331737,6
+major,major,0.009408372774129837,10
+major,minor,0.0,1
+minor,intermediate,0.0,1
+minor,major,0.02083333333333333,1

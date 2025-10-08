@@ -1,0 +1,23 @@
+nodes 19
+edges 85
+density 0.2485
+reciprocity 0.8941
+gender_assortativity -0.0137
+category_assortativity -0.2362
+reciprocity_correlation 0.0722
+reciprocity_sign_match 0.5000
+mutual_edge_pairs 38
+communities_detected 3
+community_sizes 0:8, 1:6, 2:5
+mean_edge_weight 0.0052
+pos_share 0.4235
+neg_share 0.3294
+edge_weight_gini 0.5556
+reciprocity_both_positive 0.2632
+reciprocity_both_negative 0.1316
+asymmetry_index_mean 0.6935
+out_strength_gini 0.4626
+top10pct_strength_share 0.2961
+pagerank_entropy 0.8801
+modularity_Q 0.2738
+modularity_communities 3

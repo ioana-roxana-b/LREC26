@@ -1,0 +1,20 @@
+﻿a_speaker,b_speaker,n_features,n_pairs,n_triggers_total,mean_conv,mean_conv_w,a_gender,a_category,b_gender,b_category
+Alexis Ivanovitch,Antonida Vassilievna Tarassevitcha,9,51,244,-0.04384387943211472,-0.036563805850208936,M,major,F,major
+Alexis Ivanovitch,Marqis De Griers,9,19,128,-0.07307455186712151,-0.06743421052631579,M,major,M,intermediate
+Alexis Ivanovitch,Mlle. Blanche,9,16,76,-0.04953703703703703,-0.055098684210526314,M,major,F,intermediate
+Alexis Ivanovitch,Mr. Astley,9,56,316,-0.03343596171394131,-0.030741410488245934,M,major,M,intermediate
+Alexis Ivanovitch,Polina Alexandrovna,9,59,364,0.019941228508198502,0.01848575153659896,M,major,F,major
+Alexis Ivanovitch,The General,9,17,114,0.033071503659738946,0.031475748194014434,M,major,M,intermediate
+Antonida Vassilievna Tarassevitcha,Alexis Ivanovitch,9,59,374,-0.010914345151016617,-0.013323665367533719,F,major,M,major
+Antonida Vassilievna Tarassevitcha,Marqis De Griers,6,6,33,0.0,0.0,F,major,M,intermediate
+Antonida Vassilievna Tarassevitcha,Polina Alexandrovna,9,13,91,-0.038286404953071645,-0.02620456466610315,F,major,F,major
+Antonida Vassilievna Tarassevitcha,The General,9,14,93,0.0038097704764371606,0.002304147465437807,F,major,M,intermediate
+Marqis De Griers,Alexis Ivanovitch,9,21,127,0.0014124764124764377,0.007124109486314238,M,intermediate,M,major
+Mlle. Blanche,Alexis Ivanovitch,9,17,112,0.07054753525341759,0.06565126050420167,F,intermediate,M,major
+Mr. Astley,Alexis Ivanovitch,9,59,385,-0.010011169654961837,-0.010961919436495686,M,intermediate,M,major
+Polina Alexandrovna,Alexis Ivanovitch,9,61,367,-0.0011930839662217777,-0.0013400634296689942,F,major,M,major
+Polina Alexandrovna,Antonida Vassilievna Tarassevitcha,9,13,73,-0.023321123321123335,-0.022128556375131732,F,major,F,major
+The Croupier,Antonida Vassilievna Tarassevitcha,1,10,7,-0.11428571428571432,-0.11428571428571432,M,minor,F,major
+The General,Alexis Ivanovitch,9,17,100,-0.036387722662232454,-0.034117647058823516,M,intermediate,M,major
+The General,Antonida Vassilievna Tarassevitcha,8,13,69,0.04753302253302252,0.03121516164994425,M,intermediate,F,major
+The General,Marqis De Griers,1,6,5,0.13333333333333341,0.13333333333333341,M,intermediate,M,intermediate

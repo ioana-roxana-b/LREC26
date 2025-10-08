@@ -1,0 +1,91 @@
+﻿a_speaker,b_speaker,n_features,n_pairs,n_triggers_total,mean_conv,mean_conv_w,a_gender,a_category,b_gender,b_category
+Barney,Bill Sikes,3,3,6,0.05555555555555558,0.05555555555555558,M,minor,M,major
+Bill Sikes,Charley Bates,3,2,6,0.0,0.0,M,major,M,intermediate
+Bill Sikes,Fagin,7,6,25,-0.2261904761904762,-0.16666666666666669,M,major,M,major
+Bill Sikes,Nance,9,8,52,-0.0039682539682539784,-0.0072115384615384715,M,major,F,major
+Bill Sikes,Oliver Twist,9,2,18,0.0,0.0,M,major,M,major
+Bill Sikes,Toby Crackit,5,4,12,-0.1,-0.08333333333333333,M,major,M,intermediate
+Charley Bates,Bill Sikes,8,2,16,0.0,0.0,M,intermediate,M,major
+Charley Bates,Fagin,6,4,17,0.041666666666666664,0.029411764705882353,M,intermediate,M,major
+Charley Bates,Mr. Chitling,4,2,8,0.0,0.0,M,intermediate,M,intermediate
+Charley Bates,Oliver Twist,4,4,8,0.25,0.25,M,intermediate,M,major
+Fagin,Bill Sikes,8,6,29,-0.07291666666666667,-0.05172413793103448,M,major,M,major
+Fagin,Charley Bates,8,7,31,-0.008630952380952343,0.004608294930875622,M,major,M,intermediate
+Fagin,Mr. Brownlow,4,2,8,0.0,0.0,M,major,M,major
+Fagin,Mr. Chitling,3,2,6,0.0,0.0,M,major,M,intermediate
+Fagin,Nance,5,5,15,0.009999999999999964,-4.070817756958907e-17,M,major,F,major
+Fagin,The Artful Dodger,7,4,23,-0.04761904761904762,-0.043478260869565216,M,major,M,intermediate
+Harry Maylie,Oliver Twist,4,3,10,0.08333333333333334,0.06666666666666668,M,intermediate,M,major
+Kags,Toby Crackit,7,4,17,0.0,0.014705882352941176,M,minor,M,intermediate
+Martha,Mrs. Corney,1,2,2,0.0,0.0,F,minor,F,major
+Monks,Mrs. Corney,6,2,12,0.0,0.0,M,major,F,major
+Mr. Blathers,Mr. Duff,5,2,10,0.0,0.0,M,intermediate,M,minor
+Mr. Blathers,Rose Maylie,8,2,16,0.0,0.0,M,intermediate,F,major
+Mr. Brittles,Mr. Giles,5,4,12,-0.016666666666666673,-0.020833333333333343,M,minor,M,intermediate
+Mr. Brownlow,Mr. Grimwig,8,4,26,0.03125,0.019230769230769232,M,major,M,intermediate
+Mr. Brownlow,Mrs. Maylie,2,2,4,0.0,0.0,M,major,F,intermediate
+Mr. Brownlow,Oliver Twist,8,5,26,0.10624999999999998,0.0923076923076923,M,major,M,major
+Mr. Brownlow,Rose Maylie,9,6,38,0.08333333333333333,0.07456140350877194,M,major,F,major
+Mr. Brownlow,The Officer,3,2,6,0.0,0.0,M,major,M,minor
+Mr. Bumble,Monks,4,3,9,-0.12499999999999999,-0.1111111111111111,M,major,M,major
+Mr. Bumble,Mrs. Corney,6,5,18,-0.013888888888888895,-1.2335811384723961e-17,M,major,F,major
+Mr. Bumble,Mrs. Mann,7,4,18,-0.09523809523809525,-0.06944444444444445,M,major,F,intermediate
+Mr. Bumble,Oliver Twist,2,2,4,0.0,0.0,M,major,M,major
+Mr. Bumble,The Gentleman In The White Waistcoat,1,2,2,0.0,0.0,M,major,M,minor
+Mr. Chitling,Fagin,7,3,20,-0.023809523809523805,-0.016666666666666663,M,intermediate,M,major
+Mr. Chitling,Kags,9,3,26,0.0,0.0,M,intermediate,M,minor
+Mr. Duff,Mr. Losberne,2,2,4,0.0,0.0,M,minor,M,major
+Mr. Gamfield,The Gentleman In The White Waistcoat,6,2,12,0.0,0.0,M,minor,M,minor
+Mr. Giles,Harry Maylie,3,2,6,0.0,0.0,M,intermediate,M,intermediate
+Mr. Giles,Mr. Brittles,6,4,16,-0.05555555555555556,-0.0625,M,intermediate,M,minor
+Mr. Giles,Rose Maylie,3,3,6,-0.11111111111111109,-0.11111111111111109,M,intermediate,F,major
+Mr. Giles,The Tinker,5,2,10,0.0,0.0,M,intermediate,M,minor
+Mr. Grimwig,Mr. Brownlow,8,7,30,0.06726190476190477,0.0666666666666667,M,intermediate,M,major
+Mr. Limbkins,The Gentleman In The White Waistcoat,8,4,21,-6.938893903907228e-18,-0.01190476190476191,M,minor,M,minor
+Mr. Losberne,Mr. Blathers,8,4,23,-0.08333333333333334,-0.07608695652173914,M,major,M,intermediate
+Mr. Losberne,Mrs. Maylie,9,4,30,0.027777777777777766,0.02499999999999999,M,major,F,intermediate
+Mrs. Bedwin,Mr. Grimwig,2,2,4,0.0,0.0,F,intermediate,M,intermediate
+Mrs. Bedwin,Oliver Twist,6,3,15,-0.027777777777777773,-0.022222222222222216,F,intermediate,M,major
+Mrs. Bolter,Mrs. Sowerberry,1,2,2,0.0,0.0,F,intermediate,F,intermediate
+Mrs. Corney,Mr. Bumble,9,7,38,-0.08994708994708996,-0.08646616541353386,F,major,M,major
+Mrs. Corney,Mr. Grimwig,1,2,2,0.0,0.0,F,major,M,intermediate
+Mrs. Mann,Dick,4,3,10,-0.04166666666666666,-0.033333333333333326,F,intermediate,M,minor
+Mrs. Mann,Mr. Bumble,1,3,3,0.0,0.0,F,intermediate,M,major
+Mrs. Maylie,Oliver Twist,4,2,8,0.0,0.0,F,intermediate,M,major
+Mrs. Maylie,Rose Maylie,4,2,8,0.0,0.0,F,intermediate,F,major
+Mrs. Sowerberry,Noah Claypole,9,2,18,0.0,0.0,F,intermediate,M,major
+Mrs. Sowerberry,Oliver Twist,2,2,4,0.0,0.0,F,intermediate,M,major
+Nance,Bill Sikes,9,8,51,0.026984126984126975,0.03921568627450979,F,major,M,major
+Nance,Fagin,7,6,19,-0.04523809523809523,-0.035087719298245605,F,major,M,major
+Nance,Mr. Brownlow,3,2,6,0.0,0.0,F,major,M,major
+Nance,Oliver Twist,6,3,12,1.850371707708594e-17,1.850371707708594e-17,F,major,M,major
+Nance,Rose Maylie,6,2,12,0.0,0.0,F,major,F,major
+Noah Claypole,Fagin,7,3,19,0.04761904761904762,0.03508771929824562,M,major,M,major
+Oliver Twist,Bill Sikes,7,3,16,-0.023809523809523805,-0.02083333333333333,M,major,M,major
+Oliver Twist,Charley Bates,6,4,13,0.18055555555555555,0.17307692307692307,M,major,M,intermediate
+Oliver Twist,Fagin,1,3,2,0.0,0.0,M,major,M,major
+Oliver Twist,Harry Maylie,3,3,6,-0.055555555555555525,-0.055555555555555525,M,major,M,intermediate
+Oliver Twist,Mr. Brownlow,4,4,10,0.04166666666666666,0.024999999999999988,M,major,M,major
+Oliver Twist,Mr. Bumble,3,4,6,-0.08333333333333333,-0.08333333333333333,M,major,M,major
+Oliver Twist,Mr. Losberne,5,2,10,0.0,0.0,M,major,M,major
+Oliver Twist,Mrs. Bedwin,4,3,9,-0.12499999999999999,-0.1111111111111111,M,major,F,intermediate
+Oliver Twist,Nance,2,2,4,0.0,0.0,M,major,F,major
+Oliver Twist,The Artful Dodger,2,2,4,0.0,0.0,M,major,M,intermediate
+Rose Maylie,Mr. Brownlow,6,5,17,-0.1416666666666667,-0.15294117647058827,F,major,M,major
+Rose Maylie,Mr. Grimwig,2,2,4,0.0,0.0,F,major,M,intermediate
+Rose Maylie,Mr. Losberne,6,4,16,-0.20833333333333334,-0.1875,F,major,M,major
+Rose Maylie,Mrs. Maylie,4,2,8,0.0,0.0,F,major,F,intermediate
+The Artful Dodger,Fagin,8,7,31,0.005059523809523819,-0.01843317972350229,M,intermediate,M,major
+The Artful Dodger,Oliver Twist,4,3,8,0.08333333333333336,0.08333333333333336,M,intermediate,M,major
+The Artful Dodger,The Jailer At The Dodger's Trial,3,2,6,0.0,0.0,M,intermediate,M,minor
+The Gentleman In The White Waistcoat,Oliver Twist,3,3,7,0.0,0.0,M,minor,M,major
+The Jailer At The Dodger's Trial,The Clerk At The Dodger's Trial,5,2,10,0.0,0.0,M,minor,M,minor
+The Magistrate At The Dodger's Trial,The Artful Dodger,2,2,4,0.0,0.0,M,minor,M,intermediate
+The Officer,Mr. Brownlow,1,2,2,0.0,0.0,M,minor,M,major
+The Tinker,Mr. Giles,5,3,12,0.10000000000000002,0.08333333333333336,M,minor,M,intermediate
+Toby Crackit,Bill Sikes,1,2,2,0.0,0.0,M,intermediate,M,major
+Toby Crackit,Fagin,8,2,16,0.0,0.0,M,intermediate,M,major
+Toby Crackit,Kags,1,2,2,0.0,0.0,M,intermediate,M,minor
+Toby Crackit,Mr. Chitling,9,4,32,-6.1679056923619804e-18,-3.469446951953614e-18,M,intermediate,M,intermediate
+Toby Crackit,Oliver Twist,3,2,6,0.0,0.0,M,intermediate,M,major
+_unknowable,Mr. Limbkins,2,2,4,0.0,0.0,M,intermediate,M,minor

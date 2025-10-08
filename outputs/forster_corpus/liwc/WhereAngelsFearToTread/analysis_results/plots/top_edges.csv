@@ -1,0 +1,21 @@
+﻿a_speaker,b_speaker,n_features,n_pairs,n_triggers_total,mean_conv,mean_conv_w,a_gender,a_category,b_gender,b_category
+Caroline Abbott,Harriet,7,4,21,0.119047619047619,0.119047619047619,F,major,F,major
+Mrs. Herriton,Caroline Abbott,9,7,41,0.1301587301587302,0.1184668989547038,F,intermediate,F,major
+Irma,Mrs. Herriton,6,3,13,0.0833333333333333,0.0769230769230769,F,minor,F,intermediate
+Signor Carella,Spiridione,9,20,91,0.063740580407247,0.0708791208791208,M,major,M,intermediate
+Spiridione,Signor Carella,9,21,112,0.0699640486792189,0.0629251700680272,M,intermediate,M,major
+Signor Carella,Mr. Herriton,9,15,62,0.0447811447811447,0.0440860215053763,M,major,M,major
+Lilia,Mr. Herriton,9,12,71,0.0528058361391694,0.0387323943661971,F,intermediate,M,major
+Mr. Herriton,Harriet,9,68,330,0.0454835215619529,0.034313725490196,M,major,F,major
+Caroline Abbott,Mrs. Herriton,6,5,18,0.0666666666666666,0.0333333333333333,F,major,F,intermediate
+Harriet,Caroline Abbott,7,5,24,0.0642857142857142,0.0333333333333333,F,major,F,major
+Caroline Abbott,Mr. Herriton,9,132,671,0.0380266582347543,0.0319626970148579,F,major,M,major
+Harriet,Mr. Herriton,9,70,322,0.0261350687737494,0.0247116237799467,F,major,M,major
+Mr. Herriton,Little Girl,6,3,15,0.0277777777777777,0.0222222222222222,M,major,F,minor
+Harriet,Mrs. Herriton,8,11,38,-0.011038961038961,0.0215311004784688,F,major,F,intermediate
+Mr. Herriton,Caroline Abbott,9,125,622,0.0196184867864043,0.018032154340836,M,major,F,major
+Signor Carella,Caroline Abbott,9,39,195,0.0240863485047314,0.0168310322156475,M,major,F,major
+Caroline Abbott,Signor Carella,9,38,150,0.0338908031030493,0.0161403508771929,F,major,M,major
+The Landlady,Mr. Herriton,6,4,16,0.0138888888888888,0.0156249999999999,F,minor,M,major
+Mr. Herriton,Mrs. Herriton,9,45,233,0.0159893040931688,0.0114449213161659,M,major,F,intermediate
+Mrs. Herriton,Mr. Herriton,9,42,268,0.0018283670019076,8.699508775047869e-18,F,intermediate,M,major

@@ -1,0 +1,77 @@
+﻿a_speaker,b_speaker,w_ab,w_ba
+Bitzer,Mrs. Sparsit,-0.0314449064449064,-0.0205353868720205
+Bitzer,Thomas Gradgrind,0.0274725274725274,0.0805860805860806
+Cecilia Jupe,Josiah Bounderby,0.0833333333333333,0.1055555555555555
+Cecilia Jupe,Louisa Bounderby,-0.019047619047619,-0.0186649099692578
+Cecilia Jupe,Mr. James Harthouse,0.0095588235294117,-0.0009157509157509
+Cecilia Jupe,Mr. Sleary,0.0,-0.04
+Cecilia Jupe,Rachel Gradgrind,-0.034037558685446,-0.0184331797235023
+Cecilia Jupe,Thomas Gradgrind,0.0004638218923933,-0.0307377049180327
+Cecilia Jupe,Young Thomas,0.0,0.0
+Jane,Louisa Bounderby,0.0909090909090909,0.0285714285714285
+Josiah Bounderby,Cecilia Jupe,0.1055555555555555,0.0833333333333333
+Josiah Bounderby,Louisa Bounderby,0.0465686274509803,0.0766550522648083
+Josiah Bounderby,Mr. E. W. B. Childers,0.0181818181818181,-0.0208333333333333
+Josiah Bounderby,Mr. James Harthouse,0.0560109289617486,0.0115718418514947
+Josiah Bounderby,Mrs. Sparsit,0.0268361581920904,0.0204189714016711
+Josiah Bounderby,Rachel Gradgrind,0.0208333333333333,0.0205128205128205
+Josiah Bounderby,Stephen Blackpool,-0.0458656330749354,0.0541003252867659
+Josiah Bounderby,The Old Woman,0.0,0.0
+Josiah Bounderby,Thomas Gradgrind,-0.0415441896923378,0.0102751358695652
+Josiah Bounderby,Young Thomas,-0.021505376344086,0.0
+Louisa Bounderby,Cecilia Jupe,-0.0186649099692578,-0.019047619047619
+Louisa Bounderby,Jane,0.0285714285714285,0.0909090909090909
+Louisa Bounderby,Josiah Bounderby,0.0766550522648083,0.0465686274509803
+Louisa Bounderby,Mr. James Harthouse,0.0426093514328808,0.0429936305732484
+Louisa Bounderby,Mrs. Gradgrind,0.0359477124183006,-0.0105263157894736
+Louisa Bounderby,Rachel Gradgrind,5.551115123125783e-18,-0.0859538784067086
+Louisa Bounderby,Stephen Blackpool,0.0,-0.0133333333333333
+Louisa Bounderby,Thomas Gradgrind,-0.0359075617961094,-0.0636150921322023
+Louisa Bounderby,Young Thomas,0.0102311481621826,-0.0331429851080506
+Master Kidderminster,Mr. E. W. B. Childers,0.0875,0.0
+Mr. E. W. B. Childers,Josiah Bounderby,-0.0208333333333333,0.0181818181818181
+Mr. E. W. B. Childers,Master Kidderminster,0.0,0.0875
+Mr. E. W. B. Childers,Thomas Gradgrind,0.0101010101010101,0.0241935483870967
+Mr. James Harthouse,Cecilia Jupe,-0.0009157509157509,0.0095588235294117
+Mr. James Harthouse,Josiah Bounderby,0.0115718418514947,0.0560109289617486
+Mr. James Harthouse,Louisa Bounderby,0.0429936305732484,0.0426093514328808
+Mr. James Harthouse,Mrs. Sparsit,0.0343642611683848,-0.0113960113960113
+Mr. James Harthouse,The Waiter,0.0,0.0
+Mr. James Harthouse,Young Thomas,0.0460940392447241,-0.0613269095653919
+Mr. Sleary,Cecilia Jupe,-0.04,0.0
+Mr. Sleary,Thomas Gradgrind,-0.009672619047619,-0.0056689342403628
+Mrs. Gradgrind,Louisa Bounderby,-0.0105263157894736,0.0359477124183006
+Mrs. Gradgrind,Thomas Gradgrind,0.0,0.0
+Mrs. Sparsit,Bitzer,-0.0205353868720205,-0.0314449064449064
+Mrs. Sparsit,Josiah Bounderby,0.0204189714016711,0.0268361581920904
+Mrs. Sparsit,Mr. James Harthouse,-0.0113960113960113,0.0343642611683848
+Mrs. Sparsit,Young Thomas,-0.053125,0.1066176470588235
+Rachel Gradgrind,Cecilia Jupe,-0.0184331797235023,-0.034037558685446
+Rachel Gradgrind,Josiah Bounderby,0.0205128205128205,0.0208333333333333
+Rachel Gradgrind,Louisa Bounderby,-0.0859538784067086,5.551115123125783e-18
+Rachel Gradgrind,Stephen Blackpool,0.0006674082313681,0.019047619047619
+Stephen Blackpool,Josiah Bounderby,0.0541003252867659,-0.0458656330749354
+Stephen Blackpool,Louisa Bounderby,-0.0133333333333333,0.0
+Stephen Blackpool,Rachel Gradgrind,0.019047619047619,0.0006674082313681
+Stephen Blackpool,The Old Woman,-0.0325,0.0455840455840455
+Stephen Blackpool,Young Thomas,-0.125,0.0172413793103448
+The Old Woman,Josiah Bounderby,0.0,0.0
+The Old Woman,Stephen Blackpool,0.0455840455840455,-0.0325
+The Old Woman,Thomas Gradgrind,0.0416666666666666,-0.0416666666666666
+The Waiter,Mr. James Harthouse,0.0,0.0
+Thomas Gradgrind,Bitzer,0.0805860805860806,0.0274725274725274
+Thomas Gradgrind,Cecilia Jupe,-0.0307377049180327,0.0004638218923933
+Thomas Gradgrind,Josiah Bounderby,0.0102751358695652,-0.0415441896923378
+Thomas Gradgrind,Louisa Bounderby,-0.0636150921322023,-0.0359075617961094
+Thomas Gradgrind,Mr. E. W. B. Childers,0.0241935483870967,0.0101010101010101
+Thomas Gradgrind,Mr. Sleary,-0.0056689342403628,-0.009672619047619
+Thomas Gradgrind,Mrs. Gradgrind,0.0,0.0
+Thomas Gradgrind,The Old Woman,-0.0416666666666666,0.0416666666666666
+Thomas Gradgrind,Young Thomas,0.075,0.0
+Young Thomas,Cecilia Jupe,0.0,0.0
+Young Thomas,Josiah Bounderby,0.0,-0.021505376344086
+Young Thomas,Louisa Bounderby,-0.0331429851080506,0.0102311481621826
+Young Thomas,Mr. James Harthouse,-0.0613269095653919,0.0460940392447241
+Young Thomas,Mrs. Sparsit,0.1066176470588235,-0.053125
+Young Thomas,Stephen Blackpool,0.0172413793103448,-0.125
+Young Thomas,Thomas Gradgrind,0.0,0.075

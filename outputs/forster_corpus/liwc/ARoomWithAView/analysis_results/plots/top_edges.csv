@@ -1,0 +1,21 @@
+﻿a_speaker,b_speaker,n_features,n_pairs,n_triggers_total,mean_conv,mean_conv_w,a_gender,a_category,b_gender,b_category
+Sir Harry Otway,Cecil,6,3,12,0.1666666666666666,0.1666666666666666,M,minor,,
+George Emerson,Mr. Beebe,5,7,13,0.1428571428571428,0.1428571428571428,M,intermediate,M,major
+Lucy,Powell,2,3,5,0.1666666666666666,0.1333333333333333,,,M,minor
+Mrs. Honeychurch,Sir Harry Otway,9,5,29,0.1148148148148148,0.1172413793103448,F,major,M,minor
+Mr. Beebe,Miss Bartlett,9,20,98,0.1394179894179894,0.1112244897959183,M,major,F,major
+Miss Bartlett,Mr. Emerson,3,3,6,0.1111111111111111,0.1111111111111111,F,major,M,intermediate
+Miss Bartlett,Miss Lavish,6,5,20,0.1194444444444444,0.1099999999999999,F,major,F,intermediate
+Cecil,Freddy,5,3,11,0.1,0.0909090909090909,,,M,intermediate
+Miss Bartlett,Rev. Cuthbert Eager,9,11,46,0.1269240019240019,0.0909090909090909,F,major,M,intermediate
+Lucy,Sir Harry Otway,6,5,18,0.111111111111111,0.0888888888888888,,,M,minor
+Mr. Beebe,Mr. Vyse,9,3,20,0.0925925925925926,0.0833333333333333,M,major,M,intermediate
+Lucy,Rev. Cuthbert Eager,7,8,22,0.0714285714285714,0.0795454545454545,,,M,intermediate
+George Emerson,Miss Bartlett,8,3,21,0.0833333333333333,0.0634920634920635,M,intermediate,F,major
+George Emerson,Mr. Emerson,7,5,24,0.0714285714285714,0.0583333333333333,M,intermediate,M,intermediate
+Sir Harry Otway,Mrs. Honeychurch,4,4,9,0.0625,0.0555555555555555,M,minor,F,major
+Mr. Beebe,Miss Catherine Alan,7,3,18,0.0714285714285714,0.0555555555555555,M,major,F,minor
+Mr. Emerson,George Emerson,8,9,45,0.051438492063492,0.0444444444444444,M,intermediate,M,intermediate
+Mr. Beebe,George Emerson,8,6,36,0.0625,0.0416666666666666,M,major,M,intermediate
+George Emerson,Mrs. Honeychurch,9,6,24,0.037037037037037,0.0416666666666666,M,intermediate,F,major
+Freddy,Mr. Beebe,9,21,78,0.0464023630690297,0.039072039072039,M,intermediate,M,major

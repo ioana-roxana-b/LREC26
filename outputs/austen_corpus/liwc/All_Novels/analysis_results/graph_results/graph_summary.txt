@@ -9,3 +9,15 @@ reciprocity_sign_match 0.4854
 mutual_edge_pairs 171
 communities_detected 5
 community_sizes 0:40, 1:18, 2:18, 3:14, 4:13
+mean_edge_weight 0.0106
+pos_share 0.4797
+neg_share 0.2716
+edge_weight_gini 0.6057
+reciprocity_both_positive 0.3041
+reciprocity_both_negative 0.0877
+asymmetry_index_mean 0.7467
+out_strength_gini 0.4877
+top10pct_strength_share 0.3317
+pagerank_entropy 0.9212
+modularity_Q 0.7780
+modularity_communities 6

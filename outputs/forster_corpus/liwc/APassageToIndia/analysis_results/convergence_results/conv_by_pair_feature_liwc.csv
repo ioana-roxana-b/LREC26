@@ -1,0 +1,763 @@
+﻿a_speaker,b_speaker,family,n_pairs,n_triggers,n_b_positives_given_trigger,p1,p0,conv,a_gender,a_category,b_gender,b_category
+A Stray Subaltern,Dr. Aziz,adverbs,4,2,1,0.5,0.5,0.0,M,minor,M,major
+A Stray Subaltern,Dr. Aziz,impersonal_pronouns,4,2,0,0.0,0.0,0.0,M,minor,M,major
+A Stray Subaltern,Dr. Aziz,quantifiers,4,2,0,0.0,0.25,-0.25,M,minor,M,major
+A Stray Subaltern,Mr. Turton,adverbs,3,2,1,0.5,0.3333333333333333,0.16666666666666669,M,minor,M,intermediate
+A Stray Subaltern,Mr. Turton,negations,3,2,1,0.5,0.3333333333333333,0.16666666666666669,M,minor,M,intermediate
+A Stray Subaltern,Mr. Turton,personal_pronouns,3,2,2,1.0,1.0,0.0,M,minor,M,intermediate
+A Stray Subaltern,Mr. Turton,prepositions,3,3,3,1.0,1.0,0.0,M,minor,M,intermediate
+Adela Quested,Antony,personal_pronouns,2,2,1,0.5,0.5,0.0,F,major,M,minor
+Adela Quested,Cyril Fielding,adverbs,52,36,23,0.6388888888888888,0.6153846153846154,0.02350427350427342,F,major,M,major
+Adela Quested,Cyril Fielding,articles,52,21,10,0.47619047619047616,0.4230769230769231,0.05311355311355309,F,major,M,major
+Adela Quested,Cyril Fielding,auxiliary_verbs,52,40,29,0.725,0.6730769230769231,0.05192307692307685,F,major,M,major
+Adela Quested,Cyril Fielding,conjunctions,52,25,14,0.56,0.5,0.06000000000000005,F,major,M,major
+Adela Quested,Cyril Fielding,impersonal_pronouns,52,30,19,0.6333333333333333,0.5384615384615384,0.09487179487179487,F,major,M,major
+Adela Quested,Cyril Fielding,negations,52,19,7,0.3684210526315789,0.25,0.11842105263157893,F,major,M,major
+Adela Quested,Cyril Fielding,personal_pronouns,52,41,40,0.975609756097561,0.9230769230769231,0.052532833020637826,F,major,M,major
+Adela Quested,Cyril Fielding,prepositions,52,37,28,0.7567567567567568,0.7115384615384616,0.045218295218295235,F,major,M,major
+Adela Quested,Cyril Fielding,quantifiers,52,19,10,0.5263157894736842,0.4230769230769231,0.10323886639676111,F,major,M,major
+Adela Quested,Dr. Aziz,adverbs,33,19,11,0.5789473684210527,0.6666666666666666,-0.08771929824561397,F,major,M,major
+Adela Quested,Dr. Aziz,articles,33,13,10,0.7692307692307693,0.6060606060606061,0.1631701631701632,F,major,M,major
+Adela Quested,Dr. Aziz,auxiliary_verbs,33,22,16,0.7272727272727273,0.7272727272727273,0.0,F,major,M,major
+Adela Quested,Dr. Aziz,conjunctions,33,13,4,0.3076923076923077,0.5151515151515151,-0.20745920745920743,F,major,M,major
+Adela Quested,Dr. Aziz,impersonal_pronouns,33,19,14,0.7368421052631579,0.5757575757575758,0.16108452950558205,F,major,M,major
+Adela Quested,Dr. Aziz,negations,33,7,2,0.2857142857142857,0.45454545454545453,-0.16883116883116883,F,major,M,major
+Adela Quested,Dr. Aziz,personal_pronouns,33,28,26,0.9285714285714286,0.9393939393939394,-0.010822510822510845,F,major,M,major
+Adela Quested,Dr. Aziz,prepositions,33,23,20,0.8695652173913043,0.7878787878787878,0.08168642951251648,F,major,M,major
+Adela Quested,Dr. Aziz,quantifiers,33,12,7,0.5833333333333334,0.45454545454545453,0.12878787878787884,F,major,M,major
+Adela Quested,Hamidullah,adverbs,8,5,4,0.8,0.5,0.30000000000000004,F,major,M,intermediate
+Adela Quested,Hamidullah,articles,8,2,2,1.0,0.5,0.5,F,major,M,intermediate
+Adela Quested,Hamidullah,auxiliary_verbs,8,7,5,0.7142857142857143,0.625,0.0892857142857143,F,major,M,intermediate
+Adela Quested,Hamidullah,conjunctions,8,3,3,1.0,0.625,0.375,F,major,M,intermediate
+Adela Quested,Hamidullah,impersonal_pronouns,8,3,2,0.6666666666666666,0.375,0.29166666666666663,F,major,M,intermediate
+Adela Quested,Hamidullah,personal_pronouns,8,7,7,1.0,1.0,0.0,F,major,M,intermediate
+Adela Quested,Hamidullah,prepositions,8,6,3,0.5,0.625,-0.125,F,major,M,intermediate
+Adela Quested,Hamidullah,quantifiers,8,2,2,1.0,0.375,0.625,F,major,M,intermediate
+Adela Quested,Miss Derek,auxiliary_verbs,2,2,0,0.0,0.0,0.0,F,major,F,intermediate
+Adela Quested,Miss Derek,negations,2,2,0,0.0,0.0,0.0,F,major,F,intermediate
+Adela Quested,Miss Derek,personal_pronouns,2,2,2,1.0,1.0,0.0,F,major,F,intermediate
+Adela Quested,Mr. Mcbryde,adverbs,13,7,4,0.5714285714285714,0.46153846153846156,0.10989010989010983,F,major,M,intermediate
+Adela Quested,Mr. Mcbryde,articles,13,4,2,0.5,0.6153846153846154,-0.11538461538461542,F,major,M,intermediate
+Adela Quested,Mr. Mcbryde,auxiliary_verbs,13,10,6,0.6,0.6153846153846154,-0.015384615384615441,F,major,M,intermediate
+Adela Quested,Mr. Mcbryde,conjunctions,13,2,0,0.0,0.3076923076923077,-0.3076923076923077,F,major,M,intermediate
+Adela Quested,Mr. Mcbryde,impersonal_pronouns,13,6,2,0.3333333333333333,0.6153846153846154,-0.2820512820512821,F,major,M,intermediate
+Adela Quested,Mr. Mcbryde,negations,13,5,0,0.0,0.15384615384615385,-0.15384615384615385,F,major,M,intermediate
+Adela Quested,Mr. Mcbryde,personal_pronouns,13,10,7,0.7,0.7692307692307693,-0.06923076923076932,F,major,M,intermediate
+Adela Quested,Mr. Mcbryde,prepositions,13,6,5,0.8333333333333334,0.7692307692307693,0.0641025641025641,F,major,M,intermediate
+Adela Quested,Mr. Mcbryde,quantifiers,13,3,2,0.6666666666666666,0.46153846153846156,0.20512820512820507,F,major,M,intermediate
+Adela Quested,Mr. Turton,adverbs,5,3,1,0.3333333333333333,0.2,0.1333333333333333,F,major,M,intermediate
+Adela Quested,Mr. Turton,articles,5,4,2,0.5,0.6,-0.09999999999999998,F,major,M,intermediate
+Adela Quested,Mr. Turton,auxiliary_verbs,5,4,0,0.0,0.0,0.0,F,major,M,intermediate
+Adela Quested,Mr. Turton,conjunctions,5,2,1,0.5,0.2,0.3,F,major,M,intermediate
+Adela Quested,Mr. Turton,impersonal_pronouns,5,4,1,0.25,0.4,-0.15000000000000002,F,major,M,intermediate
+Adela Quested,Mr. Turton,negations,5,2,0,0.0,0.2,-0.2,F,major,M,intermediate
+Adela Quested,Mr. Turton,personal_pronouns,5,5,4,0.8,0.8,0.0,F,major,M,intermediate
+Adela Quested,Mr. Turton,prepositions,5,3,2,0.6666666666666666,0.8,-0.13333333333333341,F,major,M,intermediate
+Adela Quested,Mr. Turton,quantifiers,5,2,0,0.0,0.2,-0.2,F,major,M,intermediate
+Adela Quested,Mrs. Moore,adverbs,36,19,10,0.5263157894736842,0.5833333333333334,-0.05701754385964919,F,major,F,major
+Adela Quested,Mrs. Moore,articles,36,19,12,0.631578947368421,0.4722222222222222,0.1593567251461988,F,major,F,major
+Adela Quested,Mrs. Moore,auxiliary_verbs,36,22,14,0.6363636363636364,0.6388888888888888,-0.002525252525252486,F,major,F,major
+Adela Quested,Mrs. Moore,conjunctions,36,22,11,0.5,0.4722222222222222,0.02777777777777779,F,major,F,major
+Adela Quested,Mrs. Moore,impersonal_pronouns,36,24,10,0.4166666666666667,0.4722222222222222,-0.055555555555555525,F,major,F,major
+Adela Quested,Mrs. Moore,negations,36,13,4,0.3076923076923077,0.2222222222222222,0.0854700854700855,F,major,F,major
+Adela Quested,Mrs. Moore,personal_pronouns,36,29,21,0.7241379310344828,0.7222222222222222,0.0019157088122605526,F,major,F,major
+Adela Quested,Mrs. Moore,prepositions,36,26,18,0.6923076923076923,0.6388888888888888,0.05341880341880345,F,major,F,major
+Adela Quested,Mrs. Moore,quantifiers,36,11,6,0.5454545454545454,0.2777777777777778,0.2676767676767676,F,major,F,major
+Adela Quested,Mrs. Turton,impersonal_pronouns,3,2,0,0.0,0.0,0.0,F,major,F,intermediate
+Adela Quested,Professor Godbole,adverbs,6,2,2,1.0,0.8333333333333334,0.16666666666666663,F,major,M,intermediate
+Adela Quested,Professor Godbole,articles,6,3,1,0.3333333333333333,0.5,-0.16666666666666669,F,major,M,intermediate
+Adela Quested,Professor Godbole,auxiliary_verbs,6,4,3,0.75,0.8333333333333334,-0.08333333333333337,F,major,M,intermediate
+Adela Quested,Professor Godbole,impersonal_pronouns,6,3,1,0.3333333333333333,0.5,-0.16666666666666669,F,major,M,intermediate
+Adela Quested,Professor Godbole,negations,6,2,0,0.0,0.5,-0.5,F,major,M,intermediate
+Adela Quested,Professor Godbole,personal_pronouns,6,5,4,0.8,0.6666666666666666,0.13333333333333341,F,major,M,intermediate
+Adela Quested,Professor Godbole,prepositions,6,2,2,1.0,0.6666666666666666,0.33333333333333337,F,major,M,intermediate
+Adela Quested,Ronny Heaslop,adverbs,55,27,19,0.7037037037037037,0.7090909090909091,-0.005387205387205385,F,major,M,major
+Adela Quested,Ronny Heaslop,articles,55,20,10,0.5,0.45454545454545453,0.04545454545454547,F,major,M,major
+Adela Quested,Ronny Heaslop,auxiliary_verbs,55,35,23,0.6571428571428571,0.6545454545454545,0.0025974025974025983,F,major,M,major
+Adela Quested,Ronny Heaslop,conjunctions,55,23,13,0.5652173913043478,0.5272727272727272,0.037944664031620556,F,major,M,major
+Adela Quested,Ronny Heaslop,impersonal_pronouns,55,22,16,0.7272727272727273,0.6363636363636364,0.09090909090909094,F,major,M,major
+Adela Quested,Ronny Heaslop,negations,55,12,5,0.4166666666666667,0.2727272727272727,0.14393939393939398,F,major,M,major
+Adela Quested,Ronny Heaslop,personal_pronouns,55,45,37,0.8222222222222222,0.8181818181818182,0.004040404040403955,F,major,M,major
+Adela Quested,Ronny Heaslop,prepositions,55,34,24,0.7058823529411765,0.7090909090909091,-0.0032085561497325887,F,major,M,major
+Adela Quested,Ronny Heaslop,quantifiers,55,7,4,0.5714285714285714,0.43636363636363634,0.13506493506493505,F,major,M,major
+Adela Quested,The Nawab Badahur,articles,5,5,4,0.8,0.8,0.0,F,major,M,intermediate
+Adela Quested,The Nawab Badahur,auxiliary_verbs,5,2,0,0.0,0.2,-0.2,F,major,M,intermediate
+Adela Quested,The Nawab Badahur,conjunctions,5,2,0,0.0,0.0,0.0,F,major,M,intermediate
+Adela Quested,The Nawab Badahur,impersonal_pronouns,5,2,0,0.0,0.0,0.0,F,major,M,intermediate
+Adela Quested,The Nawab Badahur,personal_pronouns,5,3,0,0.0,0.2,-0.2,F,major,M,intermediate
+Adela Quested,The Nawab Badahur,prepositions,5,2,1,0.5,0.4,0.09999999999999998,F,major,M,intermediate
+Adela Quested,The Nawab Badahur,quantifiers,5,2,2,1.0,0.4,0.6,F,major,M,intermediate
+Antony,Adela Quested,prepositions,2,2,2,1.0,1.0,0.0,M,minor,F,major
+Cyril Fielding,Adela Quested,adverbs,56,36,24,0.6666666666666666,0.6964285714285714,-0.029761904761904767,M,major,F,major
+Cyril Fielding,Adela Quested,articles,56,24,11,0.4583333333333333,0.375,0.08333333333333331,M,major,F,major
+Cyril Fielding,Adela Quested,auxiliary_verbs,56,36,26,0.7222222222222222,0.75,-0.02777777777777779,M,major,F,major
+Cyril Fielding,Adela Quested,conjunctions,56,28,16,0.5714285714285714,0.5,0.0714285714285714,M,major,F,major
+Cyril Fielding,Adela Quested,impersonal_pronouns,56,29,17,0.5862068965517241,0.5714285714285714,0.014778325123152691,M,major,F,major
+Cyril Fielding,Adela Quested,negations,56,14,4,0.2857142857142857,0.32142857142857145,-0.035714285714285754,M,major,F,major
+Cyril Fielding,Adela Quested,personal_pronouns,56,49,37,0.7551020408163265,0.7678571428571429,-0.012755102040816424,M,major,F,major
+Cyril Fielding,Adela Quested,prepositions,56,39,29,0.7435897435897436,0.7142857142857143,0.02930402930402931,M,major,F,major
+Cyril Fielding,Adela Quested,quantifiers,56,26,10,0.38461538461538464,0.3392857142857143,0.045329670329670335,M,major,F,major
+Cyril Fielding,Dr. Aziz,adverbs,164,80,47,0.5875,0.6036585365853658,-0.016158536585365812,M,major,M,major
+Cyril Fielding,Dr. Aziz,articles,164,70,33,0.4714285714285714,0.5121951219512195,-0.040766550522648104,M,major,M,major
+Cyril Fielding,Dr. Aziz,auxiliary_verbs,164,101,70,0.693069306930693,0.6829268292682927,0.010142477662400284,M,major,M,major
+Cyril Fielding,Dr. Aziz,conjunctions,164,71,43,0.6056338028169014,0.5487804878048781,0.05685331501202329,M,major,M,major
+Cyril Fielding,Dr. Aziz,impersonal_pronouns,164,69,41,0.5942028985507246,0.524390243902439,0.06981265464828557,M,major,M,major
+Cyril Fielding,Dr. Aziz,negations,164,36,10,0.2777777777777778,0.3780487804878049,-0.10027100271002709,M,major,M,major
+Cyril Fielding,Dr. Aziz,personal_pronouns,164,125,107,0.856,0.8353658536585366,0.020634146341463433,M,major,M,major
+Cyril Fielding,Dr. Aziz,prepositions,164,112,78,0.6964285714285714,0.6585365853658537,0.03789198606271771,M,major,M,major
+Cyril Fielding,Dr. Aziz,quantifiers,164,47,21,0.44680851063829785,0.4329268292682927,0.013881681370005172,M,major,M,major
+Cyril Fielding,Hamidullah,adverbs,29,16,13,0.8125,0.7241379310344828,0.08836206896551724,M,major,M,intermediate
+Cyril Fielding,Hamidullah,articles,29,17,9,0.5294117647058824,0.5862068965517241,-0.05679513184584173,M,major,M,intermediate
+Cyril Fielding,Hamidullah,auxiliary_verbs,29,20,17,0.85,0.8275862068965517,0.022413793103448265,M,major,M,intermediate
+Cyril Fielding,Hamidullah,conjunctions,29,13,9,0.6923076923076923,0.5517241379310345,0.14058355437665782,M,major,M,intermediate
+Cyril Fielding,Hamidullah,impersonal_pronouns,29,16,11,0.6875,0.5862068965517241,0.10129310344827591,M,major,M,intermediate
+Cyril Fielding,Hamidullah,negations,29,10,2,0.2,0.3448275862068966,-0.14482758620689656,M,major,M,intermediate
+Cyril Fielding,Hamidullah,personal_pronouns,29,24,16,0.6666666666666666,0.6551724137931034,0.011494252873563204,M,major,M,intermediate
+Cyril Fielding,Hamidullah,prepositions,29,22,17,0.7727272727272727,0.7931034482758621,-0.020376175548589393,M,major,M,intermediate
+Cyril Fielding,Hamidullah,quantifiers,29,13,6,0.46153846153846156,0.41379310344827586,0.04774535809018571,M,major,M,intermediate
+Cyril Fielding,Major Callendar,impersonal_pronouns,2,2,2,1.0,1.0,0.0,M,major,M,intermediate
+Cyril Fielding,Mr. Haq,auxiliary_verbs,5,2,2,1.0,0.8,0.19999999999999996,M,major,M,minor
+Cyril Fielding,Mr. Haq,conjunctions,5,2,0,0.0,0.0,0.0,M,major,M,minor
+Cyril Fielding,Mr. Haq,impersonal_pronouns,5,2,1,0.5,0.4,0.09999999999999998,M,major,M,minor
+Cyril Fielding,Mr. Haq,negations,5,2,0,0.0,0.6,-0.6,M,major,M,minor
+Cyril Fielding,Mr. Haq,personal_pronouns,5,4,3,0.75,0.8,-0.050000000000000044,M,major,M,minor
+Cyril Fielding,Mr. Haq,prepositions,5,4,3,0.75,0.6,0.15000000000000002,M,major,M,minor
+Cyril Fielding,Mr. Haq,quantifiers,5,2,0,0.0,0.0,0.0,M,major,M,minor
+Cyril Fielding,Mr. Mcbryde,adverbs,29,12,10,0.8333333333333334,0.7586206896551724,0.074712643678161,M,major,M,intermediate
+Cyril Fielding,Mr. Mcbryde,articles,29,9,5,0.5555555555555556,0.5172413793103449,0.03831417624521072,M,major,M,intermediate
+Cyril Fielding,Mr. Mcbryde,auxiliary_verbs,29,18,13,0.7222222222222222,0.7586206896551724,-0.036398467432950166,M,major,M,intermediate
+Cyril Fielding,Mr. Mcbryde,conjunctions,29,11,3,0.2727272727272727,0.3793103448275862,-0.10658307210031348,M,major,M,intermediate
+Cyril Fielding,Mr. Mcbryde,impersonal_pronouns,29,15,11,0.7333333333333333,0.7586206896551724,-0.025287356321839094,M,major,M,intermediate
+Cyril Fielding,Mr. Mcbryde,negations,29,5,3,0.6,0.41379310344827586,0.18620689655172412,M,major,M,intermediate
+Cyril Fielding,Mr. Mcbryde,personal_pronouns,29,26,24,0.9230769230769231,0.896551724137931,0.02652519893899208,M,major,M,intermediate
+Cyril Fielding,Mr. Mcbryde,prepositions,29,18,12,0.6666666666666666,0.6896551724137931,-0.02298850574712652,M,major,M,intermediate
+Cyril Fielding,Mr. Mcbryde,quantifiers,29,10,4,0.4,0.3448275862068966,0.05517241379310345,M,major,M,intermediate
+Cyril Fielding,Mr. Turton,adverbs,14,7,3,0.42857142857142855,0.6428571428571429,-0.21428571428571436,M,major,M,intermediate
+Cyril Fielding,Mr. Turton,articles,14,6,4,0.6666666666666666,0.7142857142857143,-0.04761904761904767,M,major,M,intermediate
+Cyril Fielding,Mr. Turton,auxiliary_verbs,14,9,6,0.6666666666666666,0.5714285714285714,0.09523809523809523,M,major,M,intermediate
+Cyril Fielding,Mr. Turton,conjunctions,14,7,6,0.8571428571428571,0.6428571428571429,0.2142857142857142,M,major,M,intermediate
+Cyril Fielding,Mr. Turton,impersonal_pronouns,14,6,5,0.8333333333333334,0.6428571428571429,0.19047619047619047,M,major,M,intermediate
+Cyril Fielding,Mr. Turton,negations,14,6,2,0.3333333333333333,0.2857142857142857,0.047619047619047616,M,major,M,intermediate
+Cyril Fielding,Mr. Turton,personal_pronouns,14,12,9,0.75,0.7857142857142857,-0.0357142857142857,M,major,M,intermediate
+Cyril Fielding,Mr. Turton,prepositions,14,7,6,0.8571428571428571,0.7857142857142857,0.0714285714285714,M,major,M,intermediate
+Cyril Fielding,Mr. Turton,quantifiers,14,4,2,0.5,0.2857142857142857,0.2142857142857143,M,major,M,intermediate
+Cyril Fielding,Mrs. Moore,adverbs,9,4,1,0.25,0.3333333333333333,-0.08333333333333331,M,major,F,major
+Cyril Fielding,Mrs. Moore,articles,9,5,2,0.4,0.3333333333333333,0.06666666666666671,M,major,F,major
+Cyril Fielding,Mrs. Moore,auxiliary_verbs,9,5,3,0.6,0.5555555555555556,0.0444444444444444,M,major,F,major
+Cyril Fielding,Mrs. Moore,conjunctions,9,3,0,0.0,0.2222222222222222,-0.2222222222222222,M,major,F,major
+Cyril Fielding,Mrs. Moore,impersonal_pronouns,9,4,2,0.5,0.2222222222222222,0.2777777777777778,M,major,F,major
+Cyril Fielding,Mrs. Moore,negations,9,2,1,0.5,0.3333333333333333,0.16666666666666669,M,major,F,major
+Cyril Fielding,Mrs. Moore,personal_pronouns,9,4,3,0.75,0.7777777777777778,-0.02777777777777779,M,major,F,major
+Cyril Fielding,Mrs. Moore,prepositions,9,3,1,0.3333333333333333,0.3333333333333333,0.0,M,major,F,major
+Cyril Fielding,Professor Godbole,adverbs,14,8,4,0.5,0.5714285714285714,-0.0714285714285714,M,major,M,intermediate
+Cyril Fielding,Professor Godbole,articles,14,8,6,0.75,0.8571428571428571,-0.1071428571428571,M,major,M,intermediate
+Cyril Fielding,Professor Godbole,auxiliary_verbs,14,11,10,0.9090909090909091,0.9285714285714286,-0.019480519480519543,M,major,M,intermediate
+Cyril Fielding,Professor Godbole,conjunctions,14,7,6,0.8571428571428571,0.6428571428571429,0.2142857142857142,M,major,M,intermediate
+Cyril Fielding,Professor Godbole,impersonal_pronouns,14,7,5,0.7142857142857143,0.7857142857142857,-0.0714285714285714,M,major,M,intermediate
+Cyril Fielding,Professor Godbole,negations,14,6,3,0.5,0.5,0.0,M,major,M,intermediate
+Cyril Fielding,Professor Godbole,personal_pronouns,14,6,5,0.8333333333333334,0.7857142857142857,0.04761904761904767,M,major,M,intermediate
+Cyril Fielding,Professor Godbole,prepositions,14,7,6,0.8571428571428571,0.7857142857142857,0.0714285714285714,M,major,M,intermediate
+Cyril Fielding,Professor Godbole,quantifiers,14,5,4,0.8,0.6428571428571429,0.15714285714285714,M,major,M,intermediate
+Cyril Fielding,Rafi,articles,2,2,2,1.0,1.0,0.0,M,major,M,minor
+Cyril Fielding,Rafi,personal_pronouns,2,2,2,1.0,1.0,0.0,M,major,M,minor
+Cyril Fielding,Ronny Heaslop,articles,3,2,0,0.0,0.3333333333333333,-0.3333333333333333,M,major,M,major
+Cyril Fielding,Ronny Heaslop,auxiliary_verbs,3,2,1,0.5,0.3333333333333333,0.16666666666666669,M,major,M,major
+Cyril Fielding,Ronny Heaslop,impersonal_pronouns,3,3,1,0.3333333333333333,0.3333333333333333,0.0,M,major,M,major
+Cyril Fielding,Ronny Heaslop,personal_pronouns,3,3,3,1.0,1.0,0.0,M,major,M,major
+Cyril Fielding,Ronny Heaslop,prepositions,3,3,1,0.3333333333333333,0.3333333333333333,0.0,M,major,M,major
+Dr. Aziz,A Stray Subaltern,adverbs,3,2,0,0.0,0.3333333333333333,-0.3333333333333333,M,major,M,minor
+Dr. Aziz,Adela Quested,adverbs,34,21,8,0.38095238095238093,0.4411764705882353,-0.06022408963585435,M,major,F,major
+Dr. Aziz,Adela Quested,articles,34,19,10,0.5263157894736842,0.4117647058823529,0.11455108359133126,M,major,F,major
+Dr. Aziz,Adela Quested,auxiliary_verbs,34,26,16,0.6153846153846154,0.6470588235294118,-0.03167420814479638,M,major,F,major
+Dr. Aziz,Adela Quested,conjunctions,34,16,4,0.25,0.29411764705882354,-0.04411764705882354,M,major,F,major
+Dr. Aziz,Adela Quested,impersonal_pronouns,34,18,13,0.7222222222222222,0.5294117647058824,0.19281045751633985,M,major,F,major
+Dr. Aziz,Adela Quested,negations,34,13,2,0.15384615384615385,0.20588235294117646,-0.052036199095022606,M,major,F,major
+Dr. Aziz,Adela Quested,personal_pronouns,34,31,25,0.8064516129032258,0.7941176470588235,0.012333965844402273,M,major,F,major
+Dr. Aziz,Adela Quested,prepositions,34,24,17,0.7083333333333334,0.6176470588235294,0.09068627450980393,M,major,F,major
+Dr. Aziz,Adela Quested,quantifiers,34,18,4,0.2222222222222222,0.3235294117647059,-0.10130718954248369,M,major,F,major
+Dr. Aziz,Cyril Fielding,adverbs,167,101,51,0.504950495049505,0.46706586826347307,0.03788462678603188,M,major,M,major
+Dr. Aziz,Cyril Fielding,articles,167,84,35,0.4166666666666667,0.4251497005988024,-0.00848303393213573,M,major,M,major
+Dr. Aziz,Cyril Fielding,auxiliary_verbs,167,115,72,0.6260869565217392,0.6047904191616766,0.02129653736006254,M,major,M,major
+Dr. Aziz,Cyril Fielding,conjunctions,167,91,37,0.4065934065934066,0.4550898203592814,-0.048496413765874824,M,major,M,major
+Dr. Aziz,Cyril Fielding,impersonal_pronouns,167,89,38,0.42696629213483145,0.4431137724550898,-0.016147480320258367,M,major,M,major
+Dr. Aziz,Cyril Fielding,negations,167,63,14,0.2222222222222222,0.2275449101796407,-0.005322687957418498,M,major,M,major
+Dr. Aziz,Cyril Fielding,personal_pronouns,167,140,108,0.7714285714285715,0.7544910179640718,0.016937553464499655,M,major,M,major
+Dr. Aziz,Cyril Fielding,prepositions,167,111,77,0.6936936936936937,0.6946107784431138,-0.000917084749420094,M,major,M,major
+Dr. Aziz,Cyril Fielding,quantifiers,167,72,20,0.2777777777777778,0.2634730538922156,0.014304723885562198,M,major,M,major
+Dr. Aziz,Dr. Panna Lal,adverbs,8,5,3,0.6,0.5,0.09999999999999998,M,major,M,intermediate
+Dr. Aziz,Dr. Panna Lal,articles,8,2,1,0.5,0.375,0.125,M,major,M,intermediate
+Dr. Aziz,Dr. Panna Lal,auxiliary_verbs,8,4,3,0.75,0.625,0.125,M,major,M,intermediate
+Dr. Aziz,Dr. Panna Lal,conjunctions,8,5,3,0.6,0.5,0.09999999999999998,M,major,M,intermediate
+Dr. Aziz,Dr. Panna Lal,negations,8,2,1,0.5,0.25,0.25,M,major,M,intermediate
+Dr. Aziz,Dr. Panna Lal,personal_pronouns,8,7,7,1.0,0.875,0.125,M,major,M,intermediate
+Dr. Aziz,Dr. Panna Lal,prepositions,8,5,3,0.6,0.625,-0.025000000000000022,M,major,M,intermediate
+Dr. Aziz,Dr. Panna Lal,quantifiers,8,3,2,0.6666666666666666,0.375,0.29166666666666663,M,major,M,intermediate
+Dr. Aziz,Hamidullah,adverbs,26,16,12,0.75,0.6923076923076923,0.05769230769230771,M,major,M,intermediate
+Dr. Aziz,Hamidullah,articles,26,13,8,0.6153846153846154,0.5769230769230769,0.03846153846153855,M,major,M,intermediate
+Dr. Aziz,Hamidullah,auxiliary_verbs,26,22,18,0.8181818181818182,0.8076923076923077,0.010489510489510523,M,major,M,intermediate
+Dr. Aziz,Hamidullah,conjunctions,26,17,11,0.6470588235294118,0.6538461538461539,-0.006787330316742057,M,major,M,intermediate
+Dr. Aziz,Hamidullah,impersonal_pronouns,26,11,5,0.45454545454545453,0.46153846153846156,-0.006993006993007034,M,major,M,intermediate
+Dr. Aziz,Hamidullah,negations,26,13,10,0.7692307692307693,0.5384615384615384,0.23076923076923084,M,major,M,intermediate
+Dr. Aziz,Hamidullah,personal_pronouns,26,20,17,0.85,0.8846153846153846,-0.0346153846153846,M,major,M,intermediate
+Dr. Aziz,Hamidullah,prepositions,26,19,10,0.5263157894736842,0.5384615384615384,-0.012145748987854255,M,major,M,intermediate
+Dr. Aziz,Hamidullah,quantifiers,26,8,5,0.625,0.5384615384615384,0.08653846153846156,M,major,M,intermediate
+Dr. Aziz,Hassan,adverbs,6,5,2,0.4,0.3333333333333333,0.06666666666666671,M,major,M,minor
+Dr. Aziz,Hassan,articles,6,2,1,0.5,0.16666666666666666,0.33333333333333337,M,major,M,minor
+Dr. Aziz,Hassan,auxiliary_verbs,6,4,1,0.25,0.3333333333333333,-0.08333333333333331,M,major,M,minor
+Dr. Aziz,Hassan,conjunctions,6,2,1,0.5,0.16666666666666666,0.33333333333333337,M,major,M,minor
+Dr. Aziz,Hassan,impersonal_pronouns,6,4,1,0.25,0.16666666666666666,0.08333333333333334,M,major,M,minor
+Dr. Aziz,Hassan,personal_pronouns,6,5,3,0.6,0.5,0.09999999999999998,M,major,M,minor
+Dr. Aziz,Hassan,prepositions,6,4,1,0.25,0.3333333333333333,-0.08333333333333331,M,major,M,minor
+Dr. Aziz,Hassan,quantifiers,6,2,0,0.0,0.0,0.0,M,major,M,minor
+Dr. Aziz,Mahmoud Ali,adverbs,5,2,0,0.0,0.4,-0.4,M,major,M,intermediate
+Dr. Aziz,Mahmoud Ali,articles,5,2,1,0.5,0.4,0.09999999999999998,M,major,M,intermediate
+Dr. Aziz,Mahmoud Ali,auxiliary_verbs,5,2,1,0.5,0.6,-0.09999999999999998,M,major,M,intermediate
+Dr. Aziz,Mahmoud Ali,conjunctions,5,2,1,0.5,0.2,0.3,M,major,M,intermediate
+Dr. Aziz,Mahmoud Ali,personal_pronouns,5,4,3,0.75,0.8,-0.050000000000000044,M,major,M,intermediate
+Dr. Aziz,Major Callendar,personal_pronouns,2,2,2,1.0,1.0,0.0,M,major,M,intermediate
+Dr. Aziz,Mohammed Latif,adverbs,3,3,0,0.0,0.0,0.0,M,major,M,minor
+Dr. Aziz,Mohammed Latif,articles,3,3,0,0.0,0.0,0.0,M,major,M,minor
+Dr. Aziz,Mohammed Latif,auxiliary_verbs,3,3,1,0.3333333333333333,0.3333333333333333,0.0,M,major,M,minor
+Dr. Aziz,Mohammed Latif,conjunctions,3,3,0,0.0,0.0,0.0,M,major,M,minor
+Dr. Aziz,Mohammed Latif,impersonal_pronouns,3,2,0,0.0,0.0,0.0,M,major,M,minor
+Dr. Aziz,Mohammed Latif,negations,3,3,0,0.0,0.0,0.0,M,major,M,minor
+Dr. Aziz,Mohammed Latif,personal_pronouns,3,3,2,0.6666666666666666,0.6666666666666666,0.0,M,major,M,minor
+Dr. Aziz,Mohammed Latif,prepositions,3,3,1,0.3333333333333333,0.3333333333333333,0.0,M,major,M,minor
+Dr. Aziz,Mohammed Latif,quantifiers,3,2,0,0.0,0.0,0.0,M,major,M,minor
+Dr. Aziz,Mr. Das,adverbs,7,5,4,0.8,0.8571428571428571,-0.05714285714285705,M,major,M,intermediate
+Dr. Aziz,Mr. Das,articles,7,3,2,0.6666666666666666,0.7142857142857143,-0.04761904761904767,M,major,M,intermediate
+Dr. Aziz,Mr. Das,auxiliary_verbs,7,7,6,0.8571428571428571,0.8571428571428571,0.0,M,major,M,intermediate
+Dr. Aziz,Mr. Das,conjunctions,7,4,3,0.75,0.7142857142857143,0.0357142857142857,M,major,M,intermediate
+Dr. Aziz,Mr. Das,impersonal_pronouns,7,4,3,0.75,0.5714285714285714,0.1785714285714286,M,major,M,intermediate
+Dr. Aziz,Mr. Das,negations,7,2,1,0.5,0.5714285714285714,-0.0714285714285714,M,major,M,intermediate
+Dr. Aziz,Mr. Das,personal_pronouns,7,6,5,0.8333333333333334,0.8571428571428571,-0.023809523809523725,M,major,M,intermediate
+Dr. Aziz,Mr. Das,prepositions,7,5,4,0.8,0.7142857142857143,0.08571428571428574,M,major,M,intermediate
+Dr. Aziz,Mr. Das,quantifiers,7,3,1,0.3333333333333333,0.42857142857142855,-0.09523809523809523,M,major,M,intermediate
+Dr. Aziz,Mr. Haq,prepositions,2,2,2,1.0,1.0,0.0,M,major,M,minor
+Dr. Aziz,Mrs. Moore,adverbs,37,27,21,0.7777777777777778,0.6486486486486487,0.1291291291291291,M,major,F,major
+Dr. Aziz,Mrs. Moore,articles,37,20,4,0.2,0.21621621621621623,-0.016216216216216217,M,major,F,major
+Dr. Aziz,Mrs. Moore,auxiliary_verbs,37,31,17,0.5483870967741935,0.5135135135135135,0.03487358326068002,M,major,F,major
+Dr. Aziz,Mrs. Moore,conjunctions,37,20,12,0.6,0.5135135135135135,0.08648648648648649,M,major,F,major
+Dr. Aziz,Mrs. Moore,impersonal_pronouns,37,20,4,0.2,0.1891891891891892,0.010810810810810811,M,major,F,major
+Dr. Aziz,Mrs. Moore,negations,37,14,3,0.21428571428571427,0.24324324324324326,-0.028957528957528983,M,major,F,major
+Dr. Aziz,Mrs. Moore,personal_pronouns,37,32,26,0.8125,0.7567567567567568,0.0557432432432432,M,major,F,major
+Dr. Aziz,Mrs. Moore,prepositions,37,22,13,0.5909090909090909,0.4594594594594595,0.13144963144963145,M,major,F,major
+Dr. Aziz,Mrs. Moore,quantifiers,37,17,6,0.35294117647058826,0.2972972972972973,0.055643879173290944,M,major,F,major
+Dr. Aziz,Professor Godbole,adverbs,10,6,2,0.3333333333333333,0.3,0.033333333333333326,M,major,M,intermediate
+Dr. Aziz,Professor Godbole,articles,10,3,1,0.3333333333333333,0.4,-0.06666666666666671,M,major,M,intermediate
+Dr. Aziz,Professor Godbole,auxiliary_verbs,10,6,3,0.5,0.6,-0.09999999999999998,M,major,M,intermediate
+Dr. Aziz,Professor Godbole,conjunctions,10,4,1,0.25,0.3,-0.04999999999999999,M,major,M,intermediate
+Dr. Aziz,Professor Godbole,impersonal_pronouns,10,2,2,1.0,0.6,0.4,M,major,M,intermediate
+Dr. Aziz,Professor Godbole,negations,10,3,2,0.6666666666666666,0.5,0.16666666666666663,M,major,M,intermediate
+Dr. Aziz,Professor Godbole,personal_pronouns,10,8,4,0.5,0.6,-0.09999999999999998,M,major,M,intermediate
+Dr. Aziz,Professor Godbole,prepositions,10,7,3,0.42857142857142855,0.5,-0.07142857142857145,M,major,M,intermediate
+Dr. Aziz,Professor Godbole,quantifiers,10,2,0,0.0,0.3,-0.3,M,major,M,intermediate
+Dr. Aziz,Rafi,adverbs,3,3,1,0.3333333333333333,0.3333333333333333,0.0,M,major,M,minor
+Dr. Aziz,Rafi,articles,3,2,1,0.5,0.3333333333333333,0.16666666666666669,M,major,M,minor
+Dr. Aziz,Rafi,auxiliary_verbs,3,3,0,0.0,0.0,0.0,M,major,M,minor
+Dr. Aziz,Rafi,conjunctions,3,3,1,0.3333333333333333,0.3333333333333333,0.0,M,major,M,minor
+Dr. Aziz,Rafi,impersonal_pronouns,3,3,0,0.0,0.0,0.0,M,major,M,minor
+Dr. Aziz,Rafi,negations,3,2,0,0.0,0.0,0.0,M,major,M,minor
+Dr. Aziz,Rafi,personal_pronouns,3,3,2,0.6666666666666666,0.6666666666666666,0.0,M,major,M,minor
+Dr. Aziz,Rafi,prepositions,3,3,0,0.0,0.0,0.0,M,major,M,minor
+Dr. Aziz,Rafi,quantifiers,3,2,0,0.0,0.0,0.0,M,major,M,minor
+Dr. Aziz,Ralph,adverbs,23,16,5,0.3125,0.30434782608695654,0.008152173913043459,M,major,M,intermediate
+Dr. Aziz,Ralph,articles,23,12,2,0.16666666666666666,0.21739130434782608,-0.050724637681159424,M,major,M,intermediate
+Dr. Aziz,Ralph,auxiliary_verbs,23,18,8,0.4444444444444444,0.4782608695652174,-0.033816425120772986,M,major,M,intermediate
+Dr. Aziz,Ralph,conjunctions,23,9,0,0.0,0.043478260869565216,-0.043478260869565216,M,major,M,intermediate
+Dr. Aziz,Ralph,impersonal_pronouns,23,11,4,0.36363636363636365,0.30434782608695654,0.059288537549407105,M,major,M,intermediate
+Dr. Aziz,Ralph,negations,23,10,4,0.4,0.30434782608695654,0.09565217391304348,M,major,M,intermediate
+Dr. Aziz,Ralph,personal_pronouns,23,18,10,0.5555555555555556,0.5652173913043478,-0.009661835748792202,M,major,M,intermediate
+Dr. Aziz,Ralph,prepositions,23,13,4,0.3076923076923077,0.17391304347826086,0.13377926421404684,M,major,M,intermediate
+Dr. Aziz,Ralph,quantifiers,23,9,0,0.0,0.043478260869565216,-0.043478260869565216,M,major,M,intermediate
+Dr. Aziz,Syed Mohammed,auxiliary_verbs,2,2,0,0.0,0.0,0.0,M,major,M,minor
+Dr. Aziz,Syed Mohammed,impersonal_pronouns,2,2,0,0.0,0.0,0.0,M,major,M,minor
+Dr. Aziz,Syed Mohammed,personal_pronouns,2,2,2,1.0,1.0,0.0,M,major,M,minor
+Dr. Aziz,The Servant,articles,2,2,1,0.5,0.5,0.0,M,major,M,minor
+Dr. Aziz,The Servant,auxiliary_verbs,2,2,1,0.5,0.5,0.0,M,major,M,minor
+Dr. Aziz,The Servant,conjunctions,2,2,0,0.0,0.0,0.0,M,major,M,minor
+Dr. Aziz,The Servant,personal_pronouns,2,2,0,0.0,0.0,0.0,M,major,M,minor
+Dr. Panna Lal,Dr. Aziz,adverbs,9,5,3,0.6,0.6666666666666666,-0.06666666666666665,M,intermediate,M,major
+Dr. Panna Lal,Dr. Aziz,articles,9,3,0,0.0,0.2222222222222222,-0.2222222222222222,M,intermediate,M,major
+Dr. Panna Lal,Dr. Aziz,auxiliary_verbs,9,6,4,0.6666666666666666,0.5555555555555556,0.11111111111111105,M,intermediate,M,major
+Dr. Panna Lal,Dr. Aziz,conjunctions,9,4,1,0.25,0.5555555555555556,-0.3055555555555556,M,intermediate,M,major
+Dr. Panna Lal,Dr. Aziz,impersonal_pronouns,9,4,0,0.0,0.1111111111111111,-0.1111111111111111,M,intermediate,M,major
+Dr. Panna Lal,Dr. Aziz,negations,9,4,0,0.0,0.2222222222222222,-0.2222222222222222,M,intermediate,M,major
+Dr. Panna Lal,Dr. Aziz,personal_pronouns,9,7,6,0.8571428571428571,0.8888888888888888,-0.031746031746031744,M,intermediate,M,major
+Dr. Panna Lal,Dr. Aziz,prepositions,9,6,3,0.5,0.5555555555555556,-0.05555555555555558,M,intermediate,M,major
+Dr. Panna Lal,Dr. Aziz,quantifiers,9,4,0,0.0,0.3333333333333333,-0.3333333333333333,M,intermediate,M,major
+Dr. Panna Lal,Hamidullah,adverbs,6,3,3,1.0,0.8333333333333334,0.16666666666666663,M,intermediate,M,intermediate
+Dr. Panna Lal,Hamidullah,articles,6,2,1,0.5,0.5,0.0,M,intermediate,M,intermediate
+Dr. Panna Lal,Hamidullah,auxiliary_verbs,6,5,4,0.8,0.8333333333333334,-0.033333333333333326,M,intermediate,M,intermediate
+Dr. Panna Lal,Hamidullah,conjunctions,6,2,1,0.5,0.3333333333333333,0.16666666666666669,M,intermediate,M,intermediate
+Dr. Panna Lal,Hamidullah,impersonal_pronouns,6,3,1,0.3333333333333333,0.3333333333333333,0.0,M,intermediate,M,intermediate
+Dr. Panna Lal,Hamidullah,personal_pronouns,6,5,5,1.0,0.8333333333333334,0.16666666666666663,M,intermediate,M,intermediate
+Dr. Panna Lal,Hamidullah,prepositions,6,4,3,0.75,0.6666666666666666,0.08333333333333337,M,intermediate,M,intermediate
+Dr. Panna Lal,Hamidullah,quantifiers,6,2,1,0.5,0.5,0.0,M,intermediate,M,intermediate
+Dr. Panna Lal,Ram Chand,adverbs,3,3,2,0.6666666666666666,0.6666666666666666,0.0,M,intermediate,M,minor
+Dr. Panna Lal,Ram Chand,articles,3,2,1,0.5,0.3333333333333333,0.16666666666666669,M,intermediate,M,minor
+Dr. Panna Lal,Ram Chand,auxiliary_verbs,3,2,2,1.0,0.6666666666666666,0.33333333333333337,M,intermediate,M,minor
+Dr. Panna Lal,Ram Chand,conjunctions,3,2,0,0.0,0.0,0.0,M,intermediate,M,minor
+Dr. Panna Lal,Ram Chand,impersonal_pronouns,3,2,0,0.0,0.0,0.0,M,intermediate,M,minor
+Dr. Panna Lal,Ram Chand,personal_pronouns,3,2,2,1.0,0.6666666666666666,0.33333333333333337,M,intermediate,M,minor
+Hamidullah,Adela Quested,adverbs,6,3,2,0.6666666666666666,0.6666666666666666,0.0,M,intermediate,F,major
+Hamidullah,Adela Quested,articles,6,3,1,0.3333333333333333,0.16666666666666666,0.16666666666666666,M,intermediate,F,major
+Hamidullah,Adela Quested,auxiliary_verbs,6,4,3,0.75,0.6666666666666666,0.08333333333333337,M,intermediate,F,major
+Hamidullah,Adela Quested,conjunctions,6,3,1,0.3333333333333333,0.5,-0.16666666666666669,M,intermediate,F,major
+Hamidullah,Adela Quested,personal_pronouns,6,6,4,0.6666666666666666,0.6666666666666666,0.0,M,intermediate,F,major
+Hamidullah,Adela Quested,prepositions,6,4,3,0.75,0.5,0.25,M,intermediate,F,major
+Hamidullah,Adela Quested,quantifiers,6,2,1,0.5,0.3333333333333333,0.16666666666666669,M,intermediate,F,major
+Hamidullah,Cyril Fielding,adverbs,29,22,15,0.6818181818181818,0.6551724137931034,0.026645768025078342,M,intermediate,M,major
+Hamidullah,Cyril Fielding,articles,29,16,10,0.625,0.5517241379310345,0.07327586206896552,M,intermediate,M,major
+Hamidullah,Cyril Fielding,auxiliary_verbs,29,24,18,0.75,0.6896551724137931,0.06034482758620685,M,intermediate,M,major
+Hamidullah,Cyril Fielding,conjunctions,29,19,8,0.42105263157894735,0.41379310344827586,0.007259528130671489,M,intermediate,M,major
+Hamidullah,Cyril Fielding,impersonal_pronouns,29,16,8,0.5,0.4827586206896552,0.017241379310344807,M,intermediate,M,major
+Hamidullah,Cyril Fielding,negations,29,13,6,0.46153846153846156,0.3448275862068966,0.11671087533156499,M,intermediate,M,major
+Hamidullah,Cyril Fielding,personal_pronouns,29,19,14,0.7368421052631579,0.7931034482758621,-0.056261343012704246,M,intermediate,M,major
+Hamidullah,Cyril Fielding,prepositions,29,22,19,0.8636363636363636,0.7931034482758621,0.07053291536050155,M,intermediate,M,major
+Hamidullah,Cyril Fielding,quantifiers,29,14,8,0.5714285714285714,0.4482758620689655,0.12315270935960587,M,intermediate,M,major
+Hamidullah,Dr. Aziz,adverbs,24,16,10,0.625,0.625,0.0,M,intermediate,M,major
+Hamidullah,Dr. Aziz,articles,24,16,9,0.5625,0.5833333333333334,-0.02083333333333337,M,intermediate,M,major
+Hamidullah,Dr. Aziz,auxiliary_verbs,24,18,16,0.8888888888888888,0.9166666666666666,-0.02777777777777779,M,intermediate,M,major
+Hamidullah,Dr. Aziz,conjunctions,24,15,10,0.6666666666666666,0.7083333333333334,-0.04166666666666674,M,intermediate,M,major
+Hamidullah,Dr. Aziz,impersonal_pronouns,24,11,7,0.6363636363636364,0.5,0.13636363636363635,M,intermediate,M,major
+Hamidullah,Dr. Aziz,negations,24,11,6,0.5454545454545454,0.5833333333333334,-0.037878787878787956,M,intermediate,M,major
+Hamidullah,Dr. Aziz,personal_pronouns,24,21,18,0.8571428571428571,0.7916666666666666,0.06547619047619047,M,intermediate,M,major
+Hamidullah,Dr. Aziz,prepositions,24,14,12,0.8571428571428571,0.75,0.1071428571428571,M,intermediate,M,major
+Hamidullah,Dr. Aziz,quantifiers,24,14,5,0.35714285714285715,0.4166666666666667,-0.059523809523809534,M,intermediate,M,major
+Hamidullah,Dr. Panna Lal,adverbs,7,6,4,0.6666666666666666,0.5714285714285714,0.09523809523809523,M,intermediate,M,intermediate
+Hamidullah,Dr. Panna Lal,articles,7,5,3,0.6,0.42857142857142855,0.17142857142857143,M,intermediate,M,intermediate
+Hamidullah,Dr. Panna Lal,auxiliary_verbs,7,6,4,0.6666666666666666,0.5714285714285714,0.09523809523809523,M,intermediate,M,intermediate
+Hamidullah,Dr. Panna Lal,conjunctions,7,2,1,0.5,0.42857142857142855,0.07142857142857145,M,intermediate,M,intermediate
+Hamidullah,Dr. Panna Lal,impersonal_pronouns,7,2,2,1.0,0.5714285714285714,0.4285714285714286,M,intermediate,M,intermediate
+Hamidullah,Dr. Panna Lal,personal_pronouns,7,6,3,0.5,0.5714285714285714,-0.0714285714285714,M,intermediate,M,intermediate
+Hamidullah,Dr. Panna Lal,prepositions,7,4,0,0.0,0.2857142857142857,-0.2857142857142857,M,intermediate,M,intermediate
+Hamidullah,Dr. Panna Lal,quantifiers,7,2,0,0.0,0.14285714285714285,-0.14285714285714285,M,intermediate,M,intermediate
+Hamidullah,Mahmoud Ali,adverbs,9,6,4,0.6666666666666666,0.7777777777777778,-0.11111111111111116,M,intermediate,M,intermediate
+Hamidullah,Mahmoud Ali,articles,9,4,0,0.0,0.4444444444444444,-0.4444444444444444,M,intermediate,M,intermediate
+Hamidullah,Mahmoud Ali,auxiliary_verbs,9,8,6,0.75,0.7777777777777778,-0.02777777777777779,M,intermediate,M,intermediate
+Hamidullah,Mahmoud Ali,conjunctions,9,5,3,0.6,0.6666666666666666,-0.06666666666666665,M,intermediate,M,intermediate
+Hamidullah,Mahmoud Ali,impersonal_pronouns,9,5,3,0.6,0.5555555555555556,0.0444444444444444,M,intermediate,M,intermediate
+Hamidullah,Mahmoud Ali,negations,9,4,1,0.25,0.4444444444444444,-0.19444444444444442,M,intermediate,M,intermediate
+Hamidullah,Mahmoud Ali,personal_pronouns,9,7,5,0.7142857142857143,0.7777777777777778,-0.06349206349206349,M,intermediate,M,intermediate
+Hamidullah,Mahmoud Ali,prepositions,9,4,3,0.75,0.8888888888888888,-0.13888888888888884,M,intermediate,M,intermediate
+Hamidullah,Mahmoud Ali,quantifiers,9,4,1,0.25,0.3333333333333333,-0.08333333333333331,M,intermediate,M,intermediate
+Hamidullah,Ram Chand,auxiliary_verbs,2,2,2,1.0,1.0,0.0,M,intermediate,M,minor
+Hamidullah,Ram Chand,impersonal_pronouns,2,2,2,1.0,1.0,0.0,M,intermediate,M,minor
+Hamidullah,Ram Chand,personal_pronouns,2,2,2,1.0,1.0,0.0,M,intermediate,M,minor
+Hamidullah,Ram Chand,prepositions,2,2,2,1.0,1.0,0.0,M,intermediate,M,minor
+Hassan,Dr. Aziz,personal_pronouns,6,2,2,1.0,0.8333333333333334,0.16666666666666663,M,minor,M,major
+Mahmoud Ali,Dr. Aziz,articles,4,2,1,0.5,0.25,0.25,M,intermediate,M,major
+Mahmoud Ali,Dr. Aziz,auxiliary_verbs,4,3,1,0.3333333333333333,0.25,0.08333333333333331,M,intermediate,M,major
+Mahmoud Ali,Dr. Aziz,personal_pronouns,4,3,3,1.0,0.75,0.25,M,intermediate,M,major
+Mahmoud Ali,Dr. Aziz,prepositions,4,2,0,0.0,0.25,-0.25,M,intermediate,M,major
+Mahmoud Ali,Hamidullah,adverbs,9,7,4,0.5714285714285714,0.5555555555555556,0.015873015873015817,M,intermediate,M,intermediate
+Mahmoud Ali,Hamidullah,articles,9,4,3,0.75,0.6666666666666666,0.08333333333333337,M,intermediate,M,intermediate
+Mahmoud Ali,Hamidullah,auxiliary_verbs,9,8,5,0.625,0.6666666666666666,-0.04166666666666663,M,intermediate,M,intermediate
+Mahmoud Ali,Hamidullah,conjunctions,9,7,5,0.7142857142857143,0.6666666666666666,0.04761904761904767,M,intermediate,M,intermediate
+Mahmoud Ali,Hamidullah,impersonal_pronouns,9,6,4,0.6666666666666666,0.6666666666666666,0.0,M,intermediate,M,intermediate
+Mahmoud Ali,Hamidullah,negations,9,5,1,0.2,0.3333333333333333,-0.1333333333333333,M,intermediate,M,intermediate
+Mahmoud Ali,Hamidullah,personal_pronouns,9,8,6,0.75,0.7777777777777778,-0.02777777777777779,M,intermediate,M,intermediate
+Mahmoud Ali,Hamidullah,prepositions,9,8,4,0.5,0.5555555555555556,-0.05555555555555558,M,intermediate,M,intermediate
+Mahmoud Ali,Hamidullah,quantifiers,9,3,1,0.3333333333333333,0.6666666666666666,-0.3333333333333333,M,intermediate,M,intermediate
+Mahmoud Ali,Mr. Das,articles,3,3,0,0.0,0.0,0.0,M,intermediate,M,intermediate
+Mahmoud Ali,Mr. Das,auxiliary_verbs,3,3,3,1.0,1.0,0.0,M,intermediate,M,intermediate
+Mahmoud Ali,Mr. Das,conjunctions,3,3,2,0.6666666666666666,0.6666666666666666,0.0,M,intermediate,M,intermediate
+Mahmoud Ali,Mr. Das,negations,3,2,1,0.5,0.6666666666666666,-0.16666666666666663,M,intermediate,M,intermediate
+Mahmoud Ali,Mr. Das,personal_pronouns,3,3,3,1.0,1.0,0.0,M,intermediate,M,intermediate
+Mahmoud Ali,Mr. Das,prepositions,3,3,3,1.0,1.0,0.0,M,intermediate,M,intermediate
+Mahmoud Ali,Mr. Das,quantifiers,3,2,0,0.0,0.0,0.0,M,intermediate,M,intermediate
+Mahmoud Ali,Mr. Mcbryde,conjunctions,2,2,1,0.5,0.5,0.0,M,intermediate,M,intermediate
+Mahmoud Ali,Mr. Mcbryde,impersonal_pronouns,2,2,1,0.5,0.5,0.0,M,intermediate,M,intermediate
+Mahmoud Ali,Mr. Mcbryde,prepositions,2,2,1,0.5,0.5,0.0,M,intermediate,M,intermediate
+Mahmoud Ali,The Nawab Badahur,adverbs,5,3,2,0.6666666666666666,0.6,0.06666666666666665,M,intermediate,M,intermediate
+Mahmoud Ali,The Nawab Badahur,articles,5,4,3,0.75,0.8,-0.050000000000000044,M,intermediate,M,intermediate
+Mahmoud Ali,The Nawab Badahur,auxiliary_verbs,5,3,3,1.0,1.0,0.0,M,intermediate,M,intermediate
+Mahmoud Ali,The Nawab Badahur,conjunctions,5,2,1,0.5,0.4,0.09999999999999998,M,intermediate,M,intermediate
+Mahmoud Ali,The Nawab Badahur,impersonal_pronouns,5,2,1,0.5,0.4,0.09999999999999998,M,intermediate,M,intermediate
+Mahmoud Ali,The Nawab Badahur,negations,5,2,2,1.0,1.0,0.0,M,intermediate,M,intermediate
+Mahmoud Ali,The Nawab Badahur,personal_pronouns,5,4,4,1.0,0.8,0.19999999999999996,M,intermediate,M,intermediate
+Mahmoud Ali,The Nawab Badahur,prepositions,5,4,2,0.5,0.6,-0.09999999999999998,M,intermediate,M,intermediate
+Major Callendar,Cyril Fielding,articles,2,2,0,0.0,0.0,0.0,M,intermediate,M,major
+Major Callendar,Cyril Fielding,auxiliary_verbs,2,2,1,0.5,0.5,0.0,M,intermediate,M,major
+Major Callendar,Cyril Fielding,impersonal_pronouns,2,2,2,1.0,1.0,0.0,M,intermediate,M,major
+Major Callendar,Cyril Fielding,personal_pronouns,2,2,1,0.5,0.5,0.0,M,intermediate,M,major
+Major Callendar,Cyril Fielding,prepositions,2,2,0,0.0,0.0,0.0,M,intermediate,M,major
+Major Callendar,Dr. Aziz,adverbs,3,2,0,0.0,0.3333333333333333,-0.3333333333333333,M,intermediate,M,major
+Major Callendar,Dr. Aziz,articles,3,3,1,0.3333333333333333,0.3333333333333333,0.0,M,intermediate,M,major
+Major Callendar,Dr. Aziz,auxiliary_verbs,3,3,2,0.6666666666666666,0.6666666666666666,0.0,M,intermediate,M,major
+Major Callendar,Dr. Aziz,conjunctions,3,2,0,0.0,0.3333333333333333,-0.3333333333333333,M,intermediate,M,major
+Major Callendar,Dr. Aziz,impersonal_pronouns,3,2,1,0.5,0.6666666666666666,-0.16666666666666663,M,intermediate,M,major
+Major Callendar,Dr. Aziz,negations,3,2,0,0.0,0.0,0.0,M,intermediate,M,major
+Major Callendar,Dr. Aziz,personal_pronouns,3,3,3,1.0,1.0,0.0,M,intermediate,M,major
+Major Callendar,Dr. Aziz,prepositions,3,3,2,0.6666666666666666,0.6666666666666666,0.0,M,intermediate,M,major
+Major Callendar,Mr. Das,auxiliary_verbs,3,2,2,1.0,0.6666666666666666,0.33333333333333337,M,intermediate,M,intermediate
+Major Callendar,Mr. Das,impersonal_pronouns,3,2,0,0.0,0.0,0.0,M,intermediate,M,intermediate
+Major Callendar,Mr. Das,personal_pronouns,3,3,3,1.0,1.0,0.0,M,intermediate,M,intermediate
+Major Callendar,Mr. Das,prepositions,3,2,1,0.5,0.6666666666666666,-0.16666666666666663,M,intermediate,M,intermediate
+Major Callendar,Mr. Turton,adverbs,3,2,2,1.0,1.0,0.0,M,intermediate,M,intermediate
+Major Callendar,Mr. Turton,articles,3,2,1,0.5,0.3333333333333333,0.16666666666666669,M,intermediate,M,intermediate
+Major Callendar,Mr. Turton,auxiliary_verbs,3,3,2,0.6666666666666666,0.6666666666666666,0.0,M,intermediate,M,intermediate
+Major Callendar,Mr. Turton,conjunctions,3,2,1,0.5,0.3333333333333333,0.16666666666666669,M,intermediate,M,intermediate
+Major Callendar,Mr. Turton,impersonal_pronouns,3,2,2,1.0,0.6666666666666666,0.33333333333333337,M,intermediate,M,intermediate
+Major Callendar,Mr. Turton,personal_pronouns,3,3,3,1.0,1.0,0.0,M,intermediate,M,intermediate
+Major Callendar,Mr. Turton,prepositions,3,2,2,1.0,1.0,0.0,M,intermediate,M,intermediate
+Major Callendar,Mrs. Lesley,adverbs,6,3,2,0.6666666666666666,0.6666666666666666,0.0,M,intermediate,F,minor
+Major Callendar,Mrs. Lesley,articles,6,3,0,0.0,0.16666666666666666,-0.16666666666666666,M,intermediate,F,minor
+Major Callendar,Mrs. Lesley,auxiliary_verbs,6,5,2,0.4,0.5,-0.09999999999999998,M,intermediate,F,minor
+Major Callendar,Mrs. Lesley,conjunctions,6,4,0,0.0,0.0,0.0,M,intermediate,F,minor
+Major Callendar,Mrs. Lesley,impersonal_pronouns,6,4,3,0.75,0.5,0.25,M,intermediate,F,minor
+Major Callendar,Mrs. Lesley,negations,6,4,0,0.0,0.0,0.0,M,intermediate,F,minor
+Major Callendar,Mrs. Lesley,personal_pronouns,6,5,1,0.2,0.3333333333333333,-0.1333333333333333,M,intermediate,F,minor
+Major Callendar,Mrs. Lesley,prepositions,6,5,2,0.4,0.3333333333333333,0.06666666666666671,M,intermediate,F,minor
+Major Callendar,Mrs. Lesley,quantifiers,6,3,1,0.3333333333333333,0.16666666666666666,0.16666666666666666,M,intermediate,F,minor
+Major Callendar,Mrs. Turton,adverbs,2,2,1,0.5,0.5,0.0,M,intermediate,F,intermediate
+Major Callendar,Mrs. Turton,articles,2,2,1,0.5,0.5,0.0,M,intermediate,F,intermediate
+Major Callendar,Mrs. Turton,conjunctions,2,2,1,0.5,0.5,0.0,M,intermediate,F,intermediate
+Major Callendar,Mrs. Turton,impersonal_pronouns,2,2,1,0.5,0.5,0.0,M,intermediate,F,intermediate
+Major Callendar,Mrs. Turton,negations,2,2,0,0.0,0.0,0.0,M,intermediate,F,intermediate
+Major Callendar,Mrs. Turton,personal_pronouns,2,2,1,0.5,0.5,0.0,M,intermediate,F,intermediate
+Major Callendar,Mrs. Turton,prepositions,2,2,2,1.0,1.0,0.0,M,intermediate,F,intermediate
+Major Callendar,Ronny Heaslop,personal_pronouns,2,2,1,0.5,0.5,0.0,M,intermediate,M,major
+Miss Derek,Adela Quested,auxiliary_verbs,4,3,3,1.0,1.0,0.0,F,intermediate,F,major
+Miss Derek,Adela Quested,negations,4,2,2,1.0,0.75,0.25,F,intermediate,F,major
+Miss Derek,Adela Quested,personal_pronouns,4,3,3,1.0,1.0,0.0,F,intermediate,F,major
+Miss Derek,Adela Quested,prepositions,4,2,1,0.5,0.75,-0.25,F,intermediate,F,major
+Miss Derek,Ronny Heaslop,adverbs,8,4,2,0.5,0.5,0.0,F,intermediate,M,major
+Miss Derek,Ronny Heaslop,articles,8,3,1,0.3333333333333333,0.5,-0.16666666666666669,F,intermediate,M,major
+Miss Derek,Ronny Heaslop,auxiliary_verbs,8,2,2,1.0,0.5,0.5,F,intermediate,M,major
+Miss Derek,Ronny Heaslop,conjunctions,8,2,0,0.0,0.125,-0.125,F,intermediate,M,major
+Miss Derek,Ronny Heaslop,impersonal_pronouns,8,4,2,0.5,0.375,0.125,F,intermediate,M,major
+Miss Derek,Ronny Heaslop,negations,8,2,1,0.5,0.125,0.375,F,intermediate,M,major
+Miss Derek,Ronny Heaslop,personal_pronouns,8,4,3,0.75,0.75,0.0,F,intermediate,M,major
+Miss Derek,Ronny Heaslop,prepositions,8,3,1,0.3333333333333333,0.375,-0.041666666666666685,F,intermediate,M,major
+Miss Derek,Ronny Heaslop,quantifiers,8,3,0,0.0,0.125,-0.125,F,intermediate,M,major
+Miss Derek,The Nawab Badahur,adverbs,3,3,2,0.6666666666666666,0.6666666666666666,0.0,F,intermediate,M,intermediate
+Miss Derek,The Nawab Badahur,personal_pronouns,3,2,2,1.0,1.0,0.0,F,intermediate,M,intermediate
+Mohammed Latif,Dr. Aziz,personal_pronouns,3,2,2,1.0,1.0,0.0,M,minor,M,major
+Mr. Amritrao,Mr. Das,adverbs,3,2,2,1.0,0.6666666666666666,0.33333333333333337,M,minor,M,intermediate
+Mr. Amritrao,Mr. Das,articles,3,3,1,0.3333333333333333,0.3333333333333333,0.0,M,minor,M,intermediate
+Mr. Amritrao,Mr. Das,auxiliary_verbs,3,3,3,1.0,1.0,0.0,M,minor,M,intermediate
+Mr. Amritrao,Mr. Das,conjunctions,3,2,1,0.5,0.6666666666666666,-0.16666666666666663,M,minor,M,intermediate
+Mr. Amritrao,Mr. Das,impersonal_pronouns,3,2,1,0.5,0.3333333333333333,0.16666666666666669,M,minor,M,intermediate
+Mr. Amritrao,Mr. Das,personal_pronouns,3,3,2,0.6666666666666666,0.6666666666666666,0.0,M,minor,M,intermediate
+Mr. Amritrao,Mr. Das,prepositions,3,3,2,0.6666666666666666,0.6666666666666666,0.0,M,minor,M,intermediate
+Mr. Bhattacharya,Mrs. Moore,auxiliary_verbs,2,2,2,1.0,1.0,0.0,M,minor,F,major
+Mr. Bhattacharya,Mrs. Moore,personal_pronouns,2,2,2,1.0,1.0,0.0,M,minor,F,major
+Mr. Das,Adela Quested,articles,2,2,0,0.0,0.0,0.0,M,intermediate,F,major
+Mr. Das,Adela Quested,personal_pronouns,2,2,1,0.5,0.5,0.0,M,intermediate,F,major
+Mr. Das,Dr. Aziz,adverbs,8,6,3,0.5,0.5,0.0,M,intermediate,M,major
+Mr. Das,Dr. Aziz,articles,8,6,2,0.3333333333333333,0.375,-0.041666666666666685,M,intermediate,M,major
+Mr. Das,Dr. Aziz,auxiliary_verbs,8,7,6,0.8571428571428571,0.875,-0.017857142857142905,M,intermediate,M,major
+Mr. Das,Dr. Aziz,conjunctions,8,6,3,0.5,0.5,0.0,M,intermediate,M,major
+Mr. Das,Dr. Aziz,impersonal_pronouns,8,5,3,0.6,0.5,0.09999999999999998,M,intermediate,M,major
+Mr. Das,Dr. Aziz,negations,8,5,2,0.4,0.375,0.025000000000000022,M,intermediate,M,major
+Mr. Das,Dr. Aziz,personal_pronouns,8,7,6,0.8571428571428571,0.75,0.1071428571428571,M,intermediate,M,major
+Mr. Das,Dr. Aziz,prepositions,8,6,3,0.5,0.625,-0.125,M,intermediate,M,major
+Mr. Das,Dr. Aziz,quantifiers,8,3,2,0.6666666666666666,0.25,0.41666666666666663,M,intermediate,M,major
+Mr. Das,Mahmoud Ali,auxiliary_verbs,3,3,3,1.0,1.0,0.0,M,intermediate,M,intermediate
+Mr. Das,Mahmoud Ali,conjunctions,3,2,2,1.0,1.0,0.0,M,intermediate,M,intermediate
+Mr. Das,Mahmoud Ali,negations,3,2,1,0.5,0.3333333333333333,0.16666666666666669,M,intermediate,M,intermediate
+Mr. Das,Mahmoud Ali,personal_pronouns,3,3,3,1.0,1.0,0.0,M,intermediate,M,intermediate
+Mr. Das,Mahmoud Ali,prepositions,3,3,3,1.0,1.0,0.0,M,intermediate,M,intermediate
+Mr. Das,Mr. Amritrao,auxiliary_verbs,2,2,2,1.0,1.0,0.0,M,intermediate,M,minor
+Mr. Das,Mr. Amritrao,prepositions,2,2,1,0.5,0.5,0.0,M,intermediate,M,minor
+Mr. Das,Mr. Mcbryde,adverbs,5,3,2,0.6666666666666666,0.4,0.2666666666666666,M,intermediate,M,intermediate
+Mr. Das,Mr. Mcbryde,articles,5,3,1,0.3333333333333333,0.4,-0.06666666666666671,M,intermediate,M,intermediate
+Mr. Das,Mr. Mcbryde,auxiliary_verbs,5,4,3,0.75,0.6,0.15000000000000002,M,intermediate,M,intermediate
+Mr. Das,Mr. Mcbryde,conjunctions,5,2,2,1.0,0.4,0.6,M,intermediate,M,intermediate
+Mr. Das,Mr. Mcbryde,impersonal_pronouns,5,2,0,0.0,0.2,-0.2,M,intermediate,M,intermediate
+Mr. Das,Mr. Mcbryde,negations,5,3,2,0.6666666666666666,0.4,0.2666666666666666,M,intermediate,M,intermediate
+Mr. Das,Mr. Mcbryde,personal_pronouns,5,5,4,0.8,0.8,0.0,M,intermediate,M,intermediate
+Mr. Das,Mr. Mcbryde,prepositions,5,2,1,0.5,0.6,-0.09999999999999998,M,intermediate,M,intermediate
+Mr. Das,Mr. Mcbryde,quantifiers,5,3,0,0.0,0.2,-0.2,M,intermediate,M,intermediate
+Mr. Haq,Cyril Fielding,auxiliary_verbs,5,5,2,0.4,0.4,0.0,M,minor,M,major
+Mr. Haq,Cyril Fielding,impersonal_pronouns,5,3,1,0.3333333333333333,0.6,-0.26666666666666666,M,minor,M,major
+Mr. Haq,Cyril Fielding,negations,5,3,1,0.3333333333333333,0.4,-0.06666666666666671,M,minor,M,major
+Mr. Haq,Cyril Fielding,personal_pronouns,5,4,3,0.75,0.8,-0.050000000000000044,M,minor,M,major
+Mr. Haq,Cyril Fielding,prepositions,5,4,3,0.75,0.8,-0.050000000000000044,M,minor,M,major
+Mr. Haq,Dr. Aziz,auxiliary_verbs,2,2,2,1.0,1.0,0.0,M,minor,M,major
+Mr. Haq,Dr. Aziz,impersonal_pronouns,2,2,2,1.0,1.0,0.0,M,minor,M,major
+Mr. Haq,Dr. Aziz,personal_pronouns,2,2,2,1.0,1.0,0.0,M,minor,M,major
+Mr. Haq,Dr. Aziz,prepositions,2,2,1,0.5,0.5,0.0,M,minor,M,major
+Mr. Haq,Syed Mohammed,quantifiers,2,2,1,0.5,0.5,0.0,M,minor,M,minor
+Mr. Harris,The Nawab Badahur,articles,2,2,1,0.5,0.5,0.0,M,minor,M,intermediate
+Mr. Harris,The Nawab Badahur,personal_pronouns,2,2,1,0.5,0.5,0.0,M,minor,M,intermediate
+Mr. Harris,The Nawab Badahur,quantifiers,2,2,1,0.5,0.5,0.0,M,minor,M,intermediate
+Mr. Mcbryde,Adela Quested,adverbs,14,8,6,0.75,0.5714285714285714,0.1785714285714286,M,intermediate,F,major
+Mr. Mcbryde,Adela Quested,articles,14,9,3,0.3333333333333333,0.35714285714285715,-0.023809523809523836,M,intermediate,F,major
+Mr. Mcbryde,Adela Quested,auxiliary_verbs,14,9,7,0.7777777777777778,0.7857142857142857,-0.007936507936507908,M,intermediate,F,major
+Mr. Mcbryde,Adela Quested,conjunctions,14,6,1,0.16666666666666666,0.21428571428571427,-0.047619047619047616,M,intermediate,F,major
+Mr. Mcbryde,Adela Quested,impersonal_pronouns,14,9,5,0.5555555555555556,0.5,0.05555555555555558,M,intermediate,F,major
+Mr. Mcbryde,Adela Quested,negations,14,4,2,0.5,0.42857142857142855,0.07142857142857145,M,intermediate,F,major
+Mr. Mcbryde,Adela Quested,personal_pronouns,14,10,7,0.7,0.7857142857142857,-0.08571428571428574,M,intermediate,F,major
+Mr. Mcbryde,Adela Quested,prepositions,14,11,6,0.5454545454545454,0.5,0.045454545454545414,M,intermediate,F,major
+Mr. Mcbryde,Adela Quested,quantifiers,14,6,1,0.16666666666666666,0.2857142857142857,-0.11904761904761904,M,intermediate,F,major
+Mr. Mcbryde,Cyril Fielding,adverbs,29,22,9,0.4090909090909091,0.3793103448275862,0.02978056426332293,M,intermediate,M,major
+Mr. Mcbryde,Cyril Fielding,articles,29,16,5,0.3125,0.3103448275862069,0.002155172413793094,M,intermediate,M,major
+Mr. Mcbryde,Cyril Fielding,auxiliary_verbs,29,23,15,0.6521739130434783,0.5862068965517241,0.06596701649175418,M,intermediate,M,major
+Mr. Mcbryde,Cyril Fielding,conjunctions,29,12,3,0.25,0.3793103448275862,-0.1293103448275862,M,intermediate,M,major
+Mr. Mcbryde,Cyril Fielding,impersonal_pronouns,29,21,10,0.47619047619047616,0.5172413793103449,-0.0410509031198687,M,intermediate,M,major
+Mr. Mcbryde,Cyril Fielding,negations,29,12,2,0.16666666666666666,0.1724137931034483,-0.00574712643678163,M,intermediate,M,major
+Mr. Mcbryde,Cyril Fielding,personal_pronouns,29,26,24,0.9230769230769231,0.896551724137931,0.02652519893899208,M,intermediate,M,major
+Mr. Mcbryde,Cyril Fielding,prepositions,29,21,13,0.6190476190476191,0.6206896551724138,-0.0016420361247947435,M,intermediate,M,major
+Mr. Mcbryde,Cyril Fielding,quantifiers,29,11,1,0.09090909090909091,0.3793103448275862,-0.28840125391849525,M,intermediate,M,major
+Mr. Mcbryde,Mahmoud Ali,articles,3,2,1,0.5,0.6666666666666666,-0.16666666666666663,M,intermediate,M,intermediate
+Mr. Mcbryde,Mahmoud Ali,auxiliary_verbs,3,2,1,0.5,0.6666666666666666,-0.16666666666666663,M,intermediate,M,intermediate
+Mr. Mcbryde,Mahmoud Ali,negations,3,2,0,0.0,0.0,0.0,M,intermediate,M,intermediate
+Mr. Mcbryde,Mahmoud Ali,personal_pronouns,3,2,1,0.5,0.3333333333333333,0.16666666666666669,M,intermediate,M,intermediate
+Mr. Mcbryde,Mahmoud Ali,quantifiers,3,2,0,0.0,0.0,0.0,M,intermediate,M,intermediate
+Mr. Mcbryde,Major Callendar,personal_pronouns,2,2,2,1.0,1.0,0.0,M,intermediate,M,intermediate
+Mr. Mcbryde,Mr. Das,auxiliary_verbs,3,2,2,1.0,1.0,0.0,M,intermediate,M,intermediate
+Mr. Mcbryde,Mr. Das,personal_pronouns,3,3,3,1.0,1.0,0.0,M,intermediate,M,intermediate
+Mr. Turton,Adela Quested,adverbs,3,2,2,1.0,1.0,0.0,M,intermediate,F,major
+Mr. Turton,Adela Quested,articles,3,2,1,0.5,0.6666666666666666,-0.16666666666666663,M,intermediate,F,major
+Mr. Turton,Adela Quested,auxiliary_verbs,3,2,2,1.0,0.6666666666666666,0.33333333333333337,M,intermediate,F,major
+Mr. Turton,Adela Quested,impersonal_pronouns,3,2,2,1.0,0.6666666666666666,0.33333333333333337,M,intermediate,F,major
+Mr. Turton,Adela Quested,negations,3,2,0,0.0,0.0,0.0,M,intermediate,F,major
+Mr. Turton,Adela Quested,personal_pronouns,3,2,2,1.0,1.0,0.0,M,intermediate,F,major
+Mr. Turton,Adela Quested,prepositions,3,3,1,0.3333333333333333,0.3333333333333333,0.0,M,intermediate,F,major
+Mr. Turton,Cyril Fielding,adverbs,16,10,5,0.5,0.5,0.0,M,intermediate,M,major
+Mr. Turton,Cyril Fielding,articles,16,11,5,0.45454545454545453,0.5,-0.04545454545454547,M,intermediate,M,major
+Mr. Turton,Cyril Fielding,auxiliary_verbs,16,11,8,0.7272727272727273,0.6875,0.03977272727272729,M,intermediate,M,major
+Mr. Turton,Cyril Fielding,conjunctions,16,9,5,0.5555555555555556,0.5625,-0.00694444444444442,M,intermediate,M,major
+Mr. Turton,Cyril Fielding,impersonal_pronouns,16,11,6,0.5454545454545454,0.4375,0.10795454545454541,M,intermediate,M,major
+Mr. Turton,Cyril Fielding,negations,16,5,2,0.4,0.5,-0.09999999999999998,M,intermediate,M,major
+Mr. Turton,Cyril Fielding,personal_pronouns,16,14,12,0.8571428571428571,0.875,-0.017857142857142905,M,intermediate,M,major
+Mr. Turton,Cyril Fielding,prepositions,16,13,6,0.46153846153846156,0.5625,-0.10096153846153844,M,intermediate,M,major
+Mr. Turton,Cyril Fielding,quantifiers,16,5,2,0.4,0.3125,0.08750000000000002,M,intermediate,M,major
+Mr. Turton,Major Callendar,adverbs,4,3,2,0.6666666666666666,0.5,0.16666666666666663,M,intermediate,M,intermediate
+Mr. Turton,Major Callendar,articles,4,2,1,0.5,0.5,0.0,M,intermediate,M,intermediate
+Mr. Turton,Major Callendar,auxiliary_verbs,4,2,2,1.0,1.0,0.0,M,intermediate,M,intermediate
+Mr. Turton,Major Callendar,conjunctions,4,2,1,0.5,0.5,0.0,M,intermediate,M,intermediate
+Mr. Turton,Major Callendar,impersonal_pronouns,4,2,2,1.0,0.5,0.5,M,intermediate,M,intermediate
+Mr. Turton,Major Callendar,negations,4,2,2,1.0,0.5,0.5,M,intermediate,M,intermediate
+Mr. Turton,Major Callendar,personal_pronouns,4,3,3,1.0,1.0,0.0,M,intermediate,M,intermediate
+Mr. Turton,Major Callendar,prepositions,4,3,2,0.6666666666666666,0.5,0.16666666666666663,M,intermediate,M,intermediate
+Mr. Turton,Mrs. Turton,adverbs,12,5,4,0.8,0.6666666666666666,0.13333333333333341,M,intermediate,F,intermediate
+Mr. Turton,Mrs. Turton,articles,12,6,3,0.5,0.5,0.0,M,intermediate,F,intermediate
+Mr. Turton,Mrs. Turton,auxiliary_verbs,12,4,3,0.75,0.75,0.0,M,intermediate,F,intermediate
+Mr. Turton,Mrs. Turton,conjunctions,12,5,2,0.4,0.4166666666666667,-0.016666666666666663,M,intermediate,F,intermediate
+Mr. Turton,Mrs. Turton,impersonal_pronouns,12,7,5,0.7142857142857143,0.5833333333333334,0.13095238095238093,M,intermediate,F,intermediate
+Mr. Turton,Mrs. Turton,negations,12,2,1,0.5,0.3333333333333333,0.16666666666666669,M,intermediate,F,intermediate
+Mr. Turton,Mrs. Turton,personal_pronouns,12,7,5,0.7142857142857143,0.75,-0.0357142857142857,M,intermediate,F,intermediate
+Mr. Turton,Mrs. Turton,prepositions,12,8,6,0.75,0.75,0.0,M,intermediate,F,intermediate
+Mr. Turton,Mrs. Turton,quantifiers,12,5,1,0.2,0.25,-0.04999999999999999,M,intermediate,F,intermediate
+Mr. Turton,Ronny Heaslop,adverbs,3,2,0,0.0,0.3333333333333333,-0.3333333333333333,M,intermediate,M,major
+Mr. Turton,Ronny Heaslop,auxiliary_verbs,3,2,2,1.0,1.0,0.0,M,intermediate,M,major
+Mr. Turton,Ronny Heaslop,personal_pronouns,3,2,2,1.0,1.0,0.0,M,intermediate,M,major
+Mrs. Bhattacharya,Adela Quested,quantifiers,2,2,0,0.0,0.0,0.0,F,minor,F,major
+Mrs. Bhattacharya,Mrs. Moore,adverbs,4,2,2,1.0,0.5,0.5,F,minor,F,major
+Mrs. Bhattacharya,Mrs. Moore,quantifiers,4,2,0,0.0,0.0,0.0,F,minor,F,major
+Mrs. Callendar,Mr. Turton,adverbs,2,2,0,0.0,0.0,0.0,F,minor,M,intermediate
+Mrs. Lesley,Adela Quested,personal_pronouns,2,2,2,1.0,1.0,0.0,F,minor,F,major
+Mrs. Lesley,Major Callendar,adverbs,6,4,2,0.5,0.6666666666666666,-0.16666666666666663,F,minor,M,intermediate
+Mrs. Lesley,Major Callendar,articles,6,2,1,0.5,0.3333333333333333,0.16666666666666669,F,minor,M,intermediate
+Mrs. Lesley,Major Callendar,auxiliary_verbs,6,3,3,1.0,0.6666666666666666,0.33333333333333337,F,minor,M,intermediate
+Mrs. Lesley,Major Callendar,impersonal_pronouns,6,3,3,1.0,0.5,0.5,F,minor,M,intermediate
+Mrs. Lesley,Major Callendar,personal_pronouns,6,2,2,1.0,0.8333333333333334,0.16666666666666663,F,minor,M,intermediate
+Mrs. Lesley,Major Callendar,prepositions,6,2,2,1.0,0.8333333333333334,0.16666666666666663,F,minor,M,intermediate
+Mrs. Mcbryde,Ronny Heaslop,auxiliary_verbs,2,2,1,0.5,0.5,0.0,F,minor,M,major
+Mrs. Mcbryde,Ronny Heaslop,impersonal_pronouns,2,2,2,1.0,1.0,0.0,F,minor,M,major
+Mrs. Mcbryde,Ronny Heaslop,personal_pronouns,2,2,2,1.0,1.0,0.0,F,minor,M,major
+Mrs. Mcbryde,Ronny Heaslop,prepositions,2,2,2,1.0,1.0,0.0,F,minor,M,major
+Mrs. Moore,Adela Quested,adverbs,36,21,17,0.8095238095238095,0.6388888888888888,0.1706349206349207,F,major,F,major
+Mrs. Moore,Adela Quested,articles,36,16,9,0.5625,0.5277777777777778,0.03472222222222221,F,major,F,major
+Mrs. Moore,Adela Quested,auxiliary_verbs,36,26,19,0.7307692307692307,0.7222222222222222,0.008547008547008517,F,major,F,major
+Mrs. Moore,Adela Quested,conjunctions,36,17,10,0.5882352941176471,0.6388888888888888,-0.05065359477124176,F,major,F,major
+Mrs. Moore,Adela Quested,impersonal_pronouns,36,19,13,0.6842105263157895,0.6666666666666666,0.01754385964912286,F,major,F,major
+Mrs. Moore,Adela Quested,negations,36,8,3,0.375,0.3333333333333333,0.041666666666666685,F,major,F,major
+Mrs. Moore,Adela Quested,personal_pronouns,36,29,24,0.8275862068965517,0.8611111111111112,-0.03352490421455945,F,major,F,major
+Mrs. Moore,Adela Quested,prepositions,36,24,19,0.7916666666666666,0.75,0.04166666666666663,F,major,F,major
+Mrs. Moore,Adela Quested,quantifiers,36,12,6,0.5,0.3055555555555556,0.19444444444444442,F,major,F,major
+Mrs. Moore,Cyril Fielding,adverbs,10,6,2,0.3333333333333333,0.4,-0.06666666666666671,F,major,M,major
+Mrs. Moore,Cyril Fielding,articles,10,3,2,0.6666666666666666,0.5,0.16666666666666663,F,major,M,major
+Mrs. Moore,Cyril Fielding,auxiliary_verbs,10,5,4,0.8,0.6,0.20000000000000007,F,major,M,major
+Mrs. Moore,Cyril Fielding,conjunctions,10,5,2,0.4,0.3,0.10000000000000003,F,major,M,major
+Mrs. Moore,Cyril Fielding,impersonal_pronouns,10,3,1,0.3333333333333333,0.3,0.033333333333333326,F,major,M,major
+Mrs. Moore,Cyril Fielding,negations,10,3,0,0.0,0.2,-0.2,F,major,M,major
+Mrs. Moore,Cyril Fielding,personal_pronouns,10,9,6,0.6666666666666666,0.6,0.06666666666666665,F,major,M,major
+Mrs. Moore,Cyril Fielding,prepositions,10,5,2,0.4,0.4,0.0,F,major,M,major
+Mrs. Moore,Cyril Fielding,quantifiers,10,3,1,0.3333333333333333,0.2,0.1333333333333333,F,major,M,major
+Mrs. Moore,Dr. Aziz,adverbs,37,22,15,0.6818181818181818,0.7567567567567568,-0.07493857493857503,F,major,M,major
+Mrs. Moore,Dr. Aziz,articles,37,8,4,0.5,0.5405405405405406,-0.04054054054054057,F,major,M,major
+Mrs. Moore,Dr. Aziz,auxiliary_verbs,37,18,14,0.7777777777777778,0.8108108108108109,-0.033033033033033066,F,major,M,major
+Mrs. Moore,Dr. Aziz,conjunctions,37,16,9,0.5625,0.5675675675675675,-0.0050675675675675436,F,major,M,major
+Mrs. Moore,Dr. Aziz,impersonal_pronouns,37,6,3,0.5,0.5405405405405406,-0.04054054054054057,F,major,M,major
+Mrs. Moore,Dr. Aziz,negations,37,8,4,0.5,0.35135135135135137,0.14864864864864863,F,major,M,major
+Mrs. Moore,Dr. Aziz,personal_pronouns,37,26,24,0.9230769230769231,0.8648648648648649,0.058212058212058215,F,major,M,major
+Mrs. Moore,Dr. Aziz,prepositions,37,15,11,0.7333333333333333,0.6756756756756757,0.057657657657657624,F,major,M,major
+Mrs. Moore,Dr. Aziz,quantifiers,37,8,4,0.5,0.4594594594594595,0.040540540540540515,F,major,M,major
+Mrs. Moore,Mrs. Bhattacharya,adverbs,4,2,0,0.0,0.5,-0.5,F,major,F,minor
+Mrs. Moore,Mrs. Bhattacharya,auxiliary_verbs,4,3,1,0.3333333333333333,0.25,0.08333333333333331,F,major,F,minor
+Mrs. Moore,Mrs. Bhattacharya,conjunctions,4,2,1,0.5,0.25,0.25,F,major,F,minor
+Mrs. Moore,Mrs. Bhattacharya,personal_pronouns,4,2,0,0.0,0.0,0.0,F,major,F,minor
+Mrs. Moore,Mrs. Bhattacharya,prepositions,4,2,0,0.0,0.0,0.0,F,major,F,minor
+Mrs. Moore,Ronny Heaslop,adverbs,50,28,19,0.6785714285714286,0.7,-0.021428571428571352,F,major,M,major
+Mrs. Moore,Ronny Heaslop,articles,50,25,12,0.48,0.46,0.019999999999999962,F,major,M,major
+Mrs. Moore,Ronny Heaslop,auxiliary_verbs,50,29,20,0.6896551724137931,0.74,-0.05034482758620684,F,major,M,major
+Mrs. Moore,Ronny Heaslop,conjunctions,50,22,12,0.5454545454545454,0.58,-0.034545454545454546,F,major,M,major
+Mrs. Moore,Ronny Heaslop,impersonal_pronouns,50,22,10,0.45454545454545453,0.54,-0.0854545454545455,F,major,M,major
+Mrs. Moore,Ronny Heaslop,negations,50,10,1,0.1,0.32,-0.22,F,major,M,major
+Mrs. Moore,Ronny Heaslop,personal_pronouns,50,37,31,0.8378378378378378,0.86,-0.022162162162162158,F,major,M,major
+Mrs. Moore,Ronny Heaslop,prepositions,50,31,24,0.7741935483870968,0.8,-0.02580645161290329,F,major,M,major
+Mrs. Moore,Ronny Heaslop,quantifiers,50,18,4,0.2222222222222222,0.34,-0.11777777777777781,F,major,M,major
+Mrs. Turton,Adela Quested,adverbs,8,4,2,0.5,0.5,0.0,F,intermediate,F,major
+Mrs. Turton,Adela Quested,articles,8,2,0,0.0,0.5,-0.5,F,intermediate,F,major
+Mrs. Turton,Adela Quested,auxiliary_verbs,8,4,3,0.75,0.75,0.0,F,intermediate,F,major
+Mrs. Turton,Adela Quested,conjunctions,8,2,1,0.5,0.5,0.0,F,intermediate,F,major
+Mrs. Turton,Adela Quested,impersonal_pronouns,8,2,2,1.0,0.625,0.375,F,intermediate,F,major
+Mrs. Turton,Adela Quested,personal_pronouns,8,7,5,0.7142857142857143,0.75,-0.0357142857142857,F,intermediate,F,major
+Mrs. Turton,Adela Quested,prepositions,8,4,2,0.5,0.5,0.0,F,intermediate,F,major
+Mrs. Turton,Adela Quested,quantifiers,8,3,1,0.3333333333333333,0.375,-0.041666666666666685,F,intermediate,F,major
+Mrs. Turton,Mr. Turton,adverbs,10,8,5,0.625,0.7,-0.07499999999999996,F,intermediate,M,intermediate
+Mrs. Turton,Mr. Turton,articles,10,6,4,0.6666666666666666,0.5,0.16666666666666663,F,intermediate,M,intermediate
+Mrs. Turton,Mr. Turton,auxiliary_verbs,10,7,3,0.42857142857142855,0.6,-0.17142857142857143,F,intermediate,M,intermediate
+Mrs. Turton,Mr. Turton,conjunctions,10,5,3,0.6,0.4,0.19999999999999996,F,intermediate,M,intermediate
+Mrs. Turton,Mr. Turton,impersonal_pronouns,10,9,6,0.6666666666666666,0.7,-0.033333333333333326,F,intermediate,M,intermediate
+Mrs. Turton,Mr. Turton,negations,10,3,1,0.3333333333333333,0.2,0.1333333333333333,F,intermediate,M,intermediate
+Mrs. Turton,Mr. Turton,personal_pronouns,10,7,5,0.7142857142857143,0.5,0.2142857142857143,F,intermediate,M,intermediate
+Mrs. Turton,Mr. Turton,prepositions,10,9,5,0.5555555555555556,0.6,-0.0444444444444444,F,intermediate,M,intermediate
+Mrs. Turton,Mr. Turton,quantifiers,10,2,1,0.5,0.4,0.09999999999999998,F,intermediate,M,intermediate
+Mrs. Turton,Ronny Heaslop,adverbs,3,2,2,1.0,0.6666666666666666,0.33333333333333337,F,intermediate,M,major
+Mrs. Turton,Ronny Heaslop,articles,3,2,1,0.5,0.6666666666666666,-0.16666666666666663,F,intermediate,M,major
+Mrs. Turton,Ronny Heaslop,auxiliary_verbs,3,2,1,0.5,0.6666666666666666,-0.16666666666666663,F,intermediate,M,major
+Mrs. Turton,Ronny Heaslop,personal_pronouns,3,2,2,1.0,1.0,0.0,F,intermediate,M,major
+Mrs. Turton,Ronny Heaslop,prepositions,3,2,1,0.5,0.6666666666666666,-0.16666666666666663,F,intermediate,M,major
+Professor Godbole,Adela Quested,adverbs,4,3,1,0.3333333333333333,0.25,0.08333333333333331,M,intermediate,F,major
+Professor Godbole,Adela Quested,articles,4,3,1,0.3333333333333333,0.25,0.08333333333333331,M,intermediate,F,major
+Professor Godbole,Adela Quested,auxiliary_verbs,4,3,1,0.3333333333333333,0.5,-0.16666666666666669,M,intermediate,F,major
+Professor Godbole,Adela Quested,conjunctions,4,3,0,0.0,0.0,0.0,M,intermediate,F,major
+Professor Godbole,Adela Quested,impersonal_pronouns,4,3,1,0.3333333333333333,0.25,0.08333333333333331,M,intermediate,F,major
+Professor Godbole,Adela Quested,negations,4,2,1,0.5,0.25,0.25,M,intermediate,F,major
+Professor Godbole,Adela Quested,personal_pronouns,4,3,2,0.6666666666666666,0.75,-0.08333333333333337,M,intermediate,F,major
+Professor Godbole,Adela Quested,prepositions,4,3,2,0.6666666666666666,0.5,0.16666666666666663,M,intermediate,F,major
+Professor Godbole,Adela Quested,quantifiers,4,2,0,0.0,0.25,-0.25,M,intermediate,F,major
+Professor Godbole,Cyril Fielding,adverbs,14,10,5,0.5,0.5714285714285714,-0.0714285714285714,M,intermediate,M,major
+Professor Godbole,Cyril Fielding,articles,14,11,7,0.6363636363636364,0.5714285714285714,0.06493506493506496,M,intermediate,M,major
+Professor Godbole,Cyril Fielding,auxiliary_verbs,14,13,10,0.7692307692307693,0.7857142857142857,-0.016483516483516425,M,intermediate,M,major
+Professor Godbole,Cyril Fielding,conjunctions,14,8,4,0.5,0.5,0.0,M,intermediate,M,major
+Professor Godbole,Cyril Fielding,impersonal_pronouns,14,10,6,0.6,0.5,0.09999999999999998,M,intermediate,M,major
+Professor Godbole,Cyril Fielding,negations,14,7,2,0.2857142857142857,0.42857142857142855,-0.14285714285714285,M,intermediate,M,major
+Professor Godbole,Cyril Fielding,personal_pronouns,14,11,5,0.45454545454545453,0.42857142857142855,0.025974025974025983,M,intermediate,M,major
+Professor Godbole,Cyril Fielding,prepositions,14,10,5,0.5,0.5,0.0,M,intermediate,M,major
+Professor Godbole,Cyril Fielding,quantifiers,14,9,2,0.2222222222222222,0.35714285714285715,-0.13492063492063494,M,intermediate,M,major
+Professor Godbole,Dr. Aziz,adverbs,10,4,1,0.25,0.4,-0.15000000000000002,M,intermediate,M,major
+Professor Godbole,Dr. Aziz,articles,10,3,2,0.6666666666666666,0.3,0.36666666666666664,M,intermediate,M,major
+Professor Godbole,Dr. Aziz,auxiliary_verbs,10,7,4,0.5714285714285714,0.7,-0.12857142857142856,M,intermediate,M,major
+Professor Godbole,Dr. Aziz,conjunctions,10,4,1,0.25,0.4,-0.15000000000000002,M,intermediate,M,major
+Professor Godbole,Dr. Aziz,impersonal_pronouns,10,4,1,0.25,0.3,-0.04999999999999999,M,intermediate,M,major
+Professor Godbole,Dr. Aziz,negations,10,5,2,0.4,0.4,0.0,M,intermediate,M,major
+Professor Godbole,Dr. Aziz,personal_pronouns,10,7,5,0.7142857142857143,0.8,-0.08571428571428574,M,intermediate,M,major
+Professor Godbole,Dr. Aziz,prepositions,10,6,4,0.6666666666666666,0.7,-0.033333333333333326,M,intermediate,M,major
+Professor Godbole,Dr. Aziz,quantifiers,10,5,0,0.0,0.2,-0.2,M,intermediate,M,major
+Rafi,Cyril Fielding,personal_pronouns,2,2,2,1.0,1.0,0.0,M,minor,M,major
+Rafi,Dr. Aziz,articles,3,2,1,0.5,0.6666666666666666,-0.16666666666666663,M,minor,M,major
+Ralph,Dr. Aziz,adverbs,21,7,6,0.8571428571428571,0.6190476190476191,0.23809523809523803,M,intermediate,M,major
+Ralph,Dr. Aziz,articles,21,4,2,0.5,0.47619047619047616,0.023809523809523836,M,intermediate,M,major
+Ralph,Dr. Aziz,auxiliary_verbs,21,11,7,0.6363636363636364,0.7142857142857143,-0.07792207792207795,M,intermediate,M,major
+Ralph,Dr. Aziz,impersonal_pronouns,21,7,4,0.5714285714285714,0.47619047619047616,0.09523809523809523,M,intermediate,M,major
+Ralph,Dr. Aziz,negations,21,7,2,0.2857142857142857,0.42857142857142855,-0.14285714285714285,M,intermediate,M,major
+Ralph,Dr. Aziz,personal_pronouns,21,13,10,0.7692307692307693,0.7142857142857143,0.05494505494505497,M,intermediate,M,major
+Ralph,Dr. Aziz,prepositions,21,4,4,1.0,0.6190476190476191,0.38095238095238093,M,intermediate,M,major
+Ram Chand,Dr. Panna Lal,negations,2,2,1,0.5,0.5,0.0,M,minor,M,intermediate
+Ram Chand,Dr. Panna Lal,personal_pronouns,2,2,2,1.0,1.0,0.0,M,minor,M,intermediate
+Ram Chand,Dr. Panna Lal,quantifiers,2,2,2,1.0,1.0,0.0,M,minor,M,intermediate
+Ram Chand,Hamidullah,articles,2,2,2,1.0,1.0,0.0,M,minor,M,intermediate
+Ram Chand,Hamidullah,auxiliary_verbs,2,2,2,1.0,1.0,0.0,M,minor,M,intermediate
+Ram Chand,Hamidullah,negations,2,2,1,0.5,0.5,0.0,M,minor,M,intermediate
+Ram Chand,Hamidullah,personal_pronouns,2,2,2,1.0,1.0,0.0,M,minor,M,intermediate
+Ram Chand,Hamidullah,prepositions,2,2,1,0.5,0.5,0.0,M,minor,M,intermediate
+Ram Chand,Syed Mohammed,adverbs,2,2,0,0.0,0.0,0.0,M,minor,M,minor
+Ram Chand,Syed Mohammed,auxiliary_verbs,2,2,0,0.0,0.0,0.0,M,minor,M,minor
+Ronny Heaslop,Adela Quested,adverbs,52,37,21,0.5675675675675675,0.5384615384615384,0.029106029106029108,M,major,F,major
+Ronny Heaslop,Adela Quested,articles,52,20,8,0.4,0.36538461538461536,0.03461538461538466,M,major,F,major
+Ronny Heaslop,Adela Quested,auxiliary_verbs,52,33,24,0.7272727272727273,0.5961538461538461,0.13111888111888115,M,major,F,major
+Ronny Heaslop,Adela Quested,conjunctions,52,24,11,0.4583333333333333,0.46153846153846156,-0.0032051282051282493,M,major,F,major
+Ronny Heaslop,Adela Quested,impersonal_pronouns,52,30,16,0.5333333333333333,0.40384615384615385,0.12948717948717947,M,major,F,major
+Ronny Heaslop,Adela Quested,negations,52,15,3,0.2,0.2692307692307692,-0.0692307692307692,M,major,F,major
+Ronny Heaslop,Adela Quested,personal_pronouns,52,41,34,0.8292682926829268,0.7884615384615384,0.04080675422138835,M,major,F,major
+Ronny Heaslop,Adela Quested,prepositions,52,36,22,0.6111111111111112,0.5961538461538461,0.014957264957265015,M,major,F,major
+Ronny Heaslop,Adela Quested,quantifiers,52,20,3,0.15,0.15384615384615385,-0.0038461538461538602,M,major,F,major
+Ronny Heaslop,Cyril Fielding,adverbs,11,7,4,0.5714285714285714,0.5454545454545454,0.025974025974025983,M,major,M,major
+Ronny Heaslop,Cyril Fielding,articles,11,6,3,0.5,0.45454545454545453,0.04545454545454547,M,major,M,major
+Ronny Heaslop,Cyril Fielding,auxiliary_verbs,11,6,5,0.8333333333333334,0.5454545454545454,0.28787878787878796,M,major,M,major
+Ronny Heaslop,Cyril Fielding,conjunctions,11,5,1,0.2,0.45454545454545453,-0.2545454545454545,M,major,M,major
+Ronny Heaslop,Cyril Fielding,impersonal_pronouns,11,5,1,0.2,0.2727272727272727,-0.0727272727272727,M,major,M,major
+Ronny Heaslop,Cyril Fielding,negations,11,4,1,0.25,0.09090909090909091,0.1590909090909091,M,major,M,major
+Ronny Heaslop,Cyril Fielding,personal_pronouns,11,9,9,1.0,0.9090909090909091,0.09090909090909094,M,major,M,major
+Ronny Heaslop,Cyril Fielding,prepositions,11,8,6,0.75,0.6363636363636364,0.11363636363636365,M,major,M,major
+Ronny Heaslop,Cyril Fielding,quantifiers,11,5,2,0.4,0.45454545454545453,-0.05454545454545451,M,major,M,major
+Ronny Heaslop,Major Callendar,auxiliary_verbs,2,2,1,0.5,0.5,0.0,M,major,M,intermediate
+Ronny Heaslop,Major Callendar,personal_pronouns,2,2,2,1.0,1.0,0.0,M,major,M,intermediate
+Ronny Heaslop,Miss Derek,adverbs,7,3,2,0.6666666666666666,0.7142857142857143,-0.04761904761904767,M,major,F,intermediate
+Ronny Heaslop,Miss Derek,articles,7,4,0,0.0,0.2857142857142857,-0.2857142857142857,M,major,F,intermediate
+Ronny Heaslop,Miss Derek,auxiliary_verbs,7,3,0,0.0,0.14285714285714285,-0.14285714285714285,M,major,F,intermediate
+Ronny Heaslop,Miss Derek,impersonal_pronouns,7,3,1,0.3333333333333333,0.2857142857142857,0.047619047619047616,M,major,F,intermediate
+Ronny Heaslop,Miss Derek,personal_pronouns,7,5,2,0.4,0.42857142857142855,-0.028571428571428525,M,major,F,intermediate
+Ronny Heaslop,Miss Derek,prepositions,7,3,1,0.3333333333333333,0.2857142857142857,0.047619047619047616,M,major,F,intermediate
+Ronny Heaslop,Mr. Harris,articles,2,2,0,0.0,0.0,0.0,M,major,M,minor
+Ronny Heaslop,Mr. Mcbryde,articles,2,2,2,1.0,1.0,0.0,M,major,M,intermediate
+Ronny Heaslop,Mr. Mcbryde,personal_pronouns,2,2,1,0.5,0.5,0.0,M,major,M,intermediate
+Ronny Heaslop,Mr. Turton,auxiliary_verbs,2,2,2,1.0,1.0,0.0,M,major,M,intermediate
+Ronny Heaslop,Mr. Turton,personal_pronouns,2,2,2,1.0,1.0,0.0,M,major,M,intermediate
+Ronny Heaslop,Mr. Turton,prepositions,2,2,1,0.5,0.5,0.0,M,major,M,intermediate
+Ronny Heaslop,Mrs. Moore,adverbs,53,37,27,0.7297297297297297,0.5849056603773585,0.14482406935237124,M,major,F,major
+Ronny Heaslop,Mrs. Moore,articles,53,26,17,0.6538461538461539,0.49056603773584906,0.1632801161103048,M,major,F,major
+Ronny Heaslop,Mrs. Moore,auxiliary_verbs,53,38,23,0.6052631578947368,0.5660377358490566,0.03922542204568025,M,major,F,major
+Ronny Heaslop,Mrs. Moore,conjunctions,53,31,14,0.45161290322580644,0.4339622641509434,0.017650639074863028,M,major,F,major
+Ronny Heaslop,Mrs. Moore,impersonal_pronouns,53,33,16,0.48484848484848486,0.4528301886792453,0.03201829616923957,M,major,F,major
+Ronny Heaslop,Mrs. Moore,negations,53,16,2,0.125,0.18867924528301888,-0.06367924528301888,M,major,F,major
+Ronny Heaslop,Mrs. Moore,personal_pronouns,53,46,35,0.7608695652173914,0.7358490566037735,0.02502050861361782,M,major,F,major
+Ronny Heaslop,Mrs. Moore,prepositions,53,42,27,0.6428571428571429,0.6415094339622641,0.0013477088948787852,M,major,F,major
+Ronny Heaslop,Mrs. Moore,quantifiers,53,21,7,0.3333333333333333,0.32075471698113206,0.012578616352201255,M,major,F,major
+Ronny Heaslop,Mrs. Turton,adverbs,3,2,2,1.0,0.6666666666666666,0.33333333333333337,M,major,F,intermediate
+Ronny Heaslop,Mrs. Turton,auxiliary_verbs,3,2,0,0.0,0.0,0.0,M,major,F,intermediate
+Ronny Heaslop,Mrs. Turton,impersonal_pronouns,3,2,0,0.0,0.3333333333333333,-0.3333333333333333,M,major,F,intermediate
+Ronny Heaslop,Mrs. Turton,personal_pronouns,3,2,1,0.5,0.3333333333333333,0.16666666666666669,M,major,F,intermediate
+Ronny Heaslop,The Nawab Badahur,adverbs,7,4,1,0.25,0.42857142857142855,-0.17857142857142855,M,major,M,intermediate
+Ronny Heaslop,The Nawab Badahur,articles,7,4,2,0.5,0.5714285714285714,-0.0714285714285714,M,major,M,intermediate
+Ronny Heaslop,The Nawab Badahur,auxiliary_verbs,7,6,4,0.6666666666666666,0.5714285714285714,0.09523809523809523,M,major,M,intermediate
+Ronny Heaslop,The Nawab Badahur,conjunctions,7,3,2,0.6666666666666666,0.42857142857142855,0.23809523809523808,M,major,M,intermediate
+Ronny Heaslop,The Nawab Badahur,impersonal_pronouns,7,4,2,0.5,0.5714285714285714,-0.0714285714285714,M,major,M,intermediate
+Ronny Heaslop,The Nawab Badahur,personal_pronouns,7,5,5,1.0,1.0,0.0,M,major,M,intermediate
+Ronny Heaslop,The Nawab Badahur,prepositions,7,6,6,1.0,0.8571428571428571,0.1428571428571429,M,major,M,intermediate
+Ronny Heaslop,The Nawab Badahur,quantifiers,7,2,2,1.0,0.42857142857142855,0.5714285714285714,M,major,M,intermediate
+Syed Mohammed,Mr. Haq,auxiliary_verbs,2,2,2,1.0,1.0,0.0,M,minor,M,minor
+Syed Mohammed,Mr. Haq,impersonal_pronouns,2,2,2,1.0,1.0,0.0,M,minor,M,minor
+Syed Mohammed,Mr. Haq,personal_pronouns,2,2,2,1.0,1.0,0.0,M,minor,M,minor
+The Lady Who Had Been A Nurse,Adela Quested,articles,2,2,0,0.0,0.0,0.0,F,minor,F,major
+The Lady Who Had Been A Nurse,Adela Quested,conjunctions,2,2,1,0.5,0.5,0.0,F,minor,F,major
+The Lady Who Had Been A Nurse,Adela Quested,personal_pronouns,2,2,0,0.0,0.0,0.0,F,minor,F,major
+The Lady Who Had Been A Nurse,Adela Quested,prepositions,2,2,2,1.0,1.0,0.0,F,minor,F,major
+The Lady Who Had Been A Nurse,Adela Quested,quantifiers,2,2,2,1.0,1.0,0.0,F,minor,F,major
+The Nawab Badahur,Adela Quested,personal_pronouns,4,2,2,1.0,0.75,0.25,M,intermediate,F,major
+The Nawab Badahur,Mahmoud Ali,articles,3,3,1,0.3333333333333333,0.3333333333333333,0.0,M,intermediate,M,intermediate
+The Nawab Badahur,Mahmoud Ali,auxiliary_verbs,3,3,3,1.0,1.0,0.0,M,intermediate,M,intermediate
+The Nawab Badahur,Mahmoud Ali,negations,3,3,1,0.3333333333333333,0.3333333333333333,0.0,M,intermediate,M,intermediate
+The Nawab Badahur,Mahmoud Ali,personal_pronouns,3,3,3,1.0,1.0,0.0,M,intermediate,M,intermediate
+The Nawab Badahur,Mahmoud Ali,prepositions,3,2,1,0.5,0.6666666666666666,-0.16666666666666663,M,intermediate,M,intermediate
+The Nawab Badahur,Mahmoud Ali,quantifiers,3,2,1,0.5,0.3333333333333333,0.16666666666666669,M,intermediate,M,intermediate
+The Nawab Badahur,Miss Derek,auxiliary_verbs,2,2,2,1.0,1.0,0.0,M,intermediate,F,intermediate
+The Nawab Badahur,Miss Derek,personal_pronouns,2,2,2,1.0,1.0,0.0,M,intermediate,F,intermediate
+The Nawab Badahur,Miss Derek,prepositions,2,2,2,1.0,1.0,0.0,M,intermediate,F,intermediate
+The Nawab Badahur,Ronny Heaslop,adverbs,9,4,0,0.0,0.3333333333333333,-0.3333333333333333,M,intermediate,M,major
+The Nawab Badahur,Ronny Heaslop,articles,9,7,5,0.7142857142857143,0.6666666666666666,0.04761904761904767,M,intermediate,M,major
+The Nawab Badahur,Ronny Heaslop,auxiliary_verbs,9,5,3,0.6,0.5555555555555556,0.0444444444444444,M,intermediate,M,major
+The Nawab Badahur,Ronny Heaslop,conjunctions,9,3,2,0.6666666666666666,0.2222222222222222,0.4444444444444444,M,intermediate,M,major
+The Nawab Badahur,Ronny Heaslop,impersonal_pronouns,9,4,2,0.5,0.4444444444444444,0.05555555555555558,M,intermediate,M,major
+The Nawab Badahur,Ronny Heaslop,negations,9,4,0,0.0,0.1111111111111111,-0.1111111111111111,M,intermediate,M,major
+The Nawab Badahur,Ronny Heaslop,personal_pronouns,9,7,4,0.5714285714285714,0.5555555555555556,0.015873015873015817,M,intermediate,M,major
+The Nawab Badahur,Ronny Heaslop,prepositions,9,7,5,0.7142857142857143,0.6666666666666666,0.04761904761904767,M,intermediate,M,major
+The Nawab Badahur,Ronny Heaslop,quantifiers,9,6,2,0.3333333333333333,0.3333333333333333,0.0,M,intermediate,M,major
+_unknowable,A Stray Subaltern,articles,3,2,2,1.0,1.0,0.0,F,intermediate,M,minor
+_unknowable,A Stray Subaltern,auxiliary_verbs,3,3,2,0.6666666666666666,0.6666666666666666,0.0,F,intermediate,M,minor
+_unknowable,A Stray Subaltern,conjunctions,3,2,2,1.0,1.0,0.0,F,intermediate,M,minor
+_unknowable,A Stray Subaltern,personal_pronouns,3,2,2,1.0,1.0,0.0,F,intermediate,M,minor
+_unknowable,Cyril Fielding,articles,3,2,0,0.0,0.0,0.0,F,intermediate,M,major
+_unknowable,Cyril Fielding,auxiliary_verbs,3,2,1,0.5,0.3333333333333333,0.16666666666666669,F,intermediate,M,major
+_unknowable,Cyril Fielding,personal_pronouns,3,3,2,0.6666666666666666,0.6666666666666666,0.0,F,intermediate,M,major
+_unknowable,Cyril Fielding,prepositions,3,2,0,0.0,0.0,0.0,F,intermediate,M,major
+_unknowable,Mrs. Turton,adverbs,3,2,2,1.0,0.6666666666666666,0.33333333333333337,F,intermediate,F,intermediate
+_unknowable,Mrs. Turton,articles,3,2,1,0.5,0.3333333333333333,0.16666666666666669,F,intermediate,F,intermediate
+_unknowable,Mrs. Turton,personal_pronouns,3,2,2,1.0,1.0,0.0,F,intermediate,F,intermediate

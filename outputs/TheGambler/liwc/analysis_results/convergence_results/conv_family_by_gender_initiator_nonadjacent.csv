@@ -1,0 +1,14 @@
+﻿family,gender,mean_conv
+adverbs,M,-0.06349206349206349
+articles,M,0.04761904761904767
+auxiliary_verbs,F,0.0
+auxiliary_verbs,M,-0.031746031746031744
+conjunctions,M,-0.06349206349206349
+impersonal_pronouns,M,0.0
+negations,F,0.0
+negations,M,0.05555555555555558
+personal_pronouns,F,0.0
+personal_pronouns,M,-0.031746031746031744
+prepositions,F,0.0
+prepositions,M,-0.031746031746031744
+quantifiers,M,0.05555555555555558

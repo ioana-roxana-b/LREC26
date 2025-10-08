@@ -1,0 +1,23 @@
+﻿a_speaker,b_speaker,n_features,n_pairs,n_triggers_total,mean_conv,mean_conv_w,a_gender,a_category,b_gender,b_category
+Caroline Abbott,Harriet,2,2,4,0.0,0.0,F,major,F,major
+Caroline Abbott,Lilia,5,2,10,0.0,0.0,F,major,F,intermediate
+Caroline Abbott,Mr. Herriton,7,5,23,0.15238095238095237,0.1391304347826087,F,major,M,major
+Caroline Abbott,Mrs. Herriton,2,2,4,0.0,0.0,F,major,F,intermediate
+Caroline Abbott,Signor Carella,7,3,14,0.11904761904761907,0.11904761904761907,F,major,M,major
+Harriet,Caroline Abbott,3,2,6,0.0,0.0,F,major,F,major
+Harriet,Mr. Herriton,9,8,36,0.08981481481481479,0.07638888888888888,F,major,M,major
+Harriet,Mrs. Herriton,9,4,29,-0.009259259259259264,-0.008620689655172417,F,major,F,intermediate
+Lilia,Mr. Herriton,1,2,2,0.0,0.0,F,intermediate,M,major
+Lilia,Signor Carella,9,6,30,0.16666666666666666,0.1611111111111111,F,intermediate,M,major
+Little Girl,Mr. Herriton,2,3,4,0.0,0.0,F,minor,M,major
+Mr. Herriton,Caroline Abbott,8,6,27,0.19791666666666666,0.17901234567901234,M,major,F,major
+Mr. Herriton,Harriet,5,3,11,2.2204460492503132e-17,2.0185873175002847e-17,M,major,F,major
+Mr. Herriton,Lilia,6,2,12,0.0,0.0,M,major,F,intermediate
+Mr. Herriton,Little Girl,2,2,4,0.0,0.0,M,major,F,minor
+Mr. Herriton,Mrs. Herriton,8,6,28,-0.08333333333333334,-0.04166666666666668,M,major,F,intermediate
+Mr. Herriton,Signor Carella,3,4,6,-0.16666666666666666,-0.16666666666666666,M,major,M,major
+Mrs. Herriton,Harriet,5,4,13,0.05,0.057692307692307696,F,intermediate,F,major
+Mrs. Herriton,Mr. Herriton,9,9,57,0.0425925925925926,0.023391812865497075,F,intermediate,M,major
+Signor Carella,Caroline Abbott,8,5,27,0.02499999999999998,0.022222222222222202,M,major,F,major
+Signor Carella,Lilia,2,2,4,0.0,0.0,M,major,F,intermediate
+Signor Carella,Mr. Herriton,8,5,22,0.13124999999999998,0.12727272727272726,M,major,M,major

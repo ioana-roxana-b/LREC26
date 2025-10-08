@@ -1,0 +1,871 @@
+merge_id,speaker,addressees,text_merged,first_turn_index,last_turn_index,source_quoteIDs
+0,Lilia,"['Harriet', 'Irma', 'Mr. Herriton', 'Mr. Kingcroft', 'Mrs. Herriton', 'Mrs. Theobald']",quite an ovation they ll take us for royalty oh mr kingcroft get us foot warmers,0,0,Q0
+1,Mr. Herriton,"['Harriet', 'Irma', 'Lilia', 'Mrs. Herriton', 'Mrs. Theobald']",remember that it is only by going off the track that you get to know the country see the little towns gubbio pienza cortona san gemignano monteriano and don t let me beg you go with that awful tourist idea that italy s only a museum of antiquities and art love and understand the italians for the people are more marvellous than the land,1,1,Q1
+2,Lilia,"['Harriet', 'Irma', 'Mr. Herriton', 'Mrs. Herriton', 'Mrs. Theobald']",how i wish you were coming philip,2,2,Q2
+3,Mr. Herriton,"['Harriet', 'Irma', 'Lilia', 'Mrs. Herriton', 'Mrs. Theobald']",i wish i were,3,3,Q3
+4,Lilia,"['Harriet', 'Irma', 'Mr. Herriton', 'Mrs. Herriton', 'Mrs. Theobald']",good bye dear every one what a whirl good bye darling mind you re always good and do what granny tells you,4,5,"Q4,Q5"
+5,Irma,"['Harriet', 'Lilia', 'Mr. Herriton', 'Mrs. Herriton', 'Mrs. Theobald']",i ll do my best,6,6,Q6
+6,Mrs. Herriton,"['Harriet', 'Irma', 'Lilia', 'Mr. Herriton', 'Mrs. Theobald']",she is sure to be good,7,7,Q7
+7,Lilia,"['Caroline Abbott', 'Harriet', 'Irma', 'Mr. Herriton', 'Mrs. Herriton', 'Mrs. Theobald']",caroline my caroline jump in or your chaperon will go off without you,8,8,Q8
+8,Harriet,"['Irma', 'Lilia', 'Mr. Herriton', 'Mrs. Herriton', 'Mrs. Theobald']",handkerchiefs and collars in my inlaid box i ve lent you my inlaid box,9,9,Q9
+9,Lilia,"['Harriet', 'Irma', 'Mr. Herriton', 'Mrs. Herriton', 'Mrs. Theobald']",good old harry,10,10,Q10
+10,Mr. Kingcroft,"['Harriet', 'Irma', 'Lilia', 'Mr. Herriton', 'Mrs. Herriton', 'Mrs. Theobald']",good bye mrs charles may you enjoy yourself and may god bless you,11,11,Q11
+11,Lilia,"['Harriet', 'Irma', 'Mr. Herriton', 'Mr. Kingcroft', 'Mrs. Herriton', 'Mrs. Theobald']",oh i am so sorry but you do look so funny oh you all look so funny waving oh pray,12,12,Q12
+12,Mrs. Theobald,"['Harriet', 'Irma', 'Mr. Herriton', 'Mr. Kingcroft', 'Mrs. Herriton']",high spirits to begin so long a journey,13,13,Q13
+13,Mr. Kingcroft,"['Harriet', 'Irma', 'Mr. Herriton', 'Mrs. Herriton', 'Mrs. Theobald']",i wish that mrs charles had gotten the footwarmer these london porters won t take heed to a country chap,14,14,Q14
+14,Mrs. Herriton,"['Harriet', 'Irma', 'Mr. Herriton', 'Mr. Kingcroft', 'Mrs. Theobald']",but you did your best and i think it simply noble of you to have brought mrs theobald all the way here on such a day as this,15,15,Q15
+15,Irma,"['Mr. Herriton', 'Mrs. Herriton']",and granny when will the old ship get to italy,16,16,Q16
+16,Mrs. Herriton,"['Irma', 'Mr. Herriton']",grandmother dear not granny and we say a boat or a steamer not a ship ships have sails and mother won t go all the way by sea you look at the map of europe and you ll see why harriet take her go with aunt harriet and she ll show you the map,17,17,Q17
+17,Irma,"['Mr. Herriton', 'Mrs. Herriton']",righto,18,18,Q18
+18,Mr. Herriton,['Mrs. Herriton'],here beginneth the new life,19,19,Q19
+19,Mrs. Herriton,['Mr. Herriton'],poor child how vulgar it s surprising that she isn t worse but she has got a look of poor charles about her,20,20,Q20
+20,Mr. Herriton,['Mrs. Herriton'],and alas alas a look of old mrs theobald what appalling apparition was that i did think the lady was bedridden as well as imbecile why ever did she come,21,21,Q21
+21,Mrs. Herriton,['Mr. Herriton'],mr kingcroft made her i am certain of it he wanted to see lilia again and this was the only way,22,22,Q22
+22,Mr. Herriton,['Mrs. Herriton'],i hope he is satisfied i did not think my sister in law distinguished herself in her farewells,23,23,Q23
+23,Mrs. Herriton,['Mr. Herriton'],i mind nothing so long as she has gone and gone with miss abbott it is mortifying to think that a widow of thirty three requires a girl ten years younger to look after her,24,24,Q24
+24,Mr. Herriton,['Mrs. Herriton'],i pity miss abbott fortunately one admirer is chained to england mr kingcroft cannot leave the crops or the climate or something i don t think either he improved his chances today he as well as lilia has the knack of being absurd in public,25,25,Q25
+25,Mrs. Herriton,['Mr. Herriton'],when a man is neither well bred nor well connected nor handsome nor clever nor rich even lilia may discard him in time,26,26,Q26
+26,Mr. Herriton,['Mrs. Herriton'],no i believe she would take any one right up to the last when her boxes were packed she was playing the chinless curate both the curates are chinless but hers had the dampest hands i came on them in the park they were speaking of the pentateuch,27,27,Q27
+27,Mrs. Herriton,['Mr. Herriton'],my dear boy if possible she has got worse and worse it was your idea of italian travel that saved us,28,28,Q28
+28,Mr. Herriton,['Mrs. Herriton'],the odd part is that she was quite eager always asking me for information and of course i was very glad to give it i admit she is a philistine appallingly ignorant and her taste in art is false still to have any taste at all is something and i do believe that italy really purifies and ennobles all who visit her she is the school as well as the playground of the world it is really to lilia s credit that she wants to go there,29,29,Q29
+29,Mrs. Herriton,['Mr. Herriton'],she would go anywhere i and caroline abbott had the greatest difficulty in dissuading her from the riviera,30,30,Q30
+30,Mr. Herriton,['Mrs. Herriton'],no mother no she was really keen on italy this travel is quite a crisis for her,31,31,Q31
+31,Mrs. Herriton,"['Harriet', 'Mr. Herriton']",it is something that she is contented but no one could live three months with caroline abbott and not be the better for it,32,32,Q32
+32,Mr. Herriton,"['Harriet', 'Mrs. Herriton']",they ve stopped there over a week why i shouldn t have done as much myself they must be really keen for the hotel s none too comfortable,33,33,Q33
+33,Harriet,"['Mr. Herriton', 'Mrs. Herriton']",i cannot understand people what can they be doing all day and there is no church there i suppose,34,34,Q34
+34,Mr. Herriton,"['Harriet', 'Mrs. Herriton']",there is santa deodata one of the most beautiful churches in italy,35,35,Q35
+35,Harriet,"['Mr. Herriton', 'Mrs. Herriton']",of course i mean an english church lilia promised me that she would always be in a large town on sundays,36,36,Q36
+36,Mr. Herriton,"['Harriet', 'Mrs. Herriton']",if she goes to a service at santa deodata s she will find more beauty and sincerity than there is in all the back kitchens of europe,37,37,Q37
+37,Mrs. Herriton,"['Harriet', 'Mr. Herriton']",now dears don t listen to lilia s letter we love this place and i do not know how i shall ever thank philip for telling me it it is not only so quaint but one sees the italians unspoiled in all their simplicity and charm here the frescoes are wonderful caroline who grows sweeter every day is very busy sketching,38,38,Q38
+38,Harriet,"['Mr. Herriton', 'Mrs. Herriton']",every one to his taste,39,39,Q39
+39,Mr. Herriton,['Mrs. Herriton'],oh harriet is a bad lot,40,40,Q40
+40,Mr. Herriton,"['Irma', 'Mrs. Herriton']",one moment irma i m going to the station i ll give you the pleasure of my company,41,41,Q41
+41,Mrs. Herriton,['Harriet'],we will save the peas to the last they are the greatest fun,42,42,Q42
+42,Harriet,['Mrs. Herriton'],it s a shame mother philip laughs at everything the book club the debating society the progressive whist the bazaars people won t like it we have our reputation a house divided against itself cannot stand,43,43,Q43
+43,Mrs. Herriton,['Harriet'],let philip say what he likes and he will let us do what we like it s twelve the second post s in run and see if there are any letters,44,45,"Q44,Q45"
+44,Harriet,['Mrs. Herriton'],let s finish the peas there won t be any letters,46,46,Q46
+45,Mrs. Herriton,['Harriet'],no dear please go i ll sow the peas but you shall cover them up and mind the birds don t see em,47,47,Q47
+46,Harriet,['Mrs. Herriton'],actually old mrs theobald,48,48,Q48
+47,Mrs. Herriton,['Harriet'],read me the letter my hands are dirty how intolerable the crested paper is,49,49,Q49
+48,Harriet,['Mrs. Herriton'],i don t understand it doesn t make sense,50,50,Q50
+49,Mrs. Herriton,['Harriet'],her letters never did,51,51,Q51
+50,Harriet,['Mrs. Herriton'],but it must be sillier than usual look here read it mother i can t make head or tail,52,52,Q52
+51,Mrs. Herriton,['Harriet'],what is the difficulty what is it that puzzles you in this letter,53,53,Q53
+52,Harriet,['Mrs. Herriton'],the meaning,54,54,Q54
+53,Mrs. Herriton,['Harriet'],the meaning is quite clear lilia is engaged to be married don t cry dear please me by not crying don t talk at all it s more than i could bear she is going to marry some one she has met in a hotel take the letter and read for yourself how dare she not tell me direct how dare she write first to yorkshire pray am i to hear through mrs theobald a patronizing insolent letter like this have i no claim at all bear witness dear bear witness that for this i ll never forgive her,55,56,"Q55,Q56"
+54,Harriet,['Mrs. Herriton'],oh what is to be done what is to be done,57,57,Q57
+55,Mrs. Herriton,['Harriet'],this first next a telegram for lilia no a telegram for miss caroline abbott she too has something to explain,58,59,"Q58,Q59"
+56,Harriet,['Mrs. Herriton'],oh what is to be done,60,60,Q60
+57,Mrs. Herriton,['Harriet'],if there is an office there we might get an answer this evening since philip is back at seven and the eight fifteen catches the midnight boat at dover harriet when you go with this get 100 pounds in 5 pound notes at the bank go dear at once do not talk i see irma coming back go quickly well irma dear and whose team are you in this afternoon miss edith s or miss may s,61,62,"Q61,Q62"
+58,Harriet,"['Irma', 'Mrs. Herriton']",your feet grow larger every day,63,63,Q63
+59,Mrs. Herriton,"['Harriet', 'Irma']",it is too bad it s ridiculous to read dear she s not trying to marry any one in the place some tourist obviously who s stopping in the hotel the place has nothing to do with it at all,64,65,"Q64,Q65"
+60,Harriet,"['Irma', 'Mrs. Herriton']",but what a place to go to what nice person too do you meet in a hotel,66,66,Q66
+61,Mrs. Herriton,"['Harriet', 'Irma']",nice or nasty as i have told you several times before is not the point lilia has insulted our family and she shall suffer for it and when you speak against hotels i think you forget that i met your father at chamounix you can contribute nothing dear at present and i think you had better hold your tongue i am going to the kitchen to speak about the range,67,67,Q67
+62,Mrs. Herriton,['_unknowable'],no answer get down mr philip s gladstone from the attic,68,68,Q68
+63,Mrs. Herriton,['Mr. Herriton'],the man may be a duke or he may be an organ grinder that is not the point if lilia marries him she insults the memory of charles she insults irma she insults us therefore i forbid her and if she disobeys we have done with her for ever,69,69,Q69
+64,Mr. Herriton,['Mrs. Herriton'],i will do all i can,70,70,Q70
+65,Caroline Abbott,['_unknowable'],i am john bull to the backbone yet i do want to see italy just once everybody says it is marvellous and that one gets no idea of it from books at all oh but you must let me have my fling i promise to have it once and once only it will give me things to think about and talk about for the rest of my life,71,72,"Q71,Q72"
+66,Mr. Herriton,['Caroline Abbott'],are we to talk it over now,73,73,Q73
+67,Caroline Abbott,['Mr. Herriton'],certainly please if you will be so very kind,74,74,Q74
+68,Mr. Herriton,['Caroline Abbott'],then how long has she been engaged,75,75,Q75
+69,Caroline Abbott,['Mr. Herriton'],a short time quite a short time,76,76,Q76
+70,Mr. Herriton,['Caroline Abbott'],i should like to know how long if you can remember,77,77,Q77
+71,Caroline Abbott,['Mr. Herriton'],exactly eleven days,78,78,Q78
+72,Mr. Herriton,['Caroline Abbott'],how long have you been here,79,79,Q79
+73,Caroline Abbott,['Mr. Herriton'],close on three weeks,80,80,Q80
+74,Mr. Herriton,['Caroline Abbott'],did you know him before you came,81,81,Q81
+75,Caroline Abbott,['Mr. Herriton'],no,82,82,Q82
+76,Mr. Herriton,['Caroline Abbott'],oh who is he,83,83,Q83
+77,Caroline Abbott,['Mr. Herriton'],a native of the place,84,84,Q84
+78,Mr. Herriton,['Caroline Abbott'],i understood they met at the hotel,85,85,Q85
+79,Caroline Abbott,['Mr. Herriton'],it was a mistake of mrs theobald s,86,86,Q86
+80,Mr. Herriton,['Caroline Abbott'],i also understand that he is a member of the italian nobility may i be told his name,87,88,"Q87,Q88"
+81,Caroline Abbott,['Mr. Herriton'],carella,89,89,Q89
+82,Mr. Herriton,['Caroline Abbott'],carella conte or marchese or what,90,90,Q90
+83,Caroline Abbott,['Mr. Herriton'],signor,91,91,Q91
+84,Mr. Herriton,['Caroline Abbott'],perhaps i bore you with these questions if so i will stop,92,92,Q92
+85,Caroline Abbott,['Mr. Herriton'],oh no please not at all i am here my own idea to give all information which you very naturally and to see if somehow please ask anything you like,93,93,Q93
+86,Mr. Herriton,['Caroline Abbott'],then how old is he,94,94,Q94
+87,Caroline Abbott,['Mr. Herriton'],oh quite young twenty one i believe,95,95,Q95
+88,Mr. Herriton,['Caroline Abbott'],good lord,96,96,Q96
+89,Caroline Abbott,['Mr. Herriton'],one would never believe it he looks much older,97,97,Q97
+90,Mr. Herriton,['Caroline Abbott'],and is he good looking,98,98,Q98
+91,Caroline Abbott,['Mr. Herriton'],very good looking all his features are good and he is well built though i dare say english standards would find him too short,99,99,Q99
+92,Mr. Herriton,['Caroline Abbott'],may i conclude that you like him,100,100,Q100
+93,Caroline Abbott,['Mr. Herriton'],as far as i have seen him i do as far as i have seen him i do like him,101,102,"Q101,Q102"
+94,Mr. Herriton,['Caroline Abbott'],what is he please you haven t told me that what s his position,103,103,Q103
+95,Caroline Abbott,['Mr. Herriton'],no position at all he is kicking his heels as my father would say you see he has only just finished his military service,104,104,Q104
+96,Mr. Herriton,['Caroline Abbott'],as a private,105,105,Q105
+97,Caroline Abbott,['Mr. Herriton'],i suppose so there is general conscription he was in the bersaglieri i think isn t that the crack regiment,106,106,Q106
+98,Mr. Herriton,['Caroline Abbott'],the men in it must be short and broad they must also be able to walk six miles an hour,107,107,Q107
+99,Caroline Abbott,['Mr. Herriton'],and now like most young men he is looking out for something to do,108,108,Q108
+100,Mr. Herriton,['Caroline Abbott'],meanwhile,109,109,Q109
+101,Caroline Abbott,['Mr. Herriton'],meanwhile like most young men he lives with his people father mother two sisters and a tiny tot of a brother,110,110,Q110
+102,Mr. Herriton,['Caroline Abbott'],one more question and only one more what is his father,111,111,Q111
+103,Caroline Abbott,['Mr. Herriton'],his father well i don t suppose you ll think it a good match but that s not the point i mean the point is not i mean that social differences love after all not but what i gentlemen sometimes judge hardly but i feel that you and at all events your mother so really good in every sense so really unworldly after all love marriages are made in heaven,112,113,"Q112,Q113"
+104,Mr. Herriton,['Caroline Abbott'],yes miss abbott i know but i am anxious to hear heaven s choice you arouse my curiosity is my sister in law to marry an angel,114,114,Q114
+105,Caroline Abbott,['Mr. Herriton'],mr herriton don t please mr herriton a dentist his father s a dentist,115,115,Q115
+106,Mr. Herriton,['Caroline Abbott'],i cannot think what is in the air if lilia was determined to disgrace us she might have found a less repulsive way a boy of medium height with a pretty face the son of a dentist at monteriano have i put it correctly may i surmise that he has not got one penny may i also surmise that his social position is nil furthermore,116,116,Q116
+107,Caroline Abbott,['Mr. Herriton'],stop i ll tell you no more,117,117,Q117
+108,Mr. Herriton,['Caroline Abbott'],really miss abbott it is a little late for reticence you have equipped me admirably,118,118,Q118
+109,Caroline Abbott,['Mr. Herriton'],i ll tell you not another word,119,119,Q119
+110,Lilia,"['Caroline Abbott', 'Mr. Herriton']",welcome welcome to monteriano you told me to come here and i don t forget it let me introduce signor carella well din din s nearly ready your room s down the passage philip you needn t go changing,120,122,"Q120,Q121,Q122"
+111,Lilia,['Caroline Abbott'],dear caroline what an angel you ve been to tell him he takes it so well but you must have had a mauvais quart d heure,123,123,Q123
+112,Caroline Abbott,['Lilia'],i ve told nothing it s all for you and if it only takes a quarter of an hour you ll be lucky,124,124,Q124
+113,Signor Carella,"['Caroline Abbott', 'Lilia', 'Mr. Herriton']",england is a great country the italians love england and the english italy too is a great country she has produced many famous men for example garibaldi and dante the latter wrote the inferno the purgatorio the paradiso the inferno is the most beautiful,125,126,"Q125,Q126"
+114,Lilia,"['Caroline Abbott', 'Mr. Herriton', 'Signor Carella']",oh look the poor wee fish,127,127,Q127
+115,Caroline Abbott,"['Lilia', 'Mr. Herriton', 'Signor Carella']",but may not the fish die they have no air,128,128,Q128
+116,Signor Carella,"['Caroline Abbott', 'Lilia', 'Mr. Herriton']",fish live on water not on air,129,129,Q129
+117,Lilia,"['Caroline Abbott', 'Mr. Herriton', 'Signor Carella']",well philip i am sure you are ready for by bye we shall meet at twelve o clock lunch tomorrow if we don t meet before they give us caffe later in our rooms,130,130,Q130
+118,Mr. Herriton,"['Caroline Abbott', 'Lilia', 'Signor Carella']",i should like to see you now please in my room as i have come all the way on business,131,131,Q131
+119,Mr. Herriton,['Lilia'],my dear lilia don t let s have a scene before i arrived i thought i might have to question you it is unnecessary i know everything miss abbott has told me a certain amount and the rest i see for myself,132,132,Q132
+120,Lilia,['Mr. Herriton'],see for yourself,133,133,Q133
+121,Mr. Herriton,['Lilia'],that he is probably a ruffian and certainly a cad,134,134,Q134
+122,Lilia,['Mr. Herriton'],there are no cads in italy he is the son of a dentist why not,135,136,"Q135,Q136"
+123,Mr. Herriton,['Lilia'],thank you for the information i know everything as i told you before i am also aware of the social position of an italian who pulls teeth in a minute provincial town,137,137,Q137
+124,Lilia,['Mr. Herriton'],indeed philip you surprise me i understood you went in for equality and so on,138,138,Q138
+125,Mr. Herriton,['Lilia'],and i understood that signor carella was a member of the italian nobility,139,139,Q139
+126,Lilia,['Mr. Herriton'],well we put it like that in the telegram so as not to shock dear mrs herriton but it is true he is a younger branch of course families ramify just as in yours there is your cousin joseph gino s father is courtesy itself and rising rapidly in his profession this very month he leaves monteriano and sets up at poggibonsi and for my own poor part i think what people are is what matters but i don t suppose you ll agree and i should like you to know that gino s uncle is a priest the same as a clergyman at home well his cousin s a lawyer at rome,140,142,"Q140,Q141,Q142"
+127,Mr. Herriton,['Lilia'],what kind of lawyer,143,143,Q143
+128,Lilia,['Mr. Herriton'],why a lawyer just like you are except that he has lots to do and can never get away,144,144,Q144
+129,Mr. Herriton,['Lilia'],the whole thing is like a bad dream so bad that it cannot go on if there was one redeeming feature about the man i might be uneasy as it is i can trust to time for the moment lilia he has taken you in but you will find him out soon it is not possible that you a lady accustomed to ladies and gentlemen will tolerate a man whose position is well not equal to the son of the servants dentist in coronation place i am not blaming you now but i blame the glamour of italy i have felt it myself you know and i greatly blame miss abbott,145,145,Q145
+130,Lilia,['Mr. Herriton'],caroline why blame her what s all this to do with caroline,146,146,Q146
+131,Mr. Herriton,['Lilia'],because we expected her to so i am confident and you in your heart agree that this engagement will not last think of your life at home think of irma and i ll also say think of us for you know lilia that we count you more than a relation i should feel i was losing my own sister if you did this and my mother would lose a daughter,147,147,Q147
+132,Lilia,['Mr. Herriton'],i can t break it off now,148,148,Q148
+133,Mr. Herriton,['Lilia'],poor lilia i know it may be painful but i have come to rescue you and book worm though i may be i am not frightened to stand up to a bully he s merely an insolent boy he thinks he can keep you to your word by threats he will be different when he sees he has a man to deal with,149,149,Q149
+134,Lilia,['Mr. Herriton'],for once in my life i ll thank you to leave me alone i ll thank your mother too for twelve years you ve trained me and tortured me and i ll stand it no more do you think i m a fool do you think i never felt ah when i came to your house a poor young bride how you all looked me over never a kind word and discussed me and thought i might just do and your mother corrected me and your sister snubbed me and you said funny things about me to show how clever you were and when charles died i was still to run in strings for the honour of your beastly family and i was to be cooped up at sawston and learn to keep house and all my chances spoilt of marrying again no thank you no thank you bully insolent boy who s that pray but you but thank goodness i can stand up against the world now for i ve found gino and this time i marry for love,150,150,Q150
+135,Mr. Herriton,['Lilia'],yes and i forbid you to do it you despise me perhaps and think i m feeble but you re mistaken you are ungrateful and impertinent and contemptible but i will save you in order to save irma and our name there is going to be such a row in this town that you and he ll be sorry you came to it i shall shrink from nothing for my blood is up it is unwise of you to laugh i forbid you to marry carella and i shall tell him so now,151,151,Q151
+136,Lilia,['Mr. Herriton'],do,152,152,Q152
+137,Lilia,"['Mr. Herriton', 'Signor Carella']",tell him so now have it out with him gino gino come in avanti fra filippo forbids the banns fra filippo s blood s up he shrinks from nothing oh take care he doesn t hurt you,153,154,"Q153,Q154"
+138,Mr. Herriton,['Signor Carella'],please sit down signor carella mrs herriton is rather agitated but there is no reason we should not be calm might i offer you a cigarette please sit down signor carella i will be frank with you i have come to prevent you marrying mrs herriton because i see you will both be unhappy together she is english you are italian she is accustomed to one thing you to another and pardon me if i say it she is rich and you are poor,155,156,"Q155,Q156"
+139,Signor Carella,['Mr. Herriton'],i am not marrying her because she is rich,157,157,Q157
+140,Mr. Herriton,['Signor Carella'],i never suggested that for a moment you are honourable i am sure but are you wise and let me remind you that we want her with us at home her little daughter will be motherless our home will be broken up if you grant my request you will earn our thanks and you will not be without a reward for your disappointment,158,158,Q158
+141,Signor Carella,['Mr. Herriton'],reward what reward,159,159,Q159
+142,Mr. Herriton,['Signor Carella'],what about a thousand lire you can have them tonight,160,161,"Q160,Q161"
+143,Signor Carella,['Mr. Herriton'],it is too late,162,162,Q162
+144,Mr. Herriton,['Signor Carella'],but why,163,163,Q163
+145,Signor Carella,['Mr. Herriton'],because because we are married married married as soon as i knew you were coming there was no time to tell you oh oh you have come all the way for nothing oh and oh your generosity please pardon me i am rude i am no better than a peasant and i,164,166,"Q164,Q165,Q166"
+146,Mr. Herriton,['Caroline Abbott'],i sleep at the globo and start for sawston tomorrow morning early he has assaulted me i could prosecute him but shall not,167,167,Q167
+147,Caroline Abbott,['Mr. Herriton'],i can t stop here i daren t stop here you will have to take me with you,168,168,Q168
+148,Lilia,['Signor Carella'],look what i am giving up to live with you silly fellow no i mean the life those herritons are very well connected they lead sawston society but what do i care so long as i have my silly fellow,169,170,"Q169,Q170"
+149,Lilia,['_unknowable'],it mayn t be heaven below but it s better than charles,171,171,Q171
+150,Signor Carella,['Lilia'],the air is good so is the food she will be happy here and we shall not have to part with the money,172,172,Q172
+151,Lilia,['Signor Carella'],oh you idle boy go and play pallone,173,173,Q173
+152,Signor Carella,['Lilia'],i am a married man i do not play games any more,174,174,Q174
+153,Lilia,['Signor Carella'],go and see your friends then,175,175,Q175
+154,Signor Carella,['Lilia'],i have no friends now,176,176,Q176
+155,Lilia,['Signor Carella'],silly silly silly you can t stop indoors all day,177,177,Q177
+156,Signor Carella,['Lilia'],i want to see no one but you,178,178,Q178
+157,Lilia,['Signor Carella'],now gino don t be silly go and see your friends and bring them to see me we both of us like society i m ready too for people now i mean to wake you all up just as i woke up sawston let s have plenty of men and make them bring their womenkind i mean to have real english tea parties,179,180,"Q179,Q180"
+158,Signor Carella,['Lilia'],there is my aunt and her husband but i thought you did not want to receive my relatives,181,181,Q181
+159,Lilia,['Signor Carella'],i never said such a,182,182,Q182
+160,Signor Carella,['Lilia'],but you would be right they are not for you many of them are in trade and even we are little more you should have gentlefolk and nobility for your friends,183,183,Q183
+161,Lilia,['_unknowable'],poor fellow it is sad for him to discover that his people are vulgar,184,184,Q184
+162,Lilia,['Signor Carella'],but besides your relatives i must have other people here your friends have wives and sisters haven t they,185,185,Q185
+163,Signor Carella,['Lilia'],oh yes but of course i scarcely know them,186,186,Q186
+164,Lilia,['Signor Carella'],not know your friends people,187,187,Q187
+165,Signor Carella,['Lilia'],why no if they are poor and have to work for their living i may see them but not otherwise except,188,188,Q188
+166,Lilia,['Signor Carella'],how funny but i mean to change all that bring your friends to see me and i will make them bring their people well who are the principal people here who leads society well are they married,189,191,"Q189,Q190,Q191"
+167,Signor Carella,['Lilia'],yes,192,192,Q192
+168,Lilia,['Signor Carella'],there we are do you know them,193,193,Q193
+169,Signor Carella,['Lilia'],yes in a way,194,194,Q194
+170,Lilia,['Signor Carella'],i see they look down on you do they poor boy wait wait i ll soon stop that now who else is there,195,196,"Q195,Q196"
+171,Signor Carella,['Lilia'],the marchese sometimes and the canons of the collegiate church,197,197,Q197
+172,Lilia,['Signor Carella'],married,198,198,Q198
+173,Signor Carella,['Lilia'],the canons,199,199,Q199
+174,Lilia,['Signor Carella'],oh i forgot your horrid celibacy in england they would be the centre of everything but why shouldn t i know them would it make it easier if i called all round isn t that your foreign way but i must know some one who were the men you were talking to this afternoon but gino dear if they re low class why did you talk to them don t you care about your position,200,202,"Q200,Q201,Q202"
+175,Signor Carella,['_unknowable'],ouf pouf how hot it is in here no air i sweat all over i expire i must cool myself or i shall never get to sleep and i though i am young am at all events a man and know what is right,203,204,"Q203,Q204"
+176,Signor Carella,['Lilia'],you must not go out alone it is not safe if you want to walk perfetta shall accompany you,205,205,Q205
+177,Lilia,['Signor Carella'],very well very well,206,206,Q206
+178,Spiridione,['Signor Carella'],they all do it myself excepted but tell me more she is english that is good very good an english wife is very good indeed and she is rich,207,207,Q207
+179,Signor Carella,['Spiridione'],immensely rich,208,208,Q208
+180,Spiridione,['Signor Carella'],blonde or dark,209,209,Q209
+181,Signor Carella,['Spiridione'],blonde,210,210,Q210
+182,Spiridione,['Signor Carella'],is it possible,211,211,Q211
+183,Signor Carella,['Spiridione'],it pleases me very much if you remember i always desired a blonde,212,212,Q212
+184,Spiridione,['Signor Carella'],we all desire one but you gino deserve your good fortune for you are a good son a brave man and a true friend and from the very first moment i saw you i wished you well,213,213,Q213
+185,Signor Carella,['Spiridione'],no compliments i beg,214,214,Q214
+186,Spiridione,['_group'],is it not true does not he deserve this wealthy blonde,215,215,Q215
+187,_group,['Spiridione'],he does deserve her,216,216,Q216
+188,Spiridione,['Signor Carella'],tell me i forgot to ask is she young,217,217,Q217
+189,Signor Carella,['Spiridione'],thirty three,218,218,Q218
+190,Spiridione,['Signor Carella'],ah well we cannot have everything,219,219,Q219
+191,Signor Carella,['Spiridione'],but you would be surprised had she told me twenty eight i should not have disbelieved her,220,220,Q220
+192,Spiridione,['Signor Carella'],is she simpatica,221,221,Q221
+193,Signor Carella,['Spiridione'],sufficiently so,222,222,Q222
+194,Spiridione,['Signor Carella'],it is a most important thing,223,223,Q223
+195,Signor Carella,['Spiridione'],she is rich she is generous she is affable she addresses her inferiors without haughtiness,224,224,Q224
+196,Spiridione,['Signor Carella'],it is not sufficient one does not define it thus last month a german was smuggling cigars the custom house was dark yet i refused because i did not like him the gifts of such men do not bring happiness non era simpatico he paid for every one and the fine for deception besides,225,226,"Q225,Q226"
+197,Signor Carella,['Spiridione'],do you gain much beyond your pay,227,227,Q227
+198,Spiridione,['Signor Carella'],i do not accept small sums now it is not worth the risk but the german was another matter but listen my gino for i am older than you and more full of experience the person who understands us at first sight who never irritates us who never bores to whom we can pour forth every thought and wish not only in speech but in silence that is what i mean by simpatico,228,228,Q228
+199,Signor Carella,['Spiridione'],there are such men i know and i have heard it said of children but where will you find such a woman,229,229,Q229
+200,Spiridione,['Signor Carella'],that is true here you are wiser than i sono poco simpatiche le donne and the time we waste over them is much,230,230,Q230
+201,Signor Carella,['Spiridione'],one i have seen who may be so she spoke very little but she was a young lady different to most she too was english the companion of my wife here but fra filippo the brother in law took her back with him i saw them start he was very angry i regret though that i toppled him on to the bed a great tall man and when i am really amused i am often impolite,231,232,"Q231,Q232"
+202,Spiridione,['Signor Carella'],you will never see him again and by now the scene will have passed from his mind,233,233,Q233
+203,Signor Carella,['Spiridione'],it sometimes happens that such things are recollected longest i shall never see him again of course but it is no benefit to me that he should wish me ill and even if he has forgotten i am still sorry that i toppled him on to the bed i want to consult you since you are so kind as to take an interest in my affairs my wife wishes to take solitary walks but i have forbidden her,234,236,"Q234,Q235,Q236"
+204,Spiridione,['Signor Carella'],naturally,237,237,Q237
+205,Signor Carella,['Spiridione'],she does not yet understand she asked me to accompany her sometimes to walk without object you know she would like me to be with her all day,238,238,Q238
+206,Spiridione,['Signor Carella'],i see i see she needs employment is she a catholic,239,240,"Q239,Q240"
+207,Signor Carella,['Spiridione'],no,241,241,Q241
+208,Spiridione,['Signor Carella'],that is a pity she must be persuaded it will be a great solace to her when she is alone,242,242,Q242
+209,Signor Carella,['Spiridione'],i am a catholic but of course i never go to church,243,243,Q243
+210,Spiridione,['Signor Carella'],of course not still you might take her at first that is what my brother has done with his wife at bologna and he has joined the free thinkers he took her once or twice himself and now she has acquired the habit and continues to go without him,244,244,Q244
+211,Signor Carella,['Spiridione'],most excellent advice and i thank you for it but she wishes to give tea parties men and women together whom she has never seen,245,245,Q245
+212,Spiridione,['Signor Carella'],oh the english they are always thinking of tea they carry it by the kilogramme in their trunks and they are so clumsy that they always pack it at the top but it is absurd,246,246,Q246
+213,Signor Carella,['Spiridione'],what am i to do about it,247,247,Q247
+214,Spiridione,['Signor Carella'],do nothing or ask me,248,248,Q248
+215,Signor Carella,['Spiridione'],come she will be quite pleased,249,249,Q249
+216,Spiridione,['Signor Carella'],of course i was only joking,250,250,Q250
+217,Signor Carella,['Spiridione'],i know but she wants me to take my friends come now waiter,251,251,Q251
+218,Spiridione,['Signor Carella'],if i do come and take tea with you this bill must be my affair,252,252,Q252
+219,Signor Carella,['Spiridione'],certainly not you are in my country,253,253,Q253
+220,Lilia,"['Signor Carella', 'Spiridione']",do you like music,254,254,Q254
+221,Spiridione,"['Lilia', 'Signor Carella']",passionately i have not studied scientific music but the music of the heart yes,255,255,Q255
+222,Signor Carella,['Spiridione'],i think you are quite right i shall not bring people to the house any more i do not see why an english wife should be treated differently this is italy,256,256,Q256
+223,Spiridione,['Signor Carella'],you are very wise very wise indeed the more precious a possession the more carefully it should be guarded,257,257,Q257
+224,Lilia,['Signor Carella'],i always do it in england,258,258,Q258
+225,Signor Carella,['Lilia'],this is italy,259,259,Q259
+226,Lilia,['Signor Carella'],yes but i m older than you and i ll settle,260,260,Q260
+227,Signor Carella,['Lilia'],i am your husband,261,261,Q261
+228,Lilia,['Signor Carella'],and i ve got the money and you d better mend your manners for you d find it awkward if i stopped drawing cheques,262,263,"Q262,Q263"
+229,Lilia,['Perfetta'],none of his clothes seemed to fit too big in one place too small in another what has happened he is ill ill,264,265,"Q264,Q265"
+230,Perfetta,['Lilia'],what did you say to him,266,266,Q266
+231,Lilia,['Perfetta'],hardly anything,267,267,Q267
+232,Signor Carella,['Lilia'],it was not i,268,268,Q268
+233,Lilia,['_unknowable'],perhaps if i have a child he will be different i know he wants a son,269,269,Q269
+234,Signor Carella,['_unknowable'],ah one ought to marry spiridione is wrong i must persuade him not till marriage does one realize the pleasures and the possibilities of life,270,270,Q270
+235,Lilia,['_unknowable'],non vengo vengo vengo vengo what shall i do he will be so angry,271,274,"Q271,Q272,Q273,Q274"
+236,Lilia,"['Perfetta', 'Signor Carella']",you laugh,275,275,Q275
+237,Signor Carella,"['Lilia', 'Perfetta']",ah who could help it i who thought you knew and saw nothing i am tricked i am conquered i give in let us talk of it no more,276,276,Q276
+238,Perfetta,['Lilia'],what courage you have and what good fortune he is angry no longer he has forgiven you,277,277,Q277
+239,Signor Carella,['Lilia'],gently gently,278,278,Q278
+240,Lilia,['Signor Carella'],it s nothing,279,279,Q279
+241,Signor Carella,['Lilia'],my love my dearest lilia be calm i have never loved any one but you i have prayed all night for a boy,280,281,"Q280,Q281"
+242,Lilia,['Signor Carella'],you are a boy yourself gino,282,282,Q282
+243,Signor Carella,['Lilia'],then we shall be brothers,283,283,Q283
+244,_unknowable,['Lilia'],it is a beautiful boy,284,284,Q284
+245,Mr. Herriton,['_unknowable'],it is a weak face i shall never carve a place for myself in the world,285,285,Q285
+246,Mrs. Herriton,"['Harriet', 'Mr. Herriton']",are we to go into mourning do you think,286,286,Q286
+247,Harriet,"['Mr. Herriton', 'Mrs. Herriton']",after all she has suffered that letter kept me awake for nights the whole thing is like one of those horrible modern plays where no one is in the right but if we have mourning it will mean telling irma,287,287,Q287
+248,Mr. Herriton,"['Harriet', 'Mrs. Herriton']",of course we must tell irma,288,288,Q288
+249,Mrs. Herriton,"['Harriet', 'Mr. Herriton']",of course but i think we can still not tell her about lilia s marriage,289,289,Q289
+250,Mr. Herriton,"['Harriet', 'Mrs. Herriton']",i don t think that and she must have suspected something by now,290,290,Q290
+251,Mrs. Herriton,"['Harriet', 'Mr. Herriton']",so one would have supposed but she never cared for her mother and little girls of nine don t reason clearly she looks on it as a long visit and it is important most important that she should not receive a shock all a child s life depends on the ideal it has of its parents destroy that and everything goes morals behaviour everything absolute trust in some one else is the essence of education that is why i have been so careful about talking of poor lilia before her,291,291,Q291
+252,Mr. Herriton,"['Harriet', 'Mrs. Herriton']",but you forget this wretched baby waters and adamson write that there is a baby,292,292,Q292
+253,Mrs. Herriton,"['Harriet', 'Mr. Herriton']",mrs theobald must be told but she doesn t count she is breaking up very quickly she doesn t even see mr kingcroft now he thank goodness i hear has at last consoled himself with someone else,293,293,Q293
+254,Mr. Herriton,"['Harriet', 'Mrs. Herriton']",the child must know some time,294,294,Q294
+255,Mrs. Herriton,"['Harriet', 'Mr. Herriton']",the later the better every moment she is developing,295,295,Q295
+256,Mr. Herriton,"['Harriet', 'Mrs. Herriton']",i must say it seems rather hard luck doesn t it,296,296,Q296
+257,Mrs. Herriton,"['Harriet', 'Mr. Herriton']",on irma why,297,297,Q297
+258,Mr. Herriton,"['Harriet', 'Mrs. Herriton']",on us perhaps we have morals and behaviour also and i don t think this continual secrecy improves them,298,298,Q298
+259,Harriet,"['Mr. Herriton', 'Mrs. Herriton']",there s no need to twist the thing round to that,299,299,Q299
+260,Mrs. Herriton,"['Harriet', 'Mr. Herriton']",of course there isn t let s keep to the main issue this baby s quite beside the point mrs theobald will do nothing and it s no concern of ours,300,300,Q300
+261,Mr. Herriton,"['Harriet', 'Mrs. Herriton']",it will make a difference in the money surely,301,301,Q301
+262,Mrs. Herriton,"['Harriet', 'Mr. Herriton']",no dear very little poor charles provided for every kind of contingency in his will the money will come to you and harriet as irma s guardians,302,302,Q302
+263,Mr. Herriton,"['Harriet', 'Mrs. Herriton']",good does the italian get anything,303,303,Q303
+264,Mrs. Herriton,"['Harriet', 'Mr. Herriton']",he will get all hers but you know what that is,304,304,Q304
+265,Mr. Herriton,"['Harriet', 'Mrs. Herriton']",good so those are our tactics to tell no one about the baby not even miss abbott,305,305,Q305
+266,Mrs. Herriton,"['Harriet', 'Mr. Herriton']",most certainly this is the proper course and why ever should we tell caroline,306,306,Q306
+267,Mr. Herriton,"['Harriet', 'Mrs. Herriton']",she was so mixed up in the affair,307,307,Q307
+268,Mrs. Herriton,"['Harriet', 'Mr. Herriton']",poor silly creature the less she hears about it the better she will be pleased i have come to be very sorry for caroline she if any one has suffered and been penitent she burst into tears when i told her a little only a little of that terrible letter i never saw such genuine remorse we must forgive her and forget let the dead bury their dead we will not trouble her with them,308,308,Q308
+269,Mr. Herriton,"['Harriet', 'Mrs. Herriton']",here beginneth the new life then do you remember mother that was what we said when we saw lilia off,309,309,Q309
+270,Mrs. Herriton,"['Harriet', 'Mr. Herriton']",yes dear but now it is really a new life because we are all at accord then you were still infatuated with italy it may be full of beautiful pictures and churches but we cannot judge a country by anything but its men,310,310,Q310
+271,Mr. Herriton,"['Harriet', 'Mrs. Herriton']",that is quite true,311,311,Q311
+272,Mrs. Herriton,['Mr. Herriton'],as for caroline i was almost frightened she broke down utterly she cried even when she left the house i comforted her as best i could and i kissed her it is something that the breach between her and ourselves is now entirely healed,312,312,Q312
+273,Mr. Herriton,['Mrs. Herriton'],did she ask no questions as to the nature of lilia s death i mean,313,313,Q313
+274,Mrs. Herriton,['Mr. Herriton'],she did but she has a mind of extraordinary delicacy she saw that i was reticent and she did not press me you see philip i can say to you what i could not say before harriet her ideas are so crude really we do not want it known in sawston that there is a baby all peace and comfort would be lost if people came inquiring after it,314,314,Q314
+275,Caroline Abbott,['Mr. Herriton'],it is all so strange as well as so tragic and what i did was as strange as anything,315,315,Q315
+276,Mr. Herriton,['Caroline Abbott'],never mind it s all over now let the dead bury their dead it s fallen out of our lives,316,316,Q316
+277,Caroline Abbott,['Mr. Herriton'],but that s why i can talk about it and tell you everything i have always wanted to you thought me stupid and sentimental and wicked and mad but you never really knew how much i was to blame,317,317,Q317
+278,Mr. Herriton,['Caroline Abbott'],indeed i never think about it now,318,318,Q318
+279,Caroline Abbott,['Mr. Herriton'],the first evening we got to monteriano lilia went out for a walk alone saw that italian in a picturesque position on a wall and fell in love he was shabbily dressed and she did not even know he was the son of a dentist i must tell you i was used to this sort of thing once or twice before i had had to send people about their business,319,319,Q319
+280,Mr. Herriton,['Caroline Abbott'],yes we counted on you,320,320,Q320
+281,Caroline Abbott,['Mr. Herriton'],i know you did lilia saw him several times again and i knew i ought to interfere i called her to my bedroom one night she was very frightened for she knew what it was about and how severe i could be do you love this man i asked yes or no she said yes and i said why don t you marry him if you think you ll be happy,321,321,Q321
+282,Mr. Herriton,['Caroline Abbott'],really really you knew lilia all your life apart from everything else as if she could choose what could make her happy,322,322,Q322
+283,Caroline Abbott,['Mr. Herriton'],had you ever let her choose i m afraid that s rude,323,324,"Q323,Q324"
+284,Mr. Herriton,['Caroline Abbott'],let us rather say unhappily expressed,325,325,Q325
+285,Caroline Abbott,['Mr. Herriton'],i want to finish next morning i found signor carella and said the same to him he well he was willing that s all,326,326,Q326
+286,Mr. Herriton,['Caroline Abbott'],and the telegram,327,327,Q327
+287,Caroline Abbott,['Mr. Herriton'],ah the telegram that was wrong lilia there was more cowardly than i was we should have told the truth it lost me my nerve at all events i came to the station meaning to tell you everything then but we had started with a lie and i got frightened and at the end when you left i got frightened again and came with you,328,328,Q328
+288,Mr. Herriton,['Caroline Abbott'],did you really mean to stop,329,329,Q329
+289,Caroline Abbott,['Mr. Herriton'],for a time at all events,330,330,Q330
+290,Mr. Herriton,['Caroline Abbott'],would that have suited a newly married pair,331,331,Q331
+291,Caroline Abbott,['Mr. Herriton'],it would have suited them lilia needed me and as for him i can t help feeling i might have got influence over him,332,332,Q332
+292,Mr. Herriton,['Caroline Abbott'],i am ignorant of these matters but i should have thought that would have increased the difficulty of the situation,333,333,Q333
+293,Caroline Abbott,['Mr. Herriton'],well i have explained,334,334,Q334
+294,Mr. Herriton,['Caroline Abbott'],but pardon me miss abbott of most of your conduct you have given a description rather than an explanation,335,335,Q335
+295,Caroline Abbott,['Mr. Herriton'],an explanation may bore you mr herriton it drags in other topics,336,336,Q336
+296,Mr. Herriton,['Caroline Abbott'],oh never mind,337,337,Q337
+297,Caroline Abbott,['Mr. Herriton'],i hated sawston you see,338,338,Q338
+298,Mr. Herriton,['Caroline Abbott'],so did and do i that s splendid go on,339,339,Q339
+299,Caroline Abbott,['Mr. Herriton'],i hated the idleness the stupidity the respectability the petty unselfishness,340,340,Q340
+300,Mr. Herriton,['Caroline Abbott'],petty selfishness,341,341,Q341
+301,Caroline Abbott,['Mr. Herriton'],petty unselfishness i had got an idea that every one here spent their lives in making little sacrifices for objects they didn t care for to please people they didn t love that they never learnt to be sincere and what s as bad never learnt how to enjoy themselves that s what i thought what i thought at monteriano,342,342,Q342
+302,Mr. Herriton,['Caroline Abbott'],why miss abbott you should have told me this before think it still i agree with lots of it magnificent,343,343,Q343
+303,Caroline Abbott,['Mr. Herriton'],now lilia though there were things about her i didn t like had somehow kept the power of enjoying herself with sincerity and gino i thought was splendid and young and strong not only in body and sincere as the day if they wanted to marry why shouldn t they do so why shouldn t she break with the deadening life where she had got into a groove and would go on in it getting more and more worse than unhappy apathetic till she died of course i was wrong she only changed one groove for another a worse groove and as for him well you know more about him than i do i can never trust myself to judge characters again but i still feel he cannot have been quite bad when we first met him lilia that i should dare to say it must have been cowardly he was only a boy just going to turn into something fine i thought and she must have mismanaged him so that is the one time i have gone against what is proper and there are the results you have an explanation now,344,344,Q344
+304,Mr. Herriton,['Caroline Abbott'],and much of it has been most interesting though i don t understand everything did you never think of the disparity of their social position,345,345,Q345
+305,Caroline Abbott,['Mr. Herriton'],we were mad drunk with rebellion we had no common sense as soon as you came you saw and foresaw everything,346,346,Q346
+306,Mr. Herriton,['Caroline Abbott'],oh i don t think that,347,347,Q347
+307,Caroline Abbott,['Mr. Herriton'],i hope you see why i have troubled you with this long story women i heard you say the other day are never at ease till they tell their faults out loud lilia is dead and her husband gone to the bad all through me you see mr herriton it makes me specially unhappy it s the only time i ve ever gone into what my father calls real life and look what i ve made of it all that winter i seemed to be waking up to beauty and splendour and i don t know what and when the spring came i wanted to fight against the things i hated mediocrity and dulness and spitefulness and society i actually hated society for a day or two at monteriano i didn t see that all these things are invincible and that if we go against them they will break us to pieces thank you for listening to so much nonsense,348,348,Q348
+308,Mr. Herriton,['Caroline Abbott'],oh i quite sympathize with what you say it isn t nonsense and a year or two ago i should have been saying it too but i feel differently now and i hope that you also will change society is invincible to a certain degree but your real life is your own and nothing can touch it there is no power on earth that can prevent your criticizing and despising mediocrity nothing that can stop you retreating into splendour and beauty into the thoughts and beliefs that make the real life the real you,349,349,Q349
+309,Caroline Abbott,['Mr. Herriton'],i have never had that experience yet surely i and my life must be where i live,350,350,Q350
+310,Mr. Herriton,['Caroline Abbott'],there is another great consolation against invincible mediocrity the meeting a fellow victim i hope that this is only the first of many discussions that we shall have together,351,351,Q351
+311,Harriet,['Irma'],how dare you you wicked girl give it here,352,352,Q352
+312,Irma,['Harriet'],who is my little brother why have i never heard of him before grandmamma grandmamma who is my little brother who is my,353,353,Q353
+313,Mrs. Herriton,"['Harriet', 'Irma']",come with me dear and i will tell you now it is time for you to know,354,354,Q354
+314,Irma,"['Harriet', 'Mr. Herriton', 'Mrs. Herriton']",aunt harriet uncle phil grandmamma what do you suppose my little brother is doing now has he begun to play do italian babies talk sooner than us or would he be an english baby born abroad oh i do long to see him and be the first to teach him the ten commandments and the catechism,355,355,Q355
+315,Mrs. Herriton,"['Harriet', 'Mr. Herriton']",really irma is getting too tiresome she forgot poor lilia soon enough,356,356,Q356
+316,Mr. Herriton,"['Harriet', 'Mrs. Herriton']",a living brother is more to her than a dead mother she can knit him socks,357,357,Q357
+317,Mrs. Herriton,"['Harriet', 'Mr. Herriton']",i stopped that she is bringing him in everywhere it is most vexatious the other night she asked if she might include him in the people she mentions specially in her prayers,358,358,Q358
+318,Mr. Herriton,"['Harriet', 'Mrs. Herriton']",what did you say,359,359,Q359
+319,Mrs. Herriton,"['Harriet', 'Mr. Herriton']",of course i allowed her she has a right to mention any one she chooses but i was annoyed with her this morning and i fear that i showed it,360,360,Q360
+320,Mr. Herriton,"['Harriet', 'Mrs. Herriton']",and what happened this morning,361,361,Q361
+321,Mrs. Herriton,"['Harriet', 'Mr. Herriton']",she asked if she could pray for her new father for the italian,362,362,Q362
+322,Mr. Herriton,"['Harriet', 'Mrs. Herriton']",did you let her,363,363,Q363
+323,Mrs. Herriton,"['Harriet', 'Mr. Herriton']",i got up without saying anything,364,364,Q364
+324,Mr. Herriton,"['Harriet', 'Mrs. Herriton']",you must have felt just as you did when i wanted to pray for the devil,365,365,Q365
+325,Harriet,"['Mr. Herriton', 'Mrs. Herriton']",he is the devil,366,366,Q366
+326,Mr. Herriton,"['Harriet', 'Mrs. Herriton']",no harriet he is too vulgar,367,367,Q367
+327,Harriet,"['Mr. Herriton', 'Mrs. Herriton']",i will thank you not to scoff against religion think of that poor baby irma is right to pray for him what an entrance into life for an english child,368,369,"Q368,Q369"
+328,Mr. Herriton,"['Harriet', 'Mrs. Herriton']",my dear sister i can reassure you firstly the beastly baby is italian secondly it was promptly christened at santa deodata s and a powerful combination of saints watch over,370,370,Q370
+329,Mrs. Herriton,"['Harriet', 'Mr. Herriton']",don t dear and harriet don t be so serious i mean not so serious when you are with irma she will be worse than ever if she thinks we have something to hide,371,371,Q371
+330,Mrs. Herriton,['Mr. Herriton'],i cannot think what his motive is in sending them,372,372,Q372
+331,Mr. Herriton,['Mrs. Herriton'],do you suppose that he guesses the situation how anxious we are to hush the scandal up,373,373,Q373
+332,Mrs. Herriton,['Mr. Herriton'],that is quite possible he knows that irma will worry us about the baby perhaps he hopes that we shall adopt it to quiet her,374,374,Q374
+333,Mr. Herriton,['Mrs. Herriton'],hopeful indeed,375,375,Q375
+334,Mrs. Herriton,['Mr. Herriton'],at the same time he has the chance of corrupting the child s morals he entreats her to send the baby one,376,377,"Q376,Q377"
+335,Mr. Herriton,['Mrs. Herriton'],she might do it too,378,378,Q378
+336,Mrs. Herriton,['Mr. Herriton'],i told her not to but we must watch her carefully without of course appearing to be suspicious,379,379,Q379
+337,Mr. Herriton,['Mrs. Herriton'],who s to watch her at school though she may bubble out any moment,380,380,Q380
+338,Mrs. Herriton,['Mr. Herriton'],we can but trust to our influence,381,381,Q381
+339,Mrs. Herriton,['_unknowable'],yes it is all very sad my daughter in law made a very unhappy marriage as i dare say you know i suppose that the child will be educated in italy possibly his grandmother may be doing something but i have not heard of it i do not expect that she will have him over she disapproves of the father it is altogether a painful business for her,382,382,Q382
+340,Mrs. Herriton,"['Caroline Abbott', 'Mr. Herriton']",i dare say you have heard,383,383,Q383
+341,Caroline Abbott,"['Mr. Herriton', 'Mrs. Herriton']",yes i have i came to ask you have any steps been taken,384,384,Q384
+342,Mrs. Herriton,"['Caroline Abbott', 'Mr. Herriton']",about the baby,385,385,Q385
+343,Caroline Abbott,"['Mr. Herriton', 'Mrs. Herriton']",yes,386,386,Q386
+344,Mrs. Herriton,"['Caroline Abbott', 'Mr. Herriton']",as far as i know no steps mrs theobald may have decided on something but i have not heard of it,387,387,Q387
+345,Caroline Abbott,"['Mr. Herriton', 'Mrs. Herriton']",i was meaning had you decided on anything,388,388,Q388
+346,Mr. Herriton,"['Caroline Abbott', 'Mrs. Herriton']",the child is no relation of ours it is therefore scarcely for us to interfere,389,389,Q389
+347,Mrs. Herriton,"['Caroline Abbott', 'Mr. Herriton']",poor lilia was almost a daughter to me once i know what miss abbott means but now things have altered any initiative would naturally come from mrs theobald,390,390,Q390
+348,Caroline Abbott,"['Mr. Herriton', 'Mrs. Herriton']",but does not mrs theobald always take any initiative from you,391,391,Q391
+349,Mrs. Herriton,"['Caroline Abbott', 'Mr. Herriton']",i sometimes have given her advice in the past i should not presume to do so now,392,392,Q392
+350,Caroline Abbott,"['Mr. Herriton', 'Mrs. Herriton']",then is nothing to be done for the child at all,393,393,Q393
+351,Mr. Herriton,"['Caroline Abbott', 'Mrs. Herriton']",it is extraordinarily good of you to take this unexpected interest,394,394,Q394
+352,Caroline Abbott,"['Mr. Herriton', 'Mrs. Herriton']",the child came into the world through my negligence it is natural i should take an interest in it,395,395,Q395
+353,Mrs. Herriton,"['Caroline Abbott', 'Mr. Herriton']",my dear caroline you must not brood over the thing let bygones be bygones the child should worry you even less than it worries us we never even mention it it belongs to another world,396,396,Q396
+354,Caroline Abbott,"['Mr. Herriton', 'Mrs. Herriton']",of course if mrs theobald decides on any plan that seems at all practicable i must say i don t see any such i shall ask if i may join her in it for irma s sake and share in any possible expenses please would you let me know if she decides on anything i should like to join as well,397,398,"Q397,Q398"
+355,Mrs. Herriton,"['Caroline Abbott', 'Mr. Herriton']",my dear how you throw about your money we would never allow it,399,399,Q399
+356,Caroline Abbott,"['Mr. Herriton', 'Mrs. Herriton']",and if she decides on nothing please also let me know let me know in any case,400,400,Q400
+357,Mr. Herriton,['Mrs. Herriton'],is the young person mad never in my life have i seen such colossal impertinence she ought to be well smacked and sent back to sunday school but don t you see she is practically threatening us you can t put her off with mrs theobald she knows as well as we do that she is a nonentity if we don t do anything she s going to raise a scandal that we neglect our relatives c which is of course a lie still she ll say it oh dear sweet sober caroline abbott has a screw loose we knew it at monteriano i had my suspicions last year one day in the train and here it is again the young person is mad shall i go round at once and give it her well i d really enjoy it,401,403,"Q401,Q402,Q403"
+358,Mrs. Herriton,['Mr. Herriton'],caroline has been extremely impertinent yet there may be something in what she says after all ought the child to grow up in that place and with that father let us admit frankly that after all we may have responsibilities,404,405,"Q404,Q405"
+359,Mr. Herriton,['Mrs. Herriton'],i don t understand you mother you are turning absolutely round what are you up to,406,406,Q406
+360,Mrs. Herriton,['Mr. Herriton'],up to i am wondering whether i ought not to adopt the child is that sufficiently plain,407,407,Q407
+361,Mr. Herriton,['Mrs. Herriton'],and this is the result of half a dozen idiocies of miss abbott,408,408,Q408
+362,Mrs. Herriton,['Mr. Herriton'],it is i repeat she has been extremely impertinent none the less she is showing me my duty if i can rescue poor lilia s baby from that horrible man who will bring it up either as papist or infidel who will certainly bring it up to be vicious i shall do it,409,409,Q409
+363,Mr. Herriton,['Mrs. Herriton'],you talk like harriet,410,410,Q410
+364,Mrs. Herriton,['Mr. Herriton'],and why not say if you choose that i talk like irma that child has seen the thing more clearly than any of us she longs for her little brother she shall have him i don t care if i am impulsive,411,411,Q411
+365,Mrs. Herriton,['_unknowable'],i am planning what can be done and that kind caroline abbott is helping me it is no business of either of us but we are getting to feel that the baby must not be left entirely to that horrible man it would be unfair to little irma after all he is her half brother no we have come to nothing definite,412,412,Q412
+366,Mrs. Herriton,['Mr. Herriton'],what do you think of it it would not do to let him know that we are anxious for it,413,413,Q413
+367,Mr. Herriton,['Mrs. Herriton'],certainly he will never suppose that,414,414,Q414
+368,Mrs. Herriton,['Mr. Herriton'],but what effect will the letter have on him,415,415,Q415
+369,Mr. Herriton,['Mrs. Herriton'],when he gets it he will do a sum if it is less expensive in the long run to part with a little money and to be clear of the baby he will part with it if he would lose he will adopt the tone of the loving father,416,416,Q416
+370,Mrs. Herriton,['Mr. Herriton'],dear you re shockingly cynical how would the sum work out,417,418,"Q417,Q418"
+371,Mr. Herriton,['Mrs. Herriton'],i don t know i m sure but if you wanted to ensure the baby being posted by return you should have sent a little sum to him oh i m not cynical at least i only go by what i know of him but i am weary of the whole show weary of italy weary weary weary sawston s a kind pitiful place isn t it i will go walk in it and seek comfort,419,419,Q419
+372,Mr. Abbott,"['Caroline Abbott', 'Mr. Herriton']",very fine of mrs herriton very fine indeed i m afraid it will mean a lot of expense she will get nothing out of italy without paying,420,420,Q420
+373,Mr. Herriton,"['Caroline Abbott', 'Mr. Abbott']",there are sure to be incidental expenses do you suppose we shall have difficulty with the man,421,422,"Q421,Q422"
+374,Caroline Abbott,"['Mr. Abbott', 'Mr. Herriton']",it depends,423,423,Q423
+375,Mr. Herriton,"['Caroline Abbott', 'Mr. Abbott']",from what you saw of him should you conclude that he would make an affectionate parent,424,424,Q424
+376,Caroline Abbott,"['Mr. Abbott', 'Mr. Herriton']",i don t go by what i saw of him but by what i know of him,425,425,Q425
+377,Mr. Herriton,"['Caroline Abbott', 'Mr. Abbott']",well what do you conclude from that,426,426,Q426
+378,Caroline Abbott,"['Mr. Abbott', 'Mr. Herriton']",that he is a thoroughly wicked man,427,427,Q427
+379,Mr. Herriton,"['Caroline Abbott', 'Mr. Abbott']",yet thoroughly wicked men have loved their children look at rodrigo borgia for example,428,428,Q428
+380,Caroline Abbott,"['Mr. Abbott', 'Mr. Herriton']",i have also seen examples of that in my district,429,429,Q429
+381,Mr. Herriton,['Mrs. Herriton'],she fences well,430,430,Q430
+382,Mrs. Herriton,['Mr. Herriton'],what had you to fence about read the letters we have failed,431,431,Q431
+383,Mr. Herriton,['Mrs. Herriton'],i didn t know i was still such an ass why can t i realize that it s merely tricks of expression a bounder s a bounder whether he lives in sawston or monteriano,432,432,Q432
+384,Mrs. Herriton,['Mr. Herriton'],isn t it disheartening,433,433,Q433
+385,Mr. Herriton,['Mrs. Herriton'],the sum works out against us or perhaps he is putting up the price,434,434,Q434
+386,Mrs. Herriton,['Mr. Herriton'],no it is not that for some perverse reason he will not part with the child i must go and tell poor caroline she will be equally distressed the impudence the cursed impudence oh i m swearing i don t care that beastly woman how dare she interfere i ll philip dear i m sorry it s no good you must go,435,436,"Q435,Q436"
+387,Mr. Herriton,['Mrs. Herriton'],go where do sit down what s happened,437,437,Q437
+388,Mrs. Herriton,['Mr. Herriton'],she won t accept won t accept the letter as final you must go to monteriano,438,438,Q438
+389,Mr. Herriton,['Mrs. Herriton'],i won t i ve been and i ve failed i ll never see the place again i hate italy,439,439,Q439
+390,Mrs. Herriton,['Mr. Herriton'],if you don t go she will,440,440,Q440
+391,Mr. Herriton,['Mrs. Herriton'],abbott,441,441,Q441
+392,Mrs. Herriton,['Mr. Herriton'],yes going alone would start this evening i offered to write she said it was too late too late the child if you please irma s brother to live with her to be brought up by her and her father at our very gates to go to school like a gentleman she paying oh you re a man it doesn t matter for you you can laugh but i know what people say and that woman goes to italy this evening,442,442,Q442
+393,Mr. Herriton,['Mrs. Herriton'],then let her go let her mess with italy by herself she ll come to grief somehow italy s too dangerous too,443,443,Q443
+394,Mrs. Herriton,['Mr. Herriton'],stop that nonsense philip i will not be disgraced by her i will have the child pay all we ve got for it i will have it,444,444,Q444
+395,Mr. Herriton,['Mrs. Herriton'],let her go to italy let her meddle with what she doesn t understand look at this letter the man who wrote it will marry her or murder her or do for her somehow he s a bounder but he s not an english bounder he s mysterious and terrible he s got a country behind him that s upset people from the beginning of the world,445,445,Q445
+396,Mrs. Herriton,['Mr. Herriton'],harriet harriet shall go too harriet now will be invaluable,446,446,Q446
+397,Harriet,['Mr. Herriton'],it upsets one s plans terribly but obviously it is my duty,447,447,Q447
+398,Mr. Herriton,['Harriet'],did mother explain it all to you,448,448,Q448
+399,Harriet,['Mr. Herriton'],yes indeed mother has written me a really beautiful letter she describes how it was that she gradually got to feel that we must rescue the poor baby from its terrible surroundings how she has tried by letter and it is no good nothing but insincere compliments and hypocrisy came back then she says there is nothing like personal influence you and philip will succeed where i have failed she says too that caroline abbott has been wonderful caroline feels it as keenly almost as us that is because she knows the man oh he must be loathsome goodness me i ve forgotten to pack the ammonia it has been a terrible lesson for caroline but i fancy it is her turning point i can t help liking to think that out of all this evil good will come,449,450,"Q449,Q450"
+400,Mr. Herriton,['Harriet'],absurd nonsense they talk about the heat supposing we were here for pleasure what could be more pleasurable than this,451,451,Q451
+401,Harriet,['Mr. Herriton'],did you hear though they are remarking on the cold i should never have thought it cold what a religion foreigners are a filthy nation i don t care if there are tunnels open the windows,452,452,Q452
+402,Mr. Herriton,['Harriet'],singles or returns,453,453,Q453
+403,Harriet,['Mr. Herriton'],a single for me i shall never get back alive,454,454,Q454
+404,Mr. Herriton,['Harriet'],sweet creature how helpful you will be when we come to signor carella,455,455,Q455
+405,Harriet,['Mr. Herriton'],do you suppose do you suppose i am going to enter that man s house,456,456,Q456
+406,Mr. Herriton,['Harriet'],then what have you come for pray for ornament,457,457,Q457
+407,Harriet,['Mr. Herriton'],to see that you do your duty,458,458,Q458
+408,Mr. Herriton,['Harriet'],oh thanks,459,459,Q459
+409,Harriet,['Mr. Herriton'],so mother told me for goodness sake get the tickets here comes that hot woman again she has the impudence to bow,460,460,Q460
+410,Mr. Herriton,['Harriet'],mother told you did she,461,461,Q461
+411,Harriet,['Mr. Herriton'],but do people live inside,462,462,Q462
+412,Mr. Herriton,['Harriet'],no,463,463,Q463
+413,Harriet,['Mr. Herriton'],what do they do there,464,464,Q464
+414,Mr. Herriton,['Harriet'],there is a caffe a prison a theatre a church walls a view,465,465,Q465
+415,Harriet,['Mr. Herriton'],not for me thank you,466,466,Q466
+416,Mr. Herriton,['Harriet'],nobody asked you miss you see now lilia was asked by such a nice young gentleman with curls all over his forehead and teeth just as white as father makes them but harriet do you see nothing wonderful or attractive in that place nothing at all,467,468,"Q467,Q468"
+417,Harriet,['Mr. Herriton'],nothing at all it s frightful,469,469,Q469
+418,Mr. Herriton,['Harriet'],i know it is but it s old awfully old,470,470,Q470
+419,Harriet,['Mr. Herriton'],beauty is the only test at least so you told me when i sketched old buildings for the sake i suppose of making yourself unpleasant,471,471,Q471
+420,Mr. Herriton,['Harriet'],oh i m perfectly right but at the same time i don t know so many things have happened here people have lived so hard and so splendidly i can t explain,472,472,Q472
+421,Harriet,['Mr. Herriton'],i shouldn t think you could it doesn t seem the best moment to begin your italy mania i thought you were cured of it by now instead will you kindly tell me what you are going to do when you arrive i do beg you will not be taken unawares this time,473,473,Q473
+422,Mr. Herriton,['Harriet'],first harriet i shall settle you at the stella d italia in the comfort that befits your sex and disposition then i shall make myself some tea after tea i shall take a book into santa deodata s and read there it is always fresh and cool,474,474,Q474
+423,Harriet,['Mr. Herriton'],i m not clever philip i don t go in for it as you know but i know what s rude and i know what s wrong,475,475,Q475
+424,Mr. Herriton,['Harriet'],meaning,476,476,Q476
+425,Harriet,['Mr. Herriton'],you what s the good of cleverness if a man s murdered a woman,477,477,Q477
+426,Mr. Herriton,['Harriet'],harriet i am hot to whom do you refer,478,478,Q478
+427,Harriet,['Mr. Herriton'],he her if you don t look out he ll murder you i wish he would,479,479,Q479
+428,Mr. Herriton,['Harriet'],tut tut tutlet you d find a corpse extraordinarily inconvenient i heartily dislike the fellow but we know he didn t murder her in that letter though she said a lot she never said he was physically cruel,480,481,"Q480,Q481"
+429,Harriet,['Mr. Herriton'],he has murdered her the things he did things one can t even mention,482,482,Q482
+430,Mr. Herriton,['Harriet'],things which one must mention if one s to talk at all and things which one must keep in their proper place because he was unfaithful to his wife it doesn t follow that in every way he s absolutely vile,483,483,Q483
+431,Harriet,['Mr. Herriton'],it s the supreme test the man who is unchivalrous to a woman,484,484,Q484
+432,Mr. Herriton,['Harriet'],oh stow it take it to the back kitchen it s no more a supreme test than anything else the italians never were chivalrous from the first if you condemn him for that you ll condemn the whole lot,485,485,Q485
+433,Harriet,['Mr. Herriton'],i condemn the whole lot,486,486,Q486
+434,Mr. Herriton,['Harriet'],and the french as well,487,487,Q487
+435,Harriet,['Mr. Herriton'],and the french as well,488,488,Q488
+436,Mr. Herriton,['Harriet'],things aren t so jolly easy,489,489,Q489
+437,Harriet,['Mr. Herriton'],what about the baby pray you ve said a lot of smart things and whittled away morality and religion and i don t know what but what about the baby you think me a fool but i ve been noticing you all today and you haven t mentioned the baby once you haven t thought about it even you don t care philip i shall not speak to you you are intolerable go,490,491,"Q490,Q491"
+438,Mr. Herriton,['Harriet'],go where,492,492,Q492
+439,Harriet,['Mr. Herriton'],to the italian go,493,493,Q493
+440,Mr. Herriton,['The Landlady'],buona sera signora padrona si ritorna volontieri a monteriano vorrei due camere,494,495,"Q494,Q495"
+441,Harriet,['Mr. Herriton'],go this instant now i ll stand it no longer go,496,496,Q496
+442,Mr. Herriton,['Harriet'],i m damned if i ll go i want my tea,497,497,Q497
+443,Harriet,['Mr. Herriton'],swear if you like blaspheme abuse me but understand i m in earnest,498,498,Q498
+444,Mr. Herriton,['Harriet'],harriet don t act or act better,499,499,Q499
+445,Harriet,['Mr. Herriton'],we ve come here to get the baby back and for nothing else i ll not have this levity and slackness and talk about pictures and churches think of mother did she send you out for them,500,500,Q500
+446,Mr. Herriton,['Harriet'],think of mother and don t straddle across the stairs let the cabman and the landlady come down and let me go up and choose rooms,501,501,Q501
+447,Harriet,['Mr. Herriton'],i shan t,502,502,Q502
+448,Mr. Herriton,['Harriet'],harriet are you mad,503,503,Q503
+449,Harriet,['Mr. Herriton'],if you like but you will not come up till you have seen the italian,504,504,Q504
+450,Mr. Herriton,['The Landlady'],la signorina si sente male c e il sole,505,505,Q505
+451,_group,"['Harriet', 'Mr. Herriton']",poveretta,506,506,Q506
+452,Harriet,['_group'],leave me alone i don t care for the lot of you i m english and neither you ll come down nor he up till he goes for the baby,507,507,Q507
+453,The Landlady,"['Harriet', 'Mr. Herriton']",la prego piano piano c e un altra signorina che dorme,508,508,Q508
+454,Mr. Herriton,['Harriet'],we shall probably be arrested for brawling harriet have you the very slightest sense of the ludicrous,509,509,Q509
+455,Harriet,"['Caroline Abbott', 'Mr. Herriton']",you caroline here of all people,510,510,Q510
+456,Mr. Herriton,"['Caroline Abbott', 'Harriet']",you will have a lot to tell miss abbott harriet and she may have as much to tell you so i ll pay my call on signor carella as you suggested and see how things stand tear each other s eyes out give it to her harriet teach her to leave us alone give it to her caroline teach her to be grateful to you go it ladies go it,511,512,"Q511,Q512"
+457,Mr. Herriton,['The Dogana Men'],where does signor carella live,513,513,Q513
+458,Little Girl,"['Mr. Herriton', 'The Dogana Men']",i ll show you,514,514,Q514
+459,The Dogana Men,"['Little Girl', 'Mr. Herriton']",she will show you follow her always always and you will come to no harm she is a trustworthy guide she is my daughter cousin sister,515,515,Q515
+460,Mr. Herriton,"['Little Girl', 'The Dogana Men']",do you chance to know whether signor carella is in,516,516,Q516
+461,Little Girl,['Mr. Herriton'],that is perfetta,517,517,Q517
+462,Mr. Herriton,"['Little Girl', 'Perfetta']",i want to see signor carella,518,518,Q518
+463,Perfetta,"['Little Girl', 'Mr. Herriton']",out,519,519,Q519
+464,Little Girl,"['Mr. Herriton', 'Perfetta']",out,520,520,Q520
+465,Mr. Herriton,['Little Girl'],why on earth did you say he was in,521,521,Q521
+466,Mr. Herriton,"['Little Girl', 'Perfetta']",when will he be back i shall have to leave a message,522,523,"Q522,Q523"
+467,Little Girl,['Mr. Herriton'],now perfetta has gone for her basket when she returns she will lower it so then you will put your card into it then she will raise it thus by this means,524,524,Q524
+468,Perfetta,"['Little Girl', 'Mr. Herriton']",beautiful as an angel but who am i addressing,525,525,Q525
+469,Mr. Herriton,"['Little Girl', 'Perfetta']",thank you here is my card has a young lady happened to call here lately a young english lady a young lady pale large tall a young lady,526,529,"Q526,Q527,Q528,Q529"
+470,Little Girl,['Mr. Herriton'],perfetta is deaf when she chooses,530,530,Q530
+471,Mr. Herriton,['Caroline Abbott'],i was going to make myself some tea,531,531,Q531
+472,Caroline Abbott,['Mr. Herriton'],i should be grateful you see harriet knows nothing,532,533,"Q532,Q533"
+473,Mr. Herriton,['Caroline Abbott'],no more do i he was out,534,534,Q534
+474,Caroline Abbott,['Mr. Herriton'],but what s that to do with it,535,535,Q535
+475,Mr. Herriton,['Caroline Abbott'],he was out you find me as ignorant as you have left harriet,536,536,Q536
+476,Caroline Abbott,['Mr. Herriton'],what do you mean please please mr herriton don t be mysterious there isn t the time any moment harriet may be down and we shan t have decided how to behave to her sawston was different we had to keep up appearances but here we must speak out and i think i can trust you to do it otherwise we ll never start clear,537,537,Q537
+477,Mr. Herriton,['Caroline Abbott'],pray let us start clear permit me to begin by asking you a question in which capacity have you come to monteriano spy or traitor,538,538,Q538
+478,Caroline Abbott,['Mr. Herriton'],spy spy your mother has behaved dishonourably all through she never wanted the child no harm in that but she is too proud to let it come to me she has done all she could to wreck things she did not tell you everything she has told harriet nothing at all she has lied or acted lies everywhere i cannot trust your mother so i have come here alone all across europe no one knows it my father thinks i am in normandy to spy on mrs herriton don t let s argue if you are here to get the child i will help you if you are here to fail i shall get it instead of you,539,542,"Q539,Q540,Q541,Q542"
+479,Mr. Herriton,['Caroline Abbott'],it is hopeless to expect you to believe me but i can assert that we are here to get the child even if it costs us all we ve got my mother has fixed no money limit whatever i am here to carry out her instructions i think that you will approve of them as you have practically dictated them i do not approve of them they are absurd harriet also carries out your instructions she however approves of them and does not know that they proceed from you i think miss abbott you had better take entire charge of the rescue party i have asked for an interview with signor carella tomorrow morning do you acquiesce might i ask for details of your interview with him they might be helpful to me,543,545,"Q543,Q544,Q545"
+480,Caroline Abbott,['Mr. Herriton'],my interview how do you know of it,546,546,Q546
+481,Mr. Herriton,['Caroline Abbott'],from perfetta if it interests you,547,547,Q547
+482,Caroline Abbott,['Mr. Herriton'],who ever is perfetta,548,548,Q548
+483,Mr. Herriton,['Caroline Abbott'],the woman who must have let you in,549,549,Q549
+484,Caroline Abbott,['Mr. Herriton'],in where,550,550,Q550
+485,Mr. Herriton,['Caroline Abbott'],into signor carella s house,551,551,Q551
+486,Caroline Abbott,['Mr. Herriton'],mr herriton how could you believe her do you suppose that i would have entered that man s house knowing about him all that i do i think you have very odd ideas of what is possible for a lady i hear you wanted harriet to go very properly she refused eighteen months ago i might have done such a thing but i trust i have learnt how to behave by now,552,552,Q552
+487,Mr. Herriton,['Caroline Abbott'],i suppose i misunderstood perfetta where did you have your interview then,553,553,Q553
+488,Caroline Abbott,['Mr. Herriton'],not an interview an accident i am very sorry i meant you to have the chance of seeing him first though it is your fault you are a day late you were due here yesterday so i came yesterday and not finding you went up to the rocca you know that kitchen garden where they let you in and there is a ladder up to a broken tower where you can stand and see all the other towers below you and the plain and all the other hills,554,554,Q554
+489,Mr. Herriton,['Caroline Abbott'],yes yes i know the rocca i told you of it,555,555,Q555
+490,Caroline Abbott,['Mr. Herriton'],so i went up in the evening for the sunset i had nothing to do he was in the garden it belongs to a friend of his,556,556,Q556
+491,Mr. Herriton,['Caroline Abbott'],and you talked,557,557,Q557
+492,Caroline Abbott,['Mr. Herriton'],it was very awkward for me but i had to talk he seemed to make me you see he thought i was here as a tourist he thinks so still he intended to be civil and i judged it better to be civil also,558,558,Q558
+493,Mr. Herriton,['Caroline Abbott'],and of what did you talk,559,559,Q559
+494,Caroline Abbott,['Mr. Herriton'],the weather there will be rain he says by tomorrow evening the other towns england myself about you a little and he actually mentioned lilia he was perfectly disgusting he pretended he loved her he offered to show me her grave the grave of the woman he has murdered,560,560,Q560
+495,Mr. Herriton,['Caroline Abbott'],my dear miss abbott he is not a murderer i have just been driving that into harriet and when you know the italians as well as i do you will realize that in all that he said to you he was perfectly sincere the italians are essentially dramatic they look on death and love as spectacles i don t doubt that he persuaded himself for the moment that he had behaved admirably both as husband and widower,561,561,Q561
+496,Caroline Abbott,['Mr. Herriton'],you may be right when i tried to pave the way so to speak to hint that he had not behaved as he ought well it was no good at all he couldn t or wouldn t understand,562,562,Q562
+497,Mr. Herriton,['Caroline Abbott'],harriet would say he has no sense of sin,563,563,Q563
+498,Caroline Abbott,['Mr. Herriton'],harriet may be right i am afraid,564,564,Q564
+499,Mr. Herriton,['Caroline Abbott'],if so perhaps he isn t sinful,565,565,Q565
+500,Caroline Abbott,['Mr. Herriton'],i know what he has done what he says and what he thinks is of very little importance,566,566,Q566
+501,Mr. Herriton,['Caroline Abbott'],i should like to hear though what he said about me is he preparing a warm reception,567,567,Q567
+502,Caroline Abbott,['Mr. Herriton'],oh no not that i never told him that you and harriet were coming you could have taken him by surprise if you liked he only asked for you and wished he hadn t been so rude to you eighteen months ago,568,568,Q568
+503,Mr. Herriton,['Caroline Abbott'],what a memory the fellow has for little things,569,569,Q569
+504,Caroline Abbott,['Mr. Herriton'],you did not think it a little thing at the time you told me he had assaulted you,570,570,Q570
+505,Mr. Herriton,['Caroline Abbott'],i lost my temper did he really what exactly did he say,571,572,"Q571,Q572"
+506,Caroline Abbott,['Mr. Herriton'],he said he was sorry pleasantly as italians do say such things but he never mentioned the baby once,573,573,Q573
+507,Mr. Herriton,['Caroline Abbott'],the view from the rocca small gratuity is finest at sunset,574,574,Q574
+508,Caroline Abbott,['Mr. Herriton'],and he never mentioned the baby once,575,575,Q575
+509,Mr. Herriton,['Caroline Abbott'],the view from the rocca wasn t it fine,576,576,Q576
+510,Caroline Abbott,['Mr. Herriton'],what isn t fine here i wish i was harriet,577,577,Q577
+511,Mr. Herriton,['Caroline Abbott'],because harriet,578,578,Q578
+512,Caroline Abbott,['Mr. Herriton'],mr herriton come here look at this,579,579,Q579
+513,Mr. Herriton,['Caroline Abbott'],it reaches up to heaven and down to the other place is it to be a symbol of the town,580,581,"Q580,Q581"
+514,Caroline Abbott,['Mr. Herriton'],surely that isn t an opera bill,582,582,Q582
+515,Mr. Herriton,['Caroline Abbott'],lucia di lammermoor by the master donizetti unique representation this evening,583,583,Q583
+516,Caroline Abbott,['Mr. Herriton'],but is there an opera right up here,584,584,Q584
+517,Mr. Herriton,['Caroline Abbott'],why yes these people know how to live they would sooner have a thing bad than not have it at all that is why they have got to have so much that is good however bad the performance is tonight it will be alive italians don t love music silently like the beastly germans the audience takes its share sometimes more,585,585,Q585
+518,Caroline Abbott,['Mr. Herriton'],can t we go,586,586,Q586
+519,Mr. Herriton,['Caroline Abbott'],but we re here to rescue a child,587,587,Q587
+520,Harriet,"['Caroline Abbott', 'Mr. Herriton']",you see him tomorrow at ten philip well don t forget the blank cheque say an hour for the business no italians are so slow say two twelve o clock lunch well then it s no good going till the evening train i can manage the baby as far as florence,588,588,Q588
+521,Mr. Herriton,"['Caroline Abbott', 'Harriet']",my dear sister you can t run on like that you don t buy a pair of gloves in two hours much less a baby,589,589,Q589
+522,Harriet,"['Caroline Abbott', 'Mr. Herriton']",three hours then or four or make him learn english ways at florence we get a nurse,590,590,Q590
+523,Caroline Abbott,"['Harriet', 'Mr. Herriton']",but harriet what if at first he was to refuse,591,591,Q591
+524,Harriet,"['Caroline Abbott', 'Mr. Herriton']",i don t know the meaning of the word i ve told the landlady that philip and i only want our rooms one night and we shall keep to it,592,592,Q592
+525,Mr. Herriton,"['Caroline Abbott', 'Harriet']",i dare say it will be all right but as i told you i thought the man i met on the rocca a strange difficult man,593,593,Q593
+526,Harriet,"['Caroline Abbott', 'Mr. Herriton']",he s insolent to ladies we know but my brother can be trusted to bring him to his senses that woman philip whom you saw will carry the baby to the hotel of course you must tip her for it and try if you can to get poor lilia s silver bangles they were nice quiet things and will do for irma and there is an inlaid box i lent her lent not gave to keep her handkerchiefs in it s of no real value but this is our only chance don t ask for it but if you see it lying about just say,594,594,Q594
+527,Mr. Herriton,"['Caroline Abbott', 'Harriet']",no harriet i ll try for the baby but for nothing else i promise to do that tomorrow and to do it in the way you wish but tonight as we re all tired we want a change of topic we want relaxation we want to go to the theatre,595,595,Q595
+528,Harriet,"['Caroline Abbott', 'Mr. Herriton']",theatres here and at such a moment,596,596,Q596
+529,Caroline Abbott,"['Harriet', 'Mr. Herriton']",we should hardly enjoy it with the great interview impending,597,597,Q597
+530,Mr. Herriton,"['Caroline Abbott', 'Harriet']",don t you think it s better than sitting in all the evening and getting nervous,598,598,Q598
+531,Harriet,"['Caroline Abbott', 'Mr. Herriton']",mother wouldn t like it it would be most unsuitable almost irreverent besides all that foreign theatres are notorious don t you remember those letters in the church family newspaper,599,599,Q599
+532,Mr. Herriton,"['Caroline Abbott', 'Harriet']",but this is an opera lucia di lammermoor sir walter scott classical you know,600,600,Q600
+533,Harriet,"['Caroline Abbott', 'Mr. Herriton']",certainly one has so few opportunities of hearing music it is sure to be very bad but it might be better than sitting idle all the evening we have no book and i lost my crochet at florence,601,601,Q601
+534,Mr. Herriton,"['Caroline Abbott', 'Harriet']",good miss abbott you are coming too,602,602,Q602
+535,Caroline Abbott,"['Harriet', 'Mr. Herriton']",it is very kind of you mr herriton in some ways i should enjoy it but excuse the suggestion i don t think we ought to go to cheap seats,603,603,Q603
+536,Harriet,"['Caroline Abbott', 'Mr. Herriton']",good gracious me i should never have thought of that as likely as not we should have tried to save money and sat among the most awful people one keeps on forgetting this is italy,604,604,Q604
+537,Caroline Abbott,"['Harriet', 'Mr. Herriton']",unfortunately i have no evening dress and if the seats,605,605,Q605
+538,Mr. Herriton,"['Caroline Abbott', 'Harriet']",oh that ll be all right we ll go as we are and buy the best we can get monteriano is not formal we do all right,606,608,"Q606,Q607,Q608"
+539,Caroline Abbott,"['Harriet', 'Mr. Herriton']",yes i know but pretty things pack as easily as ugly ones we had no need to come to italy like guys,609,609,Q609
+540,Mr. Herriton,"['Caroline Abbott', 'Harriet']",don t you like it at all,610,610,Q610
+541,Caroline Abbott,"['Harriet', 'Mr. Herriton']",most awfully,611,611,Q611
+542,Harriet,['_unknowable'],shish,612,612,Q612
+543,Mr. Herriton,"['Caroline Abbott', 'Harriet']",shut it,613,613,Q613
+544,Harriet,"['Caroline Abbott', 'Mr. Herriton']",we must make a stand from the beginning they re talking,614,614,Q614
+545,Caroline Abbott,"['Harriet', 'Mr. Herriton']",it is tiresome but perhaps it isn t for us to interfere,615,615,Q615
+546,Harriet,"['Caroline Abbott', 'Mr. Herriton']",ridiculous babies,616,616,Q616
+547,Mr. Herriton,"['Caroline Abbott', 'Harriet']",why it is the famous hot lady of the apennines the one who had never never before,617,617,Q617
+548,Harriet,"['Caroline Abbott', 'Mr. Herriton']",ugh don t she will be very vulgar and i m sure it s even worse here than in the tunnel i wish we d never,618,618,Q618
+549,_group,[],silence silence let the divine creature continue,619,619,Q619
+550,Harriet,"['Caroline Abbott', 'Mr. Herriton']",call this classical it s not even respectable philip take me out at once,620,620,Q620
+551,Mr. Herriton,"['Caroline Abbott', 'Harriet']",whose is it whose is it whose is it,621,622,"Q621,Q622"
+552,_group,['_unknowable'],to the left the innamorato is to the left,623,623,Q623
+553,Signor Carella,['Mr. Herriton'],why have you not written why do you take me by surprise,624,624,Q624
+554,Mr. Herriton,['Signor Carella'],oh i ve written i left a note this afternoon,625,625,Q625
+555,_group,[],silence silence let the divine creature continue,626,626,Q626
+556,Signor Carella,['Mr. Herriton'],no no you don t escape me now,627,627,Q627
+557,_group,"['Mr. Herriton', 'Signor Carella']",gino s friends are ours,628,628,Q628
+558,Signor Carella,['Mr. Herriton'],friends a relative a brother fra filippo who has come all the way from england and never written,629,629,Q629
+559,Mr. Herriton,['Signor Carella'],i left a message,630,630,Q630
+560,_group,"['Mr. Herriton', 'Signor Carella']",come in to us,631,631,Q631
+561,Mr. Herriton,['Signor Carella'],thank you ladies there is not time at ten o clock then i want to speak to you alone at ten,632,633,"Q632,Q633"
+562,Signor Carella,['Mr. Herriton'],certainly,634,634,Q634
+563,Caroline Abbott,['Mr. Herriton'],that was he wasn t it,635,635,Q635
+564,Mr. Herriton,['Caroline Abbott'],yes rather,636,636,Q636
+565,Caroline Abbott,['Mr. Herriton'],i suppose you didn t settle anything,637,637,Q637
+566,Mr. Herriton,['Caroline Abbott'],why no how could i the fact is well i got taken by surprise but after all what does it matter there s no earthly reason why we shouldn t do the business pleasantly he s a perfectly charming person and so are his friends i m his friend now his long lost brother what s the harm i tell you miss abbott it s one thing for england and another for italy there we plan and get on high moral horses here we find what asses we are for things go off quite easily all by themselves my hat what a night did you ever see a really purple sky and really silver stars before well as i was saying it s absurd to worry he s not a porky father he wants that baby as little as i do he s been ragging my dear mother just as he ragged me eighteen months ago and i ve forgiven him oh but he has a sense of humour,638,638,Q638
+567,Caroline Abbott,['_unknowable'],this time the same place the same thing help me,639,640,"Q639,Q640"
+568,Perfetta,['Caroline Abbott'],scusi tanto,641,641,Q641
+569,Caroline Abbott,['Perfetta'],is signor carella in,642,642,Q642
+570,Caroline Abbott,['_unknowable'],harriet and her brother don t realize what is before them she would bluster and be rude he would be pleasant and take it as a joke both of them even if they offered money would fail but i begin to understand the man s nature he does not love the child but he will be touchy about it and that is quite as bad for us he s charming but he s no fool he conquered me last year he conquered mr herriton yesterday and if i am not careful he will conquer us all today and the baby will grow up in monteriano he is terribly strong lilia found that out but only i remember it now,643,643,Q643
+571,Signor Carella,['_unknowable'],where is perfetta you know but you will not tell me exactly like you and why won t you tell me the numbers i have dreamt of a red hen that is two hundred and five and a friend unexpected he means eighty two but i try for the terno this week so tell me another number two hundred and five eighty two in any case i shall put them on bari not on florence i cannot tell you why i have a feeling this week for bari ah you don t care if you get the profits you won t even say thank you gino say it or i ll drop hot red hot ashes on you thank you gino,644,648,"Q644,Q645,Q646,Q647,Q648"
+572,Signor Carella,['Caroline Abbott'],what is it what has frightened you,649,649,Q649
+573,Caroline Abbott,['Signor Carella'],business,650,650,Q650
+574,Signor Carella,['Caroline Abbott'],business with me,651,651,Q651
+575,Caroline Abbott,['Signor Carella'],most important business,652,652,Q652
+576,Signor Carella,['Caroline Abbott'],before business you must get well this is the best wine,653,653,Q653
+577,Caroline Abbott,['Signor Carella'],perhaps you are engaged and as i am not very well,654,654,Q654
+578,Signor Carella,['Caroline Abbott'],you are not well enough to go back and i am not engaged ah now i understand now i see what frightened you but why did you never speak,655,656,"Q655,Q656"
+579,Caroline Abbott,['Signor Carella'],what a fine child signor carella and how nice of you to talk to it though i see that the ungrateful little fellow is asleep seven months no eight of course eight still he is a remarkably fine child for his age,657,657,Q657
+580,Signor Carella,['Caroline Abbott'],you must not stand let us sit on the loggia where it is cool i am afraid the room is very untidy,658,658,Q658
+581,Caroline Abbott,[],posing a born artist s model,659,659,Q659
+582,Caroline Abbott,['Signor Carella'],mr herriton called yesterday but you were out,660,660,Q660
+583,Signor Carella,['Caroline Abbott'],but guess e manca questo,661,662,"Q661,Q662"
+584,Caroline Abbott,['Signor Carella'],this house is a large house,663,663,Q663
+585,Signor Carella,['Caroline Abbott'],exactly and when my poor wife died when my poor wife died i thought of having my relatives to live here my father wished to give up his practice at empoli my mother and sisters and two aunts were also willing but it was impossible they have their ways of doing things and when i was younger i was content with them but now i am a man i have my own ways do you understand,664,665,"Q664,Q665"
+586,Caroline Abbott,['Signor Carella'],yes i do it is a large house,666,667,"Q666,Q667"
+587,Signor Carella,['Caroline Abbott'],immense and the taxes but it will be better when ah but you have never guessed why i went to poggibonsi why it was that i was out when he called,668,668,Q668
+588,Caroline Abbott,['Signor Carella'],i cannot guess signor carella i am here on business,669,669,Q669
+589,Signor Carella,['Caroline Abbott'],but try,670,670,Q670
+590,Caroline Abbott,['Signor Carella'],i cannot i hardly know you,671,671,Q671
+591,Signor Carella,['Caroline Abbott'],but we are old friends and your approval will be grateful to me you gave it me once before will you give it now,672,672,Q672
+592,Caroline Abbott,['Signor Carella'],i have not come as a friend this time i am not likely signor carella to approve of anything you do,673,673,Q673
+593,Signor Carella,['Caroline Abbott'],oh signorina surely you approve of marriage,674,675,"Q674,Q675"
+594,Caroline Abbott,['Signor Carella'],where there is love,676,676,Q676
+595,Signor Carella,['Caroline Abbott'],where there is love,677,677,Q677
+596,Caroline Abbott,['Signor Carella'],do i understand that you are proposing to marry again i forbid you then i forbid you,678,680,"Q678,Q679,Q680"
+597,Signor Carella,['Caroline Abbott'],but why,681,681,Q681
+598,Caroline Abbott,['Signor Carella'],you have ruined one woman i forbid you to ruin another it is not a year since lilia died you pretended to me the other day that you loved her it is a lie you wanted her money has this woman money too,682,682,Q682
+599,Signor Carella,['Caroline Abbott'],why yes a little,683,683,Q683
+600,Caroline Abbott,['Signor Carella'],and i suppose you will say that you love her,684,684,Q684
+601,Signor Carella,['Caroline Abbott'],i shall not say it it will be untrue now my poor wife so you do not advise me but why should it be a failure,685,686,"Q685,Q686"
+602,Caroline Abbott,['Signor Carella'],how can it succeed where there is no love,687,687,Q687
+603,Signor Carella,['Caroline Abbott'],but she does love me i forgot to tell you that,688,688,Q688
+604,Caroline Abbott,['Signor Carella'],indeed,689,689,Q689
+605,Signor Carella,['Caroline Abbott'],passionately,690,690,Q690
+606,Caroline Abbott,['Signor Carella'],then god help her,691,691,Q691
+607,Signor Carella,['Caroline Abbott'],whatever i say displeases you signorina god help you for you are most unfair you say that i ill treated my dear wife it is not so i have never ill treated any one you complain that there is no love in this marriage i prove that there is and you become still more angry what do you want do you suppose she will not be contented glad enough she is to get me and she will do her duty well,692,692,Q692
+608,Caroline Abbott,['Signor Carella'],her duty,693,693,Q693
+609,Signor Carella,['Caroline Abbott'],why of course she knows why i am marrying her,694,694,Q694
+610,Caroline Abbott,['Signor Carella'],to succeed where lilia failed to be your housekeeper your slave you,695,695,Q695
+611,Signor Carella,['Caroline Abbott'],to look after the baby certainly,696,696,Q696
+612,Caroline Abbott,['Signor Carella'],the baby,697,697,Q697
+613,Signor Carella,['Caroline Abbott'],it is an english marriage i do not care about the money i am having her for my son did you not understand that,698,698,Q698
+614,Caroline Abbott,['Signor Carella'],no it is not necessary signor carella since you are tired of the baby,699,700,"Q699,Q700"
+615,Caroline Abbott,['Mr. Herriton'],i don t mean that,701,701,Q701
+616,Signor Carella,['Caroline Abbott'],i know ah in a foreign language and how perfectly you speak italian one is certain to make slips you meant that we could not always be together yet he and i you are right what is to be done i cannot afford a nurse and perfetta is too rough when he was ill i dare not let her touch him when he has to be washed which happens now and then who does it i i feed him or settle what he shall have i sleep with him and comfort him when he is unhappy in the night no one talks no one may sing to him but i do not be unfair this time i like to do these things but nevertheless his voice became pathetic they take up a great deal of time and are not all suitable for a young man,702,703,"Q702,Q703"
+617,Caroline Abbott,['Signor Carella'],not at all suitable,704,704,Q704
+618,Signor Carella,['Caroline Abbott'],a little more wine,705,705,Q705
+619,Caroline Abbott,['Signor Carella'],oh no thank you but marriage signor carella is a very serious step could you not manage more simply your relative for example,706,706,Q706
+620,Signor Carella,['Caroline Abbott'],empoli i would as soon have him in england,707,707,Q707
+621,Caroline Abbott,['Signor Carella'],england then he has a grandmother there you know mrs theobald,708,709,"Q708,Q709"
+622,Signor Carella,['Caroline Abbott'],he has a grandmother here no he is troublesome but i must have him with me i will not even have my father and mother too for they would separate us,710,710,Q710
+623,Caroline Abbott,['Signor Carella'],how,711,711,Q711
+624,Signor Carella,['Caroline Abbott'],they would separate our thoughts,712,712,Q712
+625,Signor Carella,['_unknowable'],wake up,713,713,Q713
+626,Caroline Abbott,['Signor Carella'],oh take care,714,714,Q714
+627,Signor Carella,['Caroline Abbott'],he is not much longer than my boot is he can you believe that in time his own boots will be as large and that he also,715,715,Q715
+628,Caroline Abbott,['Signor Carella'],but ought you to treat him like that,716,716,Q716
+629,Signor Carella,['Caroline Abbott'],father son this woman will do exactly what i tell her she is fond of children she is clean she has a pleasant voice she is not beautiful i cannot pretend that to you for a moment but she is what i require,717,718,"Q717,Q718"
+630,Caroline Abbott,['Signor Carella'],oh do take care you are squeezing it,719,719,Q719
+631,Signor Carella,['Caroline Abbott'],it is nothing if he cries silently then you may be frightened he thinks i am going to wash him and he is quite right,720,720,Q720
+632,Caroline Abbott,['Signor Carella'],wash him you here,721,721,Q721
+633,Signor Carella,['Caroline Abbott'],i had gone to the farmacia and was sitting there comfortably when suddenly i remembered that perfetta had heated water an hour ago over there look covered with a cushion i came away at once for really he must be washed you must excuse me i can put it off no longer,722,722,Q722
+634,Caroline Abbott,['Signor Carella'],i have wasted your time,723,723,Q723
+635,Signor Carella,['Caroline Abbott'],but why are you going excuse me if i wash him while we talk,724,724,Q724
+636,Caroline Abbott,['Signor Carella'],i have nothing more to say,725,725,Q725
+637,Signor Carella,['Caroline Abbott'],oh but stop a moment you have not seen him yet,726,726,Q726
+638,Caroline Abbott,['Signor Carella'],i have seen as much as i want thank you,727,727,Q727
+639,Signor Carella,['Caroline Abbott'],take him,728,728,Q728
+640,Caroline Abbott,['Signor Carella'],i must go at once,729,729,Q729
+641,Signor Carella,['Caroline Abbott'],who would have believed his mother was blonde for he is brown all over brown every inch of him ah but how beautiful he is and he is mine mine for ever even if he hates me he will be mine he cannot help it he is made out of me i am his father,730,730,Q730
+642,Caroline Abbott,['Signor Carella'],may i help you to wash him,731,731,Q731
+643,Signor Carella,['Caroline Abbott'],it is very kind of you especially in your beautiful dress he is nearly clean already why i take the whole morning there is so much more of a baby than one expects and perfetta washes him just as she washes clothes then he screams for hours my wife is to have a light hand ah how he kicks has he splashed you i am very sorry,732,732,Q732
+644,Caroline Abbott,['Signor Carella'],i am ready for a soft towel now,733,733,Q733
+645,Signor Carella,['Caroline Abbott'],certainly certainly,734,734,Q734
+646,Caroline Abbott,['Signor Carella'],and if you had any powder,735,735,Q735
+647,Mr. Herriton,"['Caroline Abbott', 'Signor Carella']",hullo,736,736,Q736
+648,Mr. Herriton,['Caroline Abbott'],no do stop i got your note i m not offended you re quite right i really want you i could never have done it alone,737,737,Q737
+649,Signor Carella,"['Caroline Abbott', 'Mr. Herriton']",signorina do stop a little after all your kindness,738,738,Q738
+650,Mr. Herriton,"['Caroline Abbott', 'Signor Carella']",what is it,739,739,Q739
+651,Mr. Herriton,['Signor Carella'],what is it,740,740,Q740
+652,Signor Carella,['Mr. Herriton'],well your business,741,741,Q741
+653,Mr. Herriton,['Signor Carella'],our business miss abbott has told you of that,742,742,Q742
+654,Signor Carella,['Mr. Herriton'],no,743,743,Q743
+655,Mr. Herriton,['Signor Carella'],but surely,744,744,Q744
+656,Signor Carella,['Mr. Herriton'],she came for business but she forgot about it so did i,745,745,Q745
+657,Harriet,['Mr. Herriton'],mad absolutely stark staring raving mad what s she here for answer me that what s she doing in monteriano in august why isn t she in normandy answer that she won t i can she s come to thwart us she s betrayed us got hold of mother s plans oh goodness my head,746,747,"Q746,Q747"
+658,Mr. Herriton,['Harriet'],you mustn t accuse her of that though she is exasperating she hasn t come here to betray us,748,748,Q748
+659,Harriet,['Mr. Herriton'],then why has she come here answer me that bursting in on me crying and looking a disgusting sight and says she has been to see the italian couldn t even talk properly pretended she had changed her opinions what are her opinions to us i was very calm i said miss abbott i think there is a little misapprehension in this matter my mother mrs herriton oh goodness my head of course you ve failed don t trouble to answer i know you ve failed where s the baby pray of course you haven t got it dear sweet caroline won t let you oh yes and we re to go away at once and trouble the father no more those are her commands commands commands,749,750,"Q749,Q750"
+660,Mr. Herriton,['Harriet'],i ve not got the baby harriet but at the same time i haven t exactly failed i and signor carella are to have another interview this afternoon at the caffe garibaldi he is perfectly reasonable and pleasant should you be disposed to come with me you would find him quite willing to discuss things he is desperately in want of money and has no prospect of getting any i discovered that at the same time he has a certain affection for the child miss abbott has behaved extraordinarily but at the same time harriet you must listen my dear you must stop crying i have something quite important to say,751,753,"Q751,Q752,Q753"
+661,Harriet,['Mr. Herriton'],i shall not stop crying,754,754,Q754
+662,Mr. Herriton,['Harriet'],remember that miss abbott has done us no harm she said nothing to him about the matter he assumes that she is working with us i gathered that,755,755,Q755
+663,Harriet,['Mr. Herriton'],well she isn t,756,756,Q756
+664,Mr. Herriton,['Harriet'],yes but if you re careful she may be i interpret her behaviour thus she went to see him honestly intending to get the child away in the note she left me she says so and i don t believe she d lie,757,757,Q757
+665,Harriet,['Mr. Herriton'],i do,758,758,Q758
+666,Mr. Herriton,['Harriet'],when she got there there was some pretty domestic scene between him and the baby and she has got swept off in a gush of sentimentalism before very long if i know anything about psychology there will be a reaction she ll be swept back,759,759,Q759
+667,Harriet,['Mr. Herriton'],i don t understand your long words say plainly,760,760,Q760
+668,Mr. Herriton,['Harriet'],when she s swept back she ll be invaluable for she has made quite an impression on him he thinks her so nice with the baby you know she washed it for him,761,761,Q761
+669,Harriet,['Mr. Herriton'],disgusting,762,762,Q762
+670,Mr. Herriton,['Harriet'],if you want to carry off the baby keep your peace with miss abbott for if she chooses she can help you better than i can,763,763,Q763
+671,Harriet,['Mr. Herriton'],there can be no peace between me and her,764,764,Q764
+672,Mr. Herriton,['Harriet'],did you,765,765,Q765
+673,Harriet,['Mr. Herriton'],oh not all i wanted she went away before i had finished speaking just like those cowardly people into the church,766,766,Q766
+674,Mr. Herriton,['Harriet'],into santa deodata s,767,767,Q767
+675,Harriet,['Mr. Herriton'],yes i m sure she needs it anything more unchristian,768,768,Q768
+676,Mr. Herriton,['_unknowable'],please is there an english lady here,769,769,Q769
+677,Caroline Abbott,['Mr. Herriton'],i am sure that i need it i ve nothing to tell you i have simply changed straight round if i had planned the whole thing out i could not have treated you worse i can talk it over now but please believe that i have been crying,770,771,"Q770,Q771"
+678,Mr. Herriton,['Caroline Abbott'],and please believe that i have not come to scold you i know what has happened,772,772,Q772
+679,Caroline Abbott,['Mr. Herriton'],what,773,773,Q773
+680,Mr. Herriton,['Caroline Abbott'],what might have happened to me he had made you believe that he loved the child,774,774,Q774
+681,Caroline Abbott,['Mr. Herriton'],oh yes he has he will never give it up,775,775,Q775
+682,Mr. Herriton,['Caroline Abbott'],at present it is still unsettled,776,776,Q776
+683,Caroline Abbott,['Mr. Herriton'],it will never be settled,777,777,Q777
+684,Mr. Herriton,['Caroline Abbott'],perhaps not well as i said i know what has happened and i am not here to scold you but i must ask you to withdraw from the thing for the present harriet is furious but she will calm down when she realizes that you have done us no harm and will do none,778,778,Q778
+685,Caroline Abbott,['Mr. Herriton'],i can do no more but i tell you plainly i have changed sides,779,779,Q779
+686,Mr. Herriton,['Caroline Abbott'],if you do no more that is all we want you promise not to prejudice our cause by speaking to signor carella,780,780,Q780
+687,Caroline Abbott,['Mr. Herriton'],oh certainly i don t want to speak to him again i shan t ever see him again,781,781,Q781
+688,Mr. Herriton,['Caroline Abbott'],quite nice wasn t he,782,782,Q782
+689,Caroline Abbott,['Mr. Herriton'],quite,783,783,Q783
+690,Mr. Herriton,['Caroline Abbott'],well that s all i wanted to know i ll go and tell harriet of your promise and i think things ll quiet down now,784,784,Q784
+691,Caroline Abbott,['Mr. Herriton'],why aren t you angry with me,785,785,Q785
+692,Mr. Herriton,['Caroline Abbott'],because i understand you all sides i think harriet signor carella even my mother,786,786,Q786
+693,Caroline Abbott,['Mr. Herriton'],you do understand wonderfully you are the only one of us who has a general view of the muddle so what are you going to do,787,788,"Q787,Q788"
+694,Mr. Herriton,['Caroline Abbott'],do this afternoon i have another interview,789,789,Q789
+695,Caroline Abbott,['Mr. Herriton'],it will come to nothing well,790,790,Q790
+696,Mr. Herriton,['Caroline Abbott'],then another if that fails i shall wire home for instructions i dare say we may fail altogether but we shall fail honourably,791,791,Q791
+697,Caroline Abbott,['Mr. Herriton'],that s not doing anything you would be doing something if you kidnapped the baby or if you went straight away but that to fail honourably to come out of the thing as well as you can is that all you are after,792,792,Q792
+698,Mr. Herriton,['Caroline Abbott'],why yes since we talk openly that is all i am after just now what else is there if i can persuade signor carella to give in so much the better if he won t i must report the failure to my mother and then go home why miss abbott you can t expect me to follow you through all these turns,793,793,Q793
+699,Caroline Abbott,['Mr. Herriton'],i don t but i do expect you to settle what is right and to follow that do you want the child to stop with his father who loves him and will bring him up badly or do you want him to come to sawston where no one loves him but where he will be brought up well there is the question put dispassionately enough even for you settle it settle which side you ll fight on but don t go talking about an honourable failure which means simply not thinking and not acting at all,794,794,Q794
+700,Mr. Herriton,['Caroline Abbott'],because i understand the position of signor carella and of you it s no reason that,795,795,Q795
+701,Caroline Abbott,['Mr. Herriton'],none at all fight as if you think us wrong oh what s the use of your fair mindedness if you never decide for yourself any one gets hold of you and makes you do what they want and you see through them and laugh at them and do it it s not enough to see clearly i m muddle headed and stupid and not worth a quarter of you but i have tried to do what seemed right at the time and you your brain and your insight are splendid but when you see what s right you re too idle to do it you told me once that we shall be judged by our intentions not by our accomplishments i thought it a grand remark but we must intend to accomplish not sit intending on a chair,796,796,Q796
+702,Mr. Herriton,['Caroline Abbott'],you are wonderful,797,797,Q797
+703,Caroline Abbott,['Mr. Herriton'],oh you appreciate me i wish you didn t you appreciate us all see good in all of us and all the time you are dead dead dead look why aren t you angry you are so splendid mr herriton that i can t bear to see you wasted i can t bear she has not been good to you your mother,798,799,"Q798,Q799"
+704,Mr. Herriton,['Caroline Abbott'],miss abbott don t worry over me some people are born not to do things i m one of them i never did anything at school or at the bar i came out to stop lilia s marriage and it was too late i came out intending to get the baby and i shall return an honourable failure i never expect anything to happen now and so i am never disappointed you would be surprised to know what my great events are going to the theatre yesterday talking to you now i don t suppose i shall ever meet anything greater i seem fated to pass through the world without colliding with it or moving it and i m sure i can t tell you whether the fate s good or evil i don t die i don t fall in love and if other people die or fall in love they always do it when i m just not there you are quite right life to me is just a spectacle which thank god and thank italy and thank you is now more beautiful and heartening than it has ever been before,800,800,Q800
+705,Caroline Abbott,['Mr. Herriton'],i wish something would happen to you my dear friend i wish something would happen to you,801,801,Q801
+706,Mr. Herriton,['Caroline Abbott'],but why prove to me why i don t do as i am,802,802,Q802
+707,Mr. Herriton,"['Caroline Abbott', 'Harriet']",look here it s too hot for this we ve been talking and interviewing each other all the morning and i have another interview this afternoon i do stipulate for silence let each lady retire to her bedroom with a book,803,803,Q803
+708,Harriet,"['Caroline Abbott', 'Mr. Herriton']",i retire to pack please remind signor carella philip that the baby is to be here by half past eight this evening,804,804,Q804
+709,Mr. Herriton,"['Caroline Abbott', 'Harriet']",oh certainly harriet i shall make a point of reminding him,805,805,Q805
+710,Harriet,"['Caroline Abbott', 'Mr. Herriton']",and order a carriage to take us to the evening train,806,806,Q806
+711,Caroline Abbott,"['Harriet', 'Mr. Herriton']",and please would you order a carriage for me too,807,807,Q807
+712,Mr. Herriton,"['Caroline Abbott', 'Harriet']",you going,808,808,Q808
+713,Caroline Abbott,"['Harriet', 'Mr. Herriton']",of course why not,809,809,Q809
+714,Mr. Herriton,"['Caroline Abbott', 'Harriet']",why of course you would be going two carriages then two carriages for the evening train harriet whatever are you up to we shall never be ready,810,811,"Q810,Q811"
+715,Harriet,"['Caroline Abbott', 'Mr. Herriton']",order my carriage for the evening train,812,812,Q812
+716,Mr. Herriton,['Caroline Abbott'],well i suppose i shall and i shall also have my interview with signor carella but why should you mind do you suppose that i shall have the slightest influence over him,813,814,"Q813,Q814"
+717,Caroline Abbott,['Mr. Herriton'],no but i can t repeat all that i said in the church you ought never to see him again you ought to bundle harriet into a carriage not this evening but now and drive her straight away,815,815,Q815
+718,Mr. Herriton,['Caroline Abbott'],perhaps i ought but it isn t a very big ought whatever harriet and i do the issue is the same why i can see the splendour of it even the humour gino sitting up here on the mountain top with his cub we come and ask for it he welcomes us we ask for it again he is equally pleasant i m agreeable to spend the whole week bargaining with him but i know that at the end of it i shall descend empty handed to the plains it might be finer of me to make up my mind but i m not a fine character and nothing hangs on it,816,816,Q816
+719,Caroline Abbott,['Mr. Herriton'],perhaps i am extreme i ve been trying to run you just like your mother i feel you ought to fight it out with harriet every little trifle for some reason does seem incalculably important today and when you say of a thing that nothing hangs on it it sounds like blasphemy there s never any knowing how am i to put it which of our actions which of our idlenesses won t have things hanging on it for ever,817,817,Q817
+720,Mr. Herriton,['Signor Carella'],well you are right this affair is being managed by the ladies,818,818,Q818
+721,Signor Carella,['Mr. Herriton'],ah the ladies the ladies,819,819,Q819
+722,Mr. Herriton,['Signor Carella'],well i have done my best i shall face my mother with a good conscience will you bear me witness that i ve done my best,820,820,Q820
+723,Signor Carella,['Mr. Herriton'],my poor fellow i will,821,821,Q821
+724,Mr. Herriton,['Signor Carella'],and that i have mia sorella poor harriet one more wrench and it will all be over for her we are leaving this evening,822,824,"Q822,Q823,Q824"
+725,Signor Carella,['Mr. Herriton'],then you will not be here this evening as you promised us all three leaving,825,825,Q825
+726,Mr. Herriton,['Signor Carella'],all three by the night train at least that is my sister s plan so i m afraid i shan t be here,826,826,Q826
+727,Mr. Herriton,['Caroline Abbott'],yes do now that we have quarrelled we scarcely want to travel in procession all the way down the hill well good bye it s all over at last another scene in my pageant has shifted,827,827,Q827
+728,Caroline Abbott,['Mr. Herriton'],good bye it s been a great pleasure to see you i hope that won t shift at all events,828,828,Q828
+729,Mr. Herriton,['Caroline Abbott'],you sound despondent don t forget that you return victorious,829,829,Q829
+730,Caroline Abbott,['Mr. Herriton'],i suppose i do,830,830,Q830
+731,Mr. Herriton,['_unknowable'],it s hard luck on her she is a good person i must do for her anything i can,831,831,Q831
+732,The Landlady,['Mr. Herriton'],depend upon it she has gone to signor carella s to say good bye to her little nephew,832,832,Q832
+733,Mr. Herriton,['_unknowable'],did the lady give you this note speak up who gave it you and where,833,834,"Q833,Q834"
+734,The Driver,['Mr. Herriton'],be patient with him it is the poor idiot,835,835,Q835
+735,The Landlady,"['Mr. Herriton', 'The Driver']",the poor idiot he cannot speak he takes messages for us all,836,836,Q836
+736,Mr. Herriton,"['The Driver', 'The Landlady']",ugh signora padrona find out from him this note is from my sister what does it mean where did he see her,837,837,Q837
+737,The Landlady,"['Mr. Herriton', 'The Driver']",it is no good he understands everything but he can explain nothing,838,838,Q838
+738,The Driver,"['Mr. Herriton', 'The Landlady']",he has visions of the saints,839,839,Q839
+739,Mr. Herriton,"['The Driver', 'The Landlady']",but my sister where has she gone how has she met him,840,840,Q840
+740,The Landlady,"['Mr. Herriton', 'The Driver']",she has gone for a walk she has gone for a walk perhaps to wish good bye to her little nephew preferring to come back another way she has sent you this note by the poor idiot and is waiting for you outside the siena gate many of my guests do this,841,842,"Q841,Q842"
+741,Mr. Herriton,['The Driver'],go on i have paid him plenty go on what am i to do it is not like the lady to be late we shall miss the train,843,845,"Q843,Q844,Q845"
+742,The Driver,['Mr. Herriton'],let us drive slowly and you shall call her by name as we go,846,846,Q846
+743,Mr. Herriton,"['Harriet', 'The Driver']",harriet harriet harriet harriet why don t you answer,847,848,"Q847,Q848"
+744,Harriet,"['Mr. Herriton', 'The Driver']",i heard you coming,849,849,Q849
+745,Mr. Herriton,"['Harriet', 'The Driver']",what s that,850,850,Q850
+746,Harriet,"['Mr. Herriton', 'The Driver']",hush,851,851,Q851
+747,Mr. Herriton,"['Harriet', 'The Driver']",whatever is that,852,852,Q852
+748,Harriet,"['Mr. Herriton', 'The Driver']",hush sleeping,853,853,Q853
+749,Mr. Herriton,['_unknowable'],poor gino he s no greater than i am after all,854,854,Q854
+750,Mr. Herriton,['Harriet'],you have been pretty secret you might tell me a little now what do we pay for him all we ve got,855,855,Q855
+751,Harriet,['Mr. Herriton'],hush,856,856,Q856
+752,Mr. Herriton,['Harriet'],look here harriet i feel bad i want to see the baby,857,857,Q857
+753,Harriet,['Mr. Herriton'],hush,858,858,Q858
+754,Mr. Herriton,['Harriet'],i don t mind if i do wake him up i want to see him i ve as much right in him as you wait a minute but he s awake,859,861,"Q859,Q860,Q861"
+755,Harriet,['Mr. Herriton'],good ickle quiet boysey then,862,862,Q862
+756,Mr. Herriton,['Harriet'],his face do you know struck me as all wrong,863,863,Q863
+757,Harriet,['Mr. Herriton'],all wrong,864,864,Q864
+758,Mr. Herriton,['Harriet'],all puckered queerly,865,865,Q865
+759,Harriet,['Mr. Herriton'],of course with the shadows you couldn t see him,866,866,Q866
+760,Mr. Herriton,['Harriet'],well hold him up again,867,867,Q867
+761,Harriet,['Mr. Herriton'],nonsense we should hear him if he cried,868,868,Q868
+762,Mr. Herriton,['Harriet'],no he s crying hard i thought so before and i m certain now,869,869,Q869
+763,Harriet,['Mr. Herriton'],oh the night air i suppose or perhaps the wet of the rain,870,870,Q870
+764,Mr. Herriton,['Harriet'],i say you haven t hurt it or held it the wrong way or anything it is too uncanny crying and no noise why didn t you get perfetta to carry it to the hotel instead of muddling with the messenger it s a marvel he understood about the note,871,871,Q871
+765,Harriet,['Mr. Herriton'],oh he understands he tried to carry the baby,872,873,"Q872,Q873"
+766,Mr. Herriton,['Harriet'],but why not gino or perfetta,874,874,Q874
+767,Harriet,['Mr. Herriton'],philip don t talk must i say it again don t talk the baby wants to sleep,875,875,Q875
+768,Mr. Herriton,['Harriet'],i suppose he breathes and all that sort of thing,876,876,Q876
+769,Harriet,['Mr. Herriton'],of course you ve started him again i m certain he was asleep i do wish you wouldn t talk it makes me so nervous,877,877,Q877
+770,Mr. Herriton,['Harriet'],i m nervous too i wish he d scream it s too uncanny poor gino i m terribly sorry for gino,878,878,Q878
+771,Harriet,['Mr. Herriton'],are you,879,879,Q879
+772,Mr. Herriton,['Harriet'],because he s weak like most of us he doesn t know what he wants he doesn t grip on to life but i like that man and i m sorry for him you despise him harriet and you despise me but you do us no good by it we fools want some one to set us on our feet suppose a really decent woman had set up gino i believe caroline abbott might have done it mightn t he have been another man,880,881,"Q880,Q881"
+773,Harriet,['Mr. Herriton'],philip do you happen to have those matches handy we might as well look at the baby again if you have oh i don t want all that bother try again,882,883,"Q882,Q883"
+774,Mr. Herriton,['Harriet'],are you all right,884,884,Q884
+775,Harriet,['Mr. Herriton'],the baby the baby it slipped it s gone from my arms i stole it,885,885,Q885
+776,Mr. Herriton,['Harriet'],god help me,886,886,Q886
+777,Harriet,['Mr. Herriton'],i stole it i stole it i stole it it slipped out of my arms,887,887,Q887
+778,Mr. Herriton,"['Harriet', 'The Driver']",keep still let no one move we may tread on it keep still,888,888,Q888
+779,Harriet,['Mr. Herriton'],i stole it i and the idiot no one was there,889,889,Q889
+780,Caroline Abbott,['Mr. Herriton'],where are you,890,890,Q890
+781,Mr. Herriton,['Caroline Abbott'],silence,891,891,Q891
+782,Perfetta,['Mr. Herriton'],i will be as quick as i can but there are many streets in monteriano he is sometimes difficult to find i could not find him this morning,892,892,Q892
+783,Mr. Herriton,['Perfetta'],go first to the caffe garibaldi,893,893,Q893
+784,Signor Carella,['Mr. Herriton'],so you are back how glad i am we are all waiting,894,894,Q894
+785,Mr. Herriton,['Signor Carella'],my sister is ill and miss abbott is guiltless i should be glad if you did not have to trouble them it is through me it happened because i was cowardly and idle i have come to know what you will do gently man gently he is not here break down gino you must break down scream and curse and give in for a little you must break down it is time to be unhappy break down or you will be ill like my sister you will go gino you are to do what you like with me gino your son is dead gino he died in my arms remember it does not excuse me but he did die in my arms you brute kill me if you like but just you leave my broken arm alone do what you like but think first,895,903,"Q895,Q896,Q897,Q898,Q899,Q900,Q901,Q902,Q903"
+786,Caroline Abbott,"['Mr. Herriton', 'Signor Carella']",but your son is dead gino your son is dead dear gino your son is dead what is the good of another death what is the good of more pain go to him pick him up treat him kindly,904,906,"Q904,Q905,Q906"
+787,Mr. Herriton,"['Caroline Abbott', 'Signor Carella']",help help,907,907,Q907
+788,Signor Carella,"['Caroline Abbott', 'Mr. Herriton']",oh the foul devil kill him kill him for me,908,908,Q908
+789,Caroline Abbott,"['Mr. Herriton', 'Signor Carella']",this thing stops here,909,909,Q909
+790,Perfetta,['_unknowable'],latte latte,910,910,Q910
+791,Caroline Abbott,"['Mr. Herriton', 'Signor Carella']",remember there is to be no revenge i will have no more intentional evil we are not to fight with each other any more,911,911,Q911
+792,Mr. Herriton,"['Caroline Abbott', 'Signor Carella']",i shall never forgive him,912,912,Q912
+793,Perfetta,"['Caroline Abbott', 'Mr. Herriton', 'Signor Carella']",latte latte freschissima bianca come neve,913,913,Q913
+794,Signor Carella,"['Caroline Abbott', 'Mr. Herriton', 'Perfetta']",put the milk on the table it will not be wanted in the other room,914,914,Q914
+795,Caroline Abbott,"['Mr. Herriton', 'Perfetta', 'Signor Carella']",that milk need not be wasted take it signor carella and persuade mr herriton to drink is there any left,915,916,"Q915,Q916"
+796,Signor Carella,"['Caroline Abbott', 'Mr. Herriton', 'Perfetta']",a little,917,917,Q917
+797,Caroline Abbott,"['Mr. Herriton', 'Perfetta', 'Signor Carella']",then finish it,918,918,Q918
+798,Signor Carella,"['Caroline Abbott', 'Mr. Herriton', 'Perfetta']",will you not have some,919,919,Q919
+799,Caroline Abbott,"['Mr. Herriton', 'Perfetta', 'Signor Carella']",i do not care for milk finish it all,920,920,Q920
+800,Signor Carella,"['Caroline Abbott', 'Mr. Herriton', 'Perfetta']",philip have you had enough milk,921,921,Q921
+801,Mr. Herriton,"['Caroline Abbott', 'Perfetta', 'Signor Carella']",yes thank you gino finish it all,922,922,Q922
+802,Signor Carella,"['Caroline Abbott', 'Mr. Herriton', 'Perfetta']",it does not matter it does not matter it will never be wanted any more,923,923,Q923
+803,Mr. Herriton,['Caroline Abbott'],he will have to marry her i heard from him this morning just as we left milan he finds he has gone too far to back out it would be expensive i don t know how much he minds not as much as we suppose i think at all events there s not a word of blame in the letter i don t believe he even feels angry i never was so completely forgiven ever since you stopped him killing me it has been a vision of perfect friendship he nursed me he lied for me at the inquest and at the funeral though he was crying you would have thought it was my son who had died certainly i was the only person he had to be kind to he was so distressed not to make harriet s acquaintance and that he scarcely saw anything of you in his letter he says so again,924,924,Q924
+804,Caroline Abbott,['Mr. Herriton'],thank him please when you write and give him my kindest regards,925,925,Q925
+805,Mr. Herriton,['Caroline Abbott'],indeed i will,926,926,Q926
+806,Caroline Abbott,['Mr. Herriton'],when will you see him again,927,927,Q927
+807,Mr. Herriton,['Caroline Abbott'],i hope next spring perhaps we shall paint siena red for a day or two with some of the new wife s money it was one of the arguments for marrying her,928,928,Q928
+808,Caroline Abbott,['Mr. Herriton'],he has no heart he does not really mind about the child at all,929,929,Q929
+809,Mr. Herriton,['Caroline Abbott'],no you re wrong he does he is unhappy like the rest of us but he doesn t try to keep up appearances as we do he knows that the things that have made him happy once will probably make him happy again,930,930,Q930
+810,Caroline Abbott,['Mr. Herriton'],he said he would never be happy again,931,931,Q931
+811,Mr. Herriton,['Caroline Abbott'],in his passion not when he was calm we english say it when we are calm when we do not really believe it any longer gino is not ashamed of inconsistency it is one of the many things i like him for,932,932,Q932
+812,Caroline Abbott,['Mr. Herriton'],yes i was wrong that is so,933,933,Q933
+813,Mr. Herriton,['Caroline Abbott'],he s much more honest with himself than i am and he is honest without an effort and without pride but you miss abbott what about you will you be in italy next spring,934,934,Q934
+814,Caroline Abbott,['Mr. Herriton'],no,935,935,Q935
+815,Mr. Herriton,['Caroline Abbott'],i m sorry when will you come back do you think,936,936,Q936
+816,Caroline Abbott,['Mr. Herriton'],i think never,937,937,Q937
+817,Mr. Herriton,['Caroline Abbott'],for whatever reason,938,938,Q938
+818,Caroline Abbott,['Mr. Herriton'],because i understand the place there is no need,939,939,Q939
+819,Mr. Herriton,['Caroline Abbott'],understand italy,940,940,Q940
+820,Caroline Abbott,['Mr. Herriton'],perfectly,941,941,Q941
+821,Mr. Herriton,['_unknowable'],well i don t and i don t understand you,942,942,Q942
+822,Caroline Abbott,['Mr. Herriton'],are your plans decided,943,943,Q943
+823,Mr. Herriton,['Caroline Abbott'],yes i can t live at sawston,944,944,Q944
+824,Caroline Abbott,['Mr. Herriton'],have you told mrs herriton,945,945,Q945
+825,Mr. Herriton,['Caroline Abbott'],i wrote from monteriano i tried to explain things but she will never understand me her view will be that the affair is settled sadly settled since the baby is dead still it s over our family circle need be vexed no more she won t even be angry with you you see you have done us no harm in the long run unless of course you talk about harriet and make a scandal so that is my plan london and work what is yours,946,946,Q946
+826,Caroline Abbott,['Mr. Herriton'],poor harriet as if i dare judge harriet or anybody,947,947,Q947
+827,Mr. Herriton,['Caroline Abbott'],is harriet going to be all right,948,948,Q948
+828,Caroline Abbott,['Mr. Herriton'],she will soon be her old self,949,949,Q949
+829,Mr. Herriton,['Caroline Abbott'],i m clear enough about harriet s future and about parts of my own but i ask again what about yours,950,950,Q950
+830,Caroline Abbott,['Mr. Herriton'],sawston and work,951,951,Q951
+831,Mr. Herriton,['Caroline Abbott'],no,952,952,Q952
+832,Caroline Abbott,['Mr. Herriton'],why not,953,953,Q953
+833,Mr. Herriton,['Caroline Abbott'],you ve seen too much you ve seen as much and done more than i have,954,954,Q954
+834,Caroline Abbott,['Mr. Herriton'],but it s so different of course i shall go to sawston you forget my father and even if he wasn t there i ve a hundred ties my district i m neglecting it shamefully my evening classes the st james,955,955,Q955
+835,Mr. Herriton,['Caroline Abbott'],silly nonsense you re too good about a thousand times better than i am you can t live in that hole you must go among people who can hope to understand you i mind for myself i want to see you often again and again,956,956,Q956
+836,Caroline Abbott,['Mr. Herriton'],of course we shall meet whenever you come down and i hope that it will mean often,957,957,Q957
+837,Mr. Herriton,['Caroline Abbott'],it s not enough it ll only be in the old horrible way each with a dozen relatives round us no miss abbott it s not good enough,958,958,Q958
+838,Caroline Abbott,['Mr. Herriton'],we can write at all events,959,959,Q959
+839,Mr. Herriton,['Caroline Abbott'],you will write,960,960,Q960
+840,Caroline Abbott,['Mr. Herriton'],i will indeed,961,961,Q961
+841,Mr. Herriton,['Caroline Abbott'],but i say it s not enough you can t go back to the old life if you wanted to too much has happened,962,962,Q962
+842,Caroline Abbott,['Mr. Herriton'],i know that,963,963,Q963
+843,Mr. Herriton,['Caroline Abbott'],not only pain and sorrow but wonderful things that tower in the sunlight do you remember it and all you said to me the theatre even and the next day in the church and our times with gino,964,964,Q964
+844,Caroline Abbott,['Mr. Herriton'],all the wonderful things are over that is just where it is,965,965,Q965
+845,Mr. Herriton,['Caroline Abbott'],i don t believe it at all events not for me the most wonderful things may be to come,966,966,Q966
+846,Caroline Abbott,['Mr. Herriton'],the wonderful things are over,967,967,Q967
+847,Mr. Herriton,['Caroline Abbott'],miss abbott what is the matter with you i thought i understood you and i don t all those two great first days at monteriano i read you as clearly as you read me still i saw why you had come and why you changed sides and afterwards i saw your wonderful courage and pity and now you re frank with me one moment as you used to be and the next moment you shut me up you see i owe too much to you my life and i don t know what besides i won t stand it you ve gone too far to turn mysterious i ll quote what you said to me don t be mysterious there isn t the time i ll quote something else i and my life must be where i live you can t live at sawston,968,968,Q968
+848,Caroline Abbott,['Mr. Herriton'],it is tempting it is tempting not to be mysterious i ve wanted often to tell you and then been afraid i could never tell any one else certainly no woman and i think you re the one man who might understand and not be disgusted,969,970,"Q969,Q970"
+849,Mr. Herriton,['Caroline Abbott'],are you lonely is it anything like that,971,971,Q971
+850,Caroline Abbott,['Mr. Herriton'],yes i m terribly lonely or i wouldn t speak i think you must know already,972,973,"Q972,Q973"
+851,Mr. Herriton,['Caroline Abbott'],perhaps i do perhaps i could speak instead but if you will say the word plainly you ll never be sorry i will thank you for it all my life,974,975,"Q974,Q975"
+852,Caroline Abbott,['Mr. Herriton'],that i love him,976,976,Q976
+853,Mr. Herriton,['Caroline Abbott'],rather i love him too when i can forget how he hurt me that evening though whenever we shake hands,977,977,Q977
+854,Caroline Abbott,['Mr. Herriton'],you ve upset me i thought i was past all this you re taking it wrongly i m in love with gino don t pass it off i mean it crudely you know what i mean so laugh at me,978,979,"Q978,Q979"
+855,Mr. Herriton,['Caroline Abbott'],laugh at love,980,980,Q980
+856,Caroline Abbott,['Mr. Herriton'],yes pull it to pieces tell me i m a fool or worse that he s a cad say all you said when lilia fell in love with him that s the help i want i dare tell you this because i like you and because you re without passion you look on life as a spectacle you don t enter it you only find it funny or beautiful so i can trust you to cure me mr herriton isn t it funny he s not a gentleman nor a christian nor good in any way he s never flattered me nor honoured me but because he s handsome that s been enough the son of an italian dentist with a pretty face oh mr herriton isn t it funny i love him and i m not ashamed of it i love him and i m going to sawston and if i mayn t speak about him to you sometimes i shall die,981,984,"Q981,Q982,Q983,Q984"
+857,Mr. Herriton,['Caroline Abbott'],perhaps it is what the books call a passing fancy,985,985,Q985
+858,Caroline Abbott,['Mr. Herriton'],if i saw him often i might remember what he is like or he might grow old but i dare not risk it so nothing can alter me now,986,986,Q986
+859,Mr. Herriton,['Caroline Abbott'],well if the fancy does pass let me know,987,987,Q987
+860,Caroline Abbott,['Mr. Herriton'],oh you shall know quick enough,988,988,Q988
+861,Mr. Herriton,['Caroline Abbott'],but before you retire to sawston are you so mighty sure,989,989,Q989
+862,Caroline Abbott,['Mr. Herriton'],what of,990,990,Q990
+863,Mr. Herriton,['Caroline Abbott'],that you and he i was going to say whatever have you got in common,991,992,"Q991,Q992"
+864,Caroline Abbott,['Mr. Herriton'],nothing except the times we have seen each other,993,993,Q993
+865,Mr. Herriton,['Caroline Abbott'],which which times,994,994,Q994
+866,Caroline Abbott,['Mr. Herriton'],the time i thought you weak and heedless and went instead of you to get the baby that began it as far as i know the beginning or it may have begun when you took us to the theatre and i saw him mixed up with music and light but didn t understand till the morning then you opened the door and i knew why i had been so happy afterwards in the church i prayed for us all not for anything new but that we might just be as we were he with the child he loved you and i and harriet safe out of the place and that i might never see him or speak to him again i could have pulled through then the thing was only coming near like a wreath of smoke it hadn t wrapped me round,995,995,Q995
+867,Mr. Herriton,['Caroline Abbott'],but through my fault he is parted from the child he loves and because my life was in danger you came and saw him and spoke to him again,996,996,Q996
+868,Caroline Abbott,['Mr. Herriton'],don t talk of faults you re my friend for ever mr herriton i think only don t be charitable and shift or take the blame get over supposing i m refined that s what puzzles you get over that i say again don t be charitable if he had asked me i might have given myself body and soul that would have been the end of my rescue party but all through he took me for a superior being a goddess i who was worshipping every inch of him and every word he spoke and that saved me,997,998,"Q997,Q998"
+869,Mr. Herriton,['Caroline Abbott'],thank you thank you for everything,999,999,Q999

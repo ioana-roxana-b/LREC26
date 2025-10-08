@@ -1,0 +1,21 @@
+﻿a_speaker,b_speaker,n_features,n_pairs,n_triggers_total,mean_conv,mean_conv_w,a_gender,a_category,b_gender,b_category
+Evie,Mrs. Wilcox,1,3,2,0.3333333333333333,0.3333333333333333,F,intermediate,F,intermediate
+Margaret,Jacky,1,3,2,0.3333333333333333,0.3333333333333333,F,major,,
+Leonard,Mr. Cunningham,1,5,2,0.3,0.3,M,major,M,minor
+Jacky,Margaret,2,3,4,0.25,0.25,,,F,major
+Margaret,Crane,2,3,4,0.1666666666666666,0.1666666666666666,F,major,,
+Henry,Evie,7,7,25,0.1914965986394558,0.1314285714285714,,,F,intermediate
+Henry,Paul,8,5,24,0.15,0.125,,,M,minor
+Charles Wilcox,His Father'S Chauffeur,8,6,27,0.0979166666666666,0.0987654320987654,M,major,M,minor
+Evie,Margaret,2,7,6,0.0952380952380952,0.0952380952380952,F,intermediate,F,major
+Mrs. Bast,Leonard,8,20,40,0.1047619047619047,0.0924999999999999,F,minor,M,major
+Mr. Wilcox,Evie,9,9,38,0.0982363315696649,0.0906432748538011,M,major,F,intermediate
+A Young Man Low Down In The Education Office,Margaret,3,3,8,0.1111111111111111,0.0833333333333333,M,minor,F,major
+Margaret,Tom,6,4,15,0.1111111111111111,0.0833333333333333,F,major,,
+Dolly,Charles Wilcox,9,20,74,0.1278439153439153,0.081081081081081,F,intermediate,M,major
+Frieda,Helen,6,5,15,0.0833333333333333,0.0799999999999999,,,F,major
+Mr. Wilcox,Charles Wilcox,9,9,48,0.075705467372134,0.0717592592592592,M,major,M,major
+Helen,Aunt Juley,9,13,55,0.0857855107855107,0.0699300699300699,F,major,F,major
+Tom,Margaret,4,4,11,0.0833333333333333,0.0681818181818181,,,F,major
+Leonard,Jacky,2,3,5,0.0833333333333333,0.0666666666666666,M,major,,
+Evie,Mr. Wilcox,5,6,15,0.0833333333333333,0.0666666666666666,F,intermediate,M,major

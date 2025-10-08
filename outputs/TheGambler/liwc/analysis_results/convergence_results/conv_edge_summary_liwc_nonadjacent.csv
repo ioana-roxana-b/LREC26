@@ -1,0 +1,4 @@
+﻿a_speaker,b_speaker,n_features,n_pairs,n_triggers_total,mean_conv,mean_conv_w,a_gender,a_category,b_gender,b_category
+Antonida Vassilievna Tarassevitcha,Alexis Ivanovitch,4,6,24,0.0,0.0,F,major,M,major
+Polina Alexandrovna,Alexis Ivanovitch,2,5,10,0.0,0.0,F,major,M,major
+The General,Alexis Ivanovitch,9,9,60,-0.0070546737213403755,-0.009259259259259247,M,intermediate,M,major

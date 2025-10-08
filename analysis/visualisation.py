@@ -635,74 +635,128 @@ def plot_condition_comparison(pf_adj: Optional[pd.DataFrame],
     M.to_csv(out_png.with_suffix(".csv"), encoding="utf-8-sig")
 
 
-# =========================
-# Global profile with uncertainty
-# =========================
-def plot_global_profile_with_ci(pf: pd.DataFrame, out_png: Path, title: str, alpha: float = 0.05) -> None:
+def plot_gender_counts(edges: pd.DataFrame, out_png: Path, title: str = "Number of characters by gender") -> None:
     """
-    Family means with bootstrap confidence intervals.
+    Count of distinct speakers by gender.
 
     description:
-        For each family, estimates the mean Conv(t) and a (1−alpha)×100% bootstrap
-        confidence interval by resampling per-row values (with replacement).
-        Error bars show the bootstrap percentile CI; bars show the family mean.
-
-        Note: A confidence interval (CI) reflects the uncertainty in the sample mean.
-        A 95% CI means that if we repeated this sampling many times, ~95% of such
-        intervals would contain the true mean.
-
+        Counts how many unique characters appear by gender ('F','M', or other/unknown)
+        across both A (initiators) and B (responders). Produces a simple bar chart.
+        Saves a CSV with the counts.
 
     Params:
-        pf: Per-(A,B,family) convergence table with 'family' and 'conv'.
-        out_png: Output PNG path; a CSV of mean/CI per family is also written.
-        title: Chart title (e.g., "Family means with 95% CI").
-        alpha: Significance level for the CI (default 0.05 → 95% CI).
+        edges: Edge-level table with 'a_gender' and 'b_gender' columns.
+        out_png: Output path for PNG (CSV written next to it).
+        title: Chart title.
 
     Returns:
         None. Writes PNG and CSV.
     """
-    if pf is None or pf.empty or "family" not in pf.columns or "conv" not in pf.columns:
+    if edges is None or edges.empty:
         return
 
-    rows = []
-    for fam, g in pf.groupby("family"):
-        x = pd.to_numeric(g["conv"], errors="coerce").to_numpy()
-        x = x[np.isfinite(x)]
-        if x.size == 0:
-            continue
-        rng = np.random.default_rng(42)
-        n_boot = 2000
-        boots = rng.choice(x, size=(n_boot, x.size), replace=True).mean(axis=1)
-        mu = float(x.mean())
-        lo = float(np.percentile(boots, 100 * (alpha / 2)))
-        hi = float(np.percentile(boots, 100 * (1 - alpha / 2)))
-        rows.append({"family": fam, "mean": mu, "ci_lo": lo, "ci_hi": hi, "n": len(x)})
-
-    df = pd.DataFrame(rows).sort_values("mean", ascending=False)
-    if df.empty:
+    if not {"a_speaker", "b_speaker", "a_gender", "b_gender"}.issubset(edges.columns):
         return
+
+    df = edges.copy()
+    all_speakers = pd.DataFrame({
+        "speaker": pd.concat([df["a_speaker"], df["b_speaker"]], ignore_index=True),
+        "gender":  pd.concat([df["a_gender"], df["b_gender"]], ignore_index=True),
+    })
+    all_speakers["gender"] = all_speakers["gender"].astype(str).str.upper().str[0]
+    all_speakers["gender"] = all_speakers["gender"].where(all_speakers["gender"].isin(["F", "M"]))
+
+    unique_speakers = all_speakers.drop_duplicates(subset=["speaker"])
+    counts = unique_speakers["gender"].value_counts().reindex(["F", "M"], fill_value=0)
+
+    df_counts = pd.DataFrame({
+        "gender": counts.index,
+        "n": counts.values
+    })
 
     out_png.parent.mkdir(parents=True, exist_ok=True)
-    plt.figure(figsize=(10.6, max(4.2, 0.44 * len(df))))
-    y = np.arange(len(df))
-    bar_color = plt.get_cmap("cividis")(0.55)
-
-    plt.barh(df["family"][::-1], df["mean"][::-1], alpha=0.95,
-             color=bar_color, edgecolor=OI_BLACK, linewidth=0.6)
-
-    errs_lo = (df["mean"] - df["ci_lo"]).to_numpy()[::-1]
-    errs_hi = (df["ci_hi"] - df["mean"]).to_numpy()[::-1]
-    plt.errorbar(df["mean"][::-1], y, xerr=[errs_lo, errs_hi],
-                 fmt="none", ecolor=OI_BLACK, elinewidth=1.3, capsize=3)
-
-    plt.xlabel("Mean convergence  Conv(t)")
-    plt.ylabel("Feature family")
+    plt.figure(figsize=(5.5, 4.2))
+    color_map = {"F": OI_PURPLE, "M": OI_ORANGE}
+    plt.bar(df_counts["gender"], df_counts["n"],
+            color=[color_map.get(g, OI_GREY) for g in df_counts["gender"]],
+            edgecolor=OI_BLACK, linewidth=0.6, alpha=0.95)
+    plt.xlabel("Gender")
+    plt.ylabel("Number of distinct characters")
     plt.title(title)
-    plt.grid(axis="x", linestyle=":", linewidth=0.8, alpha=0.35, color=OI_GREY)
+    plt.grid(axis="y", linestyle=":", linewidth=0.8, alpha=0.35, color=OI_GREY)
     plt.tight_layout()
     plt.savefig(out_png, bbox_inches="tight", dpi=220)
     plt.close()
-    df.to_csv(out_png.with_suffix(".csv"), index=False, encoding="utf-8-sig")
+    df_counts.to_csv(out_png.with_suffix(".csv"), index=False, encoding="utf-8-sig")
+
+def plot_importance_counts(edges: pd.DataFrame, out_png: Path, title: str = "Number of characters by importance") -> None:
+    """
+    Count of distinct speakers by importance major intermediate minor.
+
+    description:
+        Merges all characters from A and B sides, normalizes importance labels,
+        and counts distinct speakers by their most frequent importance label.
+
+    Params:
+        edges: Edge level table with 'a_speaker','b_speaker','a_category','b_category'.
+        out_png: Output PNG path and a CSV with counts is written next to it.
+        title: Chart title.
+
+    Returns:
+        None. Writes PNG and CSV.
+    """
+    if edges is None or edges.empty:
+        return
+    if not {"a_category", "b_category", "a_speaker", "b_speaker"}.issubset(edges.columns):
+        return
+
+    df = edges.copy()
+    norm_names = {
+        "maj": "major", "main": "major", "primary": "major",
+        "int": "intermediate", "mid": "intermediate",
+        "min": "minor"
+    }
+    for c in ["a_category", "b_category"]:
+        df[c] = df[c].astype(str).str.strip().str.lower().replace(norm_names)
+
+    all_speakers = pd.DataFrame({
+        "speaker": pd.concat([df["a_speaker"], df["b_speaker"]], ignore_index=True),
+        "category": pd.concat([df["a_category"], df["b_category"]], ignore_index=True),
+    })
+    all_speakers["category"] = all_speakers["category"].where(
+        all_speakers["category"].isin(["major", "intermediate", "minor"]), "unknown"
+    )
+
+    # most frequent label per speaker
+    speaker_main_cat = (
+        all_speakers.groupby(["speaker", "category"]).size()
+        .groupby(level=0).idxmax().apply(lambda x: x[1])
+    )
+
+    counts = speaker_main_cat.value_counts().reindex(
+        ["major", "intermediate", "minor"], fill_value=0
+    )
+
+    # robust to pandas versions
+    df_counts = counts.rename_axis("importance").reset_index(name="n")
+
+    out_png.parent.mkdir(parents=True, exist_ok=True)
+    plt.figure(figsize=(6.0, 4.4))
+    color_map = {"major": OI_BLUE, "intermediate": OI_ORANGE, "minor": OI_GREEN, "unknown": OI_GREY}
+    plt.bar(
+        df_counts["importance"], df_counts["n"],
+        color=[color_map.get(c, OI_GREY) for c in df_counts["importance"]],
+        edgecolor=OI_BLACK, linewidth=0.6, alpha=0.95
+    )
+    plt.xlabel("Character importance")
+    plt.ylabel("Number of distinct characters")
+    plt.title(title)
+    plt.grid(axis="y", linestyle=":", linewidth=0.8, alpha=0.35, color=OI_GREY)
+    plt.tight_layout()
+    plt.savefig(out_png, bbox_inches="tight", dpi=220)
+    plt.close()
+
+    df_counts.to_csv(out_png.with_suffix(".csv"), index=False, encoding="utf-8-sig")
 
 
 # =========================
@@ -862,6 +916,83 @@ def plot_edge_category_heatmap(edges: pd.DataFrame, out_png: Path, title: str) -
     plt.close()
     pivot.to_csv(out_png.with_suffix(".csv"), encoding="utf-8-sig")
 
+def plot_family_p1_p0(pf: pd.DataFrame, out_png: Path, title: str, alpha: float = 0.05) -> None:
+
+    if pf is None or pf.empty or not {"family", "p0", "p1"}.issubset(pf.columns):
+        return
+
+    rows = []
+    rng = np.random.default_rng(42)
+    n_boot = 2000
+
+    for fam, g in pf.groupby("family", dropna=False):
+        p0 = pd.to_numeric(g["p0"], errors="coerce").dropna().to_numpy()
+        p1 = pd.to_numeric(g["p1"], errors="coerce").dropna().to_numpy()
+        if p0.size == 0 or p1.size == 0:
+            continue
+
+        mu0 = float(p0.mean())
+        mu1 = float(p1.mean())
+
+        # bootstrap percentile CI for each mean
+        boots0 = rng.choice(p0, size=(n_boot, p0.size), replace=True).mean(axis=1)
+        boots1 = rng.choice(p1, size=(n_boot, p1.size), replace=True).mean(axis=1)
+        lo0, hi0 = np.percentile(boots0, [100 * (alpha/2), 100 * (1 - alpha/2)])
+        lo1, hi1 = np.percentile(boots1, [100 * (alpha/2), 100 * (1 - alpha/2)])
+
+        rows.append({
+            "family": fam, "mean_p0": mu0, "mean_p1": mu1, "diff": mu1 - mu0,
+            "ci_lo_p0": float(lo0), "ci_hi_p0": float(hi0),
+            "ci_lo_p1": float(lo1), "ci_hi_p1": float(hi1),
+            "n": int(len(g))
+        })
+
+    df = pd.DataFrame(rows)
+    if df.empty:
+        return
+
+    # order by decreasing convergence difference
+    df = df.sort_values("diff", ascending=False).reset_index(drop=True)
+
+    out_png.parent.mkdir(parents=True, exist_ok=True)
+    plt.figure(figsize=(10.2, max(4.0, 0.44 * len(df))))
+    x = np.arange(len(df))
+    w = 0.36
+
+    # colors (dark for p0, light for p1)
+    c0 = OI_BLUE
+    c1 = "#5FA7D9"  # lighter blue; still color-blind friendly
+    err_color = OI_RED
+
+    # p0 bars
+    plt.bar(x - w/2, df["mean_p0"], width=w, color=c0, edgecolor=OI_BLACK, linewidth=0.6, label="P(B uses t)")
+    # p1 bars
+    plt.bar(x + w/2, df["mean_p1"], width=w, color=c1, edgecolor=OI_BLACK, linewidth=0.6, label="P(B uses t | A uses t)")
+
+    # error bars (thin red)
+    e0_lo = (df["mean_p0"] - df["ci_lo_p0"]).to_numpy()
+    e0_hi = (df["ci_hi_p0"] - df["mean_p0"]).to_numpy()
+    e1_lo = (df["mean_p1"] - df["ci_lo_p1"]).to_numpy()
+    e1_hi = (df["ci_hi_p1"] - df["mean_p1"]).to_numpy()
+
+    plt.errorbar(x - w/2, df["mean_p0"], yerr=[e0_lo, e0_hi], fmt="none",
+                 ecolor=err_color, elinewidth=1.0, capsize=2, alpha=0.9)
+    plt.errorbar(x + w/2, df["mean_p1"], yerr=[e1_lo, e1_hi], fmt="none",
+                 ecolor=err_color, elinewidth=1.0, capsize=2, alpha=0.9)
+
+    plt.xticks(x, df["family"], rotation=25, ha="right")
+    plt.ylabel("Probability")
+    plt.ylim(0, max(0.8, float(df[["mean_p0","mean_p1","ci_hi_p0","ci_hi_p1"]].to_numpy().max()) * 1.05))
+    plt.title(title)
+    plt.grid(axis="y", linestyle=":", linewidth=0.8, alpha=0.35, color=OI_GREY)
+    plt.legend(frameon=False, loc="upper left")
+    plt.tight_layout()
+    plt.savefig(out_png, bbox_inches="tight", dpi=220)
+    plt.close()
+
+    # save companion CSV
+    df.to_csv(out_png.with_suffix(".csv"), index=False, encoding="utf-8-sig")
+
 
 # =========================
 # Runner
@@ -927,11 +1058,16 @@ def run_visuals_for_novel(in_dir: Path, out_root: Path, mode: str,
     plot_condition_comparison(pf, pf_non, pf_rand, out_root / "adj_non_rand.png",
                               "Family means across conditions")
 
-    # 6) Global profile with uncertainty
-    plot_global_profile_with_ci(pf, out_root / "family_means_ci.png", "Family means with confidence intervals")
-
-    # 7) Two-mode edge heatmaps
+    # 6) Two-mode edge heatmaps
     plot_edge_gender_heatmap(edges, out_root / "edge_heatmap_gender.png", "Mean edge convergence by gender (A→B)")
     plot_edge_category_heatmap(edges, out_root / "edge_heatmap_importance.png", "Mean edge convergence by importance (A→B)")
+
+    # 7) Character composition (context plots)
+    plot_gender_counts(edges, out_root / "char_counts_gender.png", "Number of characters by gender")
+    plot_importance_counts(edges, out_root / "char_counts_importance.png", "Number of characters by importance")
+
+    # 8) Classic p0 vs p1 figure per family (Danescu-style)
+    plot_family_p1_p0(pf, out_root / "family_p0_p1.png",
+                      "P(B uses t) vs. P(B uses t | A uses t) by family")
 
     print(f"[viz] Visuals written to {out_root}")

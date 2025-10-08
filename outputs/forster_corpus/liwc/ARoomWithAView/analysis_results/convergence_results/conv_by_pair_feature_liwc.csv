@@ -1,0 +1,582 @@
+﻿a_speaker,b_speaker,family,n_pairs,n_triggers,n_b_positives_given_trigger,p1,p0,conv,a_gender,a_category,b_gender,b_category
+Cecil,Freddy,adverbs,3,2,1,0.5,0.3333333333333333,0.16666666666666669,,,M,intermediate
+Cecil,Freddy,auxiliary_verbs,3,2,1,0.5,0.3333333333333333,0.16666666666666669,,,M,intermediate
+Cecil,Freddy,conjunctions,3,2,1,0.5,0.3333333333333333,0.16666666666666669,,,M,intermediate
+Cecil,Freddy,personal_pronouns,3,3,2,0.6666666666666666,0.6666666666666666,0.0,,,M,intermediate
+Cecil,Freddy,prepositions,3,2,2,1.0,1.0,0.0,,,M,intermediate
+Cecil,Lucy,adverbs,46,27,14,0.5185185185185185,0.5217391304347826,-0.0032206119162641045,,,,
+Cecil,Lucy,articles,46,23,10,0.43478260869565216,0.43478260869565216,0.0,,,,
+Cecil,Lucy,auxiliary_verbs,46,27,13,0.48148148148148145,0.5652173913043478,-0.08373590982286633,,,,
+Cecil,Lucy,conjunctions,46,23,10,0.43478260869565216,0.43478260869565216,0.0,,,,
+Cecil,Lucy,impersonal_pronouns,46,28,16,0.5714285714285714,0.43478260869565216,0.13664596273291924,,,,
+Cecil,Lucy,negations,46,17,6,0.35294117647058826,0.2608695652173913,0.09207161125319696,,,,
+Cecil,Lucy,personal_pronouns,46,33,23,0.696969696969697,0.7391304347826086,-0.04216073781291163,,,,
+Cecil,Lucy,prepositions,46,31,13,0.41935483870967744,0.5434782608695652,-0.12412342215988775,,,,
+Cecil,Lucy,quantifiers,46,21,6,0.2857142857142857,0.2391304347826087,0.046583850931676996,,,,
+Cecil,Mr. Beebe,adverbs,19,9,3,0.3333333333333333,0.5263157894736842,-0.19298245614035087,,,M,major
+Cecil,Mr. Beebe,articles,19,9,6,0.6666666666666666,0.631578947368421,0.03508771929824561,,,M,major
+Cecil,Mr. Beebe,auxiliary_verbs,19,14,10,0.7142857142857143,0.7894736842105263,-0.07518796992481203,,,M,major
+Cecil,Mr. Beebe,conjunctions,19,6,2,0.3333333333333333,0.631578947368421,-0.2982456140350877,,,M,major
+Cecil,Mr. Beebe,impersonal_pronouns,19,14,11,0.7857142857142857,0.7894736842105263,-0.003759398496240629,,,M,major
+Cecil,Mr. Beebe,negations,19,8,5,0.625,0.47368421052631576,0.15131578947368424,,,M,major
+Cecil,Mr. Beebe,personal_pronouns,19,15,14,0.9333333333333333,0.9473684210526315,-0.014035087719298178,,,M,major
+Cecil,Mr. Beebe,prepositions,19,12,9,0.75,0.7368421052631579,0.013157894736842146,,,M,major
+Cecil,Mr. Beebe,quantifiers,19,5,2,0.4,0.42105263157894735,-0.021052631578947323,,,M,major
+Cecil,Mrs. Honeychurch,adverbs,8,2,0,0.0,0.625,-0.625,,,F,major
+Cecil,Mrs. Honeychurch,auxiliary_verbs,8,3,3,1.0,0.625,0.375,,,F,major
+Cecil,Mrs. Honeychurch,conjunctions,8,2,0,0.0,0.375,-0.375,,,F,major
+Cecil,Mrs. Honeychurch,impersonal_pronouns,8,2,1,0.5,0.5,0.0,,,F,major
+Cecil,Mrs. Honeychurch,personal_pronouns,8,6,5,0.8333333333333334,0.875,-0.04166666666666663,,,F,major
+Cecil,Mrs. Honeychurch,prepositions,8,3,3,1.0,0.75,0.25,,,F,major
+Cecil,Mrs. Vyse,adverbs,4,3,1,0.3333333333333333,0.5,-0.16666666666666669,,,F,minor
+Cecil,Mrs. Vyse,auxiliary_verbs,4,3,2,0.6666666666666666,0.75,-0.08333333333333337,,,F,minor
+Cecil,Mrs. Vyse,impersonal_pronouns,4,2,1,0.5,0.5,0.0,,,F,minor
+Cecil,Mrs. Vyse,personal_pronouns,4,2,2,1.0,1.0,0.0,,,F,minor
+Cecil,Mrs. Vyse,quantifiers,4,2,2,1.0,1.0,0.0,,,F,minor
+Freddy,Cecil,personal_pronouns,3,2,2,1.0,1.0,0.0,M,intermediate,,
+Freddy,Cecil,prepositions,3,2,2,1.0,1.0,0.0,M,intermediate,,
+Freddy,George Emerson,adverbs,9,3,1,0.3333333333333333,0.1111111111111111,0.2222222222222222,M,intermediate,M,intermediate
+Freddy,George Emerson,articles,9,4,0,0.0,0.0,0.0,M,intermediate,M,intermediate
+Freddy,George Emerson,auxiliary_verbs,9,2,0,0.0,0.2222222222222222,-0.2222222222222222,M,intermediate,M,intermediate
+Freddy,George Emerson,conjunctions,9,3,0,0.0,0.1111111111111111,-0.1111111111111111,M,intermediate,M,intermediate
+Freddy,George Emerson,personal_pronouns,9,5,1,0.2,0.1111111111111111,0.0888888888888889,M,intermediate,M,intermediate
+Freddy,Lucy,adverbs,19,3,1,0.3333333333333333,0.42105263157894735,-0.08771929824561403,M,intermediate,,
+Freddy,Lucy,articles,19,9,1,0.1111111111111111,0.2631578947368421,-0.15204678362573099,M,intermediate,,
+Freddy,Lucy,auxiliary_verbs,19,6,2,0.3333333333333333,0.3684210526315789,-0.03508771929824561,M,intermediate,,
+Freddy,Lucy,conjunctions,19,7,0,0.0,0.15789473684210525,-0.15789473684210525,M,intermediate,,
+Freddy,Lucy,impersonal_pronouns,19,9,6,0.6666666666666666,0.5789473684210527,0.08771929824561397,M,intermediate,,
+Freddy,Lucy,personal_pronouns,19,13,8,0.6153846153846154,0.6842105263157895,-0.06882591093117407,M,intermediate,,
+Freddy,Lucy,prepositions,19,13,7,0.5384615384615384,0.42105263157894735,0.11740890688259109,M,intermediate,,
+Freddy,Lucy,quantifiers,19,7,0,0.0,0.2631578947368421,-0.2631578947368421,M,intermediate,,
+Freddy,Miss Bartlett,adverbs,2,2,0,0.0,0.0,0.0,M,intermediate,F,major
+Freddy,Miss Bartlett,articles,2,2,2,1.0,1.0,0.0,M,intermediate,F,major
+Freddy,Miss Bartlett,personal_pronouns,2,2,2,1.0,1.0,0.0,M,intermediate,F,major
+Freddy,Miss Bartlett,prepositions,2,2,1,0.5,0.5,0.0,M,intermediate,F,major
+Freddy,Miss Bartlett,quantifiers,2,2,0,0.0,0.0,0.0,M,intermediate,F,major
+Freddy,Mr. Beebe,adverbs,21,9,6,0.6666666666666666,0.5238095238095238,0.1428571428571428,M,intermediate,M,major
+Freddy,Mr. Beebe,articles,21,7,5,0.7142857142857143,0.5238095238095238,0.19047619047619047,M,intermediate,M,major
+Freddy,Mr. Beebe,auxiliary_verbs,21,13,8,0.6153846153846154,0.7619047619047619,-0.14652014652014644,M,intermediate,M,major
+Freddy,Mr. Beebe,conjunctions,21,8,2,0.25,0.2857142857142857,-0.0357142857142857,M,intermediate,M,major
+Freddy,Mr. Beebe,impersonal_pronouns,21,9,7,0.7777777777777778,0.5714285714285714,0.2063492063492064,M,intermediate,M,major
+Freddy,Mr. Beebe,negations,21,2,0,0.0,0.19047619047619047,-0.19047619047619047,M,intermediate,M,major
+Freddy,Mr. Beebe,personal_pronouns,21,15,11,0.7333333333333333,0.7619047619047619,-0.02857142857142858,M,intermediate,M,major
+Freddy,Mr. Beebe,prepositions,21,11,7,0.6363636363636364,0.5714285714285714,0.06493506493506496,M,intermediate,M,major
+Freddy,Mr. Beebe,quantifiers,21,4,2,0.5,0.2857142857142857,0.2142857142857143,M,intermediate,M,major
+Freddy,Mr. Emerson,impersonal_pronouns,2,2,2,1.0,1.0,0.0,M,intermediate,M,intermediate
+Freddy,Mr. Emerson,personal_pronouns,2,2,2,1.0,1.0,0.0,M,intermediate,M,intermediate
+Freddy,Mr. Emerson,prepositions,2,2,2,1.0,1.0,0.0,M,intermediate,M,intermediate
+Freddy,Mr. Vyse,adverbs,3,2,1,0.5,0.3333333333333333,0.16666666666666669,M,intermediate,M,intermediate
+Freddy,Mr. Vyse,auxiliary_verbs,3,2,2,1.0,1.0,0.0,M,intermediate,M,intermediate
+Freddy,Mr. Vyse,personal_pronouns,3,2,2,1.0,1.0,0.0,M,intermediate,M,intermediate
+Freddy,Mr. Vyse,prepositions,3,2,1,0.5,0.6666666666666666,-0.16666666666666663,M,intermediate,M,intermediate
+Freddy,Mr. Vyse,quantifiers,3,2,0,0.0,0.0,0.0,M,intermediate,M,intermediate
+Freddy,Mrs. Honeychurch,adverbs,31,19,15,0.7894736842105263,0.7096774193548387,0.07979626485568758,M,intermediate,F,major
+Freddy,Mrs. Honeychurch,articles,31,12,4,0.3333333333333333,0.41935483870967744,-0.08602150537634412,M,intermediate,F,major
+Freddy,Mrs. Honeychurch,auxiliary_verbs,31,17,15,0.8823529411764706,0.7741935483870968,0.10815939278937381,M,intermediate,F,major
+Freddy,Mrs. Honeychurch,conjunctions,31,16,10,0.625,0.5161290322580645,0.1088709677419355,M,intermediate,F,major
+Freddy,Mrs. Honeychurch,impersonal_pronouns,31,16,10,0.625,0.6451612903225806,-0.020161290322580627,M,intermediate,F,major
+Freddy,Mrs. Honeychurch,negations,31,11,3,0.2727272727272727,0.3225806451612903,-0.04985337243401761,M,intermediate,F,major
+Freddy,Mrs. Honeychurch,personal_pronouns,31,24,22,0.9166666666666666,0.9032258064516129,0.013440860215053752,M,intermediate,F,major
+Freddy,Mrs. Honeychurch,prepositions,31,20,14,0.7,0.6774193548387096,0.022580645161290325,M,intermediate,F,major
+Freddy,Mrs. Honeychurch,quantifiers,31,12,5,0.4166666666666667,0.3548387096774194,0.06182795698924731,M,intermediate,F,major
+George Emerson,Lucy,adverbs,55,27,19,0.7037037037037037,0.7090909090909091,-0.005387205387205385,M,intermediate,,
+George Emerson,Lucy,articles,55,14,6,0.42857142857142855,0.4,0.028571428571428525,M,intermediate,,
+George Emerson,Lucy,auxiliary_verbs,55,30,20,0.6666666666666666,0.6909090909090909,-0.024242424242424288,M,intermediate,,
+George Emerson,Lucy,conjunctions,55,21,7,0.3333333333333333,0.38181818181818183,-0.04848484848484852,M,intermediate,,
+George Emerson,Lucy,impersonal_pronouns,55,26,11,0.4230769230769231,0.45454545454545453,-0.03146853146853146,M,intermediate,,
+George Emerson,Lucy,negations,55,12,4,0.3333333333333333,0.2727272727272727,0.06060606060606061,M,intermediate,,
+George Emerson,Lucy,personal_pronouns,55,42,33,0.7857142857142857,0.7818181818181819,0.003896103896103842,M,intermediate,,
+George Emerson,Lucy,prepositions,55,27,11,0.4074074074074074,0.4909090909090909,-0.08350168350168352,M,intermediate,,
+George Emerson,Lucy,quantifiers,55,12,3,0.25,0.2909090909090909,-0.040909090909090895,M,intermediate,,
+George Emerson,Miss Bartlett,adverbs,3,3,1,0.3333333333333333,0.3333333333333333,0.0,M,intermediate,F,major
+George Emerson,Miss Bartlett,articles,3,2,2,1.0,0.6666666666666666,0.33333333333333337,M,intermediate,F,major
+George Emerson,Miss Bartlett,auxiliary_verbs,3,3,1,0.3333333333333333,0.3333333333333333,0.0,M,intermediate,F,major
+George Emerson,Miss Bartlett,conjunctions,3,3,0,0.0,0.0,0.0,M,intermediate,F,major
+George Emerson,Miss Bartlett,impersonal_pronouns,3,2,2,1.0,0.6666666666666666,0.33333333333333337,M,intermediate,F,major
+George Emerson,Miss Bartlett,negations,3,2,0,0.0,0.0,0.0,M,intermediate,F,major
+George Emerson,Miss Bartlett,personal_pronouns,3,3,1,0.3333333333333333,0.3333333333333333,0.0,M,intermediate,F,major
+George Emerson,Miss Bartlett,prepositions,3,3,1,0.3333333333333333,0.3333333333333333,0.0,M,intermediate,F,major
+George Emerson,Mr. Beebe,auxiliary_verbs,7,3,3,1.0,1.0,0.0,M,intermediate,M,major
+George Emerson,Mr. Beebe,impersonal_pronouns,7,2,1,0.5,0.5714285714285714,-0.0714285714285714,M,intermediate,M,major
+George Emerson,Mr. Beebe,negations,7,2,1,0.5,0.14285714285714285,0.35714285714285715,M,intermediate,M,major
+George Emerson,Mr. Beebe,personal_pronouns,7,3,3,1.0,1.0,0.0,M,intermediate,M,major
+George Emerson,Mr. Beebe,quantifiers,7,3,3,1.0,0.5714285714285714,0.4285714285714286,M,intermediate,M,major
+George Emerson,Mr. Emerson,adverbs,5,3,3,1.0,0.8,0.19999999999999996,M,intermediate,M,intermediate
+George Emerson,Mr. Emerson,auxiliary_verbs,5,5,5,1.0,1.0,0.0,M,intermediate,M,intermediate
+George Emerson,Mr. Emerson,conjunctions,5,3,3,1.0,1.0,0.0,M,intermediate,M,intermediate
+George Emerson,Mr. Emerson,impersonal_pronouns,5,3,3,1.0,0.8,0.19999999999999996,M,intermediate,M,intermediate
+George Emerson,Mr. Emerson,personal_pronouns,5,5,5,1.0,1.0,0.0,M,intermediate,M,intermediate
+George Emerson,Mr. Emerson,prepositions,5,3,3,1.0,1.0,0.0,M,intermediate,M,intermediate
+George Emerson,Mr. Emerson,quantifiers,5,2,1,0.5,0.4,0.09999999999999998,M,intermediate,M,intermediate
+George Emerson,Mr. Vyse,adverbs,4,3,1,0.3333333333333333,0.5,-0.16666666666666669,M,intermediate,M,intermediate
+George Emerson,Mr. Vyse,auxiliary_verbs,4,3,1,0.3333333333333333,0.25,0.08333333333333331,M,intermediate,M,intermediate
+George Emerson,Mr. Vyse,conjunctions,4,2,0,0.0,0.5,-0.5,M,intermediate,M,intermediate
+George Emerson,Mr. Vyse,impersonal_pronouns,4,2,0,0.0,0.25,-0.25,M,intermediate,M,intermediate
+George Emerson,Mr. Vyse,negations,4,2,0,0.0,0.0,0.0,M,intermediate,M,intermediate
+George Emerson,Mr. Vyse,personal_pronouns,4,4,3,0.75,0.75,0.0,M,intermediate,M,intermediate
+George Emerson,Mr. Vyse,prepositions,4,2,0,0.0,0.25,-0.25,M,intermediate,M,intermediate
+George Emerson,Mr. Vyse,quantifiers,4,2,0,0.0,0.25,-0.25,M,intermediate,M,intermediate
+George Emerson,Mrs. Honeychurch,adverbs,6,3,2,0.6666666666666666,0.3333333333333333,0.3333333333333333,M,intermediate,F,major
+George Emerson,Mrs. Honeychurch,articles,6,3,0,0.0,0.0,0.0,M,intermediate,F,major
+George Emerson,Mrs. Honeychurch,auxiliary_verbs,6,3,1,0.3333333333333333,0.5,-0.16666666666666669,M,intermediate,F,major
+George Emerson,Mrs. Honeychurch,conjunctions,6,2,0,0.0,0.16666666666666666,-0.16666666666666666,M,intermediate,F,major
+George Emerson,Mrs. Honeychurch,impersonal_pronouns,6,2,1,0.5,0.6666666666666666,-0.16666666666666663,M,intermediate,F,major
+George Emerson,Mrs. Honeychurch,negations,6,2,1,0.5,0.16666666666666666,0.33333333333333337,M,intermediate,F,major
+George Emerson,Mrs. Honeychurch,personal_pronouns,6,3,3,1.0,1.0,0.0,M,intermediate,F,major
+George Emerson,Mrs. Honeychurch,prepositions,6,3,2,0.6666666666666666,0.6666666666666666,0.0,M,intermediate,F,major
+George Emerson,Mrs. Honeychurch,quantifiers,6,3,1,0.3333333333333333,0.16666666666666666,0.16666666666666666,M,intermediate,F,major
+Lucy,Cecil,adverbs,45,23,13,0.5652173913043478,0.6222222222222222,-0.05700483091787445,,,,
+Lucy,Cecil,articles,45,17,8,0.47058823529411764,0.4888888888888889,-0.018300653594771232,,,,
+Lucy,Cecil,auxiliary_verbs,45,25,15,0.6,0.6,0.0,,,,
+Lucy,Cecil,conjunctions,45,19,10,0.5263157894736842,0.5333333333333333,-0.007017543859649145,,,,
+Lucy,Cecil,impersonal_pronouns,45,19,9,0.47368421052631576,0.5777777777777777,-0.10409356725146196,,,,
+Lucy,Cecil,negations,45,11,2,0.18181818181818182,0.35555555555555557,-0.17373737373737375,,,,
+Lucy,Cecil,personal_pronouns,45,31,23,0.7419354838709677,0.7333333333333333,0.008602150537634468,,,,
+Lucy,Cecil,prepositions,45,20,13,0.65,0.6666666666666666,-0.016666666666666607,,,,
+Lucy,Cecil,quantifiers,45,12,5,0.4166666666666667,0.4444444444444444,-0.027777777777777735,,,,
+Lucy,Freddy,adverbs,17,6,0,0.0,0.23529411764705882,-0.23529411764705882,,,M,intermediate
+Lucy,Freddy,articles,17,6,1,0.16666666666666666,0.5294117647058824,-0.36274509803921573,,,M,intermediate
+Lucy,Freddy,auxiliary_verbs,17,8,3,0.375,0.29411764705882354,0.08088235294117646,,,M,intermediate
+Lucy,Freddy,conjunctions,17,4,0,0.0,0.35294117647058826,-0.35294117647058826,,,M,intermediate
+Lucy,Freddy,impersonal_pronouns,17,8,5,0.625,0.47058823529411764,0.15441176470588236,,,M,intermediate
+Lucy,Freddy,negations,17,4,0,0.0,0.11764705882352941,-0.11764705882352941,,,M,intermediate
+Lucy,Freddy,personal_pronouns,17,11,8,0.7272727272727273,0.5882352941176471,0.13903743315508021,,,M,intermediate
+Lucy,Freddy,prepositions,17,8,6,0.75,0.6470588235294118,0.1029411764705882,,,M,intermediate
+Lucy,Freddy,quantifiers,17,5,3,0.6,0.5294117647058824,0.07058823529411762,,,M,intermediate
+Lucy,George Emerson,adverbs,52,35,21,0.6,0.5384615384615384,0.06153846153846154,,,M,intermediate
+Lucy,George Emerson,articles,52,23,10,0.43478260869565216,0.28846153846153844,0.14632107023411373,,,M,intermediate
+Lucy,George Emerson,auxiliary_verbs,52,36,20,0.5555555555555556,0.5961538461538461,-0.040598290598290565,,,M,intermediate
+Lucy,George Emerson,conjunctions,52,22,8,0.36363636363636365,0.4230769230769231,-0.059440559440559426,,,M,intermediate
+Lucy,George Emerson,impersonal_pronouns,52,25,11,0.44,0.4807692307692308,-0.04076923076923078,,,M,intermediate
+Lucy,George Emerson,negations,52,15,1,0.06666666666666667,0.17307692307692307,-0.1064102564102564,,,M,intermediate
+Lucy,George Emerson,personal_pronouns,52,43,36,0.8372093023255814,0.8076923076923077,0.02951699463327373,,,M,intermediate
+Lucy,George Emerson,prepositions,52,27,14,0.5185185185185185,0.4807692307692308,0.03774928774928771,,,M,intermediate
+Lucy,George Emerson,quantifiers,52,14,3,0.21428571428571427,0.25,-0.035714285714285726,,,M,intermediate
+Lucy,Miss Bartlett,adverbs,91,55,29,0.5272727272727272,0.5824175824175825,-0.05514485514485523,,,F,major
+Lucy,Miss Bartlett,articles,91,41,18,0.43902439024390244,0.43956043956043955,-0.0005360493165371127,,,F,major
+Lucy,Miss Bartlett,auxiliary_verbs,91,63,50,0.7936507936507936,0.7802197802197802,0.013431013431013383,,,F,major
+Lucy,Miss Bartlett,conjunctions,91,48,23,0.4791666666666667,0.4835164835164835,-0.004349816849816834,,,F,major
+Lucy,Miss Bartlett,impersonal_pronouns,91,53,31,0.5849056603773585,0.5604395604395604,0.024466099937798025,,,F,major
+Lucy,Miss Bartlett,negations,91,26,6,0.23076923076923078,0.2967032967032967,-0.06593406593406592,,,F,major
+Lucy,Miss Bartlett,personal_pronouns,91,67,56,0.835820895522388,0.8241758241758241,0.011645071346563896,,,F,major
+Lucy,Miss Bartlett,prepositions,91,53,33,0.6226415094339622,0.6593406593406593,-0.03669914990669709,,,F,major
+Lucy,Miss Bartlett,quantifiers,91,32,15,0.46875,0.3076923076923077,0.1610576923076923,,,F,major
+Lucy,Miss Catherine Alan,impersonal_pronouns,2,2,1,0.5,0.5,0.0,,,F,minor
+Lucy,Miss Lavish,adverbs,13,10,6,0.6,0.6153846153846154,-0.015384615384615441,,,F,intermediate
+Lucy,Miss Lavish,articles,13,6,4,0.6666666666666666,0.8461538461538461,-0.17948717948717952,,,F,intermediate
+Lucy,Miss Lavish,auxiliary_verbs,13,7,5,0.7142857142857143,0.6923076923076923,0.02197802197802201,,,F,intermediate
+Lucy,Miss Lavish,conjunctions,13,6,3,0.5,0.5384615384615384,-0.038461538461538436,,,F,intermediate
+Lucy,Miss Lavish,impersonal_pronouns,13,5,2,0.4,0.46153846153846156,-0.06153846153846154,,,F,intermediate
+Lucy,Miss Lavish,negations,13,4,1,0.25,0.3076923076923077,-0.05769230769230771,,,F,intermediate
+Lucy,Miss Lavish,personal_pronouns,13,9,9,1.0,0.9230769230769231,0.07692307692307687,,,F,intermediate
+Lucy,Miss Lavish,prepositions,13,7,6,0.8571428571428571,0.8461538461538461,0.01098901098901095,,,F,intermediate
+Lucy,Miss Lavish,quantifiers,13,4,2,0.5,0.3076923076923077,0.1923076923076923,,,F,intermediate
+Lucy,Mr. Beebe,adverbs,44,26,15,0.5769230769230769,0.5681818181818182,0.00874125874125864,,,M,major
+Lucy,Mr. Beebe,articles,44,12,6,0.5,0.45454545454545453,0.04545454545454547,,,M,major
+Lucy,Mr. Beebe,auxiliary_verbs,44,33,24,0.7272727272727273,0.7272727272727273,0.0,,,M,major
+Lucy,Mr. Beebe,conjunctions,44,25,11,0.44,0.4318181818181818,0.008181818181818179,,,M,major
+Lucy,Mr. Beebe,impersonal_pronouns,44,19,13,0.6842105263157895,0.5909090909090909,0.09330143540669855,,,M,major
+Lucy,Mr. Beebe,negations,44,8,1,0.125,0.20454545454545456,-0.07954545454545456,,,M,major
+Lucy,Mr. Beebe,personal_pronouns,44,35,28,0.8,0.7954545454545454,0.00454545454545463,,,M,major
+Lucy,Mr. Beebe,prepositions,44,19,16,0.8421052631578947,0.75,0.09210526315789469,,,M,major
+Lucy,Mr. Beebe,quantifiers,44,9,4,0.4444444444444444,0.36363636363636365,0.08080808080808077,,,M,major
+Lucy,Mr. Emerson,adverbs,37,15,11,0.7333333333333333,0.7027027027027027,0.03063063063063054,,,M,intermediate
+Lucy,Mr. Emerson,articles,37,12,6,0.5,0.6216216216216216,-0.1216216216216216,,,M,intermediate
+Lucy,Mr. Emerson,auxiliary_verbs,37,26,19,0.7307692307692307,0.7837837837837838,-0.053014553014553045,,,M,intermediate
+Lucy,Mr. Emerson,conjunctions,37,14,9,0.6428571428571429,0.6216216216216216,0.021235521235521304,,,M,intermediate
+Lucy,Mr. Emerson,impersonal_pronouns,37,20,12,0.6,0.6486486486486487,-0.04864864864864871,,,M,intermediate
+Lucy,Mr. Emerson,negations,37,15,1,0.06666666666666667,0.2972972972972973,-0.23063063063063066,,,M,intermediate
+Lucy,Mr. Emerson,personal_pronouns,37,28,25,0.8928571428571429,0.8648648648648649,0.027992277992277992,,,M,intermediate
+Lucy,Mr. Emerson,prepositions,37,23,16,0.6956521739130435,0.7567567567567568,-0.06110458284371334,,,M,intermediate
+Lucy,Mr. Emerson,quantifiers,37,9,3,0.3333333333333333,0.35135135135135137,-0.018018018018018056,,,M,intermediate
+Lucy,Mr. Vyse,adverbs,30,22,14,0.6363636363636364,0.6,0.036363636363636376,,,M,intermediate
+Lucy,Mr. Vyse,articles,30,17,8,0.47058823529411764,0.4666666666666667,0.0039215686274509665,,,M,intermediate
+Lucy,Mr. Vyse,auxiliary_verbs,30,23,17,0.7391304347826086,0.7666666666666667,-0.02753623188405807,,,M,intermediate
+Lucy,Mr. Vyse,conjunctions,30,16,7,0.4375,0.4666666666666667,-0.029166666666666674,,,M,intermediate
+Lucy,Mr. Vyse,impersonal_pronouns,30,24,13,0.5416666666666666,0.5333333333333333,0.008333333333333304,,,M,intermediate
+Lucy,Mr. Vyse,negations,30,10,3,0.3,0.36666666666666664,-0.06666666666666665,,,M,intermediate
+Lucy,Mr. Vyse,personal_pronouns,30,24,19,0.7916666666666666,0.8,-0.008333333333333415,,,M,intermediate
+Lucy,Mr. Vyse,prepositions,30,26,15,0.5769230769230769,0.6,-0.023076923076923106,,,M,intermediate
+Lucy,Mr. Vyse,quantifiers,30,16,7,0.4375,0.4666666666666667,-0.029166666666666674,,,M,intermediate
+Lucy,Mrs. Honeychurch,adverbs,49,26,18,0.6923076923076923,0.6326530612244898,0.05965463108320246,,,F,major
+Lucy,Mrs. Honeychurch,articles,49,22,13,0.5909090909090909,0.4489795918367347,0.14192949907235625,,,F,major
+Lucy,Mrs. Honeychurch,auxiliary_verbs,49,26,15,0.5769230769230769,0.6326530612244898,-0.05572998430141296,,,F,major
+Lucy,Mrs. Honeychurch,conjunctions,49,17,9,0.5294117647058824,0.4897959183673469,0.03961584633853543,,,F,major
+Lucy,Mrs. Honeychurch,impersonal_pronouns,49,23,10,0.43478260869565216,0.46938775510204084,-0.034605146406388676,,,F,major
+Lucy,Mrs. Honeychurch,negations,49,15,5,0.3333333333333333,0.24489795918367346,0.08843537414965985,,,F,major
+Lucy,Mrs. Honeychurch,personal_pronouns,49,38,30,0.7894736842105263,0.7346938775510204,0.05477980665950588,,,F,major
+Lucy,Mrs. Honeychurch,prepositions,49,27,17,0.6296296296296297,0.6326530612244898,-0.003023431594860182,,,F,major
+Lucy,Mrs. Honeychurch,quantifiers,49,18,9,0.5,0.40816326530612246,0.09183673469387754,,,F,major
+Lucy,Mrs. Vyse,adverbs,2,2,1,0.5,0.5,0.0,,,F,minor
+Lucy,Powell,auxiliary_verbs,3,3,2,0.6666666666666666,0.6666666666666666,0.0,,,M,minor
+Lucy,Powell,personal_pronouns,3,2,2,1.0,0.6666666666666666,0.33333333333333337,,,M,minor
+Lucy,Rev. Cuthbert Eager,adverbs,8,3,2,0.6666666666666666,0.625,0.04166666666666663,,,M,intermediate
+Lucy,Rev. Cuthbert Eager,articles,8,4,2,0.5,0.375,0.125,,,M,intermediate
+Lucy,Rev. Cuthbert Eager,auxiliary_verbs,8,3,3,1.0,0.75,0.25,,,M,intermediate
+Lucy,Rev. Cuthbert Eager,negations,8,3,1,0.3333333333333333,0.25,0.08333333333333331,,,M,intermediate
+Lucy,Rev. Cuthbert Eager,personal_pronouns,8,3,3,1.0,0.875,0.125,,,M,intermediate
+Lucy,Rev. Cuthbert Eager,prepositions,8,4,3,0.75,0.75,0.0,,,M,intermediate
+Lucy,Rev. Cuthbert Eager,quantifiers,8,2,1,0.5,0.625,-0.125,,,M,intermediate
+Lucy,Sir Harry Otway,adverbs,5,2,1,0.5,0.4,0.09999999999999998,,,M,minor
+Lucy,Sir Harry Otway,articles,5,2,1,0.5,0.2,0.3,,,M,minor
+Lucy,Sir Harry Otway,auxiliary_verbs,5,3,2,0.6666666666666666,0.6,0.06666666666666665,,,M,minor
+Lucy,Sir Harry Otway,conjunctions,5,2,1,0.5,0.4,0.09999999999999998,,,M,minor
+Lucy,Sir Harry Otway,personal_pronouns,5,5,3,0.6,0.6,0.0,,,M,minor
+Lucy,Sir Harry Otway,prepositions,5,4,2,0.5,0.4,0.09999999999999998,,,M,minor
+Minnie Beebe,Mrs. Honeychurch,adverbs,3,2,1,0.5,0.6666666666666666,-0.16666666666666663,F,minor,F,major
+Minnie Beebe,Mrs. Honeychurch,personal_pronouns,3,2,2,1.0,1.0,0.0,F,minor,F,major
+Miss Bartlett,Cecil,adverbs,2,2,1,0.5,0.5,0.0,F,major,,
+Miss Bartlett,Cecil,auxiliary_verbs,2,2,2,1.0,1.0,0.0,F,major,,
+Miss Bartlett,Cecil,impersonal_pronouns,2,2,2,1.0,1.0,0.0,F,major,,
+Miss Bartlett,Cecil,quantifiers,2,2,2,1.0,1.0,0.0,F,major,,
+Miss Bartlett,Freddy,auxiliary_verbs,3,3,1,0.3333333333333333,0.3333333333333333,0.0,F,major,M,intermediate
+Miss Bartlett,Freddy,negations,3,2,0,0.0,0.0,0.0,F,major,M,intermediate
+Miss Bartlett,Freddy,personal_pronouns,3,3,3,1.0,1.0,0.0,F,major,M,intermediate
+Miss Bartlett,Lucy,adverbs,93,56,32,0.5714285714285714,0.6021505376344086,-0.030721966205837226,F,major,,
+Miss Bartlett,Lucy,articles,93,45,17,0.37777777777777777,0.41935483870967744,-0.04157706093189967,F,major,,
+Miss Bartlett,Lucy,auxiliary_verbs,93,75,51,0.68,0.6666666666666666,0.01333333333333342,F,major,,
+Miss Bartlett,Lucy,conjunctions,93,47,23,0.48936170212765956,0.5161290322580645,-0.026767330130404943,F,major,,
+Miss Bartlett,Lucy,impersonal_pronouns,93,53,33,0.6226415094339622,0.5806451612903226,0.04199634814363962,F,major,,
+Miss Bartlett,Lucy,negations,93,27,8,0.2962962962962963,0.2903225806451613,0.00597371565113497,F,major,,
+Miss Bartlett,Lucy,personal_pronouns,93,76,58,0.7631578947368421,0.7419354838709677,0.021222410865874397,F,major,,
+Miss Bartlett,Lucy,prepositions,93,64,35,0.546875,0.6021505376344086,-0.05527553763440862,F,major,,
+Miss Bartlett,Lucy,quantifiers,93,30,13,0.43333333333333335,0.3655913978494624,0.06774193548387097,F,major,,
+Miss Bartlett,Minnie Beebe,auxiliary_verbs,2,2,2,1.0,1.0,0.0,F,major,F,minor
+Miss Bartlett,Minnie Beebe,personal_pronouns,2,2,2,1.0,1.0,0.0,F,major,F,minor
+Miss Bartlett,Minnie Beebe,prepositions,2,2,1,0.5,0.5,0.0,F,major,F,minor
+Miss Bartlett,Miss Lavish,articles,5,4,3,0.75,0.6,0.15000000000000002,F,major,F,intermediate
+Miss Bartlett,Miss Lavish,auxiliary_verbs,5,4,2,0.5,0.6,-0.09999999999999998,F,major,F,intermediate
+Miss Bartlett,Miss Lavish,conjunctions,5,3,3,1.0,0.8,0.19999999999999996,F,major,F,intermediate
+Miss Bartlett,Miss Lavish,impersonal_pronouns,5,3,2,0.6666666666666666,0.6,0.06666666666666665,F,major,F,intermediate
+Miss Bartlett,Miss Lavish,personal_pronouns,5,4,4,1.0,0.8,0.19999999999999996,F,major,F,intermediate
+Miss Bartlett,Miss Lavish,prepositions,5,2,2,1.0,0.8,0.19999999999999996,F,major,F,intermediate
+Miss Bartlett,Mr. Beebe,adverbs,19,12,10,0.8333333333333334,0.7368421052631579,0.09649122807017552,F,major,M,major
+Miss Bartlett,Mr. Beebe,articles,19,12,7,0.5833333333333334,0.47368421052631576,0.10964912280701761,F,major,M,major
+Miss Bartlett,Mr. Beebe,auxiliary_verbs,19,16,9,0.5625,0.631578947368421,-0.06907894736842102,F,major,M,major
+Miss Bartlett,Mr. Beebe,conjunctions,19,11,8,0.7272727272727273,0.7368421052631579,-0.009569377990430561,F,major,M,major
+Miss Bartlett,Mr. Beebe,impersonal_pronouns,19,8,2,0.25,0.47368421052631576,-0.22368421052631576,F,major,M,major
+Miss Bartlett,Mr. Beebe,negations,19,7,2,0.2857142857142857,0.2631578947368421,0.022556390977443608,F,major,M,major
+Miss Bartlett,Mr. Beebe,personal_pronouns,19,15,11,0.7333333333333333,0.7894736842105263,-0.056140350877193046,F,major,M,major
+Miss Bartlett,Mr. Beebe,prepositions,19,15,11,0.7333333333333333,0.6842105263157895,0.04912280701754379,F,major,M,major
+Miss Bartlett,Mr. Beebe,quantifiers,19,7,1,0.14285714285714285,0.47368421052631576,-0.3308270676691729,F,major,M,major
+Miss Bartlett,Mr. Emerson,adverbs,3,2,2,1.0,0.6666666666666666,0.33333333333333337,F,major,M,intermediate
+Miss Bartlett,Mr. Emerson,articles,3,2,1,0.5,0.3333333333333333,0.16666666666666669,F,major,M,intermediate
+Miss Bartlett,Mr. Emerson,auxiliary_verbs,3,2,1,0.5,0.6666666666666666,-0.16666666666666663,F,major,M,intermediate
+Miss Bartlett,Mrs. Honeychurch,adverbs,2,2,2,1.0,1.0,0.0,F,major,F,major
+Miss Bartlett,Mrs. Honeychurch,auxiliary_verbs,2,2,0,0.0,0.0,0.0,F,major,F,major
+Miss Bartlett,Mrs. Honeychurch,personal_pronouns,2,2,1,0.5,0.5,0.0,F,major,F,major
+Miss Bartlett,Rev. Cuthbert Eager,adverbs,11,7,5,0.7142857142857143,0.6363636363636364,0.07792207792207795,F,major,M,intermediate
+Miss Bartlett,Rev. Cuthbert Eager,articles,11,4,3,0.75,0.6363636363636364,0.11363636363636365,F,major,M,intermediate
+Miss Bartlett,Rev. Cuthbert Eager,auxiliary_verbs,11,8,7,0.875,0.9090909090909091,-0.03409090909090906,F,major,M,intermediate
+Miss Bartlett,Rev. Cuthbert Eager,conjunctions,11,3,3,1.0,0.7272727272727273,0.2727272727272727,F,major,M,intermediate
+Miss Bartlett,Rev. Cuthbert Eager,impersonal_pronouns,11,4,2,0.5,0.5454545454545454,-0.045454545454545414,F,major,M,intermediate
+Miss Bartlett,Rev. Cuthbert Eager,negations,11,3,2,0.6666666666666666,0.5454545454545454,0.12121212121212122,F,major,M,intermediate
+Miss Bartlett,Rev. Cuthbert Eager,personal_pronouns,11,9,9,1.0,1.0,0.0,F,major,M,intermediate
+Miss Bartlett,Rev. Cuthbert Eager,prepositions,11,5,5,1.0,0.7272727272727273,0.2727272727272727,F,major,M,intermediate
+Miss Bartlett,Rev. Cuthbert Eager,quantifiers,11,3,3,1.0,0.6363636363636364,0.36363636363636365,F,major,M,intermediate
+Miss Catherine Alan,Lucy,adverbs,4,3,1,0.3333333333333333,0.5,-0.16666666666666669,F,minor,,
+Miss Catherine Alan,Lucy,articles,4,3,1,0.3333333333333333,0.25,0.08333333333333331,F,minor,,
+Miss Catherine Alan,Lucy,auxiliary_verbs,4,3,2,0.6666666666666666,0.75,-0.08333333333333337,F,minor,,
+Miss Catherine Alan,Lucy,conjunctions,4,2,1,0.5,0.5,0.0,F,minor,,
+Miss Catherine Alan,Lucy,impersonal_pronouns,4,2,2,1.0,0.75,0.25,F,minor,,
+Miss Catherine Alan,Lucy,negations,4,2,0,0.0,0.0,0.0,F,minor,,
+Miss Catherine Alan,Lucy,personal_pronouns,4,4,2,0.5,0.5,0.0,F,minor,,
+Miss Catherine Alan,Lucy,prepositions,4,3,2,0.6666666666666666,0.75,-0.08333333333333337,F,minor,,
+Miss Catherine Alan,Lucy,quantifiers,4,2,0,0.0,0.25,-0.25,F,minor,,
+Miss Lavish,Lucy,adverbs,11,7,6,0.8571428571428571,0.9090909090909091,-0.051948051948051965,F,intermediate,,
+Miss Lavish,Lucy,articles,11,10,5,0.5,0.5454545454545454,-0.045454545454545414,F,intermediate,,
+Miss Lavish,Lucy,auxiliary_verbs,11,8,6,0.75,0.6363636363636364,0.11363636363636365,F,intermediate,,
+Miss Lavish,Lucy,conjunctions,11,8,5,0.625,0.5454545454545454,0.07954545454545459,F,intermediate,,
+Miss Lavish,Lucy,impersonal_pronouns,11,6,3,0.5,0.36363636363636365,0.13636363636363635,F,intermediate,,
+Miss Lavish,Lucy,negations,11,3,2,0.6666666666666666,0.36363636363636365,0.303030303030303,F,intermediate,,
+Miss Lavish,Lucy,personal_pronouns,11,10,6,0.6,0.6363636363636364,-0.036363636363636376,F,intermediate,,
+Miss Lavish,Lucy,prepositions,11,8,5,0.625,0.6363636363636364,-0.011363636363636354,F,intermediate,,
+Miss Lavish,Lucy,quantifiers,11,5,0,0.0,0.2727272727272727,-0.2727272727272727,F,intermediate,,
+Miss Lavish,Miss Bartlett,adverbs,11,4,2,0.5,0.45454545454545453,0.04545454545454547,F,intermediate,F,major
+Miss Lavish,Miss Bartlett,articles,11,8,5,0.625,0.6363636363636364,-0.011363636363636354,F,intermediate,F,major
+Miss Lavish,Miss Bartlett,auxiliary_verbs,11,8,7,0.875,0.9090909090909091,-0.03409090909090906,F,intermediate,F,major
+Miss Lavish,Miss Bartlett,conjunctions,11,5,3,0.6,0.5454545454545454,0.054545454545454564,F,intermediate,F,major
+Miss Lavish,Miss Bartlett,impersonal_pronouns,11,6,2,0.3333333333333333,0.45454545454545453,-0.12121212121212122,F,intermediate,F,major
+Miss Lavish,Miss Bartlett,negations,11,4,0,0.0,0.09090909090909091,-0.09090909090909091,F,intermediate,F,major
+Miss Lavish,Miss Bartlett,personal_pronouns,11,10,8,0.8,0.8181818181818182,-0.018181818181818188,F,intermediate,F,major
+Miss Lavish,Miss Bartlett,prepositions,11,9,6,0.6666666666666666,0.5454545454545454,0.12121212121212122,F,intermediate,F,major
+Miss Lavish,Miss Bartlett,quantifiers,11,3,1,0.3333333333333333,0.36363636363636365,-0.03030303030303033,F,intermediate,F,major
+Miss Lavish,Mr. Emerson,adverbs,2,2,2,1.0,1.0,0.0,F,intermediate,M,intermediate
+Miss Lavish,Mr. Emerson,auxiliary_verbs,2,2,2,1.0,1.0,0.0,F,intermediate,M,intermediate
+Miss Lavish,Mr. Emerson,personal_pronouns,2,2,2,1.0,1.0,0.0,F,intermediate,M,intermediate
+Miss Lavish,Rev. Cuthbert Eager,adverbs,3,3,2,0.6666666666666666,0.6666666666666666,0.0,F,intermediate,M,intermediate
+Miss Lavish,Rev. Cuthbert Eager,articles,3,3,3,1.0,1.0,0.0,F,intermediate,M,intermediate
+Miss Lavish,Rev. Cuthbert Eager,auxiliary_verbs,3,3,3,1.0,1.0,0.0,F,intermediate,M,intermediate
+Miss Lavish,Rev. Cuthbert Eager,conjunctions,3,2,2,1.0,1.0,0.0,F,intermediate,M,intermediate
+Miss Lavish,Rev. Cuthbert Eager,impersonal_pronouns,3,2,2,1.0,1.0,0.0,F,intermediate,M,intermediate
+Miss Lavish,Rev. Cuthbert Eager,personal_pronouns,3,3,3,1.0,1.0,0.0,F,intermediate,M,intermediate
+Miss Lavish,Rev. Cuthbert Eager,prepositions,3,3,3,1.0,1.0,0.0,F,intermediate,M,intermediate
+Miss Lavish,Rev. Cuthbert Eager,quantifiers,3,3,2,0.6666666666666666,0.6666666666666666,0.0,F,intermediate,M,intermediate
+Miss Teresa,Miss Catharine,auxiliary_verbs,2,2,2,1.0,1.0,0.0,F,minor,,
+Miss Teresa,Miss Catharine,personal_pronouns,2,2,2,1.0,1.0,0.0,F,minor,,
+Miss Teresa,Miss Catharine,prepositions,2,2,2,1.0,1.0,0.0,F,minor,,
+Mr. Beebe,Cecil,adverbs,20,10,3,0.3,0.45,-0.15000000000000002,M,major,,
+Mr. Beebe,Cecil,articles,20,12,6,0.5,0.45,0.04999999999999999,M,major,,
+Mr. Beebe,Cecil,auxiliary_verbs,20,16,11,0.6875,0.7,-0.012499999999999956,M,major,,
+Mr. Beebe,Cecil,conjunctions,20,12,4,0.3333333333333333,0.3,0.033333333333333326,M,major,,
+Mr. Beebe,Cecil,impersonal_pronouns,20,16,10,0.625,0.7,-0.07499999999999996,M,major,,
+Mr. Beebe,Cecil,negations,20,9,4,0.4444444444444444,0.4,0.0444444444444444,M,major,,
+Mr. Beebe,Cecil,personal_pronouns,20,19,14,0.7368421052631579,0.75,-0.013157894736842146,M,major,,
+Mr. Beebe,Cecil,prepositions,20,15,10,0.6666666666666666,0.6,0.06666666666666665,M,major,,
+Mr. Beebe,Cecil,quantifiers,20,8,1,0.125,0.25,-0.125,M,major,,
+Mr. Beebe,Freddy,adverbs,21,11,4,0.36363636363636365,0.42857142857142855,-0.0649350649350649,M,major,M,intermediate
+Mr. Beebe,Freddy,articles,21,11,2,0.18181818181818182,0.38095238095238093,-0.1991341991341991,M,major,M,intermediate
+Mr. Beebe,Freddy,auxiliary_verbs,21,15,7,0.4666666666666667,0.5238095238095238,-0.05714285714285716,M,major,M,intermediate
+Mr. Beebe,Freddy,conjunctions,21,10,4,0.4,0.38095238095238093,0.01904761904761909,M,major,M,intermediate
+Mr. Beebe,Freddy,impersonal_pronouns,21,11,3,0.2727272727272727,0.38095238095238093,-0.10822510822510822,M,major,M,intermediate
+Mr. Beebe,Freddy,negations,21,3,0,0.0,0.09523809523809523,-0.09523809523809523,M,major,M,intermediate
+Mr. Beebe,Freddy,personal_pronouns,21,17,11,0.6470588235294118,0.7142857142857143,-0.0672268907563025,M,major,M,intermediate
+Mr. Beebe,Freddy,prepositions,21,12,5,0.4166666666666667,0.5238095238095238,-0.10714285714285715,M,major,M,intermediate
+Mr. Beebe,Freddy,quantifiers,21,7,0,0.0,0.14285714285714285,-0.14285714285714285,M,major,M,intermediate
+Mr. Beebe,George Emerson,adverbs,6,5,2,0.4,0.3333333333333333,0.06666666666666671,M,major,M,intermediate
+Mr. Beebe,George Emerson,articles,6,3,1,0.3333333333333333,0.16666666666666666,0.16666666666666666,M,major,M,intermediate
+Mr. Beebe,George Emerson,auxiliary_verbs,6,6,4,0.6666666666666666,0.6666666666666666,0.0,M,major,M,intermediate
+Mr. Beebe,George Emerson,conjunctions,6,5,2,0.4,0.3333333333333333,0.06666666666666671,M,major,M,intermediate
+Mr. Beebe,George Emerson,impersonal_pronouns,6,3,2,0.6666666666666666,0.3333333333333333,0.3333333333333333,M,major,M,intermediate
+Mr. Beebe,George Emerson,personal_pronouns,6,6,4,0.6666666666666666,0.6666666666666666,0.0,M,major,M,intermediate
+Mr. Beebe,George Emerson,prepositions,6,5,1,0.2,0.3333333333333333,-0.1333333333333333,M,major,M,intermediate
+Mr. Beebe,George Emerson,quantifiers,6,3,1,0.3333333333333333,0.3333333333333333,0.0,M,major,M,intermediate
+Mr. Beebe,Lucy,adverbs,36,23,13,0.5652173913043478,0.5555555555555556,0.009661835748792202,M,major,,
+Mr. Beebe,Lucy,articles,36,20,6,0.3,0.2777777777777778,0.0222222222222222,M,major,,
+Mr. Beebe,Lucy,auxiliary_verbs,36,26,20,0.7692307692307693,0.7222222222222222,0.047008547008547064,M,major,,
+Mr. Beebe,Lucy,conjunctions,36,16,11,0.6875,0.5833333333333334,0.10416666666666663,M,major,,
+Mr. Beebe,Lucy,impersonal_pronouns,36,21,10,0.47619047619047616,0.4166666666666667,0.05952380952380948,M,major,,
+Mr. Beebe,Lucy,negations,36,8,1,0.125,0.19444444444444445,-0.06944444444444445,M,major,,
+Mr. Beebe,Lucy,personal_pronouns,36,30,23,0.7666666666666667,0.75,0.01666666666666672,M,major,,
+Mr. Beebe,Lucy,prepositions,36,27,11,0.4074074074074074,0.4444444444444444,-0.037037037037037035,M,major,,
+Mr. Beebe,Lucy,quantifiers,36,13,2,0.15384615384615385,0.16666666666666666,-0.012820512820512803,M,major,,
+Mr. Beebe,Miss Bartlett,adverbs,20,14,9,0.6428571428571429,0.65,-0.0071428571428571175,M,major,F,major
+Mr. Beebe,Miss Bartlett,articles,20,9,6,0.6666666666666666,0.55,0.11666666666666659,M,major,F,major
+Mr. Beebe,Miss Bartlett,auxiliary_verbs,20,13,13,1.0,0.9,0.09999999999999998,M,major,F,major
+Mr. Beebe,Miss Bartlett,conjunctions,20,12,9,0.75,0.65,0.09999999999999998,M,major,F,major
+Mr. Beebe,Miss Bartlett,impersonal_pronouns,20,8,6,0.75,0.45,0.3,M,major,F,major
+Mr. Beebe,Miss Bartlett,negations,20,5,4,0.8,0.45,0.35000000000000003,M,major,F,major
+Mr. Beebe,Miss Bartlett,personal_pronouns,20,15,13,0.8666666666666667,0.8,0.06666666666666665,M,major,F,major
+Mr. Beebe,Miss Bartlett,prepositions,20,14,13,0.9285714285714286,0.85,0.07857142857142863,M,major,F,major
+Mr. Beebe,Miss Bartlett,quantifiers,20,8,4,0.5,0.35,0.15000000000000002,M,major,F,major
+Mr. Beebe,Miss Catherine Alan,adverbs,3,2,1,0.5,0.6666666666666666,-0.16666666666666663,M,major,F,minor
+Mr. Beebe,Miss Catherine Alan,articles,3,2,2,1.0,0.6666666666666666,0.33333333333333337,M,major,F,minor
+Mr. Beebe,Miss Catherine Alan,auxiliary_verbs,3,3,2,0.6666666666666666,0.6666666666666666,0.0,M,major,F,minor
+Mr. Beebe,Miss Catherine Alan,conjunctions,3,3,2,0.6666666666666666,0.6666666666666666,0.0,M,major,F,minor
+Mr. Beebe,Miss Catherine Alan,impersonal_pronouns,3,2,2,1.0,0.6666666666666666,0.33333333333333337,M,major,F,minor
+Mr. Beebe,Miss Catherine Alan,personal_pronouns,3,3,3,1.0,1.0,0.0,M,major,F,minor
+Mr. Beebe,Miss Catherine Alan,prepositions,3,3,2,0.6666666666666666,0.6666666666666666,0.0,M,major,F,minor
+Mr. Beebe,Mr. Emerson,adverbs,11,3,1,0.3333333333333333,0.45454545454545453,-0.12121212121212122,M,major,M,intermediate
+Mr. Beebe,Mr. Emerson,auxiliary_verbs,11,7,6,0.8571428571428571,0.8181818181818182,0.03896103896103886,M,major,M,intermediate
+Mr. Beebe,Mr. Emerson,conjunctions,11,2,1,0.5,0.45454545454545453,0.04545454545454547,M,major,M,intermediate
+Mr. Beebe,Mr. Emerson,impersonal_pronouns,11,5,2,0.4,0.6363636363636364,-0.23636363636363633,M,major,M,intermediate
+Mr. Beebe,Mr. Emerson,negations,11,2,1,0.5,0.5454545454545454,-0.045454545454545414,M,major,M,intermediate
+Mr. Beebe,Mr. Emerson,personal_pronouns,11,9,8,0.8888888888888888,0.9090909090909091,-0.02020202020202022,M,major,M,intermediate
+Mr. Beebe,Mr. Emerson,prepositions,11,8,7,0.875,0.8181818181818182,0.05681818181818177,M,major,M,intermediate
+Mr. Beebe,Mr. Emerson,quantifiers,11,3,2,0.6666666666666666,0.6363636363636364,0.030303030303030276,M,major,M,intermediate
+Mr. Beebe,Mr. Vyse,adverbs,3,3,2,0.6666666666666666,0.6666666666666666,0.0,M,major,M,intermediate
+Mr. Beebe,Mr. Vyse,articles,3,2,0,0.0,0.0,0.0,M,major,M,intermediate
+Mr. Beebe,Mr. Vyse,auxiliary_verbs,3,2,1,0.5,0.3333333333333333,0.16666666666666669,M,major,M,intermediate
+Mr. Beebe,Mr. Vyse,conjunctions,3,2,0,0.0,0.0,0.0,M,major,M,intermediate
+Mr. Beebe,Mr. Vyse,impersonal_pronouns,3,2,0,0.0,0.0,0.0,M,major,M,intermediate
+Mr. Beebe,Mr. Vyse,negations,3,2,2,1.0,0.6666666666666666,0.33333333333333337,M,major,M,intermediate
+Mr. Beebe,Mr. Vyse,personal_pronouns,3,3,1,0.3333333333333333,0.3333333333333333,0.0,M,major,M,intermediate
+Mr. Beebe,Mr. Vyse,prepositions,3,2,1,0.5,0.3333333333333333,0.16666666666666669,M,major,M,intermediate
+Mr. Beebe,Mr. Vyse,quantifiers,3,2,1,0.5,0.3333333333333333,0.16666666666666669,M,major,M,intermediate
+Mr. Beebe,Mrs. Honeychurch,adverbs,8,6,6,1.0,1.0,0.0,M,major,F,major
+Mr. Beebe,Mrs. Honeychurch,articles,8,6,4,0.6666666666666666,0.5,0.16666666666666663,M,major,F,major
+Mr. Beebe,Mrs. Honeychurch,auxiliary_verbs,8,6,5,0.8333333333333334,0.875,-0.04166666666666663,M,major,F,major
+Mr. Beebe,Mrs. Honeychurch,conjunctions,8,5,3,0.6,0.625,-0.025000000000000022,M,major,F,major
+Mr. Beebe,Mrs. Honeychurch,impersonal_pronouns,8,5,4,0.8,0.875,-0.07499999999999996,M,major,F,major
+Mr. Beebe,Mrs. Honeychurch,personal_pronouns,8,6,6,1.0,1.0,0.0,M,major,F,major
+Mr. Beebe,Mrs. Honeychurch,prepositions,8,6,5,0.8333333333333334,0.75,0.08333333333333337,M,major,F,major
+Mr. Beebe,Mrs. Honeychurch,quantifiers,8,4,2,0.5,0.5,0.0,M,major,F,major
+Mr. Beebe,The Vicar,personal_pronouns,2,2,2,1.0,1.0,0.0,M,major,M,minor
+Mr. Emerson,Freddy,adverbs,3,3,2,0.6666666666666666,0.6666666666666666,0.0,M,intermediate,M,intermediate
+Mr. Emerson,Freddy,articles,3,3,2,0.6666666666666666,0.6666666666666666,0.0,M,intermediate,M,intermediate
+Mr. Emerson,Freddy,auxiliary_verbs,3,3,2,0.6666666666666666,0.6666666666666666,0.0,M,intermediate,M,intermediate
+Mr. Emerson,Freddy,conjunctions,3,3,0,0.0,0.0,0.0,M,intermediate,M,intermediate
+Mr. Emerson,Freddy,impersonal_pronouns,3,2,2,1.0,1.0,0.0,M,intermediate,M,intermediate
+Mr. Emerson,Freddy,negations,3,2,1,0.5,0.3333333333333333,0.16666666666666669,M,intermediate,M,intermediate
+Mr. Emerson,Freddy,personal_pronouns,3,3,3,1.0,1.0,0.0,M,intermediate,M,intermediate
+Mr. Emerson,Freddy,prepositions,3,3,3,1.0,1.0,0.0,M,intermediate,M,intermediate
+Mr. Emerson,Freddy,quantifiers,3,3,1,0.3333333333333333,0.3333333333333333,0.0,M,intermediate,M,intermediate
+Mr. Emerson,George Emerson,adverbs,9,7,5,0.7142857142857143,0.6666666666666666,0.04761904761904767,M,intermediate,M,intermediate
+Mr. Emerson,George Emerson,articles,9,6,3,0.5,0.3333333333333333,0.16666666666666669,M,intermediate,M,intermediate
+Mr. Emerson,George Emerson,auxiliary_verbs,9,5,5,1.0,0.7777777777777778,0.2222222222222222,M,intermediate,M,intermediate
+Mr. Emerson,George Emerson,conjunctions,9,5,3,0.6,0.5555555555555556,0.0444444444444444,M,intermediate,M,intermediate
+Mr. Emerson,George Emerson,impersonal_pronouns,9,6,2,0.3333333333333333,0.4444444444444444,-0.1111111111111111,M,intermediate,M,intermediate
+Mr. Emerson,George Emerson,negations,9,2,1,0.5,0.4444444444444444,0.05555555555555558,M,intermediate,M,intermediate
+Mr. Emerson,George Emerson,personal_pronouns,9,8,7,0.875,0.8888888888888888,-0.01388888888888884,M,intermediate,M,intermediate
+Mr. Emerson,George Emerson,prepositions,9,6,4,0.6666666666666666,0.6666666666666666,0.0,M,intermediate,M,intermediate
+Mr. Emerson,Lucy,adverbs,38,24,12,0.5,0.42105263157894735,0.07894736842105265,M,intermediate,,
+Mr. Emerson,Lucy,articles,38,23,5,0.21739130434782608,0.3157894736842105,-0.09839816933638443,M,intermediate,,
+Mr. Emerson,Lucy,auxiliary_verbs,38,33,24,0.7272727272727273,0.7105263157894737,0.01674641148325362,M,intermediate,,
+Mr. Emerson,Lucy,conjunctions,38,23,12,0.5217391304347826,0.39473684210526316,0.12700228832951943,M,intermediate,,
+Mr. Emerson,Lucy,impersonal_pronouns,38,28,15,0.5357142857142857,0.5263157894736842,0.009398496240601517,M,intermediate,,
+Mr. Emerson,Lucy,negations,38,15,8,0.5333333333333333,0.3684210526315789,0.1649122807017544,M,intermediate,,
+Mr. Emerson,Lucy,personal_pronouns,38,33,26,0.7878787878787878,0.7894736842105263,-0.0015948963317384823,M,intermediate,,
+Mr. Emerson,Lucy,prepositions,38,31,17,0.5483870967741935,0.5526315789473685,-0.004244482173174968,M,intermediate,,
+Mr. Emerson,Lucy,quantifiers,38,17,4,0.23529411764705882,0.21052631578947367,0.024767801857585148,M,intermediate,,
+Mr. Emerson,Miss Bartlett,adverbs,5,2,1,0.5,0.8,-0.30000000000000004,M,intermediate,F,major
+Mr. Emerson,Miss Bartlett,articles,5,3,1,0.3333333333333333,0.6,-0.26666666666666666,M,intermediate,F,major
+Mr. Emerson,Miss Bartlett,auxiliary_verbs,5,4,3,0.75,0.8,-0.050000000000000044,M,intermediate,F,major
+Mr. Emerson,Miss Bartlett,impersonal_pronouns,5,3,1,0.3333333333333333,0.4,-0.06666666666666671,M,intermediate,F,major
+Mr. Emerson,Miss Bartlett,personal_pronouns,5,4,2,0.5,0.6,-0.09999999999999998,M,intermediate,F,major
+Mr. Emerson,Miss Lavish,auxiliary_verbs,2,2,2,1.0,1.0,0.0,M,intermediate,F,intermediate
+Mr. Emerson,Miss Lavish,conjunctions,2,2,1,0.5,0.5,0.0,M,intermediate,F,intermediate
+Mr. Emerson,Miss Lavish,impersonal_pronouns,2,2,0,0.0,0.0,0.0,M,intermediate,F,intermediate
+Mr. Emerson,Miss Lavish,personal_pronouns,2,2,2,1.0,1.0,0.0,M,intermediate,F,intermediate
+Mr. Emerson,Miss Lavish,prepositions,2,2,1,0.5,0.5,0.0,M,intermediate,F,intermediate
+Mr. Emerson,Miss Lavish,quantifiers,2,2,1,0.5,0.5,0.0,M,intermediate,F,intermediate
+Mr. Emerson,Mr. Beebe,adverbs,7,2,0,0.0,0.14285714285714285,-0.14285714285714285,M,intermediate,M,major
+Mr. Emerson,Mr. Beebe,articles,7,4,1,0.25,0.14285714285714285,0.10714285714285715,M,intermediate,M,major
+Mr. Emerson,Mr. Beebe,auxiliary_verbs,7,4,3,0.75,0.5714285714285714,0.1785714285714286,M,intermediate,M,major
+Mr. Emerson,Mr. Beebe,conjunctions,7,3,0,0.0,0.14285714285714285,-0.14285714285714285,M,intermediate,M,major
+Mr. Emerson,Mr. Beebe,impersonal_pronouns,7,4,2,0.5,0.5714285714285714,-0.0714285714285714,M,intermediate,M,major
+Mr. Emerson,Mr. Beebe,negations,7,2,0,0.0,0.2857142857142857,-0.2857142857142857,M,intermediate,M,major
+Mr. Emerson,Mr. Beebe,personal_pronouns,7,5,3,0.6,0.7142857142857143,-0.11428571428571432,M,intermediate,M,major
+Mr. Emerson,Mr. Beebe,prepositions,7,4,3,0.75,0.7142857142857143,0.0357142857142857,M,intermediate,M,major
+Mr. Emerson,Mrs. Honeychurch,conjunctions,2,2,1,0.5,0.5,0.0,M,intermediate,F,major
+Mr. Emerson,Mrs. Honeychurch,personal_pronouns,2,2,2,1.0,1.0,0.0,M,intermediate,F,major
+Mr. Emerson,Mrs. Honeychurch,prepositions,2,2,1,0.5,0.5,0.0,M,intermediate,F,major
+Mr. Emerson,Rev. Cuthbert Eager,auxiliary_verbs,2,2,1,0.5,0.5,0.0,M,intermediate,M,intermediate
+Mr. Emerson,Rev. Cuthbert Eager,personal_pronouns,2,2,0,0.0,0.0,0.0,M,intermediate,M,intermediate
+Mr. Vyse,Freddy,auxiliary_verbs,2,2,1,0.5,0.5,0.0,M,intermediate,M,intermediate
+Mr. Vyse,Freddy,negations,2,2,0,0.0,0.0,0.0,M,intermediate,M,intermediate
+Mr. Vyse,Freddy,personal_pronouns,2,2,2,1.0,1.0,0.0,M,intermediate,M,intermediate
+Mr. Vyse,Freddy,prepositions,2,2,2,1.0,1.0,0.0,M,intermediate,M,intermediate
+Mr. Vyse,Lucy,adverbs,31,19,12,0.631578947368421,0.6129032258064516,0.018675721561969394,M,intermediate,,
+Mr. Vyse,Lucy,articles,31,15,7,0.4666666666666667,0.4838709677419355,-0.017204301075268824,M,intermediate,,
+Mr. Vyse,Lucy,auxiliary_verbs,31,24,18,0.75,0.7419354838709677,0.008064516129032251,M,intermediate,,
+Mr. Vyse,Lucy,conjunctions,31,15,9,0.6,0.4838709677419355,0.11612903225806448,M,intermediate,,
+Mr. Vyse,Lucy,impersonal_pronouns,31,19,14,0.7368421052631579,0.7741935483870968,-0.0373514431239389,M,intermediate,,
+Mr. Vyse,Lucy,negations,31,12,4,0.3333333333333333,0.25806451612903225,0.07526881720430106,M,intermediate,,
+Mr. Vyse,Lucy,personal_pronouns,31,26,23,0.8846153846153846,0.8387096774193549,0.04590570719602971,M,intermediate,,
+Mr. Vyse,Lucy,prepositions,31,20,17,0.85,0.8387096774193549,0.011290322580645107,M,intermediate,,
+Mr. Vyse,Lucy,quantifiers,31,16,7,0.4375,0.4838709677419355,-0.0463709677419355,M,intermediate,,
+Mrs. Honeychurch,Cecil,adverbs,14,7,3,0.42857142857142855,0.35714285714285715,0.0714285714285714,F,major,,
+Mrs. Honeychurch,Cecil,articles,14,7,1,0.14285714285714285,0.2857142857142857,-0.14285714285714285,F,major,,
+Mrs. Honeychurch,Cecil,auxiliary_verbs,14,8,4,0.5,0.35714285714285715,0.14285714285714285,F,major,,
+Mrs. Honeychurch,Cecil,conjunctions,14,7,3,0.42857142857142855,0.2857142857142857,0.14285714285714285,F,major,,
+Mrs. Honeychurch,Cecil,impersonal_pronouns,14,7,3,0.42857142857142855,0.42857142857142855,0.0,F,major,,
+Mrs. Honeychurch,Cecil,negations,14,3,0,0.0,0.14285714285714285,-0.14285714285714285,F,major,,
+Mrs. Honeychurch,Cecil,personal_pronouns,14,12,8,0.6666666666666666,0.6428571428571429,0.023809523809523725,F,major,,
+Mrs. Honeychurch,Cecil,prepositions,14,11,5,0.45454545454545453,0.42857142857142855,0.025974025974025983,F,major,,
+Mrs. Honeychurch,Cecil,quantifiers,14,3,1,0.3333333333333333,0.21428571428571427,0.11904761904761904,F,major,,
+Mrs. Honeychurch,Freddy,adverbs,30,22,13,0.5909090909090909,0.5333333333333333,0.05757575757575761,F,major,M,intermediate
+Mrs. Honeychurch,Freddy,articles,30,14,8,0.5714285714285714,0.43333333333333335,0.13809523809523805,F,major,M,intermediate
+Mrs. Honeychurch,Freddy,auxiliary_verbs,30,23,13,0.5652173913043478,0.6,-0.034782608695652195,F,major,M,intermediate
+Mrs. Honeychurch,Freddy,conjunctions,30,14,9,0.6428571428571429,0.6,0.04285714285714293,F,major,M,intermediate
+Mrs. Honeychurch,Freddy,impersonal_pronouns,30,21,9,0.42857142857142855,0.5,-0.07142857142857145,F,major,M,intermediate
+Mrs. Honeychurch,Freddy,negations,30,9,4,0.4444444444444444,0.3,0.14444444444444443,F,major,M,intermediate
+Mrs. Honeychurch,Freddy,personal_pronouns,30,27,23,0.8518518518518519,0.8,0.051851851851851816,F,major,M,intermediate
+Mrs. Honeychurch,Freddy,prepositions,30,19,12,0.631578947368421,0.6,0.03157894736842104,F,major,M,intermediate
+Mrs. Honeychurch,Freddy,quantifiers,30,10,3,0.3,0.36666666666666664,-0.06666666666666665,F,major,M,intermediate
+Mrs. Honeychurch,George Emerson,adverbs,6,4,1,0.25,0.3333333333333333,-0.08333333333333331,F,major,M,intermediate
+Mrs. Honeychurch,George Emerson,auxiliary_verbs,6,4,3,0.75,0.6666666666666666,0.08333333333333337,F,major,M,intermediate
+Mrs. Honeychurch,George Emerson,conjunctions,6,3,1,0.3333333333333333,0.3333333333333333,0.0,F,major,M,intermediate
+Mrs. Honeychurch,George Emerson,impersonal_pronouns,6,5,3,0.6,0.5,0.09999999999999998,F,major,M,intermediate
+Mrs. Honeychurch,George Emerson,negations,6,2,0,0.0,0.3333333333333333,-0.3333333333333333,F,major,M,intermediate
+Mrs. Honeychurch,George Emerson,personal_pronouns,6,6,5,0.8333333333333334,0.8333333333333334,0.0,F,major,M,intermediate
+Mrs. Honeychurch,George Emerson,prepositions,6,4,3,0.75,0.6666666666666666,0.08333333333333337,F,major,M,intermediate
+Mrs. Honeychurch,George Emerson,quantifiers,6,3,1,0.3333333333333333,0.3333333333333333,0.0,F,major,M,intermediate
+Mrs. Honeychurch,Lucy,adverbs,55,34,18,0.5294117647058824,0.5272727272727272,0.002139037433155133,F,major,,
+Mrs. Honeychurch,Lucy,articles,55,27,13,0.48148148148148145,0.41818181818181815,0.0632996632996633,F,major,,
+Mrs. Honeychurch,Lucy,auxiliary_verbs,55,39,23,0.5897435897435898,0.6181818181818182,-0.028438228438228408,F,major,,
+Mrs. Honeychurch,Lucy,conjunctions,55,28,10,0.35714285714285715,0.38181818181818183,-0.024675324675324684,F,major,,
+Mrs. Honeychurch,Lucy,impersonal_pronouns,55,28,13,0.4642857142857143,0.43636363636363634,0.02792207792207796,F,major,,
+Mrs. Honeychurch,Lucy,negations,55,13,6,0.46153846153846156,0.3090909090909091,0.15244755244755248,F,major,,
+Mrs. Honeychurch,Lucy,personal_pronouns,55,43,35,0.813953488372093,0.7636363636363637,0.05031712473572936,F,major,,
+Mrs. Honeychurch,Lucy,prepositions,55,37,22,0.5945945945945946,0.509090909090909,0.08550368550368559,F,major,,
+Mrs. Honeychurch,Lucy,quantifiers,55,23,11,0.4782608695652174,0.38181818181818183,0.09644268774703557,F,major,,
+Mrs. Honeychurch,Miss Bartlett,adverbs,3,3,2,0.6666666666666666,0.6666666666666666,0.0,F,major,F,major
+Mrs. Honeychurch,Miss Bartlett,articles,3,3,0,0.0,0.0,0.0,F,major,F,major
+Mrs. Honeychurch,Miss Bartlett,auxiliary_verbs,3,2,1,0.5,0.6666666666666666,-0.16666666666666663,F,major,F,major
+Mrs. Honeychurch,Miss Bartlett,impersonal_pronouns,3,3,0,0.0,0.0,0.0,F,major,F,major
+Mrs. Honeychurch,Miss Bartlett,personal_pronouns,3,3,2,0.6666666666666666,0.6666666666666666,0.0,F,major,F,major
+Mrs. Honeychurch,Miss Bartlett,prepositions,3,3,0,0.0,0.0,0.0,F,major,F,major
+Mrs. Honeychurch,Miss Bartlett,quantifiers,3,3,0,0.0,0.0,0.0,F,major,F,major
+Mrs. Honeychurch,Mr. Beebe,adverbs,5,4,2,0.5,0.6,-0.09999999999999998,F,major,M,major
+Mrs. Honeychurch,Mr. Beebe,articles,5,4,3,0.75,0.8,-0.050000000000000044,F,major,M,major
+Mrs. Honeychurch,Mr. Beebe,auxiliary_verbs,5,4,4,1.0,1.0,0.0,F,major,M,major
+Mrs. Honeychurch,Mr. Beebe,conjunctions,5,3,1,0.3333333333333333,0.6,-0.26666666666666666,F,major,M,major
+Mrs. Honeychurch,Mr. Beebe,impersonal_pronouns,5,3,3,1.0,0.8,0.19999999999999996,F,major,M,major
+Mrs. Honeychurch,Mr. Beebe,personal_pronouns,5,4,3,0.75,0.8,-0.050000000000000044,F,major,M,major
+Mrs. Honeychurch,Mr. Beebe,prepositions,5,3,2,0.6666666666666666,0.8,-0.13333333333333341,F,major,M,major
+Mrs. Honeychurch,Mr. Beebe,quantifiers,5,2,0,0.0,0.6,-0.6,F,major,M,major
+Mrs. Honeychurch,Mr. Emerson,personal_pronouns,2,2,1,0.5,0.5,0.0,F,major,M,intermediate
+Mrs. Honeychurch,Mr. Emerson,prepositions,2,2,1,0.5,0.5,0.0,F,major,M,intermediate
+Mrs. Honeychurch,Sir Harry Otway,adverbs,5,5,4,0.8,0.8,0.0,F,major,M,minor
+Mrs. Honeychurch,Sir Harry Otway,articles,5,3,2,0.6666666666666666,0.4,0.2666666666666666,F,major,M,minor
+Mrs. Honeychurch,Sir Harry Otway,auxiliary_verbs,5,4,3,0.75,0.6,0.15000000000000002,F,major,M,minor
+Mrs. Honeychurch,Sir Harry Otway,conjunctions,5,3,2,0.6666666666666666,0.4,0.2666666666666666,F,major,M,minor
+Mrs. Honeychurch,Sir Harry Otway,impersonal_pronouns,5,2,1,0.5,0.4,0.09999999999999998,F,major,M,minor
+Mrs. Honeychurch,Sir Harry Otway,negations,5,2,0,0.0,0.0,0.0,F,major,M,minor
+Mrs. Honeychurch,Sir Harry Otway,personal_pronouns,5,4,3,0.75,0.6,0.15000000000000002,F,major,M,minor
+Mrs. Honeychurch,Sir Harry Otway,prepositions,5,4,2,0.5,0.4,0.09999999999999998,F,major,M,minor
+Mrs. Honeychurch,Sir Harry Otway,quantifiers,5,2,0,0.0,0.0,0.0,F,major,M,minor
+Mrs. Vyse,Cecil,adverbs,3,2,1,0.5,0.6666666666666666,-0.16666666666666663,F,minor,,
+Mrs. Vyse,Cecil,auxiliary_verbs,3,3,3,1.0,1.0,0.0,F,minor,,
+Mrs. Vyse,Cecil,impersonal_pronouns,3,2,2,1.0,0.6666666666666666,0.33333333333333337,F,minor,,
+Mrs. Vyse,Cecil,personal_pronouns,3,3,2,0.6666666666666666,0.6666666666666666,0.0,F,minor,,
+Mrs. Vyse,Cecil,prepositions,3,3,1,0.3333333333333333,0.3333333333333333,0.0,F,minor,,
+Mrs. Vyse,Cecil,quantifiers,3,3,1,0.3333333333333333,0.3333333333333333,0.0,F,minor,,
+Rev. Cuthbert Eager,Lucy,adverbs,13,7,2,0.2857142857142857,0.38461538461538464,-0.09890109890109894,M,intermediate,,
+Rev. Cuthbert Eager,Lucy,articles,13,5,1,0.2,0.3076923076923077,-0.1076923076923077,M,intermediate,,
+Rev. Cuthbert Eager,Lucy,auxiliary_verbs,13,10,2,0.2,0.38461538461538464,-0.18461538461538463,M,intermediate,,
+Rev. Cuthbert Eager,Lucy,conjunctions,13,9,0,0.0,0.0,0.0,M,intermediate,,
+Rev. Cuthbert Eager,Lucy,impersonal_pronouns,13,8,2,0.25,0.23076923076923078,0.019230769230769218,M,intermediate,,
+Rev. Cuthbert Eager,Lucy,negations,13,3,0,0.0,0.3076923076923077,-0.3076923076923077,M,intermediate,,
+Rev. Cuthbert Eager,Lucy,personal_pronouns,13,11,5,0.45454545454545453,0.5384615384615384,-0.0839160839160839,M,intermediate,,
+Rev. Cuthbert Eager,Lucy,prepositions,13,9,3,0.3333333333333333,0.38461538461538464,-0.05128205128205132,M,intermediate,,
+Rev. Cuthbert Eager,Lucy,quantifiers,13,6,2,0.3333333333333333,0.23076923076923078,0.10256410256410253,M,intermediate,,
+Rev. Cuthbert Eager,Miss Bartlett,adverbs,8,5,2,0.4,0.625,-0.22499999999999998,M,intermediate,F,major
+Rev. Cuthbert Eager,Miss Bartlett,articles,8,6,2,0.3333333333333333,0.375,-0.041666666666666685,M,intermediate,F,major
+Rev. Cuthbert Eager,Miss Bartlett,auxiliary_verbs,8,7,7,1.0,0.875,0.125,M,intermediate,F,major
+Rev. Cuthbert Eager,Miss Bartlett,conjunctions,8,6,1,0.16666666666666666,0.25,-0.08333333333333334,M,intermediate,F,major
+Rev. Cuthbert Eager,Miss Bartlett,impersonal_pronouns,8,4,2,0.5,0.375,0.125,M,intermediate,F,major
+Rev. Cuthbert Eager,Miss Bartlett,negations,8,4,0,0.0,0.25,-0.25,M,intermediate,F,major
+Rev. Cuthbert Eager,Miss Bartlett,personal_pronouns,8,8,7,0.875,0.875,0.0,M,intermediate,F,major
+Rev. Cuthbert Eager,Miss Bartlett,prepositions,8,6,2,0.3333333333333333,0.375,-0.041666666666666685,M,intermediate,F,major
+Rev. Cuthbert Eager,Miss Bartlett,quantifiers,8,5,0,0.0,0.125,-0.125,M,intermediate,F,major
+Rev. Cuthbert Eager,Miss Lavish,adverbs,3,2,2,1.0,1.0,0.0,M,intermediate,F,intermediate
+Rev. Cuthbert Eager,Miss Lavish,articles,3,3,2,0.6666666666666666,0.6666666666666666,0.0,M,intermediate,F,intermediate
+Rev. Cuthbert Eager,Miss Lavish,auxiliary_verbs,3,3,2,0.6666666666666666,0.6666666666666666,0.0,M,intermediate,F,intermediate
+Rev. Cuthbert Eager,Miss Lavish,conjunctions,3,3,1,0.3333333333333333,0.3333333333333333,0.0,M,intermediate,F,intermediate
+Rev. Cuthbert Eager,Miss Lavish,impersonal_pronouns,3,3,1,0.3333333333333333,0.3333333333333333,0.0,M,intermediate,F,intermediate
+Rev. Cuthbert Eager,Miss Lavish,negations,3,3,2,0.6666666666666666,0.6666666666666666,0.0,M,intermediate,F,intermediate
+Rev. Cuthbert Eager,Miss Lavish,personal_pronouns,3,3,2,0.6666666666666666,0.6666666666666666,0.0,M,intermediate,F,intermediate
+Rev. Cuthbert Eager,Miss Lavish,prepositions,3,3,2,0.6666666666666666,0.6666666666666666,0.0,M,intermediate,F,intermediate
+Rev. Cuthbert Eager,Miss Lavish,quantifiers,3,2,2,1.0,0.6666666666666666,0.33333333333333337,M,intermediate,F,intermediate
+Rev. Cuthbert Eager,Mr. Emerson,articles,3,2,1,0.5,0.3333333333333333,0.16666666666666669,M,intermediate,M,intermediate
+Rev. Cuthbert Eager,Mr. Emerson,auxiliary_verbs,3,2,1,0.5,0.6666666666666666,-0.16666666666666663,M,intermediate,M,intermediate
+Rev. Cuthbert Eager,Mr. Emerson,prepositions,3,2,2,1.0,1.0,0.0,M,intermediate,M,intermediate
+Sir Harry Otway,Cecil,adverbs,3,2,1,0.5,0.3333333333333333,0.16666666666666669,M,minor,,
+Sir Harry Otway,Cecil,articles,3,2,1,0.5,0.3333333333333333,0.16666666666666669,M,minor,,
+Sir Harry Otway,Cecil,auxiliary_verbs,3,2,1,0.5,0.3333333333333333,0.16666666666666669,M,minor,,
+Sir Harry Otway,Cecil,conjunctions,3,2,0,0.0,0.0,0.0,M,minor,,
+Sir Harry Otway,Cecil,impersonal_pronouns,3,2,1,0.5,0.3333333333333333,0.16666666666666669,M,minor,,
+Sir Harry Otway,Cecil,personal_pronouns,3,2,2,1.0,0.6666666666666666,0.33333333333333337,M,minor,,
+Sir Harry Otway,Lucy,adverbs,5,2,0,0.0,0.4,-0.4,M,minor,,
+Sir Harry Otway,Lucy,articles,5,2,2,1.0,0.6,0.4,M,minor,,
+Sir Harry Otway,Lucy,auxiliary_verbs,5,4,2,0.5,0.6,-0.09999999999999998,M,minor,,
+Sir Harry Otway,Lucy,conjunctions,5,3,1,0.3333333333333333,0.4,-0.06666666666666671,M,minor,,
+Sir Harry Otway,Lucy,impersonal_pronouns,5,4,2,0.5,0.4,0.09999999999999998,M,minor,,
+Sir Harry Otway,Lucy,personal_pronouns,5,4,3,0.75,0.8,-0.050000000000000044,M,minor,,
+Sir Harry Otway,Lucy,prepositions,5,3,2,0.6666666666666666,0.6,0.06666666666666665,M,minor,,
+Sir Harry Otway,Mrs. Honeychurch,adverbs,4,3,3,1.0,1.0,0.0,M,minor,F,major
+Sir Harry Otway,Mrs. Honeychurch,auxiliary_verbs,4,2,2,1.0,0.75,0.25,M,minor,F,major
+Sir Harry Otway,Mrs. Honeychurch,personal_pronouns,4,2,2,1.0,1.0,0.0,M,minor,F,major
+Sir Harry Otway,Mrs. Honeychurch,prepositions,4,2,2,1.0,1.0,0.0,M,minor,F,major
+The Little Old Lady,Lucy,adverbs,2,2,1,0.5,0.5,0.0,F,minor,,
+The Little Old Lady,Lucy,auxiliary_verbs,2,2,1,0.5,0.5,0.0,F,minor,,
+The Little Old Lady,Lucy,conjunctions,2,2,0,0.0,0.0,0.0,F,minor,,
+The Little Old Lady,Lucy,personal_pronouns,2,2,2,1.0,1.0,0.0,F,minor,,
+The Little Old Lady,Lucy,prepositions,2,2,2,1.0,1.0,0.0,F,minor,,
+The Vicar,Mr. Beebe,articles,2,2,0,0.0,0.0,0.0,M,minor,M,major
+The Vicar,Mr. Beebe,auxiliary_verbs,2,2,1,0.5,0.5,0.0,M,minor,M,major
+The Vicar,Mr. Beebe,conjunctions,2,2,0,0.0,0.0,0.0,M,minor,M,major
+The Vicar,Mr. Beebe,personal_pronouns,2,2,2,1.0,1.0,0.0,M,minor,M,major
+The Vicar,Mr. Beebe,prepositions,2,2,1,0.5,0.5,0.0,M,minor,M,major
+The Vicar,Mr. Beebe,quantifiers,2,2,0,0.0,0.0,0.0,M,minor,M,major

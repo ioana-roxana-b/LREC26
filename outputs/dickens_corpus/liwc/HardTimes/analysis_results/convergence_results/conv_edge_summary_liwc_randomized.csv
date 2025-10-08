@@ -1,0 +1,86 @@
+﻿a_speaker,b_speaker,n_features,n_pairs,n_triggers_total,mean_conv,mean_conv_w,a_gender,a_category,b_gender,b_category
+Bitzer,Josiah Bounderby,3,2,6,0.0,0.0,M,intermediate,M,major
+Bitzer,Mrs. Sparsit,9,26,148,-0.005979585716427828,-0.004417879417879423,M,intermediate,F,major
+Bitzer,Stephen Blackpool,2,3,5,0.0,0.0,M,intermediate,M,major
+Bitzer,Thomas Gradgrind,9,7,52,-0.009523809523809509,-0.010989010989010976,M,intermediate,M,major
+Cecilia Jupe,Josiah Bounderby,8,6,32,0.00208333333333334,-0.010416666666666661,F,major,M,major
+Cecilia Jupe,Louisa Bounderby,9,35,234,0.00834397084397084,0.010866910866910865,F,major,F,major
+Cecilia Jupe,Mr. James Harthouse,9,17,80,-0.04166195097567648,-0.040441176470588244,F,major,M,major
+Cecilia Jupe,Mr. Sleary,3,2,6,0.0,0.0,F,major,M,intermediate
+Cecilia Jupe,Rachel Gradgrind,9,12,71,0.05026455026455027,0.05046948356807513,F,major,F,intermediate
+Cecilia Jupe,Thomas Gradgrind,9,22,98,-0.015480198813532155,-0.019944341372912816,F,major,M,major
+Cecilia Jupe,Young Thomas,9,2,18,0.0,0.0,F,major,M,major
+Jane,Louisa Bounderby,5,4,11,0.0,0.0,F,minor,F,major
+Josiah Bounderby,Cecilia Jupe,8,6,30,-0.06041666666666665,-0.061111111111111095,M,major,F,major
+Josiah Bounderby,Louisa Bounderby,8,8,51,0.013541666666666667,0.007352941176470589,M,major,F,major
+Josiah Bounderby,Master Kidderminster,1,2,2,0.0,0.0,M,major,M,minor
+Josiah Bounderby,Mr. E. W. B. Childers,7,5,22,0.028571428571428564,0.018181818181818177,M,major,M,intermediate
+Josiah Bounderby,Mr. James Harthouse,9,18,122,0.00583983917317249,0.006830601092896162,M,major,M,major
+Josiah Bounderby,Mrs. Sparsit,9,58,354,-0.02501287200814614,-0.021186440677966094,M,major,F,major
+Josiah Bounderby,Rachel Gradgrind,9,7,48,-0.047883597883597834,-0.04166666666666662,M,major,F,intermediate
+Josiah Bounderby,Stephen Blackpool,9,36,215,-0.04425993759327093,-0.04121447028423773,M,major,M,major
+Josiah Bounderby,The Old Woman,4,2,8,0.0,0.0,M,major,F,intermediate
+Josiah Bounderby,Thomas Gradgrind,9,42,243,-0.017191038230396003,-0.020968058005095047,M,major,M,major
+Josiah Bounderby,Young Thomas,9,6,31,-0.17962962962962964,-0.11827956989247311,M,major,M,major
+Louisa Bounderby,Cecilia Jupe,9,33,138,0.017354296508063256,0.0175669740887132,F,major,F,major
+Louisa Bounderby,Jane,6,5,21,-0.016666666666666673,-0.019047619047619053,F,major,F,minor
+Louisa Bounderby,Josiah Bounderby,9,7,41,0.027248677248677262,0.003484320557491304,F,major,M,major
+Louisa Bounderby,Mr. James Harthouse,9,26,102,0.04452228771114218,0.042609351432880825,F,major,M,major
+Louisa Bounderby,Mrs. Gradgrind,8,9,34,-0.024801587301587297,-0.02287581699346405,F,major,F,intermediate
+Louisa Bounderby,Mrs. Sparsit,5,2,10,0.0,0.0,F,major,F,major
+Louisa Bounderby,Rachel Gradgrind,9,10,60,-0.07156084656084656,-0.03333333333333333,F,major,F,intermediate
+Louisa Bounderby,Stephen Blackpool,3,4,10,0.0,0.0,F,major,M,major
+Louisa Bounderby,Thomas Gradgrind,9,53,258,-0.05652784126633844,-0.05141143776510164,F,major,M,major
+Louisa Bounderby,Young Thomas,9,39,203,-0.035083302181003355,-0.03902993558165975,F,major,M,major
+Master Kidderminster,Mr. E. W. B. Childers,7,4,20,-1.586032892321652e-17,-0.012500000000000011,M,minor,M,intermediate
+Master Kidderminster,Thomas Gradgrind,6,2,12,0.0,0.0,M,minor,M,major
+Mr. E. W. B. Childers,Josiah Bounderby,7,4,24,0.023809523809523798,0.020833333333333322,M,intermediate,M,major
+Mr. E. W. B. Childers,Master Kidderminster,1,2,2,0.0,0.0,M,intermediate,M,minor
+Mr. E. W. B. Childers,Thomas Gradgrind,9,11,81,-0.01919191919191919,-0.014590347923681255,M,intermediate,M,major
+Mr. James Harthouse,Cecilia Jupe,9,13,84,0.04150479150479148,0.03479853479853477,M,major,F,major
+Mr. James Harthouse,Josiah Bounderby,9,17,61,0.04202718124286754,0.04435872709739637,M,major,M,major
+Mr. James Harthouse,Louisa Bounderby,9,24,157,-0.00931474499585954,-0.007961783439490442,M,major,F,major
+Mr. James Harthouse,Mrs. Sparsit,9,18,97,-0.017107583774250455,-0.017182130584192448,M,major,F,major
+Mr. James Harthouse,The Waiter,1,2,2,0.0,0.0,M,major,M,minor
+Mr. James Harthouse,Young Thomas,9,37,146,-0.013681880348547048,-0.008700481303221059,M,major,M,major
+Mr. Sleary,Cecilia Jupe,9,4,25,-6.1679056923619804e-18,-4.440892098500626e-18,M,intermediate,F,major
+Mr. Sleary,Thomas Gradgrind,9,14,96,0.03358770858770858,0.03199404761904761,M,intermediate,M,major
+Mrs. Gradgrind,Josiah Bounderby,7,3,17,-0.07142857142857142,-0.0588235294117647,F,intermediate,M,major
+Mrs. Gradgrind,Louisa Bounderby,9,10,76,-0.016137566137566155,-0.010526315789473696,F,intermediate,F,major
+Mrs. Gradgrind,Thomas Gradgrind,7,2,14,0.0,0.0,F,intermediate,M,major
+Mrs. Sparsit,Bitzer,9,27,101,0.01007357381626388,0.019068573524019066,F,major,M,intermediate
+Mrs. Sparsit,Josiah Bounderby,9,58,293,0.013693695056011332,0.010180063551841818,F,major,M,major
+Mrs. Sparsit,Mr. James Harthouse,9,18,78,-0.06833906833906833,-0.049857549857549845,F,major,M,major
+Mrs. Sparsit,Young Thomas,8,8,40,0.04613095238095237,0.021874999999999988,F,major,M,major
+Rachel Gradgrind,Cecilia Jupe,9,14,93,-0.05351130351130352,-0.05069124423963134,F,intermediate,F,major
+Rachel Gradgrind,Josiah Bounderby,9,5,39,0.024074074074074064,0.020512820512820502,F,intermediate,M,major
+Rachel Gradgrind,Louisa Bounderby,9,9,53,0.04285714285714286,0.02725366876310272,F,intermediate,F,major
+Rachel Gradgrind,Stephen Blackpool,9,31,145,-0.0021201220125951336,-0.006229143492769749,F,intermediate,M,major
+Slackbridge,Stephen Blackpool,7,2,14,0.0,0.0,M,minor,M,major
+Stephen Blackpool,Josiah Bounderby,9,33,177,0.01830547187272335,0.014552302687895915,M,major,M,major
+Stephen Blackpool,Louisa Bounderby,8,6,25,-0.020833333333333325,-0.01333333333333333,M,major,F,major
+Stephen Blackpool,Mrs. Sparsit,5,2,10,0.0,0.0,M,major,F,major
+Stephen Blackpool,Rachel Gradgrind,9,27,105,0.03543051598607157,0.03809523809523811,M,major,F,intermediate
+Stephen Blackpool,The Old Woman,8,10,40,0.16726190476190478,0.14250000000000002,M,major,F,intermediate
+Stephen Blackpool,Young Thomas,4,4,8,0.0,0.0,M,major,M,major
+The Chairman,Stephen Blackpool,2,2,4,0.0,0.0,M,minor,M,major
+The Old Woman,Josiah Bounderby,7,2,14,0.0,0.0,F,intermediate,M,major
+The Old Woman,Stephen Blackpool,9,9,39,-0.13456790123456788,-0.10826210826210825,F,intermediate,M,major
+The Old Woman,Thomas Gradgrind,7,3,16,0.04761904761904763,0.04166666666666668,F,intermediate,M,major
+The Waiter,Mr. James Harthouse,1,2,2,0.0,0.0,M,minor,M,major
+Thomas Gradgrind,Bitzer,8,7,39,-0.015773809523809496,-0.021978021978021955,M,major,M,intermediate
+Thomas Gradgrind,Cecilia Jupe,9,20,122,0.01878310553491153,0.026639344262295098,M,major,F,major
+Thomas Gradgrind,Josiah Bounderby,9,46,256,0.012286397589450394,0.006368885869565219,M,major,M,major
+Thomas Gradgrind,Louisa Bounderby,9,52,263,-0.016464570015765505,-0.010383152968704281,M,major,F,major
+Thomas Gradgrind,Mr. E. W. B. Childers,7,8,31,0.09982993197278911,0.0564516129032258,M,major,M,intermediate
+Thomas Gradgrind,Mr. Sleary,9,14,63,0.024786324786324792,0.026077097505668934,M,major,M,intermediate
+Thomas Gradgrind,Mrs. Gradgrind,3,3,7,0.0,0.0,M,major,F,intermediate
+Thomas Gradgrind,The Old Woman,6,3,16,-0.055555555555555546,-0.04166666666666666,M,major,F,intermediate
+Thomas Gradgrind,Young Thomas,8,5,24,0.12708333333333333,0.11666666666666665,M,major,M,major
+Young Thomas,Cecilia Jupe,2,3,6,0.0,0.0,M,major,F,major
+Young Thomas,Josiah Bounderby,6,2,12,0.0,0.0,M,major,M,major
+Young Thomas,Louisa Bounderby,9,39,229,0.0420261898483314,0.041092822752211385,M,major,F,major
+Young Thomas,Mr. James Harthouse,9,41,243,-0.025620327451389147,-0.024289872528354912,M,major,M,major
+Young Thomas,Mrs. Sparsit,9,8,34,0.18611111111111112,0.16544117647058823,M,major,F,major
+Young Thomas,Stephen Blackpool,8,4,29,-0.0625,-0.05172413793103448,M,major,M,major
+Young Thomas,Thomas Gradgrind,3,2,6,0.0,0.0,M,major,M,major

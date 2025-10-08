@@ -1,0 +1,16 @@
+﻿a_speaker,b_speaker,family,n_pairs,n_triggers,n_b_positives_given_trigger,p1,p0,conv,a_gender,a_category,b_gender,b_category
+Antonida Vassilievna Tarassevitcha,Alexis Ivanovitch,auxiliary_verbs,6,6,5,0.8333333333333334,0.8333333333333334,0.0,F,major,M,major
+Antonida Vassilievna Tarassevitcha,Alexis Ivanovitch,negations,6,6,3,0.5,0.5,0.0,F,major,M,major
+Antonida Vassilievna Tarassevitcha,Alexis Ivanovitch,personal_pronouns,6,6,5,0.8333333333333334,0.8333333333333334,0.0,F,major,M,major
+Antonida Vassilievna Tarassevitcha,Alexis Ivanovitch,prepositions,6,6,4,0.6666666666666666,0.6666666666666666,0.0,F,major,M,major
+Polina Alexandrovna,Alexis Ivanovitch,auxiliary_verbs,5,5,4,0.8,0.8,0.0,F,major,M,major
+Polina Alexandrovna,Alexis Ivanovitch,personal_pronouns,5,5,5,1.0,1.0,0.0,F,major,M,major
+The General,Alexis Ivanovitch,adverbs,9,7,5,0.7142857142857143,0.7777777777777778,-0.06349206349206349,M,intermediate,M,major
+The General,Alexis Ivanovitch,articles,9,7,5,0.7142857142857143,0.6666666666666666,0.04761904761904767,M,intermediate,M,major
+The General,Alexis Ivanovitch,auxiliary_verbs,9,7,6,0.8571428571428571,0.8888888888888888,-0.031746031746031744,M,intermediate,M,major
+The General,Alexis Ivanovitch,conjunctions,9,7,5,0.7142857142857143,0.7777777777777778,-0.06349206349206349,M,intermediate,M,major
+The General,Alexis Ivanovitch,impersonal_pronouns,9,6,4,0.6666666666666666,0.6666666666666666,0.0,M,intermediate,M,major
+The General,Alexis Ivanovitch,negations,9,6,3,0.5,0.4444444444444444,0.05555555555555558,M,intermediate,M,major
+The General,Alexis Ivanovitch,personal_pronouns,9,7,6,0.8571428571428571,0.8888888888888888,-0.031746031746031744,M,intermediate,M,major
+The General,Alexis Ivanovitch,prepositions,9,7,6,0.8571428571428571,0.8888888888888888,-0.031746031746031744,M,intermediate,M,major
+The General,Alexis Ivanovitch,quantifiers,9,6,3,0.5,0.4444444444444444,0.05555555555555558,M,intermediate,M,major

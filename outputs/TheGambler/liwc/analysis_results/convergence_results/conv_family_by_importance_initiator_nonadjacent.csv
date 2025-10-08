@@ -1,0 +1,14 @@
+﻿family,importance,mean_conv
+adverbs,intermediate,-0.06349206349206349
+articles,intermediate,0.04761904761904767
+auxiliary_verbs,intermediate,-0.031746031746031744
+auxiliary_verbs,major,0.0
+conjunctions,intermediate,-0.06349206349206349
+impersonal_pronouns,intermediate,0.0
+negations,intermediate,0.05555555555555558
+negations,major,0.0
+personal_pronouns,intermediate,-0.031746031746031744
+personal_pronouns,major,0.0
+prepositions,intermediate,-0.031746031746031744
+prepositions,major,0.0
+quantifiers,intermediate,0.05555555555555558

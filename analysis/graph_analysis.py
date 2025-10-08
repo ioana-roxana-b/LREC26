@@ -290,21 +290,24 @@ def plot_graph(
     if G.number_of_nodes() == 0:
         return
 
+    # normalize node labels (trim excess whitespace)
     G = nx.relabel_nodes(G, lambda n: " ".join(str(n).split()))
 
+    # node size ~ outgoing strength (sum of |weights|)
     out_strength = {n: 0.0 for n in G.nodes()}
     for u, v, d in G.edges(data=True):
-        w = float(d.get(weight_attr, 0.0))
-        out_strength[u] += abs(w)
+        out_strength[u] += abs(float(d.get(weight_attr, 0.0)))
 
+    # positions
     k = 1.1 if G.number_of_nodes() <= 40 else 1.3
     pos = nx.spring_layout(G, seed=7, k=k, iterations=100)
 
-    # Colorblind friendly palette
+    # node colors (Okabe–Ito subset)
     attr_values = nx.get_node_attributes(G, color_attr)
-    palette = {"F": "#CC79A7", "M": "#0072B2", "U": "#999999"}  # magenta, blue, grey
-    node_colors = [palette.get(attr_values.get(n, "U"), "#999999") for n in G.nodes()]
+    palette_nodes = {"F": "#CC79A7", "M": "#0072B2"}
+    node_colors = [palette_nodes.get(attr_values.get(n, "U"), "#999999") for n in G.nodes()]
 
+    # node sizes
     def size_for(n: str) -> float:
         return 240.0 + 260.0 * np.sqrt(max(out_strength.get(n, 0.0), 0.0))
 
@@ -313,8 +316,7 @@ def plot_graph(
     fig, ax = plt.subplots(figsize=figsize)
 
     nx.draw_networkx_nodes(
-        G,
-        pos,
+        G, pos,
         node_color=node_colors,
         node_size=list(node_sizes.values()),
         edgecolors="#4D4D4D",
@@ -322,12 +324,19 @@ def plot_graph(
         ax=ax,
     )
 
+    # helpers for arrows
     def shrink_pts(n: str) -> float:
         return 0.62 * np.sqrt(node_sizes[n])
 
     def edge_width(w: float) -> float:
+        # cap width growth at |w|≈0.15
         return 0.6 + 3.0 * min(abs(w), 0.15) / 0.15
 
+    # distinct colors per direction
+    color_ab = "#0072B2"   # blue for A→B
+    color_ba = "#E69F00"   # orange for B→A
+
+    # draw each unordered pair once, with two curved arrows if reciprocal
     drawn_pairs = set()
     for u, v, d in G.edges(data=True):
         pair = tuple(sorted((u, v)))
@@ -338,63 +347,85 @@ def plot_graph(
         has_uv = G.has_edge(u, v)
         has_vu = G.has_edge(v, u)
 
+        # separate directions clearly
+        rad_uv = +0.28 if has_vu else 0.00
+        rad_vu = -0.28
+
         if has_uv:
             w_uv = float(G[u][v].get(weight_attr, 0.0))
             a = FancyArrowPatch(
                 pos[u], pos[v],
                 arrowstyle="-|>",
-                mutation_scale=10,
+                mutation_scale=11,
                 shrinkA=shrink_pts(u),
                 shrinkB=shrink_pts(v),
-                connectionstyle=f"arc3,rad={0.18 if has_vu else 0.0}",
+                connectionstyle=f"arc3,rad={rad_uv}",
                 lw=edge_width(w_uv),
-                color="#6E6E6E",
+                color=color_ab,
                 alpha=0.95,
+                zorder=1.5,
             )
+            # dashed if negative (divergence)
+            if w_uv < 0:
+                a.set_linestyle((0, (2, 2)))
+            # subtle white halo for readability
+            import matplotlib.patheffects as pe
+            a.set_path_effects([pe.Stroke(linewidth=a.get_linewidth()+0.8, foreground="white"), pe.Normal()])
             ax.add_patch(a)
+
         if has_vu:
             w_vu = float(G[v][u].get(weight_attr, 0.0))
             b = FancyArrowPatch(
                 pos[v], pos[u],
                 arrowstyle="-|>",
-                mutation_scale=10,
+                mutation_scale=11,
                 shrinkA=shrink_pts(v),
                 shrinkB=shrink_pts(u),
-                connectionstyle="arc3,rad=-0.18",
+                connectionstyle=f"arc3,rad={rad_vu}",
                 lw=edge_width(w_vu),
-                color="#6E6E6E",
+                color=color_ba,
                 alpha=0.95,
+                zorder=1.4,
             )
+            if w_vu < 0:
+                b.set_linestyle((0, (2, 2)))
+            import matplotlib.patheffects as pe
+            b.set_path_effects([pe.Stroke(linewidth=b.get_linewidth()+0.8, foreground="white"), pe.Normal()])
             ax.add_patch(b)
 
+    # labels
     if show_labels:
         label_pos = {n: (x, y + 0.02) for n, (x, y) in pos.items()}
-        labels = {n: n for n in G.nodes()}
         nx.draw_networkx_labels(
-            G,
-            label_pos,
-            labels=labels,
+            G, label_pos,
+            labels={n: n for n in G.nodes()},
             font_size=font_size,
             font_color="black",
             ax=ax,
             bbox=dict(boxstyle="round,pad=0.18", fc="white", ec="#BFBFBF", alpha=0.75),
         )
 
-    # Legend
-    if attr_values:
-        from matplotlib.lines import Line2D
-        keys = ["F", "M", "U"]
-        handles = [Line2D([0], [0], marker="o", linestyle="", markersize=8,
-                          markerfacecolor=palette[k], markeredgecolor="#4D4D4D", label=k)
-                   for k in keys if k in set(attr_values.values()) or k == "U"]
-        if handles:
-            ax.legend(handles=handles, title=color_attr, loc="upper left", frameon=False)
+    # legends: nodes + edge directions
+    from matplotlib.lines import Line2D
+    handles_nodes = [
+        Line2D([0], [0], marker="o", linestyle="", markersize=8,
+               markerfacecolor=palette_nodes[k], markeredgecolor="#4D4D4D", label=k)
+        for k in ["F", "M"] if k in set(attr_values.values()) or k == "U"
+    ]
+    handles_edges = [
+        Line2D([0], [0], color=color_ab, lw=2.5, label="A → B"),
+        Line2D([0], [0], color=color_ba, lw=2.5, label="B → A"),
+        Line2D([0], [0], color="#4D4D4D", lw=2.0, linestyle=(0, (2, 2)), label="negative (divergence)"),
+    ]
+    if handles_nodes:
+        leg1 = ax.legend(handles=handles_nodes, title=color_attr, loc="upper left", frameon=False)
+        ax.add_artist(leg1)
+    ax.legend(handles=handles_edges, title="edge direction", loc="upper right", frameon=False)
 
     ax.set_axis_off()
     fig.tight_layout()
     fig.savefig(out_png, bbox_inches="tight", dpi=220)
     plt.close(fig)
-
 
 def run_graph_analysis(
     in_dir: Path,
@@ -536,6 +567,96 @@ def run_graph_analysis(
         counts = comm["community_id"].value_counts().sort_index()
         lines.append(f"communities_detected {k}")
         lines.append("community_sizes " + ", ".join(f"{cid}:{cnt}" for cid, cnt in counts.items()))
+
+    ew = edges["weight_work"].to_numpy()
+    mean_w = float(np.nanmean(ew)) if ew.size else np.nan
+    pos_share = float(np.mean(ew > 0)) if ew.size else np.nan
+    neg_share = float(np.mean(ew < 0)) if ew.size else np.nan
+
+    w_abs = np.abs(ew[np.isfinite(ew)])
+    if w_abs.size == 0:
+        edge_weight_gini = np.nan
+    else:
+        x = np.sort(w_abs)
+        cum = np.cumsum(x)
+        edge_weight_gini = 1.0 - 2.0 * np.sum(cum) / (x.sum() * (x.size)) + 1.0 / x.size
+
+    share_both_pos = share_both_neg = asymm_mean = np.nan
+    if not paired.empty:
+        wa = paired["w_ab"].to_numpy()
+        wb = paired["w_ba"].to_numpy()
+        both_pos = (wa > 0) & (wb > 0)
+        both_neg = (wa < 0) & (wb < 0)
+        share_both_pos = float(np.mean(both_pos))
+        share_both_neg = float(np.mean(both_neg))
+        denom = np.abs(wa) + np.abs(wb)
+        asymm = np.abs(wa - wb) / np.where(denom > 0, denom, np.nan)
+        asymm_mean = float(np.nanmean(asymm))
+
+    out_strength = {n: 0.0 for n in G.nodes()}
+    for u, v, d in G.edges(data=True):
+        out_strength[u] += abs(float(d.get("weight", 0.0)))
+    svals = np.asarray(list(out_strength.values()), float)
+    if svals.size == 0:
+        out_strength_gini = np.nan
+        top10_share = np.nan
+    else:
+        xs = np.sort(svals)
+        cum = np.cumsum(xs)
+        out_strength_gini = 1.0 - 2.0 * np.sum(cum) / (xs.sum() * xs.size) + 1.0 / xs.size
+        k = max(1, int(np.ceil(0.10 * xs.size)))
+        top10_share = float(np.sum(xs[-k:]) / xs.sum()) if xs.sum() > 0 else np.nan
+
+    if G.number_of_nodes() > 0 and G.number_of_edges() > 0:
+        H = nx.DiGraph()
+        H.add_nodes_from(G.nodes())
+        for u, v, d in G.edges(data=True):
+            w = abs(float(d.get("weight", 0.0)))
+            if w > 0:
+                H.add_edge(u, v, weight=w)
+        pr = nx.pagerank(H, weight="weight") if H.number_of_edges() > 0 else {n: 1.0/len(H) for n in H}
+        p = np.asarray(list(pr.values()), float)
+        p = p / p.sum() if p.sum() > 0 else p
+        ent = -np.sum(np.where(p > 0, p * np.log(p), 0.0))
+        pagerank_entropy = float(ent / np.log(len(p))) if len(p) > 1 else np.nan  # normalize to [0,1]
+    else:
+        pagerank_entropy = np.nan
+
+    try:
+        UGw = nx.Graph()
+        for u, v, d in G.edges(data=True):
+            w = abs(float(d.get("weight", 0.0)))
+            if w > 0:
+                if UGw.has_edge(u, v):
+                    UGw[u][v]["weight"] += w
+                else:
+                    UGw.add_edge(u, v, weight=w)
+        if UGw.number_of_edges() > 0:
+            from networkx.algorithms import community
+            parts = community.greedy_modularity_communities(UGw, weight="weight")
+            partition = {n: i for i, S in enumerate(parts) for n in S}
+            modularity_Q = community.modularity(UGw, parts, weight="weight")
+            n_comms_Q = len(parts)
+        else:
+            modularity_Q = np.nan
+            n_comms_Q = 0
+    except Exception:
+        modularity_Q = np.nan
+        n_comms_Q = 0
+
+    lines.append(f"mean_edge_weight {mean_w:.4f}" if np.isfinite(mean_w) else "mean_edge_weight NA")
+    lines.append(f"pos_share {pos_share:.4f}" if np.isfinite(pos_share) else "pos_share NA")
+    lines.append(f"neg_share {neg_share:.4f}" if np.isfinite(neg_share) else "neg_share NA")
+    lines.append(f"edge_weight_gini {edge_weight_gini:.4f}" if np.isfinite(edge_weight_gini) else "edge_weight_gini NA")
+    lines.append(f"reciprocity_both_positive {share_both_pos:.4f}" if np.isfinite(share_both_pos) else "reciprocity_both_positive NA")
+    lines.append(f"reciprocity_both_negative {share_both_neg:.4f}" if np.isfinite(share_both_neg) else "reciprocity_both_negative NA")
+    lines.append(f"asymmetry_index_mean {asymm_mean:.4f}" if np.isfinite(asymm_mean) else "asymmetry_index_mean NA")
+    lines.append(f"out_strength_gini {out_strength_gini:.4f}" if np.isfinite(out_strength_gini) else "out_strength_gini NA")
+    lines.append(f"top10pct_strength_share {top10_share:.4f}" if np.isfinite(top10_share) else "top10pct_strength_share NA")
+    lines.append(f"pagerank_entropy {pagerank_entropy:.4f}" if np.isfinite(pagerank_entropy) else "pagerank_entropy NA")
+    lines.append(f"modularity_Q {modularity_Q:.4f}" if np.isfinite(modularity_Q) else "modularity_Q NA")
+    lines.append(f"modularity_communities {n_comms_Q}")
+
 
     (out_dir / "graph_summary.txt").write_text("\n".join(lines), encoding="utf-8")
     print(f"[graph] Results saved → {out_dir}")

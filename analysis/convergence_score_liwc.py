@@ -156,36 +156,123 @@ def compute_convergence_local(
 def run_for_condition_convergence(
     pairs_with_liwc_csv: Path,
     out_dir: Path,
-    label: str,
+    label: str,   # "adjacent" | "nonadjacent" | "randomized"
     min_support: int = 10,
     min_resp_support: Optional[int] = None,
 ) -> None:
     """
-    Compute convergence for one condition and write standard filenames based on that condition.
+    Compute convergence for one condition, write standard conv files, and also
+    emit summaries split by gender/importance (family-level) and two-mode edge tables.
 
-    Params:
-        pairs_with_liwc_csv: Input CSV with merged LIWC flags for this condition.
-        out_dir: Output folder where the result files will be written.
-        label: Condition label. Use adjacent or nonadjacent or randomized.
-        min_support: Minimum number of A triggers within a dyad required to include that family.
-        min_resp_support: Optional minimum number of B positives within the triggered set required to keep a row.
-
-    Returns:
-        None. Writes the per pair per family CSV and the per edge summary CSV for the given condition.
+    Writes:
+      conv_by_pair_feature_liwc{_*}.csv
+      conv_edge_summary_liwc{_*}.csv
+      conv_family_by_gender_responder_{label}.csv
+      conv_family_by_gender_initiator_{label}.csv
+      conv_family_by_importance_responder_{label}.csv
+      conv_family_by_importance_initiator_{label}.csv
+      edge_mean_by_gender_{label}.csv
+      edge_mean_by_category_{label}.csv
     """
+    out_dir.mkdir(parents=True, exist_ok=True)
+
     if label == "adjacent":
         conv_by_pair = out_dir / "conv_by_pair_feature_liwc.csv"
-        conv_edge = out_dir / "conv_edge_summary_liwc.csv"
+        conv_edge    = out_dir / "conv_edge_summary_liwc.csv"
     elif label in {"nonadjacent", "randomized"}:
         conv_by_pair = out_dir / f"conv_by_pair_feature_liwc_{label}.csv"
-        conv_edge = out_dir / f"conv_edge_summary_liwc_{label}.csv"
+        conv_edge    = out_dir / f"conv_edge_summary_liwc_{label}.csv"
     else:
-        raise ValueError("label must be one of adjacent nonadjacent randomized")
+        raise ValueError("label must be one of: 'adjacent', 'nonadjacent', 'randomized'")
 
-    compute_convergence_local(
+    conv_pf, edges = compute_convergence_local(
         pairs_with_liwc_csv=pairs_with_liwc_csv,
         out_conv_pair_feature=conv_by_pair,
         out_conv_edge=conv_edge,
         min_support=min_support,
         min_resp_support=min_resp_support,
     )
+
+    if conv_pf is None or conv_pf.empty or edges is None or edges.empty:
+        return
+
+    # GENDER: responder (B) and initiator (A)
+    if "b_gender" in conv_pf.columns:
+        (conv_pf.groupby(["family", "b_gender"])["conv"]
+               .mean()
+               .reset_index()
+               .rename(columns={"b_gender": "gender", "conv": "mean_conv"})
+               .to_csv(out_dir / f"conv_family_by_gender_responder_{label}.csv",
+                       index=False, encoding="utf-8-sig"))
+
+    if "a_gender" in conv_pf.columns:
+        (conv_pf.groupby(["family", "a_gender"])["conv"]
+               .mean()
+               .reset_index()
+               .rename(columns={"a_gender": "gender", "conv": "mean_conv"})
+               .to_csv(out_dir / f"conv_family_by_gender_initiator_{label}.csv",
+                       index=False, encoding="utf-8-sig"))
+
+    if "b_category" in conv_pf.columns:
+        (conv_pf.groupby(["family", "b_category"])["conv"]
+               .mean()
+               .reset_index()
+               .rename(columns={"b_category": "importance", "conv": "mean_conv"})
+               .to_csv(out_dir / f"conv_family_by_importance_responder_{label}.csv",
+                       index=False, encoding="utf-8-sig"))
+
+    if "a_category" in conv_pf.columns:
+        (conv_pf.groupby(["family", "a_category"])["conv"]
+               .mean()
+               .reset_index()
+               .rename(columns={"a_category": "importance", "conv": "mean_conv"})
+               .to_csv(out_dir / f"conv_family_by_importance_initiator_{label}.csv",
+                       index=False, encoding="utf-8-sig"))
+
+    weight_col = "mean_conv_w" if "mean_conv_w" in edges.columns else (
+        "mean_conv" if "mean_conv" in edges.columns else None
+    )
+
+    if weight_col is not None:
+
+        # ---------- (A_gender, B_gender) ----------
+        if {"a_gender", "b_gender"}.issubset(edges.columns):
+            gtab = edges.copy()
+            gtab["a_gender"] = gtab["a_gender"].astype(str).str.strip().str.upper()
+            gtab["b_gender"] = gtab["b_gender"].astype(str).str.strip().str.upper()
+
+            # keep only F/M
+            mask_g = (gtab["a_gender"].isin(["F", "M"])) & (gtab["b_gender"].isin(["F", "M"]))
+            gtab = gtab.loc[mask_g].copy()
+
+            if not gtab.empty:
+                (gtab.groupby(["a_gender", "b_gender"])[weight_col]
+                 .agg(mean_weight="mean", count="size")
+                 .reset_index()
+                 .to_csv(out_dir / f"edge_mean_by_gender_{label}.csv",
+                         index=False, encoding="utf-8-sig"))
+
+        # ---------- (A_category, B_category) ----------
+        if {"a_category", "b_category"}.issubset(edges.columns):
+            ctab = edges.copy()
+            ctab["a_category"] = ctab["a_category"].astype(str).str.strip().str.lower()
+            ctab["b_category"] = ctab["b_category"].astype(str).str.strip().str.lower()
+
+            # normalize a few common aliases (optional)
+            norm = {"maj": "major", "main": "major", "primary": "major",
+                    "int": "intermediate", "mid": "intermediate",
+                    "min": "minor"}
+            ctab["a_category"] = ctab["a_category"].replace(norm)
+            ctab["b_category"] = ctab["b_category"].replace(norm)
+
+            # drop blanks/NaNs
+            mask_c = (ctab["a_category"] != "") & (ctab["b_category"] != "") \
+                     & ctab["a_category"].notna() & ctab["b_category"].notna()
+            ctab = ctab.loc[mask_c].copy()
+
+            if not ctab.empty:
+                (ctab.groupby(["a_category", "b_category"])[weight_col]
+                 .agg(mean_weight="mean", count="size")
+                 .reset_index()
+                 .to_csv(out_dir / f"edge_mean_by_category_{label}.csv",
+                         index=False, encoding="utf-8-sig"))

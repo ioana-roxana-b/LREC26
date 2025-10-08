@@ -2,20 +2,20 @@
 set -euo pipefail
 
 # Mode: spacy | liwc
-MODE="${MODE:-spacy}"
+MODE="${MODE:-liwc}"
 
 # List of PDNC novel directories
 
 # Jane Austen
-NOVELS=(
-  "project-dialogism-novel-corpus/data/Emma"
-  "project-dialogism-novel-corpus/data/MansfieldPark"
-  "project-dialogism-novel-corpus/data/NorthangerAbbey"
-  "project-dialogism-novel-corpus/data/Persuasion"
-  "project-dialogism-novel-corpus/data/PrideAndPrejudice"
-  "project-dialogism-novel-corpus/data/SenseAndSensibility"
-)
-CORPUS_NAME="austen_corpus"
+#NOVELS=(
+#  "project-dialogism-novel-corpus/data/Emma"
+#  "project-dialogism-novel-corpus/data/MansfieldPark"
+#  "project-dialogism-novel-corpus/data/NorthangerAbbey"
+#  "project-dialogism-novel-corpus/data/Persuasion"
+#  "project-dialogism-novel-corpus/data/PrideAndPrejudice"
+#  "project-dialogism-novel-corpus/data/SenseAndSensibility"
+#)
+#CORPUS_NAME="austen_corpus"
 
 # Edward Morgan Forster
 #NOVELS=(
@@ -25,6 +25,12 @@ CORPUS_NAME="austen_corpus"
 #  "project-dialogism-novel-corpus/data/WhereAngelsFearToTread"
 #)
 #CORPUS_NAME=forster_corpus
+
+NOVELS=(
+  "project-dialogism-novel-corpus/data/HardTimes"
+  "project-dialogism-novel-corpus/data/OliverTwist"
+)
+CORPUS_NAME=dickens_corpus
 
 # Output directory for the combined corpus
 OUT_DIR="${OUT_DIR:-outputs/${CORPUS_NAME}/${MODE}}"

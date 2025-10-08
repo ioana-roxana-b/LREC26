@@ -1,0 +1,152 @@
+﻿a_speaker,b_speaker,family,n_pairs,n_triggers,n_b_positives_given_trigger,p1,p0,conv,a_gender,a_category,b_gender,b_category
+Alexis Ivanovitch,Antonida Vassilievna Tarassevitcha,adverbs,51,25,19,0.76,0.8235294117647058,-0.06352941176470583,M,major,F,major
+Alexis Ivanovitch,Antonida Vassilievna Tarassevitcha,articles,51,30,16,0.5333333333333333,0.6078431372549019,-0.07450980392156858,M,major,F,major
+Alexis Ivanovitch,Antonida Vassilievna Tarassevitcha,auxiliary_verbs,51,35,30,0.8571428571428571,0.8627450980392157,-0.0056022408963586345,M,major,F,major
+Alexis Ivanovitch,Antonida Vassilievna Tarassevitcha,conjunctions,51,26,19,0.7307692307692307,0.7647058823529411,-0.0339366515837104,M,major,F,major
+Alexis Ivanovitch,Antonida Vassilievna Tarassevitcha,impersonal_pronouns,51,17,12,0.7058823529411765,0.6666666666666666,0.03921568627450989,M,major,F,major
+Alexis Ivanovitch,Antonida Vassilievna Tarassevitcha,negations,51,17,6,0.35294117647058826,0.5294117647058824,-0.1764705882352941,M,major,F,major
+Alexis Ivanovitch,Antonida Vassilievna Tarassevitcha,personal_pronouns,51,35,30,0.8571428571428571,0.8627450980392157,-0.0056022408963586345,M,major,F,major
+Alexis Ivanovitch,Antonida Vassilievna Tarassevitcha,prepositions,51,35,27,0.7714285714285715,0.7450980392156863,0.02633053221288517,M,major,F,major
+Alexis Ivanovitch,Antonida Vassilievna Tarassevitcha,quantifiers,51,24,7,0.2916666666666667,0.39215686274509803,-0.10049019607843135,M,major,F,major
+Alexis Ivanovitch,Marqis De Griers,adverbs,19,13,8,0.6153846153846154,0.7368421052631579,-0.12145748987854244,M,major,M,intermediate
+Alexis Ivanovitch,Marqis De Griers,articles,19,13,9,0.6923076923076923,0.7368421052631579,-0.04453441295546556,M,major,M,intermediate
+Alexis Ivanovitch,Marqis De Griers,auxiliary_verbs,19,16,12,0.75,0.7894736842105263,-0.03947368421052633,M,major,M,intermediate
+Alexis Ivanovitch,Marqis De Griers,conjunctions,19,14,6,0.42857142857142855,0.5789473684210527,-0.1503759398496241,M,major,M,intermediate
+Alexis Ivanovitch,Marqis De Griers,impersonal_pronouns,19,15,8,0.5333333333333333,0.5789473684210527,-0.04561403508771933,M,major,M,intermediate
+Alexis Ivanovitch,Marqis De Griers,negations,19,11,4,0.36363636363636365,0.47368421052631576,-0.11004784688995212,M,major,M,intermediate
+Alexis Ivanovitch,Marqis De Griers,personal_pronouns,19,18,12,0.6666666666666666,0.6842105263157895,-0.01754385964912286,M,major,M,intermediate
+Alexis Ivanovitch,Marqis De Griers,prepositions,19,17,14,0.8235294117647058,0.8421052631578947,-0.018575851393188847,M,major,M,intermediate
+Alexis Ivanovitch,Marqis De Griers,quantifiers,19,11,4,0.36363636363636365,0.47368421052631576,-0.11004784688995212,M,major,M,intermediate
+Alexis Ivanovitch,Mlle. Blanche,adverbs,16,6,5,0.8333333333333334,0.8125,0.02083333333333337,M,major,F,intermediate
+Alexis Ivanovitch,Mlle. Blanche,articles,16,9,4,0.4444444444444444,0.4375,0.00694444444444442,M,major,F,intermediate
+Alexis Ivanovitch,Mlle. Blanche,auxiliary_verbs,16,9,7,0.7777777777777778,0.8125,-0.03472222222222221,M,major,F,intermediate
+Alexis Ivanovitch,Mlle. Blanche,conjunctions,16,8,6,0.75,0.6875,0.0625,M,major,F,intermediate
+Alexis Ivanovitch,Mlle. Blanche,impersonal_pronouns,16,10,4,0.4,0.625,-0.22499999999999998,M,major,F,intermediate
+Alexis Ivanovitch,Mlle. Blanche,negations,16,6,3,0.5,0.5625,-0.0625,M,major,F,intermediate
+Alexis Ivanovitch,Mlle. Blanche,personal_pronouns,16,10,8,0.8,0.8125,-0.012499999999999956,M,major,F,intermediate
+Alexis Ivanovitch,Mlle. Blanche,prepositions,16,9,6,0.6666666666666666,0.75,-0.08333333333333337,M,major,F,intermediate
+Alexis Ivanovitch,Mlle. Blanche,quantifiers,16,9,4,0.4444444444444444,0.5625,-0.11805555555555558,M,major,F,intermediate
+Alexis Ivanovitch,Mr. Astley,adverbs,56,39,28,0.717948717948718,0.7678571428571429,-0.04990842490842495,M,major,M,intermediate
+Alexis Ivanovitch,Mr. Astley,articles,56,28,14,0.5,0.6071428571428571,-0.1071428571428571,M,major,M,intermediate
+Alexis Ivanovitch,Mr. Astley,auxiliary_verbs,56,41,33,0.8048780487804879,0.8392857142857143,-0.03440766550522645,M,major,M,intermediate
+Alexis Ivanovitch,Mr. Astley,conjunctions,56,35,25,0.7142857142857143,0.7678571428571429,-0.0535714285714286,M,major,M,intermediate
+Alexis Ivanovitch,Mr. Astley,impersonal_pronouns,56,36,26,0.7222222222222222,0.6964285714285714,0.025793650793650813,M,major,M,intermediate
+Alexis Ivanovitch,Mr. Astley,negations,56,24,10,0.4166666666666667,0.5178571428571429,-0.10119047619047622,M,major,M,intermediate
+Alexis Ivanovitch,Mr. Astley,personal_pronouns,56,47,44,0.9361702127659575,0.9464285714285714,-0.010258358662613931,M,major,M,intermediate
+Alexis Ivanovitch,Mr. Astley,prepositions,56,42,37,0.8809523809523809,0.8928571428571429,-0.011904761904761973,M,major,M,intermediate
+Alexis Ivanovitch,Mr. Astley,quantifiers,56,24,13,0.5416666666666666,0.5,0.04166666666666663,M,major,M,intermediate
+Alexis Ivanovitch,Polina Alexandrovna,adverbs,59,46,33,0.717391304347826,0.6949152542372882,0.022476050110537882,M,major,F,major
+Alexis Ivanovitch,Polina Alexandrovna,articles,59,38,20,0.5263157894736842,0.5084745762711864,0.017841213202497763,M,major,F,major
+Alexis Ivanovitch,Polina Alexandrovna,auxiliary_verbs,59,51,47,0.9215686274509803,0.8983050847457628,0.023263542705217577,M,major,F,major
+Alexis Ivanovitch,Polina Alexandrovna,conjunctions,59,41,31,0.7560975609756098,0.7627118644067796,-0.006614303431169866,M,major,F,major
+Alexis Ivanovitch,Polina Alexandrovna,impersonal_pronouns,59,39,26,0.6666666666666666,0.6440677966101694,0.02259887005649719,M,major,F,major
+Alexis Ivanovitch,Polina Alexandrovna,negations,59,25,13,0.52,0.4915254237288136,0.028474576271186436,M,major,F,major
+Alexis Ivanovitch,Polina Alexandrovna,personal_pronouns,59,52,46,0.8846153846153846,0.8813559322033898,0.0032594524119947677,M,major,F,major
+Alexis Ivanovitch,Polina Alexandrovna,prepositions,59,47,38,0.8085106382978723,0.7796610169491526,0.02884962134871971,M,major,F,major
+Alexis Ivanovitch,Polina Alexandrovna,quantifiers,59,25,12,0.48,0.4406779661016949,0.039322033898305075,M,major,F,major
+Alexis Ivanovitch,The General,adverbs,17,13,11,0.8461538461538461,0.7058823529411765,0.14027149321266963,M,major,M,intermediate
+Alexis Ivanovitch,The General,articles,17,11,7,0.6363636363636364,0.5882352941176471,0.048128342245989275,M,major,M,intermediate
+Alexis Ivanovitch,The General,auxiliary_verbs,17,17,11,0.6470588235294118,0.6470588235294118,0.0,M,major,M,intermediate
+Alexis Ivanovitch,The General,conjunctions,17,15,10,0.6666666666666666,0.6470588235294118,0.019607843137254832,M,major,M,intermediate
+Alexis Ivanovitch,The General,impersonal_pronouns,17,12,10,0.8333333333333334,0.8235294117647058,0.009803921568627527,M,major,M,intermediate
+Alexis Ivanovitch,The General,negations,17,7,3,0.42857142857142855,0.4117647058823529,0.016806722689075626,M,major,M,intermediate
+Alexis Ivanovitch,The General,personal_pronouns,17,17,13,0.7647058823529411,0.7647058823529411,0.0,M,major,M,intermediate
+Alexis Ivanovitch,The General,prepositions,17,14,12,0.8571428571428571,0.8235294117647058,0.03361344537815125,M,major,M,intermediate
+Alexis Ivanovitch,The General,quantifiers,17,8,4,0.5,0.47058823529411764,0.02941176470588236,M,major,M,intermediate
+Antonida Vassilievna Tarassevitcha,Alexis Ivanovitch,adverbs,59,49,26,0.5306122448979592,0.559322033898305,-0.02870978900034582,F,major,M,major
+Antonida Vassilievna Tarassevitcha,Alexis Ivanovitch,articles,59,38,21,0.5526315789473685,0.6271186440677966,-0.07448706512042813,F,major,M,major
+Antonida Vassilievna Tarassevitcha,Alexis Ivanovitch,auxiliary_verbs,59,50,37,0.74,0.7288135593220338,0.011186440677966147,F,major,M,major
+Antonida Vassilievna Tarassevitcha,Alexis Ivanovitch,conjunctions,59,44,25,0.5681818181818182,0.559322033898305,0.008859784283513195,F,major,M,major
+Antonida Vassilievna Tarassevitcha,Alexis Ivanovitch,impersonal_pronouns,59,39,18,0.46153846153846156,0.423728813559322,0.03780964797913955,F,major,M,major
+Antonida Vassilievna Tarassevitcha,Alexis Ivanovitch,negations,59,28,10,0.35714285714285715,0.3389830508474576,0.01815980629539954,F,major,M,major
+Antonida Vassilievna Tarassevitcha,Alexis Ivanovitch,personal_pronouns,59,50,34,0.68,0.711864406779661,-0.03186440677966096,F,major,M,major
+Antonida Vassilievna Tarassevitcha,Alexis Ivanovitch,prepositions,59,45,30,0.6666666666666666,0.7288135593220338,-0.062146892655367214,F,major,M,major
+Antonida Vassilievna Tarassevitcha,Alexis Ivanovitch,quantifiers,59,31,17,0.5483870967741935,0.5254237288135594,0.02296336796063414,F,major,M,major
+Antonida Vassilievna Tarassevitcha,Marqis De Griers,adverbs,6,6,0,0.0,0.0,0.0,F,major,M,intermediate
+Antonida Vassilievna Tarassevitcha,Marqis De Griers,auxiliary_verbs,6,5,0,0.0,0.0,0.0,F,major,M,intermediate
+Antonida Vassilievna Tarassevitcha,Marqis De Griers,conjunctions,6,5,0,0.0,0.0,0.0,F,major,M,intermediate
+Antonida Vassilievna Tarassevitcha,Marqis De Griers,impersonal_pronouns,6,5,0,0.0,0.0,0.0,F,major,M,intermediate
+Antonida Vassilievna Tarassevitcha,Marqis De Griers,personal_pronouns,6,6,0,0.0,0.0,0.0,F,major,M,intermediate
+Antonida Vassilievna Tarassevitcha,Marqis De Griers,prepositions,6,6,0,0.0,0.0,0.0,F,major,M,intermediate
+Antonida Vassilievna Tarassevitcha,Polina Alexandrovna,adverbs,13,10,7,0.7,0.6153846153846154,0.08461538461538454,F,major,F,major
+Antonida Vassilievna Tarassevitcha,Polina Alexandrovna,articles,13,9,5,0.5555555555555556,0.6153846153846154,-0.05982905982905984,F,major,F,major
+Antonida Vassilievna Tarassevitcha,Polina Alexandrovna,auxiliary_verbs,13,13,9,0.6923076923076923,0.6923076923076923,0.0,F,major,F,major
+Antonida Vassilievna Tarassevitcha,Polina Alexandrovna,conjunctions,13,10,6,0.6,0.6153846153846154,-0.015384615384615441,F,major,F,major
+Antonida Vassilievna Tarassevitcha,Polina Alexandrovna,impersonal_pronouns,13,12,7,0.5833333333333334,0.6153846153846154,-0.03205128205128205,F,major,F,major
+Antonida Vassilievna Tarassevitcha,Polina Alexandrovna,negations,13,7,2,0.2857142857142857,0.38461538461538464,-0.09890109890109894,F,major,F,major
+Antonida Vassilievna Tarassevitcha,Polina Alexandrovna,personal_pronouns,13,12,9,0.75,0.7692307692307693,-0.019230769230769273,F,major,F,major
+Antonida Vassilievna Tarassevitcha,Polina Alexandrovna,prepositions,13,11,9,0.8181818181818182,0.7692307692307693,0.04895104895104896,F,major,F,major
+Antonida Vassilievna Tarassevitcha,Polina Alexandrovna,quantifiers,13,7,2,0.2857142857142857,0.5384615384615384,-0.25274725274725274,F,major,F,major
+Antonida Vassilievna Tarassevitcha,The General,adverbs,14,11,10,0.9090909090909091,0.9285714285714286,-0.019480519480519543,F,major,M,intermediate
+Antonida Vassilievna Tarassevitcha,The General,articles,14,9,5,0.5555555555555556,0.35714285714285715,0.19841269841269843,F,major,M,intermediate
+Antonida Vassilievna Tarassevitcha,The General,auxiliary_verbs,14,12,10,0.8333333333333334,0.8571428571428571,-0.023809523809523725,F,major,M,intermediate
+Antonida Vassilievna Tarassevitcha,The General,conjunctions,14,11,8,0.7272727272727273,0.7142857142857143,0.012987012987012991,F,major,M,intermediate
+Antonida Vassilievna Tarassevitcha,The General,impersonal_pronouns,14,10,4,0.4,0.35714285714285715,0.04285714285714287,F,major,M,intermediate
+Antonida Vassilievna Tarassevitcha,The General,negations,14,9,2,0.2222222222222222,0.35714285714285715,-0.13492063492063494,F,major,M,intermediate
+Antonida Vassilievna Tarassevitcha,The General,personal_pronouns,14,13,11,0.8461538461538461,0.8571428571428571,-0.01098901098901095,F,major,M,intermediate
+Antonida Vassilievna Tarassevitcha,The General,prepositions,14,13,10,0.7692307692307693,0.7857142857142857,-0.016483516483516425,F,major,M,intermediate
+Antonida Vassilievna Tarassevitcha,The General,quantifiers,14,5,1,0.2,0.21428571428571427,-0.014285714285714263,F,major,M,intermediate
+Marqis De Griers,Alexis Ivanovitch,adverbs,21,15,9,0.6,0.6666666666666666,-0.06666666666666665,M,intermediate,M,major
+Marqis De Griers,Alexis Ivanovitch,articles,21,16,13,0.8125,0.7619047619047619,0.05059523809523814,M,intermediate,M,major
+Marqis De Griers,Alexis Ivanovitch,auxiliary_verbs,21,16,14,0.875,0.8571428571428571,0.017857142857142905,M,intermediate,M,major
+Marqis De Griers,Alexis Ivanovitch,conjunctions,21,14,11,0.7857142857142857,0.7619047619047619,0.023809523809523836,M,intermediate,M,major
+Marqis De Griers,Alexis Ivanovitch,impersonal_pronouns,21,13,11,0.8461538461538461,0.7142857142857143,0.13186813186813184,M,intermediate,M,major
+Marqis De Griers,Alexis Ivanovitch,negations,21,11,4,0.36363636363636365,0.47619047619047616,-0.11255411255411252,M,intermediate,M,major
+Marqis De Griers,Alexis Ivanovitch,personal_pronouns,21,15,15,1.0,0.9523809523809523,0.04761904761904767,M,intermediate,M,major
+Marqis De Griers,Alexis Ivanovitch,prepositions,21,16,15,0.9375,0.9047619047619048,0.03273809523809523,M,intermediate,M,major
+Marqis De Griers,Alexis Ivanovitch,quantifiers,21,11,4,0.36363636363636365,0.47619047619047616,-0.11255411255411252,M,intermediate,M,major
+Mlle. Blanche,Alexis Ivanovitch,adverbs,17,14,6,0.42857142857142855,0.35294117647058826,0.07563025210084029,F,intermediate,M,major
+Mlle. Blanche,Alexis Ivanovitch,articles,17,9,6,0.6666666666666666,0.5294117647058824,0.13725490196078427,F,intermediate,M,major
+Mlle. Blanche,Alexis Ivanovitch,auxiliary_verbs,17,15,9,0.6,0.5882352941176471,0.0117647058823529,F,intermediate,M,major
+Mlle. Blanche,Alexis Ivanovitch,conjunctions,17,13,6,0.46153846153846156,0.47058823529411764,-0.009049773755656076,F,intermediate,M,major
+Mlle. Blanche,Alexis Ivanovitch,impersonal_pronouns,17,12,10,0.8333333333333334,0.5882352941176471,0.2450980392156863,F,intermediate,M,major
+Mlle. Blanche,Alexis Ivanovitch,negations,17,10,5,0.5,0.4117647058823529,0.08823529411764708,F,intermediate,M,major
+Mlle. Blanche,Alexis Ivanovitch,personal_pronouns,17,15,10,0.6666666666666666,0.6470588235294118,0.019607843137254832,F,intermediate,M,major
+Mlle. Blanche,Alexis Ivanovitch,prepositions,17,14,9,0.6428571428571429,0.5882352941176471,0.054621848739495826,F,intermediate,M,major
+Mlle. Blanche,Alexis Ivanovitch,quantifiers,17,10,6,0.6,0.5882352941176471,0.0117647058823529,F,intermediate,M,major
+Mr. Astley,Alexis Ivanovitch,adverbs,59,45,29,0.6444444444444445,0.6779661016949152,-0.03352165725047074,M,intermediate,M,major
+Mr. Astley,Alexis Ivanovitch,articles,59,37,19,0.5135135135135135,0.5254237288135594,-0.011910215300045879,M,intermediate,M,major
+Mr. Astley,Alexis Ivanovitch,auxiliary_verbs,59,50,36,0.72,0.7457627118644068,-0.025762711864406818,M,intermediate,M,major
+Mr. Astley,Alexis Ivanovitch,conjunctions,59,44,25,0.5681818181818182,0.6101694915254238,-0.041987673343605536,M,intermediate,M,major
+Mr. Astley,Alexis Ivanovitch,impersonal_pronouns,59,41,28,0.6829268292682927,0.6610169491525424,0.021909880115750346,M,intermediate,M,major
+Mr. Astley,Alexis Ivanovitch,negations,59,30,12,0.4,0.4067796610169492,-0.006779661016949157,M,intermediate,M,major
+Mr. Astley,Alexis Ivanovitch,personal_pronouns,59,56,47,0.8392857142857143,0.847457627118644,-0.008171912832929729,M,intermediate,M,major
+Mr. Astley,Alexis Ivanovitch,prepositions,59,52,40,0.7692307692307693,0.7627118644067796,0.006518904823989646,M,intermediate,M,major
+Mr. Astley,Alexis Ivanovitch,quantifiers,59,30,13,0.43333333333333335,0.423728813559322,0.009604519774011333,M,intermediate,M,major
+Polina Alexandrovna,Alexis Ivanovitch,adverbs,61,42,30,0.7142857142857143,0.7704918032786885,-0.05620608899297419,F,major,M,major
+Polina Alexandrovna,Alexis Ivanovitch,articles,61,32,19,0.59375,0.6065573770491803,-0.012807377049180335,F,major,M,major
+Polina Alexandrovna,Alexis Ivanovitch,auxiliary_verbs,61,54,48,0.8888888888888888,0.8524590163934426,0.03642987249544627,F,major,M,major
+Polina Alexandrovna,Alexis Ivanovitch,conjunctions,61,45,30,0.6666666666666666,0.7049180327868853,-0.03825136612021862,F,major,M,major
+Polina Alexandrovna,Alexis Ivanovitch,impersonal_pronouns,61,39,27,0.6923076923076923,0.6721311475409836,0.020176544766708715,F,major,M,major
+Polina Alexandrovna,Alexis Ivanovitch,negations,61,31,13,0.41935483870967744,0.4426229508196721,-0.023268112109994687,F,major,M,major
+Polina Alexandrovna,Alexis Ivanovitch,personal_pronouns,61,52,46,0.8846153846153846,0.8688524590163934,0.015762925598991173,F,major,M,major
+Polina Alexandrovna,Alexis Ivanovitch,prepositions,61,46,36,0.782608695652174,0.7868852459016393,-0.004276550249465383,F,major,M,major
+Polina Alexandrovna,Alexis Ivanovitch,quantifiers,61,26,12,0.46153846153846156,0.4098360655737705,0.05170239596469106,F,major,M,major
+Polina Alexandrovna,Antonida Vassilievna Tarassevitcha,adverbs,13,8,5,0.625,0.6923076923076923,-0.06730769230769229,F,major,F,major
+Polina Alexandrovna,Antonida Vassilievna Tarassevitcha,articles,13,8,5,0.625,0.6153846153846154,0.009615384615384581,F,major,F,major
+Polina Alexandrovna,Antonida Vassilievna Tarassevitcha,auxiliary_verbs,13,9,9,1.0,1.0,0.0,F,major,F,major
+Polina Alexandrovna,Antonida Vassilievna Tarassevitcha,conjunctions,13,8,5,0.625,0.6923076923076923,-0.06730769230769229,F,major,F,major
+Polina Alexandrovna,Antonida Vassilievna Tarassevitcha,impersonal_pronouns,13,8,5,0.625,0.7692307692307693,-0.14423076923076927,F,major,F,major
+Polina Alexandrovna,Antonida Vassilievna Tarassevitcha,negations,13,5,3,0.6,0.6153846153846154,-0.015384615384615441,F,major,F,major
+Polina Alexandrovna,Antonida Vassilievna Tarassevitcha,personal_pronouns,13,10,9,0.9,0.9230769230769231,-0.023076923076923106,F,major,F,major
+Polina Alexandrovna,Antonida Vassilievna Tarassevitcha,prepositions,13,10,9,0.9,0.8461538461538461,0.05384615384615388,F,major,F,major
+Polina Alexandrovna,Antonida Vassilievna Tarassevitcha,quantifiers,13,7,3,0.42857142857142855,0.38461538461538464,0.04395604395604391,F,major,F,major
+The Croupier,Antonida Vassilievna Tarassevitcha,quantifiers,10,7,2,0.2857142857142857,0.4,-0.11428571428571432,M,minor,F,major
+The General,Alexis Ivanovitch,adverbs,17,11,8,0.7272727272727273,0.7647058823529411,-0.03743315508021383,M,intermediate,M,major
+The General,Alexis Ivanovitch,articles,17,8,4,0.5,0.5882352941176471,-0.08823529411764708,M,intermediate,M,major
+The General,Alexis Ivanovitch,auxiliary_verbs,17,12,12,1.0,1.0,0.0,M,intermediate,M,major
+The General,Alexis Ivanovitch,conjunctions,17,11,9,0.8181818181818182,0.8823529411764706,-0.06417112299465233,M,intermediate,M,major
+The General,Alexis Ivanovitch,impersonal_pronouns,17,13,8,0.6153846153846154,0.6470588235294118,-0.03167420814479638,M,intermediate,M,major
+The General,Alexis Ivanovitch,negations,17,7,3,0.42857142857142855,0.4117647058823529,0.016806722689075626,M,intermediate,M,major
+The General,Alexis Ivanovitch,personal_pronouns,17,15,15,1.0,1.0,0.0,M,intermediate,M,major
+The General,Alexis Ivanovitch,prepositions,17,14,11,0.7857142857142857,0.8235294117647058,-0.037815126050420145,M,intermediate,M,major
+The General,Alexis Ivanovitch,quantifiers,17,9,4,0.4444444444444444,0.5294117647058824,-0.08496732026143794,M,intermediate,M,major
+The General,Antonida Vassilievna Tarassevitcha,adverbs,13,12,10,0.8333333333333334,0.7692307692307693,0.0641025641025641,M,intermediate,F,major
+The General,Antonida Vassilievna Tarassevitcha,articles,13,5,3,0.6,0.46153846153846156,0.1384615384615384,M,intermediate,F,major
+The General,Antonida Vassilievna Tarassevitcha,auxiliary_verbs,13,11,9,0.8181818181818182,0.7692307692307693,0.04895104895104896,M,intermediate,F,major
+The General,Antonida Vassilievna Tarassevitcha,conjunctions,13,9,5,0.5555555555555556,0.6153846153846154,-0.05982905982905984,M,intermediate,F,major
+The General,Antonida Vassilievna Tarassevitcha,impersonal_pronouns,13,6,5,0.8333333333333334,0.7692307692307693,0.0641025641025641,M,intermediate,F,major
+The General,Antonida Vassilievna Tarassevitcha,negations,13,5,4,0.8,0.6153846153846154,0.18461538461538463,M,intermediate,F,major
+The General,Antonida Vassilievna Tarassevitcha,personal_pronouns,13,11,10,0.9090909090909091,0.9230769230769231,-0.013986013986014068,M,intermediate,F,major
+The General,Antonida Vassilievna Tarassevitcha,prepositions,13,10,8,0.8,0.8461538461538461,-0.0461538461538461,M,intermediate,F,major
+The General,Marqis De Griers,conjunctions,6,5,4,0.8,0.6666666666666666,0.13333333333333341,M,intermediate,M,intermediate

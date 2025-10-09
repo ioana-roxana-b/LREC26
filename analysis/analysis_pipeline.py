@@ -158,6 +158,7 @@ def run_full_analysis(
     mode: str,
     min_support: int,
     liwc_paths: Dict[str, Optional[Path]],
+    novel_title: Optional[str] = None,
 ) -> None:
     """
     Run the complete analysis workflow for one novel.
@@ -191,9 +192,9 @@ def run_full_analysis(
         liwc_results_rand_csv=liwc_paths.get("randomized"),
     )
 
-    visualisation.run_visuals_for_novel(conv_dir, plot_dir, mode)
+    visualisation.run_visuals_for_novel(in_dir=conv_dir, out_root=plot_dir, mode=mode, min_support=min_support, novel_title=novel_title)
 
-    graph_analysis.run_graph_analysis(conv_dir, graph_dir, mode, positive_only=False)
+    graph_analysis.run_graph_analysis(conv_dir, graph_dir, mode, positive_only=False,novel_title=novel_title,)
 
     if mode == "spacy":
         adj_path = conv_dir / "conv_by_pair_feature_spacy.csv"

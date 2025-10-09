@@ -1,42 +1,43 @@
 ﻿a_speaker,b_speaker,n_features,n_pairs,n_triggers_total,mean_conv,mean_conv_w,a_gender,a_category,b_gender,b_category
-Bill Sikes,Fagin,5,5,20,-0.0033333333333333435,-8.326672684688674e-18,M,major,M,major
-Bill Sikes,Nance,8,8,50,-0.004464285714285726,-0.00750000000000001,M,major,F,major
-Bill Sikes,Toby Crackit,1,4,4,0.0,0.0,M,major,M,intermediate
-Charley Bates,Fagin,3,4,11,0.0,0.0,M,intermediate,M,major
-Fagin,Bill Sikes,7,5,26,-0.038095238095238126,-0.030769230769230802,M,major,M,major
-Fagin,Charley Bates,6,7,27,0.036111111111111156,0.02645502645502651,M,major,M,intermediate
-Fagin,Nance,4,5,13,-0.012500000000000039,-0.015384615384615429,M,major,F,major
-Fagin,The Artful Dodger,3,3,9,0.0,0.0,M,major,M,intermediate
-Harry Maylie,Oliver Twist,2,3,6,0.0,0.0,M,intermediate,M,major
-Kags,Toby Crackit,3,4,9,0.08333333333333333,0.08333333333333333,M,minor,M,intermediate
-Mr. Brittles,Mr. Giles,2,4,6,-0.041666666666666685,-0.041666666666666685,M,minor,M,intermediate
-Mr. Brownlow,Mr. Grimwig,5,4,20,0.0,0.0,M,major,M,intermediate
-Mr. Brownlow,Oliver Twist,6,5,22,0.09166666666666666,0.0818181818181818,M,major,M,major
-Mr. Brownlow,Rose Maylie,8,5,34,-0.002083333333333333,0.0,M,major,F,major
-Mr. Bumble,Monks,1,3,3,0.0,0.0,M,major,M,major
+Barney,Bill Sikes,1,3,3,0.0,0.0,M,minor,M,major
+Bill Sikes,Fagin,8,5,32,-0.014583333333333344,-0.01250000000000001,M,major,M,major
+Bill Sikes,Nance,9,8,43,-0.02328042328042329,-0.03779069767441862,M,major,F,major
+Bill Sikes,Toby Crackit,4,4,14,-1.3877787807814457e-17,-1.1895246692412391e-17,M,major,M,intermediate
+Charley Bates,Fagin,3,4,10,-0.05555555555555556,-0.05,M,intermediate,M,major
+Charley Bates,Oliver Twist,6,3,18,0.0,0.0,M,intermediate,M,major
+Fagin,Bill Sikes,7,5,25,-0.007142857142857157,-0.008000000000000014,M,major,M,major
+Fagin,Charley Bates,7,7,28,-0.10952380952380951,-0.1020408163265306,M,major,M,intermediate
+Fagin,Nance,7,5,30,-0.03095238095238096,-0.026666666666666675,M,major,F,major
+Harry Maylie,Oliver Twist,3,3,9,0.0,0.0,M,intermediate,M,major
+Kags,Toby Crackit,8,4,28,-0.020833333333333343,-0.017857142857142867,M,minor,M,intermediate
+Mr. Brittles,Mr. Giles,4,4,14,0.020833333333333315,0.017857142857142842,M,minor,M,intermediate
+Mr. Brownlow,Mr. Grimwig,2,4,8,0.0,0.0,M,major,M,intermediate
+Mr. Brownlow,Oliver Twist,4,5,13,-0.15416666666666667,-0.15384615384615388,M,major,M,major
+Mr. Brownlow,Rose Maylie,8,5,32,0.07708333333333332,0.056249999999999994,M,major,F,major
+Mr. Bumble,Monks,3,3,9,0.0,0.0,M,major,M,major
 Mr. Bumble,Mrs. Corney,2,3,6,0.0,0.0,M,major,F,major
-Mr. Bumble,Mrs. Mann,3,4,10,0.027777777777777752,0.024999999999999977,M,major,F,intermediate
-Mr. Chitling,Fagin,6,3,18,0.0,0.0,M,intermediate,M,major
-Mr. Chitling,Kags,8,3,24,0.0,0.0,M,intermediate,M,minor
-Mr. Giles,Mr. Brittles,3,4,10,-0.11111111111111112,-0.1,M,intermediate,M,minor
-Mr. Grimwig,Mr. Brownlow,5,7,24,0.09333333333333335,0.0773809523809524,M,intermediate,M,major
-Mr. Limbkins,The Gentleman In The White Waistcoat,4,4,13,-0.06250000000000001,-0.0576923076923077,M,minor,M,minor
-Mr. Losberne,Mr. Blathers,5,4,17,-0.08333333333333334,-0.0735294117647059,M,major,M,intermediate
-Mr. Losberne,Mrs. Maylie,8,4,28,0.031249999999999986,0.026785714285714277,M,major,F,intermediate
-Mrs. Bedwin,Oliver Twist,3,3,9,0.0,0.0,F,intermediate,M,major
-Mrs. Corney,Mr. Bumble,8,5,34,-0.10416666666666669,-0.08235294117647061,F,major,M,major
-Mrs. Mann,Dick,2,3,6,0.0,0.0,F,intermediate,M,minor
-Mrs. Mann,Mr. Bumble,1,3,3,0.0,0.0,F,intermediate,M,major
-Nance,Bill Sikes,8,8,49,0.045982142857142846,0.045918367346938764,F,major,M,major
-Nance,Fagin,2,5,7,0.04166666666666663,0.028571428571428532,F,major,M,major
-Noah Claypole,Fagin,5,3,15,0.0,0.0,M,major,M,major
-Oliver Twist,Bill Sikes,2,3,6,0.0,0.0,M,major,M,major
-Oliver Twist,Charley Bates,1,3,3,0.0,0.0,M,major,M,intermediate
-Oliver Twist,Mr. Brownlow,2,4,6,-0.041666666666666685,-0.041666666666666685,M,major,M,major
-Oliver Twist,Mrs. Bedwin,1,3,3,0.0,0.0,M,major,F,intermediate
-Rose Maylie,Mr. Brownlow,4,4,13,-0.125,-0.11538461538461539,F,major,M,major
-Rose Maylie,Mr. Losberne,4,4,12,-0.12500000000000003,-0.12500000000000003,F,major,M,major
-The Artful Dodger,Fagin,7,6,29,-0.06904761904761905,-0.0632183908045977,M,intermediate,M,major
+Mr. Bumble,Mrs. Mann,7,4,22,0.08333333333333333,0.07954545454545453,M,major,F,intermediate
+Mr. Chitling,Kags,1,3,3,0.0,0.0,M,intermediate,M,minor
+Mr. Giles,Mr. Brittles,1,4,4,0.0,0.0,M,intermediate,M,minor
+Mr. Grimwig,Mr. Brownlow,7,7,34,-0.09897959183673469,-0.08823529411764705,M,intermediate,M,major
+Mr. Limbkins,The Gentleman In The White Waistcoat,4,4,13,-0.06250000000000001,-0.057692307692307696,M,minor,M,minor
+Mr. Losberne,Mr. Blathers,4,4,13,-0.020833333333333343,-0.019230769230769235,M,major,M,intermediate
+Mr. Losberne,Mrs. Maylie,1,4,3,-0.08333333333333337,-0.08333333333333337,M,major,F,intermediate
+Mrs. Bedwin,Oliver Twist,1,3,3,0.0,0.0,F,intermediate,M,major
+Mrs. Corney,Mr. Bumble,5,5,20,-0.08,-0.07,F,major,M,major
+Mrs. Mann,Dick,6,3,18,0.0,0.0,F,intermediate,M,minor
+Nance,Bill Sikes,6,8,29,0.1111111111111111,0.07758620689655173,F,major,M,major
+Nance,Fagin,7,5,23,-0.038095238095238126,-0.0347826086956522,F,major,M,major
+Nance,Oliver Twist,2,3,6,0.0,0.0,F,major,M,major
+Oliver Twist,Charley Bates,6,3,18,0.0,0.0,M,major,M,intermediate
+Oliver Twist,Fagin,2,3,6,0.0,0.0,M,major,M,major
+Oliver Twist,Harry Maylie,3,3,9,0.0,0.0,M,major,M,intermediate
+Oliver Twist,Mr. Brownlow,3,4,9,-3.700743415417188e-17,-3.700743415417188e-17,M,major,M,major
+Oliver Twist,Mr. Bumble,6,3,18,0.0,0.0,M,major,M,major
+Rose Maylie,Mr. Brownlow,4,4,12,0.10416666666666666,0.10416666666666667,F,major,M,major
+Rose Maylie,Mr. Losberne,2,4,6,-0.12500000000000003,-0.12500000000000003,F,major,M,major
+The Artful Dodger,Fagin,6,6,20,-0.25,-0.2416666666666667,M,intermediate,M,major
+The Artful Dodger,Oliver Twist,3,3,9,0.0,0.0,M,intermediate,M,major
 The Gentleman In The White Waistcoat,Oliver Twist,1,3,3,0.0,0.0,M,minor,M,major
-The Tinker,Mr. Giles,2,3,6,0.0,0.0,M,minor,M,intermediate
-Toby Crackit,Mr. Chitling,9,4,32,-6.1679056923619804e-18,-3.469446951953614e-18,M,intermediate,M,intermediate
+The Tinker,Mr. Giles,7,3,21,0.0,0.0,M,minor,M,intermediate
+Toby Crackit,Mr. Chitling,4,4,12,-0.1041666666666667,-0.1041666666666667,M,intermediate,M,intermediate

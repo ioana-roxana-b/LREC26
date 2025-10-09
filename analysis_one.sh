@@ -2,17 +2,11 @@
 set -euo pipefail
 
 # -------- Config --------
-#MODE="${MODE:-liwc}"                              # spacy | liwc
-#TITLE="TheGambler"
-#PREP_DIR="${PREP_DIR:-outputs/${TITLE}/${MODE}}"  # folder produced by *preprocess* stage
-#OUT_DIR="${OUT_DIR:-$PREP_DIR}"                   # where analysis_results/ will be written
-#MIN_SUPPORT="${MIN_SUPPORT:-3}"
-
 MODE="${MODE:-liwc}"                              # spacy | liwc
-TITLE="All_Novels"
-CORPUS_NAME="austen_corpus"
-PREP_DIR="${PREP_DIR:-outputs/${CORPUS_NAME}/${MODE}}/${TITLE}"
-OUT_DIR="${OUT_DIR:-$PREP_DIR}"
+TITLE="TheGambler"
+NOVEL="The Gambler"
+PREP_DIR="${PREP_DIR:-outputs/${TITLE}/${MODE}}"  # folder produced by *preprocess* stage
+OUT_DIR="${OUT_DIR:-$PREP_DIR}"                   # where analysis_results/ will be written
 MIN_SUPPORT="${MIN_SUPPORT:-3}"
 
 # LIWC exports (only used if MODE=liwc). Accept plain paths or {novel} pattern.
@@ -31,6 +25,7 @@ COMMON_ARGS=(
   --novel_dir "$PREP_DIR"
   --out_dir "$OUT_DIR"
   --min_support "$MIN_SUPPORT"
+  --title "$NOVEL"
 )
 
 if [[ "$MODE" == "liwc" ]]; then

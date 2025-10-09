@@ -1,30 +1,35 @@
 ﻿a_speaker,b_speaker,n_features,n_pairs,n_triggers_total,mean_conv,mean_conv_w,a_gender,a_category,b_gender,b_category
-Aunt Juley,Helen,7,6,29,0.030952380952380953,0.034482758620689655,F,major,F,major
-Aunt Juley,Margaret,9,6,36,0.10925925925925926,0.08796296296296297,F,major,F,major
+Aunt Juley,Helen,7,6,30,0.052380952380952396,0.04444444444444446,F,major,F,major
+Aunt Juley,Margaret,4,6,16,0.04166666666666666,0.031249999999999993,F,major,F,major
 Aunt Juley,Tibby,1,3,3,0.0,0.0,F,major,M,intermediate
-Charles Wilcox,Margaret,2,3,6,0.0,0.0,M,major,F,major
-Dolly,Margaret,2,4,7,-0.08333333333333334,-0.07142857142857142,F,intermediate,F,major
-Evie,Henry,1,5,4,-0.09999999999999998,-0.09999999999999998,F,intermediate,,
-Helen,Aunt Juley,8,7,37,-0.03303571428571429,-0.03861003861003863,F,major,F,major
-Helen,Leonard,9,9,47,-0.014991181657848332,-0.054373522458628844,F,major,M,major
-Helen,Margaret,8,25,131,-0.012649146285655267,-0.0061068702290076665,F,major,F,major
-Helen,Tibby,7,5,26,0.1357142857142857,0.11538461538461539,F,major,M,intermediate
+Charles Wilcox,Henry,3,3,9,0.0,0.0,M,major,,
+Charles Wilcox,Margaret,3,3,9,0.0,0.0,M,major,F,major
+Dolly,Charles Wilcox,3,3,9,0.0,0.0,F,intermediate,M,major
+Dolly,Henry,1,3,3,0.0,0.0,F,intermediate,,
+Dolly,Margaret,1,4,4,0.0,0.0,F,intermediate,F,major
+Evie,Henry,6,5,19,0.027777777777777773,0.021052631578947364,F,intermediate,,
+Evie,Margaret,4,3,12,0.0,0.0,F,intermediate,F,major
+Helen,Aunt Juley,8,7,35,0.20625000000000002,0.2,F,major,F,major
+Helen,Henry,1,3,3,0.0,0.0,F,major,,
+Helen,Leonard,9,9,38,-0.007848324514991185,0.023391812865497075,F,major,M,major
+Helen,Margaret,9,25,126,-0.007274022274022265,-0.013968253968253961,F,major,F,major
+Helen,Tibby,2,5,6,0.23333333333333334,0.23333333333333336,F,major,M,intermediate
 Henry,Charles Wilcox,1,3,3,0.0,0.0,,,M,major
-Henry,Dolly,4,4,12,0.02083333333333333,0.020833333333333332,,,F,intermediate
-Henry,Evie,5,4,16,0.06666666666666665,0.062499999999999986,,,F,intermediate
-Henry,Helen,8,6,40,-0.02916666666666665,-0.012499999999999983,,,F,major
-Henry,Margaret,9,27,101,-0.0037212273323384342,-0.004767143381004763,,,F,major
-Leonard,Helen,8,9,40,0.06964285714285715,0.05277777777777777,M,major,F,major
-Leonard,Margaret,7,8,34,-0.07857142857142858,-0.06985294117647059,M,major,F,major
-Margaret,Aunt Juley,2,4,7,0.0,0.0,F,major,F,major
-Margaret,Fraulein Mosebach,4,4,12,-0.08333333333333336,-0.08333333333333336,F,major,F,minor
-Margaret,Helen,9,19,91,0.034514738023509975,0.006940427993059591,F,major,F,major
-Margaret,Henry,9,21,65,-0.0652557319223986,-0.07032967032967036,F,major,,
-Margaret,Leonard,8,8,36,-0.048958333333333326,-0.04513888888888888,F,major,M,major
-Margaret,Mrs. Wilcox,8,4,29,-0.04166666666666667,-0.034482758620689655,F,major,F,intermediate
-Margaret,Tibby,7,5,23,-0.026190476190476226,-0.026086956521739174,F,major,M,intermediate
-Miss Avery,Margaret,3,5,9,-0.022222222222222254,-0.022222222222222254,F,intermediate,F,major
+Henry,Dolly,2,4,7,-0.041666666666666685,-0.03571428571428573,,,F,intermediate
+Henry,Evie,4,4,12,-2.7755575615628914e-17,-2.7755575615628914e-17,,,F,intermediate
+Henry,Helen,6,6,24,0.05833333333333333,0.05555555555555555,,,F,major
+Henry,Margaret,9,27,105,0.07318060782113071,0.04620811287477955,,,F,major
+Leonard,Helen,6,9,25,-0.03333333333333332,-0.044444444444444425,M,major,F,major
+Leonard,Margaret,9,8,37,0.08888888888888886,0.08445945945945946,M,major,F,major
+Margaret,Aunt Juley,4,4,14,0.08333333333333331,0.07142857142857141,F,major,F,major
+Margaret,Charles Wilcox,3,3,9,0.0,0.0,F,major,M,major
+Margaret,Fraulein Mosebach,5,4,15,-0.08333333333333336,-0.08333333333333333,F,major,F,minor
+Margaret,Helen,9,19,89,-0.035553676343150015,-0.020697811945594304,F,major,F,major
+Margaret,Henry,9,21,80,0.008810325476992148,0.010714285714285714,F,major,,
+Margaret,Leonard,7,8,31,0.030952380952380953,0.020161290322580645,F,major,M,major
+Margaret,Tibby,5,5,20,-2.2204460492503132e-17,-2.2204460492503132e-17,F,major,M,intermediate
+Miss Avery,Margaret,7,5,26,0.009523809523809514,0.007692307692307682,F,intermediate,F,major
 Mr. Wilcox,Dolly,1,3,3,0.0,0.0,M,major,F,intermediate
-Mrs. Wilcox,Margaret,7,6,26,0.014285714285714282,0.01923076923076924,F,intermediate,F,major
-Tibby,Helen,1,4,3,-0.08333333333333337,-0.08333333333333337,M,intermediate,F,major
-Tibby,Margaret,7,6,28,-0.02380952380952382,-0.01190476190476191,M,intermediate,F,major
+Mrs. Wilcox,Margaret,5,6,21,0.043333333333333356,0.04761904761904764,F,intermediate,F,major
+Tibby,Helen,4,4,12,0.041666666666666644,0.041666666666666644,M,intermediate,F,major
+Tibby,Margaret,6,6,23,0.055555555555555546,0.05797101449275361,M,intermediate,F,major

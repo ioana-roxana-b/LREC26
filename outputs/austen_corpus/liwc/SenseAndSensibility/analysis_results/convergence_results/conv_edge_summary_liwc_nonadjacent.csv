@@ -1,22 +1,23 @@
 ﻿a_speaker,b_speaker,n_features,n_pairs,n_triggers_total,mean_conv,mean_conv_w,a_gender,a_category,b_gender,b_category
-Anne Steele,Elinor,8,6,38,-0.04791666666666667,-0.039473684210526314,F,intermediate,F,major
+Anne Steele,Elinor,9,6,42,-0.044444444444444446,-0.03968253968253968,F,intermediate,F,major
 Colonel Brandon,Elinor,5,3,15,0.0,0.0,M,intermediate,F,major
-Edward Ferrars,Elinor,9,7,55,0.01587301587301588,0.012987012987012991,M,intermediate,F,major
-Elinor,Edward Ferrars,9,6,39,-0.011111111111111134,-1.708035422500241e-17,F,major,M,intermediate
-Elinor,Lucy Steele,9,5,36,-0.033333333333333354,-0.027777777777777804,F,major,F,intermediate
-Elinor,Marianne,9,10,66,-0.05022045855379189,-0.046969696969696974,F,major,F,major
-Elinor,Mrs. Dashwood,9,10,72,0.008245149911816586,-0.005555555555555548,F,major,F,intermediate
-John Middleton,Marianne,6,3,18,0.0,0.0,M,intermediate,F,major
-John Middleton,Mrs. Jennings,3,3,9,0.0,0.0,M,intermediate,F,intermediate
-Lucy Steele,Anne Steele,9,5,34,-0.014814814814814848,-0.005882352941176498,F,intermediate,F,intermediate
-Lucy Steele,Elinor,2,3,6,0.0,0.0,F,intermediate,F,major
-Marianne,Edward Ferrars,2,4,6,0.04166666666666663,0.04166666666666663,F,major,M,intermediate
-Marianne,Elinor,9,16,96,0.025799663299663322,0.014973958333333355,F,major,F,major
-Marianne,Mr. Willoughby,4,3,12,0.0,0.0,F,major,M,intermediate
-Marianne,Mrs. Jennings,3,5,10,-0.022222222222222237,-0.02000000000000001,F,major,F,intermediate
-Mr. Palmer,Charlotte,2,3,6,0.0,0.0,M,minor,F,intermediate
-Mr. Willoughby,Elinor,9,6,51,0.003703703703703715,0.0032679738562091604,M,intermediate,F,major
-Mrs. Dashwood,Elinor,9,7,51,0.02830687830687835,0.028011204481792756,F,intermediate,F,major
-Mrs. Dashwood,Marianne,9,6,44,-0.012962962962962963,-0.011363636363636364,F,intermediate,F,major
-Mrs. Jennings,Elinor,9,9,72,0.0015432098765432228,0.004629629629629644,F,intermediate,F,major
-Mrs. Jennings,Marianne,5,5,20,-0.023333333333333362,-0.01000000000000002,F,intermediate,F,major
+Edward Ferrars,Elinor,9,7,41,-0.028571428571428543,-0.03135888501742156,M,intermediate,F,major
+Elinor,Edward Ferrars,9,6,41,-0.040740740740740744,-0.04065040650406504,F,major,M,intermediate
+Elinor,Lucy Steele,2,5,7,0.09999999999999998,0.0857142857142857,F,major,F,intermediate
+Elinor,Marianne,9,10,77,-0.0002204585537918925,-0.003896103896103901,F,major,F,major
+Elinor,Mrs. Dashwood,9,10,72,0.0022927689594356366,0.018055555555555564,F,major,F,intermediate
+John Middleton,Marianne,3,3,9,0.0,0.0,M,intermediate,F,major
+John Middleton,Mrs. Jennings,7,3,21,0.0,0.0,M,intermediate,F,intermediate
+Lucy Steele,Anne Steele,5,5,20,-0.023333333333333362,-0.020000000000000025,F,intermediate,F,intermediate
+Lucy Steele,Elinor,4,3,12,0.0,0.0,F,intermediate,F,major
+Marianne,Edward Ferrars,9,4,33,-6.1679056923619804e-18,-3.3643121958338078e-18,F,major,M,intermediate
+Marianne,Elinor,9,16,117,-0.008472545972545962,-0.008547008547008536,F,major,F,major
+Marianne,Mr. Willoughby,2,3,6,0.0,0.0,F,major,M,intermediate
+Marianne,Mrs. Jennings,8,5,31,-0.06666666666666668,-0.051612903225806465,F,major,F,intermediate
+Mr. Palmer,Charlotte,7,3,21,0.0,0.0,M,minor,F,intermediate
+Mr. Willoughby,Elinor,9,6,42,-0.0537037037037037,-0.047619047619047616,M,intermediate,F,major
+Mrs. Dashwood,Elinor,9,7,38,-0.04894179894179894,-0.04135338345864662,F,intermediate,F,major
+Mrs. Dashwood,Marianne,9,6,48,-0.046296296296296294,-0.03819444444444444,F,intermediate,F,major
+Mrs. Jennings,Elinor,9,9,67,0.05511463844797179,0.048092868988391387,F,intermediate,F,major
+Mrs. Jennings,Lucy Steele,4,3,12,0.0,0.0,F,intermediate,F,intermediate
+Mrs. Jennings,Marianne,8,5,33,0.01874999999999999,0.01818181818181817,F,intermediate,F,major

@@ -141,6 +141,7 @@ def main():
         default=None,
         help="Path to the randomized LIWC export CSV.",
     )
+    ap.add_argument("--title", dest="title", default=None)
 
     args = ap.parse_args()
 
@@ -191,6 +192,7 @@ def main():
             mode=mode,
             min_support=args.min_support,
             liwc_paths=liwc_paths,
+            novel_title=args.title,
         )
 
         print(f"[analysis] Done → {out_root}")

@@ -1,21 +1,21 @@
 ﻿character,community_id
-Jane,0
 Mrs. Bennet,0
 Lydia,0
-Mr. Collins,0
-Mr. Bennet,0
-Charlotte Lucas,0
+Jane,0
 Kitty,0
 Lady Catherine De Bourgh,0
-Elizabeth,1
-Mr. Gardiner,1
-Mrs. Reynolds,1
-Maria,1
+Charlotte Lucas,0
+Mr. Bennet,0
+Mr. Collins,0
 Colonel Fitzwilliam,1
-George Wickham,1
+Mrs. Reynolds,1
+Mr. Gardiner,1
+Maria,1
 Mrs. Gardiner,1
-Mrs. Hurst,2
-Sir William Lucas,2
-Miss Bingley,2
-Mr. Bingley,2
+George Wickham,1
+Elizabeth,1
 Mr. Darcy,2
+Mrs. Hurst,2
+Mr. Bingley,2
+Miss Bingley,2
+Sir William Lucas,2

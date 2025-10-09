@@ -1,63 +1,62 @@
 ﻿a_speaker,b_speaker,n_features,n_pairs,n_triggers_total,mean_conv,mean_conv_w,a_gender,a_category,b_gender,b_category
-Cecil,Freddy,1,3,3,0.0,0.0,,,M,intermediate
-Cecil,Lucy,9,42,213,0.010874147261786779,0.0033534540576794147,,,,
-Cecil,Mr. Beebe,9,18,84,-0.021579038245704903,-0.01322751322751322,,,M,major
-Cecil,Mrs. Honeychurch,3,7,11,0.14285714285714288,0.1168831168831169,,,F,major
-Cecil,Mrs. Vyse,2,4,6,-0.12500000000000003,-0.12500000000000003,,,F,minor
-Freddy,George Emerson,4,8,15,0.03958333333333333,0.041666666666666664,M,intermediate,M,intermediate
-Freddy,Lucy,7,18,59,-0.0638888888888889,-0.044256120527306986,M,intermediate,,
-Freddy,Mr. Beebe,8,20,76,0.08672646797646796,0.05592105263157893,M,intermediate,M,major
-Freddy,Mrs. Honeychurch,9,31,147,0.0265155466244051,0.03203862190037306,M,intermediate,F,major
-George Emerson,Lucy,9,52,205,-0.020573519711450758,-0.02579737335834898,M,intermediate,,
-George Emerson,Miss Bartlett,5,3,15,0.0,0.0,M,intermediate,F,major
-George Emerson,Mr. Beebe,3,6,9,0.11111111111111112,0.1111111111111111,M,intermediate,M,major
-George Emerson,Mr. Emerson,6,5,22,0.06666666666666665,0.054545454545454536,M,intermediate,M,intermediate
-George Emerson,Mr. Vyse,3,4,10,-0.02777777777777779,-0.025000000000000005,M,intermediate,M,intermediate
-George Emerson,Mrs. Honeychurch,6,5,18,0.06666666666666664,0.06666666666666664,M,intermediate,F,major
-Lucy,Cecil,9,40,166,-0.027263444807304454,-0.015813253012048185,,,,
-Lucy,Freddy,9,17,60,-0.057862943157060816,-0.014705882352941195,,,M,intermediate
-Lucy,George Emerson,9,48,225,-0.0015624838142148318,0.007222222222222226,,,M,intermediate
-Lucy,Miss Bartlett,9,85,429,0.012711736619898032,0.0099273275743864,,,F,major
-Lucy,Miss Lavish,9,13,58,-0.005596255596255613,-0.005305039787798428,,,F,intermediate
-Lucy,Mr. Beebe,9,42,186,0.01819617354705074,0.013184843830005129,,,M,major
-Lucy,Mr. Emerson,9,35,152,-0.03744062846402029,-0.030263157894736853,,,M,intermediate
-Lucy,Mr. Vyse,9,29,178,-0.022954701976220643,-0.018597442851607922,,,M,intermediate
-Lucy,Mrs. Honeychurch,9,45,207,0.032290800901912026,0.0268384326355341,,,F,major
-Lucy,Powell,1,3,3,0.0,0.0,,,M,minor
-Lucy,Rev. Cuthbert Eager,5,6,17,0.016666666666666653,0.009803921568627435,,,M,intermediate
-Lucy,Sir Harry Otway,2,3,6,0.0,0.0,,,M,minor
-Miss Bartlett,Freddy,2,3,6,0.0,0.0,F,major,M,intermediate
-Miss Bartlett,Lucy,9,88,444,0.011864771592814658,0.010416666666666676,F,major,,
-Miss Bartlett,Miss Lavish,4,4,13,0.04166666666666666,0.03846153846153845,F,major,F,intermediate
-Miss Bartlett,Mr. Beebe,9,16,86,-0.009254171754171758,0.014534883720930232,F,major,M,major
-Miss Bartlett,Rev. Cuthbert Eager,9,11,46,0.12692400192400194,0.09090909090909091,F,major,M,intermediate
-Miss Catherine Alan,Lucy,5,4,16,-0.050000000000000024,-0.04687500000000002,F,minor,,
-Miss Lavish,Lucy,9,11,65,0.023857623857623862,0.009790209790209798,F,intermediate,,
-Miss Lavish,Miss Bartlett,9,9,54,-0.032980599647266316,-0.0205761316872428,F,intermediate,F,major
+Cecil,Lucy,9,42,184,0.0674789887204075,0.06017080745341618,,,,
+Cecil,Mr. Beebe,9,18,86,0.04111552028218694,0.021317829457364337,,,M,major
+Cecil,Mrs. Honeychurch,7,7,29,0.24659863945578234,0.23152709359605914,,,F,major
+Cecil,Mrs. Vyse,3,4,9,0.19444444444444442,0.19444444444444442,,,F,minor
+Freddy,George Emerson,7,8,27,0.07261904761904761,0.08333333333333333,M,intermediate,M,intermediate
+Freddy,Lucy,9,18,77,0.13348765432098764,0.10894660894660896,M,intermediate,,
+Freddy,Mr. Beebe,9,20,97,-0.05099607182940517,-0.030927835051546393,M,intermediate,M,major
+Freddy,Mr. Vyse,1,3,3,0.0,0.0,M,intermediate,M,intermediate
+Freddy,Mrs. Honeychurch,9,31,126,-0.04005191579470016,-0.03942652329749103,M,intermediate,F,major
+George Emerson,Lucy,9,52,245,0.014096509271947876,0.02527472527472529,M,intermediate,,
+George Emerson,Mr. Beebe,8,6,32,-6.938893903907228e-18,-3.469446951953614e-18,M,intermediate,M,major
+George Emerson,Mr. Emerson,3,5,12,0.09999999999999998,0.09999999999999998,M,intermediate,M,intermediate
+George Emerson,Mr. Vyse,7,4,25,0.023809523809523805,0.02,M,intermediate,M,intermediate
+George Emerson,Mrs. Honeychurch,5,5,19,-0.006666666666666698,-0.010526315789473713,M,intermediate,F,major
+Lucy,Cecil,9,40,158,-0.026764909339630744,-0.005379746835443028,,,,
+Lucy,Freddy,9,17,72,0.0574900045488281,0.0343137254901961,,,M,intermediate
+Lucy,George Emerson,9,48,206,-0.03263190828344656,-0.016484627831715223,,,M,intermediate
+Lucy,Miss Bartlett,9,85,394,-0.013705930988680263,-0.018990743505524023,,,F,major
+Lucy,Miss Lavish,9,13,70,-0.0020905020905021,-0.006593406593406599,,,F,intermediate
+Lucy,Mr. Beebe,9,42,195,-0.02081208762423185,-0.01990231990231992,,,M,major
+Lucy,Mr. Emerson,9,35,146,0.09095518456805309,0.0849315068493151,,,M,intermediate
+Lucy,Mr. Vyse,9,29,139,0.003771091013537885,-0.0012403870007442514,,,M,intermediate
+Lucy,Mrs. Honeychurch,9,45,223,-0.009925247615959828,0.002690582959641263,,,F,major
+Lucy,Powell,3,3,9,0.0,0.0,,,M,minor
+Lucy,Rev. Cuthbert Eager,5,6,21,-0.006666666666666649,0.007936507936507955,,,M,intermediate
+Lucy,Sir Harry Otway,1,3,3,0.0,0.0,,,M,minor
+Miss Bartlett,Freddy,3,3,9,0.0,0.0,F,major,M,intermediate
+Miss Bartlett,Lucy,9,88,431,0.019953833345174598,0.011996414258595227,F,major,,
+Miss Bartlett,Miss Lavish,2,4,6,0.04166666666666663,0.04166666666666663,F,major,F,intermediate
+Miss Bartlett,Mr. Beebe,9,16,89,-0.06016313932980602,-0.04915730337078655,F,major,M,major
+Miss Bartlett,Rev. Cuthbert Eager,7,11,41,-0.08502886002886001,-0.07095343680709533,F,major,M,intermediate
+Miss Catherine Alan,Lucy,5,4,18,0.05,0.041666666666666664,F,minor,,
+Miss Lavish,Lucy,9,11,48,0.015440115440115433,0.017045454545454534,F,intermediate,,
+Miss Lavish,Miss Bartlett,9,9,39,-0.027777777777777783,-0.022792022792022797,F,intermediate,F,major
 Miss Lavish,Rev. Cuthbert Eager,6,3,18,0.0,0.0,F,intermediate,M,intermediate
-Mr. Beebe,Cecil,9,19,117,-0.023643599740090965,-0.01664417453891138,M,major,,
-Mr. Beebe,Freddy,9,21,97,-0.091428288487112,-0.08738340697103582,M,major,M,intermediate
-Mr. Beebe,George Emerson,7,5,30,0.0357142857142857,0.019999999999999987,M,major,M,intermediate
-Mr. Beebe,Lucy,9,34,176,0.007566130248686045,0.011363636363636388,M,major,,
-Mr. Beebe,Miss Bartlett,9,18,97,0.09800384800384802,0.06930126002290954,M,major,F,major
+Mr. Beebe,Cecil,9,19,105,0.002562417229599906,0.027067669172932348,M,major,,
+Mr. Beebe,Freddy,9,21,108,0.037257731375378446,0.046296296296296315,M,major,M,intermediate
+Mr. Beebe,George Emerson,9,5,34,0.16296296296296295,0.14117647058823532,M,major,M,intermediate
+Mr. Beebe,Lucy,9,34,172,-0.0010764665429979965,-0.013508891928864583,M,major,,
+Mr. Beebe,Miss Bartlett,9,18,91,-0.000427350427350432,0.0006105006105006058,M,major,F,major
 Mr. Beebe,Miss Catherine Alan,4,3,12,0.0,0.0,M,major,F,minor
-Mr. Beebe,Mr. Emerson,6,11,35,-0.04194925444925448,-0.025974025974026014,M,major,M,intermediate
-Mr. Beebe,Mrs. Honeychurch,8,8,44,0.013541666666666674,0.017045454545454555,M,major,F,major
-Mr. Emerson,Freddy,7,3,21,0.0,0.0,M,intermediate,M,intermediate
-Mr. Emerson,George Emerson,7,9,43,0.05085034013605443,0.04392764857881138,M,intermediate,M,intermediate
-Mr. Emerson,Lucy,9,36,221,0.04108781047186843,0.031799899446958255,M,intermediate,,
-Mr. Emerson,Miss Bartlett,2,3,6,0.0,0.0,M,intermediate,F,major
-Mr. Emerson,Mr. Beebe,6,6,24,0.0027777777777777957,0.006944444444444461,M,intermediate,M,major
-Mr. Vyse,Lucy,9,30,162,0.01564002599090317,0.014403292181069944,M,intermediate,,
-Mrs. Honeychurch,Cecil,9,14,65,0.026695526695526682,0.03296703296703295,F,major,,
-Mrs. Honeychurch,Freddy,9,29,154,0.030379688425665425,0.027093596059113295,F,major,M,intermediate
-Mrs. Honeychurch,George Emerson,7,5,28,-0.05476190476190479,-0.05000000000000003,F,major,M,intermediate
-Mrs. Honeychurch,Lucy,9,52,265,0.032844124425366314,0.025108853410740196,F,major,,
-Mrs. Honeychurch,Miss Bartlett,6,3,18,0.0,0.0,F,major,F,major
-Mrs. Honeychurch,Mr. Beebe,7,5,25,-0.05714285714285717,-0.05600000000000003,F,major,M,major
-Mrs. Honeychurch,Sir Harry Otway,4,3,12,0.0,0.0,F,major,M,minor
-Mrs. Vyse,Cecil,4,3,12,0.0,0.0,F,minor,,
-Rev. Cuthbert Eager,Lucy,8,9,46,-0.05133928571428571,-0.05555555555555555,M,intermediate,,
-Rev. Cuthbert Eager,Miss Bartlett,9,8,51,-0.057407407407407414,-0.04656862745098039,M,intermediate,F,major
-Rev. Cuthbert Eager,Miss Lavish,7,3,21,0.0,0.0,M,intermediate,F,intermediate
-Sir Harry Otway,Lucy,5,4,18,0.04999999999999999,0.04166666666666666,M,minor,,
+Mr. Beebe,Mr. Emerson,7,11,41,-0.013110698824984548,-0.01773835920177385,M,major,M,intermediate
+Mr. Beebe,Mrs. Honeychurch,8,8,41,0.07708333333333334,0.07317073170731707,M,major,F,major
+Mr. Emerson,Freddy,6,3,18,0.0,0.0,M,intermediate,M,intermediate
+Mr. Emerson,George Emerson,9,9,47,0.14135802469135805,0.1252955082742317,M,intermediate,M,intermediate
+Mr. Emerson,Lucy,9,36,194,0.0343814831353905,0.02878006872852235,M,intermediate,,
+Mr. Emerson,Mr. Beebe,6,6,21,0.011111111111111118,-5.28677630773884e-18,M,intermediate,M,major
+Mr. Vyse,George Emerson,3,3,9,0.0,0.0,M,intermediate,M,intermediate
+Mr. Vyse,Lucy,9,30,161,0.006397467453800749,0.008695652173913052,M,intermediate,,
+Mrs. Honeychurch,Cecil,8,14,48,0.18501984126984128,0.1636904761904762,F,major,,
+Mrs. Honeychurch,Freddy,9,29,149,-0.04723370499232567,-0.035177042351307544,F,major,M,intermediate
+Mrs. Honeychurch,George Emerson,1,5,3,0.19999999999999996,0.19999999999999996,F,major,M,intermediate
+Mrs. Honeychurch,Lucy,9,52,242,0.045508685214567586,0.038461538461538484,F,major,,
+Mrs. Honeychurch,Miss Bartlett,4,3,12,0.0,0.0,F,major,F,major
+Mrs. Honeychurch,Mr. Beebe,5,5,20,0.056666666666666664,0.05,F,major,M,major
+Rev. Cuthbert Eager,Lucy,7,9,35,0.12528344671201816,0.10476190476190476,M,intermediate,,
+Rev. Cuthbert Eager,Miss Bartlett,8,8,37,0.027678571428571427,0.02364864864864865,M,intermediate,F,major
+Rev. Cuthbert Eager,Miss Lavish,1,3,3,0.0,0.0,M,intermediate,F,intermediate
+Rev. Cuthbert Eager,Mr. Emerson,3,3,9,0.0,0.0,M,intermediate,M,intermediate
+Sir Harry Otway,Cecil,5,3,15,0.0,0.0,M,minor,,
+Sir Harry Otway,Lucy,1,4,4,0.0,0.0,M,minor,,

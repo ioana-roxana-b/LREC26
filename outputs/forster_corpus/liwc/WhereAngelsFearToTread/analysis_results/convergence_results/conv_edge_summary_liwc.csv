@@ -1,26 +1,25 @@
 ﻿a_speaker,b_speaker,n_features,n_pairs,n_triggers_total,mean_conv,mean_conv_w,a_gender,a_category,b_gender,b_category
-Caroline Abbott,Harriet,5,3,15,0.0,0.0,F,major,F,major
-Caroline Abbott,Mr. Herriton,9,122,655,0.02872493223977254,0.023050932298836167,F,major,M,major
-Caroline Abbott,Mrs. Herriton,3,4,12,0.0,0.0,F,major,F,intermediate
-Caroline Abbott,Signor Carella,9,35,148,0.008071352515796956,-0.008301158301158308,F,major,M,major
-Harriet,Caroline Abbott,4,5,18,-0.012500000000000011,-0.01111111111111112,F,major,F,major
-Harriet,Mr. Herriton,9,64,314,0.02245967577473425,0.021994426751592352,F,major,M,major
-Harriet,Mrs. Herriton,6,11,34,0.03073593073593071,0.04010695187165773,F,major,F,intermediate
+Caroline Abbott,Harriet,2,3,6,0.0,0.0,F,major,F,major
+Caroline Abbott,Mr. Herriton,9,122,597,0.0036183186657615294,0.004572040530521461,F,major,M,major
+Caroline Abbott,Mrs. Herriton,1,4,3,0.0,0.0,F,major,F,intermediate
+Caroline Abbott,Signor Carella,9,35,144,-0.028967093660076097,-0.019246031746031726,F,major,M,major
+Harriet,Caroline Abbott,4,5,13,-0.11250000000000002,-0.10769230769230773,F,major,F,major
+Harriet,Mr. Herriton,9,64,297,0.035263487409805234,0.032460016835016835,F,major,M,major
+Harriet,Mrs. Herriton,7,11,30,-0.047680890538033385,-0.04848484848484847,F,major,F,intermediate
 Irma,Mrs. Herriton,1,3,3,0.0,0.0,F,minor,F,intermediate
-Lilia,Mr. Herriton,9,12,71,0.052805836139169456,0.03873239436619717,F,intermediate,M,major
-Lilia,Signor Carella,9,15,54,0.03597883597883598,-0.0037037037037037112,F,intermediate,M,major
-Mr. Herriton,Caroline Abbott,9,116,591,0.010366141286370058,0.008489410117276375,M,major,F,major
-Mr. Herriton,Harriet,9,62,310,0.04899913271202521,0.03792924037460977,M,major,F,major
-Mr. Herriton,Lilia,9,10,65,-0.056481481481481494,-0.0476923076923077,M,major,F,intermediate
-Mr. Herriton,Little Girl,3,3,9,0.0,0.0,M,major,F,minor
-Mr. Herriton,Mrs. Herriton,9,44,233,0.017392222162753587,0.014436207569254806,M,major,F,intermediate
-Mr. Herriton,Signor Carella,8,11,50,-0.006277056277056266,-0.021818181818181806,M,major,M,major
-Mrs. Herriton,Caroline Abbott,8,6,36,0.08333333333333334,0.06944444444444445,F,intermediate,F,major
-Mrs. Herriton,Harriet,9,12,77,-0.05886243386243387,-0.043290043290043295,F,intermediate,F,major
-Mrs. Herriton,Mr. Herriton,9,41,265,-0.005696889192066167,-0.007086976530142689,F,intermediate,M,major
-Signor Carella,Caroline Abbott,9,35,179,0.024560548857224054,0.020430965682362336,M,major,F,major
-Signor Carella,Lilia,9,18,80,-0.10154968488301822,-0.07638888888888891,M,major,F,intermediate
-Signor Carella,Mr. Herriton,9,14,61,0.027320827320827315,0.023419203747072598,M,major,M,major
-Signor Carella,Spiridione,9,17,81,0.09860063683593095,0.0980392156862745,M,major,M,intermediate
-Spiridione,Signor Carella,9,18,107,0.04336018919352252,0.03530633437175492,M,intermediate,M,major
-The Landlady,Mr. Herriton,4,4,12,0.02083333333333333,0.02083333333333333,F,minor,M,major
+Lilia,Mr. Herriton,8,12,54,0.14761904761904765,0.12962962962962965,F,intermediate,M,major
+Lilia,Signor Carella,8,15,63,0.029464285714285728,0.03174603174603176,F,intermediate,M,major
+Mr. Herriton,Caroline Abbott,9,116,550,0.03507716521910307,0.03573667711598747,M,major,F,major
+Mr. Herriton,Harriet,9,62,270,0.002289190659555561,0.011827956989247304,M,major,F,major
+Mr. Herriton,Lilia,8,10,45,-0.017063492063492055,-0.002222222222222212,M,major,F,intermediate
+Mr. Herriton,Mrs. Herriton,9,44,211,-0.008391884203243244,-0.010017233950883258,M,major,F,intermediate
+Mr. Herriton,Signor Carella,8,11,61,0.08054202741702743,0.07749627421758572,M,major,M,major
+Mrs. Herriton,Caroline Abbott,8,6,34,0.004166666666666666,3.2653618371328133e-18,F,intermediate,F,major
+Mrs. Herriton,Harriet,9,12,64,0.06975308641975307,0.06901041666666666,F,intermediate,F,major
+Mrs. Herriton,Mr. Herriton,9,41,169,-0.05175892639995908,-0.03867801991629385,F,intermediate,M,major
+Signor Carella,Caroline Abbott,9,35,174,0.021189051940325283,0.0001642036124794676,M,major,F,major
+Signor Carella,Lilia,8,18,81,0.03611492673992676,0.03155006858710564,M,major,F,intermediate
+Signor Carella,Mr. Herriton,8,14,68,0.018235930735930724,-1.7959490104230474e-17,M,major,M,major
+Signor Carella,Spiridione,9,17,90,0.02490733667204255,0.022222222222222223,M,major,M,intermediate
+Spiridione,Signor Carella,9,18,83,-0.09834054834054837,-0.07028112449799198,M,intermediate,M,major
+The Landlady,Mr. Herriton,4,4,12,0.10416666666666664,0.10416666666666663,F,minor,M,major

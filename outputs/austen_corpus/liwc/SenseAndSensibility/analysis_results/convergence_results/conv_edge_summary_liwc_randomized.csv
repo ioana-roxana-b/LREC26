@@ -1,58 +1,58 @@
 ﻿a_speaker,b_speaker,n_features,n_pairs,n_triggers_total,mean_conv,mean_conv_w,a_gender,a_category,b_gender,b_category
-Anne Steele,Elinor,9,9,71,-0.01895943562610228,-0.017214397496087625,F,intermediate,F,major
-Anne Steele,Lucy Steele,8,7,44,0.009523809523809539,0.006493506493506509,F,intermediate,F,intermediate
-Charlotte,Elinor,9,10,78,0.020987654320987655,0.017948717948717947,F,intermediate,F,major
-Charlotte,Mr. Palmer,9,6,46,-0.005555555555555536,-0.007246376811594185,F,intermediate,M,minor
-Colonel Brandon,Elinor,9,20,146,0.011605989469766542,0.015068493150684915,M,intermediate,F,major
-Colonel Brandon,Mrs. Jennings,9,9,50,0.05776014109347443,0.01777777777777778,M,intermediate,F,intermediate
-Edward Ferrars,Elinor,9,15,98,-0.0030636030636030744,0.004081632653061212,M,intermediate,F,major
-Edward Ferrars,Marianne,9,18,108,-0.05421221842790469,-0.04578189300411521,M,intermediate,F,major
-Edward Ferrars,Mrs. Dashwood,8,5,37,-0.0062500000000000056,-0.00540540540540541,M,intermediate,F,intermediate
-Elinor,Anne Steele,9,10,69,-0.002425044091710787,-0.0043478260869565495,F,major,F,intermediate
-Elinor,Charlotte,9,10,47,-0.020370370370370372,-0.019148936170212766,F,major,F,intermediate
-Elinor,Colonel Brandon,9,21,127,-0.037804751530241716,-0.02962129733783276,F,major,M,intermediate
-Elinor,Edward Ferrars,9,17,108,0.006433145648831943,0.0027233115468409817,F,major,M,intermediate
-Elinor,John Dashwood,9,21,119,-0.01860304727951785,-0.006002400960384136,F,major,M,intermediate
-Elinor,Lucy Steele,9,34,206,-0.020354724108594045,-0.01770416904625925,F,major,F,intermediate
-Elinor,Margaret,6,3,18,0.0,0.0,F,major,F,minor
-Elinor,Marianne,9,63,401,0.01619160360202228,0.015160511419863076,F,major,F,major
-Elinor,Mr. Willoughby,9,38,227,-0.018999759774931402,-0.009506144215163454,F,major,M,intermediate
-Elinor,Mrs. Dashwood,9,20,137,-0.0258785332314744,-0.021532846715328464,F,major,F,intermediate
-Elinor,Mrs. Jennings,9,22,139,-0.017656771333241925,-0.015696533682145197,F,major,F,intermediate
-Fanny,John Dashwood,9,12,95,-0.0026936026936026864,-0.003508771929824555,F,minor,M,intermediate
-John Dashwood,Elinor,9,21,170,-0.003842940685045932,-0.0022408963585433994,M,intermediate,F,major
-John Dashwood,Fanny,9,13,103,-0.021863938530605198,-0.016430171769977596,M,intermediate,F,minor
-John Dashwood,Mrs. Jennings,9,6,52,-0.014814814814814812,-0.012820512820512818,M,intermediate,F,intermediate
+Anne Steele,Elinor,9,9,52,-0.05317460317460316,-0.04914529914529913,F,intermediate,F,major
+Anne Steele,Lucy Steele,9,7,47,-0.06878306878306878,-0.06382978723404256,F,intermediate,F,intermediate
+Charlotte,Elinor,9,10,61,-0.02380952380952381,-0.0065573770491803305,F,intermediate,F,major
+Charlotte,Mr. Palmer,9,6,44,0.027777777777777776,0.022727272727272728,F,intermediate,M,minor
+Colonel Brandon,Elinor,9,20,122,0.018887496519075446,0.016393442622950807,M,intermediate,F,major
+Colonel Brandon,Mrs. Jennings,9,9,59,-0.00705467372134035,0.0018832391713747992,M,intermediate,F,intermediate
+Edward Ferrars,Elinor,9,15,124,-0.00020350020350019045,-0.0005376344086021397,M,intermediate,F,major
+Edward Ferrars,Marianne,9,18,114,-0.019811053144386477,-0.013157894736842108,M,intermediate,F,major
+Edward Ferrars,Mrs. Dashwood,9,5,43,-0.00555555555555556,-0.004651162790697679,M,intermediate,F,intermediate
+Elinor,Anne Steele,9,10,81,-0.040740740740740744,-0.037037037037037035,F,major,F,intermediate
+Elinor,Charlotte,9,10,84,-0.0021604938271604984,-0.0011904761904761943,F,major,F,intermediate
+Elinor,Colonel Brandon,9,21,141,-0.009192916932855004,-0.009118541033434643,F,major,M,intermediate
+Elinor,Edward Ferrars,9,17,138,0.011764705882352974,0.010656436487638565,F,major,M,intermediate
+Elinor,John Dashwood,9,21,166,-0.0023809523809523846,-0.0011474469305794647,F,major,M,intermediate
+Elinor,Lucy Steele,9,34,258,0.007278680276304911,0.007181942544459644,F,major,F,intermediate
+Elinor,Marianne,9,63,443,-0.009551065176377778,-0.008527715073990465,F,major,F,major
+Elinor,Mr. Willoughby,9,38,239,-0.023679680312807254,-0.020590178374807318,F,major,M,intermediate
+Elinor,Mrs. Dashwood,9,20,133,0.0074786324786325015,0.006766917293233102,F,major,F,intermediate
+Elinor,Mrs. Jennings,9,22,158,0.009147170911876779,0.003452243958573058,F,major,F,intermediate
+Fanny,John Dashwood,9,12,92,0.027272727272727275,0.019927536231884056,F,minor,M,intermediate
+John Dashwood,Elinor,9,21,158,-0.0018119288501125357,-0.0021097046413502034,M,intermediate,F,major
+John Dashwood,Fanny,9,13,99,0.012703962703962715,0.006993006993007002,M,intermediate,F,minor
+John Dashwood,Mrs. Jennings,8,6,28,0.047916666666666635,0.04166666666666664,M,intermediate,F,intermediate
 John Middleton,Colonel Brandon,3,3,9,0.0,0.0,M,intermediate,M,intermediate
-John Middleton,Elinor,7,4,25,-0.04761904761904762,-0.04,M,intermediate,F,major
-John Middleton,Lady Middleton,4,3,12,0.0,0.0,M,intermediate,F,minor
-John Middleton,Marianne,5,4,20,0.0,0.0,M,intermediate,F,major
+John Middleton,Elinor,7,4,24,-0.08333333333333336,-0.07291666666666667,M,intermediate,F,major
+John Middleton,Lady Middleton,1,3,3,0.0,0.0,M,intermediate,F,minor
+John Middleton,Marianne,6,4,20,0.08333333333333333,0.075,M,intermediate,F,major
 John Middleton,Mrs. Dashwood,4,3,12,0.0,0.0,M,intermediate,F,intermediate
-John Middleton,Mrs. Jennings,7,3,21,0.0,0.0,M,intermediate,F,intermediate
-Lady Middleton,Mrs. Jennings,3,3,9,0.0,0.0,F,minor,F,intermediate
-Lucy Steele,Anne Steele,6,4,19,0.08333333333333333,0.07894736842105263,F,intermediate,F,intermediate
-Lucy Steele,Elinor,9,35,268,-0.005170450714737386,-0.004371002132196151,F,intermediate,F,major
-Lucy Steele,Mrs. Jennings,3,3,9,0.0,0.0,F,intermediate,F,intermediate
-Margaret,Marianne,2,3,6,0.0,0.0,F,minor,F,major
-Marianne,Edward Ferrars,9,15,91,0.02818816985483652,0.024908424908424917,F,major,M,intermediate
-Marianne,Elinor,9,69,434,-0.0366190674362312,-0.03048821211514057,F,major,F,major
-Marianne,John Middleton,6,5,27,0.013888888888888876,0.007407407407407397,F,major,M,intermediate
-Marianne,Margaret,1,3,3,0.0,0.0,F,major,F,minor
-Marianne,Mrs. Dashwood,9,10,76,-0.034700176366843055,-0.025000000000000022,F,major,F,intermediate
-Mr. Palmer,Charlotte,4,5,14,-0.01666666666666669,-0.014285714285714306,M,minor,F,intermediate
-Mr. Willoughby,Elinor,9,36,270,-0.010733636308348967,-0.01100823045267491,M,intermediate,F,major
-Mr. Willoughby,Marianne,9,5,43,0.011111111111111108,0.009302325581395347,M,intermediate,F,major
-Mr. Willoughby,Mrs. Dashwood,9,6,37,-0.018518518518518528,-0.004504504504504506,M,intermediate,F,intermediate
-Mrs. Dashwood,Edward Ferrars,9,6,46,-0.012962962962962966,-0.010869565217391308,F,intermediate,M,intermediate
-Mrs. Dashwood,Elinor,9,23,171,-0.03084086426113169,-0.023391812865497085,F,intermediate,F,major
-Mrs. Dashwood,John Middleton,2,3,6,0.0,0.0,F,intermediate,M,intermediate
-Mrs. Dashwood,Marianne,9,11,88,0.022446689113355775,0.017561983471074374,F,intermediate,F,major
-Mrs. Dashwood,Mr. Willoughby,6,5,27,0.008333333333333331,0.007407407407407406,F,intermediate,M,intermediate
-Mrs. Dashwood,Thomas,5,8,24,-0.04166666666666667,-0.03125000000000001,F,intermediate,,
-Mrs. Jennings,Anne Steele,6,5,27,0.061111111111111095,0.04444444444444443,F,intermediate,F,intermediate
-Mrs. Jennings,Colonel Brandon,9,9,50,-0.026014109347442676,4.440892098500626e-18,F,intermediate,M,intermediate
-Mrs. Jennings,Elinor,9,27,216,0.022808735369121882,0.021604938271604975,F,intermediate,F,major
-Mrs. Jennings,John Dashwood,6,6,26,-0.013888888888888895,-0.012820512820512827,F,intermediate,M,intermediate
-Mrs. Jennings,John Middleton,6,3,18,0.0,0.0,F,intermediate,M,intermediate
-Mrs. Jennings,Marianne,8,6,41,0.10000000000000003,0.09349593495934964,F,intermediate,F,major
-Thomas,Mrs. Dashwood,9,8,51,0.041666666666666664,0.03676470588235294,,,F,intermediate
+John Middleton,Mrs. Jennings,9,3,27,0.0,0.0,M,intermediate,F,intermediate
+Lady Middleton,Mrs. Jennings,5,3,15,0.0,0.0,F,minor,F,intermediate
+Lucy Steele,Anne Steele,9,4,34,0.009259259259259252,0.007352941176470582,F,intermediate,F,intermediate
+Lucy Steele,Elinor,9,35,256,-0.010738685518910829,-0.010267857142857132,F,intermediate,F,major
+Lucy Steele,Mrs. Jennings,2,3,6,0.0,0.0,F,intermediate,F,intermediate
+Margaret,Marianne,4,3,12,0.0,0.0,F,minor,F,major
+Marianne,Edward Ferrars,9,15,91,-0.05753289919956587,-0.04688644688644689,F,major,M,intermediate
+Marianne,Elinor,9,69,484,-0.006592515483101715,-0.004371781051622951,F,major,F,major
+Marianne,John Middleton,9,5,39,0.046296296296296294,0.041025641025641026,F,major,M,intermediate
+Marianne,Margaret,8,3,24,0.0,0.0,F,major,F,minor
+Marianne,Mr. Willoughby,5,3,15,0.0,0.0,F,major,M,intermediate
+Marianne,Mrs. Dashwood,9,10,63,-0.04444444444444446,-0.04761904761904763,F,major,F,intermediate
+Mr. Palmer,Charlotte,8,5,33,-0.022916666666666682,-0.018181818181818195,M,minor,F,intermediate
+Mr. Willoughby,Elinor,9,36,259,0.03567183165077765,0.03174603174603173,M,intermediate,F,major
+Mr. Willoughby,Marianne,6,5,21,0.04444444444444442,0.03809523809523807,M,intermediate,F,major
+Mr. Willoughby,Mrs. Dashwood,9,6,50,0.03703703703703703,0.02666666666666666,M,intermediate,F,intermediate
+Mrs. Dashwood,Edward Ferrars,8,6,38,0.058333333333333334,0.04385964912280702,F,intermediate,M,intermediate
+Mrs. Dashwood,Elinor,9,23,174,0.0085834187283463,0.00874562718640683,F,intermediate,F,major
+Mrs. Dashwood,John Middleton,3,3,9,0.0,0.0,F,intermediate,M,intermediate
+Mrs. Dashwood,Marianne,9,11,84,0.023621131954465288,0.018398268398268403,F,intermediate,F,major
+Mrs. Dashwood,Mr. Willoughby,8,5,40,0.0,0.0,F,intermediate,M,intermediate
+Mrs. Dashwood,Thomas,8,8,50,-0.002232142857142863,-0.012500000000000006,F,intermediate,,
+Mrs. Jennings,Anne Steele,6,5,26,-0.005555555555555573,-0.0076923076923077075,F,intermediate,F,intermediate
+Mrs. Jennings,Colonel Brandon,9,9,70,-0.05026455026455025,-0.04126984126984125,F,intermediate,M,intermediate
+Mrs. Jennings,Elinor,9,27,204,-0.011779818574885938,-0.01107480029048655,F,intermediate,F,major
+Mrs. Jennings,John Dashwood,6,6,28,-0.11666666666666665,-0.08928571428571427,F,intermediate,M,intermediate
+Mrs. Jennings,John Middleton,9,3,27,0.0,0.0,F,intermediate,M,intermediate
+Mrs. Jennings,Marianne,9,6,46,0.05000000000000001,0.043478260869565216,F,intermediate,F,major
+Thomas,Mrs. Dashwood,9,8,56,-0.04642857142857144,-0.03125000000000001,,,F,intermediate

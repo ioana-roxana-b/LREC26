@@ -1,171 +1,186 @@
 ﻿a_speaker,b_speaker,family,n_pairs,n_triggers,n_b_positives_given_trigger,p1,p0,conv,a_gender,a_category,b_gender,b_category
-Bill Sikes,Fagin,adverbs,5,3,0,0.0,0.0,0.0,M,major,M,major
-Bill Sikes,Fagin,articles,5,5,0,0.0,0.0,0.0,M,major,M,major
-Bill Sikes,Fagin,conjunctions,5,3,1,0.3333333333333333,0.4,-0.06666666666666671,M,major,M,major
-Bill Sikes,Fagin,personal_pronouns,5,5,3,0.6,0.6,0.0,M,major,M,major
-Bill Sikes,Fagin,prepositions,5,4,1,0.25,0.2,0.04999999999999999,M,major,M,major
-Bill Sikes,Nance,adverbs,8,6,2,0.3333333333333333,0.5,-0.16666666666666669,M,major,F,major
-Bill Sikes,Nance,articles,8,5,2,0.4,0.25,0.15000000000000002,M,major,F,major
-Bill Sikes,Nance,auxiliary_verbs,8,6,4,0.6666666666666666,0.625,0.04166666666666663,M,major,F,major
-Bill Sikes,Nance,conjunctions,8,8,2,0.25,0.25,0.0,M,major,F,major
-Bill Sikes,Nance,impersonal_pronouns,8,6,3,0.5,0.5,0.0,M,major,F,major
-Bill Sikes,Nance,personal_pronouns,8,7,3,0.42857142857142855,0.375,0.05357142857142855,M,major,F,major
-Bill Sikes,Nance,prepositions,8,7,2,0.2857142857142857,0.375,-0.0892857142857143,M,major,F,major
-Bill Sikes,Nance,quantifiers,8,5,3,0.6,0.625,-0.025000000000000022,M,major,F,major
-Bill Sikes,Toby Crackit,articles,4,4,4,1.0,1.0,0.0,M,major,M,intermediate
-Charley Bates,Fagin,articles,4,3,3,1.0,1.0,0.0,M,intermediate,M,major
-Charley Bates,Fagin,auxiliary_verbs,4,4,3,0.75,0.75,0.0,M,intermediate,M,major
-Charley Bates,Fagin,personal_pronouns,4,4,4,1.0,1.0,0.0,M,intermediate,M,major
+Barney,Bill Sikes,personal_pronouns,3,3,3,1.0,1.0,0.0,M,minor,M,major
+Bill Sikes,Fagin,adverbs,5,4,3,0.75,0.6,0.15000000000000002,M,major,M,major
+Bill Sikes,Fagin,auxiliary_verbs,5,5,3,0.6,0.6,0.0,M,major,M,major
+Bill Sikes,Fagin,conjunctions,5,4,2,0.5,0.6,-0.09999999999999998,M,major,M,major
+Bill Sikes,Fagin,impersonal_pronouns,5,4,3,0.75,0.8,-0.050000000000000044,M,major,M,major
+Bill Sikes,Fagin,negations,5,3,1,0.3333333333333333,0.4,-0.06666666666666671,M,major,M,major
+Bill Sikes,Fagin,personal_pronouns,5,5,5,1.0,1.0,0.0,M,major,M,major
+Bill Sikes,Fagin,prepositions,5,4,3,0.75,0.8,-0.050000000000000044,M,major,M,major
+Bill Sikes,Fagin,quantifiers,5,3,0,0.0,0.0,0.0,M,major,M,major
+Bill Sikes,Nance,adverbs,8,5,3,0.6,0.5,0.09999999999999998,M,major,F,major
+Bill Sikes,Nance,articles,8,4,2,0.5,0.625,-0.125,M,major,F,major
+Bill Sikes,Nance,auxiliary_verbs,8,7,3,0.42857142857142855,0.5,-0.07142857142857145,M,major,F,major
+Bill Sikes,Nance,conjunctions,8,4,1,0.25,0.375,-0.125,M,major,F,major
+Bill Sikes,Nance,impersonal_pronouns,8,4,3,0.75,0.75,0.0,M,major,F,major
+Bill Sikes,Nance,negations,8,3,0,0.0,0.0,0.0,M,major,F,major
+Bill Sikes,Nance,personal_pronouns,8,7,3,0.42857142857142855,0.5,-0.07142857142857145,M,major,F,major
+Bill Sikes,Nance,prepositions,8,6,3,0.5,0.625,-0.125,M,major,F,major
+Bill Sikes,Nance,quantifiers,8,3,1,0.3333333333333333,0.125,0.20833333333333331,M,major,F,major
+Bill Sikes,Toby Crackit,auxiliary_verbs,4,3,2,0.6666666666666666,0.75,-0.08333333333333337,M,major,M,intermediate
+Bill Sikes,Toby Crackit,impersonal_pronouns,4,3,1,0.3333333333333333,0.25,0.08333333333333331,M,major,M,intermediate
+Bill Sikes,Toby Crackit,personal_pronouns,4,4,3,0.75,0.75,0.0,M,major,M,intermediate
+Bill Sikes,Toby Crackit,prepositions,4,4,3,0.75,0.75,0.0,M,major,M,intermediate
+Charley Bates,Fagin,articles,4,3,0,0.0,0.0,0.0,M,intermediate,M,major
+Charley Bates,Fagin,personal_pronouns,4,4,3,0.75,0.75,0.0,M,intermediate,M,major
+Charley Bates,Fagin,prepositions,4,3,1,0.3333333333333333,0.5,-0.16666666666666669,M,intermediate,M,major
+Charley Bates,Oliver Twist,adverbs,3,3,2,0.6666666666666666,0.6666666666666666,0.0,M,intermediate,M,major
+Charley Bates,Oliver Twist,auxiliary_verbs,3,3,2,0.6666666666666666,0.6666666666666666,0.0,M,intermediate,M,major
+Charley Bates,Oliver Twist,conjunctions,3,3,2,0.6666666666666666,0.6666666666666666,0.0,M,intermediate,M,major
+Charley Bates,Oliver Twist,impersonal_pronouns,3,3,2,0.6666666666666666,0.6666666666666666,0.0,M,intermediate,M,major
+Charley Bates,Oliver Twist,personal_pronouns,3,3,3,1.0,1.0,0.0,M,intermediate,M,major
+Charley Bates,Oliver Twist,prepositions,3,3,2,0.6666666666666666,0.6666666666666666,0.0,M,intermediate,M,major
 Fagin,Bill Sikes,adverbs,5,4,2,0.5,0.4,0.09999999999999998,M,major,M,major
-Fagin,Bill Sikes,articles,5,3,0,0.0,0.2,-0.2,M,major,M,major
-Fagin,Bill Sikes,auxiliary_verbs,5,4,3,0.75,0.8,-0.050000000000000044,M,major,M,major
+Fagin,Bill Sikes,articles,5,3,1,0.3333333333333333,0.4,-0.06666666666666671,M,major,M,major
+Fagin,Bill Sikes,auxiliary_verbs,5,3,3,1.0,1.0,0.0,M,major,M,major
 Fagin,Bill Sikes,conjunctions,5,3,2,0.6666666666666666,0.6,0.06666666666666665,M,major,M,major
-Fagin,Bill Sikes,impersonal_pronouns,5,3,2,0.6666666666666666,0.8,-0.13333333333333341,M,major,M,major
-Fagin,Bill Sikes,personal_pronouns,5,5,5,1.0,1.0,0.0,M,major,M,major
+Fagin,Bill Sikes,impersonal_pronouns,5,4,2,0.5,0.6,-0.09999999999999998,M,major,M,major
+Fagin,Bill Sikes,personal_pronouns,5,4,4,1.0,1.0,0.0,M,major,M,major
 Fagin,Bill Sikes,prepositions,5,4,3,0.75,0.8,-0.050000000000000044,M,major,M,major
-Fagin,Charley Bates,adverbs,7,5,4,0.8,0.7142857142857143,0.08571428571428574,M,major,M,intermediate
-Fagin,Charley Bates,auxiliary_verbs,7,5,4,0.8,0.8571428571428571,-0.05714285714285705,M,major,M,intermediate
-Fagin,Charley Bates,conjunctions,7,3,2,0.6666666666666666,0.5714285714285714,0.09523809523809523,M,major,M,intermediate
-Fagin,Charley Bates,impersonal_pronouns,7,5,2,0.4,0.42857142857142855,-0.028571428571428525,M,major,M,intermediate
+Fagin,Charley Bates,adverbs,7,4,3,0.75,0.7142857142857143,0.0357142857142857,M,major,M,intermediate
+Fagin,Charley Bates,auxiliary_verbs,7,4,3,0.75,0.7142857142857143,0.0357142857142857,M,major,M,intermediate
+Fagin,Charley Bates,impersonal_pronouns,7,3,1,0.3333333333333333,0.5714285714285714,-0.23809523809523808,M,major,M,intermediate
+Fagin,Charley Bates,negations,7,3,0,0.0,0.14285714285714285,-0.14285714285714285,M,major,M,intermediate
 Fagin,Charley Bates,personal_pronouns,7,5,4,0.8,0.8571428571428571,-0.05714285714285705,M,major,M,intermediate
-Fagin,Charley Bates,prepositions,7,4,3,0.75,0.5714285714285714,0.1785714285714286,M,major,M,intermediate
-Fagin,Nance,articles,5,3,2,0.6666666666666666,0.4,0.2666666666666666,M,major,F,major
-Fagin,Nance,auxiliary_verbs,5,3,0,0.0,0.2,-0.2,M,major,F,major
-Fagin,Nance,impersonal_pronouns,5,3,1,0.3333333333333333,0.4,-0.06666666666666671,M,major,F,major
-Fagin,Nance,personal_pronouns,5,4,3,0.75,0.8,-0.050000000000000044,M,major,F,major
-Fagin,The Artful Dodger,adverbs,3,3,1,0.3333333333333333,0.3333333333333333,0.0,M,major,M,intermediate
-Fagin,The Artful Dodger,articles,3,3,2,0.6666666666666666,0.6666666666666666,0.0,M,major,M,intermediate
-Fagin,The Artful Dodger,personal_pronouns,3,3,3,1.0,1.0,0.0,M,major,M,intermediate
-Harry Maylie,Oliver Twist,auxiliary_verbs,3,3,1,0.3333333333333333,0.3333333333333333,0.0,M,intermediate,M,major
-Harry Maylie,Oliver Twist,personal_pronouns,3,3,3,1.0,1.0,0.0,M,intermediate,M,major
-Kags,Toby Crackit,adverbs,4,3,3,1.0,1.0,0.0,M,minor,M,intermediate
-Kags,Toby Crackit,personal_pronouns,4,3,3,1.0,0.75,0.25,M,minor,M,intermediate
-Kags,Toby Crackit,prepositions,4,3,3,1.0,1.0,0.0,M,minor,M,intermediate
-Mr. Brittles,Mr. Giles,articles,4,3,2,0.6666666666666666,0.75,-0.08333333333333337,M,minor,M,intermediate
-Mr. Brittles,Mr. Giles,personal_pronouns,4,3,3,1.0,1.0,0.0,M,minor,M,intermediate
-Mr. Brownlow,Mr. Grimwig,adverbs,4,4,2,0.5,0.5,0.0,M,major,M,intermediate
-Mr. Brownlow,Mr. Grimwig,articles,4,4,3,0.75,0.75,0.0,M,major,M,intermediate
-Mr. Brownlow,Mr. Grimwig,auxiliary_verbs,4,4,4,1.0,1.0,0.0,M,major,M,intermediate
+Fagin,Charley Bates,prepositions,7,5,3,0.6,0.7142857142857143,-0.11428571428571432,M,major,M,intermediate
+Fagin,Charley Bates,quantifiers,7,4,0,0.0,0.2857142857142857,-0.2857142857142857,M,major,M,intermediate
+Fagin,Nance,adverbs,5,4,3,0.75,0.8,-0.050000000000000044,M,major,F,major
+Fagin,Nance,articles,5,3,1,0.3333333333333333,0.4,-0.06666666666666671,M,major,F,major
+Fagin,Nance,auxiliary_verbs,5,5,4,0.8,0.8,0.0,M,major,F,major
+Fagin,Nance,conjunctions,5,5,4,0.8,0.8,0.0,M,major,F,major
+Fagin,Nance,impersonal_pronouns,5,4,2,0.5,0.6,-0.09999999999999998,M,major,F,major
+Fagin,Nance,personal_pronouns,5,4,4,1.0,1.0,0.0,M,major,F,major
+Fagin,Nance,prepositions,5,5,4,0.8,0.8,0.0,M,major,F,major
+Harry Maylie,Oliver Twist,auxiliary_verbs,3,3,2,0.6666666666666666,0.6666666666666666,0.0,M,intermediate,M,major
+Harry Maylie,Oliver Twist,personal_pronouns,3,3,2,0.6666666666666666,0.6666666666666666,0.0,M,intermediate,M,major
+Harry Maylie,Oliver Twist,quantifiers,3,3,2,0.6666666666666666,0.6666666666666666,0.0,M,intermediate,M,major
+Kags,Toby Crackit,adverbs,4,3,2,0.6666666666666666,0.75,-0.08333333333333337,M,minor,M,intermediate
+Kags,Toby Crackit,articles,4,3,1,0.3333333333333333,0.25,0.08333333333333331,M,minor,M,intermediate
+Kags,Toby Crackit,auxiliary_verbs,4,3,1,0.3333333333333333,0.25,0.08333333333333331,M,minor,M,intermediate
+Kags,Toby Crackit,conjunctions,4,4,1,0.25,0.25,0.0,M,minor,M,intermediate
+Kags,Toby Crackit,impersonal_pronouns,4,4,1,0.25,0.25,0.0,M,minor,M,intermediate
+Kags,Toby Crackit,personal_pronouns,4,4,2,0.5,0.5,0.0,M,minor,M,intermediate
+Kags,Toby Crackit,prepositions,4,4,2,0.5,0.5,0.0,M,minor,M,intermediate
+Kags,Toby Crackit,quantifiers,4,3,0,0.0,0.25,-0.25,M,minor,M,intermediate
+Mr. Brittles,Mr. Giles,auxiliary_verbs,4,4,4,1.0,1.0,0.0,M,minor,M,intermediate
+Mr. Brittles,Mr. Giles,conjunctions,4,3,2,0.6666666666666666,0.5,0.16666666666666663,M,minor,M,intermediate
+Mr. Brittles,Mr. Giles,personal_pronouns,4,4,3,0.75,0.75,0.0,M,minor,M,intermediate
+Mr. Brittles,Mr. Giles,prepositions,4,3,2,0.6666666666666666,0.75,-0.08333333333333337,M,minor,M,intermediate
+Mr. Brownlow,Mr. Grimwig,conjunctions,4,4,3,0.75,0.75,0.0,M,major,M,intermediate
 Mr. Brownlow,Mr. Grimwig,personal_pronouns,4,4,4,1.0,1.0,0.0,M,major,M,intermediate
-Mr. Brownlow,Mr. Grimwig,prepositions,4,4,3,0.75,0.75,0.0,M,major,M,intermediate
-Mr. Brownlow,Oliver Twist,articles,5,3,2,0.6666666666666666,0.4,0.2666666666666666,M,major,M,major
-Mr. Brownlow,Oliver Twist,auxiliary_verbs,5,4,3,0.75,0.6,0.15000000000000002,M,major,M,major
-Mr. Brownlow,Oliver Twist,conjunctions,5,3,1,0.3333333333333333,0.2,0.1333333333333333,M,major,M,major
-Mr. Brownlow,Oliver Twist,impersonal_pronouns,5,4,0,0.0,0.0,0.0,M,major,M,major
-Mr. Brownlow,Oliver Twist,personal_pronouns,5,4,4,1.0,1.0,0.0,M,major,M,major
-Mr. Brownlow,Oliver Twist,prepositions,5,4,0,0.0,0.0,0.0,M,major,M,major
-Mr. Brownlow,Rose Maylie,adverbs,5,4,2,0.5,0.6,-0.09999999999999998,M,major,F,major
-Mr. Brownlow,Rose Maylie,auxiliary_verbs,5,5,3,0.6,0.6,0.0,M,major,F,major
-Mr. Brownlow,Rose Maylie,conjunctions,5,4,3,0.75,0.6,0.15000000000000002,M,major,F,major
-Mr. Brownlow,Rose Maylie,impersonal_pronouns,5,5,3,0.6,0.6,0.0,M,major,F,major
-Mr. Brownlow,Rose Maylie,negations,5,3,0,0.0,0.2,-0.2,M,major,F,major
-Mr. Brownlow,Rose Maylie,personal_pronouns,5,5,4,0.8,0.8,0.0,M,major,F,major
-Mr. Brownlow,Rose Maylie,prepositions,5,5,4,0.8,0.8,0.0,M,major,F,major
-Mr. Brownlow,Rose Maylie,quantifiers,5,3,1,0.3333333333333333,0.2,0.1333333333333333,M,major,F,major
-Mr. Bumble,Monks,impersonal_pronouns,3,3,3,1.0,1.0,0.0,M,major,M,major
-Mr. Bumble,Mrs. Corney,articles,3,3,1,0.3333333333333333,0.3333333333333333,0.0,M,major,F,major
-Mr. Bumble,Mrs. Corney,auxiliary_verbs,3,3,3,1.0,1.0,0.0,M,major,F,major
-Mr. Bumble,Mrs. Mann,articles,4,3,2,0.6666666666666666,0.5,0.16666666666666663,M,major,F,intermediate
-Mr. Bumble,Mrs. Mann,personal_pronouns,4,4,3,0.75,0.75,0.0,M,major,F,intermediate
-Mr. Bumble,Mrs. Mann,prepositions,4,3,2,0.6666666666666666,0.75,-0.08333333333333337,M,major,F,intermediate
-Mr. Chitling,Fagin,adverbs,3,3,3,1.0,1.0,0.0,M,intermediate,M,major
-Mr. Chitling,Fagin,auxiliary_verbs,3,3,2,0.6666666666666666,0.6666666666666666,0.0,M,intermediate,M,major
-Mr. Chitling,Fagin,conjunctions,3,3,1,0.3333333333333333,0.3333333333333333,0.0,M,intermediate,M,major
-Mr. Chitling,Fagin,impersonal_pronouns,3,3,2,0.6666666666666666,0.6666666666666666,0.0,M,intermediate,M,major
-Mr. Chitling,Fagin,personal_pronouns,3,3,2,0.6666666666666666,0.6666666666666666,0.0,M,intermediate,M,major
-Mr. Chitling,Fagin,prepositions,3,3,2,0.6666666666666666,0.6666666666666666,0.0,M,intermediate,M,major
-Mr. Chitling,Kags,adverbs,3,3,3,1.0,1.0,0.0,M,intermediate,M,minor
-Mr. Chitling,Kags,articles,3,3,3,1.0,1.0,0.0,M,intermediate,M,minor
-Mr. Chitling,Kags,auxiliary_verbs,3,3,3,1.0,1.0,0.0,M,intermediate,M,minor
-Mr. Chitling,Kags,conjunctions,3,3,3,1.0,1.0,0.0,M,intermediate,M,minor
-Mr. Chitling,Kags,impersonal_pronouns,3,3,2,0.6666666666666666,0.6666666666666666,0.0,M,intermediate,M,minor
-Mr. Chitling,Kags,personal_pronouns,3,3,3,1.0,1.0,0.0,M,intermediate,M,minor
+Mr. Brownlow,Oliver Twist,adverbs,5,3,0,0.0,0.4,-0.4,M,major,M,major
+Mr. Brownlow,Oliver Twist,conjunctions,5,4,1,0.25,0.4,-0.15000000000000002,M,major,M,major
+Mr. Brownlow,Oliver Twist,personal_pronouns,5,3,3,1.0,0.8,0.19999999999999996,M,major,M,major
+Mr. Brownlow,Oliver Twist,prepositions,5,3,1,0.3333333333333333,0.6,-0.26666666666666666,M,major,M,major
+Mr. Brownlow,Rose Maylie,adverbs,5,4,3,0.75,0.6,0.15000000000000002,M,major,F,major
+Mr. Brownlow,Rose Maylie,articles,5,5,2,0.4,0.4,0.0,M,major,F,major
+Mr. Brownlow,Rose Maylie,auxiliary_verbs,5,4,3,0.75,0.8,-0.050000000000000044,M,major,F,major
+Mr. Brownlow,Rose Maylie,conjunctions,5,3,2,0.6666666666666666,0.4,0.2666666666666666,M,major,F,major
+Mr. Brownlow,Rose Maylie,impersonal_pronouns,5,4,1,0.25,0.4,-0.15000000000000002,M,major,F,major
+Mr. Brownlow,Rose Maylie,personal_pronouns,5,4,4,1.0,1.0,0.0,M,major,F,major
+Mr. Brownlow,Rose Maylie,prepositions,5,5,3,0.6,0.6,0.0,M,major,F,major
+Mr. Brownlow,Rose Maylie,quantifiers,5,3,3,1.0,0.6,0.4,M,major,F,major
+Mr. Bumble,Monks,auxiliary_verbs,3,3,2,0.6666666666666666,0.6666666666666666,0.0,M,major,M,major
+Mr. Bumble,Monks,impersonal_pronouns,3,3,2,0.6666666666666666,0.6666666666666666,0.0,M,major,M,major
+Mr. Bumble,Monks,personal_pronouns,3,3,2,0.6666666666666666,0.6666666666666666,0.0,M,major,M,major
+Mr. Bumble,Mrs. Corney,auxiliary_verbs,3,3,1,0.3333333333333333,0.3333333333333333,0.0,M,major,F,major
+Mr. Bumble,Mrs. Corney,personal_pronouns,3,3,2,0.6666666666666666,0.6666666666666666,0.0,M,major,F,major
+Mr. Bumble,Mrs. Mann,adverbs,4,3,3,1.0,1.0,0.0,M,major,F,intermediate
+Mr. Bumble,Mrs. Mann,articles,4,3,1,0.3333333333333333,0.25,0.08333333333333331,M,major,F,intermediate
+Mr. Bumble,Mrs. Mann,auxiliary_verbs,4,4,4,1.0,1.0,0.0,M,major,F,intermediate
+Mr. Bumble,Mrs. Mann,conjunctions,4,3,2,0.6666666666666666,0.5,0.16666666666666663,M,major,F,intermediate
+Mr. Bumble,Mrs. Mann,personal_pronouns,4,3,3,1.0,1.0,0.0,M,major,F,intermediate
+Mr. Bumble,Mrs. Mann,prepositions,4,3,3,1.0,0.75,0.25,M,major,F,intermediate
+Mr. Bumble,Mrs. Mann,quantifiers,4,3,1,0.3333333333333333,0.25,0.08333333333333331,M,major,F,intermediate
 Mr. Chitling,Kags,prepositions,3,3,3,1.0,1.0,0.0,M,intermediate,M,minor
-Mr. Chitling,Kags,quantifiers,3,3,2,0.6666666666666666,0.6666666666666666,0.0,M,intermediate,M,minor
-Mr. Giles,Mr. Brittles,adverbs,4,3,0,0.0,0.25,-0.25,M,intermediate,M,minor
-Mr. Giles,Mr. Brittles,personal_pronouns,4,4,3,0.75,0.75,0.0,M,intermediate,M,minor
-Mr. Giles,Mr. Brittles,prepositions,4,3,2,0.6666666666666666,0.75,-0.08333333333333337,M,intermediate,M,minor
-Mr. Grimwig,Mr. Brownlow,adverbs,7,3,2,0.6666666666666666,0.5714285714285714,0.09523809523809523,M,intermediate,M,major
-Mr. Grimwig,Mr. Brownlow,articles,7,3,3,1.0,0.8571428571428571,0.1428571428571429,M,intermediate,M,major
+Mr. Giles,Mr. Brittles,personal_pronouns,4,4,4,1.0,1.0,0.0,M,intermediate,M,minor
+Mr. Grimwig,Mr. Brownlow,adverbs,7,4,2,0.5,0.42857142857142855,0.07142857142857145,M,intermediate,M,major
+Mr. Grimwig,Mr. Brownlow,articles,7,4,2,0.5,0.7142857142857143,-0.2142857142857143,M,intermediate,M,major
 Mr. Grimwig,Mr. Brownlow,auxiliary_verbs,7,6,6,1.0,1.0,0.0,M,intermediate,M,major
-Mr. Grimwig,Mr. Brownlow,personal_pronouns,7,7,6,0.8571428571428571,0.8571428571428571,0.0,M,intermediate,M,major
-Mr. Grimwig,Mr. Brownlow,prepositions,7,5,4,0.8,0.5714285714285714,0.22857142857142865,M,intermediate,M,major
-Mr. Limbkins,The Gentleman In The White Waistcoat,articles,4,4,2,0.5,0.5,0.0,M,minor,M,minor
-Mr. Limbkins,The Gentleman In The White Waistcoat,impersonal_pronouns,4,3,2,0.6666666666666666,0.75,-0.08333333333333337,M,minor,M,minor
-Mr. Limbkins,The Gentleman In The White Waistcoat,personal_pronouns,4,3,3,1.0,1.0,0.0,M,minor,M,minor
-Mr. Limbkins,The Gentleman In The White Waistcoat,prepositions,4,3,1,0.3333333333333333,0.5,-0.16666666666666669,M,minor,M,minor
-Mr. Losberne,Mr. Blathers,auxiliary_verbs,4,4,3,0.75,0.75,0.0,M,major,M,intermediate
-Mr. Losberne,Mr. Blathers,impersonal_pronouns,4,4,4,1.0,1.0,0.0,M,major,M,intermediate
-Mr. Losberne,Mr. Blathers,personal_pronouns,4,3,2,0.6666666666666666,0.75,-0.08333333333333337,M,major,M,intermediate
-Mr. Losberne,Mr. Blathers,prepositions,4,3,2,0.6666666666666666,0.75,-0.08333333333333337,M,major,M,intermediate
-Mr. Losberne,Mr. Blathers,quantifiers,4,3,0,0.0,0.25,-0.25,M,major,M,intermediate
-Mr. Losberne,Mrs. Maylie,adverbs,4,3,2,0.6666666666666666,0.5,0.16666666666666663,M,major,F,intermediate
-Mr. Losberne,Mrs. Maylie,articles,4,4,3,0.75,0.75,0.0,M,major,F,intermediate
-Mr. Losberne,Mrs. Maylie,auxiliary_verbs,4,3,3,1.0,0.75,0.25,M,major,F,intermediate
-Mr. Losberne,Mrs. Maylie,conjunctions,4,4,0,0.0,0.0,0.0,M,major,F,intermediate
-Mr. Losberne,Mrs. Maylie,impersonal_pronouns,4,4,2,0.5,0.5,0.0,M,major,F,intermediate
-Mr. Losberne,Mrs. Maylie,negations,4,3,2,0.6666666666666666,0.75,-0.08333333333333337,M,major,F,intermediate
+Mr. Grimwig,Mr. Brownlow,conjunctions,7,5,1,0.2,0.42857142857142855,-0.22857142857142854,M,intermediate,M,major
+Mr. Grimwig,Mr. Brownlow,impersonal_pronouns,7,4,3,0.75,0.8571428571428571,-0.1071428571428571,M,intermediate,M,major
+Mr. Grimwig,Mr. Brownlow,personal_pronouns,7,7,7,1.0,1.0,0.0,M,intermediate,M,major
+Mr. Grimwig,Mr. Brownlow,prepositions,7,4,2,0.5,0.7142857142857143,-0.2142857142857143,M,intermediate,M,major
+Mr. Limbkins,The Gentleman In The White Waistcoat,adverbs,4,3,1,0.3333333333333333,0.5,-0.16666666666666669,M,minor,M,minor
+Mr. Limbkins,The Gentleman In The White Waistcoat,auxiliary_verbs,4,3,1,0.3333333333333333,0.5,-0.16666666666666669,M,minor,M,minor
+Mr. Limbkins,The Gentleman In The White Waistcoat,personal_pronouns,4,3,1,0.3333333333333333,0.25,0.08333333333333331,M,minor,M,minor
+Mr. Limbkins,The Gentleman In The White Waistcoat,prepositions,4,4,2,0.5,0.5,0.0,M,minor,M,minor
+Mr. Losberne,Mr. Blathers,adverbs,4,3,1,0.3333333333333333,0.5,-0.16666666666666669,M,major,M,intermediate
+Mr. Losberne,Mr. Blathers,conjunctions,4,3,1,0.3333333333333333,0.25,0.08333333333333331,M,major,M,intermediate
+Mr. Losberne,Mr. Blathers,personal_pronouns,4,4,3,0.75,0.75,0.0,M,major,M,intermediate
+Mr. Losberne,Mr. Blathers,prepositions,4,3,3,1.0,1.0,0.0,M,major,M,intermediate
 Mr. Losberne,Mrs. Maylie,personal_pronouns,4,3,2,0.6666666666666666,0.75,-0.08333333333333337,M,major,F,intermediate
-Mr. Losberne,Mrs. Maylie,prepositions,4,4,4,1.0,1.0,0.0,M,major,F,intermediate
-Mrs. Bedwin,Oliver Twist,adverbs,3,3,2,0.6666666666666666,0.6666666666666666,0.0,F,intermediate,M,major
-Mrs. Bedwin,Oliver Twist,auxiliary_verbs,3,3,1,0.3333333333333333,0.3333333333333333,0.0,F,intermediate,M,major
 Mrs. Bedwin,Oliver Twist,personal_pronouns,3,3,3,1.0,1.0,0.0,F,intermediate,M,major
-Mrs. Corney,Mr. Bumble,adverbs,5,4,2,0.5,0.6,-0.09999999999999998,F,major,M,major
-Mrs. Corney,Mr. Bumble,articles,5,3,0,0.0,0.4,-0.4,F,major,M,major
+Mrs. Corney,Mr. Bumble,adverbs,5,4,0,0.0,0.2,-0.2,F,major,M,major
 Mrs. Corney,Mr. Bumble,auxiliary_verbs,5,5,3,0.6,0.6,0.0,F,major,M,major
-Mrs. Corney,Mr. Bumble,conjunctions,5,4,0,0.0,0.2,-0.2,F,major,M,major
-Mrs. Corney,Mr. Bumble,impersonal_pronouns,5,5,3,0.6,0.6,0.0,F,major,M,major
-Mrs. Corney,Mr. Bumble,personal_pronouns,5,5,3,0.6,0.6,0.0,F,major,M,major
-Mrs. Corney,Mr. Bumble,prepositions,5,5,3,0.6,0.6,0.0,F,major,M,major
-Mrs. Corney,Mr. Bumble,quantifiers,5,3,2,0.6666666666666666,0.8,-0.13333333333333341,F,major,M,major
-Mrs. Mann,Dick,auxiliary_verbs,3,3,2,0.6666666666666666,0.6666666666666666,0.0,F,intermediate,M,minor
-Mrs. Mann,Dick,personal_pronouns,3,3,2,0.6666666666666666,0.6666666666666666,0.0,F,intermediate,M,minor
-Mrs. Mann,Mr. Bumble,personal_pronouns,3,3,2,0.6666666666666666,0.6666666666666666,0.0,F,intermediate,M,major
-Nance,Bill Sikes,adverbs,8,6,5,0.8333333333333334,0.75,0.08333333333333337,F,major,M,major
-Nance,Bill Sikes,articles,8,5,3,0.6,0.5,0.09999999999999998,F,major,M,major
-Nance,Bill Sikes,auxiliary_verbs,8,7,3,0.42857142857142855,0.375,0.05357142857142855,F,major,M,major
-Nance,Bill Sikes,conjunctions,8,6,3,0.5,0.5,0.0,F,major,M,major
-Nance,Bill Sikes,impersonal_pronouns,8,6,2,0.3333333333333333,0.375,-0.041666666666666685,F,major,M,major
-Nance,Bill Sikes,personal_pronouns,8,6,4,0.6666666666666666,0.75,-0.08333333333333337,F,major,M,major
-Nance,Bill Sikes,prepositions,8,7,5,0.7142857142857143,0.625,0.0892857142857143,F,major,M,major
-Nance,Bill Sikes,quantifiers,8,6,4,0.6666666666666666,0.5,0.16666666666666663,F,major,M,major
-Nance,Fagin,adverbs,5,3,1,0.3333333333333333,0.2,0.1333333333333333,F,major,M,major
+Mrs. Corney,Mr. Bumble,conjunctions,5,3,1,0.3333333333333333,0.6,-0.26666666666666666,F,major,M,major
+Mrs. Corney,Mr. Bumble,personal_pronouns,5,5,5,1.0,1.0,0.0,F,major,M,major
+Mrs. Corney,Mr. Bumble,prepositions,5,3,2,0.6666666666666666,0.6,0.06666666666666665,F,major,M,major
+Mrs. Mann,Dick,adverbs,3,3,2,0.6666666666666666,0.6666666666666666,0.0,F,intermediate,M,minor
+Mrs. Mann,Dick,articles,3,3,1,0.3333333333333333,0.3333333333333333,0.0,F,intermediate,M,minor
+Mrs. Mann,Dick,auxiliary_verbs,3,3,1,0.3333333333333333,0.3333333333333333,0.0,F,intermediate,M,minor
+Mrs. Mann,Dick,conjunctions,3,3,1,0.3333333333333333,0.3333333333333333,0.0,F,intermediate,M,minor
+Mrs. Mann,Dick,personal_pronouns,3,3,3,1.0,1.0,0.0,F,intermediate,M,minor
+Mrs. Mann,Dick,prepositions,3,3,1,0.3333333333333333,0.3333333333333333,0.0,F,intermediate,M,minor
+Nance,Bill Sikes,adverbs,8,3,3,1.0,0.625,0.375,F,major,M,major
+Nance,Bill Sikes,auxiliary_verbs,8,6,6,1.0,0.875,0.125,F,major,M,major
+Nance,Bill Sikes,conjunctions,8,4,4,1.0,0.875,0.125,F,major,M,major
+Nance,Bill Sikes,impersonal_pronouns,8,3,3,1.0,0.875,0.125,F,major,M,major
+Nance,Bill Sikes,personal_pronouns,8,7,7,1.0,1.0,0.0,F,major,M,major
+Nance,Bill Sikes,prepositions,8,6,4,0.6666666666666666,0.75,-0.08333333333333337,F,major,M,major
+Nance,Fagin,adverbs,5,3,1,0.3333333333333333,0.4,-0.06666666666666671,F,major,M,major
+Nance,Fagin,articles,5,3,2,0.6666666666666666,0.6,0.06666666666666665,F,major,M,major
+Nance,Fagin,auxiliary_verbs,5,3,2,0.6666666666666666,0.8,-0.13333333333333341,F,major,M,major
+Nance,Fagin,impersonal_pronouns,5,4,1,0.25,0.2,0.04999999999999999,F,major,M,major
+Nance,Fagin,negations,5,3,0,0.0,0.2,-0.2,F,major,M,major
 Nance,Fagin,personal_pronouns,5,4,3,0.75,0.8,-0.050000000000000044,F,major,M,major
-Noah Claypole,Fagin,adverbs,3,3,2,0.6666666666666666,0.6666666666666666,0.0,M,major,M,major
-Noah Claypole,Fagin,articles,3,3,2,0.6666666666666666,0.6666666666666666,0.0,M,major,M,major
-Noah Claypole,Fagin,conjunctions,3,3,0,0.0,0.0,0.0,M,major,M,major
-Noah Claypole,Fagin,personal_pronouns,3,3,2,0.6666666666666666,0.6666666666666666,0.0,M,major,M,major
-Noah Claypole,Fagin,prepositions,3,3,0,0.0,0.0,0.0,M,major,M,major
-Oliver Twist,Bill Sikes,adverbs,3,3,2,0.6666666666666666,0.6666666666666666,0.0,M,major,M,major
-Oliver Twist,Bill Sikes,personal_pronouns,3,3,3,1.0,1.0,0.0,M,major,M,major
-Oliver Twist,Charley Bates,personal_pronouns,3,3,1,0.3333333333333333,0.3333333333333333,0.0,M,major,M,intermediate
-Oliver Twist,Mr. Brownlow,auxiliary_verbs,4,3,2,0.6666666666666666,0.75,-0.08333333333333337,M,major,M,major
-Oliver Twist,Mr. Brownlow,personal_pronouns,4,3,3,1.0,1.0,0.0,M,major,M,major
-Oliver Twist,Mrs. Bedwin,adverbs,3,3,2,0.6666666666666666,0.6666666666666666,0.0,M,major,F,intermediate
-Rose Maylie,Mr. Brownlow,adverbs,4,3,1,0.3333333333333333,0.5,-0.16666666666666669,F,major,M,major
-Rose Maylie,Mr. Brownlow,conjunctions,4,3,0,0.0,0.25,-0.25,F,major,M,major
-Rose Maylie,Mr. Brownlow,personal_pronouns,4,4,3,0.75,0.75,0.0,F,major,M,major
+Nance,Fagin,prepositions,5,3,2,0.6666666666666666,0.6,0.06666666666666665,F,major,M,major
+Nance,Oliver Twist,articles,3,3,2,0.6666666666666666,0.6666666666666666,0.0,F,major,M,major
+Nance,Oliver Twist,conjunctions,3,3,2,0.6666666666666666,0.6666666666666666,0.0,F,major,M,major
+Oliver Twist,Charley Bates,adverbs,3,3,3,1.0,1.0,0.0,M,major,M,intermediate
+Oliver Twist,Charley Bates,auxiliary_verbs,3,3,2,0.6666666666666666,0.6666666666666666,0.0,M,major,M,intermediate
+Oliver Twist,Charley Bates,conjunctions,3,3,1,0.3333333333333333,0.3333333333333333,0.0,M,major,M,intermediate
+Oliver Twist,Charley Bates,impersonal_pronouns,3,3,1,0.3333333333333333,0.3333333333333333,0.0,M,major,M,intermediate
+Oliver Twist,Charley Bates,personal_pronouns,3,3,2,0.6666666666666666,0.6666666666666666,0.0,M,major,M,intermediate
+Oliver Twist,Charley Bates,prepositions,3,3,1,0.3333333333333333,0.3333333333333333,0.0,M,major,M,intermediate
+Oliver Twist,Fagin,adverbs,3,3,3,1.0,1.0,0.0,M,major,M,major
+Oliver Twist,Fagin,conjunctions,3,3,3,1.0,1.0,0.0,M,major,M,major
+Oliver Twist,Harry Maylie,auxiliary_verbs,3,3,3,1.0,1.0,0.0,M,major,M,intermediate
+Oliver Twist,Harry Maylie,personal_pronouns,3,3,3,1.0,1.0,0.0,M,major,M,intermediate
+Oliver Twist,Harry Maylie,prepositions,3,3,3,1.0,1.0,0.0,M,major,M,intermediate
+Oliver Twist,Mr. Brownlow,adverbs,4,3,2,0.6666666666666666,0.75,-0.08333333333333337,M,major,M,major
+Oliver Twist,Mr. Brownlow,auxiliary_verbs,4,3,2,0.6666666666666666,0.5,0.16666666666666663,M,major,M,major
+Oliver Twist,Mr. Brownlow,personal_pronouns,4,3,2,0.6666666666666666,0.75,-0.08333333333333337,M,major,M,major
+Oliver Twist,Mr. Bumble,adverbs,3,3,0,0.0,0.0,0.0,M,major,M,major
+Oliver Twist,Mr. Bumble,articles,3,3,0,0.0,0.0,0.0,M,major,M,major
+Oliver Twist,Mr. Bumble,conjunctions,3,3,1,0.3333333333333333,0.3333333333333333,0.0,M,major,M,major
+Oliver Twist,Mr. Bumble,impersonal_pronouns,3,3,3,1.0,1.0,0.0,M,major,M,major
+Oliver Twist,Mr. Bumble,personal_pronouns,3,3,2,0.6666666666666666,0.6666666666666666,0.0,M,major,M,major
+Oliver Twist,Mr. Bumble,prepositions,3,3,1,0.3333333333333333,0.3333333333333333,0.0,M,major,M,major
+Rose Maylie,Mr. Brownlow,auxiliary_verbs,4,3,3,1.0,1.0,0.0,F,major,M,major
+Rose Maylie,Mr. Brownlow,impersonal_pronouns,4,3,3,1.0,0.75,0.25,F,major,M,major
+Rose Maylie,Mr. Brownlow,personal_pronouns,4,3,3,1.0,0.75,0.25,F,major,M,major
 Rose Maylie,Mr. Brownlow,prepositions,4,3,2,0.6666666666666666,0.75,-0.08333333333333337,F,major,M,major
-Rose Maylie,Mr. Losberne,auxiliary_verbs,4,3,2,0.6666666666666666,0.75,-0.08333333333333337,F,major,M,major
+Rose Maylie,Mr. Losberne,auxiliary_verbs,4,3,1,0.3333333333333333,0.5,-0.16666666666666669,F,major,M,major
 Rose Maylie,Mr. Losberne,impersonal_pronouns,4,3,2,0.6666666666666666,0.75,-0.08333333333333337,F,major,M,major
-Rose Maylie,Mr. Losberne,personal_pronouns,4,3,1,0.3333333333333333,0.5,-0.16666666666666669,F,major,M,major
-Rose Maylie,Mr. Losberne,prepositions,4,3,1,0.3333333333333333,0.5,-0.16666666666666669,F,major,M,major
-The Artful Dodger,Fagin,articles,6,4,2,0.5,0.6666666666666666,-0.16666666666666663,M,intermediate,M,major
-The Artful Dodger,Fagin,auxiliary_verbs,6,5,3,0.6,0.6666666666666666,-0.06666666666666665,M,intermediate,M,major
-The Artful Dodger,Fagin,conjunctions,6,3,2,0.6666666666666666,0.6666666666666666,0.0,M,intermediate,M,major
-The Artful Dodger,Fagin,impersonal_pronouns,6,4,2,0.5,0.5,0.0,M,intermediate,M,major
-The Artful Dodger,Fagin,personal_pronouns,6,6,5,0.8333333333333334,0.8333333333333334,0.0,M,intermediate,M,major
-The Artful Dodger,Fagin,prepositions,6,4,3,0.75,0.8333333333333334,-0.08333333333333337,M,intermediate,M,major
-The Artful Dodger,Fagin,quantifiers,6,3,1,0.3333333333333333,0.5,-0.16666666666666669,M,intermediate,M,major
-The Gentleman In The White Waistcoat,Oliver Twist,personal_pronouns,3,3,1,0.3333333333333333,0.3333333333333333,0.0,M,minor,M,major
-The Tinker,Mr. Giles,auxiliary_verbs,3,3,3,1.0,1.0,0.0,M,minor,M,intermediate
+The Artful Dodger,Fagin,auxiliary_verbs,6,3,0,0.0,0.5,-0.5,M,intermediate,M,major
+The Artful Dodger,Fagin,conjunctions,6,4,1,0.25,0.5,-0.25,M,intermediate,M,major
+The Artful Dodger,Fagin,negations,6,3,2,0.6666666666666666,0.6666666666666666,0.0,M,intermediate,M,major
+The Artful Dodger,Fagin,personal_pronouns,6,4,3,0.75,0.8333333333333334,-0.08333333333333337,M,intermediate,M,major
+The Artful Dodger,Fagin,prepositions,6,3,1,0.3333333333333333,0.6666666666666666,-0.3333333333333333,M,intermediate,M,major
+The Artful Dodger,Fagin,quantifiers,6,3,1,0.3333333333333333,0.6666666666666666,-0.3333333333333333,M,intermediate,M,major
+The Artful Dodger,Oliver Twist,adverbs,3,3,3,1.0,1.0,0.0,M,intermediate,M,major
+The Artful Dodger,Oliver Twist,auxiliary_verbs,3,3,3,1.0,1.0,0.0,M,intermediate,M,major
+The Artful Dodger,Oliver Twist,personal_pronouns,3,3,3,1.0,1.0,0.0,M,intermediate,M,major
+The Gentleman In The White Waistcoat,Oliver Twist,articles,3,3,2,0.6666666666666666,0.6666666666666666,0.0,M,minor,M,major
+The Tinker,Mr. Giles,adverbs,3,3,0,0.0,0.0,0.0,M,minor,M,intermediate
+The Tinker,Mr. Giles,articles,3,3,0,0.0,0.0,0.0,M,minor,M,intermediate
+The Tinker,Mr. Giles,auxiliary_verbs,3,3,1,0.3333333333333333,0.3333333333333333,0.0,M,minor,M,intermediate
+The Tinker,Mr. Giles,impersonal_pronouns,3,3,1,0.3333333333333333,0.3333333333333333,0.0,M,minor,M,intermediate
 The Tinker,Mr. Giles,personal_pronouns,3,3,3,1.0,1.0,0.0,M,minor,M,intermediate
-Toby Crackit,Mr. Chitling,adverbs,4,4,2,0.5,0.5,0.0,M,intermediate,M,intermediate
-Toby Crackit,Mr. Chitling,articles,4,4,4,1.0,1.0,0.0,M,intermediate,M,intermediate
-Toby Crackit,Mr. Chitling,auxiliary_verbs,4,4,4,1.0,1.0,0.0,M,intermediate,M,intermediate
-Toby Crackit,Mr. Chitling,conjunctions,4,3,2,0.6666666666666666,0.5,0.16666666666666663,M,intermediate,M,intermediate
-Toby Crackit,Mr. Chitling,impersonal_pronouns,4,4,4,1.0,1.0,0.0,M,intermediate,M,intermediate
-Toby Crackit,Mr. Chitling,negations,4,3,1,0.3333333333333333,0.5,-0.16666666666666669,M,intermediate,M,intermediate
-Toby Crackit,Mr. Chitling,personal_pronouns,4,3,3,1.0,1.0,0.0,M,intermediate,M,intermediate
-Toby Crackit,Mr. Chitling,prepositions,4,4,4,1.0,1.0,0.0,M,intermediate,M,intermediate
-Toby Crackit,Mr. Chitling,quantifiers,4,3,3,1.0,1.0,0.0,M,intermediate,M,intermediate
+The Tinker,Mr. Giles,prepositions,3,3,1,0.3333333333333333,0.3333333333333333,0.0,M,minor,M,intermediate
+The Tinker,Mr. Giles,quantifiers,3,3,0,0.0,0.0,0.0,M,minor,M,intermediate
+Toby Crackit,Mr. Chitling,adverbs,4,3,2,0.6666666666666666,0.75,-0.08333333333333337,M,intermediate,M,intermediate
+Toby Crackit,Mr. Chitling,auxiliary_verbs,4,3,1,0.3333333333333333,0.5,-0.16666666666666669,M,intermediate,M,intermediate
+Toby Crackit,Mr. Chitling,personal_pronouns,4,3,2,0.6666666666666666,0.75,-0.08333333333333337,M,intermediate,M,intermediate
+Toby Crackit,Mr. Chitling,prepositions,4,3,2,0.6666666666666666,0.75,-0.08333333333333337,M,intermediate,M,intermediate

@@ -8,6 +8,7 @@ import networkx as nx
 import matplotlib.pyplot as plt
 from matplotlib.patches import FancyArrowPatch
 from scipy.stats import pearsonr
+from matplotlib.lines import Line2D
 
 
 def load_edges(edges_csv: Path, prefer_weight_col: str = "mean_conv_w") -> pd.DataFrame:
@@ -205,78 +206,49 @@ def reciprocity_pair_table(edges: pd.DataFrame) -> pd.DataFrame:
     return df.merge(df_rev, on=["a_speaker", "b_speaker"], how="inner")
 
 
-def plot_reciprocity(paired: pd.DataFrame, out_png: Path, out_csv: Path) -> Tuple[float, float]:
-    """
-    Plot A→B vs B→A scatter and save paired data.
-
-    Params:
-        paired: DataFrame with columns w_ab and w_ba for mutual dyads.
-        out_png: Path for the scatter image.
-        out_csv: Path for the CSV of paired values.
-
-    Returns:
-        Tuple with Pearson r and the share of pairs with matching sign.
-    """
+def plot_reciprocity(paired: pd.DataFrame, out_png: Path, out_csv: Path, novel_title: Optional[str] = None) -> Tuple[float, float]:
     if paired.empty:
         paired.to_csv(out_csv, index=False, encoding="utf-8-sig")
-        fig, ax = plt.subplots(figsize=(6, 5))
+        fig, ax = plt.subplots(figsize=(8.0, 6.2))
         ax.text(0.5, 0.5, "No mutual dyads", ha="center", va="center")
         ax.set_axis_off()
-        fig.savefig(out_png, bbox_inches="tight", dpi=220)
+        fig.savefig(out_png, bbox_inches="tight", dpi=260)
         plt.close(fig)
         return np.nan, np.nan
 
     r, _ = pearsonr(paired["w_ab"], paired["w_ba"])
     sign_match = float(np.mean(np.sign(paired["w_ab"]) == np.sign(paired["w_ba"])))
 
-    # Colors from a colorblind friendly palette
-    point_color = "#0072B2"      # blue
-    diagonal_color = "#4D4D4D"   # dark gray
-    grid_color = "#BFBFBF"       # light gray
+    point_color = "#0072B2"
+    diagonal_color = "#4D4D4D"
+    grid_color = "#BFBFBF"
 
-    fig, ax = plt.subplots(figsize=(6.8, 5.4))
+    fig, ax = plt.subplots(figsize=(8.0, 6.2))
     ax.scatter(
         paired["w_ab"], paired["w_ba"],
-        s=24, alpha=0.75,
+        s=26, alpha=0.8,
         facecolor=point_color,
-        edgecolor="white", linewidth=0.4
+        edgecolor="white", linewidth=0.5
     )
 
     lim = max(abs(paired["w_ab"]).max(), abs(paired["w_ba"]).max()) * 1.05
-    ax.plot([-lim, lim], [-lim, lim],
-            linestyle="--", linewidth=1.2, color=diagonal_color)
+    ax.plot([-lim, lim], [-lim, lim], linestyle="--", linewidth=1.3, color=diagonal_color)
 
     ax.set_xlim(-lim, lim)
     ax.set_ylim(-lim, lim)
     ax.set_xlabel("A → B weight")
     ax.set_ylabel("B → A weight")
-    ax.set_title(f"Reciprocity r={r:.3f}  sign match={sign_match:.3f}")
+    base = f"Reciprocity r={r:.3f}  sign match={sign_match:.3f}"
+    ax.set_title(f"{novel_title} — {base}" if novel_title else base)
 
-    ax.grid(True, linestyle=":", linewidth=0.8, color=grid_color, alpha=0.8)
+    ax.grid(True, linestyle=":", linewidth=0.9, color=grid_color, alpha=0.85)
 
     fig.tight_layout()
-    fig.savefig(out_png, bbox_inches="tight", dpi=220)
+    fig.savefig(out_png, bbox_inches="tight", dpi=260)
     plt.close(fig)
 
     paired.to_csv(out_csv, index=False, encoding="utf-8-sig")
     return float(r), float(sign_match)
-
-def _combine_bidirectional_edges(G: nx.DiGraph) -> nx.Graph:
-    """
-    Collapse directed edges into a single undirected edge per unordered pair.
-    Edge weight = |w(A→B)| + |w(B→A)| (nonnegative, emphasizes overall interaction strength).
-    """
-    UG = nx.Graph()
-    UG.add_nodes_from(G.nodes(data=True))
-    for u, v, d in G.edges(data=True):
-        w = abs(float(d.get("weight", 0.0)))
-        if u == v or w == 0:
-            continue
-        if UG.has_edge(u, v):
-            UG[u][v]["weight"] += w
-        else:
-            UG.add_edge(u, v, weight=w)
-    return UG
 
 
 def plot_graph_simple_bidirectional(
@@ -284,9 +256,9 @@ def plot_graph_simple_bidirectional(
     out_png: Path,
     color_attr: str = "gender",
     show_labels: bool = True,
-    figsize: Tuple[float, float] = (12.5, 9.0),
-    font_size: int = 10,
-    title: str = "Convergence network",
+    figsize: Tuple[float, float] = (14.5, 10.5),
+    font_size: int = 11,
+    title: Optional[str] = None,
 ) -> None:
     """
     Clean, simple convergence graph.
@@ -299,10 +271,9 @@ def plot_graph_simple_bidirectional(
     if G.number_of_nodes() == 0:
         return
 
-    # normalize node labels
     G = nx.relabel_nodes(G, lambda n: " ".join(str(n).split()))
 
-    # node colors based on gender
+    # node colors based on gender (Okabe–Ito)
     attr_values = nx.get_node_attributes(G, color_attr)
     palette_nodes = {"F": "#CC79A7", "M": "#0072B2"}
     node_colors = [palette_nodes.get(attr_values.get(n, "U"), "#999999") for n in G.nodes()]
@@ -311,55 +282,50 @@ def plot_graph_simple_bidirectional(
     out_strength = {n: 0.0 for n in G.nodes()}
     for u, v, d in G.edges(data=True):
         out_strength[u] += abs(float(d.get("weight", 0.0)))
-    node_sizes = {n: 240.0 + 260.0 * np.sqrt(max(out_strength.get(n, 0.0), 0.0)) for n in G.nodes()}
+    node_sizes = {n: 260.0 + 300.0 * np.sqrt(max(out_strength.get(n, 0.0), 0.0)) for n in G.nodes()}
 
-    # positions
+    # layout
     pos = nx.spring_layout(G, seed=7, k=1.15, iterations=100)
 
-    # simple color scheme for edges
-    edge_color = "#4D4D4D"  # neutral gray, colorblind-safe
-
-    # edge widths proportional to magnitude
+    # edge style
+    edge_color = "#4D4D4D"
     def edge_width(w: float) -> float:
-        return 0.6 + 3.0 * min(abs(w), 0.15) / 0.15
+        return 0.8 + 3.2 * min(abs(w), 0.15) / 0.15
 
-    # draw base nodes
     fig, ax = plt.subplots(figsize=figsize)
+
     nx.draw_networkx_nodes(
         G, pos,
         node_color=node_colors,
         node_size=list(node_sizes.values()),
         edgecolors="#4D4D4D",
-        linewidths=0.7,
+        linewidths=0.8,
         ax=ax,
     )
 
-    # draw edges with arrows (no curvature)
     for u, v, d in G.edges(data=True):
         w = float(d.get("weight", 0.0))
         a = FancyArrowPatch(
             pos[u], pos[v],
             arrowstyle="-|>",
-            mutation_scale=10,
-            shrinkA=0.6 * np.sqrt(node_sizes[u]),
-            shrinkB=0.6 * np.sqrt(node_sizes[v]),
+            mutation_scale=12,
+            shrinkA=0.62 * np.sqrt(node_sizes[u]),
+            shrinkB=0.62 * np.sqrt(node_sizes[v]),
             connectionstyle="arc3,rad=0.0",
             lw=edge_width(w),
             color=edge_color,
-            alpha=0.8,
+            alpha=0.85,
             zorder=1.4,
         )
-        # dashed if divergence
         if w < 0:
             a.set_linestyle((0, (2, 2)))
         import matplotlib.patheffects as pe
         a.set_path_effects([
-            pe.Stroke(linewidth=a.get_linewidth() + 0.8, foreground="white"),
+            pe.Stroke(linewidth=a.get_linewidth() + 0.9, foreground="white"),
             pe.Normal()
         ])
         ax.add_patch(a)
 
-    # labels
     if show_labels:
         label_pos = {n: (x, y + 0.02) for n, (x, y) in pos.items()}
         nx.draw_networkx_labels(
@@ -371,19 +337,37 @@ def plot_graph_simple_bidirectional(
             bbox=dict(boxstyle="round,pad=0.18", fc="white", ec="#BFBFBF", alpha=0.75),
         )
 
-    # legend for gender
-    from matplotlib.lines import Line2D
+
     handles_nodes = [
-        Line2D([0], [0], marker="o", linestyle="", markersize=8,
+        Line2D([0], [0], marker="o", linestyle="", markersize=9,
                markerfacecolor=palette_nodes[k], markeredgecolor="#4D4D4D", label=k)
         for k in sorted(set(attr_values.values()))
     ]
-    ax.legend(handles=handles_nodes, title="Gender", loc="upper left", frameon=False)
+    if handles_nodes:
+        ax.legend(handles=handles_nodes, title="Gender", loc="upper left", frameon=False)
 
-    ax.set_title(title)
+    edge_handles = [
+        Line2D([0], [0], color=edge_color, lw=2.5, linestyle="-", label="Positive convergence"),
+        Line2D([0], [0], color=edge_color, lw=2.5, linestyle="--", label="Negative convergence"),
+    ]
+
+    # Combine with node color legend if available
+    handles_nodes = [
+        Line2D([0], [0], marker="o", linestyle="", markersize=9,
+               markerfacecolor=palette_nodes[k], markeredgecolor="#4D4D4D", label=k)
+        for k in sorted(set(attr_values.values()))
+    ]
+
+    all_handles = edge_handles + handles_nodes
+    if all_handles:
+        ax.legend(handles=all_handles, title="Legend", loc="upper left", frameon=False)
+
+
+    if title:
+        ax.set_title(title)
     ax.set_axis_off()
     fig.tight_layout()
-    fig.savefig(out_png, bbox_inches="tight", dpi=220)
+    fig.savefig(out_png, bbox_inches="tight", dpi=260)
     plt.close(fig)
 
 
@@ -415,19 +399,24 @@ def plot_graph_direction_only(
     direction: str = "AtoB",  # "AtoB" or "BtoA"
     color_attr: str = "gender",
     show_labels: bool = True,
-    figsize: Tuple[float, float] = (12.5, 9.0),
-    font_size: int = 10,
+    figsize: Tuple[float, float] = (14.5, 10.5),
+    font_size: int = 11,
+    novel_title: Optional[str] = None,
 ) -> None:
     H = subgraph_direction_by_pair(G, "AtoB" if direction == "AtoB" else "BtoA")
-    title = "Convergence network A→B only (per pair forward direction)" if direction == "AtoB" else "Convergence network B→A only (per pair reverse direction)"
+    base = "Convergence network — A→B only (per pair forward)" if direction == "AtoB" \
+           else "Convergence network — B→A only (per pair reverse)"
+    title = f"{novel_title} — {base}" if novel_title else base
     plot_graph_simple_bidirectional(
-        H, out_png=out_png, color_attr=color_attr, show_labels=show_labels,
-        figsize=figsize, font_size=font_size, title = title
+        H,
+        out_png=out_png,
+        color_attr=color_attr,
+        show_labels=show_labels,
+        figsize=figsize,
+        font_size=font_size,
+        title=title,
     )
-    try:
-        img = plt.imread(out_png)
-    except Exception:
-        pass
+
 
 def run_graph_analysis(
     in_dir: Path,
@@ -435,6 +424,7 @@ def run_graph_analysis(
     mode: str,
     positive_only: bool = False,
     prefer_weight_col: str = "mean_conv_w",
+    novel_title: Optional[str] = None,
 ) -> None:
     """
     Build and analyze the convergence graph and write all artifacts.
@@ -534,18 +524,46 @@ def run_graph_analysis(
                       .reset_index())
         ctab.to_csv(out_dir / "edge_table_category_A_to_B.csv", index=False, encoding="utf-8-sig")
 
-    # Reciprocity
+     # Reciprocity
     paired = reciprocity_pair_table(edges)
     rec_r, rec_sign = plot_reciprocity(
-        paired, out_png=out_dir / "reciprocity_scatter.png", out_csv=out_dir / "reciprocity_pairs.csv"
+        paired,
+        out_png=out_dir / "reciprocity_scatter.png",
+        out_csv=out_dir / "reciprocity_pairs.csv",
+        novel_title=novel_title,
     )
 
-    # Graph plots
-    # Simple overview + direction-separated plots
-    plot_graph_simple_bidirectional(G, out_dir / "graph_network_simple.png", color_attr="gender", show_labels=True)
-    plot_graph_direction_only(G, out_dir / "graph_A_to_B.png", direction="AtoB", color_attr="gender", show_labels=True)
-    plot_graph_direction_only(G, out_dir / "graph_B_to_A.png", direction="BtoA", color_attr="gender", show_labels=True)
-
+    # Graph plots (simple + directions)
+    base_title = f"{novel_title} — Convergence network" if novel_title else "Convergence network"
+    plot_graph_simple_bidirectional(
+        G,
+        out_png=out_dir / "graph_network_simple.png",
+        color_attr="gender",
+        show_labels=True,
+        figsize=(14.5, 10.5),
+        font_size=11,
+        title=base_title,
+    )
+    plot_graph_direction_only(
+        G,
+        out_png=out_dir / "graph_A_to_B.png",
+        direction="AtoB",
+        color_attr="gender",
+        show_labels=True,
+        figsize=(14.5, 10.5),
+        font_size=11,
+        novel_title=novel_title,
+    )
+    plot_graph_direction_only(
+        G,
+        out_png=out_dir / "graph_B_to_A.png",
+        direction="BtoA",
+        color_attr="gender",
+        show_labels=True,
+        figsize=(14.5, 10.5),
+        font_size=11,
+        novel_title=novel_title,
+    )
 
     # Summary file written inline
     lines: List[str] = []

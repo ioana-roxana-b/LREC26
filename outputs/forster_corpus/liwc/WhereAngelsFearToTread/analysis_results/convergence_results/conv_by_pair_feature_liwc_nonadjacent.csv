@@ -1,59 +1,49 @@
 ﻿a_speaker,b_speaker,family,n_pairs,n_triggers,n_b_positives_given_trigger,p1,p0,conv,a_gender,a_category,b_gender,b_category
-Caroline Abbott,Mr. Herriton,auxiliary_verbs,5,4,3,0.75,0.6,0.15000000000000002,F,major,M,major
-Caroline Abbott,Mr. Herriton,impersonal_pronouns,5,4,4,1.0,1.0,0.0,F,major,M,major
-Caroline Abbott,Mr. Herriton,personal_pronouns,5,4,4,1.0,0.8,0.19999999999999996,F,major,M,major
-Caroline Abbott,Mr. Herriton,prepositions,5,4,3,0.75,0.6,0.15000000000000002,F,major,M,major
-Caroline Abbott,Mr. Herriton,quantifiers,5,3,2,0.6666666666666666,0.6,0.06666666666666665,F,major,M,major
-Harriet,Mr. Herriton,adverbs,7,4,2,0.5,0.42857142857142855,0.07142857142857145,F,major,M,major
-Harriet,Mr. Herriton,articles,7,4,3,0.75,0.7142857142857143,0.0357142857142857,F,major,M,major
-Harriet,Mr. Herriton,conjunctions,7,3,2,0.6666666666666666,0.2857142857142857,0.38095238095238093,F,major,M,major
-Harriet,Mr. Herriton,personal_pronouns,7,4,3,0.75,0.7142857142857143,0.0357142857142857,F,major,M,major
-Harriet,Mr. Herriton,prepositions,7,6,4,0.6666666666666666,0.7142857142857143,-0.04761904761904767,F,major,M,major
-Harriet,Mr. Herriton,quantifiers,7,3,2,0.6666666666666666,0.5714285714285714,0.09523809523809523,F,major,M,major
-Harriet,Mrs. Herriton,adverbs,4,3,2,0.6666666666666666,0.75,-0.08333333333333337,F,major,F,intermediate
-Harriet,Mrs. Herriton,articles,4,4,2,0.5,0.5,0.0,F,major,F,intermediate
-Harriet,Mrs. Herriton,auxiliary_verbs,4,4,3,0.75,0.75,0.0,F,major,F,intermediate
-Harriet,Mrs. Herriton,impersonal_pronouns,4,4,2,0.5,0.5,0.0,F,major,F,intermediate
-Harriet,Mrs. Herriton,personal_pronouns,4,4,3,0.75,0.75,0.0,F,major,F,intermediate
-Harriet,Mrs. Herriton,prepositions,4,4,4,1.0,1.0,0.0,F,major,F,intermediate
-Lilia,Signor Carella,adverbs,6,4,2,0.5,0.5,0.0,F,intermediate,M,major
-Lilia,Signor Carella,articles,6,4,1,0.25,0.3333333333333333,-0.08333333333333331,F,intermediate,M,major
-Lilia,Signor Carella,auxiliary_verbs,6,4,4,1.0,0.6666666666666666,0.33333333333333337,F,intermediate,M,major
-Lilia,Signor Carella,conjunctions,6,3,3,1.0,0.5,0.5,F,intermediate,M,major
-Lilia,Signor Carella,impersonal_pronouns,6,3,1,0.3333333333333333,0.3333333333333333,0.0,F,intermediate,M,major
-Lilia,Signor Carella,personal_pronouns,6,4,4,1.0,0.6666666666666666,0.33333333333333337,F,intermediate,M,major
-Lilia,Signor Carella,prepositions,6,4,3,0.75,0.6666666666666666,0.08333333333333337,F,intermediate,M,major
-Mr. Herriton,Caroline Abbott,adverbs,6,3,3,1.0,0.8333333333333334,0.16666666666666663,M,major,F,major
-Mr. Herriton,Caroline Abbott,articles,6,4,2,0.5,0.3333333333333333,0.16666666666666669,M,major,F,major
-Mr. Herriton,Caroline Abbott,auxiliary_verbs,6,4,4,1.0,0.8333333333333334,0.16666666666666663,M,major,F,major
-Mr. Herriton,Caroline Abbott,impersonal_pronouns,6,4,3,0.75,0.6666666666666666,0.08333333333333337,M,major,F,major
-Mr. Herriton,Caroline Abbott,personal_pronouns,6,4,4,1.0,0.8333333333333334,0.16666666666666663,M,major,F,major
-Mr. Herriton,Caroline Abbott,prepositions,6,4,4,1.0,0.8333333333333334,0.16666666666666663,M,major,F,major
+Caroline Abbott,Mr. Herriton,adverbs,5,3,2,0.6666666666666666,0.4,0.2666666666666666,F,major,M,major
+Caroline Abbott,Mr. Herriton,articles,5,3,0,0.0,0.2,-0.2,F,major,M,major
+Caroline Abbott,Mr. Herriton,impersonal_pronouns,5,3,0,0.0,0.0,0.0,F,major,M,major
+Caroline Abbott,Mr. Herriton,personal_pronouns,5,4,3,0.75,0.8,-0.050000000000000044,F,major,M,major
+Caroline Abbott,Mr. Herriton,prepositions,5,3,1,0.3333333333333333,0.2,0.1333333333333333,F,major,M,major
+Harriet,Mr. Herriton,adverbs,7,5,3,0.6,0.7142857142857143,-0.11428571428571432,F,major,M,major
+Harriet,Mr. Herriton,articles,7,3,1,0.3333333333333333,0.42857142857142855,-0.09523809523809523,F,major,M,major
+Harriet,Mr. Herriton,auxiliary_verbs,7,4,3,0.75,0.7142857142857143,0.0357142857142857,F,major,M,major
+Harriet,Mr. Herriton,conjunctions,7,4,1,0.25,0.42857142857142855,-0.17857142857142855,F,major,M,major
+Harriet,Mr. Herriton,impersonal_pronouns,7,4,2,0.5,0.2857142857142857,0.2142857142857143,F,major,M,major
+Harriet,Mr. Herriton,personal_pronouns,7,5,4,0.8,0.8571428571428571,-0.05714285714285705,F,major,M,major
+Harriet,Mr. Herriton,prepositions,7,3,2,0.6666666666666666,0.7142857142857143,-0.04761904761904767,F,major,M,major
+Harriet,Mr. Herriton,quantifiers,7,3,3,1.0,0.7142857142857143,0.2857142857142857,F,major,M,major
+Harriet,Mrs. Herriton,adverbs,4,3,2,0.6666666666666666,0.5,0.16666666666666663,F,major,F,intermediate
+Harriet,Mrs. Herriton,auxiliary_verbs,4,3,2,0.6666666666666666,0.75,-0.08333333333333337,F,major,F,intermediate
+Harriet,Mrs. Herriton,personal_pronouns,4,3,2,0.6666666666666666,0.75,-0.08333333333333337,F,major,F,intermediate
+Harriet,Mrs. Herriton,prepositions,4,4,2,0.5,0.5,0.0,F,major,F,intermediate
+Lilia,Signor Carella,adverbs,6,4,3,0.75,0.5,0.25,F,intermediate,M,major
+Lilia,Signor Carella,articles,6,3,2,0.6666666666666666,0.5,0.16666666666666663,F,intermediate,M,major
+Lilia,Signor Carella,auxiliary_verbs,6,3,2,0.6666666666666666,0.6666666666666666,0.0,F,intermediate,M,major
+Lilia,Signor Carella,conjunctions,6,3,2,0.6666666666666666,0.3333333333333333,0.3333333333333333,F,intermediate,M,major
+Lilia,Signor Carella,personal_pronouns,6,4,3,0.75,0.8333333333333334,-0.08333333333333337,F,intermediate,M,major
+Lilia,Signor Carella,prepositions,6,4,3,0.75,0.5,0.25,F,intermediate,M,major
+Mr. Herriton,Caroline Abbott,auxiliary_verbs,6,3,3,1.0,0.8333333333333334,0.16666666666666663,M,major,F,major
+Mr. Herriton,Caroline Abbott,personal_pronouns,6,5,4,0.8,0.6666666666666666,0.13333333333333341,M,major,F,major
 Mr. Herriton,Mrs. Herriton,adverbs,6,3,2,0.6666666666666666,0.6666666666666666,0.0,M,major,F,intermediate
-Mr. Herriton,Mrs. Herriton,auxiliary_verbs,6,5,5,1.0,1.0,0.0,M,major,F,intermediate
-Mr. Herriton,Mrs. Herriton,conjunctions,6,3,2,0.6666666666666666,0.6666666666666666,0.0,M,major,F,intermediate
-Mr. Herriton,Mrs. Herriton,impersonal_pronouns,6,3,3,1.0,0.8333333333333334,0.16666666666666663,M,major,F,intermediate
-Mr. Herriton,Mrs. Herriton,personal_pronouns,6,5,5,1.0,1.0,0.0,M,major,F,intermediate
-Mr. Herriton,Mrs. Herriton,prepositions,6,5,5,1.0,1.0,0.0,M,major,F,intermediate
-Mrs. Herriton,Harriet,personal_pronouns,4,3,3,1.0,0.75,0.25,F,intermediate,F,major
-Mrs. Herriton,Harriet,prepositions,4,4,2,0.5,0.5,0.0,F,intermediate,F,major
-Mrs. Herriton,Mr. Herriton,adverbs,9,7,4,0.5714285714285714,0.5555555555555556,0.015873015873015817,F,intermediate,M,major
-Mrs. Herriton,Mr. Herriton,articles,9,4,3,0.75,0.6666666666666666,0.08333333333333337,F,intermediate,M,major
-Mrs. Herriton,Mr. Herriton,auxiliary_verbs,9,9,7,0.7777777777777778,0.7777777777777778,0.0,F,intermediate,M,major
-Mrs. Herriton,Mr. Herriton,conjunctions,9,6,0,0.0,0.1111111111111111,-0.1111111111111111,F,intermediate,M,major
-Mrs. Herriton,Mr. Herriton,impersonal_pronouns,9,5,4,0.8,0.6666666666666666,0.13333333333333341,F,intermediate,M,major
-Mrs. Herriton,Mr. Herriton,negations,9,7,3,0.42857142857142855,0.3333333333333333,0.09523809523809523,F,intermediate,M,major
-Mrs. Herriton,Mr. Herriton,personal_pronouns,9,8,6,0.75,0.7777777777777778,-0.02777777777777779,F,intermediate,M,major
-Mrs. Herriton,Mr. Herriton,prepositions,9,8,6,0.75,0.7777777777777778,-0.02777777777777779,F,intermediate,M,major
-Mrs. Herriton,Mr. Herriton,quantifiers,9,3,2,0.6666666666666666,0.4444444444444444,0.2222222222222222,F,intermediate,M,major
-Signor Carella,Caroline Abbott,adverbs,5,4,1,0.25,0.2,0.04999999999999999,M,major,F,major
-Signor Carella,Caroline Abbott,articles,5,3,1,0.3333333333333333,0.2,0.1333333333333333,M,major,F,major
-Signor Carella,Caroline Abbott,auxiliary_verbs,5,5,2,0.4,0.4,0.0,M,major,F,major
-Signor Carella,Caroline Abbott,impersonal_pronouns,5,3,1,0.3333333333333333,0.2,0.1333333333333333,M,major,F,major
-Signor Carella,Caroline Abbott,negations,5,3,0,0.0,0.2,-0.2,M,major,F,major
+Mr. Herriton,Mrs. Herriton,articles,6,4,1,0.25,0.3333333333333333,-0.08333333333333331,M,major,F,intermediate
+Mr. Herriton,Mrs. Herriton,auxiliary_verbs,6,3,2,0.6666666666666666,0.8333333333333334,-0.16666666666666674,M,major,F,intermediate
+Mr. Herriton,Mrs. Herriton,conjunctions,6,3,2,0.6666666666666666,0.8333333333333334,-0.16666666666666674,M,major,F,intermediate
+Mr. Herriton,Mrs. Herriton,personal_pronouns,6,3,2,0.6666666666666666,0.8333333333333334,-0.16666666666666674,M,major,F,intermediate
+Mr. Herriton,Mrs. Herriton,prepositions,6,4,3,0.75,0.5,0.25,M,major,F,intermediate
+Mr. Herriton,Mrs. Herriton,quantifiers,6,3,1,0.3333333333333333,0.3333333333333333,0.0,M,major,F,intermediate
+Mrs. Herriton,Harriet,auxiliary_verbs,4,4,3,0.75,0.75,0.0,F,intermediate,F,major
+Mrs. Herriton,Harriet,conjunctions,4,3,0,0.0,0.25,-0.25,F,intermediate,F,major
+Mrs. Herriton,Harriet,impersonal_pronouns,4,3,2,0.6666666666666666,0.5,0.16666666666666663,F,intermediate,F,major
+Mrs. Herriton,Harriet,personal_pronouns,4,4,3,0.75,0.75,0.0,F,intermediate,F,major
+Mrs. Herriton,Mr. Herriton,adverbs,9,6,2,0.3333333333333333,0.4444444444444444,-0.1111111111111111,F,intermediate,M,major
+Mrs. Herriton,Mr. Herriton,articles,9,6,3,0.5,0.5555555555555556,-0.05555555555555558,F,intermediate,M,major
+Mrs. Herriton,Mr. Herriton,auxiliary_verbs,9,7,5,0.7142857142857143,0.5555555555555556,0.15873015873015872,F,intermediate,M,major
+Mrs. Herriton,Mr. Herriton,conjunctions,9,4,2,0.5,0.5555555555555556,-0.05555555555555558,F,intermediate,M,major
+Mrs. Herriton,Mr. Herriton,impersonal_pronouns,9,7,6,0.8571428571428571,0.6666666666666666,0.19047619047619047,F,intermediate,M,major
+Mrs. Herriton,Mr. Herriton,personal_pronouns,9,9,7,0.7777777777777778,0.7777777777777778,0.0,F,intermediate,M,major
+Mrs. Herriton,Mr. Herriton,prepositions,9,8,4,0.5,0.5555555555555556,-0.05555555555555558,F,intermediate,M,major
+Mrs. Herriton,Mr. Herriton,quantifiers,9,5,2,0.4,0.3333333333333333,0.06666666666666671,F,intermediate,M,major
+Signor Carella,Caroline Abbott,adverbs,5,3,2,0.6666666666666666,0.6,0.06666666666666665,M,major,F,major
+Signor Carella,Caroline Abbott,conjunctions,5,4,1,0.25,0.2,0.04999999999999999,M,major,F,major
 Signor Carella,Caroline Abbott,personal_pronouns,5,4,3,0.75,0.8,-0.050000000000000044,M,major,F,major
-Signor Carella,Caroline Abbott,prepositions,5,3,1,0.3333333333333333,0.2,0.1333333333333333,M,major,F,major
-Signor Carella,Mr. Herriton,auxiliary_verbs,4,3,3,1.0,1.0,0.0,M,major,M,major
-Signor Carella,Mr. Herriton,conjunctions,4,3,1,0.3333333333333333,0.5,-0.16666666666666669,M,major,M,major
-Signor Carella,Mr. Herriton,personal_pronouns,4,3,2,0.6666666666666666,0.75,-0.08333333333333337,M,major,M,major
-Signor Carella,Mr. Herriton,prepositions,4,4,3,0.75,0.75,0.0,M,major,M,major
+Signor Carella,Caroline Abbott,prepositions,5,3,3,1.0,0.8,0.19999999999999996,M,major,F,major

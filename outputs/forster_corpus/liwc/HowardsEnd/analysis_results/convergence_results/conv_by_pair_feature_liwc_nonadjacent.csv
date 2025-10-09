@@ -1,163 +1,165 @@
 ﻿a_speaker,b_speaker,family,n_pairs,n_triggers,n_b_positives_given_trigger,p1,p0,conv,a_gender,a_category,b_gender,b_category
-Aunt Juley,Helen,adverbs,6,4,2,0.5,0.6666666666666666,-0.16666666666666663,F,major,F,major
-Aunt Juley,Helen,articles,6,3,2,0.6666666666666666,0.6666666666666666,0.0,F,major,F,major
-Aunt Juley,Helen,auxiliary_verbs,6,4,3,0.75,0.8333333333333334,-0.08333333333333337,F,major,F,major
-Aunt Juley,Helen,conjunctions,6,4,3,0.75,0.6666666666666666,0.08333333333333337,F,major,F,major
-Aunt Juley,Helen,impersonal_pronouns,6,4,3,0.75,0.5,0.25,F,major,F,major
-Aunt Juley,Helen,personal_pronouns,6,5,4,0.8,0.8333333333333334,-0.033333333333333326,F,major,F,major
-Aunt Juley,Helen,prepositions,6,5,5,1.0,0.8333333333333334,0.16666666666666663,F,major,F,major
-Aunt Juley,Margaret,adverbs,6,5,3,0.6,0.6666666666666666,-0.06666666666666665,F,major,F,major
-Aunt Juley,Margaret,articles,6,5,2,0.4,0.3333333333333333,0.06666666666666671,F,major,F,major
-Aunt Juley,Margaret,auxiliary_verbs,6,4,3,0.75,0.6666666666666666,0.08333333333333337,F,major,F,major
-Aunt Juley,Margaret,conjunctions,6,3,2,0.6666666666666666,0.6666666666666666,0.0,F,major,F,major
-Aunt Juley,Margaret,impersonal_pronouns,6,3,2,0.6666666666666666,0.3333333333333333,0.3333333333333333,F,major,F,major
-Aunt Juley,Margaret,negations,6,3,2,0.6666666666666666,0.5,0.16666666666666663,F,major,F,major
-Aunt Juley,Margaret,personal_pronouns,6,5,4,0.8,0.8333333333333334,-0.033333333333333326,F,major,F,major
-Aunt Juley,Margaret,prepositions,6,5,3,0.6,0.5,0.09999999999999998,F,major,F,major
-Aunt Juley,Margaret,quantifiers,6,3,3,1.0,0.6666666666666666,0.33333333333333337,F,major,F,major
-Aunt Juley,Tibby,auxiliary_verbs,3,3,3,1.0,1.0,0.0,F,major,M,intermediate
-Charles Wilcox,Margaret,adverbs,3,3,2,0.6666666666666666,0.6666666666666666,0.0,M,major,F,major
-Charles Wilcox,Margaret,articles,3,3,0,0.0,0.0,0.0,M,major,F,major
-Dolly,Margaret,adverbs,4,3,1,0.3333333333333333,0.5,-0.16666666666666669,F,intermediate,F,major
-Dolly,Margaret,personal_pronouns,4,4,2,0.5,0.5,0.0,F,intermediate,F,major
+Aunt Juley,Helen,articles,6,3,1,0.3333333333333333,0.16666666666666666,0.16666666666666666,F,major,F,major
+Aunt Juley,Helen,auxiliary_verbs,6,4,2,0.5,0.3333333333333333,0.16666666666666669,F,major,F,major
+Aunt Juley,Helen,conjunctions,6,4,1,0.25,0.3333333333333333,-0.08333333333333331,F,major,F,major
+Aunt Juley,Helen,impersonal_pronouns,6,4,2,0.5,0.3333333333333333,0.16666666666666669,F,major,F,major
+Aunt Juley,Helen,personal_pronouns,6,6,3,0.5,0.5,0.0,F,major,F,major
+Aunt Juley,Helen,prepositions,6,5,1,0.2,0.16666666666666666,0.033333333333333354,F,major,F,major
+Aunt Juley,Helen,quantifiers,6,4,1,0.25,0.3333333333333333,-0.08333333333333331,F,major,F,major
+Aunt Juley,Margaret,articles,6,3,3,1.0,0.8333333333333334,0.16666666666666663,F,major,F,major
+Aunt Juley,Margaret,auxiliary_verbs,6,3,2,0.6666666666666666,0.6666666666666666,0.0,F,major,F,major
+Aunt Juley,Margaret,personal_pronouns,6,6,5,0.8333333333333334,0.8333333333333334,0.0,F,major,F,major
+Aunt Juley,Margaret,prepositions,6,4,4,1.0,1.0,0.0,F,major,F,major
+Aunt Juley,Tibby,personal_pronouns,3,3,3,1.0,1.0,0.0,F,major,M,intermediate
+Charles Wilcox,Henry,adverbs,3,3,1,0.3333333333333333,0.3333333333333333,0.0,M,major,,
+Charles Wilcox,Henry,auxiliary_verbs,3,3,3,1.0,1.0,0.0,M,major,,
+Charles Wilcox,Henry,personal_pronouns,3,3,3,1.0,1.0,0.0,M,major,,
+Charles Wilcox,Margaret,auxiliary_verbs,3,3,2,0.6666666666666666,0.6666666666666666,0.0,M,major,F,major
+Charles Wilcox,Margaret,personal_pronouns,3,3,3,1.0,1.0,0.0,M,major,F,major
+Charles Wilcox,Margaret,prepositions,3,3,1,0.3333333333333333,0.3333333333333333,0.0,M,major,F,major
+Dolly,Charles Wilcox,adverbs,3,3,3,1.0,1.0,0.0,F,intermediate,M,major
+Dolly,Charles Wilcox,personal_pronouns,3,3,2,0.6666666666666666,0.6666666666666666,0.0,F,intermediate,M,major
+Dolly,Charles Wilcox,prepositions,3,3,2,0.6666666666666666,0.6666666666666666,0.0,F,intermediate,M,major
+Dolly,Henry,auxiliary_verbs,3,3,2,0.6666666666666666,0.6666666666666666,0.0,F,intermediate,,
+Dolly,Margaret,personal_pronouns,4,4,4,1.0,1.0,0.0,F,intermediate,F,major
+Evie,Henry,adverbs,5,3,3,1.0,0.6,0.4,F,intermediate,,
+Evie,Henry,auxiliary_verbs,5,3,1,0.3333333333333333,0.4,-0.06666666666666671,F,intermediate,,
+Evie,Henry,conjunctions,5,3,0,0.0,0.0,0.0,F,intermediate,,
+Evie,Henry,impersonal_pronouns,5,3,0,0.0,0.2,-0.2,F,intermediate,,
 Evie,Henry,personal_pronouns,5,4,2,0.5,0.6,-0.09999999999999998,F,intermediate,,
-Helen,Aunt Juley,adverbs,7,4,2,0.5,0.5714285714285714,-0.0714285714285714,F,major,F,major
-Helen,Aunt Juley,articles,7,3,2,0.6666666666666666,0.5714285714285714,0.09523809523809523,F,major,F,major
-Helen,Aunt Juley,auxiliary_verbs,7,6,4,0.6666666666666666,0.7142857142857143,-0.04761904761904767,F,major,F,major
-Helen,Aunt Juley,conjunctions,7,4,3,0.75,0.5714285714285714,0.1785714285714286,F,major,F,major
-Helen,Aunt Juley,impersonal_pronouns,7,5,3,0.6,0.7142857142857143,-0.11428571428571432,F,major,F,major
-Helen,Aunt Juley,negations,7,4,0,0.0,0.2857142857142857,-0.2857142857142857,F,major,F,major
-Helen,Aunt Juley,personal_pronouns,7,6,4,0.6666666666666666,0.7142857142857143,-0.04761904761904767,F,major,F,major
-Helen,Aunt Juley,prepositions,7,5,3,0.6,0.5714285714285714,0.02857142857142858,F,major,F,major
-Helen,Leonard,adverbs,9,6,2,0.3333333333333333,0.4444444444444444,-0.1111111111111111,F,major,M,major
-Helen,Leonard,articles,9,6,0,0.0,0.2222222222222222,-0.2222222222222222,F,major,M,major
-Helen,Leonard,auxiliary_verbs,9,7,3,0.42857142857142855,0.5555555555555556,-0.12698412698412703,F,major,M,major
-Helen,Leonard,conjunctions,9,5,0,0.0,0.2222222222222222,-0.2222222222222222,F,major,M,major
-Helen,Leonard,impersonal_pronouns,9,4,4,1.0,0.7777777777777778,0.2222222222222222,F,major,M,major
-Helen,Leonard,negations,9,3,1,0.3333333333333333,0.2222222222222222,0.1111111111111111,F,major,M,major
-Helen,Leonard,personal_pronouns,9,7,5,0.7142857142857143,0.7777777777777778,-0.06349206349206349,F,major,M,major
-Helen,Leonard,prepositions,9,6,3,0.5,0.5555555555555556,-0.05555555555555558,F,major,M,major
-Helen,Leonard,quantifiers,9,3,2,0.6666666666666666,0.3333333333333333,0.3333333333333333,F,major,M,major
-Helen,Margaret,adverbs,25,14,8,0.5714285714285714,0.64,-0.06857142857142862,F,major,F,major
-Helen,Margaret,articles,25,17,7,0.4117647058823529,0.36,0.051764705882352935,F,major,F,major
-Helen,Margaret,auxiliary_verbs,25,16,10,0.625,0.56,0.06499999999999995,F,major,F,major
-Helen,Margaret,conjunctions,25,17,6,0.35294117647058826,0.4,-0.047058823529411764,F,major,F,major
-Helen,Margaret,impersonal_pronouns,25,15,4,0.26666666666666666,0.28,-0.013333333333333364,F,major,F,major
-Helen,Margaret,personal_pronouns,25,23,16,0.6956521739130435,0.68,0.01565217391304341,F,major,F,major
-Helen,Margaret,prepositions,25,18,8,0.4444444444444444,0.44,0.0044444444444444176,F,major,F,major
-Helen,Margaret,quantifiers,25,11,1,0.09090909090909091,0.2,-0.1090909090909091,F,major,F,major
-Helen,Tibby,adverbs,5,4,1,0.25,0.2,0.04999999999999999,F,major,M,intermediate
-Helen,Tibby,articles,5,4,3,0.75,0.6,0.15000000000000002,F,major,M,intermediate
-Helen,Tibby,auxiliary_verbs,5,3,3,1.0,0.6,0.4,F,major,M,intermediate
-Helen,Tibby,conjunctions,5,4,0,0.0,0.2,-0.2,F,major,M,intermediate
-Helen,Tibby,impersonal_pronouns,5,4,1,0.25,0.2,0.04999999999999999,F,major,M,intermediate
-Helen,Tibby,personal_pronouns,5,3,3,1.0,0.6,0.4,F,major,M,intermediate
-Helen,Tibby,prepositions,5,4,2,0.5,0.4,0.09999999999999998,F,major,M,intermediate
-Henry,Charles Wilcox,prepositions,3,3,1,0.3333333333333333,0.3333333333333333,0.0,,,M,major
-Henry,Dolly,adverbs,4,3,1,0.3333333333333333,0.25,0.08333333333333331,,,F,intermediate
-Henry,Dolly,personal_pronouns,4,3,3,1.0,1.0,0.0,,,F,intermediate
-Henry,Dolly,prepositions,4,3,3,1.0,0.75,0.25,,,F,intermediate
-Henry,Dolly,quantifiers,4,3,0,0.0,0.25,-0.25,,,F,intermediate
-Henry,Evie,adverbs,4,3,1,0.3333333333333333,0.25,0.08333333333333331,,,F,intermediate
-Henry,Evie,auxiliary_verbs,4,3,1,0.3333333333333333,0.25,0.08333333333333331,,,F,intermediate
-Henry,Evie,personal_pronouns,4,4,3,0.75,0.75,0.0,,,F,intermediate
-Henry,Evie,prepositions,4,3,1,0.3333333333333333,0.25,0.08333333333333331,,,F,intermediate
-Henry,Evie,quantifiers,4,3,1,0.3333333333333333,0.25,0.08333333333333331,,,F,intermediate
-Henry,Helen,adverbs,6,3,1,0.3333333333333333,0.6666666666666666,-0.3333333333333333,,,F,major
-Henry,Helen,articles,6,6,3,0.5,0.5,0.0,,,F,major
-Henry,Helen,auxiliary_verbs,6,5,2,0.4,0.3333333333333333,0.06666666666666671,,,F,major
-Henry,Helen,conjunctions,6,5,4,0.8,0.8333333333333334,-0.033333333333333326,,,F,major
-Henry,Helen,impersonal_pronouns,6,5,2,0.4,0.3333333333333333,0.06666666666666671,,,F,major
-Henry,Helen,personal_pronouns,6,6,5,0.8333333333333334,0.8333333333333334,0.0,,,F,major
-Henry,Helen,prepositions,6,5,4,0.8,0.8333333333333334,-0.033333333333333326,,,F,major
-Henry,Helen,quantifiers,6,5,1,0.2,0.16666666666666666,0.033333333333333354,,,F,major
-Henry,Margaret,adverbs,27,14,4,0.2857142857142857,0.2222222222222222,0.06349206349206349,,,F,major
-Henry,Margaret,articles,27,7,1,0.14285714285714285,0.25925925925925924,-0.1164021164021164,,,F,major
-Henry,Margaret,auxiliary_verbs,27,13,8,0.6153846153846154,0.5925925925925926,0.02279202279202286,,,F,major
-Henry,Margaret,conjunctions,27,7,3,0.42857142857142855,0.4074074074074074,0.021164021164021163,,,F,major
-Henry,Margaret,impersonal_pronouns,27,8,5,0.625,0.5925925925925926,0.03240740740740744,,,F,major
-Henry,Margaret,negations,27,8,2,0.25,0.07407407407407407,0.17592592592592593,,,F,major
-Henry,Margaret,personal_pronouns,27,20,14,0.7,0.7037037037037037,-0.0037037037037037646,,,F,major
-Henry,Margaret,prepositions,27,16,5,0.3125,0.4074074074074074,-0.09490740740740738,,,F,major
-Henry,Margaret,quantifiers,27,8,1,0.125,0.25925925925925924,-0.13425925925925924,,,F,major
-Leonard,Helen,adverbs,9,3,3,1.0,0.7777777777777778,0.2222222222222222,M,major,F,major
-Leonard,Helen,articles,9,3,2,0.6666666666666666,0.4444444444444444,0.2222222222222222,M,major,F,major
-Leonard,Helen,auxiliary_verbs,9,6,4,0.6666666666666666,0.7777777777777778,-0.11111111111111116,M,major,F,major
-Leonard,Helen,conjunctions,9,5,3,0.6,0.5555555555555556,0.0444444444444444,M,major,F,major
-Leonard,Helen,impersonal_pronouns,9,6,5,0.8333333333333334,0.6666666666666666,0.16666666666666674,M,major,F,major
-Leonard,Helen,personal_pronouns,9,7,6,0.8571428571428571,0.7777777777777778,0.0793650793650793,M,major,F,major
-Leonard,Helen,prepositions,9,5,2,0.4,0.4444444444444444,-0.0444444444444444,M,major,F,major
-Leonard,Helen,quantifiers,9,5,1,0.2,0.2222222222222222,-0.0222222222222222,M,major,F,major
-Leonard,Margaret,adverbs,8,5,0,0.0,0.375,-0.375,M,major,F,major
-Leonard,Margaret,auxiliary_verbs,8,5,5,1.0,1.0,0.0,M,major,F,major
-Leonard,Margaret,conjunctions,8,5,3,0.6,0.625,-0.025000000000000022,M,major,F,major
-Leonard,Margaret,impersonal_pronouns,8,6,3,0.5,0.375,0.125,M,major,F,major
-Leonard,Margaret,personal_pronouns,8,5,5,1.0,1.0,0.0,M,major,F,major
-Leonard,Margaret,prepositions,8,5,3,0.6,0.75,-0.15000000000000002,M,major,F,major
-Leonard,Margaret,quantifiers,8,3,0,0.0,0.125,-0.125,M,major,F,major
-Margaret,Aunt Juley,adverbs,4,4,3,0.75,0.75,0.0,F,major,F,major
-Margaret,Aunt Juley,prepositions,4,3,3,1.0,1.0,0.0,F,major,F,major
+Evie,Henry,quantifiers,5,3,1,0.3333333333333333,0.2,0.1333333333333333,F,intermediate,,
+Evie,Margaret,adverbs,3,3,2,0.6666666666666666,0.6666666666666666,0.0,F,intermediate,F,major
+Evie,Margaret,auxiliary_verbs,3,3,2,0.6666666666666666,0.6666666666666666,0.0,F,intermediate,F,major
+Evie,Margaret,personal_pronouns,3,3,3,1.0,1.0,0.0,F,intermediate,F,major
+Evie,Margaret,prepositions,3,3,3,1.0,1.0,0.0,F,intermediate,F,major
+Helen,Aunt Juley,adverbs,7,5,3,0.6,0.5714285714285714,0.02857142857142858,F,major,F,major
+Helen,Aunt Juley,articles,7,5,4,0.8,0.5714285714285714,0.22857142857142865,F,major,F,major
+Helen,Aunt Juley,auxiliary_verbs,7,3,3,1.0,0.7142857142857143,0.2857142857142857,F,major,F,major
+Helen,Aunt Juley,conjunctions,7,4,3,0.75,0.42857142857142855,0.32142857142857145,F,major,F,major
+Helen,Aunt Juley,impersonal_pronouns,7,4,4,1.0,0.7142857142857143,0.2857142857142857,F,major,F,major
+Helen,Aunt Juley,negations,7,3,2,0.6666666666666666,0.5714285714285714,0.09523809523809523,F,major,F,major
+Helen,Aunt Juley,personal_pronouns,7,6,5,0.8333333333333334,0.7142857142857143,0.11904761904761907,F,major,F,major
+Helen,Aunt Juley,prepositions,7,5,5,1.0,0.7142857142857143,0.2857142857142857,F,major,F,major
+Helen,Henry,prepositions,3,3,3,1.0,1.0,0.0,F,major,,
+Helen,Leonard,adverbs,9,4,3,0.75,0.4444444444444444,0.3055555555555556,F,major,M,major
+Helen,Leonard,articles,9,3,1,0.3333333333333333,0.3333333333333333,0.0,F,major,M,major
+Helen,Leonard,auxiliary_verbs,9,5,5,1.0,0.7777777777777778,0.2222222222222222,F,major,M,major
+Helen,Leonard,conjunctions,9,4,0,0.0,0.2222222222222222,-0.2222222222222222,F,major,M,major
+Helen,Leonard,impersonal_pronouns,9,3,0,0.0,0.4444444444444444,-0.4444444444444444,F,major,M,major
+Helen,Leonard,negations,9,3,0,0.0,0.1111111111111111,-0.1111111111111111,F,major,M,major
+Helen,Leonard,personal_pronouns,9,7,6,0.8571428571428571,0.7777777777777778,0.0793650793650793,F,major,M,major
+Helen,Leonard,prepositions,9,5,3,0.6,0.4444444444444444,0.15555555555555556,F,major,M,major
+Helen,Leonard,quantifiers,9,4,2,0.5,0.5555555555555556,-0.05555555555555558,F,major,M,major
+Helen,Margaret,adverbs,25,13,10,0.7692307692307693,0.76,0.009230769230769265,F,major,F,major
+Helen,Margaret,articles,25,15,6,0.4,0.44,-0.03999999999999998,F,major,F,major
+Helen,Margaret,auxiliary_verbs,25,18,9,0.5,0.6,-0.09999999999999998,F,major,F,major
+Helen,Margaret,conjunctions,25,11,4,0.36363636363636365,0.44,-0.07636363636363636,F,major,F,major
+Helen,Margaret,impersonal_pronouns,25,15,7,0.4666666666666667,0.44,0.026666666666666672,F,major,F,major
+Helen,Margaret,negations,25,8,3,0.375,0.36,0.015000000000000013,F,major,F,major
+Helen,Margaret,personal_pronouns,25,18,14,0.7777777777777778,0.76,0.01777777777777778,F,major,F,major
+Helen,Margaret,prepositions,25,18,13,0.7222222222222222,0.76,-0.0377777777777778,F,major,F,major
+Helen,Margaret,quantifiers,25,10,6,0.6,0.48,0.12,F,major,F,major
+Helen,Tibby,conjunctions,5,3,2,0.6666666666666666,0.6,0.06666666666666665,F,major,M,intermediate
+Helen,Tibby,prepositions,5,3,3,1.0,0.6,0.4,F,major,M,intermediate
+Henry,Charles Wilcox,prepositions,3,3,2,0.6666666666666666,0.6666666666666666,0.0,,,M,major
+Henry,Dolly,personal_pronouns,4,4,4,1.0,1.0,0.0,,,F,intermediate
+Henry,Dolly,prepositions,4,3,2,0.6666666666666666,0.75,-0.08333333333333337,,,F,intermediate
+Henry,Evie,adverbs,4,3,2,0.6666666666666666,0.5,0.16666666666666663,,,F,intermediate
+Henry,Evie,auxiliary_verbs,4,3,2,0.6666666666666666,0.75,-0.08333333333333337,,,F,intermediate
+Henry,Evie,personal_pronouns,4,3,3,1.0,1.0,0.0,,,F,intermediate
+Henry,Evie,prepositions,4,3,2,0.6666666666666666,0.75,-0.08333333333333337,,,F,intermediate
+Henry,Helen,adverbs,6,5,3,0.6,0.5,0.09999999999999998,,,F,major
+Henry,Helen,auxiliary_verbs,6,4,3,0.75,0.6666666666666666,0.08333333333333337,,,F,major
+Henry,Helen,impersonal_pronouns,6,4,2,0.5,0.5,0.0,,,F,major
+Henry,Helen,personal_pronouns,6,5,5,1.0,1.0,0.0,,,F,major
+Henry,Helen,prepositions,6,3,2,0.6666666666666666,0.5,0.16666666666666663,,,F,major
+Henry,Helen,quantifiers,6,3,2,0.6666666666666666,0.6666666666666666,0.0,,,F,major
+Henry,Margaret,adverbs,27,9,6,0.6666666666666666,0.4074074074074074,0.25925925925925924,,,F,major
+Henry,Margaret,articles,27,12,3,0.25,0.37037037037037035,-0.12037037037037035,,,F,major
+Henry,Margaret,auxiliary_verbs,27,17,10,0.5882352941176471,0.6296296296296297,-0.04139433551198257,,,F,major
+Henry,Margaret,conjunctions,27,5,3,0.6,0.37037037037037035,0.22962962962962963,,,F,major
+Henry,Margaret,impersonal_pronouns,27,10,6,0.6,0.4444444444444444,0.15555555555555556,,,F,major
+Henry,Margaret,negations,27,5,2,0.4,0.25925925925925924,0.14074074074074078,,,F,major
+Henry,Margaret,personal_pronouns,27,22,19,0.8636363636363636,0.8148148148148148,0.04882154882154888,,,F,major
+Henry,Margaret,prepositions,27,17,10,0.5882352941176471,0.5555555555555556,0.0326797385620915,,,F,major
+Henry,Margaret,quantifiers,27,8,2,0.25,0.2962962962962963,-0.04629629629629628,,,F,major
+Leonard,Helen,adverbs,9,5,1,0.2,0.4444444444444444,-0.2444444444444444,M,major,F,major
+Leonard,Helen,auxiliary_verbs,9,3,2,0.6666666666666666,0.6666666666666666,0.0,M,major,F,major
+Leonard,Helen,impersonal_pronouns,9,5,3,0.6,0.6666666666666666,-0.06666666666666665,M,major,F,major
+Leonard,Helen,personal_pronouns,9,4,4,1.0,0.8888888888888888,0.11111111111111116,M,major,F,major
+Leonard,Helen,prepositions,9,4,3,0.75,0.7777777777777778,-0.02777777777777779,M,major,F,major
+Leonard,Helen,quantifiers,9,4,1,0.25,0.2222222222222222,0.02777777777777779,M,major,F,major
+Leonard,Margaret,adverbs,8,5,3,0.6,0.375,0.22499999999999998,M,major,F,major
+Leonard,Margaret,articles,8,3,1,0.3333333333333333,0.25,0.08333333333333331,M,major,F,major
+Leonard,Margaret,auxiliary_verbs,8,3,2,0.6666666666666666,0.5,0.16666666666666663,M,major,F,major
+Leonard,Margaret,conjunctions,8,5,3,0.6,0.375,0.22499999999999998,M,major,F,major
+Leonard,Margaret,impersonal_pronouns,8,3,2,0.6666666666666666,0.5,0.16666666666666663,M,major,F,major
+Leonard,Margaret,negations,8,4,1,0.25,0.25,0.0,M,major,F,major
+Leonard,Margaret,personal_pronouns,8,6,3,0.5,0.625,-0.125,M,major,F,major
+Leonard,Margaret,prepositions,8,5,3,0.6,0.5,0.09999999999999998,M,major,F,major
+Leonard,Margaret,quantifiers,8,3,1,0.3333333333333333,0.375,-0.041666666666666685,M,major,F,major
+Margaret,Aunt Juley,adverbs,4,3,2,0.6666666666666666,0.5,0.16666666666666663,F,major,F,major
+Margaret,Aunt Juley,auxiliary_verbs,4,4,2,0.5,0.5,0.0,F,major,F,major
+Margaret,Aunt Juley,personal_pronouns,4,4,3,0.75,0.75,0.0,F,major,F,major
+Margaret,Aunt Juley,prepositions,4,3,2,0.6666666666666666,0.5,0.16666666666666663,F,major,F,major
+Margaret,Charles Wilcox,auxiliary_verbs,3,3,1,0.3333333333333333,0.3333333333333333,0.0,F,major,M,major
+Margaret,Charles Wilcox,personal_pronouns,3,3,3,1.0,1.0,0.0,F,major,M,major
+Margaret,Charles Wilcox,prepositions,3,3,2,0.6666666666666666,0.6666666666666666,0.0,F,major,M,major
 Margaret,Fraulein Mosebach,adverbs,4,3,1,0.3333333333333333,0.5,-0.16666666666666669,F,major,F,minor
-Margaret,Fraulein Mosebach,articles,4,3,2,0.6666666666666666,0.75,-0.08333333333333337,F,major,F,minor
-Margaret,Fraulein Mosebach,auxiliary_verbs,4,3,2,0.6666666666666666,0.75,-0.08333333333333337,F,major,F,minor
-Margaret,Fraulein Mosebach,personal_pronouns,4,3,3,1.0,1.0,0.0,F,major,F,minor
-Margaret,Helen,adverbs,19,13,9,0.6923076923076923,0.7368421052631579,-0.04453441295546556,F,major,F,major
-Margaret,Helen,articles,19,11,7,0.6363636363636364,0.6842105263157895,-0.04784688995215314,F,major,F,major
-Margaret,Helen,auxiliary_verbs,19,13,7,0.5384615384615384,0.5789473684210527,-0.04048582995951422,F,major,F,major
-Margaret,Helen,conjunctions,19,9,6,0.6666666666666666,0.631578947368421,0.03508771929824561,F,major,F,major
-Margaret,Helen,impersonal_pronouns,19,12,8,0.6666666666666666,0.7368421052631579,-0.07017543859649122,F,major,F,major
-Margaret,Helen,negations,19,5,4,0.8,0.3684210526315789,0.4315789473684211,F,major,F,major
-Margaret,Helen,personal_pronouns,19,13,10,0.7692307692307693,0.7368421052631579,0.03238866396761142,F,major,F,major
-Margaret,Helen,prepositions,19,9,7,0.7777777777777778,0.7368421052631579,0.040935672514619936,F,major,F,major
-Margaret,Helen,quantifiers,19,6,3,0.5,0.5263157894736842,-0.02631578947368418,F,major,F,major
-Margaret,Henry,adverbs,21,9,6,0.6666666666666666,0.7142857142857143,-0.04761904761904767,F,major,,
-Margaret,Henry,articles,21,5,3,0.6,0.5238095238095238,0.07619047619047614,F,major,,
-Margaret,Henry,auxiliary_verbs,21,9,4,0.4444444444444444,0.5238095238095238,-0.07936507936507942,F,major,,
-Margaret,Henry,conjunctions,21,5,2,0.4,0.5714285714285714,-0.17142857142857137,F,major,,
-Margaret,Henry,impersonal_pronouns,21,9,4,0.4444444444444444,0.6190476190476191,-0.17460317460317465,F,major,,
-Margaret,Henry,negations,21,3,0,0.0,0.14285714285714285,-0.14285714285714285,F,major,,
-Margaret,Henry,personal_pronouns,21,14,13,0.9285714285714286,0.9047619047619048,0.023809523809523836,F,major,,
-Margaret,Henry,prepositions,21,8,4,0.5,0.7142857142857143,-0.2142857142857143,F,major,,
-Margaret,Henry,quantifiers,21,3,2,0.6666666666666666,0.5238095238095238,0.1428571428571428,F,major,,
-Margaret,Leonard,adverbs,8,5,1,0.2,0.375,-0.175,F,major,M,major
-Margaret,Leonard,articles,8,4,0,0.0,0.125,-0.125,F,major,M,major
-Margaret,Leonard,auxiliary_verbs,8,6,3,0.5,0.5,0.0,F,major,M,major
-Margaret,Leonard,conjunctions,8,5,2,0.4,0.375,0.025000000000000022,F,major,M,major
-Margaret,Leonard,impersonal_pronouns,8,4,1,0.25,0.5,-0.25,F,major,M,major
-Margaret,Leonard,negations,8,3,1,0.3333333333333333,0.375,-0.041666666666666685,F,major,M,major
-Margaret,Leonard,personal_pronouns,8,5,4,0.8,0.75,0.050000000000000044,F,major,M,major
-Margaret,Leonard,prepositions,8,4,3,0.75,0.625,0.125,F,major,M,major
-Margaret,Mrs. Wilcox,adverbs,4,3,1,0.3333333333333333,0.5,-0.16666666666666669,F,major,F,intermediate
-Margaret,Mrs. Wilcox,articles,4,4,1,0.25,0.25,0.0,F,major,F,intermediate
-Margaret,Mrs. Wilcox,auxiliary_verbs,4,4,2,0.5,0.5,0.0,F,major,F,intermediate
-Margaret,Mrs. Wilcox,conjunctions,4,3,0,0.0,0.25,-0.25,F,major,F,intermediate
-Margaret,Mrs. Wilcox,impersonal_pronouns,4,4,3,0.75,0.75,0.0,F,major,F,intermediate
-Margaret,Mrs. Wilcox,personal_pronouns,4,4,4,1.0,1.0,0.0,F,major,F,intermediate
-Margaret,Mrs. Wilcox,prepositions,4,4,3,0.75,0.75,0.0,F,major,F,intermediate
-Margaret,Mrs. Wilcox,quantifiers,4,3,1,0.3333333333333333,0.25,0.08333333333333331,F,major,F,intermediate
+Margaret,Fraulein Mosebach,articles,4,3,1,0.3333333333333333,0.5,-0.16666666666666669,F,major,F,minor
+Margaret,Fraulein Mosebach,conjunctions,4,3,1,0.3333333333333333,0.5,-0.16666666666666669,F,major,F,minor
+Margaret,Fraulein Mosebach,impersonal_pronouns,4,3,2,0.6666666666666666,0.75,-0.08333333333333337,F,major,F,minor
+Margaret,Fraulein Mosebach,quantifiers,4,3,2,0.6666666666666666,0.5,0.16666666666666663,F,major,F,minor
+Margaret,Helen,adverbs,19,15,7,0.4666666666666667,0.5263157894736842,-0.05964912280701751,F,major,F,major
+Margaret,Helen,articles,19,9,5,0.5555555555555556,0.47368421052631576,0.08187134502923982,F,major,F,major
+Margaret,Helen,auxiliary_verbs,19,14,10,0.7142857142857143,0.6842105263157895,0.03007518796992481,F,major,F,major
+Margaret,Helen,conjunctions,19,6,2,0.3333333333333333,0.21052631578947367,0.12280701754385964,F,major,F,major
+Margaret,Helen,impersonal_pronouns,19,9,7,0.7777777777777778,0.631578947368421,0.14619883040935677,F,major,F,major
+Margaret,Helen,negations,19,8,1,0.125,0.2631578947368421,-0.1381578947368421,F,major,F,major
+Margaret,Helen,personal_pronouns,19,13,11,0.8461538461538461,0.8947368421052632,-0.04858299595141702,F,major,F,major
+Margaret,Helen,prepositions,19,11,6,0.5454545454545454,0.631578947368421,-0.0861244019138756,F,major,F,major
+Margaret,Helen,quantifiers,19,4,0,0.0,0.3684210526315789,-0.3684210526315789,F,major,F,major
+Margaret,Henry,adverbs,21,10,4,0.4,0.5238095238095238,-0.12380952380952381,F,major,,
+Margaret,Henry,articles,21,6,1,0.16666666666666666,0.2857142857142857,-0.11904761904761904,F,major,,
+Margaret,Henry,auxiliary_verbs,21,11,9,0.8181818181818182,0.7619047619047619,0.05627705627705637,F,major,,
+Margaret,Henry,conjunctions,21,7,2,0.2857142857142857,0.3333333333333333,-0.047619047619047616,F,major,,
+Margaret,Henry,impersonal_pronouns,21,6,4,0.6666666666666666,0.42857142857142855,0.23809523809523808,F,major,,
+Margaret,Henry,negations,21,7,2,0.2857142857142857,0.38095238095238093,-0.09523809523809523,F,major,,
+Margaret,Henry,personal_pronouns,21,18,17,0.9444444444444444,0.9047619047619048,0.03968253968253965,F,major,,
+Margaret,Henry,prepositions,21,8,6,0.75,0.6190476190476191,0.13095238095238093,F,major,,
+Margaret,Henry,quantifiers,21,7,2,0.2857142857142857,0.2857142857142857,0.0,F,major,,
+Margaret,Leonard,adverbs,8,4,3,0.75,0.5,0.25,F,major,M,major
+Margaret,Leonard,articles,8,3,2,0.6666666666666666,0.375,0.29166666666666663,F,major,M,major
+Margaret,Leonard,auxiliary_verbs,8,5,4,0.8,0.75,0.050000000000000044,F,major,M,major
+Margaret,Leonard,conjunctions,8,4,2,0.5,0.625,-0.125,F,major,M,major
+Margaret,Leonard,personal_pronouns,8,7,7,1.0,1.0,0.0,F,major,M,major
+Margaret,Leonard,prepositions,8,4,3,0.75,0.875,-0.125,F,major,M,major
+Margaret,Leonard,quantifiers,8,4,1,0.25,0.375,-0.125,F,major,M,major
 Margaret,Tibby,adverbs,5,4,2,0.5,0.4,0.09999999999999998,F,major,M,intermediate
-Margaret,Tibby,auxiliary_verbs,5,3,2,0.6666666666666666,0.8,-0.13333333333333341,F,major,M,intermediate
-Margaret,Tibby,conjunctions,5,3,0,0.0,0.2,-0.2,F,major,M,intermediate
-Margaret,Tibby,impersonal_pronouns,5,4,1,0.25,0.4,-0.15000000000000002,F,major,M,intermediate
-Margaret,Tibby,personal_pronouns,5,3,3,1.0,1.0,0.0,F,major,M,intermediate
-Margaret,Tibby,prepositions,5,3,1,0.3333333333333333,0.4,-0.06666666666666671,F,major,M,intermediate
-Margaret,Tibby,quantifiers,5,3,2,0.6666666666666666,0.4,0.2666666666666666,F,major,M,intermediate
-Miss Avery,Margaret,auxiliary_verbs,5,3,3,1.0,1.0,0.0,F,intermediate,F,major
-Miss Avery,Margaret,personal_pronouns,5,3,2,0.6666666666666666,0.8,-0.13333333333333341,F,intermediate,F,major
-Miss Avery,Margaret,prepositions,5,3,2,0.6666666666666666,0.6,0.06666666666666665,F,intermediate,F,major
-Mr. Wilcox,Dolly,prepositions,3,3,2,0.6666666666666666,0.6666666666666666,0.0,M,major,F,intermediate
-Mrs. Wilcox,Margaret,adverbs,6,3,2,0.6666666666666666,0.5,0.16666666666666663,F,intermediate,F,major
-Mrs. Wilcox,Margaret,articles,6,3,1,0.3333333333333333,0.3333333333333333,0.0,F,intermediate,F,major
-Mrs. Wilcox,Margaret,auxiliary_verbs,6,4,2,0.5,0.5,0.0,F,intermediate,F,major
-Mrs. Wilcox,Margaret,impersonal_pronouns,6,3,1,0.3333333333333333,0.3333333333333333,0.0,F,intermediate,F,major
+Margaret,Tibby,articles,5,4,3,0.75,0.8,-0.050000000000000044,F,major,M,intermediate
+Margaret,Tibby,impersonal_pronouns,5,3,3,1.0,1.0,0.0,F,major,M,intermediate
+Margaret,Tibby,personal_pronouns,5,4,3,0.75,0.8,-0.050000000000000044,F,major,M,intermediate
+Margaret,Tibby,prepositions,5,5,4,0.8,0.8,0.0,F,major,M,intermediate
+Miss Avery,Margaret,adverbs,5,4,2,0.5,0.6,-0.09999999999999998,F,intermediate,F,major
+Miss Avery,Margaret,articles,5,3,1,0.3333333333333333,0.6,-0.26666666666666666,F,intermediate,F,major
+Miss Avery,Margaret,auxiliary_verbs,5,4,2,0.5,0.6,-0.09999999999999998,F,intermediate,F,major
+Miss Avery,Margaret,conjunctions,5,3,2,0.6666666666666666,0.6,0.06666666666666665,F,intermediate,F,major
+Miss Avery,Margaret,negations,5,3,2,0.6666666666666666,0.4,0.2666666666666666,F,intermediate,F,major
+Miss Avery,Margaret,personal_pronouns,5,5,5,1.0,1.0,0.0,F,intermediate,F,major
+Miss Avery,Margaret,prepositions,5,4,4,1.0,0.8,0.19999999999999996,F,intermediate,F,major
+Mr. Wilcox,Dolly,articles,3,3,2,0.6666666666666666,0.6666666666666666,0.0,M,major,F,intermediate
+Mrs. Wilcox,Margaret,auxiliary_verbs,6,4,3,0.75,0.8333333333333334,-0.08333333333333337,F,intermediate,F,major
+Mrs. Wilcox,Margaret,conjunctions,6,4,3,0.75,0.6666666666666666,0.08333333333333337,F,intermediate,F,major
+Mrs. Wilcox,Margaret,impersonal_pronouns,6,4,2,0.5,0.5,0.0,F,intermediate,F,major
 Mrs. Wilcox,Margaret,personal_pronouns,6,5,4,0.8,0.6666666666666666,0.13333333333333341,F,intermediate,F,major
-Mrs. Wilcox,Margaret,prepositions,6,5,4,0.8,0.8333333333333334,-0.033333333333333326,F,intermediate,F,major
-Mrs. Wilcox,Margaret,quantifiers,6,3,2,0.6666666666666666,0.8333333333333334,-0.16666666666666674,F,intermediate,F,major
-Tibby,Helen,personal_pronouns,4,3,2,0.6666666666666666,0.75,-0.08333333333333337,M,intermediate,F,major
-Tibby,Margaret,adverbs,6,3,1,0.3333333333333333,0.5,-0.16666666666666669,M,intermediate,F,major
-Tibby,Margaret,articles,6,4,2,0.5,0.3333333333333333,0.16666666666666669,M,intermediate,F,major
-Tibby,Margaret,auxiliary_verbs,6,6,3,0.5,0.5,0.0,M,intermediate,F,major
+Mrs. Wilcox,Margaret,prepositions,6,4,3,0.75,0.6666666666666666,0.08333333333333337,F,intermediate,F,major
+Tibby,Helen,adverbs,4,3,2,0.6666666666666666,0.5,0.16666666666666663,M,intermediate,F,major
+Tibby,Helen,auxiliary_verbs,4,3,2,0.6666666666666666,0.75,-0.08333333333333337,M,intermediate,F,major
+Tibby,Helen,negations,4,3,1,0.3333333333333333,0.25,0.08333333333333331,M,intermediate,F,major
+Tibby,Helen,personal_pronouns,4,3,3,1.0,1.0,0.0,M,intermediate,F,major
+Tibby,Margaret,adverbs,6,4,4,1.0,0.8333333333333334,0.16666666666666663,M,intermediate,F,major
+Tibby,Margaret,articles,6,4,3,0.75,0.5,0.25,M,intermediate,F,major
+Tibby,Margaret,auxiliary_verbs,6,4,3,0.75,0.8333333333333334,-0.08333333333333337,M,intermediate,F,major
 Tibby,Margaret,impersonal_pronouns,6,3,1,0.3333333333333333,0.3333333333333333,0.0,M,intermediate,F,major
-Tibby,Margaret,personal_pronouns,6,6,3,0.5,0.5,0.0,M,intermediate,F,major
-Tibby,Margaret,prepositions,6,3,2,0.6666666666666666,0.8333333333333334,-0.16666666666666674,M,intermediate,F,major
-Tibby,Margaret,quantifiers,6,3,1,0.3333333333333333,0.3333333333333333,0.0,M,intermediate,F,major
+Tibby,Margaret,personal_pronouns,6,5,5,1.0,1.0,0.0,M,intermediate,F,major
+Tibby,Margaret,prepositions,6,3,2,0.6666666666666666,0.6666666666666666,0.0,M,intermediate,F,major

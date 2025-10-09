@@ -1,62 +1,63 @@
 ﻿a_speaker,b_speaker,n_features,n_pairs,n_triggers_total,mean_conv,mean_conv_w,a_gender,a_category,b_gender,b_category
-Edmund,Fanny Price,9,91,703,0.02103627788317766,0.020680599627968033,M,major,F,major
-Edmund,Henry Crawford,9,8,55,-0.05330687830687831,-0.03636363636363636,M,major,M,major
-Edmund,Lady Bertram,9,11,72,0.02635481802148468,0.02272727272727272,M,major,F,intermediate
-Edmund,Maria Bertram,6,6,26,0.055555555555555546,0.044871794871794865,M,major,F,intermediate
-Edmund,Mary Crawford,9,46,329,0.01429437444918079,0.011431214483943464,M,major,F,major
-Edmund,Mrs. Norris,6,6,24,-0.02777777777777779,-0.020833333333333343,M,major,F,intermediate
-Edmund,Tom Bertram,9,8,53,0.07936507936507936,0.06603773584905659,M,major,M,intermediate
-Fanny Price,Edmund,9,90,528,0.02215014402408518,0.01925505050505051,F,major,M,major
-Fanny Price,Henry Crawford,9,13,80,0.01520979020979021,0.008653846153846158,F,major,M,major
-Fanny Price,Lady Bertram,5,5,19,0.09333333333333331,0.08421052631578946,F,major,F,intermediate
-Fanny Price,Mary Crawford,9,28,180,0.04208437761069339,0.03789682539682539,F,major,F,major
-Fanny Price,Mr. Rushworth,5,5,19,-0.013333333333333341,-0.010526315789473694,F,major,M,intermediate
-Fanny Price,Mrs. Norris,3,4,9,0.0,0.0,F,major,F,intermediate
-Fanny Price,Sir Thomas,9,16,69,0.0609567901234568,0.08605072463768115,F,major,M,intermediate
+Edmund,Fanny Price,9,91,641,0.00751161503334573,0.006994565496905591,M,major,F,major
+Edmund,Henry Crawford,9,8,52,0.01600529100529101,0.007211538461538465,M,major,M,major
+Edmund,Lady Bertram,8,11,67,0.06849747474747472,0.05427408412483037,M,major,F,intermediate
+Edmund,Maria Bertram,7,6,29,-0.01190476190476191,-3.828355257328126e-18,M,major,F,intermediate
+Edmund,Mary Crawford,9,46,313,-0.0067709676300370635,-0.006667592721211276,M,major,F,major
+Edmund,Mrs. Norris,9,6,48,-0.012962962962962947,-0.010416666666666652,M,major,F,intermediate
+Edmund,Tom Bertram,9,8,63,0.008465608465608447,0.009920634920634904,M,major,M,intermediate
+Fanny Price,Edmund,9,90,644,0.007733549948258121,0.0062111801242235995,F,major,M,major
+Fanny Price,Henry Crawford,9,13,91,0.013802555469222131,0.015215553677092134,F,major,M,major
+Fanny Price,Lady Bertram,9,5,41,0.011111111111111108,0.009756097560975608,F,major,F,intermediate
+Fanny Price,Mary Crawford,9,28,201,0.004483742378479211,0.00533049040511726,F,major,F,major
+Fanny Price,Mr. Price,4,3,12,0.0,0.0,F,major,M,minor
+Fanny Price,Mr. Rushworth,7,5,29,-0.00714285714285715,-0.006896551724137937,F,major,M,intermediate
+Fanny Price,Mrs. Norris,6,4,22,-9.25185853854297e-18,-5.046468293750712e-18,F,major,F,intermediate
+Fanny Price,Sir Thomas,9,16,121,-0.02623456790123456,-0.02169421487603305,F,major,M,intermediate
 Fanny Price,Tom Bertram,7,3,21,0.0,0.0,F,major,M,intermediate
-Fanny Price,William Price,6,4,20,-0.041666666666666685,-0.03750000000000002,F,major,M,minor
-Henry Crawford,Edmund,9,10,81,-0.010141093474426802,-0.00987654320987654,M,major,M,major
-Henry Crawford,Fanny Price,9,18,123,-0.028194644861311527,-0.023938572719060518,M,major,F,major
-Henry Crawford,Julia Bertram,8,3,24,0.0,0.0,M,major,F,intermediate
-Henry Crawford,Maria Bertram,9,9,67,0.01640211640211641,0.013266998341625216,M,major,F,intermediate
-Henry Crawford,Mary Crawford,9,19,155,0.0066555959615815195,0.006791171477079803,M,major,F,major
-Henry Crawford,Mrs. Grant,8,6,34,-0.031250000000000014,-0.02450980392156864,M,major,F,intermediate
-Henry Crawford,Tom Bertram,9,5,38,0.10185185185185185,0.07894736842105263,M,major,M,intermediate
-Julia Bertram,Edmund,4,3,12,0.0,0.0,F,intermediate,M,major
-Julia Bertram,Fanny Price,9,4,35,0.009259259259259257,0.007142857142857141,F,intermediate,F,major
-Julia Bertram,Maria Bertram,9,4,34,0.009259259259259257,0.007352941176470588,F,intermediate,F,intermediate
-Lady Bertram,Edmund,9,11,69,0.036700336700336705,0.025032938076416347,F,intermediate,M,major
-Lady Bertram,Fanny Price,9,8,56,0.05277777777777777,0.03794642857142856,F,intermediate,F,major
-Lady Bertram,Henry Crawford,9,4,35,-0.009259259259259264,-0.007142857142857146,F,intermediate,M,major
-Lady Bertram,Mrs. Norris,9,16,92,-0.0005155338488671804,-0.012907608695652172,F,intermediate,F,intermediate
-Lady Bertram,Sir Thomas,9,8,51,0.01058201058201057,-1.0884539457109378e-17,F,intermediate,M,intermediate
-Maria Bertram,Edmund,9,7,58,0.006878306878306872,0.0049261083743842304,F,intermediate,M,major
-Maria Bertram,Henry Crawford,9,9,60,0.05141093474426808,0.03703703703703704,F,intermediate,M,major
-Maria Bertram,Mrs. Norris,7,4,25,0.0,0.0,F,intermediate,F,intermediate
-Mary Crawford,Edmund,9,49,381,0.009455412719670923,0.009373828271466067,F,major,M,major
-Mary Crawford,Fanny Price,9,27,223,-0.007059671407497482,-0.006311243979405401,F,major,F,major
-Mary Crawford,Henry Crawford,9,22,162,-0.008345997445584681,-0.007295173961840655,F,major,M,major
-Mary Crawford,Mrs. Grant,9,14,98,0.014897756564423234,0.014577259475218662,F,major,F,intermediate
-Mary Crawford,Tom Bertram,9,5,43,-0.01666666666666667,-0.013953488372093025,F,major,M,intermediate
+Fanny Price,William Price,4,4,15,0.04166666666666666,0.033333333333333326,F,major,M,minor
+Henry Crawford,Edmund,9,10,71,0.05639329805996471,0.04788732394366196,M,major,M,major
+Henry Crawford,Fanny Price,9,18,118,0.013423831070889921,0.010357815442561237,M,major,F,major
+Henry Crawford,Julia Bertram,6,3,18,0.0,0.0,M,major,F,intermediate
+Henry Crawford,Maria Bertram,9,9,70,-0.0006613756613756591,0.0015873015873015912,M,major,F,intermediate
+Henry Crawford,Mary Crawford,9,19,131,0.02493134087561332,0.02691844114102049,M,major,F,major
+Henry Crawford,Mrs. Grant,9,6,45,-0.003703703703703703,-0.003703703703703703,M,major,F,intermediate
+Henry Crawford,Tom Bertram,8,5,35,-0.020833333333333336,-0.011428571428571432,M,major,M,intermediate
+Julia Bertram,Edmund,8,3,24,0.0,0.0,F,intermediate,M,major
+Julia Bertram,Fanny Price,9,4,30,0.12037037037037034,0.10833333333333331,F,intermediate,F,major
+Julia Bertram,Maria Bertram,8,4,28,-0.020833333333333343,-0.017857142857142867,F,intermediate,F,intermediate
+Lady Bertram,Edmund,9,11,86,-0.010746352413019102,-0.009513742071881626,F,intermediate,M,major
+Lady Bertram,Fanny Price,9,8,62,0.01243386243386244,0.010080645161290328,F,intermediate,F,major
+Lady Bertram,Henry Crawford,7,4,28,0.0,0.0,F,intermediate,M,major
+Lady Bertram,Mrs. Norris,9,16,117,-0.046626675793342454,-0.04326923076923077,F,intermediate,F,intermediate
+Lady Bertram,Sir Thomas,9,8,59,0.006481481481481471,-0.004237288135593228,F,intermediate,M,intermediate
+Maria Bertram,Edmund,9,7,49,0.05846560846560849,0.052478134110787195,F,intermediate,M,major
+Maria Bertram,Henry Crawford,9,9,67,0.008597883597883629,0.006633499170812635,F,intermediate,M,major
+Maria Bertram,Mrs. Norris,8,4,27,-0.03125000000000001,-0.027777777777777783,F,intermediate,F,intermediate
+Mary Crawford,Edmund,9,49,360,-0.0055809767310338355,-0.00419501133786849,F,major,M,major
+Mary Crawford,Fanny Price,9,27,200,-0.02014497400970831,-0.01740740740740741,F,major,F,major
+Mary Crawford,Henry Crawford,9,22,150,0.01934224091086835,0.019696969696969678,F,major,M,major
+Mary Crawford,Mrs. Grant,9,14,102,0.0045109211775878405,0.002100840336134453,F,major,F,intermediate
+Mary Crawford,Tom Bertram,8,5,31,0.05208333333333332,0.038709677419354833,F,major,M,intermediate
 Mr. Price,Fanny Price,2,3,6,0.0,0.0,M,minor,F,major
-Mr. Rushworth,Fanny Price,9,5,36,0.04999999999999999,0.04444444444444443,M,intermediate,F,major
-Mr. Yates,Tom Bertram,5,3,15,0.0,0.0,M,minor,M,intermediate
-Mrs. Grant,Henry Crawford,8,7,43,0.0630952380952381,0.03986710963455149,F,intermediate,M,major
-Mrs. Grant,Mary Crawford,9,15,103,0.021981721981721977,0.018122977346278313,F,intermediate,F,major
-Mrs. Norris,Edmund,9,4,33,-0.018518518518518528,-0.015151515151515155,F,intermediate,M,major
-Mrs. Norris,Lady Bertram,9,17,132,0.03611810302986774,0.03342245989304813,F,intermediate,F,intermediate
-Mrs. Norris,Maria Bertram,9,4,34,0.027777777777777773,0.02205882352941176,F,intermediate,F,intermediate
-Mrs. Norris,Mrs. Rushworth,5,4,16,0.0,0.0,F,intermediate,F,minor
-Mrs. Norris,Sir Thomas,9,9,69,0.0011022927689594317,0.0016103059581320425,F,intermediate,M,intermediate
-Mrs. Rushworth,Mrs. Norris,9,4,33,0.05555555555555555,0.045454545454545456,F,minor,F,intermediate
-Sir Thomas,Fanny Price,9,16,103,0.0914482122815456,0.07888349514563105,M,intermediate,F,major
-Sir Thomas,Lady Bertram,9,8,52,0.06838624338624338,0.050480769230769225,M,intermediate,F,intermediate
-Sir Thomas,Mrs. Norris,9,11,84,0.010157126823793501,0.009740259740259752,M,intermediate,F,intermediate
-Tom Bertram,Edmund,9,11,80,-0.028595478595478604,-0.026136363636363645,M,intermediate,M,major
-Tom Bertram,Fanny Price,7,4,25,-0.03571428571428573,-0.030000000000000013,M,intermediate,F,major
-Tom Bertram,Henry Crawford,9,5,40,0.03518518518518518,0.03,M,intermediate,M,major
-Tom Bertram,Mary Crawford,9,4,33,0.027777777777777776,0.022727272727272728,M,intermediate,F,major
-Tom Bertram,Mr. Yates,9,4,34,-0.018518518518518528,-0.014705882352941183,M,intermediate,M,minor
-William Price,Fanny Price,8,5,32,0.06458333333333333,0.049999999999999996,M,minor,F,major
-William Price,Sir Thomas,7,3,21,0.0,0.0,M,minor,M,intermediate
-_unknowable,Mrs. Norris,7,3,21,0.0,0.0,M,minor,F,intermediate
+Mr. Rushworth,Fanny Price,9,5,42,-0.01111111111111112,-0.009523809523809532,M,intermediate,F,major
+Mr. Yates,Tom Bertram,8,3,24,0.0,0.0,M,minor,M,intermediate
+Mrs. Grant,Henry Crawford,9,7,56,0.024338624338624364,0.020408163265306145,F,intermediate,M,major
+Mrs. Grant,Mary Crawford,9,15,114,0.0036543703210370174,0.0011695906432748818,F,intermediate,F,major
+Mrs. Norris,Edmund,4,4,13,0.04166666666666666,0.03846153846153845,F,intermediate,M,major
+Mrs. Norris,Lady Bertram,9,17,111,0.02159097257136475,0.013778484366719685,F,intermediate,F,intermediate
+Mrs. Norris,Maria Bertram,8,4,31,0.0,0.0,F,intermediate,F,intermediate
+Mrs. Norris,Mrs. Rushworth,7,4,24,0.07142857142857142,0.0625,F,intermediate,F,minor
+Mrs. Norris,Sir Thomas,9,9,72,-0.009832451499118156,-0.00771604938271604,F,intermediate,M,intermediate
+Mrs. Rushworth,Mrs. Norris,9,4,35,0.018518518518518514,0.014285714285714282,F,minor,F,intermediate
+Sir Thomas,Fanny Price,9,16,111,0.047675935175935186,0.037725225225225235,M,intermediate,F,major
+Sir Thomas,Lady Bertram,9,8,57,0.01111111111111109,-2.337311630789803e-17,M,intermediate,F,intermediate
+Sir Thomas,Mrs. Norris,9,11,80,0.006657848324514968,0.005681818181818161,M,intermediate,F,intermediate
+Tom Bertram,Edmund,9,11,72,0.0011824595157928343,0.005050505050505035,M,intermediate,M,major
+Tom Bertram,Fanny Price,2,4,6,0.0,0.0,M,intermediate,F,major
+Tom Bertram,Henry Crawford,6,5,22,-0.044444444444444474,-0.03636363636363638,M,intermediate,M,major
+Tom Bertram,Mary Crawford,3,4,9,-0.02777777777777779,-0.02777777777777779,M,intermediate,F,major
+Tom Bertram,Mr. Yates,9,4,33,0.046296296296296294,0.03787878787878788,M,intermediate,M,minor
+William Price,Fanny Price,8,5,35,0.056249999999999994,0.04571428571428571,M,minor,F,major
+William Price,Sir Thomas,6,3,18,0.0,0.0,M,minor,M,intermediate
+_unknowable,Mrs. Norris,8,3,24,0.0,0.0,M,minor,F,intermediate

@@ -1,11 +1,10 @@
 ﻿a_speaker,b_speaker,n_features,n_pairs,n_triggers_total,mean_conv,mean_conv_w,a_gender,a_category,b_gender,b_category
-Caroline Abbott,Mr. Herriton,5,5,19,0.11333333333333333,0.11578947368421054,F,major,M,major
-Harriet,Mr. Herriton,6,7,24,0.09523809523809523,0.07142857142857141,F,major,M,major
-Harriet,Mrs. Herriton,6,4,23,-0.013888888888888895,-0.01086956521739131,F,major,F,intermediate
-Lilia,Signor Carella,7,6,26,0.16666666666666669,0.16025641025641027,F,intermediate,M,major
-Mr. Herriton,Caroline Abbott,6,6,23,0.15277777777777776,0.15217391304347824,M,major,F,major
-Mr. Herriton,Mrs. Herriton,6,6,24,0.027777777777777773,0.02083333333333333,M,major,F,intermediate
-Mrs. Herriton,Harriet,2,4,7,0.125,0.10714285714285714,F,intermediate,F,major
-Mrs. Herriton,Mr. Herriton,9,9,57,0.0425925925925926,0.023391812865497075,F,intermediate,M,major
-Signor Carella,Caroline Abbott,7,5,25,0.02857142857142855,0.023999999999999976,M,major,F,major
-Signor Carella,Mr. Herriton,4,4,13,-0.06250000000000001,-0.0576923076923077,M,major,M,major
+Caroline Abbott,Mr. Herriton,5,5,16,0.02999999999999997,0.024999999999999967,F,major,M,major
+Harriet,Mr. Herriton,8,7,31,0.005357142857142859,-0.004608294930875574,F,major,M,major
+Harriet,Mrs. Herriton,4,4,13,-2.7755575615628914e-17,-2.5620531337503614e-17,F,major,F,intermediate
+Lilia,Signor Carella,6,6,21,0.15277777777777776,0.15079365079365079,F,intermediate,M,major
+Mr. Herriton,Caroline Abbott,2,6,8,0.15000000000000002,0.14583333333333337,M,major,F,major
+Mr. Herriton,Mrs. Herriton,7,6,23,-0.04761904761904765,-0.036231884057971044,M,major,F,intermediate
+Mrs. Herriton,Harriet,4,4,14,-0.020833333333333343,-0.017857142857142867,F,intermediate,F,major
+Mrs. Herriton,Mr. Herriton,8,9,52,0.017261904761904756,0.021367521367521364,F,intermediate,M,major
+Signor Carella,Caroline Abbott,4,5,14,0.06666666666666664,0.05714285714285711,M,major,F,major

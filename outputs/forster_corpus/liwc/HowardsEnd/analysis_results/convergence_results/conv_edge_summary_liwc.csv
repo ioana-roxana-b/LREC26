@@ -1,69 +1,72 @@
 ﻿a_speaker,b_speaker,n_features,n_pairs,n_triggers_total,mean_conv,mean_conv_w,a_gender,a_category,b_gender,b_category
-A Young Man Low Down In The Education Office,Margaret,2,3,6,0.0,0.0,M,minor,F,major
-Aunt Juley,Charles Wilcox,9,26,122,0.0898083398083398,0.0605296343001261,F,major,M,major
-Aunt Juley,Helen,9,15,94,0.035906685906685894,0.013475177304964524,F,major,F,major
-Aunt Juley,Margaret,9,52,250,0.0342167937426558,0.024999999999999988,F,major,F,major
-Charles Wilcox,Aunt Juley,9,24,114,0.0360944610944611,0.04093567251461989,M,major,F,major
-Charles Wilcox,Dolly,9,17,73,0.03254439823067275,0.048348106365834004,M,major,F,intermediate
-Charles Wilcox,Evie,6,6,28,-0.09999999999999998,-0.08333333333333333,M,major,F,intermediate
-Charles Wilcox,Henry,9,23,130,0.009856880828747841,-0.009030100334448149,M,major,,
-Charles Wilcox,His Father'S Chauffeur,5,6,21,0.12333333333333336,0.11111111111111113,M,major,M,minor
-Charles Wilcox,Margaret,7,10,29,0.08639455782312924,0.09310344827586205,M,major,F,major
-Charles Wilcox,Mr. Wilcox,7,8,33,0.008333333333333335,0.030303030303030304,M,major,M,major
-Charles Wilcox,Tibby,8,6,29,0.05208333333333333,0.051724137931034475,M,major,M,intermediate
-Dolly,Charles Wilcox,8,19,72,0.1171796679197995,0.081140350877193,F,intermediate,M,major
-Dolly,Henry,9,7,38,0.029100529100529113,0.037593984962406034,F,intermediate,,
-Dolly,Margaret,9,24,134,0.009782822669819589,0.014925373134328379,F,intermediate,F,major
-Dolly,Mr. Wilcox,2,4,6,0.04166666666666663,0.04166666666666663,F,intermediate,M,major
-Evie,Charles Wilcox,7,8,30,-0.019557823129251712,-0.029166666666666678,F,intermediate,M,major
-Evie,Margaret,2,6,6,0.0,0.0,F,intermediate,F,major
-Evie,Mr. Wilcox,4,6,13,0.020833333333333343,0.025641025641025644,F,intermediate,M,major
-Fraulein Mosebach,Margaret,2,4,8,0.0,0.0,F,minor,F,major
-Frieda,Aunt Juley,2,4,7,0.0,0.0,,,F,major
-Helen,Aunt Juley,9,12,55,0.08293650793650792,0.06818181818181815,F,major,F,major
-Helen,Fraulein Mosebach,4,3,12,0.0,0.0,F,major,F,minor
-Helen,Frieda,7,5,27,-0.04761904761904765,-0.04444444444444447,F,major,,
-Helen,Henry,9,20,105,0.029282754282754262,0.017142857142857123,F,major,,
-Helen,Leonard,9,56,266,0.009030554523380308,0.008257250268528454,F,major,M,major
-Helen,Margaret,9,183,966,0.020744630555408254,0.017773704872778275,F,major,F,major
-Helen,Tibby,9,16,120,0.05683251933251933,0.05625,F,major,M,intermediate
-Henry,Charles Wilcox,9,23,88,-0.004985754985754968,0.010375494071146253,,,M,major
-Henry,Dolly,3,6,13,0.05555555555555556,0.025641025641025654,,,F,intermediate
-Henry,Evie,4,7,19,0.06726190476190477,0.060150375939849635,,,F,intermediate
-Henry,Helen,9,16,82,-0.023961840628507303,-0.022865853658536595,,,F,major
-Henry,Margaret,9,254,1227,0.011496537306779476,0.01109549570362383,,,F,major
-Henry,Paul,5,5,18,0.07999999999999999,0.07777777777777778,,,M,minor
-His Father'S Chauffeur,Charles Wilcox,3,5,9,0.04444444444444443,0.04444444444444443,M,minor,M,major
-Leonard,Helen,9,53,259,-0.012345391040359588,-0.010198878123406417,M,major,F,major
-Leonard,Henry,4,3,12,0.0,0.0,M,major,,
-Leonard,Jacky,1,3,3,0.0,0.0,M,major,,
-Leonard,Margaret,9,36,158,0.043336683287663685,0.042897327707454296,M,major,F,major
-Leonard,Mrs. Bast,9,14,58,0.004188712522045856,0.002463054187192119,M,major,F,minor
-Leonard,The Parlourmaid,2,4,7,-0.125,-0.10714285714285714,M,major,F,minor
-Margaret,A Young Man Low Down In The Education Office,9,3,27,0.0,0.0,F,major,M,minor
-Margaret,Aunt Juley,9,50,280,-0.0030223324305156027,0.00021428571428569704,F,major,F,major
-Margaret,Charles Wilcox,6,10,27,-0.11587301587301586,-0.10740740740740741,F,major,M,major
-Margaret,Dolly,9,25,115,-0.005728650434532819,-0.01356521739130438,F,major,F,intermediate
-Margaret,Evie,4,5,13,-0.045833333333333365,-0.046153846153846184,F,major,F,intermediate
-Margaret,Helen,9,188,865,-0.011780134065953025,-0.004113885130980211,F,major,F,major
-Margaret,Henry,9,254,1203,0.0350290310059853,0.033426931359265874,F,major,,
-Margaret,Leonard,9,33,158,0.02879836308628878,0.040276179516685835,F,major,M,major
-Margaret,Miss Avery,9,21,99,-0.06887926887926889,-0.05916305916305916,F,major,F,intermediate
-Margaret,Mrs. Wilcox,9,58,310,0.05941296342894326,0.05967741935483873,F,major,F,intermediate
-Margaret,Tibby,9,23,119,0.03188072859854617,0.0215564486664231,F,major,M,intermediate
-Margaret,Tom,2,4,7,-0.041666666666666685,-0.03571428571428573,F,major,,
-Miss Avery,Madge,1,3,3,0.0,0.0,F,intermediate,F,minor
-Miss Avery,Margaret,9,22,117,0.015027873361206676,0.017482517482517466,F,intermediate,F,major
-Mr. Cunningham,Leonard,4,6,14,-0.08333333333333333,-0.08333333333333333,M,minor,M,major
-Mr. Wilcox,Charles Wilcox,9,8,45,0.06957671957671957,0.06666666666666667,M,major,M,major
-Mr. Wilcox,Evie,8,9,36,0.10357142857142856,0.09259259259259259,M,major,F,intermediate
-Mr. Wilcox,Mrs. Wilcox,4,4,14,-1.3877787807814457e-17,-1.1895246692412391e-17,M,major,F,intermediate
-Mrs. Bast,Leonard,6,14,34,0.09206349206349207,0.03361344537815127,F,minor,M,major
-Mrs. Wilcox,Margaret,9,57,308,0.05519718466941445,0.04619503303713831,F,intermediate,F,major
-Mrs. Wilcox,Mr. Wilcox,4,4,12,-1.3877787807814457e-17,-9.25185853854297e-18,F,intermediate,M,major
-Paul,Henry,1,3,3,0.0,0.0,M,minor,,
-The Parlourmaid,Leonard,3,4,10,-0.08333333333333333,-0.075,F,minor,M,major
-Tibby,Charles Wilcox,2,5,7,0.033333333333333326,0.028571428571428564,M,intermediate,M,major
-Tibby,Helen,8,18,66,0.058760683760683774,0.03030303030303031,M,intermediate,F,major
-Tibby,Margaret,9,24,82,0.0049620132953466355,0.003556910569105695,M,intermediate,F,major
-Tom,Margaret,3,4,9,0.027777777777777752,0.027777777777777752,,,F,major
+A Young Man Low Down In The Education Office,Margaret,5,3,15,0.0,0.0,M,minor,F,major
+Aunt Juley,Charles Wilcox,9,26,145,0.059533766886708056,0.060212201591511944,F,major,M,major
+Aunt Juley,Helen,9,15,69,0.09482924482924482,0.05120772946859903,F,major,F,major
+Aunt Juley,Margaret,9,52,267,0.010072321837027713,0.014765197349467008,F,major,F,major
+Charles Wilcox,Aunt Juley,9,24,77,0.0002124418791085467,-0.025974025974025962,M,major,F,major
+Charles Wilcox,Dolly,9,17,74,0.059217761178545464,0.05325914149443558,M,major,F,intermediate
+Charles Wilcox,Evie,5,6,19,0.13666666666666666,0.13157894736842105,M,major,F,intermediate
+Charles Wilcox,Henry,9,23,99,-0.08668017859474762,-0.056653491436100135,M,major,,
+Charles Wilcox,His Father'S Chauffeur,5,6,19,0.08333333333333334,0.07894736842105263,M,major,M,minor
+Charles Wilcox,Margaret,6,10,34,-0.1125,-0.061764705882352944,M,major,F,major
+Charles Wilcox,Mr. Wilcox,6,8,28,-0.07956349206349207,-0.05357142857142857,M,major,M,major
+Charles Wilcox,Tibby,3,6,10,-3.700743415417188e-17,-3.3306690738754695e-17,M,major,M,intermediate
+Dolly,Charles Wilcox,8,19,73,0.041186299081035944,0.033886085075702975,F,intermediate,M,major
+Dolly,Henry,6,7,24,-0.011507936507936486,2.7755575615628914e-17,F,intermediate,,
+Dolly,Margaret,9,24,107,0.03789186771642909,0.04205607476635511,F,intermediate,F,major
+Dolly,Mr. Wilcox,5,4,17,0.06666666666666665,0.05882352941176469,F,intermediate,M,major
+Evie,Charles Wilcox,7,8,29,0.08095238095238096,0.07758620689655173,F,intermediate,M,major
+Evie,Dolly,1,4,3,-0.08333333333333337,-0.08333333333333337,F,intermediate,F,intermediate
+Evie,Henry,4,4,12,-0.1041666666666667,-0.1041666666666667,F,intermediate,,
+Evie,Margaret,7,6,28,-0.021428571428571408,-0.011904761904761878,F,intermediate,F,major
+Evie,Mr. Wilcox,8,6,33,0.11875,0.09090909090909091,F,intermediate,M,major
+Evie,Mrs. Wilcox,2,3,6,0.0,0.0,F,intermediate,F,intermediate
+Fraulein Mosebach,Margaret,1,4,3,-0.16666666666666669,-0.16666666666666666,F,minor,F,major
+Frieda,Aunt Juley,4,4,13,-0.125,-0.11538461538461539,,,F,major
+Frieda,Helen,4,3,12,0.0,0.0,,,F,major
+Helen,Aunt Juley,9,12,82,0.009455667789001119,0.011178861788617881,F,major,F,major
+Helen,Frieda,6,5,24,0.0583333333333333,0.04999999999999997,F,major,,
+Helen,Henry,9,20,91,0.018694885361552026,0.028571428571428574,F,major,,
+Helen,Leonard,9,56,319,0.05959012295220098,0.05396327810120911,F,major,M,major
+Helen,Margaret,9,183,920,-0.005261601816624865,-0.0065989546210501225,F,major,F,major
+Helen,Tibby,9,16,75,-0.026414943081609757,-0.0016666666666666785,F,major,M,intermediate
+Henry,Charles Wilcox,9,23,109,-0.03526887871853546,-0.0343039489429597,,,M,major
+Henry,Dolly,3,6,13,-0.02777777777777779,-0.025641025641025654,,,F,intermediate
+Henry,Evie,9,7,40,-0.06243386243386241,-0.06428571428571428,,,F,intermediate
+Henry,Helen,9,16,78,-0.023575036075036068,-0.016025641025641014,,,F,major
+Henry,Margaret,9,254,1230,0.017287312341273547,0.019144100889827792,,,F,major
+Henry,Paul,5,5,16,0.03999999999999998,0.03749999999999998,,,M,minor
+His Father'S Chauffeur,Charles Wilcox,4,5,14,0.0333333333333333,0.028571428571428543,M,minor,M,major
+Leonard,Helen,9,53,296,-0.003827347383727475,-0.0047169811320754915,M,major,F,major
+Leonard,Henry,1,3,3,0.0,0.0,M,major,,
+Leonard,Margaret,9,36,148,0.03823212298631451,0.044857357357357346,M,major,F,major
+Leonard,Mr. Cunningham,4,5,13,0.06666666666666664,0.07692307692307689,M,major,M,minor
+Leonard,Mrs. Bast,8,14,63,-0.06318958818958818,-0.027210884353741485,M,major,F,minor
+Leonard,The Parlourmaid,9,4,34,0.027777777777777773,0.02205882352941176,M,major,F,minor
+Margaret,A Young Man Low Down In The Education Office,1,3,3,0.0,0.0,F,major,M,minor
+Margaret,Aunt Juley,9,50,229,-0.009118122222173916,0.005414847161572051,F,major,F,major
+Margaret,Charles Wilcox,6,10,31,-0.07222222222222223,-0.04838709677419355,F,major,M,major
+Margaret,Dolly,9,25,127,-0.036190238907630214,-0.03716535433070866,F,major,F,intermediate
+Margaret,Evie,2,5,6,0.16666666666666663,0.16666666666666663,F,major,F,intermediate
+Margaret,Helen,9,188,860,0.0001591684695596439,-0.003636813458683798,F,major,F,major
+Margaret,Henry,9,254,1311,0.02968315952445772,0.030577127515811087,F,major,,
+Margaret,Leonard,9,33,169,0.025258683811315397,0.031020261789492562,F,major,M,major
+Margaret,Miss Avery,9,21,89,0.05811287477954146,0.04815409309791335,F,major,F,intermediate
+Margaret,Mrs. Wilcox,9,58,255,0.002923656858611919,0.00398918187964843,F,major,F,intermediate
+Margaret,Tibby,9,23,91,0.06416526237273758,0.04395604395604396,F,major,M,intermediate
+Margaret,Tom,4,4,13,0.14583333333333331,0.1346153846153846,F,major,,
+Miss Avery,Madge,4,3,12,0.0,0.0,F,intermediate,F,minor
+Miss Avery,Margaret,9,22,87,0.030534099161550126,0.05067920585161963,F,intermediate,F,major
+Mr. Cunningham,Leonard,6,6,21,0.125,0.11111111111111109,M,minor,M,major
+Mr. Wilcox,Charles Wilcox,7,8,31,-0.021428571428571425,-0.02016129032258064,M,major,M,major
+Mr. Wilcox,Evie,8,9,46,-0.05262896825396826,-0.014492753623188413,M,major,F,intermediate
+Mr. Wilcox,Mrs. Wilcox,2,4,8,0.0,0.0,M,major,F,intermediate
+Mrs. Bast,Leonard,9,14,70,-0.00036075036075034855,-0.004081632653061212,F,minor,M,major
+Mrs. Wilcox,Margaret,9,57,276,0.020382619584545986,0.030320366132723132,F,intermediate,F,major
+Mrs. Wilcox,Mr. Wilcox,1,4,3,0.08333333333333331,0.08333333333333331,F,intermediate,M,major
+Paul,Henry,3,3,9,0.0,0.0,M,minor,,
+The Parlourmaid,Leonard,5,4,17,0.0,0.0,F,minor,M,major
+Tibby,Charles Wilcox,4,5,16,0.04583333333333332,0.04999999999999999,M,intermediate,M,major
+Tibby,Helen,9,18,108,0.07934303350970016,0.07561728395061727,M,intermediate,F,major
+Tibby,Margaret,9,24,115,0.07695216576795523,0.06992753623188405,M,intermediate,F,major
+Tom,Margaret,2,4,7,-0.041666666666666685,-0.03571428571428573,,,F,major

@@ -1,7 +1,7 @@
 ﻿a_speaker,b_speaker,n_features,n_pairs,n_triggers_total,mean_conv,mean_conv_w,a_gender,a_category,b_gender,b_category
-Captain Wentworth,Anne Elliot,6,4,21,0.055555555555555546,0.04761904761904761,M,major,F,major
+Captain Wentworth,Anne Elliot,2,4,6,0.0,0.0,M,major,F,major
 Charles Musgrove,Anne Elliot,9,4,36,0.0,0.0,M,intermediate,F,major
-Elizabeth,Sir Walter Elliot,1,3,3,0.0,0.0,F,minor,M,intermediate
-Lady Russell,Anne Elliot,4,4,14,-0.04166666666666667,-0.03571428571428571,F,minor,F,major
-Mary Musgrove,Charles Musgrove,5,3,15,0.0,0.0,F,intermediate,M,intermediate
-Sir Walter Elliot,Anne Elliot,9,5,36,-0.014814814814814824,-0.016666666666666677,M,intermediate,F,major
+Elizabeth,Sir Walter Elliot,6,3,18,0.0,0.0,F,minor,M,intermediate
+Lady Russell,Anne Elliot,8,4,30,-0.020833333333333343,-0.016666666666666673,F,minor,F,major
+Mary Musgrove,Charles Musgrove,8,3,24,0.0,0.0,F,intermediate,M,intermediate
+Sir Walter Elliot,Anne Elliot,9,5,33,-0.011111111111111134,-0.012121212121212142,M,intermediate,F,major

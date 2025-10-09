@@ -1,196 +1,194 @@
 ﻿a_speaker,b_speaker,family,n_pairs,n_triggers,n_b_positives_given_trigger,p1,p0,conv,a_gender,a_category,b_gender,b_category
-Edmund,Fanny Price,adverbs,9,7,4,0.5714285714285714,0.6666666666666666,-0.09523809523809523,M,major,F,major
-Edmund,Fanny Price,articles,9,7,4,0.5714285714285714,0.6666666666666666,-0.09523809523809523,M,major,F,major
-Edmund,Fanny Price,auxiliary_verbs,9,8,8,1.0,1.0,0.0,M,major,F,major
-Edmund,Fanny Price,conjunctions,9,8,7,0.875,0.8888888888888888,-0.01388888888888884,M,major,F,major
-Edmund,Fanny Price,impersonal_pronouns,9,5,3,0.6,0.5555555555555556,0.0444444444444444,M,major,F,major
-Edmund,Fanny Price,negations,9,6,2,0.3333333333333333,0.4444444444444444,-0.1111111111111111,M,major,F,major
-Edmund,Fanny Price,personal_pronouns,9,9,9,1.0,1.0,0.0,M,major,F,major
-Edmund,Fanny Price,prepositions,9,9,9,1.0,1.0,0.0,M,major,F,major
-Edmund,Fanny Price,quantifiers,9,5,3,0.6,0.5555555555555556,0.0444444444444444,M,major,F,major
-Edmund,Henry Crawford,adverbs,3,3,3,1.0,1.0,0.0,M,major,M,major
-Edmund,Henry Crawford,auxiliary_verbs,3,3,3,1.0,1.0,0.0,M,major,M,major
-Edmund,Henry Crawford,conjunctions,3,3,3,1.0,1.0,0.0,M,major,M,major
-Edmund,Henry Crawford,impersonal_pronouns,3,3,3,1.0,1.0,0.0,M,major,M,major
-Edmund,Henry Crawford,personal_pronouns,3,3,3,1.0,1.0,0.0,M,major,M,major
-Edmund,Henry Crawford,prepositions,3,3,3,1.0,1.0,0.0,M,major,M,major
-Edmund,Henry Crawford,quantifiers,3,3,3,1.0,1.0,0.0,M,major,M,major
-Edmund,Lady Bertram,adverbs,4,3,2,0.6666666666666666,0.75,-0.08333333333333337,M,major,F,intermediate
-Edmund,Lady Bertram,articles,4,4,3,0.75,0.75,0.0,M,major,F,intermediate
+Edmund,Fanny Price,adverbs,9,6,6,1.0,1.0,0.0,M,major,F,major
+Edmund,Fanny Price,articles,9,6,4,0.6666666666666666,0.7777777777777778,-0.11111111111111116,M,major,F,major
+Edmund,Fanny Price,auxiliary_verbs,9,8,7,0.875,0.8888888888888888,-0.01388888888888884,M,major,F,major
+Edmund,Fanny Price,conjunctions,9,5,4,0.8,0.8888888888888888,-0.0888888888888888,M,major,F,major
+Edmund,Fanny Price,impersonal_pronouns,9,5,2,0.4,0.5555555555555556,-0.15555555555555556,M,major,F,major
+Edmund,Fanny Price,negations,9,4,2,0.5,0.7777777777777778,-0.2777777777777778,M,major,F,major
+Edmund,Fanny Price,personal_pronouns,9,8,6,0.75,0.7777777777777778,-0.02777777777777779,M,major,F,major
+Edmund,Fanny Price,prepositions,9,7,6,0.8571428571428571,0.8888888888888888,-0.031746031746031744,M,major,F,major
+Edmund,Fanny Price,quantifiers,9,4,3,0.75,0.8888888888888888,-0.13888888888888884,M,major,F,major
+Edmund,Henry Crawford,adverbs,3,3,2,0.6666666666666666,0.6666666666666666,0.0,M,major,M,major
+Edmund,Henry Crawford,conjunctions,3,3,2,0.6666666666666666,0.6666666666666666,0.0,M,major,M,major
+Edmund,Henry Crawford,negations,3,3,1,0.3333333333333333,0.3333333333333333,0.0,M,major,M,major
+Edmund,Lady Bertram,adverbs,4,4,3,0.75,0.75,0.0,M,major,F,intermediate
+Edmund,Lady Bertram,articles,4,3,2,0.6666666666666666,0.75,-0.08333333333333337,M,major,F,intermediate
 Edmund,Lady Bertram,auxiliary_verbs,4,4,4,1.0,1.0,0.0,M,major,F,intermediate
-Edmund,Lady Bertram,conjunctions,4,3,2,0.6666666666666666,0.75,-0.08333333333333337,M,major,F,intermediate
-Edmund,Lady Bertram,impersonal_pronouns,4,3,2,0.6666666666666666,0.75,-0.08333333333333337,M,major,F,intermediate
-Edmund,Lady Bertram,negations,4,3,0,0.0,0.0,0.0,M,major,F,intermediate
+Edmund,Lady Bertram,impersonal_pronouns,4,4,2,0.5,0.5,0.0,M,major,F,intermediate
+Edmund,Lady Bertram,negations,4,3,2,0.6666666666666666,0.75,-0.08333333333333337,M,major,F,intermediate
 Edmund,Lady Bertram,personal_pronouns,4,4,4,1.0,1.0,0.0,M,major,F,intermediate
 Edmund,Lady Bertram,prepositions,4,4,4,1.0,1.0,0.0,M,major,F,intermediate
-Edmund,Maria Bertram,auxiliary_verbs,3,3,3,1.0,1.0,0.0,M,major,F,intermediate
-Edmund,Maria Bertram,impersonal_pronouns,3,3,3,1.0,1.0,0.0,M,major,F,intermediate
-Edmund,Maria Bertram,negations,3,3,0,0.0,0.0,0.0,M,major,F,intermediate
-Edmund,Maria Bertram,personal_pronouns,3,3,3,1.0,1.0,0.0,M,major,F,intermediate
-Edmund,Maria Bertram,prepositions,3,3,3,1.0,1.0,0.0,M,major,F,intermediate
-Edmund,Mary Crawford,adverbs,5,5,5,1.0,1.0,0.0,M,major,F,major
-Edmund,Mary Crawford,articles,5,5,3,0.6,0.6,0.0,M,major,F,major
+Edmund,Lady Bertram,quantifiers,4,4,3,0.75,0.75,0.0,M,major,F,intermediate
+Edmund,Maria Bertram,adverbs,3,3,2,0.6666666666666666,0.6666666666666666,0.0,M,major,F,intermediate
+Edmund,Maria Bertram,articles,3,3,3,1.0,1.0,0.0,M,major,F,intermediate
+Edmund,Maria Bertram,auxiliary_verbs,3,3,2,0.6666666666666666,0.6666666666666666,0.0,M,major,F,intermediate
+Edmund,Maria Bertram,conjunctions,3,3,2,0.6666666666666666,0.6666666666666666,0.0,M,major,F,intermediate
+Edmund,Maria Bertram,impersonal_pronouns,3,3,2,0.6666666666666666,0.6666666666666666,0.0,M,major,F,intermediate
+Edmund,Maria Bertram,negations,3,3,2,0.6666666666666666,0.6666666666666666,0.0,M,major,F,intermediate
+Edmund,Maria Bertram,personal_pronouns,3,3,2,0.6666666666666666,0.6666666666666666,0.0,M,major,F,intermediate
+Edmund,Maria Bertram,prepositions,3,3,2,0.6666666666666666,0.6666666666666666,0.0,M,major,F,intermediate
+Edmund,Maria Bertram,quantifiers,3,3,1,0.3333333333333333,0.3333333333333333,0.0,M,major,F,intermediate
+Edmund,Mary Crawford,adverbs,5,4,4,1.0,1.0,0.0,M,major,F,major
+Edmund,Mary Crawford,articles,5,3,2,0.6666666666666666,0.6,0.06666666666666665,M,major,F,major
 Edmund,Mary Crawford,auxiliary_verbs,5,5,5,1.0,1.0,0.0,M,major,F,major
-Edmund,Mary Crawford,conjunctions,5,5,3,0.6,0.6,0.0,M,major,F,major
-Edmund,Mary Crawford,impersonal_pronouns,5,5,4,0.8,0.8,0.0,M,major,F,major
-Edmund,Mary Crawford,negations,5,4,3,0.75,0.8,-0.050000000000000044,M,major,F,major
+Edmund,Mary Crawford,conjunctions,5,5,5,1.0,1.0,0.0,M,major,F,major
+Edmund,Mary Crawford,impersonal_pronouns,5,4,3,0.75,0.6,0.15000000000000002,M,major,F,major
+Edmund,Mary Crawford,negations,5,3,2,0.6666666666666666,0.8,-0.13333333333333341,M,major,F,major
 Edmund,Mary Crawford,personal_pronouns,5,5,5,1.0,1.0,0.0,M,major,F,major
-Edmund,Mary Crawford,prepositions,5,5,4,0.8,0.8,0.0,M,major,F,major
+Edmund,Mary Crawford,prepositions,5,4,4,1.0,1.0,0.0,M,major,F,major
 Edmund,Mary Crawford,quantifiers,5,4,3,0.75,0.8,-0.050000000000000044,M,major,F,major
-Edmund,Mrs. Norris,auxiliary_verbs,4,3,3,1.0,1.0,0.0,M,major,F,intermediate
-Edmund,Mrs. Norris,conjunctions,4,3,3,1.0,1.0,0.0,M,major,F,intermediate
+Edmund,Mrs. Norris,adverbs,4,4,4,1.0,1.0,0.0,M,major,F,intermediate
+Edmund,Mrs. Norris,auxiliary_verbs,4,4,4,1.0,1.0,0.0,M,major,F,intermediate
+Edmund,Mrs. Norris,conjunctions,4,3,2,0.6666666666666666,0.5,0.16666666666666663,M,major,F,intermediate
+Edmund,Mrs. Norris,impersonal_pronouns,4,3,2,0.6666666666666666,0.5,0.16666666666666663,M,major,F,intermediate
+Edmund,Mrs. Norris,negations,4,3,2,0.6666666666666666,0.5,0.16666666666666663,M,major,F,intermediate
 Edmund,Mrs. Norris,personal_pronouns,4,4,4,1.0,1.0,0.0,M,major,F,intermediate
-Edmund,Tom Bertram,adverbs,4,3,3,1.0,1.0,0.0,M,major,M,intermediate
-Edmund,Tom Bertram,articles,4,3,1,0.3333333333333333,0.25,0.08333333333333331,M,major,M,intermediate
+Edmund,Mrs. Norris,prepositions,4,4,2,0.5,0.5,0.0,M,major,F,intermediate
+Edmund,Tom Bertram,adverbs,4,3,2,0.6666666666666666,0.75,-0.08333333333333337,M,major,M,intermediate
+Edmund,Tom Bertram,articles,4,4,4,1.0,1.0,0.0,M,major,M,intermediate
 Edmund,Tom Bertram,auxiliary_verbs,4,4,4,1.0,1.0,0.0,M,major,M,intermediate
-Edmund,Tom Bertram,conjunctions,4,3,2,0.6666666666666666,0.75,-0.08333333333333337,M,major,M,intermediate
+Edmund,Tom Bertram,conjunctions,4,4,4,1.0,1.0,0.0,M,major,M,intermediate
 Edmund,Tom Bertram,impersonal_pronouns,4,3,3,1.0,1.0,0.0,M,major,M,intermediate
-Edmund,Tom Bertram,personal_pronouns,4,3,3,1.0,1.0,0.0,M,major,M,intermediate
-Edmund,Tom Bertram,prepositions,4,3,3,1.0,1.0,0.0,M,major,M,intermediate
-Fanny Price,Edmund,adverbs,8,6,6,1.0,1.0,0.0,F,major,M,major
-Fanny Price,Edmund,articles,8,6,5,0.8333333333333334,0.875,-0.04166666666666663,F,major,M,major
+Edmund,Tom Bertram,negations,4,3,2,0.6666666666666666,0.75,-0.08333333333333337,M,major,M,intermediate
+Edmund,Tom Bertram,personal_pronouns,4,4,4,1.0,1.0,0.0,M,major,M,intermediate
+Edmund,Tom Bertram,prepositions,4,4,4,1.0,1.0,0.0,M,major,M,intermediate
+Edmund,Tom Bertram,quantifiers,4,4,4,1.0,1.0,0.0,M,major,M,intermediate
+Fanny Price,Edmund,adverbs,8,5,4,0.8,0.75,0.050000000000000044,F,major,M,major
+Fanny Price,Edmund,articles,8,6,4,0.6666666666666666,0.625,0.04166666666666663,F,major,M,major
 Fanny Price,Edmund,auxiliary_verbs,8,8,8,1.0,1.0,0.0,F,major,M,major
-Fanny Price,Edmund,conjunctions,8,5,4,0.8,0.875,-0.07499999999999996,F,major,M,major
-Fanny Price,Edmund,impersonal_pronouns,8,5,4,0.8,0.875,-0.07499999999999996,F,major,M,major
-Fanny Price,Edmund,negations,8,3,1,0.3333333333333333,0.75,-0.4166666666666667,F,major,M,major
-Fanny Price,Edmund,personal_pronouns,8,7,7,1.0,1.0,0.0,F,major,M,major
-Fanny Price,Edmund,prepositions,8,6,6,1.0,1.0,0.0,F,major,M,major
-Fanny Price,Edmund,quantifiers,8,5,3,0.6,0.625,-0.025000000000000022,F,major,M,major
+Fanny Price,Edmund,conjunctions,8,7,6,0.8571428571428571,0.875,-0.017857142857142905,F,major,M,major
+Fanny Price,Edmund,impersonal_pronouns,8,6,4,0.6666666666666666,0.75,-0.08333333333333337,F,major,M,major
+Fanny Price,Edmund,negations,8,6,2,0.3333333333333333,0.5,-0.16666666666666669,F,major,M,major
+Fanny Price,Edmund,personal_pronouns,8,8,6,0.75,0.75,0.0,F,major,M,major
+Fanny Price,Edmund,prepositions,8,7,4,0.5714285714285714,0.625,-0.0535714285714286,F,major,M,major
+Fanny Price,Edmund,quantifiers,8,7,4,0.5714285714285714,0.625,-0.0535714285714286,F,major,M,major
+Fanny Price,Henry Crawford,auxiliary_verbs,3,3,3,1.0,1.0,0.0,F,major,M,major
+Fanny Price,Henry Crawford,conjunctions,3,3,2,0.6666666666666666,0.6666666666666666,0.0,F,major,M,major
 Fanny Price,Henry Crawford,personal_pronouns,3,3,3,1.0,1.0,0.0,F,major,M,major
 Fanny Price,Henry Crawford,prepositions,3,3,3,1.0,1.0,0.0,F,major,M,major
+Fanny Price,Lady Bertram,adverbs,3,3,2,0.6666666666666666,0.6666666666666666,0.0,F,major,F,intermediate
 Fanny Price,Lady Bertram,auxiliary_verbs,3,3,3,1.0,1.0,0.0,F,major,F,intermediate
-Fanny Price,Lady Bertram,personal_pronouns,3,3,3,1.0,1.0,0.0,F,major,F,intermediate
-Fanny Price,Lady Bertram,prepositions,3,3,3,1.0,1.0,0.0,F,major,F,intermediate
-Fanny Price,Mary Crawford,adverbs,6,5,3,0.6,0.6666666666666666,-0.06666666666666665,F,major,F,major
+Fanny Price,Lady Bertram,conjunctions,3,3,2,0.6666666666666666,0.6666666666666666,0.0,F,major,F,intermediate
+Fanny Price,Mary Crawford,adverbs,6,6,3,0.5,0.5,0.0,F,major,F,major
 Fanny Price,Mary Crawford,articles,6,5,2,0.4,0.5,-0.09999999999999998,F,major,F,major
-Fanny Price,Mary Crawford,auxiliary_verbs,6,6,6,1.0,1.0,0.0,F,major,F,major
-Fanny Price,Mary Crawford,conjunctions,6,5,3,0.6,0.6666666666666666,-0.06666666666666665,F,major,F,major
-Fanny Price,Mary Crawford,impersonal_pronouns,6,4,3,0.75,0.6666666666666666,0.08333333333333337,F,major,F,major
-Fanny Price,Mary Crawford,negations,6,4,2,0.5,0.5,0.0,F,major,F,major
-Fanny Price,Mary Crawford,personal_pronouns,6,6,5,0.8333333333333334,0.8333333333333334,0.0,F,major,F,major
-Fanny Price,Mary Crawford,prepositions,6,5,5,1.0,1.0,0.0,F,major,F,major
-Fanny Price,Mary Crawford,quantifiers,6,5,2,0.4,0.5,-0.09999999999999998,F,major,F,major
-Henry Crawford,Fanny Price,adverbs,5,5,3,0.6,0.6,0.0,M,major,F,major
-Henry Crawford,Fanny Price,articles,5,5,1,0.2,0.2,0.0,M,major,F,major
+Fanny Price,Mary Crawford,auxiliary_verbs,6,5,4,0.8,0.8333333333333334,-0.033333333333333326,F,major,F,major
+Fanny Price,Mary Crawford,conjunctions,6,5,5,1.0,1.0,0.0,F,major,F,major
+Fanny Price,Mary Crawford,impersonal_pronouns,6,5,3,0.6,0.5,0.09999999999999998,F,major,F,major
+Fanny Price,Mary Crawford,personal_pronouns,6,5,5,1.0,1.0,0.0,F,major,F,major
+Fanny Price,Mary Crawford,prepositions,6,6,4,0.6666666666666666,0.6666666666666666,0.0,F,major,F,major
+Fanny Price,Mary Crawford,quantifiers,6,5,0,0.0,0.16666666666666666,-0.16666666666666666,F,major,F,major
+Henry Crawford,Fanny Price,adverbs,5,3,3,1.0,0.8,0.19999999999999996,M,major,F,major
+Henry Crawford,Fanny Price,articles,5,5,3,0.6,0.6,0.0,M,major,F,major
 Henry Crawford,Fanny Price,auxiliary_verbs,5,5,5,1.0,1.0,0.0,M,major,F,major
-Henry Crawford,Fanny Price,conjunctions,5,5,3,0.6,0.6,0.0,M,major,F,major
-Henry Crawford,Fanny Price,impersonal_pronouns,5,4,3,0.75,0.8,-0.050000000000000044,M,major,F,major
-Henry Crawford,Fanny Price,negations,5,3,1,0.3333333333333333,0.4,-0.06666666666666671,M,major,F,major
+Henry Crawford,Fanny Price,conjunctions,5,4,3,0.75,0.6,0.15000000000000002,M,major,F,major
+Henry Crawford,Fanny Price,impersonal_pronouns,5,3,1,0.3333333333333333,0.6,-0.26666666666666666,M,major,F,major
+Henry Crawford,Fanny Price,negations,5,4,3,0.75,0.6,0.15000000000000002,M,major,F,major
 Henry Crawford,Fanny Price,personal_pronouns,5,5,5,1.0,1.0,0.0,M,major,F,major
-Henry Crawford,Fanny Price,prepositions,5,5,3,0.6,0.6,0.0,M,major,F,major
-Henry Crawford,Fanny Price,quantifiers,5,4,1,0.25,0.4,-0.15000000000000002,M,major,F,major
+Henry Crawford,Fanny Price,prepositions,5,3,2,0.6666666666666666,0.8,-0.13333333333333341,M,major,F,major
+Henry Crawford,Fanny Price,quantifiers,5,4,2,0.5,0.6,-0.09999999999999998,M,major,F,major
 Henry Crawford,Mary Crawford,adverbs,4,4,3,0.75,0.75,0.0,M,major,F,major
-Henry Crawford,Mary Crawford,articles,4,3,3,1.0,0.75,0.25,M,major,F,major
-Henry Crawford,Mary Crawford,auxiliary_verbs,4,4,4,1.0,1.0,0.0,M,major,F,major
-Henry Crawford,Mary Crawford,conjunctions,4,4,3,0.75,0.75,0.0,M,major,F,major
-Henry Crawford,Mary Crawford,impersonal_pronouns,4,4,3,0.75,0.75,0.0,M,major,F,major
-Henry Crawford,Mary Crawford,negations,4,4,4,1.0,1.0,0.0,M,major,F,major
-Henry Crawford,Mary Crawford,personal_pronouns,4,4,4,1.0,1.0,0.0,M,major,F,major
-Henry Crawford,Mary Crawford,prepositions,4,4,4,1.0,1.0,0.0,M,major,F,major
-Henry Crawford,Mary Crawford,quantifiers,4,3,1,0.3333333333333333,0.5,-0.16666666666666669,M,major,F,major
-Julia Bertram,Fanny Price,articles,4,3,2,0.6666666666666666,0.5,0.16666666666666663,F,intermediate,F,major
-Julia Bertram,Fanny Price,auxiliary_verbs,4,4,3,0.75,0.75,0.0,F,intermediate,F,major
-Julia Bertram,Fanny Price,conjunctions,4,3,1,0.3333333333333333,0.25,0.08333333333333331,F,intermediate,F,major
-Julia Bertram,Fanny Price,prepositions,4,3,3,1.0,1.0,0.0,F,intermediate,F,major
-Julia Bertram,Fanny Price,quantifiers,4,3,1,0.3333333333333333,0.25,0.08333333333333331,F,intermediate,F,major
-Lady Bertram,Edmund,adverbs,6,6,2,0.3333333333333333,0.3333333333333333,0.0,F,intermediate,M,major
+Henry Crawford,Mary Crawford,articles,4,3,3,1.0,1.0,0.0,M,major,F,major
+Henry Crawford,Mary Crawford,auxiliary_verbs,4,3,2,0.6666666666666666,0.75,-0.08333333333333337,M,major,F,major
+Henry Crawford,Mary Crawford,conjunctions,4,3,2,0.6666666666666666,0.75,-0.08333333333333337,M,major,F,major
+Henry Crawford,Mary Crawford,impersonal_pronouns,4,3,3,1.0,1.0,0.0,M,major,F,major
+Henry Crawford,Mary Crawford,negations,4,3,3,1.0,1.0,0.0,M,major,F,major
+Henry Crawford,Mary Crawford,personal_pronouns,4,3,3,1.0,1.0,0.0,M,major,F,major
+Henry Crawford,Mary Crawford,prepositions,4,3,3,1.0,1.0,0.0,M,major,F,major
+Julia Bertram,Fanny Price,adverbs,4,3,2,0.6666666666666666,0.75,-0.08333333333333337,F,intermediate,F,major
+Julia Bertram,Fanny Price,articles,4,4,3,0.75,0.75,0.0,F,intermediate,F,major
+Julia Bertram,Fanny Price,auxiliary_verbs,4,4,4,1.0,1.0,0.0,F,intermediate,F,major
+Julia Bertram,Fanny Price,conjunctions,4,4,3,0.75,0.75,0.0,F,intermediate,F,major
+Julia Bertram,Fanny Price,impersonal_pronouns,4,4,3,0.75,0.75,0.0,F,intermediate,F,major
+Julia Bertram,Fanny Price,negations,4,4,3,0.75,0.75,0.0,F,intermediate,F,major
+Julia Bertram,Fanny Price,personal_pronouns,4,4,4,1.0,1.0,0.0,F,intermediate,F,major
+Julia Bertram,Fanny Price,prepositions,4,4,3,0.75,0.75,0.0,F,intermediate,F,major
+Julia Bertram,Fanny Price,quantifiers,4,3,2,0.6666666666666666,0.75,-0.08333333333333337,F,intermediate,F,major
+Lady Bertram,Edmund,adverbs,6,3,3,1.0,1.0,0.0,F,intermediate,M,major
 Lady Bertram,Edmund,articles,6,3,2,0.6666666666666666,0.5,0.16666666666666663,F,intermediate,M,major
-Lady Bertram,Edmund,auxiliary_verbs,6,5,4,0.8,0.8333333333333334,-0.033333333333333326,F,intermediate,M,major
-Lady Bertram,Edmund,conjunctions,6,4,4,1.0,0.8333333333333334,0.16666666666666663,F,intermediate,M,major
-Lady Bertram,Edmund,impersonal_pronouns,6,5,5,1.0,0.8333333333333334,0.16666666666666663,F,intermediate,M,major
-Lady Bertram,Edmund,negations,6,3,0,0.0,0.0,0.0,F,intermediate,M,major
-Lady Bertram,Edmund,personal_pronouns,6,6,5,0.8333333333333334,0.8333333333333334,0.0,F,intermediate,M,major
-Lady Bertram,Edmund,prepositions,6,5,4,0.8,0.6666666666666666,0.13333333333333341,F,intermediate,M,major
-Lady Bertram,Edmund,quantifiers,6,4,1,0.25,0.3333333333333333,-0.08333333333333331,F,intermediate,M,major
-Lady Bertram,Fanny Price,adverbs,4,4,3,0.75,0.75,0.0,F,intermediate,F,major
+Lady Bertram,Edmund,auxiliary_verbs,6,4,3,0.75,0.8333333333333334,-0.08333333333333337,F,intermediate,M,major
+Lady Bertram,Edmund,conjunctions,6,5,4,0.8,0.6666666666666666,0.13333333333333341,F,intermediate,M,major
+Lady Bertram,Edmund,impersonal_pronouns,6,4,2,0.5,0.3333333333333333,0.16666666666666669,F,intermediate,M,major
+Lady Bertram,Edmund,negations,6,3,1,0.3333333333333333,0.5,-0.16666666666666669,F,intermediate,M,major
+Lady Bertram,Edmund,personal_pronouns,6,4,4,1.0,1.0,0.0,F,intermediate,M,major
+Lady Bertram,Edmund,prepositions,6,4,4,1.0,0.8333333333333334,0.16666666666666663,F,intermediate,M,major
+Lady Bertram,Fanny Price,adverbs,4,4,2,0.5,0.5,0.0,F,intermediate,F,major
 Lady Bertram,Fanny Price,auxiliary_verbs,4,4,4,1.0,1.0,0.0,F,intermediate,F,major
-Lady Bertram,Fanny Price,conjunctions,4,3,1,0.3333333333333333,0.5,-0.16666666666666669,F,intermediate,F,major
-Lady Bertram,Fanny Price,impersonal_pronouns,4,3,2,0.6666666666666666,0.75,-0.08333333333333337,F,intermediate,F,major
-Lady Bertram,Fanny Price,negations,4,3,1,0.3333333333333333,0.25,0.08333333333333331,F,intermediate,F,major
-Lady Bertram,Fanny Price,personal_pronouns,4,4,4,1.0,1.0,0.0,F,intermediate,F,major
-Lady Bertram,Fanny Price,prepositions,4,3,1,0.3333333333333333,0.5,-0.16666666666666669,F,intermediate,F,major
-Lady Bertram,Sir Thomas,negations,3,3,3,1.0,1.0,0.0,F,intermediate,M,intermediate
+Lady Bertram,Fanny Price,personal_pronouns,4,3,2,0.6666666666666666,0.75,-0.08333333333333337,F,intermediate,F,major
+Lady Bertram,Sir Thomas,adverbs,3,3,3,1.0,1.0,0.0,F,intermediate,M,intermediate
+Lady Bertram,Sir Thomas,auxiliary_verbs,3,3,3,1.0,1.0,0.0,F,intermediate,M,intermediate
 Lady Bertram,Sir Thomas,personal_pronouns,3,3,3,1.0,1.0,0.0,F,intermediate,M,intermediate
 Lady Bertram,Sir Thomas,prepositions,3,3,3,1.0,1.0,0.0,F,intermediate,M,intermediate
+Lady Bertram,Sir Thomas,quantifiers,3,3,2,0.6666666666666666,0.6666666666666666,0.0,F,intermediate,M,intermediate
 Maria Bertram,Fanny Price,adverbs,3,3,3,1.0,1.0,0.0,F,intermediate,F,major
-Maria Bertram,Fanny Price,auxiliary_verbs,3,3,3,1.0,1.0,0.0,F,intermediate,F,major
-Maria Bertram,Fanny Price,conjunctions,3,3,1,0.3333333333333333,0.3333333333333333,0.0,F,intermediate,F,major
-Maria Bertram,Fanny Price,personal_pronouns,3,3,2,0.6666666666666666,0.6666666666666666,0.0,F,intermediate,F,major
-Mary Crawford,Edmund,adverbs,4,4,4,1.0,1.0,0.0,F,major,M,major
-Mary Crawford,Edmund,articles,4,4,2,0.5,0.5,0.0,F,major,M,major
+Mary Crawford,Edmund,articles,4,3,0,0.0,0.25,-0.25,F,major,M,major
 Mary Crawford,Edmund,auxiliary_verbs,4,4,4,1.0,1.0,0.0,F,major,M,major
-Mary Crawford,Edmund,conjunctions,4,4,4,1.0,1.0,0.0,F,major,M,major
-Mary Crawford,Edmund,impersonal_pronouns,4,4,2,0.5,0.5,0.0,F,major,M,major
-Mary Crawford,Edmund,negations,4,4,3,0.75,0.75,0.0,F,major,M,major
+Mary Crawford,Edmund,conjunctions,4,3,1,0.3333333333333333,0.5,-0.16666666666666669,F,major,M,major
+Mary Crawford,Edmund,impersonal_pronouns,4,4,1,0.25,0.25,0.0,F,major,M,major
+Mary Crawford,Edmund,negations,4,4,0,0.0,0.0,0.0,F,major,M,major
 Mary Crawford,Edmund,personal_pronouns,4,4,4,1.0,1.0,0.0,F,major,M,major
-Mary Crawford,Edmund,prepositions,4,4,4,1.0,1.0,0.0,F,major,M,major
-Mary Crawford,Fanny Price,adverbs,7,5,3,0.6,0.7142857142857143,-0.11428571428571432,F,major,F,major
-Mary Crawford,Fanny Price,articles,7,6,5,0.8333333333333334,0.8571428571428571,-0.023809523809523725,F,major,F,major
+Mary Crawford,Edmund,prepositions,4,3,0,0.0,0.25,-0.25,F,major,M,major
+Mary Crawford,Edmund,quantifiers,4,3,2,0.6666666666666666,0.5,0.16666666666666663,F,major,M,major
+Mary Crawford,Fanny Price,adverbs,7,6,4,0.6666666666666666,0.7142857142857143,-0.04761904761904767,F,major,F,major
+Mary Crawford,Fanny Price,articles,7,5,4,0.8,0.8571428571428571,-0.05714285714285705,F,major,F,major
 Mary Crawford,Fanny Price,auxiliary_verbs,7,7,7,1.0,1.0,0.0,F,major,F,major
-Mary Crawford,Fanny Price,conjunctions,7,7,6,0.8571428571428571,0.8571428571428571,0.0,F,major,F,major
-Mary Crawford,Fanny Price,impersonal_pronouns,7,6,4,0.6666666666666666,0.7142857142857143,-0.04761904761904767,F,major,F,major
-Mary Crawford,Fanny Price,negations,7,4,3,0.75,0.8571428571428571,-0.1071428571428571,F,major,F,major
+Mary Crawford,Fanny Price,conjunctions,7,6,5,0.8333333333333334,0.8571428571428571,-0.023809523809523725,F,major,F,major
+Mary Crawford,Fanny Price,impersonal_pronouns,7,6,5,0.8333333333333334,0.8571428571428571,-0.023809523809523725,F,major,F,major
+Mary Crawford,Fanny Price,negations,7,4,3,0.75,0.42857142857142855,0.32142857142857145,F,major,F,major
 Mary Crawford,Fanny Price,personal_pronouns,7,7,7,1.0,1.0,0.0,F,major,F,major
-Mary Crawford,Fanny Price,prepositions,7,7,6,0.8571428571428571,0.8571428571428571,0.0,F,major,F,major
-Mary Crawford,Fanny Price,quantifiers,7,6,4,0.6666666666666666,0.5714285714285714,0.09523809523809523,F,major,F,major
+Mary Crawford,Fanny Price,prepositions,7,7,7,1.0,1.0,0.0,F,major,F,major
+Mary Crawford,Fanny Price,quantifiers,7,6,5,0.8333333333333334,0.8571428571428571,-0.023809523809523725,F,major,F,major
 Mary Crawford,Henry Crawford,adverbs,4,4,4,1.0,1.0,0.0,F,major,M,major
-Mary Crawford,Henry Crawford,articles,4,3,3,1.0,1.0,0.0,F,major,M,major
-Mary Crawford,Henry Crawford,auxiliary_verbs,4,3,3,1.0,1.0,0.0,F,major,M,major
-Mary Crawford,Henry Crawford,conjunctions,4,4,4,1.0,1.0,0.0,F,major,M,major
-Mary Crawford,Henry Crawford,impersonal_pronouns,4,3,3,1.0,1.0,0.0,F,major,M,major
-Mary Crawford,Henry Crawford,negations,4,4,4,1.0,1.0,0.0,F,major,M,major
+Mary Crawford,Henry Crawford,articles,4,4,0,0.0,0.0,0.0,F,major,M,major
+Mary Crawford,Henry Crawford,auxiliary_verbs,4,4,4,1.0,1.0,0.0,F,major,M,major
+Mary Crawford,Henry Crawford,conjunctions,4,3,3,1.0,0.75,0.25,F,major,M,major
+Mary Crawford,Henry Crawford,impersonal_pronouns,4,3,2,0.6666666666666666,0.5,0.16666666666666663,F,major,M,major
 Mary Crawford,Henry Crawford,personal_pronouns,4,4,4,1.0,1.0,0.0,F,major,M,major
-Mary Crawford,Henry Crawford,prepositions,4,4,4,1.0,1.0,0.0,F,major,M,major
-Mary Crawford,Henry Crawford,quantifiers,4,4,4,1.0,1.0,0.0,F,major,M,major
+Mary Crawford,Henry Crawford,prepositions,4,3,2,0.6666666666666666,0.5,0.16666666666666663,F,major,M,major
+Mary Crawford,Henry Crawford,quantifiers,4,3,1,0.3333333333333333,0.25,0.08333333333333331,F,major,M,major
 Mary Crawford,Mrs. Grant,adverbs,3,3,3,1.0,1.0,0.0,F,major,F,intermediate
-Mary Crawford,Mrs. Grant,auxiliary_verbs,3,3,3,1.0,1.0,0.0,F,major,F,intermediate
-Mary Crawford,Mrs. Grant,conjunctions,3,3,3,1.0,1.0,0.0,F,major,F,intermediate
+Mary Crawford,Mrs. Grant,articles,3,3,1,0.3333333333333333,0.3333333333333333,0.0,F,major,F,intermediate
+Mary Crawford,Mrs. Grant,auxiliary_verbs,3,3,2,0.6666666666666666,0.6666666666666666,0.0,F,major,F,intermediate
+Mary Crawford,Mrs. Grant,conjunctions,3,3,1,0.3333333333333333,0.3333333333333333,0.0,F,major,F,intermediate
+Mary Crawford,Mrs. Grant,negations,3,3,1,0.3333333333333333,0.3333333333333333,0.0,F,major,F,intermediate
 Mary Crawford,Mrs. Grant,personal_pronouns,3,3,3,1.0,1.0,0.0,F,major,F,intermediate
 Mary Crawford,Mrs. Grant,prepositions,3,3,3,1.0,1.0,0.0,F,major,F,intermediate
-Mrs. Norris,Edmund,adverbs,4,4,3,0.75,0.75,0.0,F,intermediate,M,major
-Mrs. Norris,Edmund,articles,4,4,3,0.75,0.75,0.0,F,intermediate,M,major
+Mary Crawford,Mrs. Grant,quantifiers,3,3,1,0.3333333333333333,0.3333333333333333,0.0,F,major,F,intermediate
+Mrs. Norris,Edmund,adverbs,4,4,4,1.0,1.0,0.0,F,intermediate,M,major
+Mrs. Norris,Edmund,articles,4,4,4,1.0,1.0,0.0,F,intermediate,M,major
 Mrs. Norris,Edmund,auxiliary_verbs,4,4,4,1.0,1.0,0.0,F,intermediate,M,major
-Mrs. Norris,Edmund,conjunctions,4,4,1,0.25,0.25,0.0,F,intermediate,M,major
-Mrs. Norris,Edmund,impersonal_pronouns,4,4,2,0.5,0.5,0.0,F,intermediate,M,major
-Mrs. Norris,Edmund,negations,4,4,2,0.5,0.5,0.0,F,intermediate,M,major
+Mrs. Norris,Edmund,conjunctions,4,4,4,1.0,1.0,0.0,F,intermediate,M,major
+Mrs. Norris,Edmund,impersonal_pronouns,4,4,4,1.0,1.0,0.0,F,intermediate,M,major
+Mrs. Norris,Edmund,negations,4,4,3,0.75,0.75,0.0,F,intermediate,M,major
 Mrs. Norris,Edmund,personal_pronouns,4,4,4,1.0,1.0,0.0,F,intermediate,M,major
-Mrs. Norris,Edmund,prepositions,4,4,2,0.5,0.5,0.0,F,intermediate,M,major
+Mrs. Norris,Edmund,prepositions,4,4,4,1.0,1.0,0.0,F,intermediate,M,major
 Mrs. Norris,Edmund,quantifiers,4,3,1,0.3333333333333333,0.5,-0.16666666666666669,F,intermediate,M,major
-Mrs. Norris,Fanny Price,auxiliary_verbs,3,3,2,0.6666666666666666,0.6666666666666666,0.0,F,intermediate,F,major
-Mrs. Norris,Fanny Price,personal_pronouns,3,3,2,0.6666666666666666,0.6666666666666666,0.0,F,intermediate,F,major
-Mrs. Norris,Sir Thomas,adverbs,4,4,3,0.75,0.75,0.0,F,intermediate,M,intermediate
-Mrs. Norris,Sir Thomas,articles,4,4,3,0.75,0.75,0.0,F,intermediate,M,intermediate
-Mrs. Norris,Sir Thomas,auxiliary_verbs,4,3,3,1.0,1.0,0.0,F,intermediate,M,intermediate
-Mrs. Norris,Sir Thomas,conjunctions,4,4,4,1.0,1.0,0.0,F,intermediate,M,intermediate
-Mrs. Norris,Sir Thomas,impersonal_pronouns,4,3,2,0.6666666666666666,0.75,-0.08333333333333337,F,intermediate,M,intermediate
-Mrs. Norris,Sir Thomas,negations,4,3,2,0.6666666666666666,0.5,0.16666666666666663,F,intermediate,M,intermediate
+Mrs. Norris,Fanny Price,personal_pronouns,3,3,3,1.0,1.0,0.0,F,intermediate,F,major
+Mrs. Norris,Sir Thomas,adverbs,4,3,3,1.0,1.0,0.0,F,intermediate,M,intermediate
+Mrs. Norris,Sir Thomas,auxiliary_verbs,4,4,4,1.0,1.0,0.0,F,intermediate,M,intermediate
+Mrs. Norris,Sir Thomas,conjunctions,4,3,3,1.0,1.0,0.0,F,intermediate,M,intermediate
+Mrs. Norris,Sir Thomas,impersonal_pronouns,4,3,3,1.0,1.0,0.0,F,intermediate,M,intermediate
+Mrs. Norris,Sir Thomas,negations,4,3,2,0.6666666666666666,0.75,-0.08333333333333337,F,intermediate,M,intermediate
 Mrs. Norris,Sir Thomas,personal_pronouns,4,4,4,1.0,1.0,0.0,F,intermediate,M,intermediate
-Mrs. Norris,Sir Thomas,prepositions,4,4,3,0.75,0.75,0.0,F,intermediate,M,intermediate
-Mrs. Norris,Sir Thomas,quantifiers,4,3,2,0.6666666666666666,0.75,-0.08333333333333337,F,intermediate,M,intermediate
-Sir Thomas,Fanny Price,adverbs,4,4,3,0.75,0.75,0.0,M,intermediate,F,major
-Sir Thomas,Fanny Price,articles,4,3,1,0.3333333333333333,0.25,0.08333333333333331,M,intermediate,F,major
-Sir Thomas,Fanny Price,auxiliary_verbs,4,4,2,0.5,0.5,0.0,M,intermediate,F,major
-Sir Thomas,Fanny Price,conjunctions,4,4,2,0.5,0.5,0.0,M,intermediate,F,major
-Sir Thomas,Fanny Price,impersonal_pronouns,4,4,3,0.75,0.75,0.0,M,intermediate,F,major
-Sir Thomas,Fanny Price,negations,4,4,2,0.5,0.5,0.0,M,intermediate,F,major
-Sir Thomas,Fanny Price,personal_pronouns,4,4,3,0.75,0.75,0.0,M,intermediate,F,major
+Mrs. Norris,Sir Thomas,prepositions,4,3,2,0.6666666666666666,0.75,-0.08333333333333337,F,intermediate,M,intermediate
+Mrs. Norris,Sir Thomas,quantifiers,4,4,2,0.5,0.5,0.0,F,intermediate,M,intermediate
+Sir Thomas,Fanny Price,adverbs,4,3,3,1.0,1.0,0.0,M,intermediate,F,major
+Sir Thomas,Fanny Price,articles,4,4,3,0.75,0.75,0.0,M,intermediate,F,major
+Sir Thomas,Fanny Price,auxiliary_verbs,4,4,4,1.0,1.0,0.0,M,intermediate,F,major
+Sir Thomas,Fanny Price,conjunctions,4,4,3,0.75,0.75,0.0,M,intermediate,F,major
+Sir Thomas,Fanny Price,impersonal_pronouns,4,3,2,0.6666666666666666,0.5,0.16666666666666663,M,intermediate,F,major
+Sir Thomas,Fanny Price,negations,4,4,1,0.25,0.25,0.0,M,intermediate,F,major
+Sir Thomas,Fanny Price,personal_pronouns,4,4,4,1.0,1.0,0.0,M,intermediate,F,major
 Sir Thomas,Fanny Price,prepositions,4,4,3,0.75,0.75,0.0,M,intermediate,F,major
-Sir Thomas,Fanny Price,quantifiers,4,4,2,0.5,0.5,0.0,M,intermediate,F,major
-Sir Thomas,Lady Bertram,adverbs,3,3,3,1.0,1.0,0.0,M,intermediate,F,intermediate
+Sir Thomas,Fanny Price,quantifiers,4,3,2,0.6666666666666666,0.75,-0.08333333333333337,M,intermediate,F,major
 Sir Thomas,Lady Bertram,articles,3,3,2,0.6666666666666666,0.6666666666666666,0.0,M,intermediate,F,intermediate
-Sir Thomas,Lady Bertram,auxiliary_verbs,3,3,3,1.0,1.0,0.0,M,intermediate,F,intermediate
-Sir Thomas,Lady Bertram,conjunctions,3,3,2,0.6666666666666666,0.6666666666666666,0.0,M,intermediate,F,intermediate
-Sir Thomas,Lady Bertram,impersonal_pronouns,3,3,1,0.3333333333333333,0.3333333333333333,0.0,M,intermediate,F,intermediate
-Sir Thomas,Lady Bertram,negations,3,3,1,0.3333333333333333,0.3333333333333333,0.0,M,intermediate,F,intermediate
-Sir Thomas,Lady Bertram,personal_pronouns,3,3,3,1.0,1.0,0.0,M,intermediate,F,intermediate
-Sir Thomas,Lady Bertram,prepositions,3,3,3,1.0,1.0,0.0,M,intermediate,F,intermediate
-Sir Thomas,Mrs. Norris,articles,3,3,3,1.0,1.0,0.0,M,intermediate,F,intermediate
-Sir Thomas,Mrs. Norris,auxiliary_verbs,3,3,3,1.0,1.0,0.0,M,intermediate,F,intermediate
-Sir Thomas,Mrs. Norris,conjunctions,3,3,3,1.0,1.0,0.0,M,intermediate,F,intermediate
-Sir Thomas,Mrs. Norris,impersonal_pronouns,3,3,3,1.0,1.0,0.0,M,intermediate,F,intermediate
-Sir Thomas,Mrs. Norris,personal_pronouns,3,3,3,1.0,1.0,0.0,M,intermediate,F,intermediate
-Sir Thomas,Mrs. Norris,prepositions,3,3,3,1.0,1.0,0.0,M,intermediate,F,intermediate
-Sir Thomas,Mrs. Norris,quantifiers,3,3,1,0.3333333333333333,0.3333333333333333,0.0,M,intermediate,F,intermediate
-Tom Bertram,Maria Bertram,articles,3,3,2,0.6666666666666666,0.6666666666666666,0.0,M,intermediate,F,intermediate
+Sir Thomas,Mrs. Norris,adverbs,3,3,3,1.0,1.0,0.0,M,intermediate,F,intermediate
+Sir Thomas,Mrs. Norris,auxiliary_verbs,3,3,2,0.6666666666666666,0.6666666666666666,0.0,M,intermediate,F,intermediate
+Sir Thomas,Mrs. Norris,impersonal_pronouns,3,3,2,0.6666666666666666,0.6666666666666666,0.0,M,intermediate,F,intermediate
+Sir Thomas,Mrs. Norris,personal_pronouns,3,3,2,0.6666666666666666,0.6666666666666666,0.0,M,intermediate,F,intermediate
+Tom Bertram,Maria Bertram,articles,3,3,3,1.0,1.0,0.0,M,intermediate,F,intermediate
 Tom Bertram,Maria Bertram,auxiliary_verbs,3,3,3,1.0,1.0,0.0,M,intermediate,F,intermediate
+Tom Bertram,Maria Bertram,conjunctions,3,3,2,0.6666666666666666,0.6666666666666666,0.0,M,intermediate,F,intermediate
+Tom Bertram,Maria Bertram,impersonal_pronouns,3,3,2,0.6666666666666666,0.6666666666666666,0.0,M,intermediate,F,intermediate
 Tom Bertram,Maria Bertram,personal_pronouns,3,3,3,1.0,1.0,0.0,M,intermediate,F,intermediate
+Tom Bertram,Maria Bertram,prepositions,3,3,3,1.0,1.0,0.0,M,intermediate,F,intermediate
+Tom Bertram,Maria Bertram,quantifiers,3,3,2,0.6666666666666666,0.6666666666666666,0.0,M,intermediate,F,intermediate

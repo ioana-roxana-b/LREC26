@@ -9,7 +9,6 @@ from matplotlib.colors import TwoSlopeNorm
 from matplotlib.patches import Rectangle
 from scipy.stats import ttest_1samp
 
-
 # =========================
 # Color-blind-friendly style
 # =========================
@@ -23,21 +22,17 @@ OI_BLACK  = "#000000"
 OI_GREY   = "#7F7F7F"
 
 plt.rcParams.update({
-    "axes.titlesize": 12,
-    "axes.labelsize": 11,
-    "xtick.labelsize": 10,
-    "ytick.labelsize": 10,
-    "legend.fontsize": 10,
+    "axes.titlesize": 13,
+    "axes.labelsize": 12,
+    "xtick.labelsize": 11,
+    "ytick.labelsize": 11,
+    "legend.fontsize": 11,
 })
 
 # =========================
 # CSV path helpers
 # =========================
 def csv_target(out_png: Path, csv_dir: Optional[Path]) -> Path:
-    """
-    If csv_dir is given, put the CSV there keeping the PNG's basename.
-    Otherwise write next to the PNG.
-    """
     if csv_dir is not None:
         csv_dir.mkdir(parents=True, exist_ok=True)
         return (csv_dir / out_png.name).with_suffix(".csv")
@@ -45,9 +40,6 @@ def csv_target(out_png: Path, csv_dir: Optional[Path]) -> Path:
 
 
 def csv_named(out_png: Path, csv_dir: Optional[Path], new_name: str) -> Path:
-    """
-    For auxiliary CSVs where you change the filename (e.g., *_diffs.csv).
-    """
     if csv_dir is not None:
         csv_dir.mkdir(parents=True, exist_ok=True)
         return csv_dir / new_name
@@ -57,25 +49,13 @@ def csv_named(out_png: Path, csv_dir: Optional[Path], new_name: str) -> Path:
 # =========================
 # Family- and edge-level plots
 # =========================
-def plot_family_conv_bars(pf: pd.DataFrame, out_png: Path, title: str, csv_dir: Optional[Path] = None) -> None:
-    """
-    Family averages of linguistic convergence.
-
-    description:
-        Computes the average convergence Conv(t) for each feature family and
-        renders a horizontal bar chart. Conv(t) = P(B uses t | A uses t) − P(B uses t).
-        Higher bars mean responders (B) match initiators (A) more on that family.
-
-        Saves a CSV next to the PNG with the values shown in the plot.
-
-    Params:
-        pf: DataFrame with at least 'family' and 'conv' columns; typically one row per (A,B,family).
-        out_png: Output path for the chart image (PNG). A CSV with the same basename is also written.
-        title: Short, human-readable chart title (e.g., "Average convergence by feature family").
-
-    Returns:
-        None. Writes PNG and CSV to disk.
-    """
+def plot_family_conv_bars(
+    pf: pd.DataFrame,
+    out_png: Path,
+    title: str,
+    csv_dir: Optional[Path] = None,
+    novel_title: Optional[str] = None,
+) -> None:
     if pf is None or pf.empty or not {"family", "conv"}.issubset(pf.columns):
         return
 
@@ -86,46 +66,37 @@ def plot_family_conv_bars(pf: pd.DataFrame, out_png: Path, title: str, csv_dir: 
             continue
         rows.append({"family": fam, "mean_conv": float(vals.mean()), "n": int(vals.size)})
 
-    g = (pd.DataFrame(rows).sort_values("mean_conv", ascending=False).reset_index(drop=True))
+    g = pd.DataFrame(rows).sort_values("mean_conv", ascending=False).reset_index(drop=True)
     if g.empty:
         return
 
     out_png.parent.mkdir(parents=True, exist_ok=True)
-    plt.figure(figsize=(10, max(3.8, 0.42 * len(g))))
+    # more vertical room per family
+    plt.figure(figsize=(11.5, max(5.0, 0.60 * len(g))))
     bar_color = plt.get_cmap("cividis")(0.55)
     plt.barh(g["family"][::-1], g["mean_conv"][::-1], alpha=0.95,
-             color=bar_color, edgecolor=OI_BLACK, linewidth=0.6)
+             color=bar_color, edgecolor=OI_BLACK, linewidth=0.7)
 
     plt.xlabel("Mean convergence Conv(t) (higher = more matching)")
     plt.ylabel("Feature family")
-    plt.title(title)
-    plt.grid(axis="x", linestyle=":", linewidth=0.8, alpha=0.4, color=OI_GREY)
+    plt.title(f"{title}" + (f"\n({novel_title})" if novel_title else ""))
+    plt.grid(axis="x", linestyle=":", linewidth=1.0, alpha=0.4, color=OI_GREY)
     plt.tight_layout()
-    plt.savefig(out_png, bbox_inches="tight", dpi=220)
+    plt.savefig(out_png, bbox_inches="tight", dpi=240)
     plt.close()
-    g.to_csv(csv_target(out_png, csv_dir), index=False, encoding="utf-8-sig")
+
+    if csv_dir is not None or True:
+        out_csv = csv_target(out_png, csv_dir)
+        g = g.assign(novel=novel_title if novel_title else "")
+        g.to_csv(out_csv, index=False, encoding="utf-8-sig")
 
 
-def plot_edge_distribution(edges: pd.DataFrame, out_png: Path, title: Optional[str] = None) -> None:
-    """
-    Distribution of per-pair (A→B) convergence.
-
-    description:
-        Plots a histogram of the per-edge convergence score, where an edge is a directed pair A→B.
-        The score summarizes how strongly B adapts to A across all turns/features.
-        Uses the most informative column available (in order): 'mean_conv_w' (weighted by #triggers),
-        else 'weight_work', else 'mean_conv'. A dashed vertical line marks 0 (no adaptation);
-        solid/dotted lines mark the mean and median of the distribution.
-
-    Params:
-        edges: Edge summary table with 'a_speaker','b_speaker' and at least one of
-               'mean_conv_w' | 'weight_work' | 'mean_conv'.
-        out_png: Output path for the PNG.
-        title: Optional custom title. If None, a descriptive default is used.
-
-    Returns:
-        None. Writes PNG.
-    """
+def plot_edge_distribution(
+    edges: pd.DataFrame,
+    out_png: Path,
+    title: Optional[str] = None,
+    novel_title: Optional[str] = None,
+) -> None:
     if edges is None or edges.empty:
         return
 
@@ -138,47 +109,38 @@ def plot_edge_distribution(edges: pd.DataFrame, out_png: Path, title: Optional[s
         return
 
     out_png.parent.mkdir(parents=True, exist_ok=True)
-    plt.figure(figsize=(8.8, 5.4))
-    bins = max(12, int(np.sqrt(len(vals))))
+    plt.figure(figsize=(10.5, 6.2))
+    bins = max(14, int(np.sqrt(len(vals))))
 
     plt.hist(vals, bins=bins, alpha=0.9, color=plt.get_cmap("cividis")(0.6),
-             edgecolor=OI_BLACK, linewidth=0.6)
+             edgecolor=OI_BLACK, linewidth=0.7)
 
-    plt.axvline(0, color=OI_BLACK, linewidth=1.2, linestyle="--", alpha=0.9, label="No adaptation (0)")
+    plt.axvline(0, color=OI_BLACK, linewidth=1.4, linestyle="--", alpha=0.9, label="No adaptation (0)")
     mean_v = float(np.mean(vals))
     med_v  = float(np.median(vals))
-    plt.axvline(mean_v, color=OI_BLUE,   linestyle="-",  linewidth=1.6, label=f"Mean = {mean_v:.3f}")
-    plt.axvline(med_v,  color=OI_ORANGE, linestyle=":", linewidth=1.8, label=f"Median = {med_v:.3f}")
+    plt.axvline(mean_v, color=OI_BLUE,   linestyle="-",  linewidth=1.8, label=f"Mean = {mean_v:.3f}")
+    plt.axvline(med_v,  color=OI_ORANGE, linestyle=":",  linewidth=2.0, label=f"Median = {med_v:.3f}")
 
     plt.xlabel("Per-pair convergence score (Conv; > 0 = B adapts to A, < 0 = diverges)")
     plt.ylabel("Number of A→B pairs")
-    plt.title(title or "How strongly each pair (A→B) adapts overall")
+    ttl = title or "How strongly each pair (A→B) adapts overall"
+    plt.title(f"{ttl}" + (f"\n({novel_title})" if novel_title else ""))
     plt.legend(frameon=False, loc="upper left")
-    plt.grid(axis="y", linestyle=":", linewidth=0.8, alpha=0.35, color=OI_GREY)
+    plt.grid(axis="y", linestyle=":", linewidth=1.0, alpha=0.35, color=OI_GREY)
 
     plt.tight_layout()
-    plt.savefig(out_png, bbox_inches="tight", dpi=220)
+    plt.savefig(out_png, bbox_inches="tight", dpi=240)
     plt.close()
 
 
-def plot_top_edges(edges: pd.DataFrame, out_png: Path, title: str, top_k: int = 20, csv_dir: Optional[Path] = None) -> None:
-    """
-    Top A→B pairs by mean convergence.
-
-    description:
-        Ranks directed pairs (A→B) by mean convergence using the most informative column available:
-        'mean_conv_w' (preferred), else 'weight_work', else 'mean_conv'. Shows the top_k pairs.
-        Saves a CSV with the rows shown in the figure.
-
-    Params:
-        edges: Edge summary table with speakers and a convergence column (see above).
-        out_png: Output path for the PNG; a CSV with plotted rows is also written.
-        title: Chart title (e.g., "Top converging pairs (A→B)").
-        top_k: Number of pairs to display (default 20).
-
-    Returns:
-        None. Writes PNG and CSV.
-    """
+def plot_top_edges(
+    edges: pd.DataFrame,
+    out_png: Path,
+    title: str,
+    top_k: int = 20,
+    csv_dir: Optional[Path] = None,
+    novel_title: Optional[str] = None,
+) -> None:
     if edges is None or edges.empty:
         return
     weight_col = next((c for c in ["mean_conv_w", "weight_work", "mean_conv"] if c in edges.columns), None)
@@ -194,44 +156,33 @@ def plot_top_edges(edges: pd.DataFrame, out_png: Path, title: str, top_k: int = 
     labels = [f"{a} → {b}" for a, b in zip(top["a_speaker"], top["b_speaker"])]
 
     out_png.parent.mkdir(parents=True, exist_ok=True)
-    plt.figure(figsize=(9.4, max(3.6, 0.44 * len(top))))
+    plt.figure(figsize=(12.0, max(5.0, 0.60 * len(top))))
     bar_color = plt.get_cmap("cividis")(0.55)
     plt.barh(labels[::-1], top["__w__"].to_numpy()[::-1], alpha=0.95,
-             color=bar_color, edgecolor=OI_BLACK, linewidth=0.6)
+             color=bar_color, edgecolor=OI_BLACK, linewidth=0.7)
 
     plt.xlabel("Mean edge convergence")
     plt.ylabel("Speaker pair")
-    plt.title(title)
-    plt.grid(axis="x", linestyle=":", linewidth=0.8, alpha=0.4, color=OI_GREY)
+    plt.title(f"{title}" + (f"\n({novel_title})" if novel_title else ""))
+    plt.grid(axis="x", linestyle=":", linewidth=1.0, alpha=0.4, color=OI_GREY)
     plt.tight_layout()
-    plt.savefig(out_png, bbox_inches="tight", dpi=220)
+    plt.savefig(out_png, bbox_inches="tight", dpi=240)
     plt.close()
-    (top.drop(columns=["__w__"])
-        .to_csv(csv_target(out_png, csv_dir), index=False, encoding="utf-8-sig"))
+
+    out_csv = csv_target(out_png, csv_dir)
+    top = top.drop(columns=["__w__"]).assign(novel=novel_title if novel_title else "")
+    top.to_csv(out_csv, index=False, encoding="utf-8-sig")
 
 
-def plot_heatmap(pf: pd.DataFrame, out_png: Path, title: str,
-                 min_support: int = 10, max_edges: int = 50, csv_dir: Optional[Path] = None) -> None:
-    """
-    Convergence matrix by pair and feature family.
-
-    description:
-        Creates an A→B by family matrix of average Conv(t) values and renders it
-        with a diverging, color-blind-safe colormap. Missing values are shown as light
-        gray with hatch marks so sparse families aren’t invisible.
-        If many pairs exist, the plot keeps those with the widest family coverage to stay legible.
-
-    Params:
-        pf: Per-(A,B,family) table with 'a_speaker','b_speaker','family','conv'
-            and (optionally) 'n_triggers' to filter low-evidence cells.
-        out_png: Output path for the PNG; a CSV pivot is also written.
-        title: Chart title (e.g., "Convergence by pair and feature").
-        min_support: Minimum number of A-triggers to keep a (pair,family) cell.
-        max_edges: Max number of pairs (rows) to show; picks those with most non-missing families.
-
-    Returns:
-        None. Writes PNG and CSV.
-    """
+def plot_heatmap(
+    pf: pd.DataFrame,
+    out_png: Path,
+    title: str,
+    min_support: int = 10,
+    max_edges: int = 50,
+    csv_dir: Optional[Path] = None,
+    novel_title: Optional[str] = None,
+) -> None:
     if pf is None or pf.empty:
         return
 
@@ -256,7 +207,10 @@ def plot_heatmap(pf: pd.DataFrame, out_png: Path, title: str,
     vlim = vmax if vmax > 0 else 0.1
 
     out_png.parent.mkdir(parents=True, exist_ok=True)
-    fig, ax = plt.subplots(figsize=(11.5, max(4.8, 0.40 * len(pivot))))
+    # adaptive sizing: more room for rows/cols
+    fig_w = max(13.0, 0.45 * pivot.shape[1] + 6.5)
+    fig_h = max(6.5, 0.60 * len(pivot))
+    fig, ax = plt.subplots(figsize=(fig_w, fig_h))
     cmap = plt.get_cmap("PuOr_r").copy()
     cmap.set_bad(color="#D9D9D9")
     norm = TwoSlopeNorm(vmin=-vlim, vcenter=0, vmax=vlim)
@@ -265,13 +219,11 @@ def plot_heatmap(pf: pd.DataFrame, out_png: Path, title: str,
     ax.set_xticks(range(pivot.shape[1]), pivot.columns, rotation=40, ha="right")
     ax.set_yticks(range(pivot.shape[0]), pivot.index)
 
-    # grid lines for readability
     ax.set_xticks(np.arange(-0.5, pivot.shape[1], 1), minor=True)
     ax.set_yticks(np.arange(-0.5, pivot.shape[0], 1), minor=True)
     ax.grid(which="minor", color="white", linestyle="-", linewidth=1)
     ax.tick_params(which="minor", bottom=False, left=False)
 
-    # hatch missing cells
     for i in range(pivot.shape[0]):
         for j in range(pivot.shape[1]):
             if not np.isfinite(M[i, j]):
@@ -280,33 +232,25 @@ def plot_heatmap(pf: pd.DataFrame, out_png: Path, title: str,
 
     cbar = fig.colorbar(im, ax=ax)
     cbar.set_label("Convergence Conv(t)")
-    ax.set_title(title)
+    ax.set_title(f"{title}" + (f"\n({novel_title})" if novel_title else ""))
     ax.set_xlabel("Feature family")
     ax.set_ylabel("Speaker pair (A→B)")
     fig.tight_layout()
-    fig.savefig(out_png, bbox_inches="tight", dpi=220)
+    fig.savefig(out_png, bbox_inches="tight", dpi=240)
     plt.close()
-    pivot.to_csv(csv_target(out_png, csv_dir), encoding="utf-8-sig")
+
+    out_csv = csv_target(out_png, csv_dir)
+    pivot = pivot.assign(_novel=novel_title if novel_title else "")
+    pivot.to_csv(out_csv, encoding="utf-8-sig")
 
 
-def plot_adaptability_distribution(pf: pd.DataFrame, out_png: Path, title: str) -> None:
-    """
-    Distribution of initiators’ adaptability.
-
-    description:
-        For each initiator A, computes their average Conv(t) across all partners and families,
-        then plots a histogram of these per-speaker means. A vertical dashed line at 0 reflects
-        the “no adaptation” baseline.
-        Saves a CSV with the per-speaker averages.
-
-    Params:
-        pf: Per-(A,B,family) table with 'a_speaker' and 'conv'.
-        out_png: Output PNG path; a CSV with the computed per-speaker values is also written.
-        title: Chart title (e.g., "Distribution of speaker adaptability (A)").
-
-    Returns:
-        None. Writes PNG and CSV.
-    """
+def plot_adaptability_distribution(
+    pf: pd.DataFrame,
+    out_png: Path,
+    title: str,
+    csv_dir: Optional[Path] = None,
+    novel_title: Optional[str] = None,
+) -> None:
     if pf is None or pf.empty or not {"a_speaker", "conv"}.issubset(pf.columns):
         return
 
@@ -318,53 +262,34 @@ def plot_adaptability_distribution(pf: pd.DataFrame, out_png: Path, title: str) 
         return
 
     out_png.parent.mkdir(parents=True, exist_ok=True)
-    plt.figure(figsize=(8.4, 5.0))
-    plt.hist(g["adapt_mean"], bins=max(10, int(np.sqrt(len(g)))), alpha=0.9,
-             color=plt.get_cmap("cividis")(0.6), edgecolor=OI_BLACK, linewidth=0.5)
-    plt.axvline(0, color=OI_BLACK, linewidth=1.2, linestyle="--", alpha=0.8)
+    plt.figure(figsize=(10.2, 6.0))
+    plt.hist(g["adapt_mean"], bins=max(12, int(np.sqrt(len(g)))), alpha=0.9,
+             color=plt.get_cmap("cividis")(0.6), edgecolor=OI_BLACK, linewidth=0.7)
+    plt.axvline(0, color=OI_BLACK, linewidth=1.4, linestyle="--", alpha=0.85)
     plt.xlabel("Initiator’s mean Conv(t) across partners and families")
     plt.ylabel("Number of speakers (A)")
-    plt.title(title)
-    plt.grid(axis="y", linestyle=":", linewidth=0.8, alpha=0.35, color=OI_GREY)
+    plt.title(f"{title}" + (f"\n({novel_title})" if novel_title else ""))
+    plt.grid(axis="y", linestyle=":", linewidth=1.0, alpha=0.35, color=OI_GREY)
     plt.tight_layout()
-    plt.savefig(out_png, bbox_inches="tight", dpi=220)
+    plt.savefig(out_png, bbox_inches="tight", dpi=240)
     plt.close()
+
+    out_csv = csv_target(out_png, csv_dir)
+    g = g.assign(novel=novel_title if novel_title else "")
+    g.to_csv(out_csv, index=False, encoding="utf-8-sig")
 
 
 # =========================
 # Gender & importance effects
 # =========================
-def plot_gender_levels(pf: pd.DataFrame, out_png: Path, who: str = "responder",
-                       n_perm: int = 2000, csv_dir: Optional[Path] = None) -> None:
-    """
-    Convergence by gender and feature (+ two simple difference charts).
-
-    description:
-        Makes THREE charts:
-          1) Grouped bars: average Conv(t) for each feature family, split by gender.
-          2) Female − Male (F−M): positive bar => women show higher convergence.
-          3) Male − Female (M−F): positive bar => men show higher convergence.
-
-        Also saves two CSVs:
-          - <out_png>.csv           : table used in the grouped bars (per family, mean by gender)
-          - <out_png>.diffs.csv     : per-family differences (F−M and M−F) + a simple permutation p-value.
-
-        Notes:
-          • Use who="responder" to compare B’s gender (who replies), or who="initiator" for A’s gender.
-          • Expected gender codes are 'F' and 'M'. Other/empty codes are ignored.
-          • Conv(t) is the convergence score per family. We average it within each family.
-
-    Params:
-        pf:  Per-(A,B,family) table with columns: 'family', 'conv', and a gender column:
-             'b_gender' if who == 'responder', else 'a_gender'.
-        out_png:  Base PNG path for the grouped bars. Two extra files are saved:
-                  *_diff_F_minus_M.png and *_diff_M_minus_F.png.
-        who:  'responder' (default) or 'initiator'.
-        n_perm:  Number of label permutations for the simple two-sided p-value (default 2000).
-
-    Returns:
-        None. Writes 3 PNGs and 2 CSVs.
-    """
+def plot_gender_levels(
+    pf: pd.DataFrame,
+    out_png: Path,
+    who: str = "responder",
+    n_perm: int = 2000,
+    csv_dir: Optional[Path] = None,
+    novel_title: Optional[str] = None,
+) -> None:
     if pf is None or pf.empty:
         return
 
@@ -389,9 +314,9 @@ def plot_gender_levels(pf: pd.DataFrame, out_png: Path, who: str = "responder",
     g_plot = g[cols].fillna(0.0).reindex(index=g.mean(axis=1).sort_values(ascending=False).index)
 
     out_png.parent.mkdir(parents=True, exist_ok=True)
-    plt.figure(figsize=(10.2, max(3.9, 0.44 * len(g_plot))))
+    plt.figure(figsize=(11.8, max(5.0, 0.60 * len(g_plot))))
     x = np.arange(len(g_plot.index))
-    w = 0.4 if len(cols) == 2 else 0.6
+    w = 0.42 if len(cols) == 2 else 0.6
 
     gender_labels = {"F": "Female", "M": "Male"}
     gender_colors = {"F": OI_PURPLE, "M": OI_ORANGE}
@@ -404,27 +329,29 @@ def plot_gender_levels(pf: pd.DataFrame, out_png: Path, who: str = "responder",
             label=gender_labels.get(c, c),
             color=gender_colors.get(c, plt.get_cmap("cividis")(0.6)),
             edgecolor=OI_BLACK,
-            linewidth=0.6,
+            linewidth=0.7,
             alpha=0.95,
         )
 
     plt.xticks(x + w * (len(cols) - 1) / 2, g_plot.index, rotation=25, ha="right")
     plt.ylabel("Average convergence, Conv(t)")
     if who == "responder":
-        plt.title("How much women and men adapt when replying (responder's gender effect)")
+        base = "How much women and men adapt when replying (responder's gender effect)"
     else:
-        plt.title("How much others adapt when replying to women vs. men (initiator's gender effect)")
-    plt.grid(axis="y", linestyle=":", linewidth=0.8, alpha=0.35, color=OI_GREY)
+        base = "How much others adapt when replying to women vs. men (initiator's gender effect)"
+    plt.title(base + (f"\n({novel_title})" if novel_title else ""))
+    plt.grid(axis="y", linestyle=":", linewidth=1.0, alpha=0.35, color=OI_GREY)
     plt.legend(title="Gender", frameon=False)
     plt.tight_layout()
-    plt.savefig(out_png, bbox_inches="tight", dpi=220)
+    plt.savefig(out_png, bbox_inches="tight", dpi=240)
     plt.close()
 
-    g_plot.reset_index().rename(columns={"index": "family"}).to_csv(
-        csv_target(out_png, csv_dir), index=False, encoding="utf-8-sig"
-    )
+    out_csv = csv_target(out_png, csv_dir)
+    g_out = g_plot.reset_index().rename(columns={"index": "family"})
+    g_out = g_out.assign(novel=novel_title if novel_title else "")
+    g_out.to_csv(out_csv, index=False, encoding="utf-8-sig")
 
-    # Per-family difference + permutation p-value (unchanged logic; still useful)
+    # Differences + simple permutation p
     fam_order = g_plot.index.tolist()
     diffs_FM = []
     pvals = []
@@ -467,55 +394,46 @@ def plot_gender_levels(pf: pd.DataFrame, out_png: Path, who: str = "responder",
         "diff_F_minus_M": diffs_FM,
         "diff_M_minus_F": [-d if np.isfinite(d) else np.nan for d in diffs_FM],
         "perm_p_two_sided": pvals,
+        "novel": novel_title if novel_title else "",
     })
 
     diff_out_png_FM = out_png.with_name(out_png.stem + "_diff_F_minus_M.png")
-    plt.figure(figsize=(10.2, max(3.9, 0.44 * len(diff_df))))
+    plt.figure(figsize=(11.8, max(5.0, 0.60 * len(diff_df))))
     plt.barh(diff_df["family"][::-1], diff_df["diff_F_minus_M"].to_numpy()[::-1],
-             alpha=0.95, color=OI_GREEN, edgecolor=OI_BLACK, linewidth=0.6)
-    plt.axvline(0, color=OI_BLACK, linewidth=1.2, linestyle="--", alpha=0.8)
+             alpha=0.95, color=OI_GREEN, edgecolor=OI_BLACK, linewidth=0.7)
+    plt.axvline(0, color=OI_BLACK, linewidth=1.3, linestyle="--", alpha=0.85)
     plt.xlabel("Difference in convergence (Female − Male)")
-    plt.title("Gender difference in convergence (F−M): positive = women adapt more")
-    plt.grid(axis="y", linestyle=":", linewidth=0.8, alpha=0.35, color=OI_GREY)
+    plt.title("Gender difference in convergence (F−M): positive = women adapt more"
+              + (f"\n({novel_title})" if novel_title else ""))
+    plt.grid(axis="y", linestyle=":", linewidth=1.0, alpha=0.35, color=OI_GREY)
     plt.tight_layout()
-    plt.savefig(diff_out_png_FM, bbox_inches="tight", dpi=220)
+    plt.savefig(diff_out_png_FM, bbox_inches="tight", dpi=240)
     plt.close()
 
     diff_out_png_MF = out_png.with_name(out_png.stem + "_diff_M_minus_F.png")
-    plt.figure(figsize=(10.2, max(3.9, 0.44 * len(diff_df))))
+    plt.figure(figsize=(11.8, max(5.0, 0.60 * len(diff_df))))
     plt.barh(diff_df["family"][::-1], diff_df["diff_M_minus_F"].to_numpy()[::-1],
-             alpha=0.95, color=OI_BLUE, edgecolor=OI_BLACK, linewidth=0.6)
-    plt.axvline(0, color=OI_BLACK, linewidth=1.2, linestyle="--", alpha=0.8)
+             alpha=0.95, color=OI_BLUE, edgecolor=OI_BLACK, linewidth=0.7)
+    plt.axvline(0, color=OI_BLACK, linewidth=1.3, linestyle="--", alpha=0.85)
     plt.xlabel("Difference in convergence (Male − Female)")
-    plt.title("Gender difference in convergence (M−F): positive = men adapt more")
-    plt.grid(axis="y", linestyle=":", linewidth=0.8, alpha=0.35, color=OI_GREY)
+    plt.title("Gender difference in convergence (M−F): positive = men adapt more"
+              + (f"\n({novel_title})" if novel_title else ""))
+    plt.grid(axis="y", linestyle=":", linewidth=1.0, alpha=0.35, color=OI_GREY)
     plt.tight_layout()
-    plt.savefig(diff_out_png_MF, bbox_inches="tight", dpi=220)
+    plt.savefig(diff_out_png_MF, bbox_inches="tight", dpi=240)
     plt.close()
 
     diff_csv = csv_named(out_png, csv_dir, out_png.with_suffix(".diffs.csv").name)
     diff_df.to_csv(diff_csv, index=False, encoding="utf-8-sig")
 
 
-def plot_importance_levels(pf: pd.DataFrame, out_png: Path, who: str = "initiator", csv_dir: Optional[Path] = None) -> None:
-    """
-    Convergence by character importance (major / intermediate / minor).
-
-    description:
-        Shows mean Conv(t) by feature family across importance groups.
-        For who='initiator', groups refer to A (how much others adjust to them).
-        For who='responder', groups are B (who adapts when replying).
-        Labels are normalized to 'major'/'intermediate'/'minor'.
-
-    Params:
-        pf: Per-(A,B,family) table with 'family','conv' and an importance column:
-            'a_category' if who='initiator', else 'b_category'.
-        out_png: Output PNG path; a CSV with plotted values is also written.
-        who: 'initiator' or 'responder'.
-
-    Returns:
-        None. Writes PNG and CSV.
-    """
+def plot_importance_levels(
+    pf: pd.DataFrame,
+    out_png: Path,
+    who: str = "initiator",
+    csv_dir: Optional[Path] = None,
+    novel_title: Optional[str] = None,
+) -> None:
     if pf is None or pf.empty:
         return
 
@@ -547,51 +465,42 @@ def plot_importance_levels(pf: pd.DataFrame, out_png: Path, who: str = "initiato
     colors = {"major": OI_BLUE, "intermediate": OI_ORANGE, "minor": OI_GREEN}
 
     out_png.parent.mkdir(parents=True, exist_ok=True)
-    plt.figure(figsize=(10.2, max(3.9, 0.44 * len(g))))
+    plt.figure(figsize=(11.8, max(5.0, 0.60 * len(g))))
     x = np.arange(len(g.index))
-    w = 0.28
+    w = 0.30
     for i, c in enumerate(present):
         plt.bar(x + i*w, g[c].to_numpy(), width=w, label=c.capitalize(),
                 color=colors.get(c, plt.get_cmap("cividis")(0.6)),
-                edgecolor=OI_BLACK, linewidth=0.6, alpha=0.95)
+                edgecolor=OI_BLACK, linewidth=0.7, alpha=0.95)
 
     plt.xticks(x + w*(len(present)-1)/2, g.index, rotation=25, ha="right")
     plt.ylabel("Average convergence  Conv(t)")
     if who == "initiator":
-        # Your preferred phrasing:
-        plt.title("For initiator (A): how much others adapt to them depending on A’s importance")
+        base = "For initiator (A): how much others adapt to them depending on A’s importance"
     else:
-        plt.title("For responder (B): how much B adapts depending on B’s importance")
-    plt.grid(axis="y", linestyle=":", linewidth=0.8, alpha=0.35, color=OI_GREY)
+        base = "For responder (B): how much B adapts depending on B’s importance"
+    plt.title(base + (f"\n({novel_title})" if novel_title else ""))
+    plt.grid(axis="y", linestyle=":", linewidth=1.0, alpha=0.35, color=OI_GREY)
     plt.legend(title="Importance", frameon=False)
     plt.tight_layout()
-    plt.savefig(out_png, bbox_inches="tight", dpi=220)
+    plt.savefig(out_png, bbox_inches="tight", dpi=240)
     plt.close()
-    g.reset_index().to_csv(csv_target(out_png, csv_dir), index=False, encoding="utf-8-sig")
+
+    out_csv = csv_target(out_png, csv_dir)
+    g_out = g.reset_index().assign(novel=novel_title if novel_title else "")
+    g_out.to_csv(out_csv, index=False, encoding="utf-8-sig")
 
 
 # =========================
 # Two-mode edge heatmaps (means + counts)
 # =========================
-def plot_edge_gender_heatmap(edges: pd.DataFrame, out_png: Path, title: str, csv_dir: Optional[Path] = None) -> None:
-    """
-    Mean A→B edge convergence by gender pair.
-
-    description:
-        Builds a 2×2 table of average edge convergence by (A gender, B gender),
-        using the best available weight column: 'mean_conv_w', then 'weight_work',
-        then 'mean_conv'. Colors center at 0 (diverging palette). Missing cells are
-        light gray with hatching so “no data” isn’t just white.
-
-    Params:
-        edges: Edge summary with 'a_gender','b_gender' and one of the weight columns above.
-               Gender codes are normalized to 'F'/'M' by first letter.
-        out_png: Output PNG path; a CSV table is written next to it.
-        title: Chart title (e.g., "Mean edge convergence by gender (A→B)").
-
-    Returns:
-        None. Writes PNG and CSV.
-    """
+def plot_edge_gender_heatmap(
+    edges: pd.DataFrame,
+    out_png: Path,
+    title: str,
+    csv_dir: Optional[Path] = None,
+    novel_title: Optional[str] = None,
+) -> None:
     if edges is None or edges.empty:
         return
     if not {"a_gender", "b_gender"}.issubset(edges.columns):
@@ -617,9 +526,8 @@ def plot_edge_gender_heatmap(edges: pd.DataFrame, out_png: Path, title: str, csv
             n_p.loc[a, b] = int(vals.size)
             mean_p.loc[a, b] = float(vals.mean()) if vals.size else np.nan
 
-    # render
     out_png.parent.mkdir(parents=True, exist_ok=True)
-    fig, ax = plt.subplots(figsize=(5.0, 4.4))
+    fig, ax = plt.subplots(figsize=(6.2, 5.2))
     M = mean_p.to_numpy()
     vmax = float(np.nanmax(np.abs(M))) if np.isfinite(M).any() else 0.0
     vlim = vmax if vmax > 0 else 0.1
@@ -636,24 +544,23 @@ def plot_edge_gender_heatmap(edges: pd.DataFrame, out_png: Path, title: str, csv
     ax.grid(which="minor", color="white", linestyle="-", linewidth=1)
     ax.tick_params(which="minor", bottom=False, left=False)
 
-    # overlay labels: mean and n; hatch missing
     for i, ia in enumerate(levels):
         for j, jb in enumerate(levels):
             mu = mean_p.loc[ia, jb]
             n  = n_p.loc[ia, jb]
             if not np.isfinite(mu):
                 ax.add_patch(Rectangle((j - 0.5, i - 0.5), 1, 1,
-                                       fill=False, hatch="///", edgecolor=OI_BLACK, linewidth=0.6, alpha=0.6))
+                                       fill=False, hatch="///", edgecolor=OI_BLACK, linewidth=0.7, alpha=0.6))
             else:
                 ax.text(j, i, f"{mu:+.3f}\n(n={int(n)})", ha="center", va="center", fontsize=9, color=OI_BLACK)
 
     cbar = fig.colorbar(im, ax=ax)
     cbar.set_label("Mean edge Conv (weighted when available)")
-    ax.set_title(title)
+    ax.set_title(f"{title}" + (f"\n({novel_title})" if novel_title else ""))
     ax.set_xlabel("Responder gender (B)")
     ax.set_ylabel("Initiator gender (A)")
     fig.tight_layout()
-    fig.savefig(out_png, bbox_inches="tight", dpi=220)
+    fig.savefig(out_png, bbox_inches="tight", dpi=240)
     plt.close()
 
     out_rows = []
@@ -662,28 +569,18 @@ def plot_edge_gender_heatmap(edges: pd.DataFrame, out_png: Path, title: str, csv
             out_rows.append({"Initiator gender (A)": a,
                              "Responder gender (B)": b,
                              "mean": mean_p.loc[a, b],
-                             "n": n_p.loc[a, b]})
+                             "n": n_p.loc[a, b],
+                             "novel": novel_title if novel_title else ""})
     pd.DataFrame(out_rows).to_csv(csv_target(out_png, csv_dir), index=False, encoding="utf-8-sig")
 
 
-def plot_edge_category_heatmap(edges: pd.DataFrame, out_png: Path, title: str, csv_dir: Optional[Path] = None) -> None:
-    """
-    Mean A→B edge convergence by importance pair.
-
-    description:
-        Builds a 3×3 table of average edge convergence by (A importance, B importance),
-        where importance ∈ {major, intermediate, minor}. Colors center at 0.
-        Missing cells are light gray with hatching to avoid “white = nothing” confusion.
-
-    Params:
-        edges: Edge summary with 'a_category','b_category' and a weight column:
-               'mean_conv_w' | 'weight_work' | 'mean_conv'.
-        out_png: Output PNG path; a CSV table is written next to it.
-        title: Chart title (e.g., "Mean edge convergence by importance (A→B)").
-
-    Returns:
-        None. Writes PNG and CSV.
-    """
+def plot_edge_category_heatmap(
+    edges: pd.DataFrame,
+    out_png: Path,
+    title: str,
+    csv_dir: Optional[Path] = None,
+    novel_title: Optional[str] = None,
+) -> None:
     if edges is None or edges.empty:
         return
     if not {"a_category", "b_category"}.issubset(edges.columns):
@@ -717,7 +614,7 @@ def plot_edge_category_heatmap(edges: pd.DataFrame, out_png: Path, title: str, c
     n_p.index  = disp; n_p.columns  = disp
 
     out_png.parent.mkdir(parents=True, exist_ok=True)
-    fig, ax = plt.subplots(figsize=(6.6, 5.2))
+    fig, ax = plt.subplots(figsize=(7.8, 6.0))
     M = mean_p.to_numpy()
     vmax = float(np.nanmax(np.abs(M))) if np.isfinite(M).any() else 0.0
     vlim = vmax if vmax > 0 else 0.1
@@ -739,17 +636,17 @@ def plot_edge_category_heatmap(edges: pd.DataFrame, out_png: Path, title: str, c
             n  = n_p.loc[ia, jb]
             if not np.isfinite(mu):
                 ax.add_patch(Rectangle((j - 0.5, i - 0.5), 1, 1,
-                                       fill=False, hatch="///", edgecolor=OI_BLACK, linewidth=0.6, alpha=0.6))
+                                       fill=False, hatch="///", edgecolor=OI_BLACK, linewidth=0.7, alpha=0.6))
             else:
                 ax.text(j, i, f"{mu:+.3f}\n(n={int(n)})", ha="center", va="center", fontsize=9, color=OI_BLACK)
 
     cbar = fig.colorbar(im, ax=ax)
     cbar.set_label("Mean edge Conv (weighted when available)")
-    ax.set_title(title)
+    ax.set_title(f"{title}" + (f"\n({novel_title})" if novel_title else ""))
     ax.set_xlabel("Responder importance (B)")
     ax.set_ylabel("Initiator importance (A)")
     fig.tight_layout()
-    fig.savefig(out_png, bbox_inches="tight", dpi=220)
+    fig.savefig(out_png, bbox_inches="tight", dpi=240)
     plt.close()
 
     tall = []
@@ -760,20 +657,23 @@ def plot_edge_category_heatmap(edges: pd.DataFrame, out_png: Path, title: str, c
                 "Responder importance (B)": b,
                 "mean": mean_p.loc[a, b],
                 "n": n_p.loc[a, b],
+                "novel": novel_title if novel_title else "",
             })
     pd.DataFrame(tall).to_csv(csv_target(out_png, csv_dir), index=False, encoding="utf-8-sig")
 
 
-def plot_family_p1_p0(pf: pd.DataFrame, out_png: Path, title: str,
-                      alpha: float = 0.05, csv_dir: Optional[Path] = None) -> None:
-    """
-    """
+def plot_family_p1_p0(
+    pf: pd.DataFrame,
+    out_png: Path,
+    title: str,
+    alpha: float = 0.05,
+    csv_dir: Optional[Path] = None,
+    novel_title: Optional[str] = None,
+) -> None:
     if pf is None or pf.empty or not {"family", "p0", "p1"}.issubset(pf.columns):
         return
 
     rows = []
-
-    # Assume pf has one row per (A,B,family) with columns p0 and p1
     for fam, g in pf.groupby("family", dropna=False):
         per_pair = pd.DataFrame({
             "p0": pd.to_numeric(g["p0"], errors="coerce"),
@@ -790,11 +690,9 @@ def plot_family_p1_p0(pf: pd.DataFrame, out_png: Path, title: str,
         mu0 = float(p0.mean())
         mu1 = float(p1.mean())
 
-        # One-sided t-test on per-pair diffs: H1: mean(diff) > 0
         try:
             t_stat, p_one = ttest_1samp(diffs, 0.0, alternative="greater")
         except TypeError:
-            # Older SciPy: two-sided then halve if mean>0
             t_stat, p_two = ttest_1samp(diffs, 0.0)
             p_one = p_two / 2 if np.nanmean(diffs) > 0 else 1.0
 
@@ -816,17 +714,16 @@ def plot_family_p1_p0(pf: pd.DataFrame, out_png: Path, title: str,
     df = df.sort_values("diff", ascending=False).reset_index(drop=True)
 
     out_png.parent.mkdir(parents=True, exist_ok=True)
-    plt.figure(figsize=(10.2, max(4.0, 0.44 * len(df))))
+    plt.figure(figsize=(12.0, max(5.2, 0.60 * len(df))))
     x = np.arange(len(df))
     w = 0.36
 
     c0 = OI_BLUE
     c1 = "#5FA7D9"
 
-    plt.bar(x - w/2, df["mean_p0"], width=w, color=c0, edgecolor=OI_BLACK, linewidth=0.6, label="P(B uses t)")
-    plt.bar(x + w/2, df["mean_p1"], width=w, color=c1, edgecolor=OI_BLACK, linewidth=0.6, label="P(B uses t | A uses t)")
+    plt.bar(x - w/2, df["mean_p0"], width=w, color=c0, edgecolor=OI_BLACK, linewidth=0.7, label="P(B uses t)")
+    plt.bar(x + w/2, df["mean_p1"], width=w, color=c1, edgecolor=OI_BLACK, linewidth=0.7, label="P(B uses t | A uses t)")
 
-    # annotate significance with asterisks above groups
     y_top = np.maximum(df["mean_p0"], df["mean_p1"]).to_numpy()
     for i, sig in enumerate(df["significant_ttest"].tolist()):
         if sig:
@@ -834,45 +731,31 @@ def plot_family_p1_p0(pf: pd.DataFrame, out_png: Path, title: str,
 
     plt.xticks(x, df["family"], rotation=25, ha="right")
     plt.ylabel("Probability")
-    plt.ylim(0, max(0.8, float(np.nanmax(np.c_[df["mean_p0"], df["mean_p1"]])) * 1.10))
-    plt.title(title)
-    plt.grid(axis="y", linestyle=":", linewidth=0.8, alpha=0.35, color=OI_GREY)
+    plt.ylim(0, max(0.85, float(np.nanmax(np.c_[df["mean_p0"], df["mean_p1"]])) * 1.12))
+    plt.title(f"{title}" + (f"\n({novel_title})" if novel_title else ""))
+    plt.grid(axis="y", linestyle=":", linewidth=1.0, alpha=0.35, color=OI_GREY)
     plt.legend(frameon=False, loc="upper left")
     plt.tight_layout()
-    plt.savefig(out_png, bbox_inches="tight", dpi=220)
+    plt.savefig(out_png, bbox_inches="tight", dpi=240)
     plt.close()
 
-    df.to_csv(csv_target(out_png, csv_dir), index=False, encoding="utf-8-sig")
+    out_csv = csv_target(out_png, csv_dir)
+    df = df.assign(novel=novel_title if novel_title else "")
+    df.to_csv(out_csv, index=False, encoding="utf-8-sig")
 
 
 # =========================
 # Condition comparisons
 # =========================
-def plot_condition_comparison(pf_adj: Optional[pd.DataFrame],
-                              pf_non: Optional[pd.DataFrame],
-                              pf_rand: Optional[pd.DataFrame],
-                              out_png: Path,
-                              title: str,
-                              csv_dir: Optional[Path] = None) -> None:
-    """
-    Family means across experimental conditions.
-
-    description:
-        Compares per-family mean Conv(t) across available conditions:
-        Adjacent, Nonadjacent, and Randomized. Bars are grouped by family. Useful
-        to spot whether adjacency (true dialogue order) produces stronger convergence
-        than baselines.
-
-    Params:
-        pf_adj: Per-(A,B,family) table for the “adjacent” condition, or None.
-        pf_non: Per-(A,B,family) for “nonadjacent” baseline, or None.
-        pf_rand: Per-(A,B,family) for “randomized” baseline, or None.
-        out_png: Output PNG path; a CSV is also written next to it.
-        title: Chart title (e.g., "Family means across conditions").
-
-    Returns:
-        None. Writes PNG and CSV.
-    """
+def plot_condition_comparison(
+    pf_adj: Optional[pd.DataFrame],
+    pf_non: Optional[pd.DataFrame],
+    pf_rand: Optional[pd.DataFrame],
+    out_png: Path,
+    title: str,
+    csv_dir: Optional[Path] = None,
+    novel_title: Optional[str] = None,
+) -> None:
     frames = []
     if pf_adj is not None and not pf_adj.empty:
         frames.append(pf_adj.groupby("family")["conv"].mean().rename("Adjacent").to_frame())
@@ -888,49 +771,41 @@ def plot_condition_comparison(pf_adj: Optional[pd.DataFrame],
         return
 
     out_png.parent.mkdir(parents=True, exist_ok=True)
-    plt.figure(figsize=(10.6, max(3.9, 0.44 * len(M))))
+    plt.figure(figsize=(12.0, max(5.0, 0.60 * len(M))))
     xs = np.arange(len(M.index))
-    w = 0.26
+    w = 0.28
     palette = {"Adjacent": OI_BLUE, "Nonadjacent": OI_ORANGE, "Randomized": OI_GREEN}
     cols = [c for c in ["Adjacent", "Nonadjacent", "Randomized"] if c in M.columns]
 
     for i, c in enumerate(cols):
         plt.bar(xs + i*w, M[c].to_numpy(), width=w, label=c, alpha=0.95,
                 color=palette.get(c, plt.get_cmap("cividis")(0.6)),
-                edgecolor=OI_BLACK, linewidth=0.6)
+                edgecolor=OI_BLACK, linewidth=0.7)
 
     plt.xticks(xs + w, M.index, rotation=30, ha="right")
     plt.ylabel("Mean Conv(t)")
-    plt.title(title)
-    plt.grid(axis="y", linestyle=":", linewidth=0.8, alpha=0.35, color=OI_GREY)
+    plt.title(f"{title}" + (f"\n({novel_title})" if novel_title else ""))
+    plt.grid(axis="y", linestyle=":", linewidth=1.0, alpha=0.35, color=OI_GREY)
     plt.legend(frameon=False)
     plt.tight_layout()
-    plt.savefig(out_png, bbox_inches="tight", dpi=220)
+    plt.savefig(out_png, bbox_inches="tight", dpi=240)
     plt.close()
-    M.to_csv(csv_target(out_png, csv_dir), encoding="utf-8-sig")
+
+    out_csv = csv_target(out_png, csv_dir)
+    M = M.assign(novel=novel_title if novel_title else "")
+    M.to_csv(out_csv, encoding="utf-8-sig")
 
 
 # =========================
 # Character composition
 # =========================
-def plot_gender_counts(edges: pd.DataFrame, out_png: Path, title: str = "Number of characters by gender",
-                       csv_dir: Optional[Path] = None) -> None:
-    """
-    Count of distinct speakers by gender.
-
-    description:
-        Counts how many unique characters appear by gender ('F','M', or other/unknown)
-        across both A (initiators) and B (responders). Produces a simple bar chart.
-        Saves a CSV with the counts.
-
-    Params:
-        edges: Edge-level table with 'a_gender' and 'b_gender' columns.
-        out_png: Output path for PNG (CSV written next to it).
-        title: Chart title.
-
-    Returns:
-        None. Writes PNG and CSV.
-    """
+def plot_gender_counts(
+    edges: pd.DataFrame,
+    out_png: Path,
+    title: str = "Number of characters by gender",
+    csv_dir: Optional[Path] = None,
+    novel_title: Optional[str] = None,
+) -> None:
     if edges is None or edges.empty:
         return
 
@@ -954,38 +829,31 @@ def plot_gender_counts(edges: pd.DataFrame, out_png: Path, title: str = "Number 
     })
 
     out_png.parent.mkdir(parents=True, exist_ok=True)
-    plt.figure(figsize=(5.5, 4.2))
+    plt.figure(figsize=(6.6, 5.0))
     color_map = {"F": OI_PURPLE, "M": OI_ORANGE}
     plt.bar(df_counts["gender"], df_counts["n"],
             color=[color_map.get(g, OI_GREY) for g in df_counts["gender"]],
-            edgecolor=OI_BLACK, linewidth=0.6, alpha=0.95)
+            edgecolor=OI_BLACK, linewidth=0.7, alpha=0.95)
     plt.xlabel("Gender")
     plt.ylabel("Number of distinct characters")
-    plt.title(title)
-    plt.grid(axis="y", linestyle=":", linewidth=0.8, alpha=0.35, color=OI_GREY)
+    plt.title(f"{title}" + (f"\n({novel_title})" if novel_title else ""))
+    plt.grid(axis="y", linestyle=":", linewidth=1.0, alpha=0.35, color=OI_GREY)
     plt.tight_layout()
-    plt.savefig(out_png, bbox_inches="tight", dpi=220)
+    plt.savefig(out_png, bbox_inches="tight", dpi=240)
     plt.close()
-    df_counts.to_csv(csv_target(out_png, csv_dir), index=False, encoding="utf-8-sig")
+
+    out_csv = csv_target(out_png, csv_dir)
+    df_counts = df_counts.assign(novel=novel_title if novel_title else "")
+    df_counts.to_csv(out_csv, index=False, encoding="utf-8-sig")
 
 
-def plot_importance_counts(edges: pd.DataFrame, out_png: Path, title: str = "Number of characters by importance",
-                           csv_dir: Optional[Path] = None) -> None:
-    """
-    Count of distinct speakers by importance major intermediate minor.
-
-    description:
-        Merges all characters from A and B sides, normalizes importance labels,
-        and counts distinct speakers by their most frequent importance label.
-
-    Params:
-        edges: Edge level table with 'a_speaker','b_speaker','a_category','b_category'.
-        out_png: Output PNG path and a CSV with counts is written next to it.
-        title: Chart title.
-
-    Returns:
-        None. Writes PNG and CSV.
-    """
+def plot_importance_counts(
+    edges: pd.DataFrame,
+    out_png: Path,
+    title: str = "Number of characters by importance",
+    csv_dir: Optional[Path] = None,
+    novel_title: Optional[str] = None,
+) -> None:
     if edges is None or edges.empty:
         return
     if not {"a_category", "b_category", "a_speaker", "b_speaker"}.issubset(edges.columns):
@@ -1020,50 +888,41 @@ def plot_importance_counts(edges: pd.DataFrame, out_png: Path, title: str = "Num
     df_counts = counts.rename_axis("importance").reset_index(name="n")
 
     out_png.parent.mkdir(parents=True, exist_ok=True)
-    plt.figure(figsize=(6.0, 4.4))
+    plt.figure(figsize=(7.2, 5.2))
     color_map = {"major": OI_BLUE, "intermediate": OI_ORANGE, "minor": OI_GREEN, "unknown": OI_GREY}
     plt.bar(
         df_counts["importance"], df_counts["n"],
         color=[color_map.get(c, OI_GREY) for c in df_counts["importance"]],
-        edgecolor=OI_BLACK, linewidth=0.6, alpha=0.95
+        edgecolor=OI_BLACK, linewidth=0.7, alpha=0.95
     )
     plt.xlabel("Character importance")
     plt.ylabel("Number of distinct characters")
-    plt.title(title)
-    plt.grid(axis="y", linestyle=":", linewidth=0.8, alpha=0.35, color=OI_GREY)
+    plt.title(f"{title}" + (f"\n({novel_title})" if novel_title else ""))
+    plt.grid(axis="y", linestyle=":", linewidth=1.0, alpha=0.35, color=OI_GREY)
     plt.tight_layout()
-    plt.savefig(out_png, bbox_inches="tight", dpi=220)
+    plt.savefig(out_png, bbox_inches="tight", dpi=240)
     plt.close()
 
-    df_counts.to_csv(csv_target(out_png, csv_dir), index=False, encoding="utf-8-sig")
+    out_csv = csv_target(out_png, csv_dir)
+    df_counts = df_counts.assign(novel=novel_title if novel_title else "")
+    df_counts.to_csv(out_csv, index=False, encoding="utf-8-sig")
 
 
 # =========================
 # Runner
 # =========================
-def run_visuals_for_novel(in_dir: Path, out_root: Path, mode: str,
-                          min_support: int = 10, max_edges: int = 50, top_k: int = 20,
-                          csv_subdir: str = "tables") -> None:
+def run_visuals_for_novel(
+    in_dir: Path,
+    out_root: Path,
+    mode: str,
+    min_support: int = 10,
+    max_edges: int = 50,
+    top_k: int = 20,
+    csv_subdir: str = "tables",
+    novel_title: Optional[str] = None,
+) -> None:
     """
     Generate all figures for one analysis folder.
-
-    description:
-        Reads the convergence artifacts for a single analysis run (in_dir), and
-        renders a standard pack of figures into out_root.
-    Params:
-        in_dir: Folder containing convergence CSVs, typically:
-                  conv_by_pair_feature_{mode}.csv
-                  conv_edge_summary_{mode}.csv
-                  conv_by_pair_feature_{mode}_nonadjacent.csv (optional)
-                  conv_by_pair_feature_{mode}_randomized.csv  (optional)
-        out_root: Folder where figures (and companion CSVs) will be written.
-        mode: "liwc" or "spacy". Only affects input file names.
-        min_support: Minimum A-trigger count for including (pair,family) cells in the heatmap.
-        max_edges: Max number of pairs to show in the heatmap (keeps rows with most coverage).
-        top_k: Number of A→B pairs to show in the “top edges” bar chart.
-
-    Returns:
-        None. Writes all PNGs (and small CSVs) to out_root.
     """
     print(f"[viz] Running visualisation for {in_dir} ({mode})")
 
@@ -1085,37 +944,80 @@ def run_visuals_for_novel(in_dir: Path, out_root: Path, mode: str,
     csv_dir = out_root / csv_subdir
 
     # 1) Family overview
-    plot_family_conv_bars(pf, out_root / "family_means.png", "Average convergence by feature family", csv_dir=csv_dir)
-    plot_heatmap(pf, out_root / "heatmap.png", "Convergence by pair and feature",
-                 min_support=min_support, max_edges=max_edges, csv_dir=csv_dir)
+    plot_family_conv_bars(
+        pf, out_root / "family_means.png",
+        "Average convergence by feature family",
+        csv_dir=csv_dir, novel_title=novel_title
+    )
+    plot_heatmap(
+        pf, out_root / "heatmap.png", "Convergence by pair and feature",
+        min_support=min_support, max_edges=max_edges, csv_dir=csv_dir, novel_title=novel_title
+    )
 
     # 2) Edge distributions and leaders
-    plot_edge_distribution(edges, out_root / "edge_distribution.png", "Distribution of A→B edge convergence")
-    plot_top_edges(edges, out_root / "top_edges.png", "Top converging pairs (A→B)", top_k=top_k, csv_dir=csv_dir)
-    plot_adaptability_distribution(pf, out_root / "adaptability_distribution.png", "Distribution of speaker adaptability (A)")
+    plot_edge_distribution(
+        edges, out_root / "edge_distribution.png",
+        "Distribution of A→B edge convergence", novel_title=novel_title
+    )
+    plot_top_edges(
+        edges, out_root / "top_edges.png",
+        "Top converging pairs (A→B)", top_k=top_k, csv_dir=csv_dir, novel_title=novel_title
+    )
+    plot_adaptability_distribution(
+        pf, out_root / "adaptability_distribution.png",
+        "Distribution of speaker adaptability (A)", csv_dir=csv_dir, novel_title=novel_title
+    )
 
     # 3) Gender effects
-    plot_gender_levels(pf, out_root / "gender_levels_responder.png", who="responder", csv_dir=csv_dir)
-    plot_gender_levels(pf, out_root / "gender_levels_initiator.png", who="initiator", csv_dir=csv_dir)
+    plot_gender_levels(
+        pf, out_root / "gender_levels_responder.png",
+        who="responder", csv_dir=csv_dir, novel_title=novel_title
+    )
+    plot_gender_levels(
+        pf, out_root / "gender_levels_initiator.png",
+        who="initiator", csv_dir=csv_dir, novel_title=novel_title
+    )
 
     # 4) Importance effects
-    plot_importance_levels(pf, out_root / "importance_levels_initiator.png", who="initiator", csv_dir=csv_dir)
-    plot_importance_levels(pf, out_root / "importance_levels_responder.png", who="responder", csv_dir=csv_dir)
+    plot_importance_levels(
+        pf, out_root / "importance_levels_initiator.png",
+        who="initiator", csv_dir=csv_dir, novel_title=novel_title
+    )
+    plot_importance_levels(
+        pf, out_root / "importance_levels_responder.png",
+        who="responder", csv_dir=csv_dir, novel_title=novel_title
+    )
 
     # 5) Condition comparison
-    plot_condition_comparison(pf, pf_non, pf_rand, out_root / "adj_non_rand.png",
-                              "Family means across conditions", csv_dir=csv_dir)
+    plot_condition_comparison(
+        pf, pf_non, pf_rand, out_root / "adj_non_rand.png",
+        "Family means across conditions", csv_dir=csv_dir, novel_title=novel_title
+    )
 
     # 6) Two-mode edge heatmaps
-    plot_edge_gender_heatmap(edges, out_root / "edge_heatmap_gender.png", "Mean edge convergence by gender (A→B)", csv_dir=csv_dir)
-    plot_edge_category_heatmap(edges, out_root / "edge_heatmap_importance.png", "Mean edge convergence by importance (A→B)", csv_dir=csv_dir)
+    plot_edge_gender_heatmap(
+        edges, out_root / "edge_heatmap_gender.png",
+        "Mean edge convergence by gender (A→B)", csv_dir=csv_dir, novel_title=novel_title
+    )
+    plot_edge_category_heatmap(
+        edges, out_root / "edge_heatmap_importance.png",
+        "Mean edge convergence by importance (A→B)", csv_dir=csv_dir, novel_title=novel_title
+    )
 
     # 7) Character composition
-    plot_gender_counts(edges, out_root / "char_counts_gender.png", "Number of characters by gender", csv_dir=csv_dir)
-    plot_importance_counts(edges, out_root / "char_counts_importance.png", "Number of characters by importance", csv_dir=csv_dir)
+    plot_gender_counts(
+        edges, out_root / "char_counts_gender.png",
+        "Number of characters by gender", csv_dir=csv_dir, novel_title=novel_title
+    )
+    plot_importance_counts(
+        edges, out_root / "char_counts_importance.png",
+        "Number of characters by importance", csv_dir=csv_dir, novel_title=novel_title
+    )
 
-    # 8) Classic p0 vs p1 figure per family (with one-sided t-tests on per-pair diffs)
-    plot_family_p1_p0(pf, out_root / "family_p0_p1.png",
-                      "P(B uses t) vs. P(B uses t | A uses t) by family", csv_dir=csv_dir)
+    # 8) Classic p0 vs p1 figure per family (one-sided t-tests on per-pair diffs)
+    plot_family_p1_p0(
+        pf, out_root / "family_p0_p1.png",
+        "P(B uses t) vs. P(B uses t | A uses t) by family", csv_dir=csv_dir, novel_title=novel_title
+    )
 
     print(f"[viz] Visuals written to {out_root}  CSVs in {csv_dir}")
